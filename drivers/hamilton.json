@@ -2,9 +2,9 @@
     "driverId": "hamilton",
     "driverCode": "HAM",
     "driverNumber": "44",
-    "lastUpdate": "2024-06-13T18:14:13.269Z",
+    "lastUpdate": "2024-06-25T22:59:37.137855",
     "totalWins": 103,
-    "totalPodiums": 197,
+    "totalPodiums": 199,
     "totalPoles": 107,
     "seasonWins": {
         "2007": 4,
@@ -44,7 +44,7 @@
         "2021": 17,
         "2022": 9,
         "2023": 6,
-        "2024": 0
+        "2024": 2
     },
     "seasonPoles": {
         "2007": 5,
@@ -441,7 +441,9 @@
             "Singapore Grand Prix": "3",
             "Mexico City Grand Prix": "2"
         },
-        "2024": {}
+        "2024": {
+            "Spanish Grand Prix": "3"
+        }
     },
     "fastLaps": {
         "2007": {
@@ -811,7 +813,8 @@
             "Chinese Grand Prix": "1:40.835",
             "Miami Grand Prix": "1:31.233",
             "Emilia Romagna Grand Prix": "1:20.331",
-            "Canadian Grand Prix": "1:14.856"
+            "Canadian Grand Prix": "1:14.856",
+            "Spanish Grand Prix": "1:17.809"
         }
     },
     "finalStandings": {
@@ -903,7 +906,7 @@
         "2024": {
             "year": "2024",
             "position": "8",
-            "points": "55"
+            "points": "70"
         }
     },
     "posAfterRace": {
@@ -2017,6 +2020,9 @@
                 },
                 "Canadian Grand Prix": {
                     "points": 48
+                },
+                "Spanish Grand Prix": {
+                    "points": "70"
                 }
             }
         }
@@ -2450,7 +2456,8 @@
                 "Miami Grand Prix": "6",
                 "Emilia Romagna Grand Prix": "6",
                 "Monaco Grand Prix": "7",
-                "Canadian Grand Prix": "4"
+                "Canadian Grand Prix": "4",
+                "Spanish Grand Prix": "3"
             }
         }
     },
@@ -2883,7 +2890,8 @@
                 "Miami Grand Prix": "8",
                 "Emilia Romagna Grand Prix": "8",
                 "Monaco Grand Prix": "7",
-                "Canadian Grand Prix": "7"
+                "Canadian Grand Prix": "7",
+                "Spanish Grand Prix": "3"
             }
         }
     },
@@ -4680,6 +4688,11 @@
                     "1:12.851",
                     "1:11.979",
                     "1:12.280"
+                ],
+                "Spanish Grand Prix": [
+                    "1:12.143",
+                    "1:11.792",
+                    "1:11.701"
                 ]
             }
         }
@@ -4687,21 +4700,21 @@
     "consistency": {
         "mean": {
             "wins": 5.722222222222222,
-            "podiums": 10.944444444444445,
+            "podiums": 11.055555555555555,
             "poles": 5.944444444444445,
-            "points": 260.80555555555554
+            "points": 261.6388888888889
         },
         "std": {
             "wins": 4.213807404178099,
-            "podiums": 5.201198817176908,
+            "podiums": 4.982995776998035,
             "poles": 4.02039553364014,
-            "points": 122.9836415148247
+            "points": 121.62965253811757
         },
         "cv": {
             "wins": 0.7363935269437455,
-            "podiums": 0.47523644014814387,
+            "podiums": 0.450723236110375,
             "poles": 0.67632822061236,
-            "points": 0.47155299760716685
+            "points": 0.4648760474967865
         }
     },
     "peakSeason": {
@@ -4736,7 +4749,7 @@
         "2021": 3.409090909090909,
         "2022": 6.045454545454546,
         "2023": 6.181818181818182,
-        "2024": 8.333333333333334
+        "2024": 7.8
     },
     "avgQualiPositions": {
         "2007": 2.6470588235294117,
@@ -4756,7 +4769,7 @@
         "2021": 2.1363636363636362,
         "2022": 6.409090909090909,
         "2023": 6.363636363636363,
-        "2024": 9.222222222222221
+        "2024": 8.6
     },
     "rates": {
         "wins": {
@@ -4797,7 +4810,7 @@
             "2021": 0.7727272727272727,
             "2022": 0.4090909090909091,
             "2023": 0.2727272727272727,
-            "2024": 0.0
+            "2024": 0.2
         },
         "poles": {
             "2007": 0.29411764705882354,
@@ -4820,10 +4833,29 @@
             "2024": 0.0
         }
     },
-    "winRate": 0.3020527859237537,
-    "podiumRate": 0.5777126099706745,
-    "poleRate": 0.31378299120234604,
-    "ptwConRate": 0.9626168224299065,
+    "winRate": 0.30116959064327486,
+    "podiumRate": 0.5818713450292398,
+    "poleRate": 0.3128654970760234,
+    "ptwConRate": {
+        "2007": 0.6,
+        "2008": 0.42857142857142855,
+        "2009": 0.25,
+        "2010": 1.0,
+        "2011": 0.0,
+        "2012": 0.25,
+        "2013": 0.2,
+        "2014": 0.8571428571428571,
+        "2015": 0.6363636363636364,
+        "2016": 0.5833333333333334,
+        "2017": 0.7272727272727273,
+        "2018": 0.6363636363636364,
+        "2019": 0.6,
+        "2020": 0.8,
+        "2021": 0.625,
+        "2022": -1,
+        "2023": 0.0,
+        "2024": -1
+    },
     "positionsGainLost": {
         "2007": {
             "Australian Grand Prix": 1,
@@ -5200,7 +5232,8 @@
             "Miami Grand Prix": 2,
             "Emilia Romagna Grand Prix": 2,
             "Monaco Grand Prix": 0,
-            "Canadian Grand Prix": 3
+            "Canadian Grand Prix": 3,
+            "Spanish Grand Prix": 0
         }
     }
 }
