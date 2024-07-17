@@ -1,162 +1,180 @@
 {
-    "driverId": "prinoth",
-    "lastUpdate": "2024-06-13T18:40:59.665Z",
-    "totalWins": 0,
-    "totalPodiums": 0,
-    "totalPoles": 0,
-    "seasonWins": {
-        "1961": 0,
-        "1962": 0
+  "driverId": "prinoth",
+  "lastUpdate": "2024-06-13T18:40:59.665Z",
+  "totalWins": 0,
+  "totalPodiums": 0,
+  "totalPoles": 0,
+  "totalDNFs": 2,
+  "seasonWins": {
+    "1961": 0,
+    "1962": 0
+  },
+  "seasonPodiums": {
+    "1961": 0,
+    "1962": 0
+  },
+  "seasonPoles": {
+    "1961": 0,
+    "1962": 0
+  },
+  "seasonDNFs": {
+    "1961": 1,
+    "1962": 1
+  },
+  "poles": {
+    "1961": {},
+    "1962": {}
+  },
+  "podiums": {
+    "1961": {},
+    "1962": {}
+  },
+  "DNFs": {
+    "1961": {
+      "Italian Grand Prix": "Withdrew"
     },
-    "seasonPodiums": {
-        "1961": 0,
-        "1962": 0
+    "1962": {
+      "Italian Grand Prix": "Did not qualify"
+    }
+  },
+  "fastLaps": {
+    "1961": {},
+    "1962": {}
+  },
+  "finalStandings": {
+    "1961": {
+      "year": "1961",
+      "position": "61",
+      "points": "0"
     },
-    "seasonPoles": {
-        "1961": 0,
-        "1962": 0
+    "1962": {
+      "year": "1962",
+      "position": "57",
+      "points": "0"
+    }
+  },
+  "posAfterRace": {
+    "1961": {
+      "year": "1961",
+      "pos": {
+        "Italian Grand Prix": {
+          "points": 0
+        }
+      }
     },
-    "poles": {
-        "1961": {},
-        "1962": {}
+    "1962": {
+      "year": "1962",
+      "pos": {
+        "Italian Grand Prix": {
+          "points": 0
+        }
+      }
+    }
+  },
+  "racePosition": {
+    "1961": {
+      "year": "1961",
+      "positions": {
+        "Italian Grand Prix": "37"
+      }
+    },
+    "1962": {
+      "year": "1962",
+      "positions": {
+        "Italian Grand Prix": "27"
+      }
+    }
+  },
+  "qualiPosition": {
+    "1961": {
+      "year": "1961",
+      "positions": {}
+    },
+    "1962": {
+      "year": "1962",
+      "positions": {}
+    }
+  },
+  "driverQualifyingTimes": {
+    "1961": {
+      "year": "1961",
+      "QualiTimes": {}
+    },
+    "1962": {
+      "year": "1962",
+      "QualiTimes": {}
+    }
+  },
+  "consistency": {
+    "mean": {
+      "wins": 0.0,
+      "podiums": 0.0,
+      "poles": 0.0,
+      "points": 0.0
+    },
+    "std": {
+      "wins": 0.0,
+      "podiums": 0.0,
+      "poles": 0.0,
+      "points": 0.0
+    },
+    "cv": {
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0,
+      "points": 0
+    }
+  },
+  "peakSeason": {
+    "wins": {
+      "season": "No peak season",
+      "wins": 0
     },
     "podiums": {
-        "1961": {},
-        "1962": {}
+      "season": "No peak season",
+      "podiums": 0
     },
-    "fastLaps": {
-        "1961": {},
-        "1962": {}
-    },
-    "finalStandings": {
-        "1961": {
-            "year": "1961",
-            "position": "61",
-            "points": "0"
-        },
-        "1962": {
-            "year": "1962",
-            "position": "57",
-            "points": "0"
-        }
-    },
-    "posAfterRace": {
-        "1961": {
-            "year": "1961",
-            "pos": {
-                "Italian Grand Prix": {
-                    "points": 0
-                }
-            }
-        },
-        "1962": {
-            "year": "1962",
-            "pos": {
-                "Italian Grand Prix": {
-                    "points": 0
-                }
-            }
-        }
-    },
-    "racePosition": {
-        "1961": {
-            "year": "1961",
-            "positions": {
-                "Italian Grand Prix": "37"
-            }
-        },
-        "1962": {
-            "year": "1962",
-            "positions": {
-                "Italian Grand Prix": "27"
-            }
-        }
-    },
-    "qualiPosition": {
-        "1961": {
-            "year": "1961",
-            "positions": {}
-        },
-        "1962": {
-            "year": "1962",
-            "positions": {}
-        }
-    },
-    "driverQualifyingTimes": {
-        "1961": {
-            "year": "1961",
-            "QualiTimes": {}
-        },
-        "1962": {
-            "year": "1962",
-            "QualiTimes": {}
-        }
-    },
-    "consistency": {
-        "mean": {
-            "wins": 0.0,
-            "podiums": 0.0,
-            "poles": 0.0,
-            "points": 0.0
-        },
-        "std": {
-            "wins": 0.0,
-            "podiums": 0.0,
-            "poles": 0.0,
-            "points": 0.0
-        },
-        "cv": {
-            "wins": 0,
-            "podiums": 0,
-            "poles": 0,
-            "points": 0
-        }
-    },
-    "peakSeason": {
-        "wins": {
-            "season": "No peak season",
-            "wins": 0
-        },
-        "podiums": {
-            "season": "No peak season",
-            "podiums": 0
-        },
-        "poles": {
-            "season": "No peak season",
-            "poles": 0
-        }
-    },
-    "avgRacePositions": {
-        "1961": 37.0,
-        "1962": 27.0
-    },
-    "avgQualiPositions": {
-        "1961": -1,
-        "1962": -1
-    },
-    "rates": {
-        "wins": {
-            "1961": 0.0,
-            "1962": 0.0
-        },
-        "podiums": {
-            "1961": 0.0,
-            "1962": 0.0
-        },
-        "poles": {
-            "1961": 0.0,
-            "1962": 0.0
-        }
-    },
-    "winRate": 0.0,
-    "podiumRate": 0.0,
-    "poleRate": 0.0,
-    "ptwConRate": {
-        "1961": -1,
-        "1962": -1
-    },
-    "positionsGainLost": {
-        "1961": {},
-        "1962": {}
+    "poles": {
+      "season": "No peak season",
+      "poles": 0
     }
+  },
+  "avgRacePositions": {
+    "1961": 37.0,
+    "1962": 27.0
+  },
+  "avgQualiPositions": {
+    "1961": -1,
+    "1962": -1
+  },
+  "rates": {
+    "wins": {
+      "1961": 0.0,
+      "1962": 0.0
+    },
+    "podiums": {
+      "1961": 0.0,
+      "1962": 0.0
+    },
+    "poles": {
+      "1961": 0.0,
+      "1962": 0.0
+    },
+    "DNFs": {
+      "1961": 1.0,
+      "1962": 1.0
+    }
+  },
+  "winRate": 0.0,
+  "podiumRate": 0.0,
+  "poleRate": 0.0,
+  "dnfRate": 1.0,
+  "ptwConRate": {
+    "1961": -1,
+    "1962": -1
+  },
+  "positionsGainLost": {
+    "1961": {},
+    "1962": {}
+  }
 }

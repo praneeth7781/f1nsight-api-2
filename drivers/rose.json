@@ -1,164 +1,180 @@
 {
-    "driverId": "rose",
-    "lastUpdate": "2024-06-13T18:44:20.944Z",
-    "totalWins": 0,
-    "totalPodiums": 1,
-    "totalPoles": 0,
-    "seasonWins": {
-        "1950": 0,
-        "1951": 0
+  "driverId": "rose",
+  "lastUpdate": "2024-06-13T18:44:20.944Z",
+  "totalWins": 0,
+  "totalPodiums": 1,
+  "totalPoles": 0,
+  "totalDNFs": 1,
+  "seasonWins": {
+    "1950": 0,
+    "1951": 0
+  },
+  "seasonPodiums": {
+    "1950": 1,
+    "1951": 0
+  },
+  "seasonPoles": {
+    "1950": 0,
+    "1951": 0
+  },
+  "seasonDNFs": {
+    "1950": 0,
+    "1951": 1
+  },
+  "poles": {
+    "1950": {},
+    "1951": {}
+  },
+  "podiums": {
+    "1950": {
+      "Indianapolis 500": "3"
     },
-    "seasonPodiums": {
-        "1950": 1,
-        "1951": 0
+    "1951": {}
+  },
+  "DNFs": {
+    "1950": {},
+    "1951": {
+      "Indianapolis 500": "Accident"
+    }
+  },
+  "fastLaps": {
+    "1950": {},
+    "1951": {}
+  },
+  "finalStandings": {
+    "1950": {
+      "year": "1950",
+      "position": "12",
+      "points": "4"
     },
-    "seasonPoles": {
-        "1950": 0,
-        "1951": 0
+    "1951": {
+      "year": "1951",
+      "position": "49",
+      "points": "0"
+    }
+  },
+  "posAfterRace": {
+    "1950": {
+      "year": "1950",
+      "pos": {
+        "Indianapolis 500": {
+          "points": 4
+        }
+      }
     },
-    "poles": {
-        "1950": {},
-        "1951": {}
+    "1951": {
+      "year": "1951",
+      "pos": {
+        "Indianapolis 500": {
+          "points": 0
+        }
+      }
+    }
+  },
+  "racePosition": {
+    "1950": {
+      "year": "1950",
+      "positions": {
+        "Indianapolis 500": "3"
+      }
+    },
+    "1951": {
+      "year": "1951",
+      "positions": {
+        "Indianapolis 500": "14"
+      }
+    }
+  },
+  "qualiPosition": {
+    "1950": {
+      "year": "1950",
+      "positions": {}
+    },
+    "1951": {
+      "year": "1951",
+      "positions": {}
+    }
+  },
+  "driverQualifyingTimes": {
+    "1950": {
+      "year": "1950",
+      "QualiTimes": {}
+    },
+    "1951": {
+      "year": "1951",
+      "QualiTimes": {}
+    }
+  },
+  "consistency": {
+    "mean": {
+      "wins": 0.0,
+      "podiums": 0.5,
+      "poles": 0.0,
+      "points": 2.0
+    },
+    "std": {
+      "wins": 0.0,
+      "podiums": 0.5,
+      "poles": 0.0,
+      "points": 2.0
+    },
+    "cv": {
+      "wins": 0,
+      "podiums": 1.0,
+      "poles": 0,
+      "points": 1.0
+    }
+  },
+  "peakSeason": {
+    "wins": {
+      "season": "No peak season",
+      "wins": 0
     },
     "podiums": {
-        "1950": {
-            "Indianapolis 500": "3"
-        },
-        "1951": {}
+      "season": "1950",
+      "podiums": 1
     },
-    "fastLaps": {
-        "1950": {},
-        "1951": {}
-    },
-    "finalStandings": {
-        "1950": {
-            "year": "1950",
-            "position": "12",
-            "points": "4"
-        },
-        "1951": {
-            "year": "1951",
-            "position": "49",
-            "points": "0"
-        }
-    },
-    "posAfterRace": {
-        "1950": {
-            "year": "1950",
-            "pos": {
-                "Indianapolis 500": {
-                    "points": 4
-                }
-            }
-        },
-        "1951": {
-            "year": "1951",
-            "pos": {
-                "Indianapolis 500": {
-                    "points": 0
-                }
-            }
-        }
-    },
-    "racePosition": {
-        "1950": {
-            "year": "1950",
-            "positions": {
-                "Indianapolis 500": "3"
-            }
-        },
-        "1951": {
-            "year": "1951",
-            "positions": {
-                "Indianapolis 500": "14"
-            }
-        }
-    },
-    "qualiPosition": {
-        "1950": {
-            "year": "1950",
-            "positions": {}
-        },
-        "1951": {
-            "year": "1951",
-            "positions": {}
-        }
-    },
-    "driverQualifyingTimes": {
-        "1950": {
-            "year": "1950",
-            "QualiTimes": {}
-        },
-        "1951": {
-            "year": "1951",
-            "QualiTimes": {}
-        }
-    },
-    "consistency": {
-        "mean": {
-            "wins": 0.0,
-            "podiums": 0.5,
-            "poles": 0.0,
-            "points": 2.0
-        },
-        "std": {
-            "wins": 0.0,
-            "podiums": 0.5,
-            "poles": 0.0,
-            "points": 2.0
-        },
-        "cv": {
-            "wins": 0,
-            "podiums": 1.0,
-            "poles": 0,
-            "points": 1.0
-        }
-    },
-    "peakSeason": {
-        "wins": {
-            "season": "No peak season",
-            "wins": 0
-        },
-        "podiums": {
-            "season": "1950",
-            "podiums": 1
-        },
-        "poles": {
-            "season": "No peak season",
-            "poles": 0
-        }
-    },
-    "avgRacePositions": {
-        "1950": 3.0,
-        "1951": 14.0
-    },
-    "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
-    },
-    "rates": {
-        "wins": {
-            "1950": 0.0,
-            "1951": 0.0
-        },
-        "podiums": {
-            "1950": 1.0,
-            "1951": 0.0
-        },
-        "poles": {
-            "1950": 0.0,
-            "1951": 0.0
-        }
-    },
-    "winRate": 0.0,
-    "podiumRate": 0.5,
-    "poleRate": 0.0,
-    "ptwConRate": {
-        "1950": -1,
-        "1951": -1
-    },
-    "positionsGainLost": {
-        "1950": {},
-        "1951": {}
+    "poles": {
+      "season": "No peak season",
+      "poles": 0
     }
+  },
+  "avgRacePositions": {
+    "1950": 3.0,
+    "1951": 14.0
+  },
+  "avgQualiPositions": {
+    "1950": -1,
+    "1951": -1
+  },
+  "rates": {
+    "wins": {
+      "1950": 0.0,
+      "1951": 0.0
+    },
+    "podiums": {
+      "1950": 1.0,
+      "1951": 0.0
+    },
+    "poles": {
+      "1950": 0.0,
+      "1951": 0.0
+    },
+    "DNFs": {
+      "1950": 0.0,
+      "1951": 0.0
+    }
+  },
+  "winRate": 0.0,
+  "podiumRate": 0.5,
+  "poleRate": 0.0,
+  "dnfRate": 0.5,
+  "ptwConRate": {
+    "1950": -1,
+    "1951": -1
+  },
+  "positionsGainLost": {
+    "1950": {},
+    "1951": {}
+  }
 }

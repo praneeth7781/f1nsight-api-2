@@ -1,162 +1,178 @@
 {
-    "driverId": "prophet",
-    "lastUpdate": "2024-06-13T18:40:57.157Z",
-    "totalWins": 0,
-    "totalPodiums": 0,
-    "totalPoles": 0,
-    "seasonWins": {
-        "1963": 0,
-        "1965": 0
+  "driverId": "prophet",
+  "lastUpdate": "2024-06-13T18:40:57.157Z",
+  "totalWins": 0,
+  "totalPodiums": 0,
+  "totalPoles": 0,
+  "totalDNFs": 1,
+  "seasonWins": {
+    "1963": 0,
+    "1965": 0
+  },
+  "seasonPodiums": {
+    "1963": 0,
+    "1965": 0
+  },
+  "seasonPoles": {
+    "1963": 0,
+    "1965": 0
+  },
+  "seasonDNFs": {
+    "1963": 1,
+    "1965": 0
+  },
+  "poles": {
+    "1963": {},
+    "1965": {}
+  },
+  "podiums": {
+    "1963": {},
+    "1965": {}
+  },
+  "DNFs": {
+    "1963": {
+      "South African Grand Prix": "Oil pressure"
     },
-    "seasonPodiums": {
-        "1963": 0,
-        "1965": 0
+    "1965": {}
+  },
+  "fastLaps": {
+    "1963": {},
+    "1965": {}
+  },
+  "finalStandings": {
+    "1963": {
+      "year": "1963",
+      "position": "43",
+      "points": "0"
     },
-    "seasonPoles": {
-        "1963": 0,
-        "1965": 0
+    "1965": {
+      "year": "1965",
+      "position": "32",
+      "points": "0"
+    }
+  },
+  "posAfterRace": {
+    "1963": {
+      "year": "1963",
+      "pos": {
+        "South African Grand Prix": {
+          "points": 0
+        }
+      }
     },
-    "poles": {
-        "1963": {},
-        "1965": {}
+    "1965": {
+      "year": "1965",
+      "pos": {
+        "South African Grand Prix": {
+          "points": 0
+        }
+      }
+    }
+  },
+  "racePosition": {
+    "1963": {
+      "year": "1963",
+      "positions": {
+        "South African Grand Prix": "16"
+      }
+    },
+    "1965": {
+      "year": "1965",
+      "positions": {
+        "South African Grand Prix": "14"
+      }
+    }
+  },
+  "qualiPosition": {
+    "1963": {
+      "year": "1963",
+      "positions": {}
+    },
+    "1965": {
+      "year": "1965",
+      "positions": {}
+    }
+  },
+  "driverQualifyingTimes": {
+    "1963": {
+      "year": "1963",
+      "QualiTimes": {}
+    },
+    "1965": {
+      "year": "1965",
+      "QualiTimes": {}
+    }
+  },
+  "consistency": {
+    "mean": {
+      "wins": 0.0,
+      "podiums": 0.0,
+      "poles": 0.0,
+      "points": 0.0
+    },
+    "std": {
+      "wins": 0.0,
+      "podiums": 0.0,
+      "poles": 0.0,
+      "points": 0.0
+    },
+    "cv": {
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0,
+      "points": 0
+    }
+  },
+  "peakSeason": {
+    "wins": {
+      "season": "No peak season",
+      "wins": 0
     },
     "podiums": {
-        "1963": {},
-        "1965": {}
+      "season": "No peak season",
+      "podiums": 0
     },
-    "fastLaps": {
-        "1963": {},
-        "1965": {}
-    },
-    "finalStandings": {
-        "1963": {
-            "year": "1963",
-            "position": "43",
-            "points": "0"
-        },
-        "1965": {
-            "year": "1965",
-            "position": "32",
-            "points": "0"
-        }
-    },
-    "posAfterRace": {
-        "1963": {
-            "year": "1963",
-            "pos": {
-                "South African Grand Prix": {
-                    "points": 0
-                }
-            }
-        },
-        "1965": {
-            "year": "1965",
-            "pos": {
-                "South African Grand Prix": {
-                    "points": 0
-                }
-            }
-        }
-    },
-    "racePosition": {
-        "1963": {
-            "year": "1963",
-            "positions": {
-                "South African Grand Prix": "16"
-            }
-        },
-        "1965": {
-            "year": "1965",
-            "positions": {
-                "South African Grand Prix": "14"
-            }
-        }
-    },
-    "qualiPosition": {
-        "1963": {
-            "year": "1963",
-            "positions": {}
-        },
-        "1965": {
-            "year": "1965",
-            "positions": {}
-        }
-    },
-    "driverQualifyingTimes": {
-        "1963": {
-            "year": "1963",
-            "QualiTimes": {}
-        },
-        "1965": {
-            "year": "1965",
-            "QualiTimes": {}
-        }
-    },
-    "consistency": {
-        "mean": {
-            "wins": 0.0,
-            "podiums": 0.0,
-            "poles": 0.0,
-            "points": 0.0
-        },
-        "std": {
-            "wins": 0.0,
-            "podiums": 0.0,
-            "poles": 0.0,
-            "points": 0.0
-        },
-        "cv": {
-            "wins": 0,
-            "podiums": 0,
-            "poles": 0,
-            "points": 0
-        }
-    },
-    "peakSeason": {
-        "wins": {
-            "season": "No peak season",
-            "wins": 0
-        },
-        "podiums": {
-            "season": "No peak season",
-            "podiums": 0
-        },
-        "poles": {
-            "season": "No peak season",
-            "poles": 0
-        }
-    },
-    "avgRacePositions": {
-        "1963": 16.0,
-        "1965": 14.0
-    },
-    "avgQualiPositions": {
-        "1963": -1,
-        "1965": -1
-    },
-    "rates": {
-        "wins": {
-            "1963": 0.0,
-            "1965": 0.0
-        },
-        "podiums": {
-            "1963": 0.0,
-            "1965": 0.0
-        },
-        "poles": {
-            "1963": 0.0,
-            "1965": 0.0
-        }
-    },
-    "winRate": 0.0,
-    "podiumRate": 0.0,
-    "poleRate": 0.0,
-    "ptwConRate": {
-        "1963": -1,
-        "1965": -1
-    },
-    "positionsGainLost": {
-        "1963": {},
-        "1965": {}
+    "poles": {
+      "season": "No peak season",
+      "poles": 0
     }
+  },
+  "avgRacePositions": {
+    "1963": 16.0,
+    "1965": 14.0
+  },
+  "avgQualiPositions": {
+    "1963": -1,
+    "1965": -1
+  },
+  "rates": {
+    "wins": {
+      "1963": 0.0,
+      "1965": 0.0
+    },
+    "podiums": {
+      "1963": 0.0,
+      "1965": 0.0
+    },
+    "poles": {
+      "1963": 0.0,
+      "1965": 0.0
+    },
+    "DNFs": {
+      "1963": 1.0,
+      "1965": 1.0
+    }
+  },
+  "winRate": 0.0,
+  "podiumRate": 0.0,
+  "poleRate": 0.0,
+  "dnfRate": 0.5,
+  "ptwConRate": {
+    "1963": -1,
+    "1965": -1
+  },
+  "positionsGainLost": {
+    "1963": {},
+    "1965": {}
+  }
 }

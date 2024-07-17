@@ -1,210 +1,232 @@
 {
-    "driverId": "mitter",
-    "lastUpdate": "2024-06-13T18:32:54.255Z",
-    "totalWins": 0,
-    "totalPodiums": 0,
-    "totalPoles": 0,
-    "seasonWins": {
-        "1963": 0,
-        "1964": 0,
-        "1965": 0
+  "driverId": "mitter",
+  "lastUpdate": "2024-06-13T18:32:54.255Z",
+  "totalWins": 0,
+  "totalPodiums": 0,
+  "totalPoles": 0,
+  "totalDNFs": 3,
+  "seasonWins": {
+    "1963": 0,
+    "1964": 0,
+    "1965": 0
+  },
+  "seasonPodiums": {
+    "1963": 0,
+    "1964": 0,
+    "1965": 0
+  },
+  "seasonPoles": {
+    "1963": 0,
+    "1964": 0,
+    "1965": 0
+  },
+  "seasonDNFs": {
+    "1963": 2,
+    "1964": 0,
+    "1965": 1
+  },
+  "poles": {
+    "1963": {},
+    "1964": {},
+    "1965": {}
+  },
+  "podiums": {
+    "1963": {},
+    "1964": {},
+    "1965": {}
+  },
+  "DNFs": {
+    "1963": {
+      "Dutch Grand Prix": "Clutch",
+      "Italian Grand Prix": "Withdrew"
     },
-    "seasonPodiums": {
-        "1963": 0,
-        "1964": 0,
-        "1965": 0
+    "1964": {},
+    "1965": {
+      "German Grand Prix": "Water leak"
+    }
+  },
+  "fastLaps": {
+    "1963": {},
+    "1964": {},
+    "1965": {}
+  },
+  "finalStandings": {
+    "1963": {
+      "year": "1963",
+      "position": "12",
+      "points": "3"
     },
-    "seasonPoles": {
-        "1963": 0,
-        "1964": 0,
-        "1965": 0
+    "1964": {
+      "year": "1964",
+      "position": "24",
+      "points": "0"
     },
-    "poles": {
-        "1963": {},
-        "1964": {},
-        "1965": {}
+    "1965": {
+      "year": "1965",
+      "position": "34",
+      "points": "0"
+    }
+  },
+  "posAfterRace": {
+    "1963": {
+      "year": "1963",
+      "pos": {
+        "Dutch Grand Prix": {
+          "points": 0
+        },
+        "German Grand Prix": {
+          "points": 3
+        },
+        "Italian Grand Prix": {
+          "points": 3
+        }
+      }
+    },
+    "1964": {
+      "year": "1964",
+      "pos": {
+        "German Grand Prix": {
+          "points": 0
+        }
+      }
+    },
+    "1965": {
+      "year": "1965",
+      "pos": {
+        "German Grand Prix": {
+          "points": 0
+        }
+      }
+    }
+  },
+  "racePosition": {
+    "1963": {
+      "year": "1963",
+      "positions": {
+        "Dutch Grand Prix": "19",
+        "German Grand Prix": "4",
+        "Italian Grand Prix": "29"
+      }
+    },
+    "1964": {
+      "year": "1964",
+      "positions": {
+        "German Grand Prix": "9"
+      }
+    },
+    "1965": {
+      "year": "1965",
+      "positions": {
+        "German Grand Prix": "12"
+      }
+    }
+  },
+  "qualiPosition": {
+    "1963": {
+      "year": "1963",
+      "positions": {}
+    },
+    "1964": {
+      "year": "1964",
+      "positions": {}
+    },
+    "1965": {
+      "year": "1965",
+      "positions": {}
+    }
+  },
+  "driverQualifyingTimes": {
+    "1963": {
+      "year": "1963",
+      "QualiTimes": {}
+    },
+    "1964": {
+      "year": "1964",
+      "QualiTimes": {}
+    },
+    "1965": {
+      "year": "1965",
+      "QualiTimes": {}
+    }
+  },
+  "consistency": {
+    "mean": {
+      "wins": 0.0,
+      "podiums": 0.0,
+      "poles": 0.0,
+      "points": 1.0
+    },
+    "std": {
+      "wins": 0.0,
+      "podiums": 0.0,
+      "poles": 0.0,
+      "points": 1.4142135623730951
+    },
+    "cv": {
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0,
+      "points": 1.4142135623730951
+    }
+  },
+  "peakSeason": {
+    "wins": {
+      "season": "No peak season",
+      "wins": 0
     },
     "podiums": {
-        "1963": {},
-        "1964": {},
-        "1965": {}
+      "season": "No peak season",
+      "podiums": 0
     },
-    "fastLaps": {
-        "1963": {},
-        "1964": {},
-        "1965": {}
-    },
-    "finalStandings": {
-        "1963": {
-            "year": "1963",
-            "position": "12",
-            "points": "3"
-        },
-        "1964": {
-            "year": "1964",
-            "position": "24",
-            "points": "0"
-        },
-        "1965": {
-            "year": "1965",
-            "position": "34",
-            "points": "0"
-        }
-    },
-    "posAfterRace": {
-        "1963": {
-            "year": "1963",
-            "pos": {
-                "Dutch Grand Prix": {
-                    "points": 0
-                },
-                "German Grand Prix": {
-                    "points": 3
-                },
-                "Italian Grand Prix": {
-                    "points": 3
-                }
-            }
-        },
-        "1964": {
-            "year": "1964",
-            "pos": {
-                "German Grand Prix": {
-                    "points": 0
-                }
-            }
-        },
-        "1965": {
-            "year": "1965",
-            "pos": {
-                "German Grand Prix": {
-                    "points": 0
-                }
-            }
-        }
-    },
-    "racePosition": {
-        "1963": {
-            "year": "1963",
-            "positions": {
-                "Dutch Grand Prix": "19",
-                "German Grand Prix": "4",
-                "Italian Grand Prix": "29"
-            }
-        },
-        "1964": {
-            "year": "1964",
-            "positions": {
-                "German Grand Prix": "9"
-            }
-        },
-        "1965": {
-            "year": "1965",
-            "positions": {
-                "German Grand Prix": "12"
-            }
-        }
-    },
-    "qualiPosition": {
-        "1963": {
-            "year": "1963",
-            "positions": {}
-        },
-        "1964": {
-            "year": "1964",
-            "positions": {}
-        },
-        "1965": {
-            "year": "1965",
-            "positions": {}
-        }
-    },
-    "driverQualifyingTimes": {
-        "1963": {
-            "year": "1963",
-            "QualiTimes": {}
-        },
-        "1964": {
-            "year": "1964",
-            "QualiTimes": {}
-        },
-        "1965": {
-            "year": "1965",
-            "QualiTimes": {}
-        }
-    },
-    "consistency": {
-        "mean": {
-            "wins": 0.0,
-            "podiums": 0.0,
-            "poles": 0.0,
-            "points": 1.0
-        },
-        "std": {
-            "wins": 0.0,
-            "podiums": 0.0,
-            "poles": 0.0,
-            "points": 1.4142135623730951
-        },
-        "cv": {
-            "wins": 0,
-            "podiums": 0,
-            "poles": 0,
-            "points": 1.4142135623730951
-        }
-    },
-    "peakSeason": {
-        "wins": {
-            "season": "No peak season",
-            "wins": 0
-        },
-        "podiums": {
-            "season": "No peak season",
-            "podiums": 0
-        },
-        "poles": {
-            "season": "No peak season",
-            "poles": 0
-        }
-    },
-    "avgRacePositions": {
-        "1963": 17.333333333333332,
-        "1964": 9.0,
-        "1965": 12.0
-    },
-    "avgQualiPositions": {
-        "1963": -1,
-        "1964": -1,
-        "1965": -1
-    },
-    "rates": {
-        "wins": {
-            "1963": 0.0,
-            "1964": 0.0,
-            "1965": 0.0
-        },
-        "podiums": {
-            "1963": 0.0,
-            "1964": 0.0,
-            "1965": 0.0
-        },
-        "poles": {
-            "1963": 0.0,
-            "1964": 0.0,
-            "1965": 0.0
-        }
-    },
-    "winRate": 0.0,
-    "podiumRate": 0.0,
-    "poleRate": 0.0,
-    "ptwConRate": {
-        "1963": -1,
-        "1964": -1,
-        "1965": -1
-    },
-    "positionsGainLost": {
-        "1963": {},
-        "1964": {},
-        "1965": {}
+    "poles": {
+      "season": "No peak season",
+      "poles": 0
     }
+  },
+  "avgRacePositions": {
+    "1963": 17.333333333333332,
+    "1964": 9.0,
+    "1965": 12.0
+  },
+  "avgQualiPositions": {
+    "1963": -1,
+    "1964": -1,
+    "1965": -1
+  },
+  "rates": {
+    "wins": {
+      "1963": 0.0,
+      "1964": 0.0,
+      "1965": 0.0
+    },
+    "podiums": {
+      "1963": 0.0,
+      "1964": 0.0,
+      "1965": 0.0
+    },
+    "poles": {
+      "1963": 0.0,
+      "1964": 0.0,
+      "1965": 0.0
+    },
+    "DNFs": {
+      "1963": 0.6666666666666666,
+      "1964": 2.0,
+      "1965": 2.0
+    }
+  },
+  "winRate": 0.0,
+  "podiumRate": 0.0,
+  "poleRate": 0.0,
+  "dnfRate": 0.6,
+  "ptwConRate": {
+    "1963": -1,
+    "1964": -1,
+    "1965": -1
+  },
+  "positionsGainLost": {
+    "1963": {},
+    "1964": {},
+    "1965": {}
+  }
 }

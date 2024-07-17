@@ -1,190 +1,214 @@
 {
-    "driverId": "acheson",
-    "lastUpdate": "2024-06-13T17:28:56.358Z",
-    "totalWins": 0,
-    "totalPodiums": 0,
-    "totalPoles": 0,
-    "seasonWins": {
-        "1983": 0,
-        "1985": 0
+  "driverId": "acheson",
+  "lastUpdate": "2024-06-13T17:28:56.358Z",
+  "totalWins": 0,
+  "totalPodiums": 0,
+  "totalPoles": 0,
+  "totalDNFs": 8,
+  "seasonWins": {
+    "1983": 0,
+    "1985": 0
+  },
+  "seasonPodiums": {
+    "1983": 0,
+    "1985": 0
+  },
+  "seasonPoles": {
+    "1983": 0,
+    "1985": 0
+  },
+  "seasonDNFs": {
+    "1983": 6,
+    "1985": 2
+  },
+  "poles": {
+    "1983": {},
+    "1985": {}
+  },
+  "podiums": {
+    "1983": {},
+    "1985": {}
+  },
+  "DNFs": {
+    "1983": {
+      "British Grand Prix": "Did not qualify",
+      "German Grand Prix": "Did not qualify",
+      "Austrian Grand Prix": "Did not qualify",
+      "Dutch Grand Prix": "Did not qualify",
+      "Italian Grand Prix": "Did not qualify",
+      "European Grand Prix": "Did not qualify"
     },
-    "seasonPodiums": {
-        "1983": 0,
-        "1985": 0
+    "1985": {
+      "Austrian Grand Prix": "Engine",
+      "Italian Grand Prix": "Clutch"
+    }
+  },
+  "fastLaps": {
+    "1983": {},
+    "1985": {}
+  },
+  "finalStandings": {
+    "1983": {
+      "year": "1983",
+      "position": "30",
+      "points": "0"
     },
-    "seasonPoles": {
-        "1983": 0,
-        "1985": 0
+    "1985": {
+      "year": "1985",
+      "position": "33",
+      "points": "0"
+    }
+  },
+  "posAfterRace": {
+    "1983": {
+      "year": "1983",
+      "pos": {
+        "British Grand Prix": {
+          "points": 0
+        },
+        "German Grand Prix": {
+          "points": 0
+        },
+        "Austrian Grand Prix": {
+          "points": 0
+        },
+        "Dutch Grand Prix": {
+          "points": 0
+        },
+        "Italian Grand Prix": {
+          "points": 0
+        },
+        "European Grand Prix": {
+          "points": 0
+        },
+        "South African Grand Prix": {
+          "points": 0
+        }
+      }
     },
-    "poles": {
-        "1983": {},
-        "1985": {}
+    "1985": {
+      "year": "1985",
+      "pos": {
+        "Austrian Grand Prix": {
+          "points": 0
+        },
+        "Italian Grand Prix": {
+          "points": 0
+        }
+      }
+    }
+  },
+  "racePosition": {
+    "1983": {
+      "year": "1983",
+      "positions": {
+        "British Grand Prix": "29",
+        "German Grand Prix": "27",
+        "Austrian Grand Prix": "29",
+        "Dutch Grand Prix": "29",
+        "Italian Grand Prix": "29",
+        "European Grand Prix": "27",
+        "South African Grand Prix": "12"
+      }
+    },
+    "1985": {
+      "year": "1985",
+      "positions": {
+        "Austrian Grand Prix": "17",
+        "Italian Grand Prix": "24"
+      }
+    }
+  },
+  "qualiPosition": {
+    "1983": {
+      "year": "1983",
+      "positions": {}
+    },
+    "1985": {
+      "year": "1985",
+      "positions": {}
+    }
+  },
+  "driverQualifyingTimes": {
+    "1983": {
+      "year": "1983",
+      "QualiTimes": {}
+    },
+    "1985": {
+      "year": "1985",
+      "QualiTimes": {}
+    }
+  },
+  "consistency": {
+    "mean": {
+      "wins": 0.0,
+      "podiums": 0.0,
+      "poles": 0.0,
+      "points": 0.0
+    },
+    "std": {
+      "wins": 0.0,
+      "podiums": 0.0,
+      "poles": 0.0,
+      "points": 0.0
+    },
+    "cv": {
+      "wins": 0,
+      "podiums": 0,
+      "poles": 0,
+      "points": 0
+    }
+  },
+  "peakSeason": {
+    "wins": {
+      "season": "No peak season",
+      "wins": 0
     },
     "podiums": {
-        "1983": {},
-        "1985": {}
+      "season": "No peak season",
+      "podiums": 0
     },
-    "fastLaps": {
-        "1983": {},
-        "1985": {}
-    },
-    "finalStandings": {
-        "1983": {
-            "year": "1983",
-            "position": "30",
-            "points": "0"
-        },
-        "1985": {
-            "year": "1985",
-            "position": "33",
-            "points": "0"
-        }
-    },
-    "posAfterRace": {
-        "1983": {
-            "year": "1983",
-            "pos": {
-                "British Grand Prix": {
-                    "points": 0
-                },
-                "German Grand Prix": {
-                    "points": 0
-                },
-                "Austrian Grand Prix": {
-                    "points": 0
-                },
-                "Dutch Grand Prix": {
-                    "points": 0
-                },
-                "Italian Grand Prix": {
-                    "points": 0
-                },
-                "European Grand Prix": {
-                    "points": 0
-                },
-                "South African Grand Prix": {
-                    "points": 0
-                }
-            }
-        },
-        "1985": {
-            "year": "1985",
-            "pos": {
-                "Austrian Grand Prix": {
-                    "points": 0
-                },
-                "Italian Grand Prix": {
-                    "points": 0
-                }
-            }
-        }
-    },
-    "racePosition": {
-        "1983": {
-            "year": "1983",
-            "positions": {
-                "British Grand Prix": "29",
-                "German Grand Prix": "27",
-                "Austrian Grand Prix": "29",
-                "Dutch Grand Prix": "29",
-                "Italian Grand Prix": "29",
-                "European Grand Prix": "27",
-                "South African Grand Prix": "12"
-            }
-        },
-        "1985": {
-            "year": "1985",
-            "positions": {
-                "Austrian Grand Prix": "17",
-                "Italian Grand Prix": "24"
-            }
-        }
-    },
-    "qualiPosition": {
-        "1983": {
-            "year": "1983",
-            "positions": {}
-        },
-        "1985": {
-            "year": "1985",
-            "positions": {}
-        }
-    },
-    "driverQualifyingTimes": {
-        "1983": {
-            "year": "1983",
-            "QualiTimes": {}
-        },
-        "1985": {
-            "year": "1985",
-            "QualiTimes": {}
-        }
-    },
-    "consistency": {
-        "mean": {
-            "wins": 0.0,
-            "podiums": 0.0,
-            "poles": 0.0,
-            "points": 0.0
-        },
-        "std": {
-            "wins": 0.0,
-            "podiums": 0.0,
-            "poles": 0.0,
-            "points": 0.0
-        },
-        "cv": {
-            "wins": 0,
-            "podiums": 0,
-            "poles": 0,
-            "points": 0
-        }
-    },
-    "peakSeason": {
-        "wins": {
-            "season": "No peak season",
-            "wins": 0
-        },
-        "podiums": {
-            "season": "No peak season",
-            "podiums": 0
-        },
-        "poles": {
-            "season": "No peak season",
-            "poles": 0
-        }
-    },
-    "avgRacePositions": {
-        "1983": 26.0,
-        "1985": 20.5
-    },
-    "avgQualiPositions": {
-        "1983": -1,
-        "1985": -1
-    },
-    "rates": {
-        "wins": {
-            "1983": 0.0,
-            "1985": 0.0
-        },
-        "podiums": {
-            "1983": 0.0,
-            "1985": 0.0
-        },
-        "poles": {
-            "1983": 0.0,
-            "1985": 0.0
-        }
-    },
-    "winRate": 0.0,
-    "podiumRate": 0.0,
-    "poleRate": 0.0,
-    "ptwConRate": {
-        "1983": -1,
-        "1985": -1
-    },
-    "positionsGainLost": {
-        "1983": {},
-        "1985": {}
+    "poles": {
+      "season": "No peak season",
+      "poles": 0
     }
+  },
+  "avgRacePositions": {
+    "1983": 26.0,
+    "1985": 20.5
+  },
+  "avgQualiPositions": {
+    "1983": -1,
+    "1985": -1
+  },
+  "rates": {
+    "wins": {
+      "1983": 0.0,
+      "1985": 0.0
+    },
+    "podiums": {
+      "1983": 0.0,
+      "1985": 0.0
+    },
+    "poles": {
+      "1983": 0.0,
+      "1985": 0.0
+    },
+    "DNFs": {
+      "1983": 0.8571428571428571,
+      "1985": 3.0
+    }
+  },
+  "winRate": 0.0,
+  "podiumRate": 0.0,
+  "poleRate": 0.0,
+  "dnfRate": 0.8888888888888888,
+  "ptwConRate": {
+    "1983": -1,
+    "1985": -1
+  },
+  "positionsGainLost": {
+    "1983": {},
+    "1985": {}
+  }
 }
