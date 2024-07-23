@@ -2,18 +2,18 @@
     "driverId": "piastri",
     "driverCode": "PIA",
     "driverNumber": "81",
-    "lastUpdate": "2024-07-17T20:31:44.896667",
-    "totalWins": 0,
-    "totalPodiums": 4,
+    "lastUpdate": "2024-07-23T19:06:35.210493",
+    "totalWins": 1,
+    "totalPodiums": 5,
     "totalPoles": 0,
     "totalDNFs": 3,
     "seasonWins": {
         "2023": 0,
-        "2024": 0
+        "2024": 1
     },
     "seasonPodiums": {
         "2023": 2,
-        "2024": 2
+        "2024": 3
     },
     "seasonPoles": {
         "2023": 0,
@@ -34,7 +34,8 @@
         },
         "2024": {
             "Monaco Grand Prix": "2",
-            "Austrian Grand Prix": "2"
+            "Austrian Grand Prix": "2",
+            "Hungarian Grand Prix": "1"
         }
     },
     "DNFs": {
@@ -80,7 +81,8 @@
             "Canadian Grand Prix": "1:16.247",
             "Spanish Grand Prix": "1:17.874",
             "Austrian Grand Prix": "1:08.697",
-            "British Grand Prix": "1:28.748"
+            "British Grand Prix": "1:28.748",
+            "Hungarian Grand Prix": "1:21.716"
         }
     },
     "finalStandings": {
@@ -92,7 +94,7 @@
         "2024": {
             "year": "2024",
             "position": "5",
-            "points": "124"
+            "points": "149"
         }
     },
     "posAfterRace": {
@@ -205,6 +207,9 @@
                 },
                 "British Grand Prix": {
                     "points": 124
+                },
+                "Hungarian Grand Prix": {
+                    "points": 149
                 }
             }
         }
@@ -251,7 +256,8 @@
                 "Canadian Grand Prix": "5",
                 "Spanish Grand Prix": "7",
                 "Austrian Grand Prix": "2",
-                "British Grand Prix": "4"
+                "British Grand Prix": "4",
+                "Hungarian Grand Prix": "1"
             }
         }
     },
@@ -297,7 +303,8 @@
                 "Canadian Grand Prix": "4",
                 "Spanish Grand Prix": "9",
                 "Austrian Grand Prix": "7",
-                "British Grand Prix": "5"
+                "British Grand Prix": "5",
+                "Hungarian Grand Prix": "2"
             }
         }
     },
@@ -479,38 +486,43 @@
                     "1:30.895",
                     "1:26.733",
                     "1:26.237"
+                ],
+                "Hungarian Grand Prix": [
+                    "1:17.504",
+                    "1:15.785",
+                    "1:15.249"
                 ]
             }
         }
     },
     "consistency": {
         "mean": {
-            "wins": 0.0,
-            "podiums": 2.0,
+            "wins": 0.5,
+            "podiums": 2.5,
             "poles": 0.0,
-            "points": 110.5
+            "points": 123.0
         },
         "std": {
-            "wins": 0.0,
-            "podiums": 0.0,
+            "wins": 0.5,
+            "podiums": 0.5,
             "poles": 0.0,
-            "points": 13.5
+            "points": 26.0
         },
         "cv": {
-            "wins": 0,
-            "podiums": 0.0,
+            "wins": 1.0,
+            "podiums": 0.2,
             "poles": 0,
-            "points": 0.12217194570135746
+            "points": 0.21138211382113822
         }
     },
     "peakSeason": {
         "wins": {
-            "season": "No peak season",
-            "wins": 0
+            "season": "2024",
+            "wins": 1
         },
         "podiums": {
-            "season": "2023",
-            "podiums": 2
+            "season": "2024",
+            "podiums": 3
         },
         "poles": {
             "season": "No peak season",
@@ -519,20 +531,20 @@
     },
     "avgRacePositions": {
         "2023": 10.909090909090908,
-        "2024": 5.75
+        "2024": 5.384615384615385
     },
     "avgQualiPositions": {
         "2023": 9.863636363636363,
-        "2024": 5.416666666666667
+        "2024": 5.153846153846154
     },
     "rates": {
         "wins": {
             "2023": 0.0,
-            "2024": 0.0
+            "2024": 0.07692307692307693
         },
         "podiums": {
             "2023": 0.09090909090909091,
-            "2024": 0.16666666666666666
+            "2024": 0.23076923076923078
         },
         "poles": {
             "2023": 0.0,
@@ -543,10 +555,10 @@
             "2024": 0.0
         }
     },
-    "winRate": 0.0,
-    "podiumRate": 0.11764705882352941,
+    "winRate": 0.02857142857142857,
+    "podiumRate": 0.14285714285714285,
     "poleRate": 0.0,
-    "dnfRate": 0.08823529411764706,
+    "dnfRate": 0.08571428571428572,
     "ptwConRate": {
         "2023": -1,
         "2024": -1
@@ -588,7 +600,8 @@
             "Canadian Grand Prix": -1,
             "Spanish Grand Prix": 2,
             "Austrian Grand Prix": 5,
-            "British Grand Prix": 1
+            "British Grand Prix": 1,
+            "Hungarian Grand Prix": 1
         }
     }
 }
