@@ -2,10 +2,11 @@
     "driverId": "sonny",
     "driverCode": "NAY",
     "driverNumber": "7",
-    "lastUpdate": "2024-07-03T18:45:43.238Z",
+    "lastUpdate": "2024-07-22T18:45:43.238Z",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
+    "totalDNFs": 0,
     "seasonWins": {
         "2024": 0
     },
@@ -15,12 +16,20 @@
     "seasonPoles": {
         "2024": 0
     },
+  "seasonDNFs": {
+        "2024": 1
+    },
     "poles": {
         "2024": {}
     },
     "podiums": {
         "2024": {}
     },
+    "DNFs": {
+          "2024": {
+            "Austrian Grand Prix": "Accident"
+          }
+      },
     "fastLaps": {
         "2024": {
             "Bahrain Grand Prix": "N/A",
@@ -32,14 +41,15 @@
             "Canadian Grand Prix": "N/A",
             "Spanish Grand Prix": "N/A",
             "Austrian Grand Prix": "N/A",
-            "British Grand Prix": "N/A"
+            "British Grand Prix": "N/A",
+            "Hungarian Grand Prix": "N/A"
         }
     },
     "finalStandings": {
         "2024": {
             "year": "2024",
             "position": "N/A",
-            "points": "54"
+            "points": "62"
         }
     },
     "posAfterRace": {
@@ -62,22 +72,25 @@
                     "points": 12
                 },
                 "Miami Grand Prix": {
-                    "points": 18
+                    "points": 20
                 },
                 "Emilia Romagna Grand Prix": {
-                    "points": 26
+                    "points": 28
                 },
                 "Canadian Grand Prix": {
-                    "points": 34
+                    "points": 36
                 },
                 "Spanish Grand Prix": {
-                    "points": 44
+                    "points": 46
                 },
                 "Austrian Grand Prix": {
-                    "points": 44
+                    "points": 46
                 },
                 "British Grand Prix": {
-                    "points": 54
+                    "points": 56
+                },
+                "Hungarian Grand Prix": {
+                    "points": 62
                 }
             }
         }
@@ -96,7 +109,8 @@
                 "Canadian Grand Prix": "6",
                 "Spanish Grand Prix": "5",
                 "Austrian Grand Prix": "20",
-                "British Grand Prix": "5"
+                "British Grand Prix": "5",
+                "Hungarian Grand Prix": "7"
             }
         }
     },
@@ -114,7 +128,8 @@
                 "Canadian Grand Prix": "5",
                 "Spanish Grand Prix": "5",
                 "Austrian Grand Prix": "7",
-                "British Grand Prix": "6"
+                "British Grand Prix": "6",
+                "Hungarian Grand Prix": "5"
             }
         }
     },
@@ -176,6 +191,11 @@
                     "1:26.254",
                     "N/A",
                     "N/A"
+                ],
+                "Hungarian Grand Prix": [
+                    "1:15.441",
+                    "N/A",
+                    "N/A"
                 ]
             }
         }
@@ -185,7 +205,7 @@
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 54.0
+            "points": 62.0
         },
         "std": {
             "wins": 0.0,
@@ -215,10 +235,10 @@
         }
     },
     "avgRacePositions": {
-        "2024": 8.636363636363637
+        "2024": 8.5
     },
     "avgQualiPositions": {
-        "2024": 8.454545454545455
+        "2024": 8.16666666667
     },
     "rates": {
         "wins": {
@@ -229,11 +249,15 @@
         },
         "poles": {
             "2024": 0.0
-        }
+        },
+        "DNFs": {
+              "2024": 0.083
+          }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
+    "dnfRate": 0.083,
     "ptwConRate": {
         "2024": -1
     },
@@ -249,7 +273,8 @@
             "Canadian Grand Prix": -1,
             "Spanish Grand Prix": 0,
             "Austrian Grand Prix": -13,
-            "British Grand Prix": 1
+            "British Grand Prix": 1,
+            "Hungarian Grand Prix": -2
         }
     }
 }
