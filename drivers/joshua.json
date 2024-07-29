@@ -2,16 +2,16 @@
     "driverId": "joshua",
     "driverCode": "PEA",
     "driverNumber": "9",
-    "lastUpdate": "2024-07-22T18:45:43.238Z",
+    "lastUpdate": "2024-07-29T18:45:43.238Z",
     "totalWins": 0,
-    "totalPodiums": 0,
+    "totalPodiums": 1,
     "totalPoles": 0,
     "totalDNFs": 0,
     "seasonWins": {
         "2024": 0
     },
     "seasonPodiums": {
-        "2024": 0
+        "2024": 1
     },
     "seasonPoles": {
         "2024": 0
@@ -23,7 +23,7 @@
         "2024": {}
     },
     "podiums": {
-        "2024": {}
+        "2024": {"Belgian Grand Prix": "3"}
     },
     "DNFs": {
           "2024": {
@@ -41,14 +41,15 @@
             "Spanish Grand Prix": "N/A",
             "Austrian Grand Prix": "N/A",
             "British Grand Prix": "N/A",
-            "Hungarian Grand Prix": "N/A"
+            "Hungarian Grand Prix": "N/A",
+            "Belgian Grand Prix": "N/A"
         }
     },
     "finalStandings": {
         "2024": {
             "year": "2024",
             "position": "N/A",
-            "points": "46"
+            "points": "61"
         }
     },
     "posAfterRace": {
@@ -90,6 +91,9 @@
                 },
                 "Hungarian Grand Prix": {
                     "points": 46
+                },
+                "Belgian Grand Prix": {
+                    "points": 61
                 }
             }
         }
@@ -109,7 +113,8 @@
                 "Spanish Grand Prix": "7",
                 "Austrian Grand Prix": "7",
                 "British Grand Prix": "6",
-                "Hungarian Grand Prix": "6"
+                "Hungarian Grand Prix": "6",
+                "Belgian Grand Prix": "3"
             }
         }
     },
@@ -128,7 +133,8 @@
                 "Spanish Grand Prix": "7",
                 "Austrian Grand Prix": "10",
                 "British Grand Prix": "4",
-                "Hungarian Grand Prix": "4"
+                "Hungarian Grand Prix": "4",
+                "Belgian Grand Prix": "5"
             }
         }
     },
@@ -195,6 +201,11 @@
                     "1:15.330",
                     "N/A",
                     "N/A"
+                ],
+                "Belgian Grand Prix": [
+                    "1:53.968",
+                    "N/A",
+                    "N/A"
                 ]
             }
         }
@@ -202,9 +213,9 @@
     "consistency": {
         "mean": {
             "wins": 0.0,
-            "podiums": 0.0,
+            "podiums": 0.07692307692,
             "poles": 0.0,
-            "points": 46.0
+            "points": 4.69230769231
         },
         "std": {
             "wins": 0.0,
@@ -234,17 +245,17 @@
         }
     },
     "avgRacePositions": {
-        "2024": 9
+        "2024": 8.53846153846
     },
     "avgQualiPositions": {
-        "2024": 9.75
+        "2024": 9.38461538462
     },
     "rates": {
         "wins": {
             "2024": 0.0
         },
         "podiums": {
-            "2024": 0.0
+            "2024": 0.07692307692
         },
         "poles": {
             "2024": 0.0
@@ -254,7 +265,7 @@
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.0,
+    "podiumRate": 0.07692307692,
     "poleRate": 0.0,
     "dnfRate": 0.0,
     "ptwConRate": {
@@ -273,7 +284,8 @@
             "Spanish Grand Prix": 0,
             "Austrian Grand Prix": 3,
             "British Grand Prix": -2,
-            "Hungarian Grand Prix": -2
+            "Hungarian Grand Prix": -2,
+            "Belgian Grand Prix": 2
         }
     }
 }
