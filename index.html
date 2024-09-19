@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Information API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        pre {
+            background: #e8e8e8;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: "Courier New", Courier, monospace;
+            background: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Driver Information API</h1>
+        <h2>How to Access Driver Data</h2>
+        <p>To access the list of drivers available, use the following URL:</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/drivers/driversList.json</code></pre>
+        <p>To access the data of a specific driver, use the following URL format:</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/drivers/{driver_id}.json</code></pre>
+        <p>Replace <code>driver_id</code> with the actual ID of the driver you want to retrieve information about.</p>
+        <h3>Example</h3>
+        <p>To get information about the driver with ID <code>driver1</code>, you would use the following URL:</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/drivers/driver1.json</code></pre>
+        <h2>How to Access Drivers for a Constructor</h2>
+        <p>To access the drivers who drove for a particular constuctor in a particular year, use the following URL format:</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/constructors/{year}/{constructorId}.json</code></pre>
+        <p>Replace <code>year</code> with the actual year and <code>constructorId</code></p>
+        <h3>Example</h3>
+        <p>To get information regarding drivers of mercedes in year 2023, you would use the following URL:</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/constructors/2023/mercedes.json</code></pre>
+        <h2>How to Access Year-Wise Constructors</h2>
+        <p>To access the constructors participating/participated in a particular year, use the following URL format:</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/constructors/{year}.json</code></pre>
+        <p>Replace <code>year</code> with the actual year</p>
+        <h3>Example</h3>
+        <p>To get constructors participating in the year 2023, you would use the following URL:</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/constructors/2023.json</code></pre>
+        <h2>How to Access Constructor Colors</h2>
+        <p>To access the colors of teams in JSON format with team names as keys, use the following URL</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/colors/teams.json</code></pre>
+        <p>To access the colors of teams in JSON format with driver IDs as keys, use the following URL</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/colors/drivers.json</code></pre>
+    </div>
+</body>
+</html>
