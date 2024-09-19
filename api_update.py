@@ -359,7 +359,7 @@ def analyse_driverData():
         processed_data = process(input_file)
 
         f = open(output_file, "w", encoding='utf-8')
-        json.dump(processed_data, f, indent=4, ensure_ascii=False)
+        json.dump(processed_data, f, indent=4, ensure_ascii=False, cls=NpEncoder)
         f.close()
         print(files_done, input_file, output_file)
         print("---------------------------------------------")
@@ -404,7 +404,7 @@ def replace_NaN():
         if(data):
             updated_data = replace_nan_with_minus_one(data)
         f = open(output_file, "w", encoding='utf-8')
-        json.dump(updated_data, f, indent=4, ensure_ascii=False)
+        json.dump(updated_data, f, indent=4, ensure_ascii=False, cls=NpEncoder)
         f.close()
         print(files_done, input_file, output_file)
         print("-----------------------------------")
@@ -426,7 +426,7 @@ def update_races():
             data[str(season)][currentRace["meeting_name"]]["meeting_key"] = currentRace["meeting_key"]
             data[str(season)][currentRace["meeting_name"]]["location"] = currentRace["location"]
             with open('races/races.json', 'w', encoding='utf-8') as f:
-                json.dump(data, f, indent=4, ensure_ascii=False)
+                json.dump(data, f, indent=4, ensure_ascii=False, cls=NpEncoder)
             with open('races/racesbyMK.json', 'r', encoding='utf-8') as g:
                 result = json.load(g)
             result[currentRace["meeting_key"]] = {}
@@ -434,7 +434,7 @@ def update_races():
             result[currentRace["meeting_key"]]["location"] = currentRace["location"]
             result[currentRace["meeting_key"]]["year"] = str(season)
             with open('races/racesbyMK.json', 'w', encoding='utf-8') as g:
-                json.dump(result, g, indent=4, ensure_ascii=False)
+                json.dump(result, g, indent=4, ensure_ascii=False, cls=NpEncoder)
             
     print("Race Details updated successfully!")
 
@@ -455,7 +455,7 @@ def update_raceResults():
             else:
                 break
         with open(f'races/{season}/results.json', 'w', encoding='utf-8') as f:
-            json.dump(result, f, indent=4, ensure_ascii=False)
+            json.dump(result, f, indent=4, ensure_ascii=False, cls=NpEncoder)
 
     print("Race Results updated successfully!")
 
@@ -476,7 +476,7 @@ def update_qualifying():
             else:
                 break
         with open(f'races/{season}/qualifying.json', 'w', encoding='utf-8') as f:
-            json.dump(result, f, indent=4, ensure_ascii=False)
+            json.dump(result, f, indent=4, ensure_ascii=False, cls=NpEncoder)
 
     print("Qualifying results updated successfully!")
 
@@ -500,7 +500,7 @@ def update_driverStandings():
                 result['latest'] = prev
                 break
         with open(f'races/{season}/driverStandings.json', 'w', encoding='utf-8') as file:
-            json.dump(result, file, indent=4, ensure_ascii=False)
+            json.dump(result, file, indent=4, ensure_ascii=False, cls=NpEncoder)
 
     print('Driver Standings updated successfully!')
 
@@ -524,7 +524,7 @@ def update_constructorStandings():
                 result['latest'] = prev
                 break
         with open(f'races/{season}/constructorStandings.json', 'w', encoding='utf-8') as file:
-            json.dump(result, file, indent=4, ensure_ascii=False)
+            json.dump(result, file, indent=4, ensure_ascii=False, cls=NpEncoder)
 
     print('Constructor Standings updated successfully')
 
