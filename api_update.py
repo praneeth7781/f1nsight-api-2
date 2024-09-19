@@ -1,6 +1,16 @@
 import requests, json, os, datetime, math, numpy as np, shutil
 from datetime import datetime as dt
 
+class NpEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.integer):
+            return int(obj)
+        if isinstance(obj, np.floating):
+            return float(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return super(NpEncoder, self).default(obj)
+
 def update_constructors():
     season = 2024
     response = requests.get(f'https://ergast.com/api/f1/{season}/constructors.json')
@@ -141,7 +151,7 @@ def update_driverData():
             else:
                 print("url3", response3.status_code)
             f = open(output_file, "w", encoding='utf-8')
-            json.dump(data, f, indent=4, ensure_ascii=False)
+            json.dump(data, f, indent=4, ensure_ascii=False, cls=NpEncoder)
             f.close()
             drivers_done += 1
             print(drivers_done, output_file)
