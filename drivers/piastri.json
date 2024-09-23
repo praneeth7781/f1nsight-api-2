@@ -2,9 +2,9 @@
     "driverId": "piastri",
     "driverCode": "PIA",
     "driverNumber": "81",
-    "lastUpdate": "2024-09-19T11:20:27.029299",
+    "lastUpdate": "2024-09-23T10:22:54.741998",
     "totalWins": 2,
-    "totalPodiums": 8,
+    "totalPodiums": 9,
     "totalPoles": 0,
     "totalDNFs": 3,
     "seasonWins": {
@@ -13,7 +13,7 @@
     },
     "seasonPodiums": {
         "2023": 2,
-        "2024": 6
+        "2024": 7
     },
     "seasonPoles": {
         "2023": 0,
@@ -38,7 +38,8 @@
             "Hungarian Grand Prix": "1",
             "Belgian Grand Prix": "2",
             "Italian Grand Prix": "2",
-            "Azerbaijan Grand Prix": "1"
+            "Azerbaijan Grand Prix": "1",
+            "Singapore Grand Prix": "3"
         }
     },
     "DNFs": {
@@ -89,7 +90,8 @@
             "Belgian Grand Prix": "1:46.653",
             "Dutch Grand Prix": "1:14.237",
             "Italian Grand Prix": "1:21.943",
-            "Azerbaijan Grand Prix": "1:47.060"
+            "Azerbaijan Grand Prix": "1:47.060",
+            "Singapore Grand Prix": "1:35.745"
         }
     },
     "finalStandings": {
@@ -101,7 +103,7 @@
         "2024": {
             "year": "2024",
             "position": "4",
-            "points": "222"
+            "points": "237"
         }
     },
     "posAfterRace": {
@@ -229,6 +231,9 @@
                 },
                 "Azerbaijan Grand Prix": {
                     "points": 222
+                },
+                "Singapore Grand Prix": {
+                    "points": 237
                 }
             }
         }
@@ -280,7 +285,8 @@
                 "Belgian Grand Prix": "2",
                 "Dutch Grand Prix": "4",
                 "Italian Grand Prix": "2",
-                "Azerbaijan Grand Prix": "1"
+                "Azerbaijan Grand Prix": "1",
+                "Singapore Grand Prix": "3"
             }
         }
     },
@@ -331,7 +337,8 @@
                 "Belgian Grand Prix": "5",
                 "Dutch Grand Prix": "3",
                 "Italian Grand Prix": "2",
-                "Azerbaijan Grand Prix": "2"
+                "Azerbaijan Grand Prix": "2",
+                "Singapore Grand Prix": "5"
             }
         }
     },
@@ -538,6 +545,11 @@
                     "1:43.033",
                     "1:42.598",
                     "1:41.686"
+                ],
+                "Singapore Grand Prix": [
+                    "1:30.258",
+                    "1:29.640",
+                    "1:29.953"
                 ]
             }
         }
@@ -545,21 +557,21 @@
     "consistency": {
         "mean": {
             "wins": 1.0,
-            "podiums": 4.0,
+            "podiums": 4.5,
             "poles": 0.0,
-            "points": 159.5
+            "points": 167.0
         },
         "std": {
             "wins": 1.0,
-            "podiums": 2.0,
+            "podiums": 2.5,
             "poles": 0.0,
-            "points": 62.5
+            "points": 70.0
         },
         "cv": {
             "wins": 1.0,
-            "podiums": 0.5,
+            "podiums": 0.5555555555555556,
             "poles": 0,
-            "points": 0.39184952978056425
+            "points": 0.41916167664670656
         }
     },
     "peakSeason": {
@@ -569,7 +581,7 @@
         },
         "podiums": {
             "season": "2024",
-            "podiums": 6
+            "podiums": 7
         },
         "poles": {
             "season": "No peak season",
@@ -578,20 +590,20 @@
     },
     "avgRacePositions": {
         "2023": 10.909090909090908,
-        "2024": 4.647058823529412
+        "2024": 4.555555555555555
     },
     "avgQualiPositions": {
         "2023": 9.863636363636363,
-        "2024": 4.647058823529412
+        "2024": 4.666666666666667
     },
     "rates": {
         "wins": {
             "2023": 0.0,
-            "2024": 0.11764705882352941
+            "2024": 0.1111111111111111
         },
         "podiums": {
             "2023": 0.09090909090909091,
-            "2024": 0.35294117647058826
+            "2024": 0.3888888888888889
         },
         "poles": {
             "2023": 0.0,
@@ -602,10 +614,10 @@
             "2024": 0.0
         }
     },
-    "winRate": 0.05128205128205128,
-    "podiumRate": 0.20512820512820512,
+    "winRate": 0.05,
+    "podiumRate": 0.225,
     "poleRate": 0.0,
-    "dnfRate": 0.07692307692307693,
+    "dnfRate": 0.075,
     "ptwConRate": {
         "2023": -1,
         "2024": -1
@@ -652,7 +664,8 @@
             "Belgian Grand Prix": 3,
             "Dutch Grand Prix": -1,
             "Italian Grand Prix": 0,
-            "Azerbaijan Grand Prix": 1
+            "Azerbaijan Grand Prix": 1,
+            "Singapore Grand Prix": 2
         }
     }
 }
