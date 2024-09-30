@@ -1,7 +1,7 @@
 name: run api_update.py
 
 on:
-  # workflow_dispatch:
+  workflow_dispatch:
   schedule:
     - cron: '0 10 * * 1' # At 10:00 AM every Monday
   #   # - cron: '*/5 * * * *' # Every 5 minutes (for testing)
