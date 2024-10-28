@@ -180,7 +180,8 @@ def update_driverData():
                     if qualifyingit["round"] == round:
                         qualifying = qualifyingit["QualifyingResults"][0]
                         if qualifying["position"] == "1":
-                            data["poles"][season].append(raceName)
+                            if raceName not in data["poles"][season]:
+                                data["poles"][season].append(raceName)
                             data["seasonPoles"][season] = len(data["poles"][season])
                             data["totalPoles"] = sum(data["seasonPoles"].values())
 
