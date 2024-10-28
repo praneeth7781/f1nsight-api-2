@@ -2,9 +2,9 @@
     "driverId": "leclerc",
     "driverCode": "LEC",
     "driverNumber": "16",
-    "lastUpdate": "2024-10-21T12:14:10.274473",
+    "lastUpdate": "2024-10-28T06:41:08.294012",
     "totalWins": 8,
-    "totalPodiums": 40,
+    "totalPodiums": 41,
     "totalPoles": 28,
     "totalDNFs": 24,
     "seasonWins": {
@@ -23,7 +23,7 @@
         "2021": 1,
         "2022": 11,
         "2023": 6,
-        "2024": 10
+        "2024": 11
     },
     "seasonPoles": {
         "2018": 0,
@@ -137,7 +137,8 @@
             "Dutch Grand Prix": "3",
             "Italian Grand Prix": "1",
             "Azerbaijan Grand Prix": "2",
-            "United States Grand Prix": "1"
+            "United States Grand Prix": "1",
+            "Mexico City Grand Prix": "3"
         }
     },
     "DNFs": {
@@ -327,7 +328,8 @@
             "Italian Grand Prix": "1:23.226",
             "Azerbaijan Grand Prix": "1:47.067",
             "Singapore Grand Prix": "1:35.371",
-            "United States Grand Prix": "1:37.834"
+            "United States Grand Prix": "1:37.834",
+            "Mexico City Grand Prix": "1:18.336"
         }
     },
     "finalStandings": {
@@ -364,7 +366,7 @@
         "2024": {
             "year": "2024",
             "position": "3",
-            "points": "275"
+            "points": "291"
         }
     },
     "posAfterRace": {
@@ -832,6 +834,9 @@
                 },
                 "United States Grand Prix": {
                     "points": 275
+                },
+                "Mexico City Grand Prix": {
+                    "points": 291
                 }
             }
         }
@@ -1013,7 +1018,8 @@
                 "Italian Grand Prix": "1",
                 "Azerbaijan Grand Prix": "2",
                 "Singapore Grand Prix": "5",
-                "United States Grand Prix": "1"
+                "United States Grand Prix": "1",
+                "Mexico City Grand Prix": "3"
             }
         }
     },
@@ -1194,7 +1200,8 @@
                 "Italian Grand Prix": "4",
                 "Azerbaijan Grand Prix": "1",
                 "Singapore Grand Prix": "9",
-                "United States Grand Prix": "4"
+                "United States Grand Prix": "4",
+                "Mexico City Grand Prix": "4"
             }
         }
     },
@@ -1951,6 +1958,11 @@
                     "1:33.241",
                     "1:32.962",
                     "1:32.740"
+                ],
+                "Mexico City Grand Prix": [
+                    "1:16.972",
+                    "1:16.641",
+                    "1:16.265"
                 ]
             }
         }
@@ -1958,21 +1970,21 @@
     "consistency": {
         "mean": {
             "wins": 1.1428571428571428,
-            "podiums": 5.714285714285714,
+            "podiums": 5.857142857142857,
             "poles": 4.0,
-            "points": 192.71428571428572
+            "points": 195.0
         },
         "std": {
             "wins": 1.355261854357877,
-            "podiums": 4.3659162256960355,
+            "podiums": 4.5175395145262565,
             "poles": 3.2071349029490928,
-            "points": 91.85036633524315
+            "points": 94.04254356406997
         },
         "cv": {
             "wins": 1.1858541225631425,
-            "podiums": 0.7640353394968062,
+            "podiums": 0.7712872341874097,
             "poles": 0.8017837257372732,
-            "points": 0.47661420633558343
+            "points": 0.48226945417471784
         }
     },
     "peakSeason": {
@@ -1996,7 +2008,7 @@
         "2021": 7.7272727272727275,
         "2022": 5.5,
         "2023": 8.227272727272727,
-        "2024": 4.842105263157895
+        "2024": 4.75
     },
     "avgQualiPositions": {
         "2018": 12.476190476190476,
@@ -2005,7 +2017,7 @@
         "2021": 6.636363636363637,
         "2022": 3.0,
         "2023": 4.454545454545454,
-        "2024": 4.947368421052632
+        "2024": 4.9
     },
     "rates": {
         "wins": {
@@ -2015,7 +2027,7 @@
             "2021": 0.0,
             "2022": 0.13636363636363635,
             "2023": 0.0,
-            "2024": 0.15789473684210525
+            "2024": 0.15
         },
         "podiums": {
             "2018": 0.0,
@@ -2024,7 +2036,7 @@
             "2021": 0.045454545454545456,
             "2022": 0.5,
             "2023": 0.2727272727272727,
-            "2024": 0.5263157894736842
+            "2024": 0.55
         },
         "poles": {
             "2018": 0.0,
@@ -2033,7 +2045,7 @@
             "2021": 0.09090909090909091,
             "2022": 0.4090909090909091,
             "2023": 0.22727272727272727,
-            "2024": 0.2631578947368421
+            "2024": 0.25
         },
         "DNFs": {
             "2018": 0.2857142857142857,
@@ -2042,13 +2054,13 @@
             "2021": 0.09090909090909091,
             "2022": 0.13636363636363635,
             "2023": 0.22727272727272727,
-            "2024": 0.05263157894736842
+            "2024": 0.05
         }
     },
-    "winRate": 0.05555555555555555,
-    "podiumRate": 0.2777777777777778,
-    "poleRate": 0.19444444444444445,
-    "dnfRate": 0.16666666666666666,
+    "winRate": 0.05517241379310345,
+    "podiumRate": 0.2827586206896552,
+    "poleRate": 0.19310344827586207,
+    "dnfRate": 0.16551724137931034,
     "ptwConRate": {
         "2018": -1,
         "2019": 0.2857142857142857,
@@ -2215,7 +2227,8 @@
             "Italian Grand Prix": 3,
             "Azerbaijan Grand Prix": -1,
             "Singapore Grand Prix": 4,
-            "United States Grand Prix": 3
+            "United States Grand Prix": 3,
+            "Mexico City Grand Prix": 1
         }
     }
 }
