@@ -62,7 +62,7 @@ def update_driverData():
     import json
     import requests
 
-    url1 = '{api_url}/current/last/results.json'
+    url1 = f'{api_url}/current/last/results.json'
 
     response1 = requests.get(url1)
 
