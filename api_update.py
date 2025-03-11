@@ -1,7 +1,8 @@
 import requests, json, os, datetime, math, numpy as np, shutil
 from datetime import datetime as dt
 
-api_url = 'https://api.jolpi.ca/ergast/f1'
+# api_url = 'https://api.jolpi.ca/ergast/f1'
+api_url = 'http://ergast.com/api/f1'
 
 class NpEncoder(json.JSONEncoder):
     def default(self, obj):
