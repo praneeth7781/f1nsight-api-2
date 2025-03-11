@@ -1,6 +1,8 @@
 import requests, json, os, datetime, math, numpy as np, shutil
 from datetime import datetime as dt
 
+api_url = 'https://api.jolpi.ca/ergast/f1'
+
 class NpEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, np.integer):
@@ -13,7 +15,7 @@ class NpEncoder(json.JSONEncoder):
 
 def update_constructors():
     season = 2024
-    response = requests.get(f'https://ergast.com/api/f1/{season}/constructors.json')
+    response = requests.get(f'{api_url}/{season}/constructors.json')
     if response.status_code==200:
         responsedata = response.json()
         constructors = responsedata["MRData"]["ConstructorTable"]["Constructors"]
@@ -39,7 +41,7 @@ def update_constructor_drivers():
 
     def fetchDrivers(team):
         print(team)
-        response = requests.get(f'https://ergast.com/api/f1/{season}/constructors/{team}/drivers.json')
+        response = requests.get(f'{api_url}/{season}/constructors/{team}/drivers.json')
         if response.status_code==200:
             responsedata = response.json()
             drivers = responsedata["MRData"]["DriverTable"]["Drivers"]
@@ -60,7 +62,7 @@ def update_driverData():
     import json
     import requests
 
-    url1 = 'https://ergast.com/api/f1/current/last/results.json'
+    url1 = '{api_url}/current/last/results.json'
 
     response1 = requests.get(url1)
 
@@ -159,7 +161,7 @@ def update_driverData():
             data["qualiPosition"][season]["positions"][raceName] = result["grid"]
 
             # Update driver standings
-            url2 = f'https://ergast.com/api/f1/current/drivers/{driverId}/driverStandings.json'
+            url2 = f'{api_url}/current/drivers/{driverId}/driverStandings.json'
             response2 = requests.get(url2)
             if response2.status_code == 200:
                 responsedata2 = response2.json()
@@ -171,7 +173,7 @@ def update_driverData():
                 print("url2", response2.status_code)
 
             # Update qualifying results
-            url3 = f'https://ergast.com/api/f1/current/drivers/{driverId}/qualifying.json'
+            url3 = f'{api_url}/current/drivers/{driverId}/qualifying.json'
             response3 = requests.get(url3)
             if response3.status_code == 200:
                 responsedata3 = response3.json()
@@ -489,7 +491,7 @@ def update_raceResults():
         for race in races:
             if dt.strptime(race['date'], '%Y-%m-%d') < dt.now():
                 print(race['raceName'], season)
-                url = f'https://ergast.com/api/f1/{season}/{race["round"]}/results.json'
+                url = f'{api_url}/{season}/{race["round"]}/results.json'
                 response = requests.get(url)
                 # print(response)
                 responsedata = response.json()
@@ -510,7 +512,7 @@ def update_qualifying():
         for race in races:
             if dt.strptime(race['date'], '%Y-%m-%d') < dt.now():
                 print(race['raceName'], season)
-                url = f'https://ergast.com/api/f1/{season}/{race["round"]}/qualifying.json'
+                url = f'{api_url}/{season}/{race["round"]}/qualifying.json'
                 response = requests.get(url)
                 # print(response)
                 responsedata = response.json()
@@ -531,7 +533,7 @@ def update_driverStandings():
         for race in races:
             if dt.strptime(race['date'],'%Y-%m-%d') < dt.now():
                 print(race['raceName'], season)
-                url = f'https://ergast.com/api/f1/{season}/{race["round"]}/driverStandings.json'
+                url = f'{api_url}/{season}/{race["round"]}/driverStandings.json'
                 response = requests.get(url)
                 if response.status_code==200:
                     responsedata = response.json()
@@ -555,7 +557,7 @@ def update_constructorStandings():
         for race in races:
             if dt.strptime(race['date'],'%Y-%m-%d') < dt.now():
                 print(race['raceName'], season)
-                url = f'https://ergast.com/api/f1/{season}/{race["round"]}/constructorStandings.json'
+                url = f'{api_url}/{season}/{race["round"]}/constructorStandings.json'
                 response = requests.get(url)
                 if response.status_code==200:
                     responsedata = response.json()
