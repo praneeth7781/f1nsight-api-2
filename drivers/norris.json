@@ -2,9 +2,9 @@
     "driverId": "norris",
     "driverCode": "NOR",
     "driverNumber": "4",
-    "lastUpdate": "2025-03-23T14:45:27.516119",
+    "lastUpdate": "2025-03-24T10:23:44.344847",
     "totalWins": 5,
-    "totalPodiums": 27,
+    "totalPodiums": 28,
     "totalPoles": 10,
     "totalDNFs": 11,
     "seasonWins": {
@@ -23,7 +23,7 @@
         "2022": 1,
         "2023": 7,
         "2024": 13,
-        "2025": 1
+        "2025": 2
     },
     "seasonPoles": {
         "2019": 0,
@@ -104,7 +104,8 @@
             "Abu Dhabi Grand Prix": "1"
         },
         "2025": {
-            "Australian Grand Prix": "1"
+            "Australian Grand Prix": "1",
+            "Chinese Grand Prix": "2"
         }
     },
     "DNFs": {
@@ -271,7 +272,8 @@
             "Abu Dhabi Grand Prix": "1:27.438"
         },
         "2025": {
-            "Australian Grand Prix": "1:22.167"
+            "Australian Grand Prix": "1:22.167",
+            "Chinese Grand Prix": "1:35.454"
         }
     },
     "finalStandings": {
@@ -731,6 +733,9 @@
             "pos": {
                 "Australian Grand Prix": {
                     "points": 44
+                },
+                "Chinese Grand Prix": {
+                    "points": 44
                 }
             }
         }
@@ -897,7 +902,8 @@
         "2025": {
             "year": "2025",
             "positions": {
-                "Australian Grand Prix": "1"
+                "Australian Grand Prix": "1",
+                "Chinese Grand Prix": "2"
             }
         }
     },
@@ -1063,7 +1069,8 @@
         "2025": {
             "year": "2025",
             "positions": {
-                "Australian Grand Prix": "1"
+                "Australian Grand Prix": "1",
+                "Chinese Grand Prix": "3"
             }
         }
     },
@@ -1745,6 +1752,11 @@
                     "1:15.912",
                     "1:15.415",
                     "1:15.096"
+                ],
+                "Chinese Grand Prix": [
+                    "1:30.983",
+                    "1:30.787",
+                    "1:30.793"
                 ]
             }
         }
@@ -1752,19 +1764,19 @@
     "consistency": {
         "mean": {
             "wins": 0.7142857142857143,
-            "podiums": 3.857142857142857,
+            "podiums": 4.0,
             "poles": 1.4285714285714286,
             "points": 150.14285714285714
         },
         "std": {
             "wins": 1.3850513878332367,
-            "podiums": 4.356557337707687,
+            "podiums": 4.27617987059879,
             "poles": 2.718042512920064,
             "points": 105.78337510676992
         },
         "cv": {
             "wins": 1.9390719429665313,
-            "podiums": 1.1294778282945857,
+            "podiums": 1.0690449676496976,
             "poles": 1.9026297590440446,
             "points": 0.70455149928391
         }
@@ -1790,7 +1802,7 @@
         "2022": 8.772727272727273,
         "2023": 8.0,
         "2024": 4.291666666666667,
-        "2025": 1.0
+        "2025": 1.5
     },
     "avgQualiPositions": {
         "2019": 9.428571428571429,
@@ -1799,7 +1811,7 @@
         "2022": 8.045454545454545,
         "2023": 8.136363636363637,
         "2024": 3.4583333333333335,
-        "2025": 1.0
+        "2025": 2.0
     },
     "rates": {
         "wins": {
@@ -1809,7 +1821,7 @@
             "2022": 0.0,
             "2023": 0.0,
             "2024": 0.16666666666666666,
-            "2025": 1.0
+            "2025": 0.5
         },
         "podiums": {
             "2019": 0.0,
@@ -1827,7 +1839,7 @@
             "2022": 0.0,
             "2023": 0.0,
             "2024": 0.3333333333333333,
-            "2025": 1.0
+            "2025": 0.5
         },
         "DNFs": {
             "2019": 0.2857142857142857,
@@ -1839,10 +1851,10 @@
             "2025": 0.0
         }
     },
-    "winRate": 0.03875968992248062,
-    "podiumRate": 0.20930232558139536,
-    "poleRate": 0.07751937984496124,
-    "dnfRate": 0.08527131782945736,
+    "winRate": 0.038461538461538464,
+    "podiumRate": 0.2153846153846154,
+    "poleRate": 0.07692307692307693,
+    "dnfRate": 0.08461538461538462,
     "ptwConRate": {
         "2019": -1,
         "2020": -1,
@@ -1994,7 +2006,8 @@
             "Abu Dhabi Grand Prix": 0
         },
         "2025": {
-            "Australian Grand Prix": 0
+            "Australian Grand Prix": 0,
+            "Chinese Grand Prix": 1
         }
     }
 }

@@ -2,11 +2,11 @@
     "driverId": "gasly",
     "driverCode": "GAS",
     "driverNumber": "10",
-    "lastUpdate": "2025-03-23T14:45:34.658002",
+    "lastUpdate": "2025-03-24T10:23:57.015431",
     "totalWins": 1,
     "totalPodiums": 5,
     "totalPoles": 0,
-    "totalDNFs": 25,
+    "totalDNFs": 26,
     "seasonWins": {
         "2017": 0,
         "2018": 0,
@@ -49,7 +49,7 @@
         "2022": 3,
         "2023": 3,
         "2024": 4,
-        "2025": 0
+        "2025": 1
     },
     "poles": {
         "2017": [],
@@ -124,7 +124,9 @@
             "Hungarian Grand Prix": "Hydraulics",
             "Las Vegas Grand Prix": "Engine"
         },
-        "2025": {}
+        "2025": {
+            "Chinese Grand Prix": "Disqualified"
+        }
     },
     "fastLaps": {
         "2017": {
@@ -290,7 +292,8 @@
             "Abu Dhabi Grand Prix": "1:29.251"
         },
         "2025": {
-            "Australian Grand Prix": "1:25.020"
+            "Australian Grand Prix": "1:25.020",
+            "Chinese Grand Prix": -1
         }
     },
     "finalStandings": {
@@ -848,6 +851,9 @@
             "pos": {
                 "Australian Grand Prix": {
                     "points": 0
+                },
+                "Chinese Grand Prix": {
+                    "points": 0
                 }
             }
         }
@@ -1050,7 +1056,8 @@
         "2025": {
             "year": "2025",
             "positions": {
-                "Australian Grand Prix": "11"
+                "Australian Grand Prix": "11",
+                "Chinese Grand Prix": "20"
             }
         }
     },
@@ -1251,7 +1258,8 @@
         "2025": {
             "year": "2025",
             "positions": {
-                "Australian Grand Prix": "9"
+                "Australian Grand Prix": "9",
+                "Chinese Grand Prix": "16"
             }
         }
     },
@@ -2068,6 +2076,11 @@
                     "1:16.328",
                     "1:16.112",
                     "1:15.980"
+                ],
+                "Chinese Grand Prix": [
+                    "1:31.992",
+                    "N/A",
+                    "N/A"
                 ]
             }
         }
@@ -2115,7 +2128,7 @@
         "2022": 12.454545454545455,
         "2023": 10.681818181818182,
         "2024": 12.875,
-        "2025": 11.0
+        "2025": 15.5
     },
     "avgQualiPositions": {
         "2017": 16.5,
@@ -2126,7 +2139,7 @@
         "2022": 12.5,
         "2023": 11.045454545454545,
         "2024": 12.291666666666666,
-        "2025": 9.0
+        "2025": 12.5
     },
     "rates": {
         "wins": {
@@ -2171,13 +2184,13 @@
             "2022": 0.13636363636363635,
             "2023": 0.13636363636363635,
             "2024": 0.16666666666666666,
-            "2025": 0.0
+            "2025": 0.5
         }
     },
-    "winRate": 0.0064516129032258064,
-    "podiumRate": 0.03225806451612903,
+    "winRate": 0.00641025641025641,
+    "podiumRate": 0.03205128205128205,
     "poleRate": 0.0,
-    "dnfRate": 0.16129032258064516,
+    "dnfRate": 0.16666666666666666,
     "ptwConRate": {
         "2017": -1,
         "2018": -1,
@@ -2360,7 +2373,8 @@
             "Abu Dhabi Grand Prix": -2
         },
         "2025": {
-            "Australian Grand Prix": -2
+            "Australian Grand Prix": -2,
+            "Chinese Grand Prix": -4
         }
     }
 }
