@@ -2,25 +2,25 @@
     "driverId": "piastri",
     "driverCode": "PIA",
     "driverNumber": "81",
-    "lastUpdate": "2025-04-07T10:24:43.883967",
-    "totalWins": 3,
-    "totalPodiums": 12,
-    "totalPoles": 1,
+    "lastUpdate": "2025-04-14T10:24:44.326805",
+    "totalWins": 4,
+    "totalPodiums": 13,
+    "totalPoles": 2,
     "totalDNFs": 3,
     "seasonWins": {
         "2023": 0,
         "2024": 2,
-        "2025": 1
+        "2025": 2
     },
     "seasonPodiums": {
         "2023": 2,
         "2024": 8,
-        "2025": 2
+        "2025": 3
     },
     "seasonPoles": {
         "2023": 0,
         "2024": 0,
-        "2025": 1
+        "2025": 2
     },
     "seasonDNFs": {
         "2023": 3,
@@ -31,7 +31,8 @@
         "2023": [],
         "2024": [],
         "2025": [
-            "Chinese Grand Prix"
+            "Chinese Grand Prix",
+            "Bahrain Grand Prix"
         ]
     },
     "podiums": {
@@ -51,7 +52,8 @@
         },
         "2025": {
             "Chinese Grand Prix": "1",
-            "Japanese Grand Prix": "3"
+            "Japanese Grand Prix": "3",
+            "Bahrain Grand Prix": "1"
         }
     },
     "DNFs": {
@@ -115,7 +117,8 @@
         "2025": {
             "Australian Grand Prix": "1:23.242",
             "Chinese Grand Prix": "1:35.520",
-            "Japanese Grand Prix": "1:31.039"
+            "Japanese Grand Prix": "1:31.039",
+            "Bahrain Grand Prix": "1:35.140"
         }
     },
     "finalStandings": {
@@ -131,8 +134,8 @@
         },
         "2025": {
             "year": "2025",
-            "position": "3",
-            "points": "49"
+            "position": "2",
+            "points": "74"
         }
     },
     "posAfterRace": {
@@ -295,6 +298,9 @@
                 },
                 "Japanese Grand Prix": {
                     "points": 49
+                },
+                "Bahrain Grand Prix": {
+                    "points": 74
                 }
             }
         }
@@ -361,7 +367,8 @@
             "positions": {
                 "Australian Grand Prix": "9",
                 "Chinese Grand Prix": "1",
-                "Japanese Grand Prix": "3"
+                "Japanese Grand Prix": "3",
+                "Bahrain Grand Prix": "1"
             }
         }
     },
@@ -427,7 +434,8 @@
             "positions": {
                 "Australian Grand Prix": "2",
                 "Chinese Grand Prix": "1",
-                "Japanese Grand Prix": "3"
+                "Japanese Grand Prix": "3",
+                "Bahrain Grand Prix": "1"
             }
         }
     },
@@ -689,28 +697,33 @@
                     "1:27.687",
                     "1:27.507",
                     "1:27.027"
+                ],
+                "Bahrain Grand Prix": [
+                    "1:31.392",
+                    "1:30.454",
+                    "1:29.841"
                 ]
             }
         }
     },
     "consistency": {
         "mean": {
-            "wins": 1.0,
-            "podiums": 4.0,
-            "poles": 0.3333333333333333,
-            "points": 146.0
+            "wins": 1.3333333333333333,
+            "podiums": 4.333333333333333,
+            "poles": 0.6666666666666666,
+            "points": 154.33333333333334
         },
         "std": {
-            "wins": 0.816496580927726,
-            "podiums": 2.8284271247461903,
-            "poles": 0.4714045207910317,
-            "points": 105.08092119885512
+            "wins": 0.9428090415820634,
+            "podiums": 2.6246692913372702,
+            "poles": 0.9428090415820634,
+            "points": 97.79684157590276
         },
         "cv": {
-            "wins": 0.816496580927726,
-            "podiums": 0.7071067811865476,
+            "wins": 0.7071067811865476,
+            "podiums": 0.6056929133855239,
             "poles": 1.4142135623730951,
-            "points": 0.7197323369784597
+            "points": 0.6336728395846831
         }
     },
     "peakSeason": {
@@ -724,34 +737,34 @@
         },
         "poles": {
             "season": "2025",
-            "poles": 1
+            "poles": 2
         }
     },
     "avgRacePositions": {
         "2023": 10.909090909090908,
         "2024": 5.125,
-        "2025": 4.333333333333333
+        "2025": 3.5
     },
     "avgQualiPositions": {
         "2023": 9.863636363636363,
         "2024": 5.333333333333333,
-        "2025": 2.0
+        "2025": 1.75
     },
     "rates": {
         "wins": {
             "2023": 0.0,
             "2024": 0.08333333333333333,
-            "2025": 0.3333333333333333
+            "2025": 0.5
         },
         "podiums": {
             "2023": 0.09090909090909091,
             "2024": 0.3333333333333333,
-            "2025": 0.6666666666666666
+            "2025": 0.75
         },
         "poles": {
             "2023": 0.0,
             "2024": 0.0,
-            "2025": 0.3333333333333333
+            "2025": 0.5
         },
         "DNFs": {
             "2023": 0.13636363636363635,
@@ -759,10 +772,10 @@
             "2025": 0.0
         }
     },
-    "winRate": 0.061224489795918366,
-    "podiumRate": 0.24489795918367346,
-    "poleRate": 0.02040816326530612,
-    "dnfRate": 0.061224489795918366,
+    "winRate": 0.08,
+    "podiumRate": 0.26,
+    "poleRate": 0.04,
+    "dnfRate": 0.06,
     "ptwConRate": {
         "2023": -1,
         "2024": -1,
@@ -822,7 +835,8 @@
         "2025": {
             "Australian Grand Prix": -7,
             "Chinese Grand Prix": 0,
-            "Japanese Grand Prix": 0
+            "Japanese Grand Prix": 0,
+            "Bahrain Grand Prix": 0
         }
     }
 }

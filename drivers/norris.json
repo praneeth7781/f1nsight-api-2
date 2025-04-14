@@ -2,9 +2,9 @@
     "driverId": "norris",
     "driverCode": "NOR",
     "driverNumber": "4",
-    "lastUpdate": "2025-04-07T10:24:42.456342",
+    "lastUpdate": "2025-04-14T10:24:47.100011",
     "totalWins": 5,
-    "totalPodiums": 29,
+    "totalPodiums": 30,
     "totalPoles": 10,
     "totalDNFs": 11,
     "seasonWins": {
@@ -23,7 +23,7 @@
         "2022": 1,
         "2023": 7,
         "2024": 13,
-        "2025": 3
+        "2025": 4
     },
     "seasonPoles": {
         "2019": 0,
@@ -106,7 +106,8 @@
         "2025": {
             "Australian Grand Prix": "1",
             "Chinese Grand Prix": "2",
-            "Japanese Grand Prix": "2"
+            "Japanese Grand Prix": "2",
+            "Bahrain Grand Prix": "3"
         }
     },
     "DNFs": {
@@ -275,7 +276,8 @@
         "2025": {
             "Australian Grand Prix": "1:22.167",
             "Chinese Grand Prix": "1:35.454",
-            "Japanese Grand Prix": "1:31.116"
+            "Japanese Grand Prix": "1:31.116",
+            "Bahrain Grand Prix": "1:35.728"
         }
     },
     "finalStandings": {
@@ -312,7 +314,7 @@
         "2025": {
             "year": "2025",
             "position": "1",
-            "points": "62"
+            "points": "77"
         }
     },
     "posAfterRace": {
@@ -741,6 +743,9 @@
                 },
                 "Japanese Grand Prix": {
                     "points": 62
+                },
+                "Bahrain Grand Prix": {
+                    "points": 77
                 }
             }
         }
@@ -909,7 +914,8 @@
             "positions": {
                 "Australian Grand Prix": "1",
                 "Chinese Grand Prix": "2",
-                "Japanese Grand Prix": "2"
+                "Japanese Grand Prix": "2",
+                "Bahrain Grand Prix": "3"
             }
         }
     },
@@ -1077,7 +1083,8 @@
             "positions": {
                 "Australian Grand Prix": "1",
                 "Chinese Grand Prix": "3",
-                "Japanese Grand Prix": "2"
+                "Japanese Grand Prix": "2",
+                "Bahrain Grand Prix": "6"
             }
         }
     },
@@ -1769,6 +1776,11 @@
                     "1:27.845",
                     "1:27.146",
                     "1:26.995"
+                ],
+                "Bahrain Grand Prix": [
+                    "1:31.107",
+                    "1:30.560",
+                    "1:30.267"
                 ]
             }
         }
@@ -1776,21 +1788,21 @@
     "consistency": {
         "mean": {
             "wins": 0.7142857142857143,
-            "podiums": 4.142857142857143,
+            "podiums": 4.285714285714286,
             "poles": 1.4285714285714286,
-            "points": 152.71428571428572
+            "points": 154.85714285714286
         },
         "std": {
             "wins": 1.3850513878332367,
-            "podiums": 4.2233558568841385,
+            "podiums": 4.199125273342592,
             "poles": 2.718042512920064,
-            "points": 103.36304159295496
+            "points": 101.60065884407945
         },
         "cv": {
             "wins": 1.9390719429665313,
-            "podiums": 1.0194307240754816,
+            "podiums": 0.9797958971132714,
             "poles": 1.9026297590440446,
-            "points": 0.6768393743224366
+            "points": 0.6560928154137972
         }
     },
     "peakSeason": {
@@ -1814,7 +1826,7 @@
         "2022": 8.772727272727273,
         "2023": 8.0,
         "2024": 4.291666666666667,
-        "2025": 1.6666666666666667
+        "2025": 2.0
     },
     "avgQualiPositions": {
         "2019": 9.428571428571429,
@@ -1823,7 +1835,7 @@
         "2022": 8.045454545454545,
         "2023": 8.136363636363637,
         "2024": 3.4583333333333335,
-        "2025": 2.0
+        "2025": 3.0
     },
     "rates": {
         "wins": {
@@ -1833,7 +1845,7 @@
             "2022": 0.0,
             "2023": 0.0,
             "2024": 0.16666666666666666,
-            "2025": 0.3333333333333333
+            "2025": 0.25
         },
         "podiums": {
             "2019": 0.0,
@@ -1851,7 +1863,7 @@
             "2022": 0.0,
             "2023": 0.0,
             "2024": 0.3333333333333333,
-            "2025": 0.3333333333333333
+            "2025": 0.25
         },
         "DNFs": {
             "2019": 0.2857142857142857,
@@ -1863,10 +1875,10 @@
             "2025": 0.0
         }
     },
-    "winRate": 0.03816793893129771,
-    "podiumRate": 0.22137404580152673,
-    "poleRate": 0.07633587786259542,
-    "dnfRate": 0.08396946564885496,
+    "winRate": 0.03787878787878788,
+    "podiumRate": 0.22727272727272727,
+    "poleRate": 0.07575757575757576,
+    "dnfRate": 0.08333333333333333,
     "ptwConRate": {
         "2019": -1,
         "2020": -1,
@@ -2020,7 +2032,8 @@
         "2025": {
             "Australian Grand Prix": 0,
             "Chinese Grand Prix": 1,
-            "Japanese Grand Prix": 0
+            "Japanese Grand Prix": 0,
+            "Bahrain Grand Prix": 3
         }
     }
 }
