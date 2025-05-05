@@ -1,4 +1,5 @@
 import requests, json, os, datetime, math, numpy as np, shutil
+import time
 from datetime import datetime as dt
 
 api_url = 'https://api.jolpi.ca/ergast/f1'
@@ -663,20 +664,39 @@ def update_driverStandings():
         prev = []  # Initialize prev with an empty list
         
         for race in races:
-            if dt.strptime(race['date'], '%Y-%m-%d') < dt.now():
+            race_date = dt.strptime(race['date'], '%Y-%m-%d')
+            if race_date < dt.now():
                 print(race['raceName'], season)
                 url = f'{api_url}/{season}/{race["round"]}/driverStandings.json'
-                response = requests.get(url)
-                if response.status_code == 200:
-                    responsedata = response.json()
-                    if ('MRData' in responsedata and 'StandingsTable' in responsedata['MRData'] and 
-                        'StandingsLists' in responsedata['MRData']['StandingsTable'] and 
-                        len(responsedata['MRData']['StandingsTable']['StandingsLists']) > 0 and
-                        'DriverStandings' in responsedata['MRData']['StandingsTable']['StandingsLists'][0]):
-                        result[race['round']] = responsedata['MRData']['StandingsTable']['StandingsLists'][0]['DriverStandings']
-                        prev = result[race['round']]
+                
+                # retry logic parameters
+                max_retries = 5
+                wait_time = 10  # start with 10 second
+                for attempt in range(1, max_retries + 1):
+                    response = requests.get(url)
+                    if response.status_code == 200:
+                        data = response.json()
+                        mt = data.get('MRData', {}).get('StandingsTable', {}) \
+                                 .get('StandingsLists', [])
+                        if mt and 'DriverStandings' in mt[0]:
+                            result[race['round']] = mt[0]['DriverStandings']
+                            prev = result[race['round']]
+                        break
+                    elif response.status_code == 429:
+                        # Too many requests: back off
+                        retry_after = response.headers.get('Retry-After')
+                        if retry_after is not None:
+                            sleep_for = int(retry_after)
+                        else:
+                            sleep_for = wait_time
+                            wait_time = min(wait_time * 2, 60)  # cap at 60s
+                        print(f"Rate limited (429). Waiting {sleep_for}s before retry {attempt}/{max_retries}...")
+                        time.sleep(sleep_for)
+                    else:
+                        print(f"Failed to get driver standings for {race['raceName']} (Status: {response.status_code})")
+                        break
                 else:
-                    print(f"Failed to get driver standings for {race['raceName']} (Status: {response.status_code})")
+                    print(f"Exceeded max retries for {race['raceName']}, skipping.")
             else:
                 if prev:  # Only add 'latest' if prev has been set
                     result['latest'] = prev
@@ -705,20 +725,42 @@ def update_constructorStandings():
         prev = []  # Initialize prev with an empty list
         
         for race in races:
-            if dt.strptime(race['date'], '%Y-%m-%d') < dt.now():
+            race_date = dt.strptime(race['date'], '%Y-%m-%d')
+            if race_date < dt.now():
                 print(race['raceName'], season)
                 url = f'{api_url}/{season}/{race["round"]}/constructorStandings.json'
-                response = requests.get(url)
-                if response.status_code == 200:
-                    responsedata = response.json()
-                    if ('MRData' in responsedata and 'StandingsTable' in responsedata['MRData'] and 
-                        'StandingsLists' in responsedata['MRData']['StandingsTable'] and 
-                        len(responsedata['MRData']['StandingsTable']['StandingsLists']) > 0 and
-                        'ConstructorStandings' in responsedata['MRData']['StandingsTable']['StandingsLists'][0]):
-                        result[race['round']] = responsedata['MRData']['StandingsTable']['StandingsLists'][0]['ConstructorStandings']
-                        prev = result[race['round']]
+                
+                # retry logic parameters
+                max_retries = 5
+                wait_time = 10  # start with 10 second
+                for attempt in range(1, max_retries + 1):
+                    response = requests.get(url)
+                    if response.status_code == 200:
+                        data = response.json()
+                        standings_lists = (
+                            data.get('MRData', {})
+                                .get('StandingsTable', {})
+                                .get('StandingsLists', [])
+                        )
+                        if standings_lists and 'ConstructorStandings' in standings_lists[0]:
+                            result[race['round']] = standings_lists[0]['ConstructorStandings']
+                            prev = result[race['round']]
+                        break
+                    elif response.status_code == 429:
+                        # Too many requests: back off
+                        retry_after = response.headers.get('Retry-After')
+                        if retry_after is not None:
+                            sleep_for = int(retry_after)
+                        else:
+                            sleep_for = wait_time
+                            wait_time = min(wait_time * 2, 60)  # cap at 60s
+                        print(f"Rate limited (429). Waiting {sleep_for}s before retry {attempt}/{max_retries}...")
+                        time.sleep(sleep_for)
+                    else:
+                        print(f"Failed to get constructor standings for {race['raceName']} (Status: {response.status_code})")
+                        break
                 else:
-                    print(f"Failed to get constructor standings for {race['raceName']} (Status: {response.status_code})")
+                    print(f"Exceeded max retries for {race['raceName']}, skipping.")
             else:
                 if prev:  # Only add 'latest' if prev has been set
                     result['latest'] = prev
@@ -729,7 +771,6 @@ def update_constructorStandings():
             json.dump(result, file, indent=4, ensure_ascii=False, cls=NpEncoder)
 
     print('Constructor Standings updated successfully!')
-
 # This function is no longer needed as its functionality is included in update_all()
 def initialize_race_details():
     """Initialize race details file for current season if it doesn't exist"""
