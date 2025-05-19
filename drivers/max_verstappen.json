@@ -2,9 +2,9 @@
     "driverId": "max_verstappen",
     "driverCode": "VER",
     "driverNumber": "33",
-    "lastUpdate": "2025-05-12T10:25:43.432124",
-    "totalWins": 64,
-    "totalPodiums": 115,
+    "lastUpdate": "2025-05-19T10:25:26.615254",
+    "totalWins": 65,
+    "totalPodiums": 116,
     "totalPoles": 44,
     "totalDNFs": 32,
     "seasonWins": {
@@ -18,7 +18,7 @@
         "2022": 15,
         "2023": 19,
         "2024": 9,
-        "2025": 1
+        "2025": 2
     },
     "seasonPodiums": {
         "2015": 0,
@@ -31,7 +31,7 @@
         "2022": 17,
         "2023": 21,
         "2024": 14,
-        "2025": 3
+        "2025": 4
     },
     "seasonPoles": {
         "2015": 0,
@@ -258,7 +258,8 @@
         "2025": {
             "Australian Grand Prix": "2",
             "Japanese Grand Prix": "1",
-            "Saudi Arabian Grand Prix": "2"
+            "Saudi Arabian Grand Prix": "2",
+            "Emilia Romagna Grand Prix": "1"
         }
     },
     "DNFs": {
@@ -541,7 +542,8 @@
             "Japanese Grand Prix": "1:31.041",
             "Bahrain Grand Prix": "1:36.167",
             "Saudi Arabian Grand Prix": "1:32.280",
-            "Miami Grand Prix": "1:30.466"
+            "Miami Grand Prix": "1:30.466",
+            "Emilia Romagna Grand Prix": "1:17.988"
         }
     },
     "finalStandings": {
@@ -598,7 +600,7 @@
         "2025": {
             "year": "2025",
             "position": "3",
-            "points": "99"
+            "points": "124"
         }
     },
     "posAfterRace": {
@@ -1299,6 +1301,9 @@
                 },
                 "Miami Grand Prix": {
                     "points": 99
+                },
+                "Emilia Romagna Grand Prix": {
+                    "points": 124
                 }
             }
         }
@@ -1571,7 +1576,8 @@
                 "Japanese Grand Prix": "1",
                 "Bahrain Grand Prix": "6",
                 "Saudi Arabian Grand Prix": "2",
-                "Miami Grand Prix": "4"
+                "Miami Grand Prix": "4",
+                "Emilia Romagna Grand Prix": "1"
             }
         }
     },
@@ -1843,7 +1849,8 @@
                 "Japanese Grand Prix": "1",
                 "Bahrain Grand Prix": "7",
                 "Saudi Arabian Grand Prix": "1",
-                "Miami Grand Prix": "1"
+                "Miami Grand Prix": "1",
+                "Emilia Romagna Grand Prix": "2"
             }
         }
     },
@@ -2975,28 +2982,33 @@
                     "1:26.870",
                     "1:26.643",
                     "1:26.204"
+                ],
+                "Emilia Romagna Grand Prix": [
+                    "1:15.175",
+                    "1:15.394",
+                    "1:14.704"
                 ]
             }
         }
     },
     "consistency": {
         "mean": {
-            "wins": 5.818181818181818,
-            "podiums": 10.454545454545455,
+            "wins": 5.909090909090909,
+            "podiums": 10.545454545454545,
             "poles": 4.0,
-            "points": 283.8636363636364
+            "points": 286.1363636363636
         },
         "std": {
-            "wins": 6.1617320737565615,
-            "podiums": 6.358439436380258,
+            "wins": 6.0970118680389875,
+            "podiums": 6.257557414310189,
             "poles": 4.390071442781686,
-            "points": 155.1799675024118
+            "points": 152.61777730793102
         },
         "cv": {
-            "wins": 1.059047700176909,
-            "podiums": 0.6081985547841986,
+            "wins": 1.0318020084373671,
+            "podiums": 0.5933890651501041,
             "poles": 1.0975178606954215,
-            "points": 0.5466708222663026
+            "points": 0.5333742812985676
         }
     },
     "peakSeason": {
@@ -3024,7 +3036,7 @@
         "2022": 3.5,
         "2023": 1.2727272727272727,
         "2024": 3.625,
-        "2025": 3.1666666666666665
+        "2025": 2.857142857142857
     },
     "avgQualiPositions": {
         "2015": 11.0,
@@ -3037,7 +3049,7 @@
         "2022": 2.590909090909091,
         "2023": 3.0,
         "2024": 3.5416666666666665,
-        "2025": 2.8333333333333335
+        "2025": 2.7142857142857144
     },
     "rates": {
         "wins": {
@@ -3051,7 +3063,7 @@
             "2022": 0.6818181818181818,
             "2023": 0.8636363636363636,
             "2024": 0.375,
-            "2025": 0.16666666666666666
+            "2025": 0.2857142857142857
         },
         "podiums": {
             "2015": 0.0,
@@ -3064,7 +3076,7 @@
             "2022": 0.7727272727272727,
             "2023": 0.9545454545454546,
             "2024": 0.5833333333333334,
-            "2025": 0.5
+            "2025": 0.5714285714285714
         },
         "poles": {
             "2015": 0.0,
@@ -3077,7 +3089,7 @@
             "2022": 0.3181818181818182,
             "2023": 0.5454545454545454,
             "2024": 0.375,
-            "2025": 0.5
+            "2025": 0.42857142857142855
         },
         "DNFs": {
             "2015": 0.2631578947368421,
@@ -3093,10 +3105,10 @@
             "2025": 0.0
         }
     },
-    "winRate": 0.29767441860465116,
-    "podiumRate": 0.5348837209302325,
-    "poleRate": 0.20465116279069767,
-    "dnfRate": 0.14883720930232558,
+    "winRate": 0.30092592592592593,
+    "podiumRate": 0.5370370370370371,
+    "poleRate": 0.2037037037037037,
+    "dnfRate": 0.14814814814814814,
     "ptwConRate": {
         "2015": -1,
         "2016": -1,
@@ -3346,7 +3358,8 @@
             "Japanese Grand Prix": 0,
             "Bahrain Grand Prix": 1,
             "Saudi Arabian Grand Prix": -1,
-            "Miami Grand Prix": -3
+            "Miami Grand Prix": -3,
+            "Emilia Romagna Grand Prix": 1
         }
     }
 }

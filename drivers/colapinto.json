@@ -2,35 +2,42 @@
     "driverId": "colapinto",
     "driverCode": "COL",
     "driverNumber": "43",
-    "lastUpdate": "2025-03-17T10:24:31.229415",
+    "lastUpdate": "2025-05-19T10:25:37.211066",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
     "totalDNFs": 3,
     "seasonWins": {
-        "2024": 0
+        "2024": 0,
+        "2025": 0
     },
     "seasonPodiums": {
-        "2024": 0
+        "2024": 0,
+        "2025": 0
     },
     "seasonPoles": {
-        "2024": 0
+        "2024": 0,
+        "2025": 0
     },
     "seasonDNFs": {
-        "2024": 3
+        "2024": 3,
+        "2025": 0
     },
     "poles": {
-        "2024": []
+        "2024": [],
+        "2025": []
     },
     "podiums": {
-        "2024": {}
+        "2024": {},
+        "2025": {}
     },
     "DNFs": {
         "2024": {
             "São Paulo Grand Prix": "Accident",
             "Qatar Grand Prix": "Collision",
             "Abu Dhabi Grand Prix": "Engine"
-        }
+        },
+        "2025": {}
     },
     "fastLaps": {
         "2024": {
@@ -43,6 +50,9 @@
             "Las Vegas Grand Prix": "1:36.867",
             "Qatar Grand Prix": -1,
             "Abu Dhabi Grand Prix": "1:29.411"
+        },
+        "2025": {
+            "Emilia Romagna Grand Prix": "1:20.345"
         }
     },
     "finalStandings": {
@@ -50,6 +60,11 @@
             "year": "2024",
             "position": "19",
             "points": "5"
+        },
+        "2025": {
+            "year": "2025",
+            "position": "21",
+            "points": "0"
         }
     },
     "posAfterRace": {
@@ -84,6 +99,14 @@
                     "points": 5
                 }
             }
+        },
+        "2025": {
+            "year": "2025",
+            "pos": {
+                "Emilia Romagna Grand Prix": {
+                    "points": 0
+                }
+            }
         }
     },
     "racePosition": {
@@ -100,6 +123,12 @@
                 "Qatar Grand Prix": "19",
                 "Abu Dhabi Grand Prix": "19"
             }
+        },
+        "2025": {
+            "year": "2025",
+            "positions": {
+                "Emilia Romagna Grand Prix": "16"
+            }
         }
     },
     "qualiPosition": {
@@ -115,6 +144,12 @@
                 "Las Vegas Grand Prix": "0",
                 "Qatar Grand Prix": "19",
                 "Abu Dhabi Grand Prix": "20"
+            }
+        },
+        "2025": {
+            "year": "2025",
+            "positions": {
+                "Emilia Romagna Grand Prix": "16"
             }
         }
     },
@@ -168,6 +203,16 @@
                     "N/A"
                 ]
             }
+        },
+        "2025": {
+            "year": "2025",
+            "QualiTimes": {
+                "Emilia Romagna Grand Prix": [
+                    "1:16.256",
+                    "",
+                    "N/A"
+                ]
+            }
         }
     },
     "consistency": {
@@ -175,19 +220,19 @@
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 5.0
+            "points": 2.5
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 0.0
+            "points": 2.5
         },
         "cv": {
             "wins": 0,
             "podiums": 0,
             "poles": 0,
-            "points": 0.0
+            "points": 1.0
         }
     },
     "peakSeason": {
@@ -205,31 +250,38 @@
         }
     },
     "avgRacePositions": {
-        "2024": 13.555555555555555
+        "2024": 13.555555555555555,
+        "2025": 16.0
     },
     "avgQualiPositions": {
-        "2024": 13.777777777777779
+        "2024": 13.777777777777779,
+        "2025": 16.0
     },
     "rates": {
         "wins": {
-            "2024": 0.0
+            "2024": 0.0,
+            "2025": 0.0
         },
         "podiums": {
-            "2024": 0.0
+            "2024": 0.0,
+            "2025": 0.0
         },
         "poles": {
-            "2024": 0.0
+            "2024": 0.0,
+            "2025": 0.0
         },
         "DNFs": {
-            "2024": 0.3333333333333333
+            "2024": 0.3333333333333333,
+            "2025": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.3333333333333333,
+    "dnfRate": 0.3,
     "ptwConRate": {
-        "2024": -1
+        "2024": -1,
+        "2025": -1
     },
     "positionsGainLost": {
         "2024": {
@@ -242,6 +294,9 @@
             "Las Vegas Grand Prix": -14,
             "Qatar Grand Prix": 0,
             "Abu Dhabi Grand Prix": 1
+        },
+        "2025": {
+            "Emilia Romagna Grand Prix": 0
         }
     }
 }
