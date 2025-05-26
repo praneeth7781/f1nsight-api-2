@@ -2,10 +2,10 @@
     "driverId": "norris",
     "driverCode": "NOR",
     "driverNumber": "4",
-    "lastUpdate": "2025-05-19T10:25:27.411202",
-    "totalWins": 5,
-    "totalPodiums": 32,
-    "totalPoles": 10,
+    "lastUpdate": "2025-05-26T10:26:58.143013",
+    "totalWins": 6,
+    "totalPodiums": 33,
+    "totalPoles": 11,
     "totalDNFs": 11,
     "seasonWins": {
         "2019": 0,
@@ -14,7 +14,7 @@
         "2022": 0,
         "2023": 0,
         "2024": 4,
-        "2025": 1
+        "2025": 2
     },
     "seasonPodiums": {
         "2019": 0,
@@ -23,7 +23,7 @@
         "2022": 1,
         "2023": 7,
         "2024": 13,
-        "2025": 6
+        "2025": 7
     },
     "seasonPoles": {
         "2019": 0,
@@ -32,7 +32,7 @@
         "2022": 0,
         "2023": 0,
         "2024": 8,
-        "2025": 1
+        "2025": 2
     },
     "seasonDNFs": {
         "2019": 6,
@@ -62,7 +62,8 @@
             "Abu Dhabi Grand Prix"
         ],
         "2025": [
-            "Australian Grand Prix"
+            "Australian Grand Prix",
+            "Monaco Grand Prix"
         ]
     },
     "podiums": {
@@ -109,7 +110,8 @@
             "Japanese Grand Prix": "2",
             "Bahrain Grand Prix": "3",
             "Miami Grand Prix": "2",
-            "Emilia Romagna Grand Prix": "2"
+            "Emilia Romagna Grand Prix": "2",
+            "Monaco Grand Prix": "1"
         }
     },
     "DNFs": {
@@ -282,7 +284,8 @@
             "Bahrain Grand Prix": "1:35.728",
             "Saudi Arabian Grand Prix": "1:31.778",
             "Miami Grand Prix": "1:29.746",
-            "Emilia Romagna Grand Prix": "1:18.311"
+            "Emilia Romagna Grand Prix": "1:18.311",
+            "Monaco Grand Prix": "1:13.221"
         }
     },
     "finalStandings": {
@@ -319,7 +322,7 @@
         "2025": {
             "year": "2025",
             "position": "2",
-            "points": "133"
+            "points": "158"
         }
     },
     "posAfterRace": {
@@ -760,6 +763,9 @@
                 },
                 "Emilia Romagna Grand Prix": {
                     "points": 133
+                },
+                "Monaco Grand Prix": {
+                    "points": 158
                 }
             }
         }
@@ -932,7 +938,8 @@
                 "Bahrain Grand Prix": "3",
                 "Saudi Arabian Grand Prix": "4",
                 "Miami Grand Prix": "2",
-                "Emilia Romagna Grand Prix": "2"
+                "Emilia Romagna Grand Prix": "2",
+                "Monaco Grand Prix": "1"
             }
         }
     },
@@ -1104,7 +1111,8 @@
                 "Bahrain Grand Prix": "6",
                 "Saudi Arabian Grand Prix": "10",
                 "Miami Grand Prix": "2",
-                "Emilia Romagna Grand Prix": "4"
+                "Emilia Romagna Grand Prix": "4",
+                "Monaco Grand Prix": "1"
             }
         }
     },
@@ -1816,28 +1824,33 @@
                     "1:15.894",
                     "1:14.962",
                     ""
+                ],
+                "Monaco Grand Prix": [
+                    "1:11.285",
+                    "1:10.570",
+                    "1:09.954"
                 ]
             }
         }
     },
     "consistency": {
         "mean": {
-            "wins": 0.7142857142857143,
-            "podiums": 4.571428571428571,
-            "poles": 1.4285714285714286,
-            "points": 162.85714285714286
+            "wins": 0.8571428571428571,
+            "podiums": 4.714285714285714,
+            "poles": 1.5714285714285714,
+            "points": 166.42857142857142
         },
         "std": {
-            "wins": 1.3850513878332367,
-            "podiums": 4.2378277069118075,
-            "poles": 2.718042512920064,
-            "points": 97.26756700893024
+            "wins": 1.456862718169367,
+            "podiums": 4.2999762695121175,
+            "poles": 2.7180425129200643,
+            "points": 96.56212972982308
         },
         "cv": {
-            "wins": 1.9390719429665313,
-            "podiums": 0.927024810886958,
-            "poles": 1.9026297590440446,
-            "points": 0.597256990405712
+            "wins": 1.699673171197595,
+            "podiums": 0.9121161783813583,
+            "poles": 1.7296634173127683,
+            "points": 0.580201637861598
         }
     },
     "peakSeason": {
@@ -1861,7 +1874,7 @@
         "2022": 8.772727272727273,
         "2023": 8.0,
         "2024": 4.291666666666667,
-        "2025": 2.2857142857142856
+        "2025": 2.125
     },
     "avgQualiPositions": {
         "2019": 9.428571428571429,
@@ -1870,7 +1883,7 @@
         "2022": 8.045454545454545,
         "2023": 8.136363636363637,
         "2024": 3.4583333333333335,
-        "2025": 4.0
+        "2025": 3.625
     },
     "rates": {
         "wins": {
@@ -1880,7 +1893,7 @@
             "2022": 0.0,
             "2023": 0.0,
             "2024": 0.16666666666666666,
-            "2025": 0.14285714285714285
+            "2025": 0.25
         },
         "podiums": {
             "2019": 0.0,
@@ -1889,7 +1902,7 @@
             "2022": 0.045454545454545456,
             "2023": 0.3181818181818182,
             "2024": 0.5416666666666666,
-            "2025": 0.8571428571428571
+            "2025": 0.875
         },
         "poles": {
             "2019": 0.0,
@@ -1898,7 +1911,7 @@
             "2022": 0.0,
             "2023": 0.0,
             "2024": 0.3333333333333333,
-            "2025": 0.14285714285714285
+            "2025": 0.25
         },
         "DNFs": {
             "2019": 0.2857142857142857,
@@ -1910,10 +1923,10 @@
             "2025": 0.0
         }
     },
-    "winRate": 0.037037037037037035,
-    "podiumRate": 0.23703703703703705,
-    "poleRate": 0.07407407407407407,
-    "dnfRate": 0.08148148148148149,
+    "winRate": 0.04411764705882353,
+    "podiumRate": 0.2426470588235294,
+    "poleRate": 0.08088235294117647,
+    "dnfRate": 0.08088235294117647,
     "ptwConRate": {
         "2019": -1,
         "2020": -1,
@@ -2071,7 +2084,8 @@
             "Bahrain Grand Prix": 3,
             "Saudi Arabian Grand Prix": 6,
             "Miami Grand Prix": 0,
-            "Emilia Romagna Grand Prix": 2
+            "Emilia Romagna Grand Prix": 2,
+            "Monaco Grand Prix": 0
         }
     }
 }
