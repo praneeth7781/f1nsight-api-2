@@ -2,16 +2,16 @@
     "driverId": "antonelli",
     "driverCode": "ANT",
     "driverNumber": "12",
-    "lastUpdate": "2025-06-09T10:26:07.849979",
+    "lastUpdate": "2025-06-16T10:26:15.208567",
     "totalWins": 0,
-    "totalPodiums": 0,
+    "totalPodiums": 1,
     "totalPoles": 0,
     "totalDNFs": 3,
     "seasonWins": {
         "2025": 0
     },
     "seasonPodiums": {
-        "2025": 0
+        "2025": 1
     },
     "seasonPoles": {
         "2025": 0
@@ -23,7 +23,9 @@
         "2025": []
     },
     "podiums": {
-        "2025": {}
+        "2025": {
+            "Canadian Grand Prix": "3"
+        }
     },
     "DNFs": {
         "2025": {
@@ -42,14 +44,15 @@
             "Miami Grand Prix": "1:30.795",
             "Emilia Romagna Grand Prix": "1:20.620",
             "Monaco Grand Prix": "1:13.518",
-            "Spanish Grand Prix": "1:18.255"
+            "Spanish Grand Prix": "1:18.255",
+            "Canadian Grand Prix": "1:14.455"
         }
     },
     "finalStandings": {
         "2025": {
             "year": "2025",
             "position": "7",
-            "points": "48"
+            "points": "63"
         }
     },
     "posAfterRace": {
@@ -82,6 +85,9 @@
                 },
                 "Spanish Grand Prix": {
                     "points": 48
+                },
+                "Canadian Grand Prix": {
+                    "points": 63
                 }
             }
         }
@@ -98,7 +104,8 @@
                 "Miami Grand Prix": "6",
                 "Emilia Romagna Grand Prix": "19",
                 "Monaco Grand Prix": "18",
-                "Spanish Grand Prix": "18"
+                "Spanish Grand Prix": "18",
+                "Canadian Grand Prix": "3"
             }
         }
     },
@@ -114,7 +121,8 @@
                 "Miami Grand Prix": "3",
                 "Emilia Romagna Grand Prix": "13",
                 "Monaco Grand Prix": "15",
-                "Spanish Grand Prix": "6"
+                "Spanish Grand Prix": "6",
+                "Canadian Grand Prix": "4"
             }
         }
     },
@@ -166,6 +174,11 @@
                     "1:12.815",
                     "1:12.585",
                     "1:12.111"
+                ],
+                "Canadian Grand Prix": [
+                    "1:12.279",
+                    "1:11.974",
+                    "1:11.391"
                 ]
             }
         }
@@ -173,9 +186,9 @@
     "consistency": {
         "mean": {
             "wins": 0.0,
-            "podiums": 0.0,
+            "podiums": 1.0,
             "poles": 0.0,
-            "points": 48.0
+            "points": 63.0
         },
         "std": {
             "wins": 0.0,
@@ -185,7 +198,7 @@
         },
         "cv": {
             "wins": 0,
-            "podiums": 0,
+            "podiums": 0.0,
             "poles": 0,
             "points": 0.0
         }
@@ -196,8 +209,8 @@
             "wins": 0
         },
         "podiums": {
-            "season": "No peak season",
-            "podiums": 0
+            "season": "2025",
+            "podiums": 1
         },
         "poles": {
             "season": "No peak season",
@@ -205,29 +218,29 @@
         }
     },
     "avgRacePositions": {
-        "2025": 10.444444444444445
+        "2025": 9.7
     },
     "avgQualiPositions": {
-        "2025": 8.555555555555555
+        "2025": 8.1
     },
     "rates": {
         "wins": {
             "2025": 0.0
         },
         "podiums": {
-            "2025": 0.0
+            "2025": 0.1
         },
         "poles": {
             "2025": 0.0
         },
         "DNFs": {
-            "2025": 0.3333333333333333
+            "2025": 0.3
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.0,
+    "podiumRate": 0.1,
     "poleRate": 0.0,
-    "dnfRate": 0.3333333333333333,
+    "dnfRate": 0.3,
     "ptwConRate": {
         "2025": -1
     },
@@ -241,7 +254,8 @@
             "Miami Grand Prix": -3,
             "Emilia Romagna Grand Prix": -6,
             "Monaco Grand Prix": -3,
-            "Spanish Grand Prix": -12
+            "Spanish Grand Prix": -12,
+            "Canadian Grand Prix": 1
         }
     }
 }
