@@ -2,9 +2,9 @@
     "driverId": "hulkenberg",
     "driverCode": "HUL",
     "driverNumber": "27",
-    "lastUpdate": "2025-06-30T10:26:05.584827",
+    "lastUpdate": "2025-07-07T10:26:32.492032",
     "totalWins": 0,
-    "totalPodiums": 0,
+    "totalPodiums": 1,
     "totalPoles": 1,
     "totalDNFs": 53,
     "seasonWins": {
@@ -37,7 +37,7 @@
         "2022": 0,
         "2023": 0,
         "2024": 0,
-        "2025": 0
+        "2025": 1
     },
     "seasonPoles": {
         "2010": 1,
@@ -103,7 +103,9 @@
         "2022": {},
         "2023": {},
         "2024": {},
-        "2025": {}
+        "2025": {
+            "British Grand Prix": "3"
+        }
     },
     "DNFs": {
         "2010": {
@@ -439,7 +441,8 @@
             "Monaco Grand Prix": "1:15.223",
             "Spanish Grand Prix": "1:17.575",
             "Canadian Grand Prix": "1:15.372",
-            "Austrian Grand Prix": "1:09.459"
+            "Austrian Grand Prix": "1:09.459",
+            "British Grand Prix": "1:30.933"
         }
     },
     "finalStandings": {
@@ -510,8 +513,8 @@
         },
         "2025": {
             "year": "2025",
-            "position": "10",
-            "points": "22"
+            "position": "9",
+            "points": "37"
         }
     },
     "posAfterRace": {
@@ -1305,6 +1308,9 @@
                 },
                 "Austrian Grand Prix": {
                     "points": 22
+                },
+                "British Grand Prix": {
+                    "points": 37
                 }
             }
         }
@@ -1618,7 +1624,8 @@
                 "Monaco Grand Prix": "16",
                 "Spanish Grand Prix": "5",
                 "Canadian Grand Prix": "8",
-                "Austrian Grand Prix": "9"
+                "Austrian Grand Prix": "9",
+                "British Grand Prix": "3"
             }
         }
     },
@@ -1930,7 +1937,8 @@
                 "Monaco Grand Prix": "13",
                 "Spanish Grand Prix": "15",
                 "Canadian Grand Prix": "11",
-                "Austrian Grand Prix": "20"
+                "Austrian Grand Prix": "20",
+                "British Grand Prix": "19"
             }
         }
     },
@@ -3202,6 +3210,11 @@
                     "1:05.606",
                     "N/A",
                     "N/A"
+                ],
+                "British Grand Prix": [
+                    "1:26.574",
+                    "N/A",
+                    "N/A"
                 ]
             }
         }
@@ -3209,21 +3222,21 @@
     "consistency": {
         "mean": {
             "wins": 0.0,
-            "podiums": 0.0,
+            "podiums": 0.07142857142857142,
             "poles": 0.07142857142857142,
-            "points": 42.357142857142854
+            "points": 43.42857142857143
         },
         "std": {
             "wins": 0.0,
-            "podiums": 0.0,
+            "podiums": 0.2575393768188564,
             "poles": 0.25753937681885636,
-            "points": 26.75979698528891
+            "points": 26.218080690661566
         },
         "cv": {
             "wins": 0,
-            "podiums": 0,
+            "podiums": 3.60555127546399,
             "poles": 3.605551275463989,
-            "points": 0.631765864745438
+            "points": 0.6037058053770755
         }
     },
     "peakSeason": {
@@ -3232,8 +3245,8 @@
             "wins": 0
         },
         "podiums": {
-            "season": "No peak season",
-            "podiums": 0
+            "season": "2025",
+            "podiums": 1
         },
         "poles": {
             "season": "2010",
@@ -3254,7 +3267,7 @@
         "2022": 14.5,
         "2023": 14.545454545454545,
         "2024": 11.625,
-        "2025": 12.454545454545455
+        "2025": 11.666666666666666
     },
     "avgQualiPositions": {
         "2010": 10.947368421052632,
@@ -3270,7 +3283,7 @@
         "2022": 17.5,
         "2023": 12.136363636363637,
         "2024": 11.625,
-        "2025": 15.545454545454545
+        "2025": 15.833333333333334
     },
     "rates": {
         "wins": {
@@ -3303,7 +3316,7 @@
             "2022": 0.0,
             "2023": 0.0,
             "2024": 0.0,
-            "2025": 0.0
+            "2025": 0.08333333333333333
         },
         "poles": {
             "2010": 0.05263157894736842,
@@ -3335,13 +3348,13 @@
             "2022": 0.0,
             "2023": 0.09090909090909091,
             "2024": 0.125,
-            "2025": 0.5454545454545454
+            "2025": 0.5
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.0,
-    "poleRate": 0.004149377593360996,
-    "dnfRate": 0.21991701244813278,
+    "podiumRate": 0.004132231404958678,
+    "poleRate": 0.004132231404958678,
+    "dnfRate": 0.2190082644628099,
     "ptwConRate": {
         "2010": 0.0,
         "2012": -1,
@@ -3625,7 +3638,8 @@
             "Monaco Grand Prix": -3,
             "Spanish Grand Prix": 10,
             "Canadian Grand Prix": 3,
-            "Austrian Grand Prix": 11
+            "Austrian Grand Prix": 11,
+            "British Grand Prix": 16
         }
     }
 }
