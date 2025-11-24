@@ -2,11 +2,11 @@
     "driverId": "norris",
     "driverCode": "NOR",
     "driverNumber": "4",
-    "lastUpdate": "2025-11-17T10:27:18.355005",
+    "lastUpdate": "2025-11-24T10:27:44.620090",
     "totalWins": 11,
     "totalPodiums": 43,
-    "totalPoles": 15,
-    "totalDNFs": 13,
+    "totalPoles": 16,
+    "totalDNFs": 14,
     "seasonWins": {
         "2019": 0,
         "2020": 0,
@@ -32,7 +32,7 @@
         "2022": 0,
         "2023": 0,
         "2024": 8,
-        "2025": 6
+        "2025": 7
     },
     "seasonDNFs": {
         "2019": 6,
@@ -41,7 +41,7 @@
         "2022": 2,
         "2023": 1,
         "2024": 0,
-        "2025": 2
+        "2025": 3
     },
     "poles": {
         "2019": [],
@@ -67,7 +67,8 @@
             "Austrian Grand Prix",
             "Belgian Grand Prix",
             "Mexico City Grand Prix",
-            "São Paulo Grand Prix"
+            "São Paulo Grand Prix",
+            "Las Vegas Grand Prix"
         ]
     },
     "podiums": {
@@ -153,7 +154,8 @@
         "2024": {},
         "2025": {
             "Canadian Grand Prix": "Retired",
-            "Dutch Grand Prix": "Retired"
+            "Dutch Grand Prix": "Retired",
+            "Las Vegas Grand Prix": "Disqualified"
         }
     },
     "fastLaps": {
@@ -315,7 +317,8 @@
             "Singapore Grand Prix": "1:35.555",
             "United States Grand Prix": "1:37.620",
             "Mexico City Grand Prix": "1:20.764",
-            "São Paulo Grand Prix": "1:13.040"
+            "São Paulo Grand Prix": "1:13.040",
+            "Las Vegas Grand Prix": -1
         }
     },
     "finalStandings": {
@@ -835,6 +838,9 @@
                 },
                 "São Paulo Grand Prix": {
                     "points": 390
+                },
+                "Las Vegas Grand Prix": {
+                    "points": 390
                 }
             }
         }
@@ -1021,7 +1027,8 @@
                 "Singapore Grand Prix": "3",
                 "United States Grand Prix": "2",
                 "Mexico City Grand Prix": "1",
-                "São Paulo Grand Prix": "1"
+                "São Paulo Grand Prix": "1",
+                "Las Vegas Grand Prix": "19"
             }
         }
     },
@@ -1207,7 +1214,8 @@
                 "Singapore Grand Prix": "5",
                 "United States Grand Prix": "2",
                 "Mexico City Grand Prix": "1",
-                "São Paulo Grand Prix": "1"
+                "São Paulo Grand Prix": "1",
+                "Las Vegas Grand Prix": "1"
             }
         }
     },
@@ -1989,6 +1997,11 @@
                     "1:09.656",
                     "1:09.616",
                     "1:09.511"
+                ],
+                "Las Vegas Grand Prix": [
+                    "1:55.473",
+                    "1:51.379",
+                    "1:47.934"
                 ]
             }
         }
@@ -1997,19 +2010,19 @@
         "mean": {
             "wins": 1.5714285714285714,
             "podiums": 6.142857142857143,
-            "poles": 2.142857142857143,
+            "poles": 2.2857142857142856,
             "points": 199.57142857142858
         },
         "std": {
             "wins": 2.610809554642438,
             "podiums": 6.104531605491856,
-            "poles": 3.136356914300021,
+            "poles": 3.325841921949376,
             "points": 123.92031672796509
         },
         "cv": {
             "wins": 1.6614242620451878,
             "podiums": 0.993760959033558,
-            "poles": 1.4636332266733432,
+            "poles": 1.455055840852852,
             "points": 0.6209321525381214
         }
     },
@@ -2034,7 +2047,7 @@
         "2022": 8.772727272727273,
         "2023": 8.0,
         "2024": 4.291666666666667,
-        "2025": 3.619047619047619
+        "2025": 4.318181818181818
     },
     "avgQualiPositions": {
         "2019": 9.428571428571429,
@@ -2043,7 +2056,7 @@
         "2022": 8.045454545454545,
         "2023": 8.136363636363637,
         "2024": 3.4583333333333335,
-        "2025": 3.142857142857143
+        "2025": 3.0454545454545454
     },
     "rates": {
         "wins": {
@@ -2053,7 +2066,7 @@
             "2022": 0.0,
             "2023": 0.0,
             "2024": 0.16666666666666666,
-            "2025": 0.3333333333333333
+            "2025": 0.3181818181818182
         },
         "podiums": {
             "2019": 0.0,
@@ -2062,7 +2075,7 @@
             "2022": 0.045454545454545456,
             "2023": 0.3181818181818182,
             "2024": 0.5416666666666666,
-            "2025": 0.8095238095238095
+            "2025": 0.7727272727272727
         },
         "poles": {
             "2019": 0.0,
@@ -2071,7 +2084,7 @@
             "2022": 0.0,
             "2023": 0.0,
             "2024": 0.3333333333333333,
-            "2025": 0.2857142857142857
+            "2025": 0.3181818181818182
         },
         "DNFs": {
             "2019": 0.2857142857142857,
@@ -2080,13 +2093,13 @@
             "2022": 0.09090909090909091,
             "2023": 0.045454545454545456,
             "2024": 0.0,
-            "2025": 0.09523809523809523
+            "2025": 0.13636363636363635
         }
     },
-    "winRate": 0.0738255033557047,
-    "podiumRate": 0.28859060402684567,
-    "poleRate": 0.10067114093959731,
-    "dnfRate": 0.087248322147651,
+    "winRate": 0.07333333333333333,
+    "podiumRate": 0.2866666666666667,
+    "poleRate": 0.10666666666666667,
+    "dnfRate": 0.09333333333333334,
     "ptwConRate": {
         "2019": -1,
         "2020": -1,
@@ -2094,7 +2107,7 @@
         "2022": -1,
         "2023": -1,
         "2024": 0.375,
-        "2025": 0.8333333333333334
+        "2025": 0.7142857142857143
     },
     "positionsGainLost": {
         "2019": {
@@ -2258,7 +2271,8 @@
             "Singapore Grand Prix": 2,
             "United States Grand Prix": 0,
             "Mexico City Grand Prix": 0,
-            "São Paulo Grand Prix": 0
+            "São Paulo Grand Prix": 0,
+            "Las Vegas Grand Prix": -18
         }
     }
 }
