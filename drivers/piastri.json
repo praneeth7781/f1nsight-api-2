@@ -2,10 +2,10 @@
     "driverId": "piastri",
     "driverCode": "PIA",
     "driverNumber": "81",
-    "lastUpdate": "2025-11-24T10:27:45.269602",
+    "lastUpdate": "2025-12-01T10:28:56.284464",
     "totalWins": 9,
-    "totalPodiums": 24,
-    "totalPoles": 5,
+    "totalPodiums": 25,
+    "totalPoles": 6,
     "totalDNFs": 5,
     "seasonWins": {
         "2023": 0,
@@ -15,12 +15,12 @@
     "seasonPodiums": {
         "2023": 2,
         "2024": 8,
-        "2025": 14
+        "2025": 15
     },
     "seasonPoles": {
         "2023": 0,
         "2024": 0,
-        "2025": 5
+        "2025": 6
     },
     "seasonDNFs": {
         "2023": 3,
@@ -35,7 +35,8 @@
             "Bahrain Grand Prix",
             "Emilia Romagna Grand Prix",
             "Spanish Grand Prix",
-            "Dutch Grand Prix"
+            "Dutch Grand Prix",
+            "Qatar Grand Prix"
         ]
     },
     "podiums": {
@@ -67,7 +68,8 @@
             "Belgian Grand Prix": "1",
             "Hungarian Grand Prix": "2",
             "Dutch Grand Prix": "1",
-            "Italian Grand Prix": "3"
+            "Italian Grand Prix": "3",
+            "Qatar Grand Prix": "2"
         }
     },
     "DNFs": {
@@ -153,7 +155,8 @@
             "United States Grand Prix": "1:38.564",
             "Mexico City Grand Prix": "1:20.422",
             "São Paulo Grand Prix": "1:12.742",
-            "Las Vegas Grand Prix": -1
+            "Las Vegas Grand Prix": -1,
+            "Qatar Grand Prix": "1:22.996"
         }
     },
     "finalStandings": {
@@ -169,8 +172,8 @@
         },
         "2025": {
             "year": "2025",
-            "position": "2",
-            "points": "366"
+            "position": "3",
+            "points": "392"
         }
     },
     "posAfterRace": {
@@ -390,6 +393,9 @@
                 },
                 "Las Vegas Grand Prix": {
                     "points": 366
+                },
+                "Qatar Grand Prix": {
+                    "points": 392
                 }
             }
         }
@@ -475,7 +481,8 @@
                 "United States Grand Prix": "5",
                 "Mexico City Grand Prix": "5",
                 "São Paulo Grand Prix": "5",
-                "Las Vegas Grand Prix": "20"
+                "Las Vegas Grand Prix": "20",
+                "Qatar Grand Prix": "2"
             }
         }
     },
@@ -560,7 +567,8 @@
                 "United States Grand Prix": "6",
                 "Mexico City Grand Prix": "7",
                 "São Paulo Grand Prix": "4",
-                "Las Vegas Grand Prix": "5"
+                "Las Vegas Grand Prix": "5",
+                "Qatar Grand Prix": "1"
             }
         }
     },
@@ -917,6 +925,11 @@
                     "1:54.544",
                     "1:52.126",
                     "1:48.961"
+                ],
+                "Qatar Grand Prix": [
+                    "1:20.234",
+                    "1:19.650",
+                    "1:19.387"
                 ]
             }
         }
@@ -924,21 +937,21 @@
     "consistency": {
         "mean": {
             "wins": 3.0,
-            "podiums": 8.0,
-            "poles": 1.6666666666666667,
-            "points": 251.66666666666666
+            "podiums": 8.333333333333334,
+            "poles": 2.0,
+            "points": 260.3333333333333
         },
         "std": {
             "wins": 2.943920288775949,
-            "podiums": 4.898979485566356,
-            "poles": 2.357022603955158,
-            "points": 113.46169201785929
+            "podiums": 5.312459150169743,
+            "poles": 2.8284271247461903,
+            "points": 122.49716550008638
         },
         "cv": {
             "wins": 0.9813067629253163,
-            "podiums": 0.6123724356957945,
-            "poles": 1.4142135623730947,
-            "points": 0.45084116033586474
+            "podiums": 0.6374950980203691,
+            "poles": 1.4142135623730951,
+            "points": 0.4705396882205623
         }
     },
     "peakSeason": {
@@ -948,53 +961,53 @@
         },
         "podiums": {
             "season": "2025",
-            "podiums": 14
+            "podiums": 15
         },
         "poles": {
             "season": "2025",
-            "poles": 5
+            "poles": 6
         }
     },
     "avgRacePositions": {
         "2023": 10.909090909090908,
         "2024": 5.125,
-        "2025": 4.409090909090909
+        "2025": 4.304347826086956
     },
     "avgQualiPositions": {
         "2023": 9.863636363636363,
         "2024": 5.333333333333333,
-        "2025": 3.090909090909091
+        "2025": 3.0
     },
     "rates": {
         "wins": {
             "2023": 0.0,
             "2024": 0.08333333333333333,
-            "2025": 0.3181818181818182
+            "2025": 0.30434782608695654
         },
         "podiums": {
             "2023": 0.09090909090909091,
             "2024": 0.3333333333333333,
-            "2025": 0.6363636363636364
+            "2025": 0.6521739130434783
         },
         "poles": {
             "2023": 0.0,
             "2024": 0.0,
-            "2025": 0.22727272727272727
+            "2025": 0.2608695652173913
         },
         "DNFs": {
             "2023": 0.13636363636363635,
             "2024": 0.0,
-            "2025": 0.09090909090909091
+            "2025": 0.08695652173913043
         }
     },
-    "winRate": 0.1323529411764706,
-    "podiumRate": 0.35294117647058826,
-    "poleRate": 0.07352941176470588,
-    "dnfRate": 0.07352941176470588,
+    "winRate": 0.13043478260869565,
+    "podiumRate": 0.36231884057971014,
+    "poleRate": 0.08695652173913043,
+    "dnfRate": 0.07246376811594203,
     "ptwConRate": {
         "2023": -1,
         "2024": -1,
-        "2025": 0.8
+        "2025": 0.6666666666666666
     },
     "positionsGainLost": {
         "2023": {
@@ -1069,7 +1082,8 @@
             "United States Grand Prix": 1,
             "Mexico City Grand Prix": 2,
             "São Paulo Grand Prix": -1,
-            "Las Vegas Grand Prix": -15
+            "Las Vegas Grand Prix": -15,
+            "Qatar Grand Prix": -1
         }
     }
 }
