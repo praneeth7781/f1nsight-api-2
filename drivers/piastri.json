@@ -2,9 +2,9 @@
     "driverId": "piastri",
     "driverCode": "PIA",
     "driverNumber": "81",
-    "lastUpdate": "2025-12-01T10:28:56.284464",
+    "lastUpdate": "2025-12-08T10:28:15.772704",
     "totalWins": 9,
-    "totalPodiums": 25,
+    "totalPodiums": 26,
     "totalPoles": 6,
     "totalDNFs": 5,
     "seasonWins": {
@@ -15,7 +15,7 @@
     "seasonPodiums": {
         "2023": 2,
         "2024": 8,
-        "2025": 15
+        "2025": 16
     },
     "seasonPoles": {
         "2023": 0,
@@ -69,7 +69,8 @@
             "Hungarian Grand Prix": "2",
             "Dutch Grand Prix": "1",
             "Italian Grand Prix": "3",
-            "Qatar Grand Prix": "2"
+            "Qatar Grand Prix": "2",
+            "Abu Dhabi Grand Prix": "2"
         }
     },
     "DNFs": {
@@ -156,7 +157,8 @@
             "Mexico City Grand Prix": "1:20.422",
             "São Paulo Grand Prix": "1:12.742",
             "Las Vegas Grand Prix": -1,
-            "Qatar Grand Prix": "1:22.996"
+            "Qatar Grand Prix": "1:22.996",
+            "Abu Dhabi Grand Prix": "1:26.765"
         }
     },
     "finalStandings": {
@@ -173,7 +175,7 @@
         "2025": {
             "year": "2025",
             "position": "3",
-            "points": "392"
+            "points": "410"
         }
     },
     "posAfterRace": {
@@ -396,6 +398,9 @@
                 },
                 "Qatar Grand Prix": {
                     "points": 392
+                },
+                "Abu Dhabi Grand Prix": {
+                    "points": 410
                 }
             }
         }
@@ -482,7 +487,8 @@
                 "Mexico City Grand Prix": "5",
                 "São Paulo Grand Prix": "5",
                 "Las Vegas Grand Prix": "20",
-                "Qatar Grand Prix": "2"
+                "Qatar Grand Prix": "2",
+                "Abu Dhabi Grand Prix": "2"
             }
         }
     },
@@ -568,7 +574,8 @@
                 "Mexico City Grand Prix": "7",
                 "São Paulo Grand Prix": "4",
                 "Las Vegas Grand Prix": "5",
-                "Qatar Grand Prix": "1"
+                "Qatar Grand Prix": "1",
+                "Abu Dhabi Grand Prix": "3"
             }
         }
     },
@@ -930,6 +937,11 @@
                     "1:20.234",
                     "1:19.650",
                     "1:19.387"
+                ],
+                "Abu Dhabi Grand Prix": [
+                    "1:22.605",
+                    "1:23.021",
+                    "1:22.437"
                 ]
             }
         }
@@ -937,21 +949,21 @@
     "consistency": {
         "mean": {
             "wins": 3.0,
-            "podiums": 8.333333333333334,
+            "podiums": 8.666666666666666,
             "poles": 2.0,
-            "points": 260.3333333333333
+            "points": 266.3333333333333
         },
         "std": {
             "wins": 2.943920288775949,
-            "podiums": 5.312459150169743,
+            "podiums": 5.734883511361751,
             "poles": 2.8284271247461903,
-            "points": 122.49716550008638
+            "points": 129.06415286808166
         },
         "cv": {
             "wins": 0.9813067629253163,
-            "podiums": 0.6374950980203691,
+            "podiums": 0.6617173282340483,
             "poles": 1.4142135623730951,
-            "points": 0.4705396882205623
+            "points": 0.4845963186536233
         }
     },
     "peakSeason": {
@@ -961,7 +973,7 @@
         },
         "podiums": {
             "season": "2025",
-            "podiums": 15
+            "podiums": 16
         },
         "poles": {
             "season": "2025",
@@ -971,7 +983,7 @@
     "avgRacePositions": {
         "2023": 10.909090909090908,
         "2024": 5.125,
-        "2025": 4.304347826086956
+        "2025": 4.208333333333333
     },
     "avgQualiPositions": {
         "2023": 9.863636363636363,
@@ -982,28 +994,28 @@
         "wins": {
             "2023": 0.0,
             "2024": 0.08333333333333333,
-            "2025": 0.30434782608695654
+            "2025": 0.2916666666666667
         },
         "podiums": {
             "2023": 0.09090909090909091,
             "2024": 0.3333333333333333,
-            "2025": 0.6521739130434783
+            "2025": 0.6666666666666666
         },
         "poles": {
             "2023": 0.0,
             "2024": 0.0,
-            "2025": 0.2608695652173913
+            "2025": 0.25
         },
         "DNFs": {
             "2023": 0.13636363636363635,
             "2024": 0.0,
-            "2025": 0.08695652173913043
+            "2025": 0.08333333333333333
         }
     },
-    "winRate": 0.13043478260869565,
-    "podiumRate": 0.36231884057971014,
-    "poleRate": 0.08695652173913043,
-    "dnfRate": 0.07246376811594203,
+    "winRate": 0.12857142857142856,
+    "podiumRate": 0.37142857142857144,
+    "poleRate": 0.08571428571428572,
+    "dnfRate": 0.07142857142857142,
     "ptwConRate": {
         "2023": -1,
         "2024": -1,
@@ -1083,7 +1095,8 @@
             "Mexico City Grand Prix": 2,
             "São Paulo Grand Prix": -1,
             "Las Vegas Grand Prix": -15,
-            "Qatar Grand Prix": -1
+            "Qatar Grand Prix": -1,
+            "Abu Dhabi Grand Prix": 1
         }
     }
 }
