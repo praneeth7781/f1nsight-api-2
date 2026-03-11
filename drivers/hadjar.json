@@ -2,30 +2,36 @@
     "driverId": "hadjar",
     "driverCode": "HAD",
     "driverNumber": "6",
-    "lastUpdate": "2025-12-29T10:28:14.467465",
+    "lastUpdate": "2026-03-11T21:48:46.692039",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 11,
+    "totalDNFs": 12,
     "seasonWins": {
-        "2025": 0
+        "2025": 0,
+        "2026": 0
     },
     "seasonPodiums": {
-        "2025": 1
+        "2025": 1,
+        "2026": 0
     },
     "seasonPoles": {
-        "2025": 0
+        "2025": 0,
+        "2026": 0
     },
     "seasonDNFs": {
-        "2025": 11
+        "2025": 11,
+        "2026": 1
     },
     "poles": {
-        "2025": []
+        "2025": [],
+        "2026": []
     },
     "podiums": {
         "2025": {
             "Dutch Grand Prix": "3"
-        }
+        },
+        "2026": {}
     },
     "DNFs": {
         "2025": {
@@ -40,6 +46,9 @@
             "Mexico City Grand Prix": "Lapped",
             "Qatar Grand Prix": "Retired",
             "Abu Dhabi Grand Prix": "Lapped"
+        },
+        "2026": {
+            "Australian Grand Prix": "Retired"
         }
     },
     "fastLaps": {
@@ -68,6 +77,9 @@
             "Las Vegas Grand Prix": "1:34.620",
             "Qatar Grand Prix": "1:24.317",
             "Abu Dhabi Grand Prix": "1:29.375"
+        },
+        "2026": {
+            "Australian Grand Prix": "1:25.239"
         }
     },
     "finalStandings": {
@@ -75,6 +87,11 @@
             "year": "2025",
             "position": "12",
             "points": "51"
+        },
+        "2026": {
+            "year": "2026",
+            "position": "40",
+            "points": "0"
         }
     },
     "posAfterRace": {
@@ -154,6 +171,14 @@
                     "points": 51
                 }
             }
+        },
+        "2026": {
+            "year": "2026",
+            "pos": {
+                "Australian Grand Prix": {
+                    "points": 0
+                }
+            }
         }
     },
     "racePosition": {
@@ -185,6 +210,12 @@
                 "Qatar Grand Prix": "18",
                 "Abu Dhabi Grand Prix": "17"
             }
+        },
+        "2026": {
+            "year": "2026",
+            "positions": {
+                "Australian Grand Prix": "20"
+            }
         }
     },
     "qualiPosition": {
@@ -215,6 +246,12 @@
                 "Las Vegas Grand Prix": "8",
                 "Qatar Grand Prix": "6",
                 "Abu Dhabi Grand Prix": "9"
+            }
+        },
+        "2026": {
+            "year": "2026",
+            "positions": {
+                "Australian Grand Prix": "3"
             }
         }
     },
@@ -343,26 +380,36 @@
                     "1:23.072"
                 ]
             }
+        },
+        "2026": {
+            "year": "2026",
+            "QualiTimes": {
+                "Australian Grand Prix": [
+                    "1:20.023",
+                    "1:19.653",
+                    "1:19.303"
+                ]
+            }
         }
     },
     "consistency": {
         "mean": {
             "wins": 0.0,
-            "podiums": 1.0,
+            "podiums": 0.5,
             "poles": 0.0,
-            "points": 51.0
+            "points": 25.5
         },
         "std": {
             "wins": 0.0,
-            "podiums": 0.0,
+            "podiums": 0.5,
             "poles": 0.0,
-            "points": 0.0
+            "points": 25.5
         },
         "cv": {
             "wins": 0,
-            "podiums": 0.0,
+            "podiums": 1.0,
             "poles": 0,
-            "points": 0.0
+            "points": 1.0
         }
     },
     "peakSeason": {
@@ -380,31 +427,38 @@
         }
     },
     "avgRacePositions": {
-        "2025": 11.791666666666666
+        "2025": 11.791666666666666,
+        "2026": 20.0
     },
     "avgQualiPositions": {
-        "2025": 9.791666666666666
+        "2025": 9.791666666666666,
+        "2026": 3.0
     },
     "rates": {
         "wins": {
-            "2025": 0.0
+            "2025": 0.0,
+            "2026": 0.0
         },
         "podiums": {
-            "2025": 0.041666666666666664
+            "2025": 0.041666666666666664,
+            "2026": 0.0
         },
         "poles": {
-            "2025": 0.0
+            "2025": 0.0,
+            "2026": 0.0
         },
         "DNFs": {
-            "2025": 0.4583333333333333
+            "2025": 0.4583333333333333,
+            "2026": 1.0
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.041666666666666664,
+    "podiumRate": 0.04,
     "poleRate": 0.0,
-    "dnfRate": 0.4583333333333333,
+    "dnfRate": 0.48,
     "ptwConRate": {
-        "2025": -1
+        "2025": -1,
+        "2026": -1
     },
     "positionsGainLost": {
         "2025": {
@@ -432,6 +486,9 @@
             "Las Vegas Grand Prix": 2,
             "Qatar Grand Prix": -12,
             "Abu Dhabi Grand Prix": -8
+        },
+        "2026": {
+            "Australian Grand Prix": -17
         }
     }
 }
