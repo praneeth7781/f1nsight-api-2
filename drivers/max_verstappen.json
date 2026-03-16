@@ -2,11 +2,11 @@
     "driverId": "max_verstappen",
     "driverCode": "VER",
     "driverNumber": "33",
-    "lastUpdate": "2026-03-11T21:48:34.012512",
+    "lastUpdate": "2026-03-16T10:53:48.914398",
     "totalWins": 71,
     "totalPodiums": 127,
     "totalPoles": 49,
-    "totalDNFs": 33,
+    "totalDNFs": 34,
     "seasonWins": {
         "2015": 0,
         "2016": 1,
@@ -61,7 +61,7 @@
         "2023": 0,
         "2024": 1,
         "2025": 1,
-        "2026": 0
+        "2026": 1
     },
     "poles": {
         "2015": [],
@@ -339,7 +339,9 @@
         "2025": {
             "Austrian Grand Prix": "Retired"
         },
-        "2026": {}
+        "2026": {
+            "Chinese Grand Prix": "Retired"
+        }
     },
     "fastLaps": {
         "2015": {
@@ -588,7 +590,8 @@
             "Abu Dhabi Grand Prix": "1:27.625"
         },
         "2026": {
-            "Australian Grand Prix": "1:22.091"
+            "Australian Grand Prix": "1:22.091",
+            "Chinese Grand Prix": "1:37.046"
         }
     },
     "finalStandings": {
@@ -649,7 +652,7 @@
         },
         "2026": {
             "year": "2026",
-            "position": "6",
+            "position": "8",
             "points": "8"
         }
     },
@@ -1413,6 +1416,9 @@
             "pos": {
                 "Australian Grand Prix": {
                     "points": 8
+                },
+                "Chinese Grand Prix": {
+                    "points": 8
                 }
             }
         }
@@ -1709,7 +1715,8 @@
         "2026": {
             "year": "2026",
             "positions": {
-                "Australian Grand Prix": "6"
+                "Australian Grand Prix": "6",
+                "Chinese Grand Prix": "16"
             }
         }
     },
@@ -2005,7 +2012,8 @@
         "2026": {
             "year": "2026",
             "positions": {
-                "Australian Grand Prix": "20"
+                "Australian Grand Prix": "20",
+                "Chinese Grand Prix": "8"
             }
         }
     },
@@ -3232,7 +3240,13 @@
         },
         "2026": {
             "year": "2026",
-            "QualiTimes": {}
+            "QualiTimes": {
+                "Chinese Grand Prix": [
+                    "1:33.417",
+                    "1:33.098",
+                    "1:33.002"
+                ]
+            }
         }
     },
     "consistency": {
@@ -3281,7 +3295,7 @@
         "2023": 1.2727272727272727,
         "2024": 3.625,
         "2025": 3.6666666666666665,
-        "2026": 6.0
+        "2026": 11.0
     },
     "avgQualiPositions": {
         "2015": 11.0,
@@ -3295,7 +3309,7 @@
         "2023": 3.0,
         "2024": 3.5416666666666665,
         "2025": 3.5833333333333335,
-        "2026": 20.0
+        "2026": 14.0
     },
     "rates": {
         "wins": {
@@ -3352,13 +3366,13 @@
             "2023": 0.0,
             "2024": 0.041666666666666664,
             "2025": 0.041666666666666664,
-            "2026": 0.0
+            "2026": 0.5
         }
     },
-    "winRate": 0.3034188034188034,
-    "podiumRate": 0.5427350427350427,
-    "poleRate": 0.2094017094017094,
-    "dnfRate": 0.14102564102564102,
+    "winRate": 0.3021276595744681,
+    "podiumRate": 0.5404255319148936,
+    "poleRate": 0.20851063829787234,
+    "dnfRate": 0.14468085106382977,
     "ptwConRate": {
         "2015": -1,
         "2016": -1,
@@ -3630,7 +3644,8 @@
             "Abu Dhabi Grand Prix": 0
         },
         "2026": {
-            "Australian Grand Prix": 14
+            "Australian Grand Prix": 14,
+            "Chinese Grand Prix": -8
         }
     }
 }
