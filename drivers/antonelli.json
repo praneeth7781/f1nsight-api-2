@@ -2,22 +2,22 @@
     "driverId": "antonelli",
     "driverCode": "ANT",
     "driverNumber": "12",
-    "lastUpdate": "2026-03-23T10:52:24.019393",
-    "totalWins": 1,
-    "totalPodiums": 5,
-    "totalPoles": 1,
+    "lastUpdate": "2026-03-30T11:01:48.308443",
+    "totalWins": 2,
+    "totalPodiums": 6,
+    "totalPoles": 2,
     "totalDNFs": 6,
     "seasonWins": {
         "2025": 0,
-        "2026": 1
+        "2026": 2
     },
     "seasonPodiums": {
         "2025": 3,
-        "2026": 2
+        "2026": 3
     },
     "seasonPoles": {
         "2025": 0,
-        "2026": 1
+        "2026": 2
     },
     "seasonDNFs": {
         "2025": 6,
@@ -26,7 +26,8 @@
     "poles": {
         "2025": [],
         "2026": [
-            "Chinese Grand Prix"
+            "Chinese Grand Prix",
+            "Japanese Grand Prix"
         ]
     },
     "podiums": {
@@ -37,7 +38,8 @@
         },
         "2026": {
             "Australian Grand Prix": "2",
-            "Chinese Grand Prix": "1"
+            "Chinese Grand Prix": "1",
+            "Japanese Grand Prix": "1"
         }
     },
     "DNFs": {
@@ -80,7 +82,8 @@
         },
         "2026": {
             "Australian Grand Prix": "1:22.417",
-            "Chinese Grand Prix": "1:35.275"
+            "Chinese Grand Prix": "1:35.275",
+            "Japanese Grand Prix": "1:32.432"
         }
     },
     "finalStandings": {
@@ -91,8 +94,8 @@
         },
         "2026": {
             "year": "2026",
-            "position": "2",
-            "points": "47"
+            "position": "1",
+            "points": "72"
         }
     },
     "posAfterRace": {
@@ -181,6 +184,9 @@
                 },
                 "Chinese Grand Prix": {
                     "points": 47
+                },
+                "Japanese Grand Prix": {
+                    "points": 72
                 }
             }
         }
@@ -219,7 +225,8 @@
             "year": "2026",
             "positions": {
                 "Australian Grand Prix": "2",
-                "Chinese Grand Prix": "1"
+                "Chinese Grand Prix": "1",
+                "Japanese Grand Prix": "1"
             }
         }
     },
@@ -257,7 +264,8 @@
             "year": "2026",
             "positions": {
                 "Australian Grand Prix": "2",
-                "Chinese Grand Prix": "1"
+                "Chinese Grand Prix": "1",
+                "Japanese Grand Prix": "1"
             }
         }
     },
@@ -399,34 +407,39 @@
                     "1:33.305",
                     "1:32.443",
                     "1:32.064"
+                ],
+                "Japanese Grand Prix": [
+                    "1:30.035",
+                    "1:29.048",
+                    "1:28.778"
                 ]
             }
         }
     },
     "consistency": {
         "mean": {
-            "wins": 0.5,
-            "podiums": 2.5,
-            "poles": 0.5,
-            "points": 98.5
+            "wins": 1.0,
+            "podiums": 3.0,
+            "poles": 1.0,
+            "points": 111.0
         },
         "std": {
-            "wins": 0.5,
-            "podiums": 0.5,
-            "poles": 0.5,
-            "points": 51.5
+            "wins": 1.0,
+            "podiums": 0.0,
+            "poles": 1.0,
+            "points": 39.0
         },
         "cv": {
             "wins": 1.0,
-            "podiums": 0.2,
+            "podiums": 0.0,
             "poles": 1.0,
-            "points": 0.5228426395939086
+            "points": 0.35135135135135137
         }
     },
     "peakSeason": {
         "wins": {
             "season": "2026",
-            "wins": 1
+            "wins": 2
         },
         "podiums": {
             "season": "2025",
@@ -434,21 +447,21 @@
         },
         "poles": {
             "season": "2026",
-            "poles": 1
+            "poles": 2
         }
     },
     "avgRacePositions": {
         "2025": 9.833333333333334,
-        "2026": 1.5
+        "2026": 1.3333333333333333
     },
     "avgQualiPositions": {
         "2025": 8.75,
-        "2026": 1.5
+        "2026": 1.3333333333333333
     },
     "rates": {
         "wins": {
             "2025": 0.0,
-            "2026": 0.5
+            "2026": 0.6666666666666666
         },
         "podiums": {
             "2025": 0.125,
@@ -456,17 +469,17 @@
         },
         "poles": {
             "2025": 0.0,
-            "2026": 0.5
+            "2026": 0.6666666666666666
         },
         "DNFs": {
             "2025": 0.25,
             "2026": 0.0
         }
     },
-    "winRate": 0.038461538461538464,
-    "podiumRate": 0.19230769230769232,
-    "poleRate": 0.038461538461538464,
-    "dnfRate": 0.23076923076923078,
+    "winRate": 0.07407407407407407,
+    "podiumRate": 0.2222222222222222,
+    "poleRate": 0.07407407407407407,
+    "dnfRate": 0.2222222222222222,
     "ptwConRate": {
         "2025": -1,
         "2026": 1.0
@@ -500,7 +513,8 @@
         },
         "2026": {
             "Australian Grand Prix": 0,
-            "Chinese Grand Prix": 0
+            "Chinese Grand Prix": 0,
+            "Japanese Grand Prix": 0
         }
     }
 }
