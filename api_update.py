@@ -579,73 +579,283 @@ def update_races():
     
     print("Race Details updated successfully!")
 
+def format_race_entry(api_race):
+    """Format a race entry from API data into the compact results.json format"""
+    entry = {
+        "season": api_race.get("season", str(current_year)),
+        "round": api_race.get("round", ""),
+        "url": api_race.get("url", ""),
+        "raceName": api_race.get("raceName", ""),
+        "Circuit": {
+            "circuitId": api_race.get("Circuit", {}).get("circuitId", ""),
+            "circuitName": api_race.get("Circuit", {}).get("circuitName", ""),
+            "Location": {
+                "locality": api_race.get("Circuit", {}).get("Location", {}).get("locality", ""),
+                "country": api_race.get("Circuit", {}).get("Location", {}).get("country", "")
+            }
+        },
+        "date": api_race.get("date", ""),
+        "time": api_race.get("time", ""),
+        "Results": []
+    }
+    for r in api_race.get("Results", []):
+        result_entry = {
+            "number": r.get("number", ""),
+            "position": r.get("position", ""),
+            "points": r.get("points", "0"),
+            "grid": r.get("grid", ""),
+            "Driver": {
+                "code": r.get("Driver", {}).get("code", ""),
+                "givenName": r.get("Driver", {}).get("givenName", ""),
+                "familyName": r.get("Driver", {}).get("familyName", "")
+            },
+            "Constructor": {
+                "constructorId": r.get("Constructor", {}).get("constructorId", ""),
+                "name": r.get("Constructor", {}).get("name", "")
+            },
+            "Time": { "time": r.get("Time", {}).get("time", "") if "Time" in r else r.get("status", "DNF") }
+        }
+        # Add FastestLap if present
+        if "FastestLap" in r:
+            fl = r["FastestLap"]
+            fl_entry = {
+                "rank": fl.get("rank", ""),
+                "lap": fl.get("lap", ""),
+                "Time": { "time": fl.get("Time", {}).get("time", "") }
+            }
+            if "AverageSpeed" in fl:
+                fl_entry["AverageSpeed"] = {
+                    "units": fl["AverageSpeed"].get("units", "kph"),
+                    "speed": fl["AverageSpeed"].get("speed", "")
+                }
+            result_entry["FastestLap"] = fl_entry
+        entry["Results"].append(result_entry)
+    return entry
+
+def format_qualifying_entry(api_race):
+    """Format a qualifying entry from API data into the compact qualifying.json format"""
+    entry = {
+        "season": api_race.get("season", str(current_year)),
+        "round": api_race.get("round", ""),
+        "url": api_race.get("url", ""),
+        "raceName": api_race.get("raceName", ""),
+        "Circuit": {
+            "circuitId": api_race.get("Circuit", {}).get("circuitId", ""),
+            "circuitName": api_race.get("Circuit", {}).get("circuitName", ""),
+            "Location": {
+                "locality": api_race.get("Circuit", {}).get("Location", {}).get("locality", ""),
+                "country": api_race.get("Circuit", {}).get("Location", {}).get("country", "")
+            }
+        },
+        "date": api_race.get("date", ""),
+        "time": api_race.get("time", ""),
+        "QualifyingResults": []
+    }
+    for qr in api_race.get("QualifyingResults", []):
+        qr_entry = {
+            "number": qr.get("number", ""),
+            "position": qr.get("position", ""),
+            "Driver": {
+                "code": qr.get("Driver", {}).get("code", ""),
+                "givenName": qr.get("Driver", {}).get("givenName", ""),
+                "familyName": qr.get("Driver", {}).get("familyName", "")
+            },
+            "Constructor": {
+                "constructorId": qr.get("Constructor", {}).get("constructorId", ""),
+                "name": qr.get("Constructor", {}).get("name", "")
+            }
+        }
+        # Add Q1, Q2, Q3 only if present
+        if "Q1" in qr:
+            qr_entry["Q1"] = qr["Q1"]
+        if "Q2" in qr:
+            qr_entry["Q2"] = qr["Q2"]
+        if "Q3" in qr:
+            qr_entry["Q3"] = qr["Q3"]
+        entry["QualifyingResults"].append(qr_entry)
+    return entry
+
+def format_sprint_entry(api_race):
+    """Format a sprint entry from API data into the compact sprint.json format"""
+    entry = {
+        "season": api_race.get("season", str(current_year)),
+        "round": api_race.get("round", ""),
+        "url": api_race.get("url", ""),
+        "raceName": api_race.get("raceName", ""),
+        "Circuit": {
+            "circuitId": api_race.get("Circuit", {}).get("circuitId", ""),
+            "circuitName": api_race.get("Circuit", {}).get("circuitName", ""),
+            "Location": {
+                "locality": api_race.get("Circuit", {}).get("Location", {}).get("locality", ""),
+                "country": api_race.get("Circuit", {}).get("Location", {}).get("country", "")
+            }
+        },
+        "date": api_race.get("date", ""),
+        "time": api_race.get("time", ""),
+        "Results": []
+    }
+    for r in api_race.get("SprintResults", api_race.get("Results", [])):
+        result_entry = {
+            "number": r.get("number", ""),
+            "position": r.get("position", ""),
+            "points": r.get("points", "0"),
+            "grid": r.get("grid", ""),
+            "Driver": {
+                "code": r.get("Driver", {}).get("code", ""),
+                "givenName": r.get("Driver", {}).get("givenName", ""),
+                "familyName": r.get("Driver", {}).get("familyName", "")
+            },
+            "Constructor": {
+                "constructorId": r.get("Constructor", {}).get("constructorId", ""),
+                "name": r.get("Constructor", {}).get("name", "")
+            },
+            "Time": { "time": r.get("Time", {}).get("time", "") if "Time" in r else r.get("status", "DNF") }
+        }
+        entry["Results"].append(result_entry)
+    return entry
+
 def update_raceResults():
-    for season in [current_year]:
-        # Ensure season directory exists
-        season_dir = f'races/{season}'
-        ensure_directory_exists(season_dir)
-        
-        # Ensure raceDetails.json exists with default content
-        race_details_file = f'{season_dir}/raceDetails.json'
-        ensure_file_exists(race_details_file, [])
-        
-        with open(race_details_file, 'r', encoding='utf-8') as file:
-            races = json.load(file)
-        
-        result = []
-        for race in races:
-            if dt.strptime(race['date'], '%Y-%m-%d') < dt.now():
-                print(race['raceName'], season)
-                url = f'{api_url}/{season}/{race["round"]}/results.json'
+    """Fetch race results and write to results.json in compact format"""
+    season = current_year
+    race_details_file = 'raceDetails.json'
+    if not os.path.exists(race_details_file):
+        race_details_file = f'races/{season}/raceDetails.json'
+    ensure_file_exists(race_details_file, [])
+
+    with open(race_details_file, 'r', encoding='utf-8') as file:
+        races = json.load(file)
+
+    result = []
+    for race in races:
+        if dt.strptime(race['date'], '%Y-%m-%d') < dt.now():
+            print(race['raceName'], season)
+            url = f'{api_url}/{season}/{race["round"]}/results.json'
+
+            max_retries = 5
+            wait_time = 10
+            for attempt in range(1, max_retries + 1):
                 response = requests.get(url)
                 if response.status_code == 200:
                     responsedata = response.json()
-                    if 'MRData' in responsedata and 'RaceTable' in responsedata['MRData'] and 'Races' in responsedata['MRData']['RaceTable'] and len(responsedata['MRData']['RaceTable']['Races']) > 0:
-                        result.append(responsedata['MRData']['RaceTable']['Races'][0])
+                    api_races = responsedata.get('MRData', {}).get('RaceTable', {}).get('Races', [])
+                    if api_races:
+                        result.append(format_race_entry(api_races[0]))
+                    break
+                elif response.status_code == 429:
+                    retry_after = response.headers.get('Retry-After')
+                    sleep_for = int(retry_after) if retry_after else wait_time
+                    wait_time = min(wait_time * 2, 60)
+                    print(f"Rate limited (429). Waiting {sleep_for}s before retry {attempt}/{max_retries}...")
+                    time.sleep(sleep_for)
                 else:
                     print(f"Failed to get race results for {race['raceName']} (Status: {response.status_code})")
+                    break
             else:
-                break
-        
-        results_file = f'{season_dir}/results.json'
-        with open(results_file, 'w', encoding='utf-8') as f:
-            json.dump(result, f, indent=4, ensure_ascii=False, cls=NpEncoder)
+                print(f"Exceeded max retries for {race['raceName']}, skipping.")
+        else:
+            break
+
+    with open('results.json', 'w', encoding='utf-8') as f:
+        json.dump(result, f, ensure_ascii=False, cls=NpEncoder)
 
     print("Race Results updated successfully!")
 
 def update_qualifying():
-    for season in [current_year]:
-        # Ensure season directory exists
-        season_dir = f'races/{season}'
-        ensure_directory_exists(season_dir)
-        
-        # Ensure raceDetails.json exists with default content
-        race_details_file = f'{season_dir}/raceDetails.json'
-        ensure_file_exists(race_details_file, [])
-        
-        with open(race_details_file, 'r', encoding='utf-8') as file:
-            races = json.load(file)
-        
-        result = []
-        for race in races:
-            if dt.strptime(race['date'], '%Y-%m-%d') < dt.now():
-                print(race['raceName'], season)
-                url = f'{api_url}/{season}/{race["round"]}/qualifying.json'
+    """Fetch qualifying results and write to qualifying.json in compact format"""
+    season = current_year
+    race_details_file = 'raceDetails.json'
+    if not os.path.exists(race_details_file):
+        race_details_file = f'races/{season}/raceDetails.json'
+    ensure_file_exists(race_details_file, [])
+
+    with open(race_details_file, 'r', encoding='utf-8') as file:
+        races = json.load(file)
+
+    result = []
+    for race in races:
+        if dt.strptime(race['date'], '%Y-%m-%d') < dt.now():
+            print(race['raceName'], season)
+            url = f'{api_url}/{season}/{race["round"]}/qualifying.json'
+
+            max_retries = 5
+            wait_time = 10
+            for attempt in range(1, max_retries + 1):
                 response = requests.get(url)
                 if response.status_code == 200:
                     responsedata = response.json()
-                    if 'MRData' in responsedata and 'RaceTable' in responsedata['MRData'] and 'Races' in responsedata['MRData']['RaceTable'] and len(responsedata['MRData']['RaceTable']['Races']) > 0:
-                        result.append(responsedata['MRData']['RaceTable']['Races'][0])
+                    api_races = responsedata.get('MRData', {}).get('RaceTable', {}).get('Races', [])
+                    if api_races:
+                        result.append(format_qualifying_entry(api_races[0]))
+                    break
+                elif response.status_code == 429:
+                    retry_after = response.headers.get('Retry-After')
+                    sleep_for = int(retry_after) if retry_after else wait_time
+                    wait_time = min(wait_time * 2, 60)
+                    print(f"Rate limited (429). Waiting {sleep_for}s before retry {attempt}/{max_retries}...")
+                    time.sleep(sleep_for)
                 else:
                     print(f"Failed to get qualifying results for {race['raceName']} (Status: {response.status_code})")
+                    break
             else:
-                break
-        
-        qualifying_file = f'{season_dir}/qualifying.json'
-        with open(qualifying_file, 'w', encoding='utf-8') as f:
-            json.dump(result, f, indent=4, ensure_ascii=False, cls=NpEncoder)
+                print(f"Exceeded max retries for {race['raceName']}, skipping.")
+        else:
+            break
+
+    with open('qualifying.json', 'w', encoding='utf-8') as f:
+        json.dump(result, f, ensure_ascii=False, cls=NpEncoder)
 
     print("Qualifying results updated successfully!")
+
+def update_sprintResults():
+    """Fetch sprint results and write to sprint.json in compact format"""
+    season = current_year
+    race_details_file = 'raceDetails.json'
+    if not os.path.exists(race_details_file):
+        race_details_file = f'races/{season}/raceDetails.json'
+    ensure_file_exists(race_details_file, [])
+
+    with open(race_details_file, 'r', encoding='utf-8') as file:
+        races = json.load(file)
+
+    result = []
+    for race in races:
+        # Only fetch sprints for sprint weekends (have "Sprint" in raceDetails)
+        if 'Sprint' not in race:
+            continue
+        sprint_date = race['Sprint']['date']
+        if dt.strptime(sprint_date, '%Y-%m-%d') < dt.now():
+            print(f"Sprint: {race['raceName']}", season)
+            url = f'{api_url}/{season}/{race["round"]}/sprint.json'
+
+            max_retries = 5
+            wait_time = 10
+            for attempt in range(1, max_retries + 1):
+                response = requests.get(url)
+                if response.status_code == 200:
+                    responsedata = response.json()
+                    api_races = responsedata.get('MRData', {}).get('RaceTable', {}).get('Races', [])
+                    if api_races:
+                        result.append(format_sprint_entry(api_races[0]))
+                    break
+                elif response.status_code == 429:
+                    retry_after = response.headers.get('Retry-After')
+                    sleep_for = int(retry_after) if retry_after else wait_time
+                    wait_time = min(wait_time * 2, 60)
+                    print(f"Rate limited (429). Waiting {sleep_for}s before retry {attempt}/{max_retries}...")
+                    time.sleep(sleep_for)
+                else:
+                    print(f"Failed to get sprint results for {race['raceName']} (Status: {response.status_code})")
+                    break
+            else:
+                print(f"Exceeded max retries for {race['raceName']}, skipping.")
+        else:
+            # Don't break - future sprint weekends may exist after non-sprint ones
+            continue
+
+    with open('sprint.json', 'w', encoding='utf-8') as f:
+        json.dump(result, f, ensure_ascii=False, cls=NpEncoder)
+
+    print("Sprint Results updated successfully!")
 
 def update_driverStandings():
     for season in [current_year]:
@@ -876,6 +1086,8 @@ def update():
     update_raceResults()
     print("==========Updating Qualifying Sessions==========")
     update_qualifying()
+    print("==========Updating Sprint Results==========")
+    update_sprintResults()
     print("==========Updating Driver Standings==========")
     update_driverStandings()
     print("==========Updating Constructor Standings==========")
