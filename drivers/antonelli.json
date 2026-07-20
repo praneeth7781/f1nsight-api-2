@@ -2,22 +2,22 @@
     "driverId": "antonelli",
     "driverCode": "ANT",
     "driverNumber": "12",
-    "lastUpdate": "2026-07-13T12:30:36.280057",
-    "totalWins": 5,
-    "totalPodiums": 10,
-    "totalPoles": 5,
+    "lastUpdate": "2026-07-20T12:15:41.924044",
+    "totalWins": 6,
+    "totalPodiums": 11,
+    "totalPoles": 6,
     "totalDNFs": 7,
     "seasonWins": {
         "2025": 0,
-        "2026": 5
+        "2026": 6
     },
     "seasonPodiums": {
         "2025": 3,
-        "2026": 7
+        "2026": 8
     },
     "seasonPoles": {
         "2025": 0,
-        "2026": 5
+        "2026": 6
     },
     "seasonDNFs": {
         "2025": 6,
@@ -30,7 +30,8 @@
             "Japanese Grand Prix",
             "Miami Grand Prix",
             "Monaco Grand Prix",
-            "British Grand Prix"
+            "British Grand Prix",
+            "Belgian Grand Prix"
         ]
     },
     "podiums": {
@@ -46,7 +47,8 @@
             "Miami Grand Prix": "1",
             "Canadian Grand Prix": "1",
             "Monaco Grand Prix": "1",
-            "Austrian Grand Prix": "3"
+            "Austrian Grand Prix": "3",
+            "Belgian Grand Prix": "1"
         }
     },
     "DNFs": {
@@ -98,7 +100,8 @@
             "Monaco Grand Prix": "1:13.481",
             "Barcelona Grand Prix": "1:20.704",
             "Austrian Grand Prix": "1:10.374",
-            "British Grand Prix": "1:31.777"
+            "British Grand Prix": "1:31.777",
+            "Belgian Grand Prix": "1:49.098"
         }
     },
     "finalStandings": {
@@ -110,7 +113,7 @@
         "2026": {
             "year": "2026",
             "position": "1",
-            "points": "179"
+            "points": "204"
         }
     },
     "posAfterRace": {
@@ -220,6 +223,9 @@
                 },
                 "British Grand Prix": {
                     "points": 179
+                },
+                "Belgian Grand Prix": {
+                    "points": 204
                 }
             }
         }
@@ -265,7 +271,8 @@
                 "Monaco Grand Prix": "1",
                 "Barcelona Grand Prix": "16",
                 "Austrian Grand Prix": "3",
-                "British Grand Prix": "15"
+                "British Grand Prix": "15",
+                "Belgian Grand Prix": "1"
             }
         }
     },
@@ -310,7 +317,8 @@
                 "Monaco Grand Prix": "1",
                 "Barcelona Grand Prix": "3",
                 "Austrian Grand Prix": "4",
-                "British Grand Prix": "1"
+                "British Grand Prix": "1",
+                "Belgian Grand Prix": "1"
             }
         }
     },
@@ -487,77 +495,82 @@
                     "1:29.719",
                     "1:28.493",
                     "1:28.111"
+                ],
+                "Belgian Grand Prix": [
+                    "1:46.304",
+                    "1:45.142",
+                    "1:44.361"
                 ]
             }
         }
     },
     "consistency": {
         "mean": {
-            "wins": 2.5,
-            "podiums": 5.0,
-            "poles": 2.5,
-            "points": 164.5
+            "wins": 3.0,
+            "podiums": 5.5,
+            "poles": 3.0,
+            "points": 177.0
         },
         "std": {
-            "wins": 2.5,
-            "podiums": 2.0,
-            "poles": 2.5,
-            "points": 14.5
+            "wins": 3.0,
+            "podiums": 2.5,
+            "poles": 3.0,
+            "points": 27.0
         },
         "cv": {
             "wins": 1.0,
-            "podiums": 0.4,
+            "podiums": 0.45454545454545453,
             "poles": 1.0,
-            "points": 0.08814589665653495
+            "points": 0.15254237288135594
         }
     },
     "peakSeason": {
         "wins": {
             "season": "2026",
-            "wins": 5
+            "wins": 6
         },
         "podiums": {
             "season": "2026",
-            "podiums": 7
+            "podiums": 8
         },
         "poles": {
             "season": "2026",
-            "poles": 5
+            "poles": 6
         }
     },
     "avgRacePositions": {
         "2025": 9.833333333333334,
-        "2026": 4.555555555555555
+        "2026": 4.2
     },
     "avgQualiPositions": {
         "2025": 8.75,
-        "2026": 1.7777777777777777
+        "2026": 1.7
     },
     "rates": {
         "wins": {
             "2025": 0.0,
-            "2026": 0.5555555555555556
+            "2026": 0.6
         },
         "podiums": {
             "2025": 0.125,
-            "2026": 0.7777777777777778
+            "2026": 0.8
         },
         "poles": {
             "2025": 0.0,
-            "2026": 0.5555555555555556
+            "2026": 0.6
         },
         "DNFs": {
             "2025": 0.25,
-            "2026": 0.1111111111111111
+            "2026": 0.1
         }
     },
-    "winRate": 0.15151515151515152,
-    "podiumRate": 0.30303030303030304,
-    "poleRate": 0.15151515151515152,
-    "dnfRate": 0.21212121212121213,
+    "winRate": 0.17647058823529413,
+    "podiumRate": 0.3235294117647059,
+    "poleRate": 0.17647058823529413,
+    "dnfRate": 0.20588235294117646,
     "ptwConRate": {
         "2025": -1,
-        "2026": 0.8
+        "2026": 0.8333333333333334
     },
     "positionsGainLost": {
         "2025": {
@@ -595,7 +608,8 @@
             "Monaco Grand Prix": 0,
             "Barcelona Grand Prix": -13,
             "Austrian Grand Prix": 1,
-            "British Grand Prix": -14
+            "British Grand Prix": -14,
+            "Belgian Grand Prix": 0
         }
     }
 }
