@@ -1,10 +1,144 @@
-import requests, json, os, datetime, math, numpy as np, shutil
+import requests, json, os, datetime, math, numpy as np, shutil, tempfile
 import time
 from datetime import datetime as dt
 
 api_url = 'https://api.jolpi.ca/ergast/f1'
 # api_url = 'http://ergast.com/api/f1'
 current_year = datetime.date.today().year
+api_request_delay_seconds = float(os.environ.get('F1NSIGHT_API_DELAY_SECONDS', '1.0'))
+api_max_retries = int(os.environ.get('F1NSIGHT_API_MAX_RETRIES', '6'))
+api_timeout_seconds = (10, 60)
+
+api_session = requests.Session()
+api_session.headers.update({
+    'User-Agent': 'f1nsight-api-updater/1.0'
+})
+last_api_request_at = 0.0
+
+
+def api_get(url):
+    """GET an API URL slowly and retry transient failures.
+
+    A failed request raises instead of allowing the workflow to commit partial
+    data. The one-request-per-second default is intentionally conservative.
+    """
+    global last_api_request_at
+
+    for attempt in range(1, api_max_retries + 1):
+        elapsed = time.monotonic() - last_api_request_at
+        if elapsed < api_request_delay_seconds:
+            time.sleep(api_request_delay_seconds - elapsed)
+
+        last_api_request_at = time.monotonic()
+        try:
+            response = api_session.get(url, timeout=api_timeout_seconds)
+        except requests.RequestException as exc:
+            if attempt == api_max_retries:
+                raise RuntimeError(
+                    f'API request failed after {api_max_retries} attempts: {url}'
+                ) from exc
+
+            sleep_for = min(2 ** (attempt - 1), 60)
+            print(
+                f'API request error for {url}: {exc}. '
+                f'Waiting {sleep_for}s before retry {attempt}/{api_max_retries}.'
+            )
+            time.sleep(sleep_for)
+            continue
+
+        if response.status_code == 200:
+            return response
+
+        if response.status_code == 429 or response.status_code >= 500:
+            if attempt == api_max_retries:
+                raise RuntimeError(
+                    f'API request failed after {api_max_retries} attempts '
+                    f'(status {response.status_code}): {url}'
+                )
+
+            retry_after = response.headers.get('Retry-After')
+            try:
+                sleep_for = max(float(retry_after), api_request_delay_seconds)
+            except (TypeError, ValueError):
+                sleep_for = min(2 ** (attempt - 1), 60)
+
+            print(
+                f'API returned {response.status_code} for {url}. '
+                f'Waiting {sleep_for:g}s before retry '
+                f'{attempt}/{api_max_retries}.'
+            )
+            time.sleep(sleep_for)
+            continue
+
+        raise RuntimeError(
+            f'API returned non-retryable status {response.status_code}: {url}'
+        )
+
+    raise RuntimeError(f'API request unexpectedly exhausted retries: {url}')
+
+
+def api_races(url):
+    """Return RaceTable.Races or fail without modifying stored data."""
+    try:
+        data = api_get(url).json()
+    except requests.JSONDecodeError as exc:
+        raise RuntimeError(f'API returned invalid JSON: {url}') from exc
+
+    races = data.get('MRData', {}).get('RaceTable', {}).get('Races', [])
+    if not races:
+        raise RuntimeError(f'API returned no race data: {url}')
+    return races
+
+
+def load_json(file_path, default):
+    if not os.path.exists(file_path):
+        return default
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return json.load(file)
+
+
+def write_json_atomic(file_path, data):
+    """Replace a JSON file only after the complete new document is written."""
+    directory = os.path.dirname(file_path) or '.'
+    ensure_directory_exists(directory)
+    file_descriptor, temporary_path = tempfile.mkstemp(
+        prefix=f'.{os.path.basename(file_path)}.',
+        suffix='.tmp',
+        dir=directory,
+    )
+    try:
+        with os.fdopen(file_descriptor, 'w', encoding='utf-8') as file:
+            json.dump(
+                data,
+                file,
+                indent=4,
+                ensure_ascii=False,
+                cls=NpEncoder,
+            )
+            file.flush()
+            os.fsync(file.fileno())
+        os.replace(temporary_path, file_path)
+    except Exception:
+        if os.path.exists(temporary_path):
+            os.unlink(temporary_path)
+        raise
+
+
+def merge_round_records(existing, additions):
+    """Append new rounds while preserving every record already stored."""
+    merged = list(existing)
+    known_rounds = {
+        str(record.get('round'))
+        for record in existing
+        if record.get('round') is not None
+    }
+    for record in additions:
+        round_number = str(record.get('round'))
+        if round_number not in known_rounds:
+            merged.append(record)
+            known_rounds.add(round_number)
+    merged.sort(key=lambda record: int(record.get('round', 10**9)))
+    return merged
 
 class NpEncoder(json.JSONEncoder):
     def default(self, obj):
@@ -18,7 +152,7 @@ class NpEncoder(json.JSONEncoder):
 
 def update_constructors():
     season = current_year
-    response = requests.get(f'{api_url}/{season}/constructors.json')
+    response = api_get(f'{api_url}/{season}/constructors.json')
     if response.status_code==200:
         responsedata = response.json()
         constructors = responsedata["MRData"]["ConstructorTable"]["Constructors"]
@@ -44,7 +178,7 @@ def update_constructor_drivers():
 
     def fetchDrivers(team):
         print(team)
-        response = requests.get(f'{api_url}/{season}/constructors/{team}/drivers.json')
+        response = api_get(f'{api_url}/{season}/constructors/{team}/drivers.json')
         if response.status_code == 200:
             responsedata = response.json()
             drivers = responsedata["MRData"]["DriverTable"]["Drivers"]
@@ -66,30 +200,41 @@ def update_constructor_drivers():
     print("Constructor drivers updated successfully!")
 
 def update_driverData():
-    import os
-    import datetime
-    import json
-    import requests
-
     url1 = f'{api_url}/current/last/results.json'
-
-    response1 = requests.get(url1)
-
     input_directory = 'drivers/'
     output_directory = 'drivers2/'
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
-    if response1.status_code == 200:
-        responsedata1 = response1.json()
-        race = responsedata1["MRData"]["RaceTable"]["Races"][0]
-        raceName = race["raceName"]
-        season = race["season"]
-        round = race["round"]
-        results = race["Results"]
-        drivers_done = 0
+    race = api_races(url1)[0]
+    raceName = race["raceName"]
+    season = race["season"]
+    round = race["round"]
+    results = race["Results"]
+    drivers_done = 0
 
-        for result in results:
+    standings_url = f'{api_url}/{season}/{round}/driverStandings.json'
+    standings_data = api_get(standings_url).json()
+    standings_lists = (
+        standings_data.get('MRData', {})
+        .get('StandingsTable', {})
+        .get('StandingsLists', [])
+    )
+    if not standings_lists:
+        raise RuntimeError(f'API returned no driver standings: {standings_url}')
+    standings_by_driver = {
+        standing['Driver']['driverId']: standing
+        for standing in standings_lists[0].get('DriverStandings', [])
+    }
+
+    qualifying_url = f'{api_url}/{season}/{round}/qualifying.json'
+    qualifying_race = api_races(qualifying_url)[0]
+    qualifying_by_driver = {
+        qualifying['Driver']['driverId']: qualifying
+        for qualifying in qualifying_race.get('QualifyingResults', [])
+    }
+
+    for result in results:
             driverId = result["Driver"]["driverId"]
             input_file = os.path.join(input_directory, f'{driverId}.json')
             output_file = os.path.join(output_directory, f'{driverId}.json')
@@ -190,39 +335,29 @@ def update_driverData():
 
             data["qualiPosition"][season]["positions"][raceName] = result["grid"]
 
-            # Update driver standings
-            url2 = f'{api_url}/current/drivers/{driverId}/driverStandings.json'
-            response2 = requests.get(url2)
-            if response2.status_code == 200:
-                responsedata2 = response2.json()
-                driverStanding = responsedata2["MRData"]["StandingsTable"]["StandingsLists"][0]["DriverStandings"][0]
+            # Reuse the single standings response fetched before the driver loop.
+            driverStanding = standings_by_driver.get(driverId)
+            if driverStanding:
                 data["finalStandings"][season]["position"] = driverStanding.get("position", "40")
                 data["finalStandings"][season]["points"] = driverStanding["points"]
                 data["posAfterRace"][season]["pos"][raceName] = {"points": int(driverStanding["points"])}
             else:
-                print("url2", response2.status_code)
+                raise RuntimeError(
+                    f'Driver standings missing {driverId} for round {round}'
+                )
 
-            # Update qualifying results
-            url3 = f'{api_url}/current/drivers/{driverId}/qualifying.json'
-            response3 = requests.get(url3)
-            if response3.status_code == 200:
-                responsedata3 = response3.json()
-                qualifyings = responsedata3["MRData"]["RaceTable"]["Races"]
-                for qualifyingit in reversed(qualifyings):
-                    if qualifyingit["round"] == round:
-                        qualifying = qualifyingit["QualifyingResults"][0]
-                        if qualifying["position"] == "1":
-                            if raceName not in data["poles"][season]:
-                                data["poles"][season].append(raceName)
-                            data["seasonPoles"][season] = len(data["poles"][season])
-                            data["totalPoles"] = sum(data["seasonPoles"].values())
-                        val1 = qualifying.get("Q1", "N/A")
-                        val2 = qualifying.get("Q2", "N/A")
-                        val3 = qualifying.get("Q3", "N/A")
-                        data["driverQualifyingTimes"][season]["QualiTimes"][raceName] = [val1, val2, val3]
-                        break
-            else:
-                print("url3", response3.status_code)
+            # Reuse the single qualifying response fetched before the driver loop.
+            qualifying = qualifying_by_driver.get(driverId)
+            if qualifying:
+                if qualifying["position"] == "1":
+                    if raceName not in data["poles"][season]:
+                        data["poles"][season].append(raceName)
+                    data["seasonPoles"][season] = len(data["poles"][season])
+                    data["totalPoles"] = sum(data["seasonPoles"].values())
+                val1 = qualifying.get("Q1", "N/A")
+                val2 = qualifying.get("Q2", "N/A")
+                val3 = qualifying.get("Q3", "N/A")
+                data["driverQualifyingTimes"][season]["QualiTimes"][raceName] = [val1, val2, val3]
 
             # Save updated data to output file
             with open(output_file, "w", encoding='utf-8') as f:
@@ -231,9 +366,6 @@ def update_driverData():
             drivers_done += 1
             print(drivers_done, output_file)
             print("------------------------------")
-    else:
-        print(response1.status_code)
-
     print("Driver Data updated successfully!")
 
 def analyse_driverData():
@@ -528,7 +660,7 @@ def update_races():
     races_by_mk_file = 'races/racesbyMK.json'
     ensure_file_exists(races_by_mk_file, {})
     
-    response = requests.get(f'https://api.openf1.org/v1/meetings?year={season}')
+    response = api_get(f'https://api.openf1.org/v1/meetings?year={season}')
     if response.status_code == 200:
         responsedata = response.json()
         
@@ -579,197 +711,153 @@ def update_races():
     
     print("Race Details updated successfully!")
 
-def update_raceResults():
-    for season in [current_year]:
-        # Ensure season directory exists
-        season_dir = f'races/{season}'
-        ensure_directory_exists(season_dir)
-        
-        # Ensure raceDetails.json exists with default content
-        race_details_file = f'{season_dir}/raceDetails.json'
-        ensure_file_exists(race_details_file, [])
-        
-        with open(race_details_file, 'r', encoding='utf-8') as file:
-            races = json.load(file)
-        
-        result = []
-        for race in races:
-            if dt.strptime(race['date'], '%Y-%m-%d') < dt.now():
-                print(race['raceName'], season)
-                url = f'{api_url}/{season}/{race["round"]}/results.json'
-                response = requests.get(url)
-                if response.status_code == 200:
-                    responsedata = response.json()
-                    if 'MRData' in responsedata and 'RaceTable' in responsedata['MRData'] and 'Races' in responsedata['MRData']['RaceTable'] and len(responsedata['MRData']['RaceTable']['Races']) > 0:
-                        result.append(responsedata['MRData']['RaceTable']['Races'][0])
-                else:
-                    print(f"Failed to get race results for {race['raceName']} (Status: {response.status_code})")
-            else:
-                break
-        
-        results_file = f'{season_dir}/results.json'
-        with open(results_file, 'w', encoding='utf-8') as f:
-            json.dump(result, f, indent=4, ensure_ascii=False, cls=NpEncoder)
+def completed_calendar_races(races):
+    return [
+        race
+        for race in races
+        if dt.strptime(race['date'], '%Y-%m-%d') < dt.now()
+    ]
 
+
+def update_round_records(file_name, endpoint_name, label):
+    """Fetch only missing rounds and never replace an existing round."""
+    season = current_year
+    season_dir = f'races/{season}'
+    ensure_directory_exists(season_dir)
+
+    race_details_file = f'{season_dir}/raceDetails.json'
+    ensure_file_exists(race_details_file, [])
+    races = load_json(race_details_file, [])
+    completed_races = completed_calendar_races(races)
+
+    output_file = f'{season_dir}/{file_name}'
+    existing = load_json(output_file, [])
+    if not isinstance(existing, list):
+        raise RuntimeError(f'Expected a JSON list in {output_file}')
+
+    existing_rounds = {
+        str(record.get('round'))
+        for record in existing
+        if record.get('round') is not None
+    }
+    additions = []
+
+    for race in completed_races:
+        round_number = str(race['round'])
+        if round_number in existing_rounds:
+            print(f'{label}: round {round_number} already stored; preserving it')
+            continue
+
+        print(f'{label}: fetching {race["raceName"]} ({season})')
+        url = f'{api_url}/{season}/{round_number}/{endpoint_name}.json'
+        fetched_race = api_races(url)[0]
+        if str(fetched_race.get('round')) != round_number:
+            raise RuntimeError(
+                f'API round mismatch for {race["raceName"]}: {url}'
+            )
+        additions.append(fetched_race)
+
+    merged = merge_round_records(existing, additions)
+    expected_rounds = {str(race['round']) for race in completed_races}
+    merged_rounds = {str(record.get('round')) for record in merged}
+    missing_rounds = sorted(expected_rounds - merged_rounds, key=int)
+    if missing_rounds:
+        raise RuntimeError(
+            f'{label} validation failed; missing rounds: '
+            f'{", ".join(missing_rounds)}'
+        )
+
+    if additions:
+        write_json_atomic(output_file, merged)
+        print(f'{label}: added {len(additions)} new round(s)')
+    else:
+        print(f'{label}: no new rounds to add')
+
+
+def update_raceResults():
+    update_round_records('results.json', 'results', 'Race results')
     print("Race Results updated successfully!")
 
-def update_qualifying():
-    for season in [current_year]:
-        # Ensure season directory exists
-        season_dir = f'races/{season}'
-        ensure_directory_exists(season_dir)
-        
-        # Ensure raceDetails.json exists with default content
-        race_details_file = f'{season_dir}/raceDetails.json'
-        ensure_file_exists(race_details_file, [])
-        
-        with open(race_details_file, 'r', encoding='utf-8') as file:
-            races = json.load(file)
-        
-        result = []
-        for race in races:
-            if dt.strptime(race['date'], '%Y-%m-%d') < dt.now():
-                print(race['raceName'], season)
-                url = f'{api_url}/{season}/{race["round"]}/qualifying.json'
-                response = requests.get(url)
-                if response.status_code == 200:
-                    responsedata = response.json()
-                    if 'MRData' in responsedata and 'RaceTable' in responsedata['MRData'] and 'Races' in responsedata['MRData']['RaceTable'] and len(responsedata['MRData']['RaceTable']['Races']) > 0:
-                        result.append(responsedata['MRData']['RaceTable']['Races'][0])
-                else:
-                    print(f"Failed to get qualifying results for {race['raceName']} (Status: {response.status_code})")
-            else:
-                break
-        
-        qualifying_file = f'{season_dir}/qualifying.json'
-        with open(qualifying_file, 'w', encoding='utf-8') as f:
-            json.dump(result, f, indent=4, ensure_ascii=False, cls=NpEncoder)
 
+def update_qualifying():
+    update_round_records('qualifying.json', 'qualifying', 'Qualifying')
     print("Qualifying results updated successfully!")
 
-def update_driverStandings():
-    for season in [current_year]:
-        # Ensure season directory exists
-        season_dir = f'races/{season}'
-        ensure_directory_exists(season_dir)
-        
-        # Ensure raceDetails.json exists with default content
-        race_details_file = f'{season_dir}/raceDetails.json'
-        ensure_file_exists(race_details_file, [])
-        
-        with open(race_details_file, 'r', encoding='utf-8') as file:
-            races = json.load(file)
-        
-        result = {}
-        prev = []  # Initialize prev with an empty list
-        
-        for race in races:
-            race_date = dt.strptime(race['date'], '%Y-%m-%d')
-            if race_date < dt.now():
-                print(race['raceName'], season)
-                url = f'{api_url}/{season}/{race["round"]}/driverStandings.json'
-                
-                # retry logic parameters
-                max_retries = 5
-                wait_time = 10  # start with 10 second
-                for attempt in range(1, max_retries + 1):
-                    response = requests.get(url)
-                    if response.status_code == 200:
-                        data = response.json()
-                        mt = data.get('MRData', {}).get('StandingsTable', {}) \
-                                 .get('StandingsLists', [])
-                        if mt and 'DriverStandings' in mt[0]:
-                            result[race['round']] = mt[0]['DriverStandings']
-                            prev = result[race['round']]
-                        break
-                    elif response.status_code == 429:
-                        # Too many requests: back off
-                        retry_after = response.headers.get('Retry-After')
-                        if retry_after is not None:
-                            sleep_for = int(retry_after)
-                        else:
-                            sleep_for = wait_time
-                            wait_time = min(wait_time * 2, 60)  # cap at 60s
-                        print(f"Rate limited (429). Waiting {sleep_for}s before retry {attempt}/{max_retries}...")
-                        time.sleep(sleep_for)
-                    else:
-                        print(f"Failed to get driver standings for {race['raceName']} (Status: {response.status_code})")
-                        break
-                else:
-                    print(f"Exceeded max retries for {race['raceName']}, skipping.")
-            else:
-                if prev:  # Only add 'latest' if prev has been set
-                    result['latest'] = prev
-                break
-        
-        driver_standings_file = f'{season_dir}/driverStandings.json'
-        with open(driver_standings_file, 'w', encoding='utf-8') as file:
-            json.dump(result, file, indent=4, ensure_ascii=False, cls=NpEncoder)
 
+def update_standings(file_name, endpoint_name, standings_key, label):
+    """Add missing per-round standings while preserving stored history."""
+    season = current_year
+    season_dir = f'races/{season}'
+    ensure_directory_exists(season_dir)
+
+    race_details_file = f'{season_dir}/raceDetails.json'
+    ensure_file_exists(race_details_file, [])
+    races = load_json(race_details_file, [])
+    completed_races = completed_calendar_races(races)
+
+    output_file = f'{season_dir}/{file_name}'
+    existing = load_json(output_file, {})
+    if not isinstance(existing, dict):
+        raise RuntimeError(f'Expected a JSON object in {output_file}')
+    result = dict(existing)
+
+    for race in completed_races:
+        round_number = str(race['round'])
+        if round_number in result:
+            print(f'{label}: round {round_number} already stored; preserving it')
+            continue
+
+        print(f'{label}: fetching {race["raceName"]} ({season})')
+        url = f'{api_url}/{season}/{round_number}/{endpoint_name}.json'
+        data = api_get(url).json()
+        standings_lists = (
+            data.get('MRData', {})
+            .get('StandingsTable', {})
+            .get('StandingsLists', [])
+        )
+        if not standings_lists or standings_key not in standings_lists[0]:
+            raise RuntimeError(
+                f'API returned no {label.lower()} for '
+                f'{race["raceName"]}: {url}'
+            )
+        result[round_number] = standings_lists[0][standings_key]
+
+    expected_rounds = {str(race['round']) for race in completed_races}
+    missing_rounds = sorted(expected_rounds - result.keys(), key=int)
+    if missing_rounds:
+        raise RuntimeError(
+            f'{label} validation failed; missing rounds: '
+            f'{", ".join(missing_rounds)}'
+        )
+
+    if completed_races:
+        latest_round = max(expected_rounds, key=int)
+        result['latest'] = result[latest_round]
+
+    if result != existing:
+        write_json_atomic(output_file, result)
+        print(f'{label}: stored new standings')
+    else:
+        print(f'{label}: no new rounds to add')
+
+
+def update_driverStandings():
+    update_standings(
+        'driverStandings.json',
+        'driverStandings',
+        'DriverStandings',
+        'Driver standings',
+    )
     print('Driver Standings updated successfully!')
 
-def update_constructorStandings():
-    for season in [current_year]:
-        # Ensure season directory exists
-        season_dir = f'races/{season}'
-        ensure_directory_exists(season_dir)
-        
-        # Ensure raceDetails.json exists with default content
-        race_details_file = f'{season_dir}/raceDetails.json'
-        ensure_file_exists(race_details_file, [])
-        
-        with open(race_details_file, 'r', encoding='utf-8') as file:
-            races = json.load(file)
-        
-        result = {}
-        prev = []  # Initialize prev with an empty list
-        
-        for race in races:
-            race_date = dt.strptime(race['date'], '%Y-%m-%d')
-            if race_date < dt.now():
-                print(race['raceName'], season)
-                url = f'{api_url}/{season}/{race["round"]}/constructorStandings.json'
-                
-                # retry logic parameters
-                max_retries = 5
-                wait_time = 10  # start with 10 second
-                for attempt in range(1, max_retries + 1):
-                    response = requests.get(url)
-                    if response.status_code == 200:
-                        data = response.json()
-                        standings_lists = (
-                            data.get('MRData', {})
-                                .get('StandingsTable', {})
-                                .get('StandingsLists', [])
-                        )
-                        if standings_lists and 'ConstructorStandings' in standings_lists[0]:
-                            result[race['round']] = standings_lists[0]['ConstructorStandings']
-                            prev = result[race['round']]
-                        break
-                    elif response.status_code == 429:
-                        # Too many requests: back off
-                        retry_after = response.headers.get('Retry-After')
-                        if retry_after is not None:
-                            sleep_for = int(retry_after)
-                        else:
-                            sleep_for = wait_time
-                            wait_time = min(wait_time * 2, 60)  # cap at 60s
-                        print(f"Rate limited (429). Waiting {sleep_for}s before retry {attempt}/{max_retries}...")
-                        time.sleep(sleep_for)
-                    else:
-                        print(f"Failed to get constructor standings for {race['raceName']} (Status: {response.status_code})")
-                        break
-                else:
-                    print(f"Exceeded max retries for {race['raceName']}, skipping.")
-            else:
-                if prev:  # Only add 'latest' if prev has been set
-                    result['latest'] = prev
-                break
-        
-        constructor_standings_file = f'{season_dir}/constructorStandings.json'
-        with open(constructor_standings_file, 'w', encoding='utf-8') as file:
-            json.dump(result, file, indent=4, ensure_ascii=False, cls=NpEncoder)
 
+def update_constructorStandings():
+    update_standings(
+        'constructorStandings.json',
+        'constructorStandings',
+        'ConstructorStandings',
+        'Constructor standings',
+    )
     print('Constructor Standings updated successfully!')
 # This function is no longer needed as its functionality is included in update_all()
 def initialize_race_details():
@@ -795,7 +883,7 @@ def initialize_race_details():
 def fetch_race_calendar(season):
     """Fetch race calendar from API for given season, excluding Pre-Season Testing"""
     url = f'{api_url}/{season}.json'
-    response = requests.get(url)
+    response = api_get(url)
     
     if response.status_code == 200:
         responsedata = response.json()
@@ -881,4 +969,5 @@ def update():
     print("==========Updating Constructor Standings==========")
     update_constructorStandings()
 
-update()
+if __name__ == '__main__':
+    update()

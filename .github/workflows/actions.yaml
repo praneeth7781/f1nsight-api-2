@@ -9,6 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Favor consistency over speed and stay well below Jolpica's burst limit.
+      F1NSIGHT_API_DELAY_SECONDS: '1.0'
+      F1NSIGHT_API_MAX_RETRIES: '6'
     steps:
 
       - name: checkout repo content
@@ -23,6 +27,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: run updater regression tests
+        run: python -m unittest discover -s tests -v
           
       - name: execute py script # run api_update.py
         run: python api_update.py
