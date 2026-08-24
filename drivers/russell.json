@@ -2,9 +2,9 @@
     "driverId": "russell",
     "driverCode": "RUS",
     "driverNumber": "63",
-    "lastUpdate": "2026-08-17T10:30:44.321266",
+    "lastUpdate": "2026-08-24T10:36:03.561235",
     "totalWins": 7,
-    "totalPodiums": 29,
+    "totalPodiums": 30,
     "totalPoles": 10,
     "totalDNFs": 23,
     "seasonWins": {
@@ -25,7 +25,7 @@
         "2023": 2,
         "2024": 4,
         "2025": 9,
-        "2026": 5
+        "2026": 6
     },
     "seasonPoles": {
         "2019": 0,
@@ -113,7 +113,8 @@
             "Chinese Grand Prix": "2",
             "Barcelona Grand Prix": "2",
             "Austrian Grand Prix": "1",
-            "British Grand Prix": "2"
+            "British Grand Prix": "2",
+            "Dutch Grand Prix": "3"
         }
     },
     "DNFs": {
@@ -332,7 +333,8 @@
             "Austrian Grand Prix": "1:10.683",
             "British Grand Prix": "1:32.489",
             "Belgian Grand Prix": -1,
-            "Hungarian Grand Prix": "1:22.589"
+            "Hungarian Grand Prix": "1:22.589",
+            "Dutch Grand Prix": "1:15.393"
         }
     },
     "finalStandings": {
@@ -373,8 +375,8 @@
         },
         "2026": {
             "year": "2026",
-            "position": "3",
-            "points": "160"
+            "position": "2",
+            "points": "183"
         }
     },
     "posAfterRace": {
@@ -904,6 +906,9 @@
                 },
                 "Hungarian Grand Prix": {
                     "points": 160
+                },
+                "Dutch Grand Prix": {
+                    "points": 183
                 }
             }
         }
@@ -1109,7 +1114,8 @@
                 "Austrian Grand Prix": "1",
                 "British Grand Prix": "2",
                 "Belgian Grand Prix": "22",
-                "Hungarian Grand Prix": "7"
+                "Hungarian Grand Prix": "7",
+                "Dutch Grand Prix": "3"
             }
         }
     },
@@ -1314,7 +1320,8 @@
                 "Austrian Grand Prix": "1",
                 "British Grand Prix": "4",
                 "Belgian Grand Prix": "3",
-                "Hungarian Grand Prix": "6"
+                "Hungarian Grand Prix": "6",
+                "Dutch Grand Prix": "2"
             }
         }
     },
@@ -2171,6 +2178,11 @@
                     "1:18.856",
                     "1:18.445",
                     "1:17.760"
+                ],
+                "Dutch Grand Prix": [
+                    "1:12.924",
+                    "1:11.959",
+                    "1:11.265"
                 ]
             }
         }
@@ -2178,21 +2190,21 @@
     "consistency": {
         "mean": {
             "wins": 0.875,
-            "podiums": 3.625,
+            "podiums": 3.75,
             "poles": 1.25,
-            "points": 149.125
+            "points": 152.0
         },
         "std": {
             "wins": 0.9270248108869579,
-            "podiums": 3.276335605520289,
+            "podiums": 3.344772040064913,
             "poles": 1.479019945774904,
-            "points": 120.4132857080148
+            "points": 120.91215819759401
         },
         "cv": {
             "wins": 1.0594569267279519,
-            "podiums": 0.9038167187642177,
+            "podiums": 0.8919392106839769,
             "poles": 1.1832159566199232,
-            "points": 0.8074654531970816
+            "points": 0.7954747249841712
         }
     },
     "peakSeason": {
@@ -2217,7 +2229,7 @@
         "2023": 8.090909090909092,
         "2024": 6.75,
         "2025": 4.541666666666667,
-        "2026": 6.909090909090909
+        "2026": 6.583333333333333
     },
     "avgQualiPositions": {
         "2019": 18.285714285714285,
@@ -2227,7 +2239,7 @@
         "2023": 6.5,
         "2024": 5.625,
         "2025": 4.375,
-        "2026": 2.909090909090909
+        "2026": 2.8333333333333335
     },
     "rates": {
         "wins": {
@@ -2238,7 +2250,7 @@
             "2023": 0.0,
             "2024": 0.08333333333333333,
             "2025": 0.08333333333333333,
-            "2026": 0.18181818181818182
+            "2026": 0.16666666666666666
         },
         "podiums": {
             "2019": 0.0,
@@ -2248,7 +2260,7 @@
             "2023": 0.09090909090909091,
             "2024": 0.16666666666666666,
             "2025": 0.375,
-            "2026": 0.45454545454545453
+            "2026": 0.5
         },
         "poles": {
             "2019": 0.0,
@@ -2258,7 +2270,7 @@
             "2023": 0.0,
             "2024": 0.125,
             "2025": 0.08333333333333333,
-            "2026": 0.36363636363636365
+            "2026": 0.3333333333333333
         },
         "DNFs": {
             "2019": 0.09523809523809523,
@@ -2268,13 +2280,13 @@
             "2023": 0.18181818181818182,
             "2024": 0.125,
             "2025": 0.041666666666666664,
-            "2026": 0.18181818181818182
+            "2026": 0.16666666666666666
         }
     },
-    "winRate": 0.04294478527607362,
-    "podiumRate": 0.17791411042944785,
-    "poleRate": 0.06134969325153374,
-    "dnfRate": 0.1411042944785276,
+    "winRate": 0.042682926829268296,
+    "podiumRate": 0.18292682926829268,
+    "poleRate": 0.06097560975609756,
+    "dnfRate": 0.1402439024390244,
     "ptwConRate": {
         "2019": -1,
         "2020": -1,
@@ -2463,7 +2475,8 @@
             "Austrian Grand Prix": 0,
             "British Grand Prix": 2,
             "Belgian Grand Prix": -19,
-            "Hungarian Grand Prix": -1
+            "Hungarian Grand Prix": -1,
+            "Dutch Grand Prix": -1
         }
     }
 }
