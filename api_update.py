@@ -945,6 +945,180 @@ def pre_checks():
     
     return True
 
+LINEAGE_FILE = 'teamLineage.json'
+HISTORICAL_POLES_FILE = 'historicalPoles.json'
+TEAM_RECORDS_FILE = 'teamRecords.json'
+
+
+def _final_standings(season, kind):
+    """Return the end-of-season standings list for a season, or []."""
+    data = load_json(f'races/{season}/{kind}.json', {})
+    if not isinstance(data, dict) or not data:
+        return []
+    if 'latest' in data:
+        return data['latest']
+    rounds = [k for k in data if k.isdigit()]
+    if not rounds:
+        return []
+    return data[str(max(int(k) for k in rounds))]
+
+
+def _season_complete(season, results):
+    """A season only counts toward titles once every scheduled race has results.
+    This holds for finished historical seasons and keeps an in-progress season --
+    or one left partially fetched, since the updater only refreshes current_year --
+    from having its current standings leader recorded as champion."""
+    scheduled = len(load_json(f'races/{season}/raceDetails.json', []))
+    completed = sum(1 for race in results if race.get('Results'))
+    return scheduled > 0 and completed >= scheduled
+
+
+def _season_records_index():
+    """Aggregate every stored season once: per-constructor wins, podiums, fastest
+    laps, poles and driver line-ups, plus that season's champions."""
+    historical_poles = load_json(HISTORICAL_POLES_FILE, {}).get('poles', {})
+    index = {}
+    for entry in sorted(os.listdir('races')):
+        if not entry.isdigit():
+            continue
+        season = int(entry)
+        results = load_json(f'races/{season}/results.json', [])
+        wins, podiums, fastest, poles, lineup = {}, {}, {}, {}, {}
+        for race in results:
+            for result in race.get('Results', []):
+                constructor_id = result['Constructor']['constructorId']
+                position = result.get('position')
+                if position == '1':
+                    wins[constructor_id] = wins.get(constructor_id, 0) + 1
+                if position in ('1', '2', '3'):
+                    podiums[constructor_id] = podiums.get(constructor_id, 0) + 1
+                if result.get('FastestLap', {}).get('rank') == '1':
+                    fastest[constructor_id] = fastest.get(constructor_id, 0) + 1
+                driver = result.get('Driver', {})
+                name = f"{driver.get('givenName', '')} " \
+                       f"{driver.get('familyName', '')}".strip()
+                lineup.setdefault(constructor_id, [])
+                if name and name not in lineup[constructor_id]:
+                    lineup[constructor_id].append(name)
+
+        # Poles: qualifying data is complete from 2010 (local) and from 2003 in
+        # Ergast (seeded). Before that the front-row starter (grid 1) is the pole.
+        if season >= 2010:
+            for race in load_json(f'races/{season}/qualifying.json', []):
+                for qualifying in race.get('QualifyingResults', []):
+                    if qualifying.get('position') == '1':
+                        constructor_id = qualifying['Constructor']['constructorId']
+                        poles[constructor_id] = poles.get(constructor_id, 0) + 1
+        elif 2003 <= season <= 2009:
+            poles = dict(historical_poles.get(str(season), {}))
+        else:
+            for race in results:
+                for result in race.get('Results', []):
+                    if result.get('grid') == '1':
+                        constructor_id = result['Constructor']['constructorId']
+                        poles[constructor_id] = poles.get(constructor_id, 0) + 1
+
+        constructor_standings = _final_standings(season, 'constructorStandings')
+        constructor_champion = (
+            constructor_standings[0]['Constructor']['constructorId']
+            if constructor_standings else None
+        )
+        driver_standings = _final_standings(season, 'driverStandings')
+        driver_champion = None
+        if driver_standings:
+            top = driver_standings[0]
+            driver_champion = {
+                'name': f"{top['Driver'].get('givenName', '')} "
+                        f"{top['Driver'].get('familyName', '')}".strip(),
+                'cids': [c['constructorId'] for c in top.get('Constructors', [])],
+            }
+
+        index[season] = {
+            'wins': wins, 'podiums': podiums, 'fastest': fastest, 'poles': poles,
+            'lineup': lineup, 'constructor_champion': constructor_champion,
+            'driver_champion': driver_champion,
+            'titles_final': _season_complete(season, results),
+        }
+    return index
+
+
+def _blank_record():
+    return {'wins': 0, 'podiums': 0, 'poles': 0, 'fastestLaps': 0,
+            'constructorTitles': [], 'driverTitles': []}
+
+
+def update_team_records():
+    """Build teamRecords.json: per-era and combined career stats for the direct
+    lineage of each current constructor, computed only from stored race data."""
+    lineage = load_json(LINEAGE_FILE, {}).get('teams', {})
+    if not lineage:
+        print('No teamLineage.json found; skipping team records.')
+        return
+    index = _season_records_index()
+
+    latest_season = max(index) if index else current_year
+    latest_round = 0
+    for race in load_json(f'races/{latest_season}/results.json', []):
+        if race.get('Results'):
+            latest_round = max(latest_round, int(race.get('round', 0)))
+
+    teams = {}
+    for team_id, config in lineage.items():
+        eras, total = [], _blank_record()
+        for era in config['lineage']:
+            constructor_ids = set(era['constructorIds'])
+            start = era['startYear']
+            end = era['endYear'] if era['endYear'] is not None else current_year
+            record = _blank_record()
+            record.update({
+                'team': era['team'], 'constructorIds': era['constructorIds'],
+                'startYear': start, 'endYear': end,
+                'current': era['endYear'] is None,
+            })
+            for season in range(start, end + 1):
+                data = index.get(season)
+                if not data:
+                    continue
+                for constructor_id in constructor_ids:
+                    record['wins'] += data['wins'].get(constructor_id, 0)
+                    record['podiums'] += data['podiums'].get(constructor_id, 0)
+                    record['poles'] += data['poles'].get(constructor_id, 0)
+                    record['fastestLaps'] += data['fastest'].get(constructor_id, 0)
+                if data['titles_final'] and data['constructor_champion'] in constructor_ids:
+                    drivers = []
+                    for constructor_id in constructor_ids:
+                        drivers += data['lineup'].get(constructor_id, [])
+                    record['constructorTitles'].append(
+                        {'year': season, 'drivers': drivers})
+                if (data['titles_final'] and data['driver_champion']
+                        and any(c in constructor_ids
+                                for c in data['driver_champion']['cids'])):
+                    record['driverTitles'].append(
+                        {'year': season, 'driver': data['driver_champion']['name']})
+            for key in ('wins', 'podiums', 'poles', 'fastestLaps'):
+                total[key] += record[key]
+            total['constructorTitles'] += record['constructorTitles']
+            total['driverTitles'] += record['driverTitles']
+            eras.append(record)
+        total['constructorTitles'].sort(key=lambda item: item['year'])
+        total['driverTitles'].sort(key=lambda item: item['year'])
+        teams[team_id] = {'name': config['name'], 'color': config['color'],
+                          'total': total, 'lineage': eras}
+
+    write_json_atomic(TEAM_RECORDS_FILE, {
+        'generatedAt': dt.now().strftime('%Y-%m-%d'),
+        'through': {'season': latest_season, 'round': latest_round},
+        'source': 'f1nsight-api-2 local race data (Ergast/Jolpica lineage)',
+        'notes': {
+            'poles': 'Poles use qualifying data from 2010, Ergast qualifying for '
+                     '2003-2009, and grid position 1 for 1950-2002.',
+            'fastestLaps': 'Fastest-lap data is only available from 2004.',
+        },
+        'teams': teams,
+    })
+    print('Team records updated successfully!')
+
+
 def update():
     print("==========Updating constructors==========")
     update_constructors()
@@ -968,6 +1142,8 @@ def update():
     update_driverStandings()
     print("==========Updating Constructor Standings==========")
     update_constructorStandings()
+    print("==========Updating Team Records==========")
+    update_team_records()
 
 if __name__ == '__main__':
     update()
