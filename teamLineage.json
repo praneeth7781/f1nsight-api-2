@@ -1,0 +1,108 @@
+{
+  "_comment": "Direct lineage of current (2026 grid) constructors only. Each era's constructorIds and year ranges were validated against local races/<year>/results.json. endYear null = ongoing (uses the current season). Poles are only available from 1994; see teamRecords.json notes.",
+  "teams": {
+    "ferrari": {
+      "name": "Ferrari",
+      "color": "#E8002D",
+      "lineage": [
+        { "team": "Ferrari", "constructorIds": ["ferrari"], "startYear": 1950, "endYear": null }
+      ]
+    },
+    "mercedes": {
+      "name": "Mercedes",
+      "color": "#27F4D2",
+      "lineage": [
+        { "team": "Mercedes", "constructorIds": ["mercedes"], "startYear": 1954, "endYear": 1956 },
+        { "team": "Tyrrell", "constructorIds": ["tyrrell"], "startYear": 1970, "endYear": 1998 },
+        { "team": "BAR", "constructorIds": ["bar"], "startYear": 1999, "endYear": 2005 },
+        { "team": "Honda", "constructorIds": ["honda"], "startYear": 2006, "endYear": 2008 },
+        { "team": "Brawn GP", "constructorIds": ["brawn"], "startYear": 2009, "endYear": 2009 },
+        { "team": "Mercedes", "constructorIds": ["mercedes"], "startYear": 2010, "endYear": null }
+      ]
+    },
+    "red_bull": {
+      "name": "Red Bull",
+      "color": "#3671C6",
+      "lineage": [
+        { "team": "Stewart", "constructorIds": ["stewart"], "startYear": 1997, "endYear": 1999 },
+        { "team": "Jaguar", "constructorIds": ["jaguar"], "startYear": 2000, "endYear": 2004 },
+        { "team": "Red Bull", "constructorIds": ["red_bull"], "startYear": 2005, "endYear": null }
+      ]
+    },
+    "mclaren": {
+      "name": "McLaren",
+      "color": "#FF8000",
+      "lineage": [
+        { "team": "McLaren", "constructorIds": ["mclaren"], "startYear": 1966, "endYear": null }
+      ]
+    },
+    "williams": {
+      "name": "Williams",
+      "color": "#64C4FF",
+      "lineage": [
+        { "team": "Williams", "constructorIds": ["williams"], "startYear": 1977, "endYear": null }
+      ]
+    },
+    "aston_martin": {
+      "name": "Aston Martin",
+      "color": "#229971",
+      "lineage": [
+        { "team": "Aston Martin", "constructorIds": ["aston_martin"], "startYear": 1959, "endYear": 1960 },
+        { "team": "Jordan", "constructorIds": ["jordan"], "startYear": 1991, "endYear": 2005 },
+        { "team": "Midland", "constructorIds": ["mf1", "spyker_mf1"], "startYear": 2006, "endYear": 2006 },
+        { "team": "Spyker", "constructorIds": ["spyker"], "startYear": 2007, "endYear": 2007 },
+        { "team": "Force India", "constructorIds": ["force_india"], "startYear": 2008, "endYear": 2018 },
+        { "team": "Racing Point", "constructorIds": ["racing_point"], "startYear": 2019, "endYear": 2020 },
+        { "team": "Aston Martin", "constructorIds": ["aston_martin"], "startYear": 2021, "endYear": null }
+      ]
+    },
+    "alpine": {
+      "name": "Alpine",
+      "color": "#FF87BC",
+      "lineage": [
+        { "team": "Toleman", "constructorIds": ["toleman"], "startYear": 1981, "endYear": 1985 },
+        { "team": "Benetton", "constructorIds": ["benetton"], "startYear": 1986, "endYear": 2001 },
+        { "team": "Renault", "constructorIds": ["renault"], "startYear": 2002, "endYear": 2011 },
+        { "team": "Lotus", "constructorIds": ["lotus_f1"], "startYear": 2012, "endYear": 2015 },
+        { "team": "Renault", "constructorIds": ["renault"], "startYear": 2016, "endYear": 2020 },
+        { "team": "Alpine", "constructorIds": ["alpine"], "startYear": 2021, "endYear": null }
+      ]
+    },
+    "rb": {
+      "name": "Racing Bulls",
+      "color": "#6692FF",
+      "lineage": [
+        { "team": "Minardi", "constructorIds": ["minardi"], "startYear": 1985, "endYear": 2005 },
+        { "team": "Toro Rosso", "constructorIds": ["toro_rosso"], "startYear": 2006, "endYear": 2019 },
+        { "team": "AlphaTauri", "constructorIds": ["alphatauri"], "startYear": 2020, "endYear": 2023 },
+        { "team": "Racing Bulls", "constructorIds": ["rb"], "startYear": 2024, "endYear": null }
+      ]
+    },
+    "audi": {
+      "name": "Audi",
+      "color": "#F50537",
+      "lineage": [
+        { "team": "Sauber", "constructorIds": ["sauber"], "startYear": 1993, "endYear": 2005 },
+        { "team": "BMW Sauber", "constructorIds": ["bmw_sauber"], "startYear": 2006, "endYear": 2009 },
+        { "team": "Sauber", "constructorIds": ["sauber"], "startYear": 2010, "endYear": 2018 },
+        { "team": "Alfa Romeo", "constructorIds": ["alfa"], "startYear": 2019, "endYear": 2023 },
+        { "team": "Stake", "constructorIds": ["sauber"], "startYear": 2024, "endYear": 2025 },
+        { "team": "Audi", "constructorIds": ["audi"], "startYear": 2026, "endYear": null }
+      ]
+    },
+    "haas": {
+      "name": "Haas",
+      "color": "#B6BABD",
+      "lineage": [
+        { "team": "Haas", "constructorIds": ["haas"], "startYear": 2016, "endYear": null }
+      ]
+    },
+    "cadillac": {
+      "name": "Cadillac",
+      "color": "#909090",
+      "lineage": [
+        { "team": "Cadillac", "constructorIds": ["cadillac"], "startYear": 2026, "endYear": null }
+      ]
+    }
+  }
+}
