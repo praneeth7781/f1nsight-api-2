@@ -1,10 +1,10 @@
 {
     "driverId": "vaccarella",
-    "lastUpdate": "2024-08-03T03:38:43.941693",
+    "lastUpdate": "2026-10-02T11:47:20.502282",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1961": 0,
         "1962": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1961": 1,
         "1962": 1,
-        "1965": 1
+        "1965": 0
     },
     "poles": {
         "1961": [],
@@ -42,29 +42,35 @@
         "1962": {
             "Monaco Grand Prix": "Did not qualify"
         },
-        "1965": {
-            "Italian Grand Prix": "Engine"
-        }
+        "1965": {}
     },
     "fastLaps": {
-        "1961": {},
-        "1962": {},
-        "1965": {}
+        "1961": {
+            "Italian Grand Prix": -1
+        },
+        "1962": {
+            "Monaco Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1965": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1961": {
             "year": "1961",
-            "position": "46",
+            "position": "40",
             "points": "0"
         },
         "1962": {
             "year": "1962",
-            "position": "23",
+            "position": "40",
             "points": "0"
         },
         "1965": {
             "year": "1965",
-            "position": "29",
+            "position": "40",
             "points": "0"
         }
     },
@@ -73,7 +79,10 @@
             "year": "1961",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -81,13 +90,19 @@
             "year": "1962",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -95,7 +110,13 @@
             "year": "1965",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -125,15 +146,23 @@
     "qualiPosition": {
         "1961": {
             "year": "1961",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "20"
+            }
         },
         "1962": {
             "year": "1962",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0",
+                "German Grand Prix": "15",
+                "Italian Grand Prix": "14"
+            }
         },
         "1965": {
             "year": "1965",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "15"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -226,6 +255,81 @@
         "1965": -1
     },
     "positionsGainLost": {
+        "1961": {},
+        "1962": {},
+        "1965": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1961": {
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "de_tomaso-alfa_romeo",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1962": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 21,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "porsche",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1965": {
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1961": {},
         "1962": {},
         "1965": {}

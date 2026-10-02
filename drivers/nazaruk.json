@@ -1,6 +1,6 @@
 {
     "driverId": "nazaruk",
-    "lastUpdate": "2024-08-03T03:38:36.391071",
+    "lastUpdate": "2026-10-02T11:47:20.461545",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -45,9 +45,15 @@
         "1954": {}
     },
     "fastLaps": {
-        "1951": {},
-        "1953": {},
-        "1954": {}
+        "1951": {
+            "Indianapolis 500": -1
+        },
+        "1953": {
+            "Indianapolis 500": -1
+        },
+        "1954": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1951": {
@@ -57,7 +63,7 @@
         },
         "1953": {
             "year": "1953",
-            "position": "91",
+            "position": "40",
             "points": "0"
         },
         "1954": {
@@ -71,7 +77,25 @@
             "year": "1951",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 6
+                    "points": 6.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 6.0
+                },
+                "French Grand Prix": {
+                    "points": 6.0
+                },
+                "British Grand Prix": {
+                    "points": 6.0
+                },
+                "German Grand Prix": {
+                    "points": 6.0
+                },
+                "Italian Grand Prix": {
+                    "points": 6.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 6.0
                 }
             }
         },
@@ -79,7 +103,28 @@
             "year": "1953",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -87,7 +132,28 @@
             "year": "1954",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 2
+                    "points": 2.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 2.0
+                },
+                "French Grand Prix": {
+                    "points": 2.0
+                },
+                "British Grand Prix": {
+                    "points": 2.0
+                },
+                "German Grand Prix": {
+                    "points": 2.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 2.0
+                },
+                "Italian Grand Prix": {
+                    "points": 2.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 2.0
                 }
             }
         }
@@ -115,15 +181,21 @@
     "qualiPosition": {
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "7"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "23"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "14"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -216,6 +288,57 @@
         "1954": -1
     },
     "positionsGainLost": {
+        "1951": {},
+        "1953": {},
+        "1954": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1951": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 7,
+                "points": 6.0,
+                "status": "Finished",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "turner",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 14,
+                "points": 2.0,
+                "status": "Finished",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1951": {},
         "1953": {},
         "1954": {}

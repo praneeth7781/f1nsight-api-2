@@ -1,6 +1,6 @@
 {
     "driverId": "jo_schlesser",
-    "lastUpdate": "2024-08-03T03:38:30.779252",
+    "lastUpdate": "2026-10-02T11:47:20.514870",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -38,18 +38,22 @@
         }
     },
     "fastLaps": {
-        "1967": {},
-        "1968": {}
+        "1967": {
+            "German Grand Prix": -1
+        },
+        "1968": {
+            "French Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1967": {
             "year": "1967",
-            "position": "44",
+            "position": "40",
             "points": "0"
         },
         "1968": {
             "year": "1968",
-            "position": "34",
+            "position": "40",
             "points": "0"
         }
     },
@@ -58,7 +62,19 @@
             "year": "1967",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -66,7 +82,25 @@
             "year": "1968",
             "pos": {
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -88,11 +122,15 @@
     "qualiPosition": {
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "21"
+            }
         },
         "1968": {
             "year": "1968",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "16"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -174,6 +212,42 @@
         "1968": -1
     },
     "positionsGainLost": {
+        "1967": {},
+        "1968": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1967": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "matra",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1968": {
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1967": {},
         "1968": {}
     }

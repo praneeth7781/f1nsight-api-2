@@ -1,6 +1,6 @@
 {
     "driverId": "rahal",
-    "lastUpdate": "2024-08-03T03:38:38.750674",
+    "lastUpdate": "2026-10-02T11:47:20.535123",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,15 @@
         }
     },
     "fastLaps": {
-        "1978": {}
+        "1978": {
+            "United States Grand Prix": -1,
+            "Canadian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1978": {
             "year": "1978",
-            "position": "33",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,10 +46,10 @@
             "year": "1978",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -63,7 +66,10 @@
     "qualiPosition": {
         "1978": {
             "year": "1978",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "20",
+                "Canadian Grand Prix": "20"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -134,6 +140,39 @@
         "1978": -1
     },
     "positionsGainLost": {
+        "1978": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1978": {
+            "15": {
+                "raceName": "United States Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "wolf",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Canadian Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "wolf",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1978": {}
     }
 }

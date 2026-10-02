@@ -1,10 +1,10 @@
 {
     "driverId": "henton",
-    "lastUpdate": "2024-08-03T03:38:28.354243",
+    "lastUpdate": "2026-10-02T11:47:20.528419",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 28,
+    "totalDNFs": 12,
     "seasonWins": {
         "1975": 0,
         "1977": 0,
@@ -24,10 +24,10 @@
         "1982": 0
     },
     "seasonDNFs": {
-        "1975": 3,
-        "1977": 5,
-        "1981": 11,
-        "1982": 9
+        "1975": 2,
+        "1977": 1,
+        "1981": 2,
+        "1982": 7
     },
     "poles": {
         "1975": [],
@@ -43,33 +43,17 @@
     },
     "DNFs": {
         "1975": {
-            "British Grand Prix": "Accident",
             "Austrian Grand Prix": "Accident",
             "United States Grand Prix": "Not classified"
         },
         "1977": {
-            "Spanish Grand Prix": "Did not qualify",
-            "British Grand Prix": "Did not qualify",
-            "Austrian Grand Prix": "Did not qualify",
-            "Dutch Grand Prix": "Disqualified",
-            "Italian Grand Prix": "Did not qualify"
+            "Dutch Grand Prix": "Disqualified"
         },
         "1981": {
-            "San Marino Grand Prix": "Did not qualify",
-            "Belgian Grand Prix": "Did not qualify",
-            "Monaco Grand Prix": "Did not qualify",
-            "Spanish Grand Prix": "Did not qualify",
             "French Grand Prix": "Did not qualify",
-            "British Grand Prix": "Did not qualify",
-            "German Grand Prix": "Did not qualify",
-            "Austrian Grand Prix": "Did not qualify",
-            "Dutch Grand Prix": "Did not qualify",
-            "Canadian Grand Prix": "Did not qualify",
-            "Caesars Palace Grand Prix": "Did not qualify"
+            "Austrian Grand Prix": "Did not qualify"
         },
         "1982": {
-            "South African Grand Prix": "Did not qualify",
-            "Brazilian Grand Prix": "Did not qualify",
             "United States Grand Prix West": "Spun off",
             "San Marino Grand Prix": "Transmission",
             "Belgian Grand Prix": "Engine",
@@ -80,30 +64,56 @@
         }
     },
     "fastLaps": {
-        "1975": {},
-        "1977": {},
-        "1981": {},
-        "1982": {}
+        "1975": {
+            "British Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "United States Grand Prix": -1
+        },
+        "1977": {
+            "United States Grand Prix West": -1,
+            "Dutch Grand Prix": -1
+        },
+        "1981": {
+            "French Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1982": {
+            "United States Grand Prix West": -1,
+            "San Marino Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Detroit Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "British Grand Prix": -1,
+            "French Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Swiss Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "Caesars Palace Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1975": {
             "year": "1975",
-            "position": "41",
+            "position": "40",
             "points": "0"
         },
         "1977": {
             "year": "1977",
-            "position": "34",
+            "position": "40",
             "points": "0"
         },
         "1981": {
             "year": "1981",
-            "position": "28",
+            "position": "40",
             "points": "0"
         },
         "1982": {
             "year": "1982",
-            "position": "27",
+            "position": "40",
             "points": "0"
         }
     },
@@ -112,13 +122,19 @@
             "year": "1975",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -126,116 +142,107 @@
             "year": "1977",
             "pos": {
                 "United States Grand Prix West": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "Swedish Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
         "1981": {
             "year": "1981",
             "pos": {
-                "San Marino Grand Prix": {
-                    "points": 0
-                },
-                "Belgian Grand Prix": {
-                    "points": 0
-                },
-                "Monaco Grand Prix": {
-                    "points": 0
-                },
-                "Spanish Grand Prix": {
-                    "points": 0
-                },
-                "French Grand Prix": {
-                    "points": 0
-                },
-                "British Grand Prix": {
-                    "points": 0
-                },
-                "German Grand Prix": {
-                    "points": 0
-                },
-                "Austrian Grand Prix": {
-                    "points": 0
-                },
-                "Dutch Grand Prix": {
-                    "points": 0
-                },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Caesars Palace Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
         "1982": {
             "year": "1982",
             "pos": {
-                "South African Grand Prix": {
-                    "points": 0
-                },
-                "Brazilian Grand Prix": {
-                    "points": 0
-                },
                 "United States Grand Prix West": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Detroit Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Caesars Palace Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -253,35 +260,20 @@
             "year": "1977",
             "positions": {
                 "United States Grand Prix West": "10",
-                "Spanish Grand Prix": "29",
-                "British Grand Prix": "29",
-                "Austrian Grand Prix": "27",
-                "Dutch Grand Prix": "14",
-                "Italian Grand Prix": "28"
+                "Dutch Grand Prix": "14"
             }
         },
         "1981": {
             "year": "1981",
             "positions": {
-                "San Marino Grand Prix": "30",
-                "Belgian Grand Prix": "31",
-                "Monaco Grand Prix": "30",
-                "Spanish Grand Prix": "28",
                 "French Grand Prix": "26",
-                "British Grand Prix": "26",
-                "German Grand Prix": "26",
                 "Austrian Grand Prix": "27",
-                "Dutch Grand Prix": "26",
-                "Italian Grand Prix": "10",
-                "Canadian Grand Prix": "27",
-                "Caesars Palace Grand Prix": "29"
+                "Italian Grand Prix": "10"
             }
         },
         "1982": {
             "year": "1982",
             "positions": {
-                "South African Grand Prix": "29",
-                "Brazilian Grand Prix": "28",
                 "United States Grand Prix West": "14",
                 "San Marino Grand Prix": "13",
                 "Belgian Grand Prix": "18",
@@ -302,19 +294,45 @@
     "qualiPosition": {
         "1975": {
             "year": "1975",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "21",
+                "Austrian Grand Prix": "22",
+                "United States Grand Prix": "19"
+            }
         },
         "1977": {
             "year": "1977",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix West": "18",
+                "Dutch Grand Prix": "23"
+            }
         },
         "1981": {
             "year": "1981",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "0",
+                "Austrian Grand Prix": "0",
+                "Italian Grand Prix": "23"
+            }
         },
         "1982": {
             "year": "1982",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix West": "20",
+                "San Marino Grand Prix": "11",
+                "Belgian Grand Prix": "20",
+                "Monaco Grand Prix": "17",
+                "Detroit Grand Prix": "20",
+                "Canadian Grand Prix": "26",
+                "Dutch Grand Prix": "20",
+                "British Grand Prix": "17",
+                "French Grand Prix": "23",
+                "German Grand Prix": "17",
+                "Austrian Grand Prix": "19",
+                "Swiss Grand Prix": "18",
+                "Italian Grand Prix": "20",
+                "Caesars Palace Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -418,6 +436,288 @@
         "1982": -1
     },
     "positionsGainLost": {
+        "1975": {},
+        "1977": {},
+        "1981": {},
+        "1982": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1975": {
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Austrian Grand Prix",
+                "position": 28,
+                "positionText": "W",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "United States Grand Prix",
+                "position": 12,
+                "positionText": "N",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1977": {
+            "4": {
+                "raceName": "United States Grand Prix West",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "march",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Dutch Grand Prix",
+                "position": 14,
+                "positionText": "D",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Disqualified",
+                "constructorId": "boro",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1981": {
+            "8": {
+                "raceName": "French Grand Prix",
+                "position": 26,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "toleman",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Austrian Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "toleman",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Italian Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "toleman",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1982": {
+            "3": {
+                "raceName": "United States Grand Prix West",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "San Marino Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Monaco Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Detroit Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Canadian Grand Prix",
+                "position": 12,
+                "positionText": "N",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Dutch Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Throttle",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "French Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "German Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Austrian Grand Prix",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Swiss Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "Italian Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Collision",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Caesars Palace Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1975": {},
         "1977": {},
         "1981": {},

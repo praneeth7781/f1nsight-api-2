@@ -1,10 +1,10 @@
 {
     "driverId": "hawkins",
-    "lastUpdate": "2024-08-03T03:38:27.846475",
+    "lastUpdate": "2026-10-02T11:47:20.510915",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1965": 0
     },
@@ -15,7 +15,7 @@
         "1965": 0
     },
     "seasonDNFs": {
-        "1965": 2
+        "1965": 1
     },
     "poles": {
         "1965": []
@@ -25,17 +25,20 @@
     },
     "DNFs": {
         "1965": {
-            "Monaco Grand Prix": "Accident",
             "German Grand Prix": "Oil leak"
         }
     },
     "fastLaps": {
-        "1965": {}
+        "1965": {
+            "South African Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1965": {
             "year": "1965",
-            "position": "22",
+            "position": "40",
             "points": "0"
         }
     },
@@ -44,13 +47,34 @@
             "year": "1965",
             "pos": {
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -68,7 +92,11 @@
     "qualiPosition": {
         "1965": {
             "year": "1965",
-            "positions": {}
+            "positions": {
+                "South African Grand Prix": "16",
+                "Monaco Grand Prix": "14",
+                "German Grand Prix": "20"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -139,6 +167,51 @@
         "1965": -1
     },
     "positionsGainLost": {
+        "1965": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1965": {
+            "1": {
+                "raceName": "South African Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "brabham-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1965": {}
     }
 }

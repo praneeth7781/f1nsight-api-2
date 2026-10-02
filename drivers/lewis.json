@@ -1,6 +1,6 @@
 {
     "driverId": "lewis",
-    "lastUpdate": "2024-08-03T03:38:32.904670",
+    "lastUpdate": "2026-10-02T11:47:20.500067",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -42,8 +42,21 @@
         }
     },
     "fastLaps": {
-        "1961": {},
-        "1962": {}
+        "1961": {
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1962": {
+            "Dutch Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1961": {
@@ -53,7 +66,7 @@
         },
         "1962": {
             "year": "1962",
-            "position": "21",
+            "position": "40",
             "points": "0"
         }
     },
@@ -62,19 +75,22 @@
             "year": "1961",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "United States Grand Prix": {
+                    "points": 3.0
                 }
             }
         },
@@ -82,22 +98,31 @@
             "year": "1962",
             "pos": {
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -128,11 +153,24 @@
     "qualiPosition": {
         "1961": {
             "year": "1961",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "13",
+                "French Grand Prix": "18",
+                "British Grand Prix": "15",
+                "German Grand Prix": "18",
+                "Italian Grand Prix": "16"
+            }
         },
         "1962": {
             "year": "1962",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "7",
+                "Monaco Grand Prix": "0",
+                "Belgian Grand Prix": "0",
+                "French Grand Prix": "16",
+                "British Grand Prix": "15",
+                "German Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -214,6 +252,150 @@
         "1962": -1
     },
     "positionsGainLost": {
+        "1961": {},
+        "1962": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1961": {
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Overheating",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 27,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Handling",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Finished",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 16,
+                "points": 3.0,
+                "status": "Finished",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1962": {
+            "1": {
+                "raceName": "Dutch Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 7,
+                "points": 0.0,
+                "status": "+10 Laps",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 18,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 22,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1961": {},
         "1962": {}
     }

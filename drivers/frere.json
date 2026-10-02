@@ -1,6 +1,6 @@
 {
     "driverId": "frere",
-    "lastUpdate": "2024-08-03T03:38:25.657445",
+    "lastUpdate": "2026-10-02T11:47:20.468423",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -66,11 +66,27 @@
         "1956": {}
     },
     "fastLaps": {
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {}
+        "1952": {
+            "Belgian Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Dutch Grand Prix": -1
+        },
+        "1953": {
+            "Belgian Grand Prix": -1,
+            "Swiss Grand Prix": -1
+        },
+        "1954": {
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "German Grand Prix": -1
+        },
+        "1955": {
+            "Monaco Grand Prix": -1,
+            "Belgian Grand Prix": -1
+        },
+        "1956": {
+            "Belgian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1952": {
@@ -80,12 +96,12 @@
         },
         "1953": {
             "year": "1953",
-            "position": "47",
+            "position": "40",
             "points": "0"
         },
         "1954": {
             "year": "1954",
-            "position": "67",
+            "position": "40",
             "points": "0"
         },
         "1955": {
@@ -95,7 +111,7 @@
         },
         "1956": {
             "year": "1956",
-            "position": "7",
+            "position": "8",
             "points": "6"
         }
     },
@@ -104,13 +120,22 @@
             "year": "1952",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
+                },
+                "French Grand Prix": {
+                    "points": 2.0
+                },
+                "British Grand Prix": {
+                    "points": 2.0
                 },
                 "German Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 2
+                    "points": 2.0
+                },
+                "Italian Grand Prix": {
+                    "points": 2.0
                 }
             }
         },
@@ -118,10 +143,22 @@
             "year": "1953",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -129,13 +166,25 @@
             "year": "1954",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -143,10 +192,22 @@
             "year": "1955",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 3.0
+                },
+                "British Grand Prix": {
+                    "points": 3.0
+                },
+                "Italian Grand Prix": {
+                    "points": 3.0
                 }
             }
         },
@@ -154,7 +215,19 @@
             "year": "1956",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 6
+                    "points": 6.0
+                },
+                "French Grand Prix": {
+                    "points": 6.0
+                },
+                "British Grand Prix": {
+                    "points": 6.0
+                },
+                "German Grand Prix": {
+                    "points": 6.0
+                },
+                "Italian Grand Prix": {
+                    "points": 6.0
                 }
             }
         }
@@ -200,23 +273,39 @@
     "qualiPosition": {
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "8",
+                "German Grand Prix": "13",
+                "Dutch Grand Prix": "11"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "11",
+                "Swiss Grand Prix": "16"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "10",
+                "French Grand Prix": "19",
+                "German Grand Prix": "4"
+            }
         },
         "1955": {
             "year": "1955",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "15",
+                "Belgian Grand Prix": "8"
+            }
         },
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "8"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -331,6 +420,159 @@
         "1956": -1
     },
     "positionsGainLost": {
+        "1952": {},
+        "1953": {},
+        "1954": {},
+        "1955": {},
+        "1956": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1952": {
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 8,
+                "points": 2.0,
+                "status": "+2 Laps",
+                "constructorId": "hwm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "hwm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Dutch Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Clutch",
+                "constructorId": "simca",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "4": {
+                "raceName": "Belgian Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 11,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "hwm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Swiss Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "hwm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 7,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Axle",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 4,
+                "points": 0.0,
+                "status": "Wheel",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1955": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+14 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": true
+            },
+            "4": {
+                "raceName": "Belgian Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 8,
+                "points": 3.0,
+                "status": "Finished",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1956": {
+            "4": {
+                "raceName": "Belgian Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 8,
+                "points": 6.0,
+                "status": "Finished",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1952": {},
         "1953": {},
         "1954": {},

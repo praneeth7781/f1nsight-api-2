@@ -1,6 +1,6 @@
 {
     "driverId": "cordts",
-    "lastUpdate": "2024-08-03T03:38:23.540654",
+    "lastUpdate": "2026-10-02T11:47:20.517513",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,14 @@
         }
     },
     "fastLaps": {
-        "1969": {}
+        "1969": {
+            "Canadian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1969": {
             "year": "1969",
-            "position": "29",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,7 +45,13 @@
             "year": "1969",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -59,7 +67,9 @@
     "qualiPosition": {
         "1969": {
             "year": "1969",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -130,6 +140,27 @@
         "1969": -1
     },
     "positionsGainLost": {
+        "1969": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1969": {
+            "9": {
+                "raceName": "Canadian Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "brabham-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1969": {}
     }
 }

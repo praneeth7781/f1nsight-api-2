@@ -1,6 +1,6 @@
 {
     "driverId": "prophet",
-    "lastUpdate": "2024-08-03T03:38:38.526841",
+    "lastUpdate": "2026-10-02T11:47:20.509458",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         "1965": {}
     },
     "fastLaps": {
-        "1963": {},
-        "1965": {}
+        "1963": {
+            "South African Grand Prix": -1
+        },
+        "1965": {
+            "South African Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1963": {
             "year": "1963",
-            "position": "43",
+            "position": "40",
             "points": "0"
         },
         "1965": {
             "year": "1965",
-            "position": "32",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,7 @@
             "year": "1963",
             "pos": {
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +68,34 @@
             "year": "1965",
             "pos": {
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +117,15 @@
     "qualiPosition": {
         "1963": {
             "year": "1963",
-            "positions": {}
+            "positions": {
+                "South African Grand Prix": "14"
+            }
         },
         "1965": {
             "year": "1965",
-            "positions": {}
+            "positions": {
+                "South African Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +207,42 @@
         "1965": -1
     },
     "positionsGainLost": {
+        "1963": {},
+        "1965": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1963": {
+            "10": {
+                "raceName": "South African Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Oil pressure",
+                "constructorId": "brabham",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1965": {
+            "1": {
+                "raceName": "South African Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+14 Laps",
+                "constructorId": "brabham-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1963": {},
         "1965": {}
     }

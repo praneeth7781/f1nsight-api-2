@@ -1,10 +1,10 @@
 {
     "driverId": "dempsey_wilson",
-    "lastUpdate": "2024-08-03T03:38:24.164910",
+    "lastUpdate": "2026-10-02T11:47:20.489872",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1958": 0,
         "1960": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1958": 1,
-        "1960": 1
+        "1960": 0
     },
     "poles": {
         "1958": [],
@@ -33,23 +33,25 @@
         "1958": {
             "Indianapolis 500": "Heat shield fire"
         },
-        "1960": {
-            "Indianapolis 500": "Magneto"
-        }
+        "1960": {}
     },
     "fastLaps": {
-        "1958": {},
-        "1960": {}
+        "1958": {
+            "Indianapolis 500": -1
+        },
+        "1960": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1958": {
             "year": "1958",
-            "position": "54",
+            "position": "40",
             "points": "0"
         },
         "1960": {
             "year": "1960",
-            "position": "76",
+            "position": "40",
             "points": "0"
         }
     },
@@ -58,7 +60,28 @@
             "year": "1958",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Moroccan Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -66,7 +89,28 @@
             "year": "1960",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -88,11 +132,15 @@
     "qualiPosition": {
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "32"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "33"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -174,6 +222,42 @@
         "1960": -1
     },
     "positionsGainLost": {
+        "1958": {},
+        "1960": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1958": {
+            "4": {
+                "raceName": "Indianapolis 500",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 32,
+                "points": 0.0,
+                "status": "Heat shield fire",
+                "constructorId": "kuzma",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 33,
+                "positionText": "33",
+                "classified": true,
+                "grid": 33,
+                "points": 0.0,
+                "status": "Magneto",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1958": {},
         "1960": {}
     }

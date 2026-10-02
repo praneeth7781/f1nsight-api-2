@@ -1,6 +1,6 @@
 {
     "driverId": "marr",
-    "lastUpdate": "2024-08-03T03:38:34.060144",
+    "lastUpdate": "2026-10-02T11:47:20.479749",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         }
     },
     "fastLaps": {
-        "1954": {},
-        "1955": {}
+        "1954": {
+            "British Grand Prix": -1
+        },
+        "1955": {
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1954": {
             "year": "1954",
-            "position": "53",
+            "position": "40",
             "points": "0"
         },
         "1955": {
             "year": "1955",
-            "position": "69",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,19 @@
             "year": "1954",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +80,10 @@
             "year": "1955",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +105,15 @@
     "qualiPosition": {
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "22"
+            }
         },
         "1955": {
             "year": "1955",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +195,42 @@
         "1955": -1
     },
     "positionsGainLost": {
+        "1954": {},
+        "1955": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1954": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+8 Laps",
+                "constructorId": "connaught",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1955": {
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Brakes",
+                "constructorId": "connaught",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1954": {},
         "1955": {}
     }

@@ -1,6 +1,6 @@
 {
     "driverId": "pozzi",
-    "lastUpdate": "2024-08-03T03:38:38.480195",
+    "lastUpdate": "2026-10-02T11:47:20.459651",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,12 +27,14 @@
         "1950": {}
     },
     "fastLaps": {
-        "1950": {}
+        "1950": {
+            "French Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
             "year": "1950",
-            "position": "26",
+            "position": "40",
             "points": "0"
         }
     },
@@ -41,7 +43,10 @@
             "year": "1950",
             "pos": {
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -57,7 +62,9 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "15"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -128,6 +135,27 @@
         "1950": -1
     },
     "positionsGainLost": {
+        "1950": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+8 Laps",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {}
     }
 }

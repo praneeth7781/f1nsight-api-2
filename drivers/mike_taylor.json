@@ -1,6 +1,6 @@
 {
     "driverId": "mike_taylor",
-    "lastUpdate": "2024-08-03T03:38:35.511378",
+    "lastUpdate": "2026-10-02T11:47:20.495404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -38,18 +38,22 @@
         }
     },
     "fastLaps": {
-        "1959": {},
-        "1960": {}
+        "1959": {
+            "British Grand Prix": -1
+        },
+        "1960": {
+            "Belgian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1959": {
             "year": "1959",
-            "position": "71",
+            "position": "40",
             "points": "0"
         },
         "1960": {
             "year": "1960",
-            "position": "87",
+            "position": "40",
             "points": "0"
         }
     },
@@ -58,7 +62,19 @@
             "year": "1959",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -66,7 +82,22 @@
             "year": "1960",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -88,11 +119,15 @@
     "qualiPosition": {
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "24"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -174,6 +209,42 @@
         "1960": -1
     },
     "positionsGainLost": {
+        "1959": {},
+        "1960": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1959": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 19,
+                "positionText": "W",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1959": {},
         "1960": {}
     }

@@ -1,6 +1,6 @@
 {
     "driverId": "rees",
-    "lastUpdate": "2024-08-03T03:38:39.319174",
+    "lastUpdate": "2026-10-02T11:47:20.513781",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,12 +27,15 @@
         "1967": {}
     },
     "fastLaps": {
-        "1967": {}
+        "1967": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1967": {
             "year": "1967",
-            "position": "24",
+            "position": "40",
             "points": "0"
         }
     },
@@ -41,10 +44,22 @@
             "year": "1967",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -61,7 +76,10 @@
     "qualiPosition": {
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "15",
+                "German Grand Prix": "20"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -132,6 +150,39 @@
         "1967": -1
     },
     "positionsGainLost": {
+        "1967": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1967": {
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "cooper-maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Finished",
+                "constructorId": "brabham-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1967": {}
     }
 }

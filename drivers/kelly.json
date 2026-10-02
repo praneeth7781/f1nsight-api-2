@@ -1,6 +1,6 @@
 {
     "driverId": "kelly",
-    "lastUpdate": "2024-08-03T03:38:31.204465",
+    "lastUpdate": "2026-10-02T11:47:20.450946",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -38,18 +38,22 @@
         }
     },
     "fastLaps": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "British Grand Prix": -1
+        },
+        "1951": {
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
             "year": "1950",
-            "position": "60",
+            "position": "40",
             "points": "0"
         },
         "1951": {
             "year": "1951",
-            "position": "52",
+            "position": "40",
             "points": "0"
         }
     },
@@ -58,7 +62,25 @@
             "year": "1950",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -66,7 +88,16 @@
             "year": "1951",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -88,11 +119,15 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "19"
+            }
         },
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "18"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -174,6 +209,42 @@
         "1951": -1
     },
     "positionsGainLost": {
+        "1950": {},
+        "1951": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "1": {
+                "raceName": "British Grand Prix",
+                "position": 13,
+                "positionText": "N",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "alta",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1951": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 15,
+                "positionText": "N",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "alta",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {},
         "1951": {}
     }

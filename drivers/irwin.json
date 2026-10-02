@@ -1,10 +1,10 @@
 {
     "driverId": "irwin",
-    "lastUpdate": "2024-08-03T03:38:30.057376",
+    "lastUpdate": "2026-10-02T11:47:20.512588",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 5,
     "seasonWins": {
         "1966": 0,
         "1967": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1966": 0,
-        "1967": 6
+        "1967": 5
     },
     "poles": {
         "1966": [],
@@ -33,7 +33,6 @@
         "1966": {},
         "1967": {
             "Belgian Grand Prix": "Engine",
-            "French Grand Prix": "Engine",
             "Canadian Grand Prix": "Spun off",
             "Italian Grand Prix": "Injection",
             "United States Grand Prix": "Engine",
@@ -41,13 +40,25 @@
         }
     },
     "fastLaps": {
-        "1966": {},
-        "1967": {}
+        "1966": {
+            "British Grand Prix": -1
+        },
+        "1967": {
+            "Dutch Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1966": {
             "year": "1966",
-            "position": "21",
+            "position": "40",
             "points": "0"
         },
         "1967": {
@@ -61,7 +72,22 @@
             "year": "1966",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -69,31 +95,31 @@
             "year": "1967",
             "pos": {
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "British Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "German Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Italian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "United States Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 }
             }
         }
@@ -123,11 +149,23 @@
     "qualiPosition": {
         "1966": {
             "year": "1966",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "12"
+            }
         },
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "13",
+                "Belgian Grand Prix": "15",
+                "French Grand Prix": "9",
+                "British Grand Prix": "13",
+                "German Grand Prix": "15",
+                "Canadian Grand Prix": "11",
+                "Italian Grand Prix": "16",
+                "United States Grand Prix": "14",
+                "Mexican Grand Prix": "15"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -209,6 +247,138 @@
         "1967": -1
     },
     "positionsGainLost": {
+        "1966": {},
+        "1967": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1966": {
+            "4": {
+                "raceName": "British Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "brabham-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1967": {
+            "3": {
+                "raceName": "Dutch Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Belgian Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "French Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 9,
+                "points": 2.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Canadian Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Injection",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "United States Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Mexican Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1966": {},
         "1967": {}
     }

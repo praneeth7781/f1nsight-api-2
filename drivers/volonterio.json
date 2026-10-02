@@ -1,6 +1,6 @@
 {
     "driverId": "volonterio",
-    "lastUpdate": "2024-08-03T03:38:44.571089",
+    "lastUpdate": "2026-10-02T11:47:20.480935",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -43,24 +43,30 @@
         "1957": {}
     },
     "fastLaps": {
-        "1954": {},
-        "1956": {},
-        "1957": {}
+        "1954": {
+            "Spanish Grand Prix": -1
+        },
+        "1956": {
+            "German Grand Prix": -1
+        },
+        "1957": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1954": {
             "year": "1954",
-            "position": "68",
+            "position": "40",
             "points": "0"
         },
         "1956": {
             "year": "1956",
-            "position": "52",
+            "position": "40",
             "points": "0"
         },
         "1957": {
             "year": "1957",
-            "position": "41",
+            "position": "40",
             "points": "0"
         }
     },
@@ -69,7 +75,7 @@
             "year": "1954",
             "pos": {
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -77,7 +83,10 @@
             "year": "1956",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -85,7 +94,7 @@
             "year": "1957",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -113,15 +122,21 @@
     "qualiPosition": {
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "Spanish Grand Prix": "21"
+            }
         },
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "19"
+            }
         },
         "1957": {
             "year": "1957",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "16"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -214,6 +229,57 @@
         "1957": -1
     },
     "positionsGainLost": {
+        "1954": {},
+        "1956": {},
+        "1957": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1954": {
+            "9": {
+                "raceName": "Spanish Grand Prix",
+                "position": 11,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        },
+        "1956": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 7,
+                "positionText": "N",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1957": {
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+15 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        }
+    },
+    "sprintResults": {
         "1954": {},
         "1956": {},
         "1957": {}

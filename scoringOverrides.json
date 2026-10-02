@@ -1,0 +1,157 @@
+{
+  "_comment": "Corrections applied after every Jolpica fetch or backfill, before derived files are built. Values use exact fractions (1/7) rather than two-decimal rounding.",
+  "overrides": [
+    {
+      "id": "1954-gb-fl-gonzalez",
+      "target": "results",
+      "season": "1954",
+      "round": "5",
+      "driverId": "gonzalez",
+      "field": "points",
+      "value": 8.142857142857142,
+      "note": "1954 British GP: seven drivers shared fastest lap at 1/7 point each. González 8 + 1/7. Source: F1.com official result."
+    },
+    {
+      "id": "1954-gb-fl-hawthorn",
+      "target": "results",
+      "season": "1954",
+      "round": "5",
+      "driverId": "hawthorn",
+      "field": "points",
+      "value": 6.142857142857143,
+      "note": "1954 British GP: Hawthorn 6 + 1/7. Source: F1.com official result."
+    },
+    {
+      "id": "1954-gb-fl-marimon",
+      "target": "results",
+      "season": "1954",
+      "round": "5",
+      "driverId": "marimon",
+      "field": "points",
+      "value": 4.142857142857143,
+      "note": "1954 British GP: Marimón 4 + 1/7. Source: F1.com official result."
+    },
+    {
+      "id": "1954-gb-fl-fangio",
+      "target": "results",
+      "season": "1954",
+      "round": "5",
+      "driverId": "fangio",
+      "field": "points",
+      "value": 3.142857142857143,
+      "note": "1954 British GP: Fangio 3 + 1/7. Source: F1.com official result."
+    },
+    {
+      "id": "1954-gb-fl-moss",
+      "target": "results",
+      "season": "1954",
+      "round": "5",
+      "driverId": "moss",
+      "field": "points",
+      "value": 0.14285714285714285,
+      "note": "1954 British GP: Moss DNF, still received 1/7 fastest-lap point. Jolpica had 0. Source: F1.com official result."
+    },
+    {
+      "id": "1954-gb-fl-behra",
+      "target": "results",
+      "season": "1954",
+      "round": "5",
+      "driverId": "behra",
+      "field": "points",
+      "value": 0.14285714285714285,
+      "note": "1954 British GP: Behra DNF, still received 1/7 fastest-lap point. Jolpica had 0. Source: F1.com official result."
+    },
+    {
+      "id": "1954-gb-fl-ascari-32",
+      "target": "results",
+      "season": "1954",
+      "round": "5",
+      "driverId": "ascari",
+      "number": "32",
+      "field": "points",
+      "value": 0.14285714285714285,
+      "note": "1954 British GP: Ascari drove two cars and still received only one 1/7 share. Applied to car #32 (more laps). Source: F1.com official result."
+    },
+    {
+      "id": "1954-gb-fl-ascari-31",
+      "target": "results",
+      "season": "1954",
+      "round": "5",
+      "driverId": "ascari",
+      "number": "31",
+      "field": "points",
+      "value": 0,
+      "note": "1954 British GP: Ascari's second car (#31) scores 0; the 1/7 share is on #32."
+    },
+    {
+      "id": "1954-standings-moss",
+      "target": "driverStandings",
+      "season": "1954",
+      "roundFrom": 5,
+      "driverId": "moss",
+      "field": "points",
+      "snapSeventh": true,
+      "note": "Official 1954 total: Moss 4 1/7. Add 1/7 from the British GP to every standing from that round onward."
+    },
+    {
+      "id": "1954-standings-ascari",
+      "target": "driverStandings",
+      "season": "1954",
+      "roundFrom": 5,
+      "driverId": "ascari",
+      "field": "points",
+      "snapSeventh": true,
+      "note": "Official 1954 total: Ascari 1 1/7."
+    },
+    {
+      "id": "1954-standings-behra",
+      "target": "driverStandings",
+      "season": "1954",
+      "roundFrom": 5,
+      "driverId": "behra",
+      "field": "points",
+      "snapSeventh": true,
+      "note": "Official 1954 total: Behra 1/7."
+    },
+    {
+      "id": "1954-standings-gonzalez",
+      "target": "driverStandings",
+      "season": "1954",
+      "roundFrom": 5,
+      "driverId": "gonzalez",
+      "field": "points",
+      "snapSeventh": true,
+      "note": "Replace 0.14 rounding with exact 1/7 on González's British GP score (8.14 -> 8 1/7), from that round onward."
+    },
+    {
+      "id": "1954-standings-hawthorn",
+      "target": "driverStandings",
+      "season": "1954",
+      "roundFrom": 5,
+      "driverId": "hawthorn",
+      "field": "points",
+      "snapSeventh": true,
+      "note": "Replace 0.14 rounding with exact 1/7 on Hawthorn's British GP score, from that round onward."
+    },
+    {
+      "id": "1954-standings-marimon",
+      "target": "driverStandings",
+      "season": "1954",
+      "roundFrom": 5,
+      "driverId": "marimon",
+      "field": "points",
+      "snapSeventh": true,
+      "note": "Replace 0.14 rounding with exact 1/7 on Marimón's British GP score, from that round onward."
+    },
+    {
+      "id": "1954-standings-fangio",
+      "target": "driverStandings",
+      "season": "1954",
+      "roundFrom": 5,
+      "driverId": "fangio",
+      "field": "points",
+      "snapSeventh": true,
+      "note": "Replace 0.14 rounding with exact 1/7 on Fangio's British GP score, from that round onward."
+    }
+  ]
+}

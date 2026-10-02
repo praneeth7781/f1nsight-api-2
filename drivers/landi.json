@@ -1,6 +1,6 @@
 {
     "driverId": "landi",
-    "lastUpdate": "2024-08-03T03:38:32.177897",
+    "lastUpdate": "2026-10-02T11:47:20.464912",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -53,25 +53,35 @@
         "1956": {}
     },
     "fastLaps": {
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1956": {}
+        "1951": {
+            "Italian Grand Prix": -1
+        },
+        "1952": {
+            "Dutch Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1953": {
+            "Swiss Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1956": {
+            "Argentine Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1951": {
             "year": "1951",
-            "position": "66",
+            "position": "40",
             "points": "0"
         },
         "1952": {
             "year": "1952",
-            "position": "36",
+            "position": "40",
             "points": "0"
         },
         "1953": {
             "year": "1953",
-            "position": "71",
+            "position": "40",
             "points": "0"
         },
         "1956": {
@@ -85,7 +95,10 @@
             "year": "1951",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -93,10 +106,10 @@
             "year": "1952",
             "pos": {
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -104,10 +117,10 @@
             "year": "1953",
             "pos": {
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -115,6 +128,27 @@
             "year": "1956",
             "pos": {
                 "Argentine Grand Prix": {
+                    "points": 1.5
+                },
+                "Monaco Grand Prix": {
+                    "points": 1.5
+                },
+                "Indianapolis 500": {
+                    "points": 1.5
+                },
+                "Belgian Grand Prix": {
+                    "points": 1.5
+                },
+                "French Grand Prix": {
+                    "points": 1.5
+                },
+                "British Grand Prix": {
+                    "points": 1.5
+                },
+                "German Grand Prix": {
+                    "points": 1.5
+                },
+                "Italian Grand Prix": {
                     "points": 1.5
                 }
             }
@@ -151,19 +185,29 @@
     "qualiPosition": {
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "16"
+            }
         },
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "16",
+                "Italian Grand Prix": "18"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Swiss Grand Prix": "20",
+                "Italian Grand Prix": "21"
+            }
         },
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "11"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -267,6 +311,96 @@
         "1956": -1
     },
     "positionsGainLost": {
+        "1951": {},
+        "1952": {},
+        "1953": {},
+        "1956": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1951": {
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1952": {
+            "7": {
+                "raceName": "Dutch Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": true
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "8": {
+                "raceName": "Swiss Grand Prix",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1956": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 11,
+                "points": 1.5,
+                "status": "+6 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        }
+    },
+    "sprintResults": {
         "1951": {},
         "1952": {},
         "1953": {},

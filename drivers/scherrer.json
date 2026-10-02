@@ -1,6 +1,6 @@
 {
     "driverId": "scherrer",
-    "lastUpdate": "2024-08-03T03:38:41.407145",
+    "lastUpdate": "2026-10-02T11:47:20.477340",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,12 +27,14 @@
         "1953": {}
     },
     "fastLaps": {
-        "1953": {}
+        "1953": {
+            "Swiss Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1953": {
             "year": "1953",
-            "position": "43",
+            "position": "40",
             "points": "0"
         }
     },
@@ -41,7 +43,10 @@
             "year": "1953",
             "pos": {
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -57,7 +62,9 @@
     "qualiPosition": {
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Swiss Grand Prix": "18"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -128,6 +135,27 @@
         "1953": -1
     },
     "positionsGainLost": {
+        "1953": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1953": {
+            "8": {
+                "raceName": "Swiss Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+16 Laps",
+                "constructorId": "hwm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1953": {}
     }
 }

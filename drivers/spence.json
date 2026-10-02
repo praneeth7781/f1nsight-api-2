@@ -1,10 +1,10 @@
 {
     "driverId": "spence",
-    "lastUpdate": "2024-08-03T03:38:42.100979",
+    "lastUpdate": "2026-10-02T11:47:20.507841",
     "totalWins": 0,
     "totalPodiums": 1,
-    "totalPoles": 1,
-    "totalDNFs": 18,
+    "totalPoles": 0,
+    "totalDNFs": 16,
     "seasonWins": {
         "1963": 0,
         "1964": 0,
@@ -23,25 +23,23 @@
     },
     "seasonPoles": {
         "1963": 0,
-        "1964": 1,
+        "1964": 0,
         "1965": 0,
         "1966": 0,
         "1967": 0,
         "1968": 0
     },
     "seasonDNFs": {
-        "1963": 1,
+        "1963": 0,
         "1964": 2,
-        "1965": 3,
+        "1965": 2,
         "1966": 6,
         "1967": 5,
         "1968": 1
     },
     "poles": {
         "1963": [],
-        "1964": [
-            "United States Grand Prix"
-        ],
+        "1964": [],
         "1965": [],
         "1966": [],
         "1967": [],
@@ -58,16 +56,13 @@
         "1968": {}
     },
     "DNFs": {
-        "1963": {
-            "Italian Grand Prix": "Oil pressure"
-        },
+        "1963": {},
         "1964": {
             "Austrian Grand Prix": "Halfshaft",
             "United States Grand Prix": "Injection"
         },
         "1965": {
             "German Grand Prix": "Transmission",
-            "Italian Grand Prix": "Alternator",
             "United States Grand Prix": "Engine"
         },
         "1966": {
@@ -90,17 +85,59 @@
         }
     },
     "fastLaps": {
-        "1963": {},
-        "1964": {},
-        "1965": {},
-        "1966": {},
-        "1967": {},
-        "1968": {}
+        "1963": {
+            "Italian Grand Prix": -1
+        },
+        "1964": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        },
+        "1965": {
+            "South African Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        },
+        "1966": {
+            "Monaco Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "United States Grand Prix": -1
+        },
+        "1967": {
+            "South African Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        },
+        "1968": {
+            "South African Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1963": {
             "year": "1963",
-            "position": "33",
+            "position": "40",
             "points": "0"
         },
         "1964": {
@@ -125,7 +162,7 @@
         },
         "1968": {
             "year": "1968",
-            "position": "41",
+            "position": "40",
             "points": "0"
         }
     },
@@ -134,7 +171,16 @@
             "year": "1963",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -142,22 +188,22 @@
             "year": "1964",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "United States Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 4
+                    "points": 4.0
                 }
             }
         },
@@ -165,31 +211,34 @@
             "year": "1965",
             "pos": {
                 "South African Grand Prix": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 3.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "French Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "British Grand Prix": {
-                    "points": 6
+                    "points": 6.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 6
+                    "points": 6.0
                 },
                 "German Grand Prix": {
-                    "points": 6
+                    "points": 6.0
                 },
                 "Italian Grand Prix": {
-                    "points": 6
+                    "points": 6.0
                 },
                 "United States Grand Prix": {
-                    "points": 6
+                    "points": 6.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 10
+                    "points": 10.0
                 }
             }
         },
@@ -197,28 +246,31 @@
             "year": "1966",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "German Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Italian Grand Prix": {
-                    "points": 4
+                    "points": 4.0
                 },
                 "United States Grand Prix": {
-                    "points": 4
+                    "points": 4.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 4.0
                 }
             }
         },
@@ -226,37 +278,37 @@
             "year": "1967",
             "pos": {
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "French Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "British Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "German Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "Italian Grand Prix": {
-                    "points": 7
+                    "points": 7.0
                 },
                 "United States Grand Prix": {
-                    "points": 7
+                    "points": 7.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 9
+                    "points": 9.0
                 }
             }
         },
@@ -264,7 +316,40 @@
             "year": "1968",
             "pos": {
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -340,27 +425,69 @@
     "qualiPosition": {
         "1963": {
             "year": "1963",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "9"
+            }
         },
         "1964": {
             "year": "1964",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "13",
+                "German Grand Prix": "17",
+                "Austrian Grand Prix": "8",
+                "Italian Grand Prix": "8",
+                "United States Grand Prix": "1",
+                "Mexican Grand Prix": "5"
+            }
         },
         "1965": {
             "year": "1965",
-            "positions": {}
+            "positions": {
+                "South African Grand Prix": "4",
+                "Belgian Grand Prix": "12",
+                "French Grand Prix": "10",
+                "British Grand Prix": "6",
+                "Dutch Grand Prix": "8",
+                "German Grand Prix": "6",
+                "Italian Grand Prix": "8",
+                "United States Grand Prix": "4",
+                "Mexican Grand Prix": "6"
+            }
         },
         "1966": {
             "year": "1966",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "12",
+                "Belgian Grand Prix": "7",
+                "French Grand Prix": "10",
+                "British Grand Prix": "9",
+                "Dutch Grand Prix": "12",
+                "German Grand Prix": "13",
+                "Italian Grand Prix": "14",
+                "United States Grand Prix": "12"
+            }
         },
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "South African Grand Prix": "13",
+                "Monaco Grand Prix": "12",
+                "Dutch Grand Prix": "12",
+                "Belgian Grand Prix": "11",
+                "French Grand Prix": "12",
+                "British Grand Prix": "11",
+                "German Grand Prix": "11",
+                "Canadian Grand Prix": "10",
+                "Italian Grand Prix": "12",
+                "United States Grand Prix": "13",
+                "Mexican Grand Prix": "11"
+            }
         },
         "1968": {
             "year": "1968",
-            "positions": {}
+            "positions": {
+                "South African Grand Prix": "14"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -486,6 +613,462 @@
         "1968": -1
     },
     "positionsGainLost": {
+        "1963": {},
+        "1964": {},
+        "1965": {},
+        "1966": {},
+        "1967": {},
+        "1968": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1963": {
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 9,
+                "points": 0.0,
+                "status": "Oil pressure",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1964": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Austrian Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 8,
+                "points": 0.0,
+                "status": "Halfshaft",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 8,
+                "points": 1.0,
+                "status": "+1 Lap",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "United States Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 1,
+                "points": 0.0,
+                "status": "Injection",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": true
+            },
+            "10": {
+                "raceName": "Mexican Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 5,
+                "points": 3.0,
+                "status": "Finished",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1965": {
+            "1": {
+                "raceName": "South African Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 4,
+                "points": 3.0,
+                "status": "Finished",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 10,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 6,
+                "points": 3.0,
+                "status": "Finished",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Dutch Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 8,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 11,
+                "positionText": "R",
+                "classified": false,
+                "grid": 6,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 8,
+                "points": 0.0,
+                "status": "Alternator",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "United States Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 4,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Mexican Grand Prix",
+                "position": 3,
+                "positionText": "3",
+                "classified": true,
+                "grid": 6,
+                "points": 4.0,
+                "status": "Finished",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1966": {
+            "1": {
+                "raceName": "Monaco Grand Prix",
+                "position": 11,
+                "positionText": "R",
+                "classified": false,
+                "grid": 12,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Belgian Grand Prix",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 7,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "French Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Clutch",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "British Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 9,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Dutch Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 12,
+                "points": 2.0,
+                "status": "+3 Laps",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Alternator",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 14,
+                "points": 2.0,
+                "status": "+1 Lap",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "United States Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 12,
+                "points": 0.0,
+                "status": "Ignition",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1967": {
+            "1": {
+                "raceName": "South African Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 12,
+                "points": 1.0,
+                "status": "+4 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Dutch Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Belgian Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 11,
+                "points": 2.0,
+                "status": "+1 Lap",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "French Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 12,
+                "points": 0.0,
+                "status": "Halfshaft",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Ignition",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Differential",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Canadian Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 10,
+                "points": 2.0,
+                "status": "+3 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 12,
+                "points": 2.0,
+                "status": "+1 Lap",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "United States Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Mexican Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 11,
+                "points": 2.0,
+                "status": "+2 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1968": {
+            "1": {
+                "raceName": "South African Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1963": {},
         "1964": {},
         "1965": {},

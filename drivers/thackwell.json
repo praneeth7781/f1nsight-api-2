@@ -1,6 +1,6 @@
 {
     "driverId": "thackwell",
-    "lastUpdate": "2024-08-03T03:38:43.202602",
+    "lastUpdate": "2026-10-02T11:47:20.537586",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -41,18 +41,25 @@
         }
     },
     "fastLaps": {
-        "1980": {},
-        "1984": {}
+        "1980": {
+            "Dutch Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1
+        },
+        "1984": {
+            "Canadian Grand Prix": -1,
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1980": {
             "year": "1980",
-            "position": "34",
+            "position": "40",
             "points": "0"
         },
         "1984": {
             "year": "1984",
-            "position": "34",
+            "position": "40",
             "points": "0"
         }
     },
@@ -60,14 +67,11 @@
         "1980": {
             "year": "1980",
             "pos": {
-                "Dutch Grand Prix": {
-                    "points": 0
-                },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -75,10 +79,34 @@
             "year": "1984",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Detroit Grand Prix": {
+                    "points": 0.0
+                },
+                "Dallas Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "European Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -103,11 +131,18 @@
     "qualiPosition": {
         "1980": {
             "year": "1980",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "0",
+                "Canadian Grand Prix": "24",
+                "United States Grand Prix": "0"
+            }
         },
         "1984": {
             "year": "1984",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "25",
+                "German Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -189,6 +224,78 @@
         "1984": -1
     },
     "positionsGainLost": {
+        "1980": {},
+        "1984": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1980": {
+            "11": {
+                "raceName": "Dutch Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Canadian Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "United States Grand Prix",
+                "position": 26,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1984": {
+            "7": {
+                "raceName": "Canadian Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Turbo",
+                "constructorId": "ram",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "German Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1980": {},
         "1984": {}
     }

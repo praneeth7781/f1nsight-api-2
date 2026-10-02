@@ -1,6 +1,6 @@
 {
     "driverId": "hutchison",
-    "lastUpdate": "2024-08-03T03:38:29.685116",
+    "lastUpdate": "2026-10-02T11:47:20.519446",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,14 @@
         }
     },
     "fastLaps": {
-        "1970": {}
+        "1970": {
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1970": {
             "year": "1970",
-            "position": "38",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,7 +45,10 @@
             "year": "1970",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -59,7 +64,9 @@
     "qualiPosition": {
         "1970": {
             "year": "1970",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "22"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -130,6 +137,27 @@
         "1970": -1
     },
     "positionsGainLost": {
+        "1970": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1970": {
+            "12": {
+                "raceName": "United States Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Fuel leak",
+                "constructorId": "brabham",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1970": {}
     }
 }

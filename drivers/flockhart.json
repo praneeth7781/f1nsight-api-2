@@ -1,10 +1,10 @@
 {
     "driverId": "flockhart",
-    "lastUpdate": "2024-08-03T03:38:25.397457",
+    "lastUpdate": "2026-10-02T11:47:20.480340",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 9,
+    "totalDNFs": 8,
     "seasonWins": {
         "1954": 0,
         "1956": 0,
@@ -33,7 +33,7 @@
         "1954": 1,
         "1956": 1,
         "1957": 2,
-        "1958": 2,
+        "1958": 1,
         "1959": 2,
         "1960": 1
     },
@@ -67,7 +67,6 @@
             "French Grand Prix": "Accident"
         },
         "1958": {
-            "Monaco Grand Prix": "Did not qualify",
             "Moroccan Grand Prix": "Engine"
         },
         "1959": {
@@ -79,17 +78,36 @@
         }
     },
     "fastLaps": {
-        "1954": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1954": {
+            "British Grand Prix": -1
+        },
+        "1956": {
+            "British Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1957": {
+            "Monaco Grand Prix": -1,
+            "French Grand Prix": -1
+        },
+        "1958": {
+            "Moroccan Grand Prix": -1
+        },
+        "1959": {
+            "Monaco Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "Portuguese Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1960": {
+            "French Grand Prix": -1,
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1954": {
             "year": "1954",
-            "position": "80",
+            "position": "40",
             "points": "0"
         },
         "1956": {
@@ -99,17 +117,17 @@
         },
         "1957": {
             "year": "1957",
-            "position": "52",
+            "position": "40",
             "points": "0"
         },
         "1958": {
             "year": "1958",
-            "position": "57",
+            "position": "40",
             "points": "0"
         },
         "1959": {
             "year": "1959",
-            "position": "21",
+            "position": "40",
             "points": "0"
         },
         "1960": {
@@ -123,7 +141,19 @@
             "year": "1954",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -131,10 +161,13 @@
             "year": "1956",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 4
+                    "points": 4.0
                 }
             }
         },
@@ -142,21 +175,33 @@
             "year": "1957",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Pescara Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
         "1958": {
             "year": "1958",
             "pos": {
-                "Monaco Grand Prix": {
-                    "points": 0
-                },
                 "Moroccan Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -164,19 +209,31 @@
             "year": "1959",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -184,10 +241,19 @@
             "year": "1960",
             "pos": {
                 "French Grand Prix": {
-                    "points": 1
+                    "points": 1.0
+                },
+                "British Grand Prix": {
+                    "points": 1.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 1.0
+                },
+                "Italian Grand Prix": {
+                    "points": 1.0
                 },
                 "United States Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 }
             }
         }
@@ -216,7 +282,6 @@
         "1958": {
             "year": "1958",
             "positions": {
-                "Monaco Grand Prix": "17",
                 "Moroccan Grand Prix": "24"
             }
         },
@@ -241,27 +306,46 @@
     "qualiPosition": {
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "10"
+            }
         },
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "17",
+                "Italian Grand Prix": "26"
+            }
         },
         "1957": {
             "year": "1957",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "11",
+                "French Grand Prix": "11"
+            }
         },
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "Moroccan Grand Prix": "15"
+            }
         },
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "10",
+                "French Grand Prix": "13",
+                "British Grand Prix": "11",
+                "Portuguese Grand Prix": "11",
+                "Italian Grand Prix": "15"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "14",
+                "United States Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -387,6 +471,186 @@
         "1960": -1
     },
     "positionsGainLost": {
+        "1954": {},
+        "1956": {},
+        "1957": {},
+        "1958": {},
+        "1959": {},
+        "1960": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1954": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        },
+        "1956": {
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 27,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 3,
+                "positionText": "3",
+                "classified": true,
+                "grid": 26,
+                "points": 4.0,
+                "status": "+1 Lap",
+                "constructorId": "connaught",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1957": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1958": {
+            "11": {
+                "raceName": "Moroccan Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1959": {
+            "1": {
+                "raceName": "Monaco Grand Prix",
+                "position": 8,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Finished",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 11,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 14,
+                "points": 1.0,
+                "status": "+1 Lap",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "United States Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1954": {},
         "1956": {},
         "1957": {},

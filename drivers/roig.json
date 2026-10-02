@@ -1,6 +1,6 @@
 {
     "driverId": "roig",
-    "lastUpdate": "2024-08-03T03:38:40.041579",
+    "lastUpdate": "2026-10-02T11:47:20.517948",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -53,24 +53,36 @@
         }
     },
     "fastLaps": {
-        "1970": {},
-        "1971": {},
-        "1972": {}
+        "1970": {
+            "Spanish Grand Prix": -1,
+            "French Grand Prix": -1
+        },
+        "1971": {
+            "South African Grand Prix": -1,
+            "Spanish Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "French Grand Prix": -1
+        },
+        "1972": {
+            "Argentine Grand Prix": -1,
+            "Spanish Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1970": {
             "year": "1970",
-            "position": "39",
+            "position": "28",
             "points": "0"
         },
         "1971": {
             "year": "1971",
-            "position": "39",
+            "position": "40",
             "points": "0"
         },
         "1972": {
             "year": "1972",
-            "position": "38",
+            "position": "40",
             "points": "0"
         }
     },
@@ -79,10 +91,13 @@
             "year": "1970",
             "pos": {
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
-                "French Grand Prix": {
-                    "points": 0
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -90,19 +105,37 @@
             "year": "1971",
             "pos": {
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -110,10 +143,40 @@
             "year": "1972",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -147,15 +210,27 @@
     "qualiPosition": {
         "1970": {
             "year": "1970",
-            "positions": {}
+            "positions": {
+                "Spanish Grand Prix": "0",
+                "French Grand Prix": "0"
+            }
         },
         "1971": {
             "year": "1971",
-            "positions": {}
+            "positions": {
+                "South African Grand Prix": "25",
+                "Spanish Grand Prix": "20",
+                "Monaco Grand Prix": "0",
+                "Dutch Grand Prix": "17",
+                "French Grand Prix": "21"
+            }
         },
         "1972": {
             "year": "1972",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "21",
+                "Spanish Grand Prix": "22"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -248,6 +323,129 @@
         "1972": -1
     },
     "positionsGainLost": {
+        "1970": {},
+        "1971": {},
+        "1972": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1970": {
+            "2": {
+                "raceName": "Spanish Grand Prix",
+                "position": 22,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 22,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1971": {
+            "1": {
+                "raceName": "South African Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "march-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Spanish Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Fuel pump",
+                "constructorId": "march-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Monaco Grand Prix",
+                "position": 21,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "march-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Dutch Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "march-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "French Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Fuel pump",
+                "constructorId": "march-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1972": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Spanish Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1970": {},
         "1971": {},
         "1972": {}

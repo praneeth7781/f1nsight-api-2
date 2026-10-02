@@ -1,6 +1,6 @@
 {
     "driverId": "henry_taylor",
-    "lastUpdate": "2024-08-03T03:38:28.290220",
+    "lastUpdate": "2026-10-02T11:47:20.494974",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -45,9 +45,22 @@
         }
     },
     "fastLaps": {
-        "1959": {},
-        "1960": {},
-        "1961": {}
+        "1959": {
+            "British Grand Prix": -1
+        },
+        "1960": {
+            "Dutch Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "United States Grand Prix": -1
+        },
+        "1961": {
+            "Monaco Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1959": {
@@ -62,7 +75,7 @@
         },
         "1961": {
             "year": "1961",
-            "position": "26",
+            "position": "40",
             "points": "0"
         }
     },
@@ -71,7 +84,19 @@
             "year": "1959",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -79,16 +104,25 @@
             "year": "1960",
             "pos": {
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "British Grand Prix": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 3.0
+                },
+                "Italian Grand Prix": {
+                    "points": 3.0
                 },
                 "United States Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 }
             }
         },
@@ -96,19 +130,28 @@
             "year": "1961",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -143,15 +186,28 @@
     "qualiPosition": {
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "21"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "14",
+                "French Grand Prix": "12",
+                "British Grand Prix": "16",
+                "United States Grand Prix": "14"
+            }
         },
         "1961": {
             "year": "1961",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0",
+                "Belgian Grand Prix": "0",
+                "French Grand Prix": "25",
+                "British Grand Prix": "17",
+                "Italian Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -244,6 +300,141 @@
         "1961": -1
     },
     "positionsGainLost": {
+        "1959": {},
+        "1960": {},
+        "1961": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1959": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "4": {
+                "raceName": "Dutch Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 12,
+                "points": 3.0,
+                "status": "+1 Lap",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "British Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "United States Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1961": {
+            "1": {
+                "raceName": "Monaco Grand Prix",
+                "position": 18,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 26,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 25,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 29,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1959": {},
         "1960": {},
         "1961": {}

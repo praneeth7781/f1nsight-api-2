@@ -1,9 +1,9 @@
 {
     "driverId": "fagioli",
-    "lastUpdate": "2024-08-03T03:38:25.040555",
+    "lastUpdate": "2026-10-02T11:47:20.449148",
     "totalWins": 1,
     "totalPodiums": 6,
-    "totalPoles": 1,
+    "totalPoles": 0,
     "totalDNFs": 1,
     "seasonWins": {
         "1950": 0,
@@ -15,7 +15,7 @@
     },
     "seasonPoles": {
         "1950": 0,
-        "1951": 1
+        "1951": 0
     },
     "seasonDNFs": {
         "1950": 1,
@@ -23,9 +23,7 @@
     },
     "poles": {
         "1950": [],
-        "1951": [
-            "French Grand Prix"
-        ]
+        "1951": []
     },
     "podiums": {
         "1950": {
@@ -46,8 +44,17 @@
         "1951": {}
     },
     "fastLaps": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "British Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Swiss Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1951": {
+            "French Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
@@ -66,22 +73,25 @@
             "year": "1950",
             "pos": {
                 "British Grand Prix": {
-                    "points": 6
+                    "points": 6.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 6
+                    "points": 6.0
+                },
+                "Indianapolis 500": {
+                    "points": 6.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 12
+                    "points": 12.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 18
+                    "points": 18.0
                 },
                 "French Grand Prix": {
-                    "points": 24
+                    "points": 24.0
                 },
                 "Italian Grand Prix": {
-                    "points": 28
+                    "points": 24.0
                 }
             }
         },
@@ -89,7 +99,19 @@
             "year": "1951",
             "pos": {
                 "French Grand Prix": {
-                    "points": 4
+                    "points": 4.0
+                },
+                "British Grand Prix": {
+                    "points": 4.0
+                },
+                "German Grand Prix": {
+                    "points": 4.0
+                },
+                "Italian Grand Prix": {
+                    "points": 4.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 4.0
                 }
             }
         }
@@ -116,11 +138,20 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "2",
+                "Monaco Grand Prix": "5",
+                "Swiss Grand Prix": "3",
+                "Belgian Grand Prix": "3",
+                "French Grand Prix": "3",
+                "Italian Grand Prix": "5"
+            }
         },
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "7"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -202,6 +233,102 @@
         "1951": 1.0
     },
     "positionsGainLost": {
+        "1950": {},
+        "1951": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "1": {
+                "raceName": "British Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 2,
+                "points": 6.0,
+                "status": "Finished",
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 5,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Swiss Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 3,
+                "points": 6.0,
+                "status": "Finished",
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 3,
+                "points": 6.0,
+                "status": "Finished",
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 3,
+                "points": 6.0,
+                "status": "Finished",
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 3,
+                "positionText": "3",
+                "classified": true,
+                "grid": 5,
+                "points": 4.0,
+                "status": "Finished",
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1951": {
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 1,
+                "positionText": "1",
+                "classified": true,
+                "grid": 7,
+                "points": 4.0,
+                "status": "Finished",
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {},
         "1951": {}
     }

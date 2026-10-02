@@ -1,6 +1,6 @@
 {
     "driverId": "orey",
-    "lastUpdate": "2024-08-03T03:38:36.845651",
+    "lastUpdate": "2026-10-02T11:47:20.494263",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -30,12 +30,16 @@
         }
     },
     "fastLaps": {
-        "1959": {}
+        "1959": {
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1959": {
             "year": "1959",
-            "position": "34",
+            "position": "40",
             "points": "0"
         }
     },
@@ -44,13 +48,22 @@
             "year": "1959",
             "pos": {
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -68,7 +81,11 @@
     "qualiPosition": {
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "18",
+                "British Grand Prix": "20",
+                "United States Grand Prix": "17"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -139,6 +156,51 @@
         "1959": -1
     },
     "positionsGainLost": {
+        "1959": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1959": {
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+10 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "United States Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "tec-mec",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1959": {}
     }
 }

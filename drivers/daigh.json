@@ -1,6 +1,6 @@
 {
     "driverId": "daigh",
-    "lastUpdate": "2024-08-03T03:38:23.838770",
+    "lastUpdate": "2026-10-02T11:47:20.497441",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -33,12 +33,19 @@
         }
     },
     "fastLaps": {
-        "1960": {}
+        "1960": {
+            "Monaco Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1960": {
             "year": "1960",
-            "position": "42",
+            "position": "40",
             "points": "0"
         }
     },
@@ -46,23 +53,26 @@
         "1960": {
             "year": "1960",
             "pos": {
-                "Monaco Grand Prix": {
-                    "points": 0
-                },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -83,7 +93,14 @@
     "qualiPosition": {
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0",
+                "Dutch Grand Prix": "0",
+                "Belgian Grand Prix": "18",
+                "French Grand Prix": "23",
+                "British Grand Prix": "19",
+                "United States Grand Prix": "18"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -154,6 +171,87 @@
         "1960": -1
     },
     "positionsGainLost": {
+        "1960": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1960": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 21,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "scarab",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Dutch Grand Prix",
+                "position": 21,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "scarab",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "scarab",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 23,
+                "positionText": "W",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "scarab",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "British Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Overheating",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "United States Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "scarab",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1960": {}
     }
 }

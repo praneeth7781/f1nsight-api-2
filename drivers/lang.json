@@ -1,6 +1,6 @@
 {
     "driverId": "lang",
-    "lastUpdate": "2024-08-03T03:38:32.190860",
+    "lastUpdate": "2026-10-02T11:47:20.477201",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         }
     },
     "fastLaps": {
-        "1953": {},
-        "1954": {}
+        "1953": {
+            "Swiss Grand Prix": -1
+        },
+        "1954": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1953": {
             "year": "1953",
-            "position": "16",
+            "position": "17",
             "points": "2"
         },
         "1954": {
             "year": "1954",
-            "position": "69",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,10 @@
             "year": "1953",
             "pos": {
                 "Swiss Grand Prix": {
-                    "points": 2
+                    "points": 2.0
+                },
+                "Italian Grand Prix": {
+                    "points": 2.0
                 }
             }
         },
@@ -64,7 +71,16 @@
             "year": "1954",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +102,15 @@
     "qualiPosition": {
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Swiss Grand Prix": "11"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "13"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +192,42 @@
         "1954": -1
     },
     "positionsGainLost": {
+        "1953": {},
+        "1954": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1953": {
+            "8": {
+                "raceName": "Swiss Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 11,
+                "points": 2.0,
+                "status": "+3 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "mercedes",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1953": {},
         "1954": {}
     }

@@ -1,6 +1,6 @@
 {
     "driverId": "unser",
-    "lastUpdate": "2024-08-03T03:38:43.909230",
+    "lastUpdate": "2026-10-02T11:47:20.517067",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,14 @@
         }
     },
     "fastLaps": {
-        "1968": {}
+        "1968": {
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1968": {
             "year": "1968",
-            "position": "36",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,7 +45,10 @@
             "year": "1968",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -59,7 +64,9 @@
     "qualiPosition": {
         "1968": {
             "year": "1968",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -130,6 +137,27 @@
         "1968": -1
     },
     "positionsGainLost": {
+        "1968": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1968": {
+            "11": {
+                "raceName": "United States Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1968": {}
     }
 }

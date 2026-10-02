@@ -1,6 +1,6 @@
 {
     "driverId": "gibson",
-    "lastUpdate": "2024-08-03T03:38:26.441595",
+    "lastUpdate": "2026-10-02T11:47:20.489151",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -38,18 +38,22 @@
         }
     },
     "fastLaps": {
-        "1957": {},
-        "1958": {}
+        "1957": {
+            "German Grand Prix": -1
+        },
+        "1958": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1957": {
             "year": "1957",
-            "position": "65",
+            "position": "40",
             "points": "0"
         },
         "1958": {
             "year": "1958",
-            "position": "69",
+            "position": "40",
             "points": "0"
         }
     },
@@ -58,7 +62,13 @@
             "year": "1957",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Pescara Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -66,7 +76,16 @@
             "year": "1958",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Moroccan Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -88,11 +107,15 @@
     "qualiPosition": {
         "1957": {
             "year": "1957",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "24"
+            }
         },
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "18"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -174,6 +197,42 @@
         "1958": -1
     },
     "positionsGainLost": {
+        "1957": {},
+        "1958": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1957": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Steering",
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1958": {
+            "8": {
+                "raceName": "German Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1957": {},
         "1958": {}
     }

@@ -1,6 +1,6 @@
 {
     "driverId": "brown",
-    "lastUpdate": "2024-08-03T03:38:21.996172",
+    "lastUpdate": "2026-10-02T11:47:20.531591",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,12 +27,14 @@
         "1976": {}
     },
     "fastLaps": {
-        "1976": {}
+        "1976": {
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1976": {
             "year": "1976",
-            "position": "38",
+            "position": "40",
             "points": "0"
         }
     },
@@ -41,7 +43,10 @@
             "year": "1976",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -57,7 +62,9 @@
     "qualiPosition": {
         "1976": {
             "year": "1976",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -128,6 +135,27 @@
         "1976": -1
     },
     "positionsGainLost": {
+        "1976": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1976": {
+            "15": {
+                "raceName": "United States Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "wolf",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1976": {}
     }
 }

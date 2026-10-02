@@ -1,6 +1,8 @@
+import argparse
 import requests, json, os, datetime, math, numpy as np, shutil, tempfile
 import time
 from datetime import datetime as dt
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 api_url = 'https://api.jolpi.ca/ergast/f1'
 # api_url = 'http://ergast.com/api/f1'
@@ -14,6 +16,12 @@ api_session.headers.update({
     'User-Agent': 'f1nsight-api-updater/1.0'
 })
 last_api_request_at = 0.0
+PAGE_LIMIT = 100
+ROUND_RESULT_KEYS = {
+    'results': 'Results',
+    'qualifying': 'QualifyingResults',
+    'sprint': 'SprintResults',
+}
 
 
 def api_get(url):
@@ -60,7 +68,7 @@ def api_get(url):
             try:
                 sleep_for = max(float(retry_after), api_request_delay_seconds)
             except (TypeError, ValueError):
-                sleep_for = min(2 ** (attempt - 1), 60)
+                sleep_for = min(max(5, 2 ** attempt), 90)
 
             print(
                 f'API returned {response.status_code} for {url}. '
@@ -77,17 +85,126 @@ def api_get(url):
     raise RuntimeError(f'API request unexpectedly exhausted retries: {url}')
 
 
-def api_races(url):
-    """Return RaceTable.Races or fail without modifying stored data."""
+def jolpica_page_url(url, limit=PAGE_LIMIT, offset=0):
+    """Attach Jolpica limit/offset without dropping any existing query params."""
+    parsed = urlparse(url)
+    query = dict(parse_qsl(parsed.query, keep_blank_values=True))
+    query['limit'] = str(limit)
+    query['offset'] = str(offset)
+    return urlunparse(parsed._replace(query=urlencode(query)))
+
+
+def _mrdata_table(mrdata):
+    if 'RaceTable' in mrdata:
+        return 'RaceTable', 'Races'
+    if 'StandingsTable' in mrdata:
+        return 'StandingsTable', 'StandingsLists'
+    if 'ConstructorTable' in mrdata:
+        return 'ConstructorTable', 'Constructors'
+    if 'DriverTable' in mrdata:
+        return 'DriverTable', 'Drivers'
+    return None, None
+
+
+def _merge_named_lists(pages, item_keys):
+    """Merge paginated copies of the same parent object by season/round."""
+    merged = {}
+    order = []
+    for page in pages:
+        for item in page:
+            key = (str(item.get('season', '')), str(item.get('round', '')))
+            if key not in merged:
+                merged[key] = item
+                order.append(key)
+                continue
+            existing = merged[key]
+            for list_key in item_keys:
+                extra = item.get(list_key)
+                if extra:
+                    existing.setdefault(list_key, [])
+                    existing[list_key].extend(extra)
+    return [merged[key] for key in order]
+
+
+def _decode_json(response, url):
     try:
-        data = api_get(url).json()
+        return response.json()
     except requests.JSONDecodeError as exc:
         raise RuntimeError(f'API returned invalid JSON: {url}') from exc
 
+
+def api_get_json(url, paginate=True):
+    """GET JSON and follow Jolpica offset pages until MRData.total is reached."""
+    first_url = jolpica_page_url(url) if paginate else url
+    payload = _decode_json(api_get(first_url), first_url)
+    if not paginate:
+        return payload
+
+    mrdata = payload.get('MRData') or {}
+    try:
+        total = int(mrdata.get('total') or 0)
+        limit = int(mrdata.get('limit') or PAGE_LIMIT)
+        offset = int(mrdata.get('offset') or 0)
+    except (TypeError, ValueError) as exc:
+        raise RuntimeError(f'API returned invalid pagination metadata: {first_url}') from exc
+
+    table_key, list_key = _mrdata_table(mrdata)
+    if table_key is None:
+        return payload
+
+    pages = [mrdata.get(table_key, {}).get(list_key, []) or []]
+    next_offset = offset + limit
+    while next_offset < total:
+        page_url = jolpica_page_url(url, limit=PAGE_LIMIT, offset=next_offset)
+        page_payload = _decode_json(api_get(page_url), page_url)
+        page_list = (
+            (page_payload.get('MRData') or {})
+            .get(table_key, {})
+            .get(list_key, [])
+        ) or []
+        pages.append(page_list)
+        next_offset += PAGE_LIMIT
+
+    if table_key == 'RaceTable':
+        merged = _merge_named_lists(
+            pages,
+            ('Results', 'QualifyingResults', 'SprintResults'),
+        )
+    elif table_key == 'StandingsTable':
+        merged = _merge_named_lists(
+            pages,
+            ('DriverStandings', 'ConstructorStandings'),
+        )
+    else:
+        merged = []
+        for page in pages:
+            merged.extend(page)
+    payload['MRData'][table_key][list_key] = merged
+    payload['MRData']['total'] = str(total)
+    payload['MRData']['offset'] = '0'
+    return payload
+
+
+def api_races(url):
+    """Return RaceTable.Races or fail without modifying stored data."""
+    data = api_get_json(url)
     races = data.get('MRData', {}).get('RaceTable', {}).get('Races', [])
     if not races:
         raise RuntimeError(f'API returned no race data: {url}')
+    try:
+        total = int((data.get('MRData') or {}).get('total') or 0)
+    except (TypeError, ValueError):
+        total = 0
+    for race in races:
+        race['_mrdataTotal'] = total
     return races
+
+
+def parse_points(value):
+    """Keep fractional championship points. Never truncate with int()."""
+    if value in (None, '', '-'):
+        return 0.0
+    return float(value)
 
 
 def load_json(file_path, default):
@@ -199,40 +316,90 @@ def update_constructor_drivers():
 
     print("Constructor drivers updated successfully!")
 
+def _latest_stored_race(season=None):
+    season = int(season or current_year)
+    races = load_json(f'races/{season}/results.json', [])
+    completed = [race for race in races if race.get('Results')]
+    if not completed:
+        return None
+    return max(completed, key=lambda race: int(race.get('round') or 0))
+
+
+def season_is_complete(season=None):
+    """True when every calendar round has a stored results list."""
+    season = int(season or current_year)
+    calendar = load_json(f'races/{season}/raceDetails.json', [])
+    results = load_json(f'races/{season}/results.json', [])
+    calendar_rounds = {str(race.get('round')) for race in calendar}
+    completed = {
+        str(race.get('round'))
+        for race in results
+        if race.get('Results')
+    }
+    return bool(calendar_rounds) and calendar_rounds <= completed
+
+
 def update_driverData():
-    url1 = f'{api_url}/current/last/results.json'
+    from drivers_build import did_not_finish
+
     input_directory = 'drivers/'
     output_directory = 'drivers2/'
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
-    race = api_races(url1)[0]
+    race = _latest_stored_race()
+    if race is None:
+        race = api_races(f'{api_url}/current/last/results.json')[0]
     raceName = race["raceName"]
-    season = race["season"]
-    round = race["round"]
+    season = str(race["season"])
+    round = str(race["round"])
     results = race["Results"]
     drivers_done = 0
 
-    standings_url = f'{api_url}/{season}/{round}/driverStandings.json'
-    standings_data = api_get(standings_url).json()
-    standings_lists = (
-        standings_data.get('MRData', {})
-        .get('StandingsTable', {})
-        .get('StandingsLists', [])
-    )
-    if not standings_lists:
-        raise RuntimeError(f'API returned no driver standings: {standings_url}')
-    standings_by_driver = {
-        standing['Driver']['driverId']: standing
-        for standing in standings_lists[0].get('DriverStandings', [])
-    }
+    local_standings = load_json(f'races/{season}/driverStandings.json', {})
+    standings_rows = local_standings.get(round) or local_standings.get(str(int(round))) or []
+    if standings_rows:
+        standings_by_driver = {
+            standing['Driver']['driverId']: standing
+            for standing in standings_rows
+        }
+    else:
+        standings_url = f'{api_url}/{season}/{round}/driverStandings.json'
+        standings_data = api_get_json(standings_url)
+        standings_lists = (
+            standings_data.get('MRData', {})
+            .get('StandingsTable', {})
+            .get('StandingsLists', [])
+        )
+        if not standings_lists:
+            raise RuntimeError(f'API returned no driver standings: {standings_url}')
+        standings_by_driver = {
+            standing['Driver']['driverId']: standing
+            for standing in standings_lists[0].get('DriverStandings', [])
+        }
 
-    qualifying_url = f'{api_url}/{season}/{round}/qualifying.json'
-    qualifying_race = api_races(qualifying_url)[0]
+    qualifying_races = {
+        str(item.get('round')): item
+        for item in load_json(f'races/{season}/qualifying.json', [])
+    }
+    qualifying_race = qualifying_races.get(round)
+    if qualifying_race is None:
+        qualifying_url = f'{api_url}/{season}/{round}/qualifying.json'
+        qualifying_race = api_races(qualifying_url)[0]
     qualifying_by_driver = {
         qualifying['Driver']['driverId']: qualifying
-        for qualifying in qualifying_race.get('QualifyingResults', [])
+        for qualifying in (qualifying_race or {}).get('QualifyingResults', [])
     }
+    sprint_races = {
+        str(item.get('round')): item
+        for item in load_json(f'races/{season}/sprint.json', [])
+    }
+    sprint_by_driver = {
+        row['Driver']['driverId']: row
+        for row in (sprint_races.get(round) or {}).get('SprintResults', [])
+        if row.get('Driver', {}).get('driverId')
+    }
+    finished_weekend = set()
 
     for result in results:
             driverId = result["Driver"]["driverId"]
@@ -311,11 +478,47 @@ def update_driverData():
             if season not in data["poles"]:
                 data["poles"][season] = []
 
-            # Update DNF, Podium, and Win Data
-            if not (result["status"] == "Finished" or '+' in result["status"]):
-                data["DNFs"][season][raceName] = result["status"]
-                data["seasonDNFs"][season] = len(data["DNFs"][season].keys())
-                data["totalDNFs"] = sum(data["seasonDNFs"].values())
+            data.setdefault("raceResults", {})
+            data.setdefault("sprintResults", {})
+            data["raceResults"].setdefault(season, {})
+            data["sprintResults"].setdefault(season, {})
+            existing_round = data["raceResults"][season].get(round)
+            race_payload = {
+                "round": int(round) if str(round).isdigit() else round,
+                "raceName": raceName,
+                "position": int(result["position"]) if str(result.get("position", "")).isdigit() else None,
+                "points": parse_points(result.get("points")),
+                "status": result.get("status"),
+                "grid": result.get("grid"),
+            }
+            if existing_round is None or (
+                (race_payload["points"] or 0) > (existing_round.get("points") or 0)
+                or (
+                    race_payload["position"] is not None
+                    and (
+                        existing_round.get("position") is None
+                        or race_payload["position"] < existing_round["position"]
+                    )
+                )
+            ):
+                data["raceResults"][season][round] = race_payload
+            sprint_row = sprint_by_driver.get(driverId)
+            if sprint_row:
+                data["sprintResults"][season][round] = {
+                    "position": int(sprint_row["position"]) if str(sprint_row.get("position", "")).isdigit() else None,
+                    "points": parse_points(sprint_row.get("points")),
+                    "status": sprint_row.get("status"),
+                }
+
+            # Classified retirements still count as a DNF; +N laps do not.
+            if did_not_finish(result.get("status")):
+                if driverId not in finished_weekend:
+                    data["DNFs"][season][raceName] = result["status"]
+            else:
+                finished_weekend.add(driverId)
+                data["DNFs"][season].pop(raceName, None)
+            data["seasonDNFs"][season] = len(data["DNFs"][season].keys())
+            data["totalDNFs"] = sum(data["seasonDNFs"].values())
 
             if result["position"] in ["1", "2", "3"]:
                 data["podiums"][season][raceName] = result["position"]
@@ -340,7 +543,7 @@ def update_driverData():
             if driverStanding:
                 data["finalStandings"][season]["position"] = driverStanding.get("position", "40")
                 data["finalStandings"][season]["points"] = driverStanding["points"]
-                data["posAfterRace"][season]["pos"][raceName] = {"points": int(driverStanding["points"])}
+                data["posAfterRace"][season]["pos"][raceName] = {"points": parse_points(driverStanding["points"])}
             else:
                 raise RuntimeError(
                     f'Driver standings missing {driverId} for round {round}'
@@ -349,11 +552,6 @@ def update_driverData():
             # Reuse the single qualifying response fetched before the driver loop.
             qualifying = qualifying_by_driver.get(driverId)
             if qualifying:
-                if qualifying["position"] == "1":
-                    if raceName not in data["poles"][season]:
-                        data["poles"][season].append(raceName)
-                    data["seasonPoles"][season] = len(data["poles"][season])
-                    data["totalPoles"] = sum(data["seasonPoles"].values())
                 val1 = qualifying.get("Q1", "N/A")
                 val2 = qualifying.get("Q2", "N/A")
                 val3 = qualifying.get("Q3", "N/A")
@@ -725,7 +923,7 @@ def completed_calendar_races(races, now=None):
     return completed
 
 
-def update_round_records(file_name, endpoint_name, label):
+def update_round_records(file_name, endpoint_name, label, only_if=None):
     """Fetch only missing rounds and never replace an existing round."""
     season = current_year
     season_dir = f'races/{season}'
@@ -747,8 +945,12 @@ def update_round_records(file_name, endpoint_name, label):
         if record.get('round') is not None
     }
     additions = []
+    considered = [
+        race for race in completed_races
+        if only_if is None or only_if(race)
+    ]
 
-    for race in completed_races:
+    for race in considered:
         round_number = str(race['round'])
         if round_number in existing_rounds:
             print(f'{label}: round {round_number} already stored; preserving it')
@@ -757,17 +959,18 @@ def update_round_records(file_name, endpoint_name, label):
         print(f'{label}: fetching {race["raceName"]} ({season})')
         url = f'{api_url}/{season}/{round_number}/{endpoint_name}.json'
         fetched_race = api_races(url)[0]
+        fetched_race.pop('_mrdataTotal', None)
         if str(fetched_race.get('round')) != round_number:
             raise RuntimeError(
                 f'API round mismatch for {race["raceName"]}: {url}'
             )
-        result_key = 'Results' if endpoint_name == 'results' else 'QualifyingResults'
+        result_key = ROUND_RESULT_KEYS.get(endpoint_name, 'Results')
         if not fetched_race.get(result_key):
             raise RuntimeError(f'API returned no {label.lower()}: {url}')
         additions.append(fetched_race)
 
     merged = merge_round_records(existing, additions)
-    expected_rounds = {str(race['round']) for race in completed_races}
+    expected_rounds = {str(race['round']) for race in considered}
     merged_rounds = {str(record.get('round')) for record in merged}
     missing_rounds = sorted(expected_rounds - merged_rounds, key=int)
     if missing_rounds:
@@ -791,6 +994,16 @@ def update_raceResults():
 def update_qualifying():
     update_round_records('qualifying.json', 'qualifying', 'Qualifying')
     print("Qualifying results updated successfully!")
+
+
+def update_sprintResults():
+    update_round_records(
+        'sprint.json',
+        'sprint',
+        'Sprint results',
+        only_if=lambda race: bool(race.get('Sprint')),
+    )
+    print("Sprint results updated successfully!")
 
 
 def update_standings(file_name, endpoint_name, standings_key, label):
@@ -818,7 +1031,7 @@ def update_standings(file_name, endpoint_name, standings_key, label):
 
         print(f'{label}: fetching {race["raceName"]} ({season})')
         url = f'{api_url}/{season}/{round_number}/{endpoint_name}.json'
-        data = api_get(url).json()
+        data = api_get_json(url)
         standings_lists = (
             data.get('MRData', {})
             .get('StandingsTable', {})
@@ -892,18 +1105,21 @@ def initialize_race_details():
 def fetch_race_calendar(season):
     """Fetch race calendar from API for given season, excluding Pre-Season Testing"""
     url = f'{api_url}/{season}.json'
-    response = api_get(url)
-    
-    if response.status_code == 200:
-        responsedata = response.json()
-        if 'MRData' in responsedata and 'RaceTable' in responsedata['MRData'] and 'Races' in responsedata['MRData']['RaceTable']:
-            races = responsedata['MRData']['RaceTable']['Races']
-            # Filter out any "Pre-Season Testing" events
-            filtered_races = [race for race in races if "Pre-Season Testing" not in race.get('raceName', '')]
-            return filtered_races
-    
-    print(f"Warning: Couldn't fetch race calendar for {season} from API")
-    return []
+    try:
+        responsedata = api_get_json(url)
+    except RuntimeError as exc:
+        print(f"Warning: Couldn't fetch race calendar for {season} from API: {exc}")
+        return []
+
+    races = (
+        responsedata.get('MRData', {})
+        .get('RaceTable', {})
+        .get('Races', [])
+    )
+    return [
+        race for race in races
+        if 'Pre-Season Testing' not in race.get('raceName', '')
+    ]
 
 def pre_checks():
     """Perform pre-update checks and initialize necessary files"""
@@ -957,6 +1173,7 @@ def pre_checks():
 LINEAGE_FILE = 'teamLineage.json'
 HISTORICAL_POLES_FILE = 'historicalPoles.json'
 TEAM_RECORDS_FILE = 'teamRecords.json'
+BACKFILL_PROGRESS_FILE = 'backfillProgress.json'
 
 
 def _final_standings(season, kind):
@@ -985,47 +1202,134 @@ def _season_complete(season, results):
 def _season_records_index():
     """Aggregate every stored season once: per-constructor wins, podiums, fastest
     laps, poles and driver line-ups, plus that season's champions."""
-    historical_poles = load_json(HISTORICAL_POLES_FILE, {}).get('poles', {})
+    from poles import is_sprint_weekend, pole_sitter
+    from scoring import is_classified, parse_points
+
     index = {}
     for entry in sorted(os.listdir('races')):
         if not entry.isdigit():
             continue
         season = int(entry)
         results = load_json(f'races/{season}/results.json', [])
-        wins, podiums, fastest, poles, lineup = {}, {}, {}, {}, {}
+        qualifying = {
+            str(race.get('round')): race
+            for race in load_json(f'races/{season}/qualifying.json', [])
+        }
+        sprints = {
+            str(race.get('round')): race
+            for race in load_json(f'races/{season}/sprint.json', [])
+        }
+        details = {
+            str(race.get('round')): race
+            for race in load_json(f'races/{season}/raceDetails.json', [])
+        }
+        wins, podiums, fastest, poles = {}, {}, {}, {}
+        lineup = {}
+        driver_stats = {}
+
+        def stats_for(constructor_id, driver_id, name):
+            constructor_stats = driver_stats.setdefault(constructor_id, {})
+            row = constructor_stats.get(driver_id)
+            if row is None:
+                row = {
+                    'driverId': driver_id,
+                    'name': name,
+                    'starts': 0,
+                    'wins': 0,
+                    'podiums': 0,
+                    'poles': 0,
+                    'frontRowStarts': 0,
+                    'pointsFinishes': 0,
+                    'points': 0.0,
+                    'positionCounts': {},
+                    'fastestLaps': 0,
+                    'fastestLapsTop10': 0,
+                    'sprintPositionCounts': {},
+                    'sharedCars': 0,
+                }
+                constructor_stats[driver_id] = row
+            return row
+
         for race in results:
-            for result in race.get('Results', []):
+            rows = race.get('Results') or []
+            position_counts = {}
+            for result in rows:
+                position_counts[str(result.get('position'))] = (
+                    position_counts.get(str(result.get('position')), 0) + 1
+                )
+            official_pole = pole_sitter(
+                season,
+                race,
+                qualifying.get(str(race.get('round'))),
+                is_sprint_weekend(details.get(str(race.get('round')))),
+            )
+            if official_pole and official_pole.get('constructorId'):
+                constructor_id = official_pole['constructorId']
+                poles[constructor_id] = poles.get(constructor_id, 0) + 1
+                if official_pole.get('driverId'):
+                    stats_for(
+                        constructor_id,
+                        official_pole['driverId'],
+                        official_pole.get('name') or official_pole['driverId'],
+                    )['poles'] += 1
+            for result in rows:
                 constructor_id = result['Constructor']['constructorId']
                 position = result.get('position')
+                driver = result.get('Driver') or {}
+                driver_id = driver.get('driverId')
+                name = f"{driver.get('givenName', '')} {driver.get('familyName', '')}".strip()
                 if position == '1':
                     wins[constructor_id] = wins.get(constructor_id, 0) + 1
                 if position in ('1', '2', '3'):
                     podiums[constructor_id] = podiums.get(constructor_id, 0) + 1
                 if result.get('FastestLap', {}).get('rank') == '1':
                     fastest[constructor_id] = fastest.get(constructor_id, 0) + 1
-                driver = result.get('Driver', {})
-                name = f"{driver.get('givenName', '')} " \
-                       f"{driver.get('familyName', '')}".strip()
-                lineup.setdefault(constructor_id, [])
-                if name and name not in lineup[constructor_id]:
-                    lineup[constructor_id].append(name)
+                lineup.setdefault(constructor_id, {})
+                if driver_id and driver_id not in lineup[constructor_id]:
+                    lineup[constructor_id][driver_id] = {'name': name, 'starts': 0, 'points': 0.0}
+                if driver_id:
+                    lineup[constructor_id][driver_id]['starts'] += 1
+                    lineup[constructor_id][driver_id]['points'] += parse_points(result.get('points'))
+                    row = stats_for(constructor_id, driver_id, name)
+                    row['starts'] += 1
+                    if position == '1':
+                        row['wins'] += 1
+                    if position in ('1', '2', '3'):
+                        row['podiums'] += 1
+                    grid = str(result.get('grid'))
+                    if grid in ('1', '2'):
+                        row['frontRowStarts'] += 1
+                    points = parse_points(result.get('points'))
+                    row['points'] += points
+                    if points > 0:
+                        row['pointsFinishes'] += 1
+                    if str(position).isdigit():
+                        row['positionCounts'][str(position)] = (
+                            row['positionCounts'].get(str(position), 0) + 1
+                        )
+                    if result.get('FastestLap', {}).get('rank') == '1':
+                        row['fastestLaps'] += 1
+                        classified_pos = int(result['positionText']) if is_classified(result) else None
+                        if classified_pos is not None and classified_pos <= 10:
+                            row['fastestLapsTop10'] += 1
+                    if position_counts.get(str(position), 0) > 1:
+                        row['sharedCars'] += 1
 
-        # Poles: qualifying data is complete from 2010 (local) and from 2003 in
-        # Ergast (seeded). Before that the front-row starter (grid 1) is the pole.
-        if season >= 2010:
-            for race in load_json(f'races/{season}/qualifying.json', []):
-                for qualifying in race.get('QualifyingResults', []):
-                    if qualifying.get('position') == '1':
-                        constructor_id = qualifying['Constructor']['constructorId']
-                        poles[constructor_id] = poles.get(constructor_id, 0) + 1
-        elif 2003 <= season <= 2009:
-            poles = dict(historical_poles.get(str(season), {}))
-        else:
-            for race in results:
-                for result in race.get('Results', []):
-                    if result.get('grid') == '1':
-                        constructor_id = result['Constructor']['constructorId']
-                        poles[constructor_id] = poles.get(constructor_id, 0) + 1
+            sprint = sprints.get(str(race.get('round')))
+            if sprint:
+                for result in sprint.get('SprintResults') or []:
+                    driver = result.get('Driver') or {}
+                    driver_id = driver.get('driverId')
+                    constructor_id = (result.get('Constructor') or {}).get('constructorId')
+                    if not driver_id or not constructor_id:
+                        continue
+                    name = f"{driver.get('givenName', '')} {driver.get('familyName', '')}".strip()
+                    row = stats_for(constructor_id, driver_id, name)
+                    sprint_pos = str(result.get('position'))
+                    if sprint_pos.isdigit():
+                        row['sprintPositionCounts'][sprint_pos] = (
+                            row['sprintPositionCounts'].get(sprint_pos, 0) + 1
+                        )
 
         constructor_standings = _final_standings(season, 'constructorStandings')
         constructor_champion = (
@@ -1034,21 +1338,97 @@ def _season_records_index():
         )
         driver_standings = _final_standings(season, 'driverStandings')
         driver_champion = None
+        standings_by_driver = {}
         if driver_standings:
             top = driver_standings[0]
             driver_champion = {
+                'driverId': top['Driver'].get('driverId'),
                 'name': f"{top['Driver'].get('givenName', '')} "
                         f"{top['Driver'].get('familyName', '')}".strip(),
                 'cids': [c['constructorId'] for c in top.get('Constructors', [])],
             }
+            for row in driver_standings:
+                driver_id = (row.get('Driver') or {}).get('driverId')
+                if driver_id:
+                    standings_by_driver[driver_id] = {
+                        'position': int(row.get('position') or 0),
+                        'points': parse_points(row.get('points')),
+                    }
 
         index[season] = {
             'wins': wins, 'podiums': podiums, 'fastest': fastest, 'poles': poles,
             'lineup': lineup, 'constructor_champion': constructor_champion,
             'driver_champion': driver_champion,
+            'standings_by_driver': standings_by_driver,
+            'driver_stats': driver_stats,
             'titles_final': _season_complete(season, results),
         }
     return index
+
+
+LEADER_STATS = (
+    'starts', 'wins', 'podiums', 'poles',
+    'frontRowStarts', 'pointsFinishes', 'points',
+)
+
+
+def _merge_driver_stats(target, incoming):
+    for driver_id, row in incoming.items():
+        existing = target.get(driver_id)
+        if existing is None:
+            target[driver_id] = {
+                key: (value.copy() if isinstance(value, dict) else value)
+                for key, value in row.items()
+            }
+            continue
+        for key in (
+            'starts', 'wins', 'podiums', 'poles', 'frontRowStarts',
+            'pointsFinishes', 'points', 'fastestLaps', 'fastestLapsTop10',
+            'sharedCars',
+        ):
+            existing[key] += row.get(key, 0)
+        for key in ('positionCounts', 'sprintPositionCounts'):
+            for place, count in (row.get(key) or {}).items():
+                existing[key][place] = existing[key].get(place, 0) + count
+
+
+def _leaders_from_stats(stats):
+    drivers = list(stats.values())
+    leaders = {}
+    for index, key in enumerate(LEADER_STATS):
+        rest = LEADER_STATS[index + 1:]
+
+        def sort_key(row, stat=key, remainder=rest):
+            values = [-row.get(stat, 0)]
+            for other in remainder:
+                values.append(-row.get(other, 0))
+            values.append(row.get('name') or row.get('driverId') or '')
+            return tuple(values)
+
+        ranked = sorted(drivers, key=sort_key)
+        leaders[key] = [
+            {
+                'driverId': row['driverId'],
+                'name': row['name'],
+                'value': row.get(key, 0),
+            }
+            for row in ranked[:3]
+        ]
+    return leaders
+
+
+def _position_counts_payload(stats):
+    payload = {}
+    for driver_id, row in stats.items():
+        payload[driver_id] = {
+            'name': row['name'],
+            'positions': row['positionCounts'],
+            'fastestLaps': row['fastestLaps'],
+            'fastestLapsTop10': row['fastestLapsTop10'],
+            'sprintPositions': row['sprintPositionCounts'],
+            'sharedCars': row['sharedCars'],
+        }
+    return payload
 
 
 def _blank_record():
@@ -1074,6 +1454,7 @@ def update_team_records():
     teams = {}
     for team_id, config in lineage.items():
         eras, total = [], _blank_record()
+        total_stats = {}
         for era in config['lineage']:
             constructor_ids = set(era['constructorIds'])
             start = era['startYear']
@@ -1084,6 +1465,7 @@ def update_team_records():
                 'startYear': start, 'endYear': end,
                 'current': era['endYear'] is None,
             })
+            era_stats = {}
             for season in range(start, end + 1):
                 data = index.get(season)
                 if not data:
@@ -1093,17 +1475,51 @@ def update_team_records():
                     record['podiums'] += data['podiums'].get(constructor_id, 0)
                     record['poles'] += data['poles'].get(constructor_id, 0)
                     record['fastestLaps'] += data['fastest'].get(constructor_id, 0)
+                    _merge_driver_stats(
+                        era_stats, data['driver_stats'].get(constructor_id, {})
+                    )
                 if data['titles_final'] and data['constructor_champion'] in constructor_ids:
-                    drivers = []
+                    lineup_rows = []
+                    champion_id = (data['driver_champion'] or {}).get('driverId')
                     for constructor_id in constructor_ids:
-                        drivers += data['lineup'].get(constructor_id, [])
-                    record['constructorTitles'].append(
-                        {'year': season, 'drivers': drivers})
+                        for driver_id, info in data['lineup'].get(constructor_id, {}).items():
+                            standing = data['standings_by_driver'].get(driver_id) or {}
+                            lineup_rows.append({
+                                'driverId': driver_id,
+                                'name': info['name'],
+                                'championshipPosition': standing.get('position'),
+                                'points': standing.get('points', info.get('points', 0)),
+                                'starts': info.get('starts', 0),
+                                'isChampion': bool(
+                                    champion_id == driver_id
+                                    and any(
+                                        cid in constructor_ids
+                                        for cid in (data['driver_champion'] or {}).get('cids', [])
+                                    )
+                                ),
+                            })
+                    lineup_rows.sort(key=lambda item: (
+                        0 if item['isChampion'] else 1,
+                        -(item['points'] or 0),
+                        -(item['starts'] or 0),
+                        item['name'] or '',
+                    ))
+                    record['constructorTitles'].append({
+                        'year': season,
+                        'drivers': [item['name'] for item in lineup_rows],
+                        'lineup': lineup_rows,
+                    })
                 if (data['titles_final'] and data['driver_champion']
                         and any(c in constructor_ids
                                 for c in data['driver_champion']['cids'])):
-                    record['driverTitles'].append(
-                        {'year': season, 'driver': data['driver_champion']['name']})
+                    record['driverTitles'].append({
+                        'year': season,
+                        'driver': data['driver_champion']['name'],
+                        'driverId': data['driver_champion'].get('driverId'),
+                    })
+            record['leaders'] = _leaders_from_stats(era_stats)
+            record['driverPositionCounts'] = _position_counts_payload(era_stats)
+            _merge_driver_stats(total_stats, era_stats)
             for key in ('wins', 'podiums', 'poles', 'fastestLaps'):
                 total[key] += record[key]
             total['constructorTitles'] += record['constructorTitles']
@@ -1111,6 +1527,8 @@ def update_team_records():
             eras.append(record)
         total['constructorTitles'].sort(key=lambda item: item['year'])
         total['driverTitles'].sort(key=lambda item: item['year'])
+        total['leaders'] = _leaders_from_stats(total_stats)
+        total['driverPositionCounts'] = _position_counts_payload(total_stats)
         teams[team_id] = {'name': config['name'], 'color': config['color'],
                           'total': total, 'lineage': eras}
 
@@ -1119,8 +1537,9 @@ def update_team_records():
         'through': {'season': latest_season, 'round': latest_round},
         'source': 'f1nsight-api-2 local race data (Ergast/Jolpica lineage)',
         'notes': {
-            'poles': 'Poles use qualifying data from 2010, Ergast qualifying for '
-                     '2003-2009, and grid position 1 for 1950-2002.',
+            'poles': 'Pole goes to the driver who started the Grand Prix from '
+                     'grid 1. 2022 sprint weekends use Friday qualifying P1. '
+                     'If nobody started from grid 1, qualifying P1 is used.',
             'fastestLaps': 'Fastest-lap data is only available from 2004.',
         },
         'teams': teams,
@@ -1128,17 +1547,482 @@ def update_team_records():
     print('Team records updated successfully!')
 
 
+def _backfill_key(kind, season, round_number):
+    return f'{kind}:{season}:{round_number}'
+
+
+def _backfill_done(kind, season, round_number):
+    done = set(load_json(BACKFILL_PROGRESS_FILE, {}).get('done') or [])
+    return _backfill_key(kind, season, round_number) in done
+
+
+def _mark_backfill_done(kind, season, round_number):
+    payload = load_json(BACKFILL_PROGRESS_FILE, {'done': []})
+    key = _backfill_key(kind, season, round_number)
+    if key not in payload['done']:
+        payload['done'].append(key)
+        write_json_atomic(BACKFILL_PROGRESS_FILE, payload)
+
+
+def listed_seasons(only=None):
+    if only:
+        return sorted(int(season) for season in only)
+    seasons = [
+        int(entry) for entry in os.listdir('races')
+        if entry.isdigit()
+    ]
+    return sorted(seasons)
+
+
+def _season_rounds(season, completed_only=True):
+    """Prefer the calendar; fall back to already-stored results."""
+    details = load_json(f'races/{season}/raceDetails.json', [])
+    if details:
+        if completed_only:
+            return completed_calendar_races(details)
+        return details
+    return load_json(f'races/{season}/results.json', [])
+
+
+def _is_missing_endpoint(error):
+    text = str(error)
+    return 'status 404' in text or 'API returned no race data' in text
+
+
+def _is_rate_limit(error):
+    text = str(error)
+    return 'status 429' in text or '429' in text
+
+
+def _fetch_with_rate_limit_pause(fetcher, label, season, round_number):
+    """Retry a single round forever on 429 so a long backfill can cool off."""
+    while True:
+        try:
+            return fetcher()
+        except RuntimeError as error:
+            if _is_rate_limit(error):
+                print(
+                    f'{label}: rate-limited on {season} round {round_number}; '
+                    f'sleeping 120s then retrying'
+                )
+                time.sleep(120)
+                continue
+            raise
+
+
+def backfill_round_file(
+    season,
+    file_name,
+    endpoint_name,
+    label,
+    *,
+    refresh_count=30,
+    fetch_missing=True,
+    only_rounds=None,
+    allow_missing=False,
+):
+    """Re-download truncated or missing rounds and write the season file atomically.
+
+    A stored round is replaced only when the new fetch has at least as many rows.
+    Each successful replacement writes the whole season document so a restart can
+    skip rounds that are no longer truncated.
+    """
+    list_key = ROUND_RESULT_KEYS[endpoint_name]
+    path = f'races/{season}/{file_name}'
+    existing = load_json(path, [])
+    if existing and not isinstance(existing, list):
+        raise RuntimeError(f'Expected a JSON list in {path}')
+    by_round = {
+        str(record.get('round')): record
+        for record in existing
+        if record.get('round') is not None
+    }
+    rounds = _season_rounds(season)
+    if only_rounds is not None:
+        allowed = {str(round_number) for round_number in only_rounds}
+        rounds = [race for race in rounds if str(race.get('round')) in allowed]
+
+    wrote = 0
+    gaps = []
+    for race in rounds:
+        round_number = str(race.get('round'))
+        stored = by_round.get(round_number)
+        stored_n = len(stored.get(list_key) or []) if stored else 0
+        missing = stored is None
+        truncated = stored_n == refresh_count
+        if missing and not fetch_missing:
+            continue
+        if not missing and not truncated:
+            continue
+        if _backfill_done(endpoint_name, season, round_number):
+            continue
+
+        url = f'{api_url}/{season}/{round_number}/{endpoint_name}.json'
+        print(f'{label}: fetching {season} round {round_number}')
+        try:
+            fetched = _fetch_with_rate_limit_pause(
+                lambda: api_races(url)[0],
+                label,
+                season,
+                round_number,
+            )
+        except RuntimeError as error:
+            if allow_missing and _is_missing_endpoint(error):
+                gaps.append({
+                    'season': season,
+                    'round': round_number,
+                    'endpoint': endpoint_name,
+                    'reason': str(error),
+                })
+                print(f'Gap: no {label.lower()} for {season} round {round_number}')
+                _mark_backfill_done(endpoint_name, season, round_number)
+                continue
+            raise
+
+        fetched_n = len(fetched.get(list_key) or [])
+        fetched_total = fetched.pop('_mrdataTotal', fetched_n)
+        complete = fetched_n >= fetched_total > 0
+        if stored is not None and fetched_n < stored_n:
+            if stored_n == refresh_count and complete:
+                print(
+                    f'{label}: replace mixed/truncated {season} round '
+                    f'{round_number}; complete fetch {fetched_n} '
+                    f'(MRData.total={fetched_total}) < stored {stored_n}'
+                )
+            else:
+                print(
+                    f'{label}: skip {season} round {round_number}; '
+                    f'fetched {fetched_n} < stored {stored_n}'
+                )
+                continue
+        fetched.pop('_mrdataTotal', None)
+        by_round[round_number] = fetched
+        merged = sorted(
+            by_round.values(),
+            key=lambda record: int(record.get('round', 10**9)),
+        )
+        write_json_atomic(path, merged)
+        _mark_backfill_done(endpoint_name, season, round_number)
+        wrote += 1
+        print(
+            f'{label}: {season} round {round_number} '
+            f'{stored_n} -> {fetched_n}'
+        )
+    return wrote, gaps
+
+
+def backfill_standings_file(
+    season,
+    file_name,
+    endpoint_name,
+    standings_key,
+    label,
+    *,
+    refresh_count=30,
+    fetch_missing=True,
+):
+    path = f'races/{season}/{file_name}'
+    existing = load_json(path, {})
+    if existing and not isinstance(existing, dict):
+        raise RuntimeError(f'Expected a JSON object in {path}')
+    result = {
+        key: value for key, value in existing.items()
+        if key != 'latest'
+    }
+    round_numbers = {key for key in result if key.isdigit()}
+    round_numbers.update(
+        str(race.get('round'))
+        for race in _season_rounds(season)
+        if race.get('round') is not None
+    )
+
+    wrote = 0
+    gaps = []
+    for round_number in sorted(round_numbers, key=int):
+        stored = result.get(round_number)
+        stored_n = len(stored) if isinstance(stored, list) else 0
+        missing = stored is None
+        truncated = stored_n == refresh_count
+        if missing and not fetch_missing:
+            continue
+        if not missing and not truncated:
+            continue
+        if _backfill_done(endpoint_name, season, round_number):
+            continue
+
+        url = f'{api_url}/{season}/{round_number}/{endpoint_name}.json'
+        print(f'{label}: fetching {season} round {round_number}')
+        try:
+            data = _fetch_with_rate_limit_pause(
+                lambda: api_get_json(url),
+                label,
+                season,
+                round_number,
+            )
+        except RuntimeError as error:
+            if _is_missing_endpoint(error):
+                gaps.append({
+                    'season': season,
+                    'round': round_number,
+                    'endpoint': endpoint_name,
+                    'reason': str(error),
+                })
+                print(f'Gap: no {label.lower()} for {season} round {round_number}')
+                _mark_backfill_done(endpoint_name, season, round_number)
+                continue
+            raise
+        standings_lists = (
+            data.get('MRData', {})
+            .get('StandingsTable', {})
+            .get('StandingsLists', [])
+        )
+        fetched = (
+            standings_lists[0].get(standings_key, [])
+            if standings_lists else []
+        )
+        if not fetched:
+            gaps.append({
+                'season': season,
+                'round': round_number,
+                'endpoint': endpoint_name,
+                'reason': 'empty standings list',
+            })
+            print(f'Gap: empty {label.lower()} for {season} round {round_number}')
+            continue
+        if stored is not None and len(fetched) < stored_n:
+            try:
+                fetched_total = int((data.get('MRData') or {}).get('total') or 0)
+            except (TypeError, ValueError):
+                fetched_total = len(fetched)
+            complete = len(fetched) >= fetched_total > 0
+            if stored_n == refresh_count and complete:
+                print(
+                    f'{label}: replace mixed/truncated {season} round '
+                    f'{round_number}; complete fetch {len(fetched)} '
+                    f'(MRData.total={fetched_total}) < stored {stored_n}'
+                )
+            else:
+                print(
+                    f'{label}: skip {season} round {round_number}; '
+                    f'fetched {len(fetched)} < stored {stored_n}'
+                )
+                continue
+        result[round_number] = fetched
+        numeric_rounds = [key for key in result if key.isdigit()]
+        if numeric_rounds:
+            latest_round = max(numeric_rounds, key=int)
+            result['latest'] = result[latest_round]
+        write_json_atomic(path, result)
+        _mark_backfill_done(endpoint_name, season, round_number)
+        wrote += 1
+        print(
+            f'{label}: {season} round {round_number} '
+            f'{stored_n} -> {len(fetched)}'
+        )
+    return wrote, gaps
+
+
+def backfill_history(seasons=None, include_sprints=False):
+    """Re-download truncated historical results, standings and qualifying.
+
+    Resumable: rounds that no longer have exactly 30 rows are skipped.
+    Gaps (404 or empty payloads) are printed and stored in backfillGaps.json.
+    """
+    targets = listed_seasons(seasons)
+    all_gaps = load_json('backfillGaps.json', [])
+    if not isinstance(all_gaps, list):
+        all_gaps = []
+
+    def record_gaps(gaps):
+        if not gaps:
+            return
+        all_gaps.extend(gaps)
+        write_json_atomic('backfillGaps.json', all_gaps)
+
+    print('==========Backfilling race results==========')
+    for season in targets:
+        wrote, gaps = backfill_round_file(
+            season, 'results.json', 'results', 'Race results',
+            fetch_missing=False,
+        )
+        record_gaps(gaps)
+        if wrote:
+            print(f'Race results {season}: replaced {wrote} round(s)')
+
+    print('==========Backfilling driver standings==========')
+    for season in targets:
+        wrote, gaps = backfill_standings_file(
+            season,
+            'driverStandings.json',
+            'driverStandings',
+            'DriverStandings',
+            'Driver standings',
+        )
+        record_gaps(gaps)
+        if wrote:
+            print(f'Driver standings {season}: replaced {wrote} round(s)')
+
+    print('==========Backfilling constructor standings==========')
+    for season in targets:
+        if season < 1958:
+            continue
+        wrote, gaps = backfill_standings_file(
+            season,
+            'constructorStandings.json',
+            'constructorStandings',
+            'ConstructorStandings',
+            'Constructor standings',
+        )
+        record_gaps(gaps)
+        if wrote:
+            print(f'Constructor standings {season}: replaced {wrote} round(s)')
+
+    qualifying_from = 1994
+    print(f'==========Backfilling qualifying ({qualifying_from}+)==========')
+    for season in targets:
+        if season < qualifying_from:
+            continue
+        wrote, gaps = backfill_round_file(
+            season,
+            'qualifying.json',
+            'qualifying',
+            'Qualifying',
+            fetch_missing=True,
+            allow_missing=True,
+        )
+        record_gaps(gaps)
+        if wrote:
+            print(f'Qualifying {season}: stored {wrote} round(s)')
+
+    if include_sprints:
+        print('==========Backfilling sprint results==========')
+        for season in targets:
+            if season < 2021:
+                continue
+            sprint_rounds = [
+                str(race.get('round'))
+                for race in load_json(f'races/{season}/raceDetails.json', [])
+                if race.get('Sprint')
+            ]
+            if not sprint_rounds:
+                continue
+            wrote, gaps = backfill_round_file(
+                season,
+                'sprint.json',
+                'sprint',
+                'Sprint results',
+                fetch_missing=True,
+                only_rounds=sprint_rounds,
+                allow_missing=True,
+            )
+            record_gaps(gaps)
+            if wrote:
+                print(f'Sprint results {season}: stored {wrote} round(s)')
+
+    try:
+        from scoring import apply_scoring_overrides
+        apply_scoring_overrides(targets)
+    except Exception as error:
+        print(f'Override application deferred: {error}')
+
+    print('Backfill complete.')
+
+
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(description='Update published F1 JSON data.')
+    parser.add_argument(
+        '--backfill-history',
+        action='store_true',
+        help='Re-download truncated historical results, standings and qualifying.',
+    )
+    parser.add_argument(
+        '--include-sprints',
+        action='store_true',
+        help='Also fetch sprint results for 2021 onward during a backfill.',
+    )
+    parser.add_argument(
+        '--validate-scoring',
+        action='store_true',
+        help='Print scoring validation mismatches and exit.',
+    )
+    parser.add_argument(
+        '--season',
+        type=int,
+        action='append',
+        help='Limit backfill or validation to one or more seasons.',
+    )
+    parser.add_argument(
+        '--rebuild-drivers',
+        action='store_true',
+        help='Rebuild driver JSON files from stored race data.',
+    )
+    parser.add_argument(
+        '--rescore',
+        action='store_true',
+        help='Write scoring/rescored standings for every system.',
+    )
+    parser.add_argument(
+        '--team-records',
+        action='store_true',
+        help='Rebuild teamRecords.json only.',
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv=None):
+    args = parse_args(argv)
+    if args.backfill_history:
+        backfill_history(
+            seasons=args.season,
+            include_sprints=args.include_sprints,
+        )
+        return
+    if args.validate_scoring:
+        from scoring import validate_scoring
+        validate_scoring(seasons=args.season)
+        return
+    if args.rebuild_drivers:
+        from drivers_build import rebuild_driver_files
+        report = rebuild_driver_files(write=True)
+        print(json.dumps({
+            'written': report['written'],
+            'explainedCount': len(report['explained']),
+            'unexplainedCount': len(report['unexplained']),
+            'poleDiffs': len(report['poleDiffs']),
+            'driverFileCount': report['driverFileCount'],
+            'driversListCount': report['driversListCount'],
+            'filesNotInList': report['filesNotInList'],
+            'listNotInFiles': report['listNotInFiles'],
+        }, indent=2))
+        if report['unexplained']:
+            print('UNEXPLAINED shrinking lists/counts:')
+            print(json.dumps(report['unexplained'][:50], indent=2, default=str))
+            raise SystemExit(1)
+        return
+    if args.rescore:
+        from scoring import apply_scoring_overrides, write_rescored_files
+        apply_scoring_overrides(args.season)
+        mismatches = write_rescored_files(args.season)
+        documented = [row for row in mismatches if row.get('documented')]
+        unexplained = [row for row in mismatches if not row.get('documented')]
+        print(f'Rescore mismatches vs official: {len(mismatches)} '
+              f'({len(documented)} documented, {len(unexplained)} unexplained)')
+        for row in mismatches:
+            print(row)
+        if unexplained:
+            raise SystemExit(1)
+        return
+    if args.team_records:
+        update_team_records()
+        return
+    update()
+
+
 def update():
     print("==========Updating constructors==========")
     update_constructors()
     print("==========Updating constructor drivers==========")
     update_constructor_drivers()
-    print("==========Updating Driver Data==========")
-    update_driverData()
-    print("==========Analysing Driver Data==========")
-    analyse_driverData()
-    print("==========Replacing NaNs in Driver Data==========")
-    replace_NaN()  
     print("==========Updating Race Details==========")
     if not pre_checks():
         raise RuntimeError('No race calendar available; skipping publication')
@@ -1150,12 +2034,36 @@ def update():
     update_raceResults()
     print("==========Updating Qualifying Sessions==========")
     update_qualifying()
+    print("==========Updating Sprint Results==========")
+    update_sprintResults()
     print("==========Updating Driver Standings==========")
     update_driverStandings()
     print("==========Updating Constructor Standings==========")
     update_constructorStandings()
+    print("==========Updating Driver Data==========")
+    update_driverData()
+    print("==========Refreshing season poles==========")
+    from drivers_build import refresh_season_poles, rebuild_drivers_list
+    refresh_season_poles(current_year, directory='drivers2')
+    print("==========Analysing Driver Data==========")
+    analyse_driverData()
+    print("==========Replacing NaNs in Driver Data==========")
+    replace_NaN()
+    refresh_season_poles(current_year, directory='drivers')
     print("==========Updating Team Records==========")
     update_team_records()
+    print("==========Updating driversList.json==========")
+    rebuild_drivers_list(write=True)
+    print("==========Rescoring championships==========")
+    from scoring import apply_scoring_overrides, write_rescored_files
+    apply_scoring_overrides()
+    mismatches = write_rescored_files()
+    unexplained = [row for row in mismatches if not row.get('documented')]
+    print(f'Rescore mismatches vs official: {len(mismatches)} '
+          f'({len(mismatches) - len(unexplained)} documented, '
+          f'{len(unexplained)} unexplained)')
+    for row in unexplained:
+        print(row)
 
 if __name__ == '__main__':
-    update()
+    main()

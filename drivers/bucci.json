@@ -1,6 +1,6 @@
 {
     "driverId": "bucci",
-    "lastUpdate": "2024-08-03T03:38:22.191090",
+    "lastUpdate": "2026-10-02T11:47:20.480643",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -41,18 +41,25 @@
         }
     },
     "fastLaps": {
-        "1954": {},
-        "1955": {}
+        "1954": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Swiss Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1955": {
+            "Argentine Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1954": {
             "year": "1954",
-            "position": "70",
+            "position": "40",
             "points": "0"
         },
         "1955": {
             "year": "1955",
-            "position": "47",
+            "position": "40",
             "points": "0"
         }
     },
@@ -61,16 +68,19 @@
             "year": "1954",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -78,7 +88,25 @@
             "year": "1955",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -103,11 +131,18 @@
     "qualiPosition": {
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "13",
+                "German Grand Prix": "16",
+                "Swiss Grand Prix": "10",
+                "Italian Grand Prix": "17"
+            }
         },
         "1955": {
             "year": "1955",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "20"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -189,6 +224,78 @@
         "1955": -1
     },
     "positionsGainLost": {
+        "1954": {},
+        "1955": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1954": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Wheel",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Swiss Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Fuel pump",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1955": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Fuel pressure",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        }
+    },
+    "sprintResults": {
         "1954": {},
         "1955": {}
     }

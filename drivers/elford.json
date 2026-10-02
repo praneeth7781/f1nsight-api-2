@@ -1,6 +1,6 @@
 {
     "driverId": "elford",
-    "lastUpdate": "2024-08-03T03:38:24.694704",
+    "lastUpdate": "2026-10-02T11:47:20.516346",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -48,9 +48,25 @@
         "1971": {}
     },
     "fastLaps": {
-        "1968": {},
-        "1969": {},
-        "1971": {}
+        "1968": {
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        },
+        "1969": {
+            "Monaco Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        },
+        "1971": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1968": {
@@ -65,7 +81,7 @@
         },
         "1971": {
             "year": "1971",
-            "position": "31",
+            "position": "40",
             "points": "0"
         }
     },
@@ -74,25 +90,25 @@
             "year": "1968",
             "pos": {
                 "French Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "British Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "German Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "Italian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "United States Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 }
             }
         },
@@ -100,19 +116,31 @@
             "year": "1969",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "British Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "German Grand Prix": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "Italian Grand Prix": {
+                    "points": 3.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 3.0
+                },
+                "United States Grand Prix": {
+                    "points": 3.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 3.0
                 }
             }
         },
@@ -120,7 +148,19 @@
             "year": "1971",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -158,15 +198,31 @@
     "qualiPosition": {
         "1968": {
             "year": "1968",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "17",
+                "British Grand Prix": "7",
+                "German Grand Prix": "5",
+                "Italian Grand Prix": "20",
+                "Canadian Grand Prix": "16",
+                "United States Grand Prix": "17",
+                "Mexican Grand Prix": "17"
+            }
         },
         "1969": {
             "year": "1969",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "16",
+                "Dutch Grand Prix": "15",
+                "French Grand Prix": "10",
+                "British Grand Prix": "11",
+                "German Grand Prix": "6"
+            }
         },
         "1971": {
             "year": "1971",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "18"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -259,6 +315,177 @@
         "1971": -1
     },
     "positionsGainLost": {
+        "1968": {},
+        "1969": {},
+        "1971": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1968": {
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 17,
+                "points": 3.0,
+                "status": "+2 Laps",
+                "constructorId": "cooper-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "British Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 7,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "cooper-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "German Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 5,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "cooper-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "cooper-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Canadian Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 16,
+                "points": 2.0,
+                "status": "+4 Laps",
+                "constructorId": "cooper-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "United States Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "cooper-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Mexican Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "cooper-brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1969": {
+            "3": {
+                "raceName": "Monaco Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "cooper-maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Dutch Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "mclaren-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "French Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 10,
+                "points": 2.0,
+                "status": "+1 Lap",
+                "constructorId": "mclaren-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 11,
+                "points": 1.0,
+                "status": "+2 Laps",
+                "constructorId": "mclaren-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 6,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "mclaren-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1971": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1968": {},
         "1969": {},
         "1971": {}

@@ -1,6 +1,6 @@
 {
     "driverId": "hirt",
-    "lastUpdate": "2024-08-03T03:38:29.172213",
+    "lastUpdate": "2026-10-02T11:47:20.461406",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -47,24 +47,32 @@
         }
     },
     "fastLaps": {
-        "1951": {},
-        "1952": {},
-        "1953": {}
+        "1951": {
+            "Swiss Grand Prix": -1
+        },
+        "1952": {
+            "Swiss Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1
+        },
+        "1953": {
+            "Swiss Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1951": {
             "year": "1951",
-            "position": "69",
+            "position": "40",
             "points": "0"
         },
         "1952": {
             "year": "1952",
-            "position": "28",
+            "position": "40",
             "points": "0"
         },
         "1953": {
             "year": "1953",
-            "position": "80",
+            "position": "40",
             "points": "0"
         }
     },
@@ -73,7 +81,28 @@
             "year": "1951",
             "pos": {
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -81,13 +110,28 @@
             "year": "1952",
             "pos": {
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -95,7 +139,10 @@
             "year": "1953",
             "pos": {
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -125,15 +172,23 @@
     "qualiPosition": {
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "Swiss Grand Prix": "16"
+            }
         },
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "Swiss Grand Prix": "19",
+                "French Grand Prix": "17",
+                "British Grand Prix": "24"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Swiss Grand Prix": "17"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -226,6 +281,81 @@
         "1953": -1
     },
     "positionsGainLost": {
+        "1951": {},
+        "1952": {},
+        "1953": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1951": {
+            "1": {
+                "raceName": "Swiss Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "veritas",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1952": {
+            "1": {
+                "raceName": "Swiss Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+11 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": true
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 30,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Brakes",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "8": {
+                "raceName": "Swiss Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1951": {},
         "1952": {},
         "1953": {}

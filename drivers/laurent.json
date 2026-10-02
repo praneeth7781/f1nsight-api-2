@@ -1,6 +1,6 @@
 {
     "driverId": "laurent",
-    "lastUpdate": "2024-08-03T03:38:32.497571",
+    "lastUpdate": "2026-10-02T11:47:20.468720",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,12 +27,15 @@
         "1952": {}
     },
     "fastLaps": {
-        "1952": {}
+        "1952": {
+            "Belgian Grand Prix": -1,
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1952": {
             "year": "1952",
-            "position": "23",
+            "position": "40",
             "points": "0"
         }
     },
@@ -41,10 +44,22 @@
             "year": "1952",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -61,7 +76,10 @@
     "qualiPosition": {
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "20",
+                "German Grand Prix": "17"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -132,6 +150,39 @@
         "1952": -1
     },
     "positionsGainLost": {
+        "1952": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1952": {
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "hwm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1952": {}
     }
 }

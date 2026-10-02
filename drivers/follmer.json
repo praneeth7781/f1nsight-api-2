@@ -1,6 +1,6 @@
 {
     "driverId": "follmer",
-    "lastUpdate": "2024-08-03T03:38:25.437348",
+    "lastUpdate": "2026-10-02T11:47:20.522934",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -35,7 +35,20 @@
         }
     },
     "fastLaps": {
-        "1973": {}
+        "1973": {
+            "South African Grand Prix": -1,
+            "Spanish Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Swedish Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1973": {
@@ -49,40 +62,43 @@
             "year": "1973",
             "pos": {
                 "South African Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 5
+                    "points": 5.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 5.0
                 },
                 "Swedish Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "French Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "British Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "German Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "Italian Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 },
                 "United States Grand Prix": {
-                    "points": 5
+                    "points": 5.0
                 }
             }
         }
@@ -109,7 +125,20 @@
     "qualiPosition": {
         "1973": {
             "year": "1973",
-            "positions": {}
+            "positions": {
+                "South African Grand Prix": "21",
+                "Spanish Grand Prix": "14",
+                "Belgian Grand Prix": "11",
+                "Swedish Grand Prix": "19",
+                "French Grand Prix": "20",
+                "British Grand Prix": "25",
+                "Dutch Grand Prix": "22",
+                "German Grand Prix": "21",
+                "Austrian Grand Prix": "20",
+                "Italian Grand Prix": "21",
+                "Canadian Grand Prix": "13",
+                "United States Grand Prix": "20"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -180,6 +209,159 @@
         "1973": -1
     },
     "positionsGainLost": {
+        "1973": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1973": {
+            "3": {
+                "raceName": "South African Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 21,
+                "points": 1.0,
+                "status": "+2 Laps",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Spanish Grand Prix",
+                "position": 3,
+                "positionText": "3",
+                "classified": true,
+                "grid": 14,
+                "points": 4.0,
+                "status": "Finished",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Throttle",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Swedish Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "French Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "British Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Collision",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Dutch Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "German Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Austrian Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Differential",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Italian Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Canadian Grand Prix",
+                "position": 17,
+                "positionText": "17",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "United States Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "shadow",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1973": {}
     }
 }

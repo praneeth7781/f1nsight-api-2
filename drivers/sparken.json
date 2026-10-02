@@ -1,6 +1,6 @@
 {
     "driverId": "sparken",
-    "lastUpdate": "2024-08-03T03:38:42.040672",
+    "lastUpdate": "2026-10-02T11:47:20.483298",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,12 +27,14 @@
         "1955": {}
     },
     "fastLaps": {
-        "1955": {}
+        "1955": {
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1955": {
             "year": "1955",
-            "position": "33",
+            "position": "40",
             "points": "0"
         }
     },
@@ -41,7 +43,10 @@
             "year": "1955",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -57,7 +62,9 @@
     "qualiPosition": {
         "1955": {
             "year": "1955",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -128,6 +135,27 @@
         "1955": -1
     },
     "positionsGainLost": {
+        "1955": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1955": {
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+9 Laps",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1955": {}
     }
 }

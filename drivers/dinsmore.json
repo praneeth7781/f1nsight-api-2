@@ -1,10 +1,10 @@
 {
     "driverId": "dinsmore",
-    "lastUpdate": "2024-08-03T03:38:24.349155",
+    "lastUpdate": "2026-10-02T11:47:20.458789",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1950": 0,
         "1951": 0,
@@ -26,7 +26,7 @@
     "seasonDNFs": {
         "1950": 1,
         "1951": 1,
-        "1953": 1,
+        "1953": 0,
         "1956": 0
     },
     "poles": {
@@ -48,36 +48,42 @@
         "1951": {
             "Indianapolis 500": "Overheating"
         },
-        "1953": {
-            "Indianapolis 500": "Axle"
-        },
+        "1953": {},
         "1956": {}
     },
     "fastLaps": {
-        "1950": {},
-        "1951": {},
-        "1953": {},
-        "1956": {}
+        "1950": {
+            "Indianapolis 500": -1
+        },
+        "1951": {
+            "Indianapolis 500": -1
+        },
+        "1953": {
+            "Indianapolis 500": -1
+        },
+        "1956": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1950": {
             "year": "1950",
-            "position": "80",
+            "position": "40",
             "points": "0"
         },
         "1951": {
             "year": "1951",
-            "position": "75",
+            "position": "40",
             "points": "0"
         },
         "1953": {
             "year": "1953",
-            "position": "66",
+            "position": "40",
             "points": "0"
         },
         "1956": {
             "year": "1956",
-            "position": "49",
+            "position": "40",
             "points": "0"
         }
     },
@@ -86,7 +92,19 @@
             "year": "1950",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -94,7 +112,25 @@
             "year": "1951",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -102,7 +138,28 @@
             "year": "1953",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -110,7 +167,22 @@
             "year": "1956",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -144,19 +216,27 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "7"
+            }
         },
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "32"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "10"
+            }
         },
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "33"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -260,6 +340,72 @@
         "1956": -1
     },
     "positionsGainLost": {
+        "1950": {},
+        "1951": {},
+        "1953": {},
+        "1956": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 33,
+                "positionText": "R",
+                "classified": false,
+                "grid": 7,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1951": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 32,
+                "points": 0.0,
+                "status": "Overheating",
+                "constructorId": "schroeder",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Axle",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        },
+        "1956": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 17,
+                "positionText": "17",
+                "classified": true,
+                "grid": 33,
+                "points": 0.0,
+                "status": "+9 Laps",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {},
         "1951": {},
         "1953": {},

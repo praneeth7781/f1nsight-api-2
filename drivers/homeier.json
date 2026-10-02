@@ -1,6 +1,6 @@
 {
     "driverId": "homeier",
-    "lastUpdate": "2024-08-03T03:38:29.301301",
+    "lastUpdate": "2026-10-02T11:47:20.479192",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -43,14 +43,20 @@
         "1960": {}
     },
     "fastLaps": {
-        "1954": {},
-        "1955": {},
-        "1960": {}
+        "1954": {
+            "Indianapolis 500": -1
+        },
+        "1955": {
+            "Indianapolis 500": -1
+        },
+        "1960": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1954": {
             "year": "1954",
-            "position": "97",
+            "position": "40",
             "points": "0"
         },
         "1955": {
@@ -60,7 +66,7 @@
         },
         "1960": {
             "year": "1960",
-            "position": "55",
+            "position": "40",
             "points": "0"
         }
     },
@@ -69,7 +75,28 @@
             "year": "1954",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -77,7 +104,19 @@
             "year": "1955",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 1
+                    "points": 1.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 1.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 1.0
+                },
+                "British Grand Prix": {
+                    "points": 1.0
+                },
+                "Italian Grand Prix": {
+                    "points": 1.0
                 }
             }
         },
@@ -85,7 +124,28 @@
             "year": "1960",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -113,15 +173,21 @@
     "qualiPosition": {
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "18"
+            }
         },
         "1955": {
             "year": "1955",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "7"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "31"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -214,6 +280,57 @@
         "1960": -1
     },
     "positionsGainLost": {
+        "1954": {},
+        "1955": {},
+        "1960": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1954": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 33,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1955": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 7,
+                "points": 1.0,
+                "status": "Finished",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        },
+        "1960": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 31,
+                "points": 0.0,
+                "status": "Finished",
+                "constructorId": "kuzma",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1954": {},
         "1955": {},
         "1960": {}

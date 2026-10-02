@@ -1,6 +1,6 @@
 {
     "driverId": "george_connor",
-    "lastUpdate": "2024-08-03T03:38:26.183940",
+    "lastUpdate": "2026-10-02T11:47:20.454985",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -43,19 +43,25 @@
         "1952": {}
     },
     "fastLaps": {
-        "1950": {},
-        "1951": {},
-        "1952": {}
+        "1950": {
+            "Indianapolis 500": -1
+        },
+        "1951": {
+            "Indianapolis 500": -1
+        },
+        "1952": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1950": {
             "year": "1950",
-            "position": "34",
+            "position": "40",
             "points": "0"
         },
         "1951": {
             "year": "1951",
-            "position": "81",
+            "position": "40",
             "points": "0"
         },
         "1952": {
@@ -69,7 +75,19 @@
             "year": "1950",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -77,7 +95,25 @@
             "year": "1951",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -85,7 +121,25 @@
             "year": "1952",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -113,15 +167,21 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "4"
+            }
         },
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "21"
+            }
         },
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "14"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -214,6 +274,57 @@
         "1952": -1
     },
     "positionsGainLost": {
+        "1950": {},
+        "1951": {},
+        "1952": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 4,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "lesovsky",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1951": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 30,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "lesovsky",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1952": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Finished",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {},
         "1951": {},
         "1952": {}

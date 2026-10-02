@@ -1,6 +1,6 @@
 {
     "driverId": "etancelin",
-    "lastUpdate": "2024-08-03T03:38:24.946034",
+    "lastUpdate": "2026-10-02T11:47:20.450062",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -49,9 +49,24 @@
         "1952": {}
     },
     "fastLaps": {
-        "1950": {},
-        "1951": {},
-        "1952": {}
+        "1950": {
+            "British Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Swiss Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1951": {
+            "Swiss Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Spanish Grand Prix": -1
+        },
+        "1952": {
+            "French Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
@@ -61,12 +76,12 @@
         },
         "1951": {
             "year": "1951",
-            "position": "30",
+            "position": "40",
             "points": "0"
         },
         "1952": {
             "year": "1952",
-            "position": "39",
+            "position": "40",
             "points": "0"
         }
     },
@@ -75,22 +90,25 @@
             "year": "1950",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "Italian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 }
             }
         },
@@ -98,19 +116,28 @@
             "year": "1951",
             "pos": {
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -118,7 +145,19 @@
             "year": "1952",
             "pos": {
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -155,15 +194,30 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "14",
+                "Monaco Grand Prix": "4",
+                "Swiss Grand Prix": "6",
+                "Belgian Grand Prix": "6",
+                "French Grand Prix": "4",
+                "Italian Grand Prix": "16"
+            }
         },
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "Swiss Grand Prix": "12",
+                "Belgian Grand Prix": "10",
+                "French Grand Prix": "10",
+                "German Grand Prix": "21",
+                "Spanish Grand Prix": "13"
+            }
         },
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "18"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -256,6 +310,165 @@
         "1952": -1
     },
     "positionsGainLost": {
+        "1950": {},
+        "1951": {},
+        "1952": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "1": {
+                "raceName": "British Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 4,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Swiss Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 6,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 6,
+                "points": 0.0,
+                "status": "Overheating",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 4,
+                "points": 1.0,
+                "status": "+5 Laps",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": true
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 16,
+                "points": 2.0,
+                "status": "+5 Laps",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1951": {
+            "1": {
+                "raceName": "Swiss Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Spanish Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1952": {
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {},
         "1951": {},
         "1952": {}

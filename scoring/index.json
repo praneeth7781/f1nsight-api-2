@@ -1,0 +1,203 @@
+{
+    "seasons": [
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1955,
+        1956,
+        1957,
+        1958,
+        1959,
+        1960,
+        1961,
+        1962,
+        1963,
+        1964,
+        1965,
+        1966,
+        1967,
+        1968,
+        1969,
+        1970,
+        1971,
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980,
+        1981,
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+    ],
+    "systems": [
+        {
+            "id": "1950-1959",
+            "label": "1950–1959"
+        },
+        {
+            "id": "1960",
+            "label": "1960"
+        },
+        {
+            "id": "1961-1990",
+            "label": "1961–1990"
+        },
+        {
+            "id": "1991-2002",
+            "label": "1991–2002"
+        },
+        {
+            "id": "2003-2009",
+            "label": "2003–2009"
+        },
+        {
+            "id": "2010-2018",
+            "label": "2010–2018"
+        },
+        {
+            "id": "2019-2021",
+            "label": "2019–2021"
+        },
+        {
+            "id": "2022-2024",
+            "label": "2022–2024"
+        },
+        {
+            "id": "2025-onward",
+            "label": "2025 onward"
+        }
+    ],
+    "variants": [
+        "season",
+        "none"
+    ],
+    "gaps": {
+        "fastestLapUnavailable": {
+            "from": 1960,
+            "to": 2003,
+            "note": "No fastest-lap data. Hypothetical fastest-lap bonuses are not awarded in these seasons."
+        }
+    },
+    "ownEraExceptions": [
+        {
+            "season": 1955,
+            "kind": "drivers",
+            "id": "trintignant",
+            "race": {
+                "season": 1955,
+                "round": "1",
+                "raceName": "Argentine Grand Prix"
+            },
+            "cause": "Jolpica standings omit the second Argentine GP car (P3 share 1.33). Each car is a separate dropped-score result; Wikipedia 11⅓."
+        },
+        {
+            "season": 1955,
+            "kind": "drivers",
+            "id": "farina",
+            "race": {
+                "season": 1955,
+                "round": "1",
+                "raceName": "Argentine Grand Prix"
+            },
+            "cause": "Jolpica standings omit the second Argentine GP car (P3 share 1.33). Each car is a separate dropped-score result; Wikipedia 10⅓."
+        },
+        {
+            "season": 1967,
+            "kind": "drivers",
+            "id": "jack_brabham",
+            "race": {
+                "season": 1967,
+                "round": "10",
+                "raceName": "United States Grand Prix"
+            },
+            "cause": "Split drop (best 4 of last 5) removes the US GP 2 points. Jolpica standings keep them (48 vs historical 46)."
+        },
+        {
+            "season": 1977,
+            "kind": "drivers",
+            "id": "lauda",
+            "race": {
+                "season": 1977,
+                "round": "9",
+                "raceName": "French Grand Prix"
+            },
+            "cause": "Split drop 8-of-first-9 + 7-of-last-8 from results is 72 (Wikipedia). Jolpica standings are 70, equal to dropping the French GP 2 points."
+        },
+        {
+            "season": 1977,
+            "kind": "drivers",
+            "id": "reutemann",
+            "race": {
+                "season": 1977,
+                "round": "9",
+                "raceName": "French Grand Prix"
+            },
+            "cause": "Split drop from results is 42 (Wikipedia). Jolpica standings are 41, equal to dropping a 1-point finish from the first half."
+        },
+        {
+            "season": 2018,
+            "kind": "constructors",
+            "id": "force_india",
+            "cause": "Mid-season re-entry: race-file sum 111, official constructors championship 52. Rescoring cannot invent the FIA reset."
+        },
+        {
+            "season": 2020,
+            "kind": "constructors",
+            "id": "racing_point",
+            "cause": "15-point FIA deduction (Racing Point brake-duct protest). Race-file sum 210, official 195."
+        }
+    ],
+    "inProgressSeason": {
+        "year": 2026,
+        "note": "Own-era totals can disagree with Jolpica while the season is still running."
+    }
+}

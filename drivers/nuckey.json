@@ -1,6 +1,6 @@
 {
     "driverId": "nuckey",
-    "lastUpdate": "2024-08-03T03:38:36.634354",
+    "lastUpdate": "2026-10-02T11:47:20.476051",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         }
     },
     "fastLaps": {
-        "1953": {},
-        "1954": {}
+        "1953": {
+            "German Grand Prix": -1
+        },
+        "1954": {
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1953": {
             "year": "1953",
-            "position": "51",
+            "position": "40",
             "points": "0"
         },
         "1954": {
             "year": "1954",
-            "position": "96",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,13 @@
             "year": "1953",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +74,19 @@
             "year": "1954",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +108,15 @@
     "qualiPosition": {
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "20"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "29"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +198,42 @@
         "1954": -1
     },
     "positionsGainLost": {
+        "1953": {},
+        "1954": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1953": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 32,
+                "positionText": "W",
+                "classified": false,
+                "grid": 29,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1953": {},
         "1954": {}
     }

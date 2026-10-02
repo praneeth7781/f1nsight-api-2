@@ -1,10 +1,10 @@
 {
     "driverId": "godia",
-    "lastUpdate": "2024-08-03T03:38:26.702791",
+    "lastUpdate": "2026-10-02T11:47:20.465196",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 5,
     "seasonWins": {
         "1951": 0,
         "1954": 0,
@@ -31,7 +31,7 @@
         "1954": 0,
         "1956": 1,
         "1957": 2,
-        "1958": 3
+        "1958": 2
     },
     "poles": {
         "1951": [],
@@ -58,27 +58,44 @@
             "Pescara Grand Prix": "Engine"
         },
         "1958": {
-            "Monaco Grand Prix": "Did not qualify",
             "Belgian Grand Prix": "Engine",
             "French Grand Prix": "Accident"
         }
     },
     "fastLaps": {
-        "1951": {},
-        "1954": {},
-        "1956": {},
-        "1957": {},
-        "1958": {}
+        "1951": {
+            "Spanish Grand Prix": -1
+        },
+        "1954": {
+            "Spanish Grand Prix": -1
+        },
+        "1956": {
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1957": {
+            "German Grand Prix": -1,
+            "Pescara Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1958": {
+            "Argentine Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1951": {
             "year": "1951",
-            "position": "39",
+            "position": "40",
             "points": "0"
         },
         "1954": {
             "year": "1954",
-            "position": "31",
+            "position": "40",
             "points": "0"
         },
         "1956": {
@@ -88,12 +105,12 @@
         },
         "1957": {
             "year": "1957",
-            "position": "32",
+            "position": "40",
             "points": "0"
         },
         "1958": {
             "year": "1958",
-            "position": "32",
+            "position": "40",
             "points": "0"
         }
     },
@@ -102,7 +119,7 @@
             "year": "1951",
             "pos": {
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -110,7 +127,7 @@
             "year": "1954",
             "pos": {
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -118,19 +135,19 @@
             "year": "1956",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "Italian Grand Prix": {
-                    "points": 6
+                    "points": 6.0
                 }
             }
         },
@@ -138,13 +155,13 @@
             "year": "1957",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Pescara Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -152,16 +169,37 @@
             "year": "1958",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Moroccan Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -201,7 +239,6 @@
             "year": "1958",
             "positions": {
                 "Argentine Grand Prix": "8",
-                "Monaco Grand Prix": "31",
                 "Belgian Grand Prix": "11",
                 "French Grand Prix": "16"
             }
@@ -210,23 +247,41 @@
     "qualiPosition": {
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "Spanish Grand Prix": "17"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "Spanish Grand Prix": "13"
+            }
         },
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "13",
+                "French Grand Prix": "17",
+                "British Grand Prix": "25",
+                "German Grand Prix": "16",
+                "Italian Grand Prix": "18"
+            }
         },
         "1957": {
             "year": "1957",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "21",
+                "Pescara Grand Prix": "12",
+                "Italian Grand Prix": "15"
+            }
         },
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "9",
+                "Belgian Grand Prix": "18",
+                "French Grand Prix": "11"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -341,6 +396,183 @@
         "1958": -1
     },
     "positionsGainLost": {
+        "1951": {},
+        "1954": {},
+        "1956": {},
+        "1957": {},
+        "1958": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1951": {
+            "8": {
+                "raceName": "Spanish Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+10 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "9": {
+                "raceName": "Spanish Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1956": {
+            "4": {
+                "raceName": "Belgian Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "French Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 25,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 16,
+                "points": 3.0,
+                "status": "+2 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 18,
+                "points": 3.0,
+                "status": "+1 Lap",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1957": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Steering",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Pescara Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 12,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1958": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 9,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 11,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1951": {},
         "1954": {},
         "1956": {},

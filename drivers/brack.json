@@ -1,6 +1,6 @@
 {
     "driverId": "brack",
-    "lastUpdate": "2024-08-03T03:38:21.817597",
+    "lastUpdate": "2026-10-02T11:47:20.516923",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -47,24 +47,30 @@
         }
     },
     "fastLaps": {
-        "1968": {},
-        "1969": {},
-        "1972": {}
+        "1968": {
+            "Canadian Grand Prix": -1
+        },
+        "1969": {
+            "Canadian Grand Prix": -1
+        },
+        "1972": {
+            "Canadian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1968": {
             "year": "1968",
-            "position": "38",
+            "position": "40",
             "points": "0"
         },
         "1969": {
             "year": "1969",
-            "position": "22",
+            "position": "40",
             "points": "0"
         },
         "1972": {
             "year": "1972",
-            "position": "41",
+            "position": "40",
             "points": "0"
         }
     },
@@ -73,7 +79,13 @@
             "year": "1968",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -81,7 +93,13 @@
             "year": "1969",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -89,7 +107,10 @@
             "year": "1972",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -117,15 +138,21 @@
     "qualiPosition": {
         "1968": {
             "year": "1968",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "20"
+            }
         },
         "1969": {
             "year": "1969",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "18"
+            }
         },
         "1972": {
             "year": "1972",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -218,6 +245,57 @@
         "1972": -1
     },
     "positionsGainLost": {
+        "1968": {},
+        "1969": {},
+        "1972": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1968": {
+            "10": {
+                "raceName": "Canadian Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Halfshaft",
+                "constructorId": "lotus-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1969": {
+            "9": {
+                "raceName": "Canadian Grand Prix",
+                "position": 8,
+                "positionText": "N",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1972": {
+            "11": {
+                "raceName": "Canadian Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1968": {},
         "1969": {},
         "1972": {}

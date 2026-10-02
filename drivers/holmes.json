@@ -1,10 +1,10 @@
 {
     "driverId": "holmes",
-    "lastUpdate": "2024-08-03T03:38:29.286346",
+    "lastUpdate": "2026-10-02T11:47:20.457352",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1950": 0,
         "1953": 0
@@ -18,7 +18,7 @@
         "1953": 0
     },
     "seasonDNFs": {
-        "1950": 1,
+        "1950": 0,
         "1953": 1
     },
     "poles": {
@@ -30,26 +30,28 @@
         "1953": {}
     },
     "DNFs": {
-        "1950": {
-            "Indianapolis 500": "Spun off"
-        },
+        "1950": {},
         "1953": {
             "Indianapolis 500": "Oil leak"
         }
     },
     "fastLaps": {
-        "1950": {},
-        "1953": {}
+        "1950": {
+            "Indianapolis 500": -1
+        },
+        "1953": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1950": {
             "year": "1950",
-            "position": "54",
+            "position": "40",
             "points": "0"
         },
         "1953": {
             "year": "1953",
-            "position": "86",
+            "position": "40",
             "points": "0"
         }
     },
@@ -58,7 +60,19 @@
             "year": "1950",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -66,7 +80,28 @@
             "year": "1953",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -88,11 +123,15 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "30"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "18"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -174,6 +213,42 @@
         "1953": -1
     },
     "positionsGainLost": {
+        "1950": {},
+        "1953": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 23,
+                "positionText": "23",
+                "classified": true,
+                "grid": 30,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "olson",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {},
         "1953": {}
     }

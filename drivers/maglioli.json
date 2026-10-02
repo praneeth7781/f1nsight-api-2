@@ -1,6 +1,6 @@
 {
     "driverId": "maglioli",
-    "lastUpdate": "2024-08-03T03:38:33.522576",
+    "lastUpdate": "2026-10-02T11:47:20.477762",
     "totalWins": 0,
     "totalPodiums": 2,
     "totalPoles": 0,
@@ -65,16 +65,31 @@
         }
     },
     "fastLaps": {
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {},
-        "1957": {}
+        "1953": {
+            "Italian Grand Prix": -1
+        },
+        "1954": {
+            "Argentine Grand Prix": -1,
+            "Swiss Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1955": {
+            "Argentine Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1956": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1957": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1953": {
             "year": "1953",
-            "position": "36",
+            "position": "40",
             "points": "0"
         },
         "1954": {
@@ -89,12 +104,12 @@
         },
         "1956": {
             "year": "1956",
-            "position": "57",
+            "position": "40",
             "points": "0"
         },
         "1957": {
             "year": "1957",
-            "position": "58",
+            "position": "40",
             "points": "0"
         }
     },
@@ -103,7 +118,7 @@
             "year": "1953",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -111,13 +126,31 @@
             "year": "1954",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 2.0
                 }
             }
         },
@@ -125,6 +158,21 @@
             "year": "1955",
             "pos": {
                 "Argentine Grand Prix": {
+                    "points": 1.33
+                },
+                "Monaco Grand Prix": {
+                    "points": 1.33
+                },
+                "Indianapolis 500": {
+                    "points": 1.33
+                },
+                "Belgian Grand Prix": {
+                    "points": 1.33
+                },
+                "Dutch Grand Prix": {
+                    "points": 1.33
+                },
+                "British Grand Prix": {
                     "points": 1.33
                 },
                 "Italian Grand Prix": {
@@ -136,13 +184,13 @@
             "year": "1956",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -150,7 +198,13 @@
             "year": "1957",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Pescara Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -195,23 +249,38 @@
     "qualiPosition": {
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "11"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "12",
+                "Swiss Grand Prix": "11",
+                "Italian Grand Prix": "13"
+            }
         },
         "1955": {
             "year": "1955",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "5",
+                "Italian Grand Prix": "12"
+            }
         },
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "24",
+                "German Grand Prix": "7",
+                "Italian Grand Prix": "13"
+            }
         },
         "1957": {
             "year": "1957",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "15"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -326,6 +395,147 @@
         "1957": -1
     },
     "positionsGainLost": {
+        "1953": {},
+        "1954": {},
+        "1955": {},
+        "1956": {},
+        "1957": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1953": {
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 11,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Swiss Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 11,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 3,
+                "positionText": "3",
+                "classified": true,
+                "grid": 13,
+                "points": 2.0,
+                "status": "+2 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        },
+        "1955": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 3,
+                "positionText": "3",
+                "classified": true,
+                "grid": 5,
+                "points": 1.33,
+                "status": "+2 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": true
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1956": {
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 7,
+                "points": 0.0,
+                "status": "Steering",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Steering",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        },
+        "1957": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "porsche",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1953": {},
         "1954": {},
         "1955": {},

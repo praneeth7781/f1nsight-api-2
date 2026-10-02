@@ -1,10 +1,10 @@
 {
     "driverId": "cabral",
-    "lastUpdate": "2024-08-03T03:38:22.572972",
+    "lastUpdate": "2026-10-02T11:47:20.495559",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 3,
     "seasonWins": {
         "1959": 0,
         "1960": 0,
@@ -26,7 +26,7 @@
     "seasonDNFs": {
         "1959": 0,
         "1960": 1,
-        "1963": 2,
+        "1963": 1,
         "1964": 1
     },
     "poles": {
@@ -47,38 +47,45 @@
             "Portuguese Grand Prix": "Accident"
         },
         "1963": {
-            "German Grand Prix": "Gearbox",
-            "Italian Grand Prix": "Did not qualify"
+            "German Grand Prix": "Gearbox"
         },
         "1964": {
             "Italian Grand Prix": "Ignition"
         }
     },
     "fastLaps": {
-        "1959": {},
-        "1960": {},
-        "1963": {},
-        "1964": {}
+        "1959": {
+            "Portuguese Grand Prix": -1
+        },
+        "1960": {
+            "Portuguese Grand Prix": -1
+        },
+        "1963": {
+            "German Grand Prix": -1
+        },
+        "1964": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1959": {
             "year": "1959",
-            "position": "36",
+            "position": "40",
             "points": "0"
         },
         "1960": {
             "year": "1960",
-            "position": "78",
+            "position": "40",
             "points": "0"
         },
         "1963": {
             "year": "1963",
-            "position": "38",
+            "position": "40",
             "points": "0"
         },
         "1964": {
             "year": "1964",
-            "position": "33",
+            "position": "40",
             "points": "0"
         }
     },
@@ -87,7 +94,13 @@
             "year": "1959",
             "pos": {
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -95,7 +108,13 @@
             "year": "1960",
             "pos": {
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -103,10 +122,19 @@
             "year": "1963",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -114,7 +142,13 @@
             "year": "1964",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -135,8 +169,7 @@
         "1963": {
             "year": "1963",
             "positions": {
-                "German Grand Prix": "14",
-                "Italian Grand Prix": "22"
+                "German Grand Prix": "14"
             }
         },
         "1964": {
@@ -149,19 +182,27 @@
     "qualiPosition": {
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "Portuguese Grand Prix": "14"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Portuguese Grand Prix": "15"
+            }
         },
         "1963": {
             "year": "1963",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "20"
+            }
         },
         "1964": {
             "year": "1964",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -265,6 +306,72 @@
         "1964": -1
     },
     "positionsGainLost": {
+        "1959": {},
+        "1960": {},
+        "1963": {},
+        "1964": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1959": {
+            "7": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "cooper-maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "8": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "cooper-maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1963": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1964": {
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Ignition",
+                "constructorId": "derrington",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1959": {},
         "1960": {},
         "1963": {},

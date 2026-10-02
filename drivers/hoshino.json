@@ -1,6 +1,6 @@
 {
     "driverId": "hoshino",
-    "lastUpdate": "2024-08-03T03:38:29.322812",
+    "lastUpdate": "2026-10-02T11:47:20.532097",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         "1977": {}
     },
     "fastLaps": {
-        "1976": {},
-        "1977": {}
+        "1976": {
+            "Japanese Grand Prix": -1
+        },
+        "1977": {
+            "Japanese Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1976": {
             "year": "1976",
-            "position": "43",
+            "position": "40",
             "points": "0"
         },
         "1977": {
             "year": "1977",
-            "position": "37",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,7 @@
             "year": "1976",
             "pos": {
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +68,7 @@
             "year": "1977",
             "pos": {
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +90,15 @@
     "qualiPosition": {
         "1976": {
             "year": "1976",
-            "positions": {}
+            "positions": {
+                "Japanese Grand Prix": "21"
+            }
         },
         "1977": {
             "year": "1977",
-            "positions": {}
+            "positions": {
+                "Japanese Grand Prix": "11"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +180,42 @@
         "1977": -1
     },
     "positionsGainLost": {
+        "1976": {},
+        "1977": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1976": {
+            "16": {
+                "raceName": "Japanese Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Tyre",
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1977": {
+            "17": {
+                "raceName": "Japanese Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 11,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "kojima",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1976": {},
         "1977": {}
     }

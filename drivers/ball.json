@@ -1,6 +1,6 @@
 {
     "driverId": "ball",
-    "lastUpdate": "2024-08-03T03:38:20.286372",
+    "lastUpdate": "2026-10-02T11:47:20.461970",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         }
     },
     "fastLaps": {
-        "1951": {},
-        "1952": {}
+        "1951": {
+            "Indianapolis 500": -1
+        },
+        "1952": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1951": {
             "year": "1951",
-            "position": "18",
+            "position": "19",
             "points": "2"
         },
         "1952": {
             "year": "1952",
-            "position": "103",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,25 @@
             "year": "1951",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 2
+                    "points": 2.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 2.0
+                },
+                "French Grand Prix": {
+                    "points": 2.0
+                },
+                "British Grand Prix": {
+                    "points": 2.0
+                },
+                "German Grand Prix": {
+                    "points": 2.0
+                },
+                "Italian Grand Prix": {
+                    "points": 2.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 2.0
                 }
             }
         },
@@ -64,7 +86,25 @@
             "year": "1952",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +126,15 @@
     "qualiPosition": {
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "29"
+            }
         },
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "17"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +216,42 @@
         "1952": -1
     },
     "positionsGainLost": {
+        "1951": {},
+        "1952": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1951": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 29,
+                "points": 2.0,
+                "status": "Finished",
+                "constructorId": "schroeder",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1952": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 32,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "stevens",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1951": {},
         "1952": {}
     }

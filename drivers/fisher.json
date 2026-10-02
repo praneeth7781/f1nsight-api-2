@@ -1,6 +1,6 @@
 {
     "driverId": "fisher",
-    "lastUpdate": "2024-08-03T03:38:25.185491",
+    "lastUpdate": "2026-10-02T11:47:20.515021",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,15 @@
         }
     },
     "fastLaps": {
-        "1967": {}
+        "1967": {
+            "Canadian Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1967": {
             "year": "1967",
-            "position": "28",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,10 +46,16 @@
             "year": "1967",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -63,7 +72,10 @@
     "qualiPosition": {
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "17",
+                "Mexican Grand Prix": "10"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -134,6 +146,39 @@
         "1967": -1
     },
     "positionsGainLost": {
+        "1967": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1967": {
+            "8": {
+                "raceName": "Canadian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+9 Laps",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Mexican Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1967": {}
     }
 }

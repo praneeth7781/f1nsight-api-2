@@ -1,6 +1,6 @@
 {
     "driverId": "pagani",
-    "lastUpdate": "2024-08-03T03:38:36.928232",
+    "lastUpdate": "2026-10-02T11:47:20.459072",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,12 +27,14 @@
         "1950": {}
     },
     "fastLaps": {
-        "1950": {}
+        "1950": {
+            "Swiss Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
             "year": "1950",
-            "position": "32",
+            "position": "40",
             "points": "0"
         }
     },
@@ -41,7 +43,16 @@
             "year": "1950",
             "pos": {
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -57,7 +68,9 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "Swiss Grand Prix": "15"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -128,6 +141,27 @@
         "1950": -1
     },
     "positionsGainLost": {
+        "1950": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "4": {
+                "raceName": "Swiss Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {}
     }
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "lovely",
-    "lastUpdate": "2024-08-03T03:38:33.320870",
+    "lastUpdate": "2026-10-02T11:47:20.492984",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -67,36 +67,52 @@
         }
     },
     "fastLaps": {
-        "1959": {},
-        "1960": {},
-        "1969": {},
-        "1970": {},
-        "1971": {}
+        "1959": {
+            "Monaco Grand Prix": -1
+        },
+        "1960": {
+            "United States Grand Prix": -1
+        },
+        "1969": {
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        },
+        "1970": {
+            "Dutch Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "United States Grand Prix": -1
+        },
+        "1971": {
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1959": {
             "year": "1959",
-            "position": "67",
+            "position": "22",
             "points": "0"
         },
         "1960": {
             "year": "1960",
-            "position": "49",
+            "position": "40",
             "points": "0"
         },
         "1969": {
             "year": "1969",
-            "position": "19",
+            "position": "40",
             "points": "0"
         },
         "1970": {
             "year": "1970",
-            "position": "34",
+            "position": "40",
             "points": "0"
         },
         "1971": {
             "year": "1971",
-            "position": "41",
+            "position": "40",
             "points": "0"
         }
     },
@@ -105,7 +121,7 @@
             "year": "1959",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -113,7 +129,7 @@
             "year": "1960",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -121,30 +137,39 @@
             "year": "1969",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
         "1970": {
             "year": "1970",
             "pos": {
-                "Dutch Grand Prix": {
-                    "points": 0
-                },
-                "French Grand Prix": {
-                    "points": 0
-                },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -152,10 +177,10 @@
             "year": "1971",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -201,23 +226,39 @@
     "qualiPosition": {
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "20"
+            }
         },
         "1969": {
             "year": "1969",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "16",
+                "United States Grand Prix": "16",
+                "Mexican Grand Prix": "16"
+            }
         },
         "1970": {
             "year": "1970",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "0",
+                "French Grand Prix": "0",
+                "British Grand Prix": "23",
+                "United States Grand Prix": "0"
+            }
         },
         "1971": {
             "year": "1971",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "25",
+                "United States Grand Prix": "29"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -332,6 +373,159 @@
         "1971": -1
     },
     "positionsGainLost": {
+        "1959": {},
+        "1960": {},
+        "1969": {},
+        "1970": {},
+        "1971": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1959": {
+            "1": {
+                "raceName": "Monaco Grand Prix",
+                "position": 22,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "10": {
+                "raceName": "United States Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "cooper-castellotti",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1969": {
+            "9": {
+                "raceName": "Canadian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+9 Laps",
+                "constructorId": "lotus-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "United States Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Halfshaft",
+                "constructorId": "lotus-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Mexican Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "lotus-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1970": {
+            "5": {
+                "raceName": "Dutch Grand Prix",
+                "position": 23,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 23,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "British Grand Prix",
+                "position": 10,
+                "positionText": "N",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "United States Grand Prix",
+                "position": 26,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1971": {
+            "10": {
+                "raceName": "Canadian Grand Prix",
+                "position": 18,
+                "positionText": "N",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "lotus-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "United States Grand Prix",
+                "position": 21,
+                "positionText": "N",
+                "classified": false,
+                "grid": 29,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "lotus-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1959": {},
         "1960": {},
         "1969": {},

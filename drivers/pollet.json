@@ -1,6 +1,6 @@
 {
     "driverId": "pollet",
-    "lastUpdate": "2024-08-03T03:38:38.428188",
+    "lastUpdate": "2026-10-02T11:47:20.479471",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -39,18 +39,25 @@
         }
     },
     "fastLaps": {
-        "1954": {},
-        "1955": {}
+        "1954": {
+            "French Grand Prix": -1,
+            "Spanish Grand Prix": -1
+        },
+        "1955": {
+            "Monaco Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1954": {
             "year": "1954",
-            "position": "71",
+            "position": "40",
             "points": "0"
         },
         "1955": {
             "year": "1955",
-            "position": "30",
+            "position": "40",
             "points": "0"
         }
     },
@@ -59,10 +66,22 @@
             "year": "1954",
             "pos": {
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -70,13 +89,22 @@
             "year": "1955",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -101,11 +129,18 @@
     "qualiPosition": {
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "18",
+                "Spanish Grand Prix": "16"
+            }
         },
         "1955": {
             "year": "1955",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "20",
+                "Dutch Grand Prix": "12",
+                "Italian Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -187,6 +222,78 @@
         "1955": -1
     },
     "positionsGainLost": {
+        "1954": {},
+        "1955": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1954": {
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Spanish Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1955": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+9 Laps",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Dutch Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+10 Laps",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1954": {},
         "1955": {}
     }

@@ -1,70 +1,127 @@
 {
-    "driverId": "widdows",
-    "lastUpdate": "2024-08-03T03:38:45.316169",
+    "driverId": "wietzes",
+    "lastUpdate": "2026-10-02T11:47:20.515165",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 2,
     "seasonWins": {
-        "1968": 0
+        "1967": 0,
+        "1974": 0
     },
     "seasonPodiums": {
-        "1968": 0
+        "1967": 0,
+        "1974": 0
     },
     "seasonPoles": {
-        "1968": 0
+        "1967": 0,
+        "1974": 0
     },
     "seasonDNFs": {
-        "1968": 1
+        "1967": 1,
+        "1974": 1
     },
     "poles": {
-        "1968": []
+        "1967": [],
+        "1974": []
     },
     "podiums": {
-        "1968": {}
+        "1967": {},
+        "1974": {}
     },
     "DNFs": {
-        "1968": {
-            "British Grand Prix": "Ignition"
+        "1967": {
+            "Canadian Grand Prix": "Disqualified"
+        },
+        "1974": {
+            "Canadian Grand Prix": "Engine"
         }
     },
     "fastLaps": {
-        "1968": {}
+        "1967": {
+            "Canadian Grand Prix": -1
+        },
+        "1974": {
+            "Canadian Grand Prix": -1
+        }
     },
     "finalStandings": {
-        "1968": {
-            "year": "1968",
-            "position": "31",
+        "1967": {
+            "year": "1967",
+            "position": "40",
+            "points": "0"
+        },
+        "1974": {
+            "year": "1974",
+            "position": "40",
             "points": "0"
         }
     },
     "posAfterRace": {
-        "1968": {
-            "year": "1968",
+        "1967": {
+            "year": "1967",
             "pos": {
-                "British Grand Prix": {
-                    "points": 0
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
+                }
+            }
+        },
+        "1974": {
+            "year": "1974",
+            "pos": {
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
     },
     "racePosition": {
-        "1968": {
-            "year": "1968",
+        "1967": {
+            "year": "1967",
             "positions": {
-                "British Grand Prix": "13"
+                "Canadian Grand Prix": "13"
+            }
+        },
+        "1974": {
+            "year": "1974",
+            "positions": {
+                "Canadian Grand Prix": "25"
             }
         }
     },
     "qualiPosition": {
-        "1968": {
-            "year": "1968",
-            "positions": {}
+        "1967": {
+            "year": "1967",
+            "positions": {
+                "Canadian Grand Prix": "16"
+            }
+        },
+        "1974": {
+            "year": "1974",
+            "positions": {
+                "Canadian Grand Prix": "26"
+            }
         }
     },
     "driverQualifyingTimes": {
-        "1968": {
-            "year": "1968",
+        "1967": {
+            "year": "1967",
+            "QualiTimes": {}
+        },
+        "1974": {
+            "year": "1974",
             "QualiTimes": {}
         }
     },
@@ -131,5 +188,41 @@
     },
     "positionsGainLost": {
         "1968": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1967": {
+            "8": {
+                "raceName": "Canadian Grand Prix",
+                "position": 13,
+                "positionText": "D",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Disqualified",
+                "constructorId": "lotus-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1974": {
+            "14": {
+                "raceName": "Canadian Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brabham",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1967": {},
+        "1974": {}
     }
 }

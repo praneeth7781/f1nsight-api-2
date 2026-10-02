@@ -1,6 +1,6 @@
 {
     "driverId": "fohr",
-    "lastUpdate": "2024-08-03T03:38:25.405433",
+    "lastUpdate": "2026-10-02T11:47:20.455448",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,12 +27,14 @@
         "1950": {}
     },
     "fastLaps": {
-        "1950": {}
+        "1950": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1950": {
             "year": "1950",
-            "position": "42",
+            "position": "40",
             "points": "0"
         }
     },
@@ -41,7 +43,19 @@
             "year": "1950",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -57,7 +71,9 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "16"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -128,6 +144,27 @@
         "1950": -1
     },
     "positionsGainLost": {
+        "1950": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "marchese",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {}
     }
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "ahrens",
-    "lastUpdate": "2024-08-03T03:38:18.679955",
+    "lastUpdate": "2026-10-02T11:47:20.514683",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         "1968": {}
     },
     "fastLaps": {
-        "1967": {},
-        "1968": {}
+        "1967": {
+            "German Grand Prix": -1
+        },
+        "1968": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1967": {
             "year": "1967",
-            "position": "43",
+            "position": "40",
             "points": "0"
         },
         "1968": {
             "year": "1968",
-            "position": "28",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,19 @@
             "year": "1967",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +80,19 @@
             "year": "1968",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +114,15 @@
     "qualiPosition": {
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "23"
+            }
         },
         "1968": {
             "year": "1968",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "17"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +204,42 @@
         "1968": -1
     },
     "positionsGainLost": {
+        "1967": {},
+        "1968": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1967": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Radiator",
+                "constructorId": "protos",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1968": {
+            "8": {
+                "raceName": "German Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "brabham-repco",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1967": {},
         "1968": {}
     }

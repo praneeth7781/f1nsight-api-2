@@ -1,6 +1,6 @@
 {
     "driverId": "barth",
-    "lastUpdate": "2024-08-03T03:38:20.580306",
+    "lastUpdate": "2026-10-02T11:47:20.476361",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -69,42 +69,55 @@
         }
     },
     "fastLaps": {
-        "1953": {},
-        "1957": {},
-        "1958": {},
-        "1960": {},
-        "1961": {},
-        "1964": {}
+        "1953": {
+            "German Grand Prix": -1
+        },
+        "1957": {
+            "German Grand Prix": -1
+        },
+        "1958": {
+            "German Grand Prix": -1
+        },
+        "1960": {
+            "Italian Grand Prix": -1
+        },
+        "1961": {
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1964": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1953": {
             "year": "1953",
-            "position": "88",
+            "position": "40",
             "points": "0"
         },
         "1957": {
             "year": "1957",
-            "position": "42",
+            "position": "40",
             "points": "0"
         },
         "1958": {
             "year": "1958",
-            "position": "27",
+            "position": "40",
             "points": "0"
         },
         "1960": {
             "year": "1960",
-            "position": "29",
+            "position": "40",
             "points": "0"
         },
         "1961": {
             "year": "1961",
-            "position": "51",
+            "position": "40",
             "points": "0"
         },
         "1964": {
             "year": "1964",
-            "position": "36",
+            "position": "40",
             "points": "0"
         }
     },
@@ -113,7 +126,13 @@
             "year": "1953",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -121,7 +140,13 @@
             "year": "1957",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Pescara Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -129,7 +154,16 @@
             "year": "1958",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Moroccan Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -137,7 +171,10 @@
             "year": "1960",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -145,10 +182,13 @@
             "year": "1961",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -156,7 +196,19 @@
             "year": "1964",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -203,27 +255,40 @@
     "qualiPosition": {
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "24"
+            }
         },
         "1957": {
             "year": "1957",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "12"
+            }
         },
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "13"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "12"
+            }
         },
         "1961": {
             "year": "1961",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "0",
+                "Italian Grand Prix": "0"
+            }
         },
         "1964": {
             "year": "1964",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "20"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -349,6 +414,114 @@
         "1964": -1
     },
     "positionsGainLost": {
+        "1953": {},
+        "1957": {},
+        "1958": {},
+        "1960": {},
+        "1961": {},
+        "1964": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1953": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Exhaust",
+                "constructorId": "emw",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1957": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "porsche",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1958": {
+            "8": {
+                "raceName": "German Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Finished",
+                "constructorId": "porsche",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "porsche",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1961": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 27,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "porsche",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 34,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "porsche",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1964": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Clutch",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1953": {},
         "1957": {},
         "1958": {},

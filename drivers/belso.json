@@ -1,10 +1,10 @@
 {
     "driverId": "belso",
-    "lastUpdate": "2024-08-03T03:38:20.880163",
+    "lastUpdate": "2026-10-02T11:47:20.525115",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1974": 0
     },
@@ -15,7 +15,7 @@
         "1974": 0
     },
     "seasonDNFs": {
-        "1974": 3
+        "1974": 2
     },
     "poles": {
         "1974": []
@@ -26,17 +26,20 @@
     "DNFs": {
         "1974": {
             "South African Grand Prix": "Clutch",
-            "Spanish Grand Prix": "Did not qualify",
-            "British Grand Prix": "Did not qualify"
+            "Spanish Grand Prix": "Did not qualify"
         }
     },
     "fastLaps": {
-        "1974": {}
+        "1974": {
+            "South African Grand Prix": -1,
+            "Spanish Grand Prix": -1,
+            "Swedish Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1974": {
             "year": "1974",
-            "position": "27",
+            "position": "40",
             "points": "0"
         }
     },
@@ -45,16 +48,43 @@
             "year": "1974",
             "pos": {
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
                 },
                 "Swedish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -65,15 +95,18 @@
             "positions": {
                 "South African Grand Prix": "27",
                 "Spanish Grand Prix": "27",
-                "Swedish Grand Prix": "8",
-                "British Grand Prix": "28"
+                "Swedish Grand Prix": "8"
             }
         }
     },
     "qualiPosition": {
         "1974": {
             "year": "1974",
-            "positions": {}
+            "positions": {
+                "South African Grand Prix": "27",
+                "Spanish Grand Prix": "0",
+                "Swedish Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -144,6 +177,51 @@
         "1974": -1
     },
     "positionsGainLost": {
+        "1974": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1974": {
+            "3": {
+                "raceName": "South African Grand Prix",
+                "position": 27,
+                "positionText": "R",
+                "classified": false,
+                "grid": 27,
+                "points": 0.0,
+                "status": "Clutch",
+                "constructorId": "iso_marlboro",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Spanish Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "iso_marlboro",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Swedish Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "iso_marlboro",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1974": {}
     }
 }

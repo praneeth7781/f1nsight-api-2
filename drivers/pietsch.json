@@ -1,6 +1,6 @@
 {
     "driverId": "pietsch",
-    "lastUpdate": "2024-08-03T03:38:38.085858",
+    "lastUpdate": "2026-10-02T11:47:20.460839",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -47,24 +47,30 @@
         }
     },
     "fastLaps": {
-        "1950": {},
-        "1951": {},
-        "1952": {}
+        "1950": {
+            "Italian Grand Prix": -1
+        },
+        "1951": {
+            "German Grand Prix": -1
+        },
+        "1952": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
             "year": "1950",
-            "position": "72",
+            "position": "40",
             "points": "0"
         },
         "1951": {
             "year": "1951",
-            "position": "56",
+            "position": "40",
             "points": "0"
         },
         "1952": {
             "year": "1952",
-            "position": "92",
+            "position": "40",
             "points": "0"
         }
     },
@@ -73,7 +79,7 @@
             "year": "1950",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -81,7 +87,13 @@
             "year": "1951",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -89,7 +101,13 @@
             "year": "1952",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -117,15 +135,21 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "27"
+            }
         },
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "7"
+            }
         },
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "7"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -218,6 +242,57 @@
         "1952": -1
     },
     "positionsGainLost": {
+        "1950": {},
+        "1951": {},
+        "1952": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 27,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1951": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 7,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1952": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 7,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "veritas",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {},
         "1951": {},
         "1952": {}

@@ -1,6 +1,6 @@
 {
     "driverId": "pirocchi",
-    "lastUpdate": "2024-08-03T03:38:38.287722",
+    "lastUpdate": "2026-10-02T11:47:20.501557",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,15 @@
         }
     },
     "fastLaps": {
-        "1961": {}
+        "1961": {
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1961": {
             "year": "1961",
-            "position": "32",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,10 +46,13 @@
             "year": "1961",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -63,7 +69,10 @@
     "qualiPosition": {
         "1961": {
             "year": "1961",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "0",
+                "Italian Grand Prix": "29"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -134,6 +143,39 @@
         "1961": -1
     },
     "positionsGainLost": {
+        "1961": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1961": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 31,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 29,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "cooper-maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1961": {}
     }
 }
