@@ -711,12 +711,18 @@ def update_races():
     
     print("Race Details updated successfully!")
 
-def completed_calendar_races(races):
-    return [
-        race
-        for race in races
-        if dt.strptime(race['date'], '%Y-%m-%d') < dt.now()
-    ]
+def completed_calendar_races(races, now=None):
+    now = now or datetime.datetime.now(datetime.timezone.utc)
+    completed = []
+    for race in races:
+        if race.get('time'):
+            start = datetime.datetime.fromisoformat(f"{race['date']}T{race['time']}".replace('Z', '+00:00'))
+            available = start + datetime.timedelta(hours=4)
+        else:
+            available = datetime.datetime.fromisoformat(race['date']).replace(tzinfo=datetime.timezone.utc) + datetime.timedelta(days=1)
+        if available <= now:
+            completed.append(race)
+    return completed
 
 
 def update_round_records(file_name, endpoint_name, label):
@@ -755,6 +761,9 @@ def update_round_records(file_name, endpoint_name, label):
             raise RuntimeError(
                 f'API round mismatch for {race["raceName"]}: {url}'
             )
+        result_key = 'Results' if endpoint_name == 'results' else 'QualifyingResults'
+        if not fetched_race.get(result_key):
+            raise RuntimeError(f'API returned no {label.lower()}: {url}')
         additions.append(fetched_race)
 
     merged = merge_round_records(existing, additions)
@@ -767,7 +776,7 @@ def update_round_records(file_name, endpoint_name, label):
             f'{", ".join(missing_rounds)}'
         )
 
-    if additions:
+    if merged != existing:
         write_json_atomic(output_file, merged)
         print(f'{label}: added {len(additions)} new round(s)')
     else:
@@ -815,7 +824,7 @@ def update_standings(file_name, endpoint_name, standings_key, label):
             .get('StandingsTable', {})
             .get('StandingsLists', [])
         )
-        if not standings_lists or standings_key not in standings_lists[0]:
+        if not standings_lists or str(standings_lists[0].get('round')) != round_number or not standings_lists[0].get(standings_key):
             raise RuntimeError(
                 f'API returned no {label.lower()} for '
                 f'{race["raceName"]}: {url}'
@@ -1132,8 +1141,11 @@ def update():
     replace_NaN()  
     print("==========Updating Race Details==========")
     if not pre_checks():
-        return
-    update_races()
+        raise RuntimeError('No race calendar available; skipping publication')
+    try:
+        update_races()
+    except RuntimeError as error:
+        print(f'OpenF1 meeting information deferred: {error}')
     print("==========Updating Race Results==========")
     update_raceResults()
     print("==========Updating Qualifying Sessions==========")

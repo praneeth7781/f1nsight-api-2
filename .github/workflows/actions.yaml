@@ -3,8 +3,11 @@ name: run api_update.py
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 10 * * 1' # At 10:00 AM every Monday
-  #   # - cron: '*/5 * * * *' # Every 5 minutes (for testing)
+    - cron: '17 10 * * *' # Daily at 10:17 UTC
+
+concurrency:
+  group: f1nsight-data-update
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -38,8 +41,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
+          git add drivers constructors races colors driversList.json historicalPoles.json teamLineage.json teamRecords.json
+          git diff --cached --quiet || git commit -m "Update published F1 data"
           
       - name: push changes
         uses: ad-m/github-push-action@v0.8.0
