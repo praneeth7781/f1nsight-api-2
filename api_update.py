@@ -711,16 +711,27 @@ def update_races():
     
     print("Race Details updated successfully!")
 
-def completed_calendar_races(races):
-    return [
-        race
-        for race in races
-        if dt.strptime(race['date'], '%Y-%m-%d') < dt.now()
-    ]
+def completed_calendar_races(races, now=None):
+    now = now or datetime.datetime.now(datetime.timezone.utc)
+    completed = []
+    for race in races:
+        if race.get('time'):
+            start = datetime.datetime.fromisoformat(f"{race['date']}T{race['time']}".replace('Z', '+00:00'))
+            available = start + datetime.timedelta(hours=4)
+        else:
+            available = datetime.datetime.fromisoformat(race['date']).replace(tzinfo=datetime.timezone.utc) + datetime.timedelta(days=1)
+        if available <= now:
+            completed.append(race)
+    return completed
+
+
+def needs_revision_check(race):
+    age = datetime.datetime.now(datetime.timezone.utc).date() - datetime.date.fromisoformat(race['date'])
+    return datetime.timedelta(0) <= age <= datetime.timedelta(days=14)
 
 
 def update_round_records(file_name, endpoint_name, label):
-    """Fetch only missing rounds and never replace an existing round."""
+    """Fetch missing rounds and recheck recent classifications for revisions."""
     season = current_year
     season_dir = f'races/{season}'
     ensure_directory_exists(season_dir)
@@ -744,7 +755,7 @@ def update_round_records(file_name, endpoint_name, label):
 
     for race in completed_races:
         round_number = str(race['round'])
-        if round_number in existing_rounds:
+        if round_number in existing_rounds and not needs_revision_check(race):
             print(f'{label}: round {round_number} already stored; preserving it')
             continue
 
@@ -755,9 +766,13 @@ def update_round_records(file_name, endpoint_name, label):
             raise RuntimeError(
                 f'API round mismatch for {race["raceName"]}: {url}'
             )
+        result_key = 'Results' if endpoint_name == 'results' else 'QualifyingResults'
+        if not fetched_race.get(result_key):
+            raise RuntimeError(f'API returned no {label.lower()}: {url}')
         additions.append(fetched_race)
 
-    merged = merge_round_records(existing, additions)
+    replacements = {str(record['round']): record for record in additions}
+    merged = merge_round_records([replacements.get(str(record.get('round')), record) for record in existing], additions)
     expected_rounds = {str(race['round']) for race in completed_races}
     merged_rounds = {str(record.get('round')) for record in merged}
     missing_rounds = sorted(expected_rounds - merged_rounds, key=int)
@@ -767,9 +782,9 @@ def update_round_records(file_name, endpoint_name, label):
             f'{", ".join(missing_rounds)}'
         )
 
-    if additions:
+    if merged != existing:
         write_json_atomic(output_file, merged)
-        print(f'{label}: added {len(additions)} new round(s)')
+        print(f'{label}: refreshed {len(additions)} round(s)')
     else:
         print(f'{label}: no new rounds to add')
 
@@ -785,7 +800,7 @@ def update_qualifying():
 
 
 def update_standings(file_name, endpoint_name, standings_key, label):
-    """Add missing per-round standings while preserving stored history."""
+    """Fetch missing standings and recheck recent rounds for revisions."""
     season = current_year
     season_dir = f'races/{season}'
     ensure_directory_exists(season_dir)
@@ -803,7 +818,7 @@ def update_standings(file_name, endpoint_name, standings_key, label):
 
     for race in completed_races:
         round_number = str(race['round'])
-        if round_number in result:
+        if round_number in result and not needs_revision_check(race):
             print(f'{label}: round {round_number} already stored; preserving it')
             continue
 
@@ -815,7 +830,7 @@ def update_standings(file_name, endpoint_name, standings_key, label):
             .get('StandingsTable', {})
             .get('StandingsLists', [])
         )
-        if not standings_lists or standings_key not in standings_lists[0]:
+        if not standings_lists or str(standings_lists[0].get('round')) != round_number or not standings_lists[0].get(standings_key):
             raise RuntimeError(
                 f'API returned no {label.lower()} for '
                 f'{race["raceName"]}: {url}'
@@ -918,31 +933,12 @@ def pre_checks():
             json.dump({}, f, indent=4, ensure_ascii=False, cls=NpEncoder)
         print(f"Initialized racesbyMK.json with empty structure")
     
-    # Initialize race details which other functions depend on
     race_details_file = f'races/{season}/raceDetails.json'
-    if not os.path.exists(race_details_file) or os.path.getsize(race_details_file) == 0:
-        races = fetch_race_calendar(season)
-        with open(race_details_file, 'w', encoding='utf-8') as f:
-            json.dump(races, f, indent=4, ensure_ascii=False, cls=NpEncoder)
-        print(f"Initialized raceDetails.json with {len(races)} races for {season}")
-    
-    # Verify race details file has data before proceeding
-    with open(race_details_file, 'r', encoding='utf-8') as f:
-        race_data = json.load(f)
-    
-    if not race_data or len(race_data) == 0:
-        print("Warning: No race data found for the current season. Attempting to fetch from API...")
-        race_data = fetch_race_calendar(season)
-        if race_data and len(race_data) > 0:
-            with open(race_details_file, 'w', encoding='utf-8') as f:
-                json.dump(race_data, f, indent=4, ensure_ascii=False, cls=NpEncoder)
-            print(f"Successfully fetched and saved {len(race_data)} races for {season}")
-            return True
-        else:
-            print("Error: Could not fetch race data from API. Manual initialization required.")
-            print("Skipping remaining updates as they depend on race data.")
-            return False
-    
+    races = fetch_race_calendar(season)
+    if not races:
+        raise RuntimeError(f'No race calendar returned for {season}')
+    if races != load_json(race_details_file, []):
+        write_json_atomic(race_details_file, races)
     return True
 
 LINEAGE_FILE = 'teamLineage.json'
@@ -1131,9 +1127,11 @@ def update():
     print("==========Replacing NaNs in Driver Data==========")
     replace_NaN()  
     print("==========Updating Race Details==========")
-    if not pre_checks():
-        return
-    update_races()
+    pre_checks()
+    try:
+        update_races()
+    except RuntimeError as error:
+        print(f'OpenF1 meeting information deferred: {error}')
     print("==========Updating Race Results==========")
     update_raceResults()
     print("==========Updating Qualifying Sessions==========")
