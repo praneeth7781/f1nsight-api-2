@@ -5,19 +5,13 @@ on:
   schedule:
     - cron: '17 10 * * *' # Daily at 10:17 UTC
 
-permissions:
-  contents: write
-  pages: write
-
 concurrency:
   group: f1nsight-data-update
   cancel-in-progress: false
 
 jobs:
   build:
-    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
-    timeout-minutes: 45
     env:
       # Favor consistency over speed and stay well below Jolpica's burst limit.
       F1NSIGHT_API_DELAY_SECONDS: '1.0'
@@ -55,8 +49,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master 
-
-      - name: rebuild GitHub Pages
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds"
