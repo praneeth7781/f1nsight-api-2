@@ -1,10 +1,10 @@
 {
     "driverId": "solana",
-    "lastUpdate": "2024-08-03T03:38:41.964648",
+    "lastUpdate": "2026-10-02T11:47:20.508596",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 5,
     "seasonWins": {
         "1963": 0,
         "1964": 0,
@@ -30,7 +30,7 @@
         "1968": 0
     },
     "seasonDNFs": {
-        "1963": 1,
+        "1963": 0,
         "1964": 0,
         "1965": 1,
         "1966": 1,
@@ -54,9 +54,7 @@
         "1968": {}
     },
     "DNFs": {
-        "1963": {
-            "Mexican Grand Prix": "Engine"
-        },
+        "1963": {},
         "1964": {},
         "1965": {
             "Mexican Grand Prix": "Ignition"
@@ -73,42 +71,56 @@
         }
     },
     "fastLaps": {
-        "1963": {},
-        "1964": {},
-        "1965": {},
-        "1966": {},
-        "1967": {},
-        "1968": {}
+        "1963": {
+            "Mexican Grand Prix": -1
+        },
+        "1964": {
+            "Mexican Grand Prix": -1
+        },
+        "1965": {
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        },
+        "1966": {
+            "Mexican Grand Prix": -1
+        },
+        "1967": {
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        },
+        "1968": {
+            "Mexican Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1963": {
             "year": "1963",
-            "position": "29",
+            "position": "40",
             "points": "0"
         },
         "1964": {
             "year": "1964",
-            "position": "26",
+            "position": "40",
             "points": "0"
         },
         "1965": {
             "year": "1965",
-            "position": "27",
+            "position": "40",
             "points": "0"
         },
         "1966": {
             "year": "1966",
-            "position": "30",
+            "position": "40",
             "points": "0"
         },
         "1967": {
             "year": "1967",
-            "position": "39",
+            "position": "40",
             "points": "0"
         },
         "1968": {
             "year": "1968",
-            "position": "35",
+            "position": "40",
             "points": "0"
         }
     },
@@ -117,7 +129,10 @@
             "year": "1963",
             "pos": {
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -125,7 +140,7 @@
             "year": "1964",
             "pos": {
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -133,10 +148,10 @@
             "year": "1965",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -144,7 +159,7 @@
             "year": "1966",
             "pos": {
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -152,10 +167,10 @@
             "year": "1967",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -163,7 +178,7 @@
             "year": "1968",
             "pos": {
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -211,27 +226,41 @@
     "qualiPosition": {
         "1963": {
             "year": "1963",
-            "positions": {}
+            "positions": {
+                "Mexican Grand Prix": "11"
+            }
         },
         "1964": {
             "year": "1964",
-            "positions": {}
+            "positions": {
+                "Mexican Grand Prix": "14"
+            }
         },
         "1965": {
             "year": "1965",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "17",
+                "Mexican Grand Prix": "9"
+            }
         },
         "1966": {
             "year": "1966",
-            "positions": {}
+            "positions": {
+                "Mexican Grand Prix": "15"
+            }
         },
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "7",
+                "Mexican Grand Prix": "9"
+            }
         },
         "1968": {
             "year": "1968",
-            "positions": {}
+            "positions": {
+                "Mexican Grand Prix": "11"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -357,6 +386,126 @@
         "1968": -1
     },
     "positionsGainLost": {
+        "1963": {},
+        "1964": {},
+        "1965": {},
+        "1966": {},
+        "1967": {},
+        "1968": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1963": {
+            "9": {
+                "raceName": "Mexican Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1964": {
+            "10": {
+                "raceName": "Mexican Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1965": {
+            "9": {
+                "raceName": "United States Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+15 Laps",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Mexican Grand Prix",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 9,
+                "points": 0.0,
+                "status": "Ignition",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1966": {
+            "9": {
+                "raceName": "Mexican Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Overheating",
+                "constructorId": "cooper-maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1967": {
+            "10": {
+                "raceName": "United States Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 7,
+                "points": 0.0,
+                "status": "Ignition",
+                "constructorId": "lotus-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Mexican Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 9,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1968": {
+            "12": {
+                "raceName": "Mexican Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Broken wing",
+                "constructorId": "lotus-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1963": {},
         "1964": {},
         "1965": {},

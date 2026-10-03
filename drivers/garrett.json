@@ -1,6 +1,6 @@
 {
     "driverId": "garrett",
-    "lastUpdate": "2024-08-03T03:38:25.912311",
+    "lastUpdate": "2026-10-02T11:47:20.484900",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         }
     },
     "fastLaps": {
-        "1956": {},
-        "1958": {}
+        "1956": {
+            "Indianapolis 500": -1
+        },
+        "1958": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1956": {
             "year": "1956",
-            "position": "48",
+            "position": "40",
             "points": "0"
         },
         "1958": {
             "year": "1958",
-            "position": "68",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,22 @@
             "year": "1956",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +83,28 @@
             "year": "1958",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Moroccan Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +126,15 @@
     "qualiPosition": {
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "29"
+            }
         },
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "15"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +216,42 @@
         "1958": -1
     },
     "positionsGainLost": {
+        "1956": {},
+        "1958": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1956": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 29,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "kuzma",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1958": {
+            "4": {
+                "raceName": "Indianapolis 500",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Magneto",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1956": {},
         "1958": {}
     }

@@ -1,6 +1,6 @@
 {
     "driverId": "marko",
-    "lastUpdate": "2024-08-03T03:38:34.013808",
+    "lastUpdate": "2026-10-02T11:47:20.520701",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -38,18 +38,29 @@
         }
     },
     "fastLaps": {
-        "1971": {},
-        "1972": {}
+        "1971": {
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1
+        },
+        "1972": {
+            "Argentine Grand Prix": -1,
+            "South African Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1971": {
             "year": "1971",
-            "position": "29",
+            "position": "40",
             "points": "0"
         },
         "1972": {
             "year": "1972",
-            "position": "25",
+            "position": "40",
             "points": "0"
         }
     },
@@ -58,16 +69,16 @@
             "year": "1971",
             "pos": {
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -75,19 +86,40 @@
             "year": "1972",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -116,11 +148,22 @@
     "qualiPosition": {
         "1971": {
             "year": "1971",
-            "positions": {}
+            "positions": {
+                "Austrian Grand Prix": "17",
+                "Italian Grand Prix": "12",
+                "Canadian Grand Prix": "19",
+                "United States Grand Prix": "16"
+            }
         },
         "1972": {
             "year": "1972",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "19",
+                "South African Grand Prix": "23",
+                "Monaco Grand Prix": "17",
+                "Belgian Grand Prix": "23",
+                "French Grand Prix": "6"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -202,6 +245,126 @@
         "1972": -1
     },
     "positionsGainLost": {
+        "1971": {},
+        "1972": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1971": {
+            "8": {
+                "raceName": "Austrian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 12,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Canadian Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "United States Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1972": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "South African Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Monaco Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 6,
+                "points": 0.0,
+                "status": "Eye injury",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1971": {},
         "1972": {}
     }

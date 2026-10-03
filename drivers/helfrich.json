@@ -1,6 +1,6 @@
 {
     "driverId": "helfrich",
-    "lastUpdate": "2024-08-03T03:38:28.245492",
+    "lastUpdate": "2026-10-02T11:47:20.472426",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -45,24 +45,30 @@
         }
     },
     "fastLaps": {
-        "1952": {},
-        "1953": {},
-        "1954": {}
+        "1952": {
+            "German Grand Prix": -1
+        },
+        "1953": {
+            "German Grand Prix": -1
+        },
+        "1954": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1952": {
             "year": "1952",
-            "position": "97",
+            "position": "40",
             "points": "0"
         },
         "1953": {
             "year": "1953",
-            "position": "55",
+            "position": "40",
             "points": "0"
         },
         "1954": {
             "year": "1954",
-            "position": "72",
+            "position": "40",
             "points": "0"
         }
     },
@@ -71,7 +77,13 @@
             "year": "1952",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -79,7 +91,13 @@
             "year": "1953",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -87,7 +105,16 @@
             "year": "1954",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -115,15 +142,21 @@
     "qualiPosition": {
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "18"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "28"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -216,6 +249,57 @@
         "1954": -1
     },
     "positionsGainLost": {
+        "1952": {},
+        "1953": {},
+        "1954": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1952": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 27,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Retired",
+                "constructorId": "veritas",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 28,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "veritas",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "klenk",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1952": {},
         "1953": {},
         "1954": {}

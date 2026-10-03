@@ -1,10 +1,10 @@
 {
     "driverId": "donohue",
-    "lastUpdate": "2024-08-03T03:38:24.453020",
+    "lastUpdate": "2026-10-02T11:47:20.521155",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 7,
     "seasonWins": {
         "1971": 0,
         "1974": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1971": 0,
         "1974": 1,
-        "1975": 7
+        "1975": 6
     },
     "poles": {
         "1971": [],
@@ -47,15 +47,32 @@
             "Spanish Grand Prix": "Accident",
             "Monaco Grand Prix": "Accident",
             "French Grand Prix": "Transmission",
-            "British Grand Prix": "Accident",
             "German Grand Prix": "Tyre",
             "Austrian Grand Prix": "Accident"
         }
     },
     "fastLaps": {
-        "1971": {},
-        "1974": {},
-        "1975": {}
+        "1971": {
+            "Canadian Grand Prix": -1
+        },
+        "1974": {
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1
+        },
+        "1975": {
+            "Argentine Grand Prix": -1,
+            "Brazilian Grand Prix": -1,
+            "South African Grand Prix": -1,
+            "Spanish Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Swedish Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1971": {
@@ -65,7 +82,7 @@
         },
         "1974": {
             "year": "1974",
-            "position": "36",
+            "position": "40",
             "points": "0"
         },
         "1975": {
@@ -79,7 +96,10 @@
             "year": "1971",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 4
+                    "points": 4.0
+                },
+                "United States Grand Prix": {
+                    "points": 4.0
                 }
             }
         },
@@ -87,10 +107,10 @@
             "year": "1974",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -98,40 +118,46 @@
             "year": "1975",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Swedish Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "French Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "British Grand Prix": {
-                    "points": 4
+                    "points": 4.0
                 },
                 "German Grand Prix": {
-                    "points": 4
+                    "points": 4.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 4
+                    "points": 4.0
+                },
+                "Italian Grand Prix": {
+                    "points": 4.0
+                },
+                "United States Grand Prix": {
+                    "points": 4.0
                 }
             }
         }
@@ -171,15 +197,33 @@
     "qualiPosition": {
         "1971": {
             "year": "1971",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "8"
+            }
         },
         "1974": {
             "year": "1974",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "24",
+                "United States Grand Prix": "14"
+            }
         },
         "1975": {
             "year": "1975",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "16",
+                "Brazilian Grand Prix": "15",
+                "South African Grand Prix": "18",
+                "Spanish Grand Prix": "17",
+                "Monaco Grand Prix": "16",
+                "Belgian Grand Prix": "21",
+                "Swedish Grand Prix": "16",
+                "Dutch Grand Prix": "18",
+                "French Grand Prix": "18",
+                "British Grand Prix": "15",
+                "German Grand Prix": "19",
+                "Austrian Grand Prix": "20"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -272,6 +316,201 @@
         "1975": -1
     },
     "positionsGainLost": {
+        "1971": {},
+        "1974": {},
+        "1975": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1971": {
+            "10": {
+                "raceName": "Canadian Grand Prix",
+                "position": 3,
+                "positionText": "3",
+                "classified": true,
+                "grid": 8,
+                "points": 4.0,
+                "status": "Finished",
+                "constructorId": "mclaren",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1974": {
+            "14": {
+                "raceName": "Canadian Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "United States Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1975": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Handling",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "South African Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Spanish Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Monaco Grand Prix",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Belgian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Swedish Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 16,
+                "points": 2.0,
+                "status": "Finished",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Dutch Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "French Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 15,
+                "points": 2.0,
+                "status": "Accident",
+                "constructorId": "march",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "German Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Tyre",
+                "constructorId": "march",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Austrian Grand Prix",
+                "position": 27,
+                "positionText": "W",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "march",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1971": {},
         "1974": {},
         "1975": {}

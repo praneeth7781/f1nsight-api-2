@@ -1,6 +1,6 @@
 {
     "driverId": "toshio_suzuki",
-    "lastUpdate": "2024-08-03T03:38:43.481346",
+    "lastUpdate": "2026-10-02T11:47:20.551679",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,12 +27,15 @@
         "1993": {}
     },
     "fastLaps": {
-        "1993": {}
+        "1993": {
+            "Japanese Grand Prix": -1,
+            "Australian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1993": {
             "year": "1993",
-            "position": "31",
+            "position": "40",
             "points": "0"
         }
     },
@@ -41,10 +44,10 @@
             "year": "1993",
             "pos": {
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Australian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -61,7 +64,10 @@
     "qualiPosition": {
         "1993": {
             "year": "1993",
-            "positions": {}
+            "positions": {
+                "Japanese Grand Prix": "23",
+                "Australian Grand Prix": "24"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -132,6 +138,39 @@
         "1993": -1
     },
     "positionsGainLost": {
+        "1993": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1993": {
+            "15": {
+                "raceName": "Japanese Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "larrousse",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Australian Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "larrousse",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1993": {}
     }
 }

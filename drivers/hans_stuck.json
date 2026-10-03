@@ -1,10 +1,10 @@
 {
     "driverId": "hans_stuck",
-    "lastUpdate": "2024-08-03T03:38:27.745725",
+    "lastUpdate": "2026-10-02T11:47:20.466651",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1952": 0,
         "1953": 0
@@ -18,7 +18,7 @@
         "1953": 0
     },
     "seasonDNFs": {
-        "1952": 2,
+        "1952": 1,
         "1953": 1
     },
     "poles": {
@@ -31,26 +31,30 @@
     },
     "DNFs": {
         "1952": {
-            "Swiss Grand Prix": "Engine",
-            "Italian Grand Prix": "Did not qualify"
+            "Swiss Grand Prix": "Engine"
         },
         "1953": {
             "German Grand Prix": "Retired"
         }
     },
     "fastLaps": {
-        "1952": {},
-        "1953": {}
+        "1952": {
+            "Swiss Grand Prix": -1
+        },
+        "1953": {
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1952": {
             "year": "1952",
-            "position": "80",
+            "position": "40",
             "points": "0"
         },
         "1953": {
             "year": "1953",
-            "position": "60",
+            "position": "40",
             "points": "0"
         }
     },
@@ -59,10 +63,28 @@
             "year": "1952",
             "pos": {
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -70,10 +92,13 @@
             "year": "1953",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -82,8 +107,7 @@
         "1952": {
             "year": "1952",
             "positions": {
-                "Swiss Grand Prix": "18",
-                "Italian Grand Prix": "33"
+                "Swiss Grand Prix": "18"
             }
         },
         "1953": {
@@ -97,11 +121,16 @@
     "qualiPosition": {
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "Swiss Grand Prix": "14"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "23",
+                "Italian Grand Prix": "29"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -183,6 +212,54 @@
         "1953": -1
     },
     "positionsGainLost": {
+        "1952": {},
+        "1953": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1952": {
+            "1": {
+                "raceName": "Swiss Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "afm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 33,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Retired",
+                "constructorId": "afm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 29,
+                "points": 0.0,
+                "status": "+13 Laps",
+                "constructorId": "afm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1952": {},
         "1953": {}
     }

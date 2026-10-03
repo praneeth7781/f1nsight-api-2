@@ -41,7 +41,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add drivers constructors races colors driversList.json historicalPoles.json teamLineage.json teamRecords.json
+          git add drivers constructors races colors driversList.json historicalPoles.json teamLineage.json teamRecords.json scoringSystems.json scoring/
           git diff --cached --quiet || git commit -m "Update published F1 data"
           
       - name: push changes

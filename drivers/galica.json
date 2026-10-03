@@ -1,87 +1,61 @@
 {
     "driverId": "galica",
-    "lastUpdate": "2024-08-03T03:38:25.778493",
+    "lastUpdate": "2026-10-02T11:47:20.534208",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
-        "1976": 0,
         "1978": 0
     },
     "seasonPodiums": {
-        "1976": 0,
         "1978": 0
     },
     "seasonPoles": {
-        "1976": 0,
         "1978": 0
     },
     "seasonDNFs": {
-        "1976": 1,
         "1978": 2
     },
     "poles": {
-        "1976": [],
         "1978": []
     },
     "podiums": {
-        "1976": {},
         "1978": {}
     },
     "DNFs": {
-        "1976": {
-            "British Grand Prix": "Did not qualify"
-        },
         "1978": {
             "Argentine Grand Prix": "Did not qualify",
             "Brazilian Grand Prix": "Did not qualify"
         }
     },
     "fastLaps": {
-        "1976": {},
-        "1978": {}
+        "1978": {
+            "Argentine Grand Prix": -1,
+            "Brazilian Grand Prix": -1
+        }
     },
     "finalStandings": {
-        "1976": {
-            "year": "1976",
-            "position": "52",
-            "points": "0"
-        },
         "1978": {
             "year": "1978",
-            "position": "40",
+            "position": "28",
             "points": "0"
         }
     },
     "posAfterRace": {
-        "1976": {
-            "year": "1976",
-            "pos": {
-                "British Grand Prix": {
-                    "points": 0
-                }
-            }
-        },
         "1978": {
             "year": "1978",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
     },
     "racePosition": {
-        "1976": {
-            "year": "1976",
-            "positions": {
-                "British Grand Prix": "28"
-            }
-        },
         "1978": {
             "year": "1978",
             "positions": {
@@ -91,20 +65,15 @@
         }
     },
     "qualiPosition": {
-        "1976": {
-            "year": "1976",
-            "positions": {}
-        },
         "1978": {
             "year": "1978",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "0",
+                "Brazilian Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
-        "1976": {
-            "year": "1976",
-            "QualiTimes": {}
-        },
         "1978": {
             "year": "1978",
             "QualiTimes": {}
@@ -180,6 +149,39 @@
     },
     "positionsGainLost": {
         "1976": {},
+        "1978": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1978": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "hesketh",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "hesketh",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1978": {}
     }
 }

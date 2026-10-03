@@ -1,6 +1,6 @@
 {
     "driverId": "hahne",
-    "lastUpdate": "2024-08-03T03:38:27.287789",
+    "lastUpdate": "2026-10-02T11:47:20.514524",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -45,9 +45,15 @@
         }
     },
     "fastLaps": {
-        "1967": {},
-        "1968": {},
-        "1970": {}
+        "1967": {
+            "German Grand Prix": -1
+        },
+        "1968": {
+            "German Grand Prix": -1
+        },
+        "1970": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1967": {
@@ -57,12 +63,12 @@
         },
         "1968": {
             "year": "1968",
-            "position": "27",
+            "position": "40",
             "points": "0"
         },
         "1970": {
             "year": "1970",
-            "position": "41",
+            "position": "0",
             "points": "0"
         }
     },
@@ -71,7 +77,19 @@
             "year": "1967",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -79,17 +97,25 @@
             "year": "1968",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
         "1970": {
             "year": "1970",
-            "pos": {
-                "German Grand Prix": {
-                    "points": 0
-                }
-            }
+            "pos": {}
         }
     },
     "racePosition": {
@@ -115,15 +141,21 @@
     "qualiPosition": {
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "14"
+            }
         },
         "1968": {
             "year": "1968",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "18"
+            }
         },
         "1970": {
             "year": "1970",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -216,6 +248,57 @@
         "1970": -1
     },
     "positionsGainLost": {
+        "1967": {},
+        "1968": {},
+        "1970": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1967": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "lola",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1968": {
+            "8": {
+                "raceName": "German Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Finished",
+                "constructorId": "lola",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1970": {
+            "8": {
+                "raceName": "German Grand Prix",
+                "position": 25,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "march",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1967": {},
         "1968": {},
         "1970": {}

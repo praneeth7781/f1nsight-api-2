@@ -1,6 +1,6 @@
 {
     "driverId": "takahara",
-    "lastUpdate": "2024-08-03T03:38:42.924884",
+    "lastUpdate": "2026-10-02T11:47:20.531807",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         }
     },
     "fastLaps": {
-        "1976": {},
-        "1977": {}
+        "1976": {
+            "Japanese Grand Prix": -1
+        },
+        "1977": {
+            "Japanese Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1976": {
             "year": "1976",
-            "position": "27",
+            "position": "40",
             "points": "0"
         },
         "1977": {
             "year": "1977",
-            "position": "48",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,7 @@
             "year": "1976",
             "pos": {
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +68,7 @@
             "year": "1977",
             "pos": {
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +90,15 @@
     "qualiPosition": {
         "1976": {
             "year": "1976",
-            "positions": {}
+            "positions": {
+                "Japanese Grand Prix": "24"
+            }
         },
         "1977": {
             "year": "1977",
-            "positions": {}
+            "positions": {
+                "Japanese Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +180,42 @@
         "1977": -1
     },
     "positionsGainLost": {
+        "1976": {},
+        "1977": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1976": {
+            "16": {
+                "raceName": "Japanese Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "surtees",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1977": {
+            "17": {
+                "raceName": "Japanese Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Collision",
+                "constructorId": "kojima",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1976": {},
         "1977": {}
     }

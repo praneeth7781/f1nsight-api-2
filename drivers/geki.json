@@ -1,6 +1,6 @@
 {
     "driverId": "geki",
-    "lastUpdate": "2024-08-03T03:38:26.064343",
+    "lastUpdate": "2026-10-02T11:47:20.510618",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -45,41 +45,49 @@
         "1966": {}
     },
     "fastLaps": {
-        "1964": {},
-        "1965": {},
-        "1966": {}
+        "1964": {
+            "Italian Grand Prix": -1
+        },
+        "1965": {
+            "Italian Grand Prix": -1
+        },
+        "1966": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1964": {
             "year": "1964",
-            "position": "38",
+            "position": "0",
             "points": "0"
         },
         "1965": {
             "year": "1965",
-            "position": "37",
+            "position": "40",
             "points": "0"
         },
         "1966": {
             "year": "1966",
-            "position": "25",
+            "position": "40",
             "points": "0"
         }
     },
     "posAfterRace": {
         "1964": {
             "year": "1964",
-            "pos": {
-                "Italian Grand Prix": {
-                    "points": 0
-                }
-            }
+            "pos": {}
         },
         "1965": {
             "year": "1965",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -87,7 +95,13 @@
             "year": "1966",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -115,15 +129,21 @@
     "qualiPosition": {
         "1964": {
             "year": "1964",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "0"
+            }
         },
         "1965": {
             "year": "1965",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "20"
+            }
         },
         "1966": {
             "year": "1966",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "20"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -216,6 +236,57 @@
         "1966": -1
     },
     "positionsGainLost": {
+        "1964": {},
+        "1965": {},
+        "1966": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1964": {
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 22,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "brabham-brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1965": {
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1966": {
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1964": {},
         "1965": {},
         "1966": {}

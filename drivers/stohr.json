@@ -1,10 +1,10 @@
 {
     "driverId": "stohr",
-    "lastUpdate": "2024-08-03T03:38:42.240551",
+    "lastUpdate": "2026-10-02T11:47:20.538472",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 10,
+    "totalDNFs": 8,
     "seasonWins": {
         "1981": 0
     },
@@ -15,7 +15,7 @@
         "1981": 0
     },
     "seasonDNFs": {
-        "1981": 10
+        "1981": 8
     },
     "poles": {
         "1981": []
@@ -27,23 +27,33 @@
         "1981": {
             "United States Grand Prix West": "Did not qualify",
             "Brazilian Grand Prix": "Accident",
-            "San Marino Grand Prix": "Did not qualify",
             "Belgian Grand Prix": "Collision",
             "Monaco Grand Prix": "Fuel system",
             "Spanish Grand Prix": "Ignition",
             "French Grand Prix": "Did not qualify",
             "British Grand Prix": "Spun off",
-            "Austrian Grand Prix": "Overheating",
-            "Italian Grand Prix": "Did not qualify"
+            "Austrian Grand Prix": "Overheating"
         }
     },
     "fastLaps": {
-        "1981": {}
+        "1981": {
+            "United States Grand Prix West": -1,
+            "Brazilian Grand Prix": -1,
+            "Argentine Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Spanish Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Dutch Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1981": {
             "year": "1981",
-            "position": "24",
+            "position": "40",
             "points": "0"
         }
     },
@@ -52,43 +62,49 @@
             "year": "1981",
             "pos": {
                 "United States Grand Prix West": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Caesars Palace Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -100,7 +116,6 @@
                 "United States Grand Prix West": "28",
                 "Brazilian Grand Prix": "19",
                 "Argentine Grand Prix": "9",
-                "San Marino Grand Prix": "25",
                 "Belgian Grand Prix": "24",
                 "Monaco Grand Prix": "18",
                 "Spanish Grand Prix": "20",
@@ -108,15 +123,26 @@
                 "British Grand Prix": "24",
                 "German Grand Prix": "12",
                 "Austrian Grand Prix": "19",
-                "Dutch Grand Prix": "7",
-                "Italian Grand Prix": "28"
+                "Dutch Grand Prix": "7"
             }
         }
     },
     "qualiPosition": {
         "1981": {
             "year": "1981",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix West": "0",
+                "Brazilian Grand Prix": "21",
+                "Argentine Grand Prix": "19",
+                "Belgian Grand Prix": "13",
+                "Monaco Grand Prix": "14",
+                "Spanish Grand Prix": "23",
+                "French Grand Prix": "0",
+                "British Grand Prix": "18",
+                "German Grand Prix": "26",
+                "Austrian Grand Prix": "24",
+                "Dutch Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -187,6 +213,147 @@
         "1981": -1
     },
     "positionsGainLost": {
+        "1981": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1981": {
+            "1": {
+                "raceName": "United States Grand Prix West",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Argentine Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Collision",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Monaco Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Spanish Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Ignition",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "French Grand Prix",
+                "position": 25,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "British Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "German Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 26,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Austrian Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Overheating",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Dutch Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "arrows",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1981": {}
     }
 }

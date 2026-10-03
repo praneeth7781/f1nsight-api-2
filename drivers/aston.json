@@ -1,10 +1,10 @@
 {
     "driverId": "aston",
-    "lastUpdate": "2024-08-03T03:38:20.132595",
+    "lastUpdate": "2026-10-02T11:47:20.470875",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1952": 0
     },
@@ -15,7 +15,7 @@
         "1952": 0
     },
     "seasonDNFs": {
-        "1952": 3
+        "1952": 2
     },
     "poles": {
         "1952": []
@@ -26,17 +26,19 @@
     "DNFs": {
         "1952": {
             "British Grand Prix": "Withdrew",
-            "German Grand Prix": "Oil pressure",
-            "Italian Grand Prix": "Did not qualify"
+            "German Grand Prix": "Oil pressure"
         }
     },
     "fastLaps": {
-        "1952": {}
+        "1952": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1952": {
             "year": "1952",
-            "position": "87",
+            "position": "40",
             "points": "0"
         }
     },
@@ -45,13 +47,16 @@
             "year": "1952",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -61,15 +66,17 @@
             "year": "1952",
             "positions": {
                 "British Grand Prix": "32",
-                "German Grand Prix": "22",
-                "Italian Grand Prix": "31"
+                "German Grand Prix": "22"
             }
         }
     },
     "qualiPosition": {
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "0",
+                "German Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -140,6 +147,39 @@
         "1952": -1
     },
     "positionsGainLost": {
+        "1952": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1952": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 32,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "butterworth",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Oil pressure",
+                "constructorId": "butterworth",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1952": {}
     }
 }

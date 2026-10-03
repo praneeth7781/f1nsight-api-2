@@ -1,10 +1,10 @@
 {
     "driverId": "barilla",
-    "lastUpdate": "2024-08-03T03:38:20.388770",
+    "lastUpdate": "2026-10-02T11:47:20.547791",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 11,
+    "totalDNFs": 5,
     "seasonWins": {
         "1989": 0,
         "1990": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1989": 1,
-        "1990": 10
+        "1990": 4
     },
     "poles": {
         "1989": [],
@@ -37,28 +37,33 @@
             "United States Grand Prix": "Physical",
             "Brazilian Grand Prix": "Engine",
             "Monaco Grand Prix": "Gearbox",
-            "Canadian Grand Prix": "Did not qualify",
-            "French Grand Prix": "Did not qualify",
-            "German Grand Prix": "Did not qualify",
-            "Belgian Grand Prix": "Accident",
-            "Italian Grand Prix": "Did not qualify",
-            "Portuguese Grand Prix": "Did not qualify",
-            "Spanish Grand Prix": "Did not qualify"
+            "Belgian Grand Prix": "Accident"
         }
     },
     "fastLaps": {
-        "1989": {},
-        "1990": {}
+        "1989": {
+            "Japanese Grand Prix": -1
+        },
+        "1990": {
+            "United States Grand Prix": -1,
+            "Brazilian Grand Prix": -1,
+            "San Marino Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Mexican Grand Prix": -1,
+            "British Grand Prix": -1,
+            "Hungarian Grand Prix": -1,
+            "Belgian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1989": {
             "year": "1989",
-            "position": "41",
+            "position": "40",
             "points": "0"
         },
         "1990": {
             "year": "1990",
-            "position": "28",
+            "position": "40",
             "points": "0"
         }
     },
@@ -67,7 +72,10 @@
             "year": "1989",
             "pos": {
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Australian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -75,46 +83,52 @@
             "year": "1990",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Hungarian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
+                },
+                "Australian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -133,27 +147,32 @@
                 "Brazilian Grand Prix": "18",
                 "San Marino Grand Prix": "11",
                 "Monaco Grand Prix": "10",
-                "Canadian Grand Prix": "29",
                 "Mexican Grand Prix": "14",
-                "French Grand Prix": "27",
                 "British Grand Prix": "12",
-                "German Grand Prix": "28",
                 "Hungarian Grand Prix": "15",
-                "Belgian Grand Prix": "26",
-                "Italian Grand Prix": "28",
-                "Portuguese Grand Prix": "28",
-                "Spanish Grand Prix": "28"
+                "Belgian Grand Prix": "26"
             }
         }
     },
     "qualiPosition": {
         "1989": {
             "year": "1989",
-            "positions": {}
+            "positions": {
+                "Japanese Grand Prix": "19"
+            }
         },
         "1990": {
             "year": "1990",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "14",
+                "Brazilian Grand Prix": "17",
+                "San Marino Grand Prix": "26",
+                "Monaco Grand Prix": "19",
+                "Mexican Grand Prix": "16",
+                "British Grand Prix": "24",
+                "Hungarian Grand Prix": "23",
+                "Belgian Grand Prix": "25"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -235,6 +254,126 @@
         "1990": -1
     },
     "positionsGainLost": {
+        "1989": {},
+        "1990": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1989": {
+            "15": {
+                "raceName": "Japanese Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Clutch",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1990": {
+            "1": {
+                "raceName": "United States Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Physical",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "San Marino Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 26,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Monaco Grand Prix",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Mexican Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "British Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Hungarian Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Belgian Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1989": {},
         "1990": {}
     }

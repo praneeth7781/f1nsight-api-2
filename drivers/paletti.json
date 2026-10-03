@@ -1,10 +1,10 @@
 {
     "driverId": "paletti",
-    "lastUpdate": "2024-08-03T03:38:36.945187",
+    "lastUpdate": "2026-10-02T11:47:20.540138",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 3,
     "seasonWins": {
         "1982": 0
     },
@@ -15,7 +15,7 @@
         "1982": 0
     },
     "seasonDNFs": {
-        "1982": 8
+        "1982": 3
     },
     "poles": {
         "1982": []
@@ -25,23 +25,22 @@
     },
     "DNFs": {
         "1982": {
-            "South African Grand Prix": "Did not qualify",
-            "Brazilian Grand Prix": "Did not qualify",
-            "United States Grand Prix West": "Did not qualify",
             "San Marino Grand Prix": "Suspension",
-            "Belgian Grand Prix": "Did not prequalify",
-            "Monaco Grand Prix": "Did not prequalify",
             "Detroit Grand Prix": "Retired",
             "Canadian Grand Prix": "Fatal accident"
         }
     },
     "fastLaps": {
-        "1982": {}
+        "1982": {
+            "San Marino Grand Prix": -1,
+            "Detroit Grand Prix": -1,
+            "Canadian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1982": {
             "year": "1982",
-            "position": "36",
+            "position": "40",
             "points": "0"
         }
     },
@@ -49,29 +48,44 @@
         "1982": {
             "year": "1982",
             "pos": {
-                "South African Grand Prix": {
-                    "points": 0
-                },
-                "Brazilian Grand Prix": {
-                    "points": 0
-                },
-                "United States Grand Prix West": {
-                    "points": 0
-                },
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Detroit Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Caesars Palace Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -80,12 +94,7 @@
         "1982": {
             "year": "1982",
             "positions": {
-                "South African Grand Prix": "28",
-                "Brazilian Grand Prix": "31",
-                "United States Grand Prix West": "28",
                 "San Marino Grand Prix": "10",
-                "Belgian Grand Prix": "31",
-                "Monaco Grand Prix": "28",
                 "Detroit Grand Prix": "26",
                 "Canadian Grand Prix": "25"
             }
@@ -94,7 +103,11 @@
     "qualiPosition": {
         "1982": {
             "year": "1982",
-            "positions": {}
+            "positions": {
+                "San Marino Grand Prix": "13",
+                "Detroit Grand Prix": "23",
+                "Canadian Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -165,6 +178,51 @@
         "1982": -1
     },
     "positionsGainLost": {
+        "1982": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1982": {
+            "4": {
+                "raceName": "San Marino Grand Prix",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Detroit Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Retired",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Canadian Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Fatal accident",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1982": {}
     }
 }

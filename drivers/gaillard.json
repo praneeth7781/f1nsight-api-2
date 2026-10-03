@@ -1,6 +1,6 @@
 {
     "driverId": "gaillard",
-    "lastUpdate": "2024-08-03T03:38:25.762710",
+    "lastUpdate": "2026-10-02T11:47:20.535994",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -32,12 +32,18 @@
         }
     },
     "fastLaps": {
-        "1979": {}
+        "1979": {
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Dutch Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1979": {
             "year": "1979",
-            "position": "31",
+            "position": "40",
             "points": "0"
         }
     },
@@ -45,20 +51,26 @@
         "1979": {
             "year": "1979",
             "pos": {
-                "French Grand Prix": {
-                    "points": 0
-                },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -78,7 +90,13 @@
     "qualiPosition": {
         "1979": {
             "year": "1979",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "0",
+                "British Grand Prix": "23",
+                "German Grand Prix": "0",
+                "Austrian Grand Prix": "24",
+                "Dutch Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -149,6 +167,75 @@
         "1979": -1
     },
     "positionsGainLost": {
+        "1979": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1979": {
+            "8": {
+                "raceName": "French Grand Prix",
+                "position": 26,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "British Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "German Grand Prix",
+                "position": 25,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Austrian Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Dutch Grand Prix",
+                "position": 25,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1979": {}
     }
 }

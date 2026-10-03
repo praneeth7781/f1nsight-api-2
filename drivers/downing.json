@@ -1,6 +1,6 @@
 {
     "driverId": "downing",
-    "lastUpdate": "2024-08-03T03:38:24.504066",
+    "lastUpdate": "2026-10-02T11:47:20.469987",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,15 @@
         }
     },
     "fastLaps": {
-        "1952": {}
+        "1952": {
+            "British Grand Prix": -1,
+            "Dutch Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1952": {
             "year": "1952",
-            "position": "42",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,10 +46,16 @@
             "year": "1952",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -63,7 +72,10 @@
     "qualiPosition": {
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "5",
+                "Dutch Grand Prix": "13"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -134,6 +146,39 @@
         "1952": -1
     },
     "positionsGainLost": {
+        "1952": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1952": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 5,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "connaught",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Dutch Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Oil pressure",
+                "constructorId": "connaught",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1952": {}
     }
 }

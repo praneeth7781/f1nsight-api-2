@@ -1,6 +1,6 @@
 {
     "driverId": "schlesser",
-    "lastUpdate": "2024-08-03T03:38:41.484178",
+    "lastUpdate": "2026-10-02T11:47:20.540974",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,35 +36,47 @@
         "1988": {}
     },
     "fastLaps": {
-        "1983": {},
-        "1988": {}
+        "1983": {
+            "French Grand Prix": -1
+        },
+        "1988": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1983": {
             "year": "1983",
-            "position": "35",
+            "position": "0",
             "points": "0"
         },
         "1988": {
             "year": "1988",
-            "position": "30",
+            "position": "40",
             "points": "0"
         }
     },
     "posAfterRace": {
         "1983": {
             "year": "1983",
-            "pos": {
-                "French Grand Prix": {
-                    "points": 0
-                }
-            }
+            "pos": {}
         },
         "1988": {
             "year": "1988",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
+                },
+                "Australian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +98,15 @@
     "qualiPosition": {
         "1983": {
             "year": "1983",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "0"
+            }
         },
         "1988": {
             "year": "1988",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "22"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +188,42 @@
         "1988": -1
     },
     "positionsGainLost": {
+        "1983": {},
+        "1988": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1983": {
+            "3": {
+                "raceName": "French Grand Prix",
+                "position": 29,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "ram",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1988": {
+            "12": {
+                "raceName": "Italian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "williams",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1983": {},
         "1988": {}
     }

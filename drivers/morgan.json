@@ -1,10 +1,10 @@
 {
     "driverId": "morgan",
-    "lastUpdate": "2024-08-03T03:38:35.934248",
+    "lastUpdate": "2026-10-02T11:47:20.528695",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1975": 0
     },
@@ -15,7 +15,7 @@
         "1975": 0
     },
     "seasonDNFs": {
-        "1975": 1
+        "1975": 0
     },
     "poles": {
         "1975": []
@@ -24,17 +24,17 @@
         "1975": {}
     },
     "DNFs": {
-        "1975": {
-            "British Grand Prix": "Accident"
-        }
+        "1975": {}
     },
     "fastLaps": {
-        "1975": {}
+        "1975": {
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1975": {
             "year": "1975",
-            "position": "43",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,7 +43,19 @@
             "year": "1975",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -59,7 +71,9 @@
     "qualiPosition": {
         "1975": {
             "year": "1975",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -130,6 +144,27 @@
         "1975": -1
     },
     "positionsGainLost": {
+        "1975": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1975": {
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 18,
+                "positionText": "18",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "surtees",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1975": {}
     }
 }

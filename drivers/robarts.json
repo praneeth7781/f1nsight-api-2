@@ -1,6 +1,6 @@
 {
     "driverId": "robarts",
-    "lastUpdate": "2024-08-03T03:38:39.975756",
+    "lastUpdate": "2026-10-02T11:47:20.524525",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -30,12 +30,17 @@
         }
     },
     "fastLaps": {
-        "1974": {}
+        "1974": {
+            "Argentine Grand Prix": -1,
+            "Brazilian Grand Prix": -1,
+            "South African Grand Prix": -1,
+            "Swedish Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1974": {
             "year": "1974",
-            "position": "42",
+            "position": "40",
             "points": "0"
         }
     },
@@ -44,16 +49,49 @@
             "year": "1974",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
                 },
                 "Swedish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -72,7 +110,12 @@
     "qualiPosition": {
         "1974": {
             "year": "1974",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "22",
+                "Brazilian Grand Prix": "24",
+                "South African Grand Prix": "23",
+                "Swedish Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -143,6 +186,63 @@
         "1974": -1
     },
     "positionsGainLost": {
+        "1974": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1974": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "brabham",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "brabham",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "South African Grand Prix",
+                "position": 17,
+                "positionText": "17",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "brabham",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Swedish Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "iso_marlboro",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1974": {}
     }
 }

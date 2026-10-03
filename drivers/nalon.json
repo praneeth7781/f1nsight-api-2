@@ -1,10 +1,10 @@
 {
     "driverId": "nalon",
-    "lastUpdate": "2024-08-03T03:38:36.177160",
+    "lastUpdate": "2026-10-02T11:47:20.462251",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 1,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1951": 0,
         "1952": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1951": 1,
         "1952": 1,
-        "1953": 1
+        "1953": 0
     },
     "poles": {
         "1951": [
@@ -44,29 +44,33 @@
         "1952": {
             "Indianapolis 500": "Supercharger"
         },
-        "1953": {
-            "Indianapolis 500": "Accident"
-        }
+        "1953": {}
     },
     "fastLaps": {
-        "1951": {},
-        "1952": {},
-        "1953": {}
+        "1951": {
+            "Indianapolis 500": -1
+        },
+        "1952": {
+            "Indianapolis 500": -1
+        },
+        "1953": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1951": {
             "year": "1951",
-            "position": "44",
+            "position": "40",
             "points": "0"
         },
         "1952": {
             "year": "1952",
-            "position": "93",
+            "position": "40",
             "points": "0"
         },
         "1953": {
             "year": "1953",
-            "position": "50",
+            "position": "40",
             "points": "0"
         }
     },
@@ -75,7 +79,25 @@
             "year": "1951",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -83,7 +105,25 @@
             "year": "1952",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -91,7 +131,28 @@
             "year": "1953",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -119,15 +180,21 @@
     "qualiPosition": {
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "1"
+            }
         },
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "4"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "26"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -220,6 +287,57 @@
         "1953": -1
     },
     "positionsGainLost": {
+        "1951": {},
+        "1952": {},
+        "1953": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1951": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 1,
+                "points": 0.0,
+                "status": "Retired",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1952": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 4,
+                "points": 0.0,
+                "status": "Supercharger",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1951": {},
         "1952": {},
         "1953": {}

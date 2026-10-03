@@ -1,6 +1,6 @@
 {
     "driverId": "swaters",
-    "lastUpdate": "2024-08-03T03:38:42.858065",
+    "lastUpdate": "2026-10-02T11:47:20.464767",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -48,24 +48,34 @@
         }
     },
     "fastLaps": {
-        "1951": {},
-        "1953": {},
-        "1954": {}
+        "1951": {
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1953": {
+            "German Grand Prix": -1,
+            "Swiss Grand Prix": -1
+        },
+        "1954": {
+            "Belgian Grand Prix": -1,
+            "Swiss Grand Prix": -1,
+            "Spanish Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1951": {
             "year": "1951",
-            "position": "38",
+            "position": "40",
             "points": "0"
         },
         "1953": {
             "year": "1953",
-            "position": "29",
+            "position": "40",
             "points": "0"
         },
         "1954": {
             "year": "1954",
-            "position": "37",
+            "position": "40",
             "points": "0"
         }
     },
@@ -74,10 +84,13 @@
             "year": "1951",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -85,10 +98,13 @@
             "year": "1953",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -96,13 +112,25 @@
             "year": "1954",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -134,15 +162,25 @@
     "qualiPosition": {
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "22",
+                "Italian Grand Prix": "22"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "19",
+                "Swiss Grand Prix": "13"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "14",
+                "Swiss Grand Prix": "16",
+                "Spanish Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -235,6 +273,105 @@
         "1954": -1
     },
     "positionsGainLost": {
+        "1951": {},
+        "1953": {},
+        "1954": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1951": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Overheating",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Swiss Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Swiss Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+8 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Spanish Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1951": {},
         "1953": {},
         "1954": {}

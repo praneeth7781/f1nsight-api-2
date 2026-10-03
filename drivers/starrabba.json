@@ -1,6 +1,6 @@
 {
     "driverId": "starrabba",
-    "lastUpdate": "2024-08-03T03:38:42.130734",
+    "lastUpdate": "2026-10-02T11:47:20.501985",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -38,8 +38,12 @@
         }
     },
     "fastLaps": {
-        "1961": {},
-        "1963": {}
+        "1961": {
+            "Italian Grand Prix": -1
+        },
+        "1963": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1961": {
@@ -49,7 +53,7 @@
         },
         "1963": {
             "year": "1963",
-            "position": "62",
+            "position": "40",
             "points": "0"
         }
     },
@@ -58,7 +62,10 @@
             "year": "1961",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -66,7 +73,16 @@
             "year": "1963",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -88,11 +104,15 @@
     "qualiPosition": {
         "1961": {
             "year": "1961",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "30"
+            }
         },
         "1963": {
             "year": "1963",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -174,6 +194,42 @@
         "1963": -1
     },
     "positionsGainLost": {
+        "1961": {},
+        "1963": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1961": {
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 30,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "lotus-maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1963": {
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 33,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "lotus-maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1961": {},
         "1963": {}
     }

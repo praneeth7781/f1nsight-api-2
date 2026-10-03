@@ -1,6 +1,6 @@
 {
     "driverId": "cantoni",
-    "lastUpdate": "2024-08-03T03:38:22.719058",
+    "lastUpdate": "2026-10-02T11:47:20.470722",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -30,12 +30,16 @@
         }
     },
     "fastLaps": {
-        "1952": {}
+        "1952": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1952": {
             "year": "1952",
-            "position": "51",
+            "position": "40",
             "points": "0"
         }
     },
@@ -44,13 +48,16 @@
             "year": "1952",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -68,7 +75,11 @@
     "qualiPosition": {
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "27",
+                "German Grand Prix": "26",
+                "Italian Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -139,6 +150,51 @@
         "1952": -1
     },
     "positionsGainLost": {
+        "1952": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1952": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 31,
+                "positionText": "R",
+                "classified": false,
+                "grid": 27,
+                "points": 0.0,
+                "status": "Brakes",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Axle",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1952": {}
     }
 }

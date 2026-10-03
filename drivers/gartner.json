@@ -1,10 +1,10 @@
 {
     "driverId": "gartner",
-    "lastUpdate": "2024-08-03T03:38:25.922255",
+    "lastUpdate": "2026-10-02T11:47:20.542506",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 5,
     "seasonWins": {
         "1984": 0
     },
@@ -15,7 +15,7 @@
         "1984": 0
     },
     "seasonDNFs": {
-        "1984": 6
+        "1984": 5
     },
     "poles": {
         "1984": []
@@ -29,17 +29,25 @@
             "British Grand Prix": "Accident",
             "German Grand Prix": "Turbo",
             "Austrian Grand Prix": "Engine",
-            "European Grand Prix": "Fuel system",
-            "Portuguese Grand Prix": "Out of fuel"
+            "European Grand Prix": "Fuel system"
         }
     },
     "fastLaps": {
-        "1984": {}
+        "1984": {
+            "San Marino Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "European Grand Prix": -1,
+            "Portuguese Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1984": {
             "year": "1984",
-            "position": "21",
+            "position": "40",
             "points": "0"
         }
     },
@@ -48,28 +56,43 @@
             "year": "1984",
             "pos": {
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Detroit Grand Prix": {
+                    "points": 0.0
+                },
+                "Dallas Grand Prix": {
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "European Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -92,7 +115,16 @@
     "qualiPosition": {
         "1984": {
             "year": "1984",
-            "positions": {}
+            "positions": {
+                "San Marino Grand Prix": "26",
+                "British Grand Prix": "27",
+                "German Grand Prix": "23",
+                "Austrian Grand Prix": "22",
+                "Dutch Grand Prix": "23",
+                "Italian Grand Prix": "24",
+                "European Grand Prix": "22",
+                "Portuguese Grand Prix": "24"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -163,6 +195,111 @@
         "1984": -1
     },
     "positionsGainLost": {
+        "1984": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1984": {
+            "4": {
+                "raceName": "San Marino Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 27,
+                "positionText": "R",
+                "classified": false,
+                "grid": 27,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "German Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Turbo",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Austrian Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Dutch Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Italian Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "European Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Out of fuel",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1984": {}
     }
 }

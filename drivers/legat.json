@@ -1,6 +1,6 @@
 {
     "driverId": "legat",
-    "lastUpdate": "2024-08-03T03:38:32.731628",
+    "lastUpdate": "2026-10-02T11:47:20.468860",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         }
     },
     "fastLaps": {
-        "1952": {},
-        "1953": {}
+        "1952": {
+            "Belgian Grand Prix": -1
+        },
+        "1953": {
+            "Belgian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1952": {
             "year": "1952",
-            "position": "59",
+            "position": "40",
             "points": "0"
         },
         "1953": {
             "year": "1953",
-            "position": "89",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,22 @@
             "year": "1952",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +83,22 @@
             "year": "1953",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +120,15 @@
     "qualiPosition": {
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "21"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +210,42 @@
         "1953": -1
     },
     "positionsGainLost": {
+        "1952": {},
+        "1953": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1952": {
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "veritas",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "4": {
+                "raceName": "Belgian Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "veritas",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1952": {},
         "1953": {}
     }

@@ -1,6 +1,6 @@
 {
     "driverId": "giunti",
-    "lastUpdate": "2024-08-03T03:38:26.611037",
+    "lastUpdate": "2026-10-02T11:47:20.518249",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,7 +29,12 @@
         }
     },
     "fastLaps": {
-        "1970": {}
+        "1970": {
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1970": {
@@ -43,16 +48,34 @@
             "year": "1970",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 3.0
                 },
                 "French Grand Prix": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "British Grand Prix": {
+                    "points": 3.0
+                },
+                "German Grand Prix": {
+                    "points": 3.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "Italian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 3.0
+                },
+                "United States Grand Prix": {
+                    "points": 3.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 3.0
                 }
             }
         }
@@ -71,7 +94,12 @@
     "qualiPosition": {
         "1970": {
             "year": "1970",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "8",
+                "French Grand Prix": "11",
+                "Austrian Grand Prix": "5",
+                "Italian Grand Prix": "15"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -142,6 +170,63 @@
         "1970": -1
     },
     "positionsGainLost": {
+        "1970": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1970": {
+            "4": {
+                "raceName": "Belgian Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 8,
+                "points": 3.0,
+                "status": "Finished",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 11,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Austrian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 5,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Italian Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1970": {}
     }
 }

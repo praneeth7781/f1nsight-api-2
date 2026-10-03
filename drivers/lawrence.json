@@ -1,6 +1,6 @@
 {
     "driverId": "lawrence",
-    "lastUpdate": "2024-08-03T03:38:32.516519",
+    "lastUpdate": "2026-10-02T11:47:20.512728",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,15 @@
         }
     },
     "fastLaps": {
-        "1966": {}
+        "1966": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1966": {
             "year": "1966",
-            "position": "26",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,10 +46,22 @@
             "year": "1966",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -63,7 +78,10 @@
     "qualiPosition": {
         "1966": {
             "year": "1966",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "19",
+                "German Grand Prix": "26"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -134,6 +152,39 @@
         "1966": -1
     },
     "positionsGainLost": {
+        "1966": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1966": {
+            "4": {
+                "raceName": "British Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "cooper-ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 11,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "cooper-ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1966": {}
     }
 }

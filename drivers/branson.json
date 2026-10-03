@@ -1,6 +1,6 @@
 {
     "driverId": "branson",
-    "lastUpdate": "2024-08-03T03:38:21.901372",
+    "lastUpdate": "2026-10-02T11:47:20.493702",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         "1960": {}
     },
     "fastLaps": {
-        "1959": {},
-        "1960": {}
+        "1959": {
+            "Indianapolis 500": -1
+        },
+        "1960": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1959": {
             "year": "1959",
-            "position": "72",
+            "position": "40",
             "points": "0"
         },
         "1960": {
             "year": "1960",
-            "position": "20",
+            "position": "21",
             "points": "3"
         }
     },
@@ -56,7 +60,28 @@
             "year": "1959",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +89,28 @@
             "year": "1960",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 3.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 3.0
+                },
+                "French Grand Prix": {
+                    "points": 3.0
+                },
+                "British Grand Prix": {
+                    "points": 3.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 3.0
+                },
+                "Italian Grand Prix": {
+                    "points": 3.0
+                },
+                "United States Grand Prix": {
+                    "points": 3.0
                 }
             }
         }
@@ -86,11 +132,15 @@
     "qualiPosition": {
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "10"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "8"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +222,42 @@
         "1960": -1
     },
     "positionsGainLost": {
+        "1959": {},
+        "1960": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1959": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "phillips",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 8,
+                "points": 3.0,
+                "status": "Finished",
+                "constructorId": "phillips",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1959": {},
         "1960": {}
     }

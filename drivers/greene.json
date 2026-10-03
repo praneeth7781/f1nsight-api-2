@@ -1,102 +1,93 @@
 {
     "driverId": "greene",
-    "lastUpdate": "2024-08-03T03:38:26.886072",
+    "lastUpdate": "2026-10-02T11:47:20.498601",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 2,
     "seasonWins": {
-        "1959": 0,
         "1960": 0,
         "1961": 0,
         "1962": 0
     },
     "seasonPodiums": {
-        "1959": 0,
         "1960": 0,
         "1961": 0,
         "1962": 0
     },
     "seasonPoles": {
-        "1959": 0,
         "1960": 0,
         "1961": 0,
         "1962": 0
     },
     "seasonDNFs": {
-        "1959": 1,
         "1960": 1,
         "1961": 0,
-        "1962": 3
+        "1962": 1
     },
     "poles": {
-        "1959": [],
         "1960": [],
         "1961": [],
         "1962": []
     },
     "podiums": {
-        "1959": {},
         "1960": {},
         "1961": {},
         "1962": {}
     },
     "DNFs": {
-        "1959": {
-            "British Grand Prix": "Did not qualify"
-        },
         "1960": {
             "British Grand Prix": "Overheating"
         },
         "1961": {},
         "1962": {
-            "British Grand Prix": "Withdrew",
-            "German Grand Prix": "Suspension",
-            "Italian Grand Prix": "Did not qualify"
+            "German Grand Prix": "Suspension"
         }
     },
     "fastLaps": {
-        "1959": {},
-        "1960": {},
-        "1961": {},
-        "1962": {}
+        "1960": {
+            "British Grand Prix": -1
+        },
+        "1961": {
+            "British Grand Prix": -1
+        },
+        "1962": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
-        "1959": {
-            "year": "1959",
-            "position": "75",
-            "points": "0"
-        },
         "1960": {
             "year": "1960",
-            "position": "91",
+            "position": "40",
             "points": "0"
         },
         "1961": {
             "year": "1961",
-            "position": "35",
+            "position": "40",
             "points": "0"
         },
         "1962": {
             "year": "1962",
-            "position": "45",
+            "position": "40",
             "points": "0"
         }
     },
     "posAfterRace": {
-        "1959": {
-            "year": "1959",
-            "pos": {
-                "British Grand Prix": {
-                    "points": 0
-                }
-            }
-        },
         "1960": {
             "year": "1960",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -104,7 +95,16 @@
             "year": "1961",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -112,24 +112,24 @@
             "year": "1962",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
     },
     "racePosition": {
-        "1959": {
-            "year": "1959",
-            "positions": {
-                "British Grand Prix": "25"
-            }
-        },
         "1960": {
             "year": "1960",
             "positions": {
@@ -146,34 +146,32 @@
             "year": "1962",
             "positions": {
                 "British Grand Prix": "22",
-                "German Grand Prix": "20",
-                "Italian Grand Prix": "23"
+                "German Grand Prix": "20"
             }
         }
     },
     "qualiPosition": {
-        "1959": {
-            "year": "1959",
-            "positions": {}
-        },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "22"
+            }
         },
         "1961": {
             "year": "1961",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "26"
+            }
         },
         "1962": {
             "year": "1962",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "0",
+                "German Grand Prix": "19"
+            }
         }
     },
     "driverQualifyingTimes": {
-        "1959": {
-            "year": "1959",
-            "QualiTimes": {}
-        },
         "1960": {
             "year": "1960",
             "QualiTimes": {}
@@ -271,6 +269,69 @@
     },
     "positionsGainLost": {
         "1959": {},
+        "1960": {},
+        "1961": {},
+        "1962": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1960": {
+            "7": {
+                "raceName": "British Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Overheating",
+                "constructorId": "cooper-maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1961": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 26,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "gilby",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1962": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 22,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "gilby",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1960": {},
         "1961": {},
         "1962": {}

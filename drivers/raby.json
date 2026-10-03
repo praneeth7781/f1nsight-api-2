@@ -1,10 +1,10 @@
 {
     "driverId": "raby",
-    "lastUpdate": "2024-08-03T03:38:38.737396",
+    "lastUpdate": "2026-10-02T11:47:20.507698",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 5,
     "seasonWins": {
         "1963": 0,
         "1964": 0,
@@ -21,7 +21,7 @@
         "1965": 0
     },
     "seasonDNFs": {
-        "1963": 3,
+        "1963": 2,
         "1964": 2,
         "1965": 1
     },
@@ -38,8 +38,7 @@
     "DNFs": {
         "1963": {
             "British Grand Prix": "Gearbox",
-            "German Grand Prix": "Did not qualify",
-            "Italian Grand Prix": "Did not qualify"
+            "German Grand Prix": "Did not qualify"
         },
         "1964": {
             "British Grand Prix": "Accident",
@@ -50,24 +49,33 @@
         }
     },
     "fastLaps": {
-        "1963": {},
-        "1964": {},
-        "1965": {}
+        "1963": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        },
+        "1964": {
+            "British Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1965": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1963": {
             "year": "1963",
-            "position": "44",
+            "position": "40",
             "points": "0"
         },
         "1964": {
             "year": "1964",
-            "position": "35",
+            "position": "40",
             "points": "0"
         },
         "1965": {
             "year": "1965",
-            "position": "25",
+            "position": "40",
             "points": "0"
         }
     },
@@ -76,13 +84,22 @@
             "year": "1963",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -90,10 +107,22 @@
             "year": "1964",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -101,10 +130,22 @@
             "year": "1965",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -114,8 +155,7 @@
             "year": "1963",
             "positions": {
                 "British Grand Prix": "17",
-                "German Grand Prix": "24",
-                "Italian Grand Prix": "23"
+                "German Grand Prix": "24"
             }
         },
         "1964": {
@@ -136,15 +176,24 @@
     "qualiPosition": {
         "1963": {
             "year": "1963",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "19",
+                "German Grand Prix": "0"
+            }
         },
         "1964": {
             "year": "1964",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "23",
+                "Italian Grand Prix": "0"
+            }
         },
         "1965": {
             "year": "1965",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "20",
+                "German Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -237,6 +286,93 @@
         "1965": -1
     },
     "positionsGainLost": {
+        "1963": {},
+        "1964": {},
+        "1965": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1963": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "gilby",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 24,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "gilby",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1964": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "brabham-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 24,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "brabham-brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1965": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "brabham-brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 21,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "brabham-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1963": {},
         "1964": {},
         "1965": {}

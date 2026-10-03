@@ -1,6 +1,6 @@
 {
     "driverId": "lagorce",
-    "lastUpdate": "2024-08-03T03:38:32.054226",
+    "lastUpdate": "2026-10-02T11:47:20.553577",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,15 @@
         }
     },
     "fastLaps": {
-        "1994": {}
+        "1994": {
+            "Japanese Grand Prix": -1,
+            "Australian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1994": {
             "year": "1994",
-            "position": "33",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,10 +46,10 @@
             "year": "1994",
             "pos": {
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Australian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -152,5 +155,38 @@
             "Japanese Grand Prix": 1,
             "Australian Grand Prix": 9
         }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1994": {
+            "15": {
+                "raceName": "Japanese Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Collision",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Australian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1994": {}
     }
 }

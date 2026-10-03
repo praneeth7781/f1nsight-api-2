@@ -1,10 +1,10 @@
 {
     "driverId": "cabianca",
-    "lastUpdate": "2024-08-03T03:38:22.536645",
+    "lastUpdate": "2026-10-02T11:47:20.491975",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1958": 0,
         "1959": 0,
@@ -21,7 +21,7 @@
         "1960": 0
     },
     "seasonDNFs": {
-        "1958": 2,
+        "1958": 1,
         "1959": 0,
         "1960": 0
     },
@@ -37,31 +37,36 @@
     },
     "DNFs": {
         "1958": {
-            "Monaco Grand Prix": "Did not qualify",
             "Italian Grand Prix": "Engine"
         },
         "1959": {},
         "1960": {}
     },
     "fastLaps": {
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1958": {
+            "Italian Grand Prix": -1
+        },
+        "1959": {
+            "Italian Grand Prix": -1
+        },
+        "1960": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1958": {
             "year": "1958",
-            "position": "50",
+            "position": "40",
             "points": "0"
         },
         "1959": {
             "year": "1959",
-            "position": "47",
+            "position": "40",
             "points": "0"
         },
         "1960": {
             "year": "1960",
-            "position": "21",
+            "position": "22",
             "points": "3"
         }
     },
@@ -69,11 +74,11 @@
         "1958": {
             "year": "1958",
             "pos": {
-                "Monaco Grand Prix": {
-                    "points": 0
-                },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Moroccan Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -81,7 +86,10 @@
             "year": "1959",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -89,7 +97,10 @@
             "year": "1960",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "United States Grand Prix": {
+                    "points": 3.0
                 }
             }
         }
@@ -98,7 +109,6 @@
         "1958": {
             "year": "1958",
             "positions": {
-                "Monaco Grand Prix": "24",
                 "Italian Grand Prix": "9"
             }
         },
@@ -118,15 +128,21 @@
     "qualiPosition": {
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "20"
+            }
         },
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "21"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "4"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -219,6 +235,57 @@
         "1960": -1
     },
     "positionsGainLost": {
+        "1958": {},
+        "1959": {},
+        "1960": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1958": {
+            "10": {
+                "raceName": "Italian Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1959": {
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+8 Laps",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 4,
+                "points": 3.0,
+                "status": "+2 Laps",
+                "constructorId": "cooper-castellotti",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1958": {},
         "1959": {},
         "1960": {}

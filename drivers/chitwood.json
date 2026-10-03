@@ -1,6 +1,6 @@
 {
     "driverId": "chitwood",
-    "lastUpdate": "2024-08-03T03:38:23.283344",
+    "lastUpdate": "2026-10-02T11:47:20.454496",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,7 +27,9 @@
         "1950": {}
     },
     "fastLaps": {
-        "1950": {}
+        "1950": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1950": {
@@ -41,7 +43,19 @@
             "year": "1950",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 1
+                    "points": 1.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 1.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 1.0
+                },
+                "French Grand Prix": {
+                    "points": 1.0
+                },
+                "Italian Grand Prix": {
+                    "points": 1.0
                 }
             }
         }
@@ -57,7 +71,9 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "9"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -128,6 +144,27 @@
         "1950": -1
     },
     "positionsGainLost": {
+        "1950": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 9,
+                "points": 1.0,
+                "status": "+2 Laps",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {}
     }
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "adams",
-    "lastUpdate": "2024-08-03T03:38:18.588927",
+    "lastUpdate": "2026-10-02T11:47:20.553012",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,15 @@
         }
     },
     "fastLaps": {
-        "1994": {}
+        "1994": {
+            "Belgian Grand Prix": -1,
+            "Portuguese Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1994": {
             "year": "1994",
-            "position": "36",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,10 +46,22 @@
             "year": "1994",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "European Grand Prix": {
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
+                },
+                "Australian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -152,5 +167,38 @@
             "Belgian Grand Prix": 5,
             "Portuguese Grand Prix": 9
         }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1994": {
+            "11": {
+                "raceName": "Belgian Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 25,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1994": {}
     }
 }

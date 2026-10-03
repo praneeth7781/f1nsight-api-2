@@ -1,10 +1,10 @@
 {
     "driverId": "ghinzani",
-    "lastUpdate": "2024-08-03T03:38:26.312406",
+    "lastUpdate": "2026-10-02T11:47:20.539210",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 93,
+    "totalDNFs": 70,
     "seasonWins": {
         "1981": 0,
         "1983": 0,
@@ -36,14 +36,14 @@
         "1989": 0
     },
     "seasonDNFs": {
-        "1981": 1,
+        "1981": 0,
         "1983": 14,
-        "1984": 12,
+        "1984": 11,
         "1985": 12,
         "1986": 15,
         "1987": 9,
-        "1988": 14,
-        "1989": 16
+        "1988": 6,
+        "1989": 3
     },
     "poles": {
         "1981": [],
@@ -66,9 +66,7 @@
         "1989": {}
     },
     "DNFs": {
-        "1981": {
-            "Monaco Grand Prix": "Did not qualify"
-        },
+        "1981": {},
         "1983": {
             "Brazilian Grand Prix": "Did not qualify",
             "United States Grand Prix West": "Did not qualify",
@@ -95,7 +93,6 @@
             "German Grand Prix": "Electrical",
             "Austrian Grand Prix": "Gearbox",
             "Dutch Grand Prix": "Fuel pump",
-            "Italian Grand Prix": "Out of fuel",
             "European Grand Prix": "Accident",
             "Portuguese Grand Prix": "Engine"
         },
@@ -142,59 +139,136 @@
             "Australian Grand Prix": "Ignition"
         },
         "1988": {
-            "Brazilian Grand Prix": "Did not qualify",
             "San Marino Grand Prix": "Gearbox",
             "Monaco Grand Prix": "Gearbox",
-            "Canadian Grand Prix": "Engine",
-            "Detroit Grand Prix": "Did not qualify",
             "French Grand Prix": "Excluded",
-            "British Grand Prix": "Did not qualify",
-            "Hungarian Grand Prix": "Did not qualify",
             "Belgian Grand Prix": "Oil leak",
             "Italian Grand Prix": "Engine",
-            "Portuguese Grand Prix": "Did not qualify",
-            "Spanish Grand Prix": "Did not qualify",
-            "Japanese Grand Prix": "Did not qualify",
             "Australian Grand Prix": "Fuel system"
         },
         "1989": {
-            "Brazilian Grand Prix": "Did not prequalify",
-            "San Marino Grand Prix": "Did not prequalify",
-            "Monaco Grand Prix": "Did not prequalify",
-            "Mexican Grand Prix": "Did not prequalify",
-            "United States Grand Prix": "Did not prequalify",
-            "Canadian Grand Prix": "Did not prequalify",
-            "French Grand Prix": "Did not prequalify",
-            "British Grand Prix": "Did not prequalify",
-            "German Grand Prix": "Did not prequalify",
             "Hungarian Grand Prix": "Electrical",
-            "Belgian Grand Prix": "Did not prequalify",
-            "Italian Grand Prix": "Did not prequalify",
-            "Portuguese Grand Prix": "Did not prequalify",
             "Spanish Grand Prix": "Gearbox",
-            "Japanese Grand Prix": "Did not prequalify",
             "Australian Grand Prix": "Collision"
         }
     },
     "fastLaps": {
-        "1981": {},
-        "1983": {},
-        "1984": {},
-        "1985": {},
-        "1986": {},
-        "1987": {},
-        "1988": {},
-        "1989": {}
+        "1981": {
+            "Belgian Grand Prix": -1
+        },
+        "1983": {
+            "Brazilian Grand Prix": -1,
+            "United States Grand Prix West": -1,
+            "French Grand Prix": -1,
+            "San Marino Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Detroit Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "European Grand Prix": -1,
+            "South African Grand Prix": -1
+        },
+        "1984": {
+            "Brazilian Grand Prix": -1,
+            "South African Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "San Marino Grand Prix": -1,
+            "French Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "Detroit Grand Prix": -1,
+            "Dallas Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "European Grand Prix": -1,
+            "Portuguese Grand Prix": -1
+        },
+        "1985": {
+            "Brazilian Grand Prix": -1,
+            "Portuguese Grand Prix": -1,
+            "San Marino Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "Detroit Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "European Grand Prix": -1,
+            "South African Grand Prix": -1,
+            "Australian Grand Prix": -1
+        },
+        "1986": {
+            "Brazilian Grand Prix": -1,
+            "Spanish Grand Prix": -1,
+            "San Marino Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "Detroit Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Hungarian Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "Portuguese Grand Prix": -1,
+            "Mexican Grand Prix": -1,
+            "Australian Grand Prix": -1
+        },
+        "1987": {
+            "San Marino Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Detroit Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Hungarian Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "Portuguese Grand Prix": -1,
+            "Spanish Grand Prix": -1,
+            "Mexican Grand Prix": -1,
+            "Japanese Grand Prix": -1,
+            "Australian Grand Prix": -1
+        },
+        "1988": {
+            "San Marino Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Mexican Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "Australian Grand Prix": -1
+        },
+        "1989": {
+            "Hungarian Grand Prix": -1,
+            "Spanish Grand Prix": -1,
+            "Australian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1981": {
             "year": "1981",
-            "position": "31",
+            "position": "40",
             "points": "0"
         },
         "1983": {
             "year": "1983",
-            "position": "28",
+            "position": "40",
             "points": "0"
         },
         "1984": {
@@ -204,27 +278,27 @@
         },
         "1985": {
             "year": "1985",
-            "position": "27",
+            "position": "40",
             "points": "0"
         },
         "1986": {
             "year": "1986",
-            "position": "27",
+            "position": "40",
             "points": "0"
         },
         "1987": {
             "year": "1987",
-            "position": "24",
+            "position": "40",
             "points": "0"
         },
         "1988": {
             "year": "1988",
-            "position": "33",
+            "position": "40",
             "points": "0"
         },
         "1989": {
             "year": "1989",
-            "position": "37",
+            "position": "40",
             "points": "0"
         }
     },
@@ -233,10 +307,37 @@
             "year": "1981",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Caesars Palace Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -244,49 +345,37 @@
             "year": "1983",
             "pos": {
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix West": {
-                    "points": 0
-                },
-                "French Grand Prix": {
-                    "points": 0
-                },
-                "San Marino Grand Prix": {
-                    "points": 0
-                },
-                "Monaco Grand Prix": {
-                    "points": 0
-                },
-                "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Detroit Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "European Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -294,52 +383,52 @@
             "year": "1984",
             "pos": {
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Detroit Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dallas Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "British Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "German Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Italian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "European Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 }
             }
         },
@@ -347,49 +436,52 @@
             "year": "1985",
             "pos": {
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Detroit Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "European Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "South African Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Australian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -397,52 +489,52 @@
             "year": "1986",
             "pos": {
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Detroit Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Hungarian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Australian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -450,155 +542,125 @@
             "year": "1987",
             "pos": {
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Detroit Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Hungarian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Australian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
         "1988": {
             "year": "1988",
             "pos": {
-                "Brazilian Grand Prix": {
-                    "points": 0
-                },
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Detroit Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Hungarian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Australian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
         "1989": {
             "year": "1989",
             "pos": {
-                "Brazilian Grand Prix": {
-                    "points": 0
-                },
-                "San Marino Grand Prix": {
-                    "points": 0
-                },
-                "Monaco Grand Prix": {
-                    "points": 0
-                },
-                "Mexican Grand Prix": {
-                    "points": 0
-                },
-                "United States Grand Prix": {
-                    "points": 0
-                },
-                "Canadian Grand Prix": {
-                    "points": 0
-                },
-                "French Grand Prix": {
-                    "points": 0
-                },
-                "British Grand Prix": {
-                    "points": 0
-                },
-                "German Grand Prix": {
-                    "points": 0
-                },
                 "Hungarian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Australian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -607,8 +669,7 @@
         "1981": {
             "year": "1981",
             "positions": {
-                "Belgian Grand Prix": "13",
-                "Monaco Grand Prix": "25"
+                "Belgian Grand Prix": "13"
             }
         },
         "1983": {
@@ -716,42 +777,22 @@
         "1988": {
             "year": "1988",
             "positions": {
-                "Brazilian Grand Prix": "28",
                 "San Marino Grand Prix": "24",
                 "Monaco Grand Prix": "14",
                 "Mexican Grand Prix": "15",
                 "Canadian Grand Prix": "14",
-                "Detroit Grand Prix": "30",
                 "French Grand Prix": "31",
-                "British Grand Prix": "28",
                 "German Grand Prix": "14",
-                "Hungarian Grand Prix": "30",
                 "Belgian Grand Prix": "20",
                 "Italian Grand Prix": "19",
-                "Portuguese Grand Prix": "28",
-                "Spanish Grand Prix": "30",
-                "Japanese Grand Prix": "29",
                 "Australian Grand Prix": "12"
             }
         },
         "1989": {
             "year": "1989",
             "positions": {
-                "Brazilian Grand Prix": "32",
-                "San Marino Grand Prix": "33",
-                "Monaco Grand Prix": "30",
-                "Mexican Grand Prix": "37",
-                "United States Grand Prix": "31",
-                "Canadian Grand Prix": "34",
-                "French Grand Prix": "35",
-                "British Grand Prix": "34",
-                "German Grand Prix": "34",
                 "Hungarian Grand Prix": "24",
-                "Belgian Grand Prix": "32",
-                "Italian Grand Prix": "34",
-                "Portuguese Grand Prix": "33",
                 "Spanish Grand Prix": "22",
-                "Japanese Grand Prix": "31",
                 "Australian Grand Prix": "13"
             }
         }
@@ -759,35 +800,133 @@
     "qualiPosition": {
         "1981": {
             "year": "1981",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "24"
+            }
         },
         "1983": {
             "year": "1983",
-            "positions": {}
+            "positions": {
+                "Brazilian Grand Prix": "0",
+                "United States Grand Prix West": "0",
+                "French Grand Prix": "0",
+                "San Marino Grand Prix": "0",
+                "Monaco Grand Prix": "0",
+                "Belgian Grand Prix": "0",
+                "Detroit Grand Prix": "24",
+                "Canadian Grand Prix": "0",
+                "British Grand Prix": "26",
+                "German Grand Prix": "26",
+                "Austrian Grand Prix": "25",
+                "Dutch Grand Prix": "0",
+                "Italian Grand Prix": "23",
+                "European Grand Prix": "24",
+                "South African Grand Prix": "26"
+            }
         },
         "1984": {
             "year": "1984",
-            "positions": {}
+            "positions": {
+                "Brazilian Grand Prix": "21",
+                "South African Grand Prix": "0",
+                "Belgian Grand Prix": "20",
+                "San Marino Grand Prix": "0",
+                "French Grand Prix": "25",
+                "Monaco Grand Prix": "19",
+                "Canadian Grand Prix": "19",
+                "Detroit Grand Prix": "26",
+                "Dallas Grand Prix": "18",
+                "British Grand Prix": "21",
+                "German Grand Prix": "21",
+                "Austrian Grand Prix": "23",
+                "Dutch Grand Prix": "21",
+                "Italian Grand Prix": "22",
+                "European Grand Prix": "20",
+                "Portuguese Grand Prix": "22"
+            }
         },
         "1985": {
             "year": "1985",
-            "positions": {}
+            "positions": {
+                "Brazilian Grand Prix": "22",
+                "Portuguese Grand Prix": "26",
+                "San Marino Grand Prix": "22",
+                "Monaco Grand Prix": "0",
+                "Canadian Grand Prix": "22",
+                "Detroit Grand Prix": "22",
+                "French Grand Prix": "24",
+                "British Grand Prix": "25",
+                "Austrian Grand Prix": "19",
+                "Dutch Grand Prix": "15",
+                "Italian Grand Prix": "0",
+                "Belgian Grand Prix": "16",
+                "European Grand Prix": "14",
+                "South African Grand Prix": "13",
+                "Australian Grand Prix": "21"
+            }
         },
         "1986": {
             "year": "1986",
-            "positions": {}
+            "positions": {
+                "Brazilian Grand Prix": "23",
+                "Spanish Grand Prix": "21",
+                "San Marino Grand Prix": "26",
+                "Monaco Grand Prix": "0",
+                "Belgian Grand Prix": "24",
+                "Canadian Grand Prix": "23",
+                "Detroit Grand Prix": "22",
+                "French Grand Prix": "25",
+                "British Grand Prix": "24",
+                "German Grand Prix": "25",
+                "Hungarian Grand Prix": "23",
+                "Austrian Grand Prix": "25",
+                "Italian Grand Prix": "26",
+                "Portuguese Grand Prix": "24",
+                "Mexican Grand Prix": "25",
+                "Australian Grand Prix": "25"
+            }
         },
         "1987": {
             "year": "1987",
-            "positions": {}
+            "positions": {
+                "San Marino Grand Prix": "18",
+                "Belgian Grand Prix": "17",
+                "Monaco Grand Prix": "20",
+                "Detroit Grand Prix": "23",
+                "French Grand Prix": "17",
+                "British Grand Prix": "19",
+                "German Grand Prix": "17",
+                "Hungarian Grand Prix": "25",
+                "Austrian Grand Prix": "18",
+                "Italian Grand Prix": "19",
+                "Portuguese Grand Prix": "23",
+                "Spanish Grand Prix": "23",
+                "Mexican Grand Prix": "21",
+                "Japanese Grand Prix": "24",
+                "Australian Grand Prix": "22"
+            }
         },
         "1988": {
             "year": "1988",
-            "positions": {}
+            "positions": {
+                "San Marino Grand Prix": "25",
+                "Monaco Grand Prix": "23",
+                "Mexican Grand Prix": "18",
+                "Canadian Grand Prix": "22",
+                "French Grand Prix": "0",
+                "German Grand Prix": "23",
+                "Belgian Grand Prix": "24",
+                "Italian Grand Prix": "16",
+                "Australian Grand Prix": "26"
+            }
         },
         "1989": {
             "year": "1989",
-            "positions": {}
+            "positions": {
+                "Hungarian Grand Prix": "22",
+                "Spanish Grand Prix": "25",
+                "Australian Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -935,6 +1074,1116 @@
         "1989": -1
     },
     "positionsGainLost": {
+        "1981": {},
+        "1983": {},
+        "1984": {},
+        "1985": {},
+        "1986": {},
+        "1987": {},
+        "1988": {},
+        "1989": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1981": {
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1983": {
+            "1": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "United States Grand Prix West",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "French Grand Prix",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "San Marino Grand Prix",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Monaco Grand Prix",
+                "position": 26,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Belgian Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Detroit Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Overheating",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Canadian Grand Prix",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "British Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "German Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Austrian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 25,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Dutch Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Italian Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "European Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Throttle",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "South African Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1984": {
+            "1": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "South African Grand Prix",
+                "position": 27,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "San Marino Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "French Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 25,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Monaco Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Canadian Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Detroit Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Dallas Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 18,
+                "points": 2.0,
+                "status": "+2 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "German Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Electrical",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Austrian Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Dutch Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Fuel pump",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Italian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Out of fuel",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "European Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1985": {
+            "1": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 26,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "San Marino Grand Prix",
+                "position": 13,
+                "positionText": "N",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Monaco Grand Prix",
+                "position": 21,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Canadian Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Detroit Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "French Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "British Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Austrian Grand Prix",
+                "position": 26,
+                "positionText": "W",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "toleman",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Dutch Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "toleman",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Italian Grand Prix",
+                "position": 26,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "toleman",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Belgian Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "toleman",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "European Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "toleman",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "South African Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "toleman",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Australian Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Clutch",
+                "constructorId": "toleman",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1986": {
+            "1": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Spanish Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "San Marino Grand Prix",
+                "position": 11,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Out of fuel",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Monaco Grand Prix",
+                "position": 21,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Canadian Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Detroit Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Turbo",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "French Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "British Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Collision",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "German Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Clutch",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Hungarian Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Austrian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 25,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Italian Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "Mexican Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Turbo",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Australian Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1987": {
+            "2": {
+                "raceName": "San Marino Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Handling",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Monaco Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Detroit Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Clutch",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "British Grand Prix",
+                "position": 26,
+                "positionText": "E",
+                "classified": false,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Excluded",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "German Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Hungarian Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 25,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Austrian Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Italian Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Ignition",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Spanish Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Ignition",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Mexican Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Water leak",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "Japanese Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Australian Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Ignition",
+                "constructorId": "ligier",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1988": {
+            "2": {
+                "raceName": "San Marino Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "zakspeed",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Monaco Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "zakspeed",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Mexican Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "zakspeed",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Canadian Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "zakspeed",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "French Grand Prix",
+                "position": 31,
+                "positionText": "D",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Excluded",
+                "constructorId": "zakspeed",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "German Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "zakspeed",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Belgian Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "zakspeed",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Italian Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "zakspeed",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Australian Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "zakspeed",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1989": {
+            "10": {
+                "raceName": "Hungarian Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Electrical",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Spanish Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Australian Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Collision",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1981": {},
         "1983": {},
         "1984": {},

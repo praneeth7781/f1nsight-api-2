@@ -1,75 +1,61 @@
 {
     "driverId": "wilds",
-    "lastUpdate": "2024-08-03T03:38:45.342268",
+    "lastUpdate": "2026-10-02T11:47:20.526731",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 3,
     "seasonWins": {
         "1974": 0,
-        "1975": 0,
-        "1976": 0
+        "1975": 0
     },
     "seasonPodiums": {
         "1974": 0,
-        "1975": 0,
-        "1976": 0
+        "1975": 0
     },
     "seasonPoles": {
         "1974": 0,
-        "1975": 0,
-        "1976": 0
+        "1975": 0
     },
     "seasonDNFs": {
-        "1974": 5,
-        "1975": 2,
-        "1976": 1
+        "1974": 1,
+        "1975": 2
     },
     "poles": {
         "1974": [],
-        "1975": [],
-        "1976": []
+        "1975": []
     },
     "podiums": {
         "1974": {},
-        "1975": {},
-        "1976": {}
+        "1975": {}
     },
     "DNFs": {
         "1974": {
-            "British Grand Prix": "Did not qualify",
-            "Austrian Grand Prix": "Did not qualify",
-            "Italian Grand Prix": "Did not qualify",
-            "Canadian Grand Prix": "Did not qualify",
             "United States Grand Prix": "Not classified"
         },
         "1975": {
             "Argentine Grand Prix": "Engine",
             "Brazilian Grand Prix": "Electrical"
-        },
-        "1976": {
-            "British Grand Prix": "Did not qualify"
         }
     },
     "fastLaps": {
-        "1974": {},
-        "1975": {},
-        "1976": {}
+        "1974": {
+            "United States Grand Prix": -1
+        },
+        "1975": {
+            "Argentine Grand Prix": -1,
+            "Brazilian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1974": {
             "year": "1974",
-            "position": "47",
+            "position": "40",
             "points": "0"
         },
         "1975": {
             "year": "1975",
-            "position": "46",
-            "points": "0"
-        },
-        "1976": {
-            "year": "1976",
-            "position": "54",
+            "position": "40",
             "points": "0"
         }
     },
@@ -77,20 +63,8 @@
         "1974": {
             "year": "1974",
             "pos": {
-                "British Grand Prix": {
-                    "points": 0
-                },
-                "Austrian Grand Prix": {
-                    "points": 0
-                },
-                "Italian Grand Prix": {
-                    "points": 0
-                },
-                "Canadian Grand Prix": {
-                    "points": 0
-                },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -98,18 +72,46 @@
             "year": "1975",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 0
-                }
-            }
-        },
-        "1976": {
-            "year": "1976",
-            "pos": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "Swedish Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -118,10 +120,6 @@
         "1974": {
             "year": "1974",
             "positions": {
-                "British Grand Prix": "33",
-                "Austrian Grand Prix": "29",
-                "Italian Grand Prix": "29",
-                "Canadian Grand Prix": "28",
                 "United States Grand Prix": "14"
             }
         },
@@ -131,26 +129,21 @@
                 "Argentine Grand Prix": "18",
                 "Brazilian Grand Prix": "21"
             }
-        },
-        "1976": {
-            "year": "1976",
-            "positions": {
-                "British Grand Prix": "29"
-            }
         }
     },
     "qualiPosition": {
         "1974": {
             "year": "1974",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "22"
+            }
         },
         "1975": {
             "year": "1975",
-            "positions": {}
-        },
-        "1976": {
-            "year": "1976",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "22",
+                "Brazilian Grand Prix": "22"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -160,10 +153,6 @@
         },
         "1975": {
             "year": "1975",
-            "QualiTimes": {}
-        },
-        "1976": {
-            "year": "1976",
             "QualiTimes": {}
         }
     },
@@ -246,5 +235,53 @@
         "1974": {},
         "1975": {},
         "1976": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1974": {
+            "15": {
+                "raceName": "United States Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1975": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Electrical",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1974": {},
+        "1975": {}
     }
 }

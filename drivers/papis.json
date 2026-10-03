@@ -1,6 +1,6 @@
 {
     "driverId": "papis",
-    "lastUpdate": "2024-08-03T03:38:37.151919",
+    "lastUpdate": "2026-10-02T11:47:20.554279",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -33,12 +33,20 @@
         }
     },
     "fastLaps": {
-        "1995": {}
+        "1995": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Hungarian Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "Portuguese Grand Prix": -1,
+            "European Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1995": {
             "year": "1995",
-            "position": "22",
+            "position": "40",
             "points": "0"
         }
     },
@@ -46,26 +54,29 @@
         "1995": {
             "year": "1995",
             "pos": {
-                "British Grand Prix": {
-                    "points": 0
-                },
-                "German Grand Prix": {
-                    "points": 0
-                },
                 "Hungarian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "European Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Pacific Grand Prix": {
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
+                },
+                "Australian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -211,5 +222,98 @@
             "Portuguese Grand Prix": -4,
             "European Grand Prix": 5
         }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1995": {
+            "8": {
+                "raceName": "British Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "footwork",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "German Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "footwork",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Hungarian Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Brakes",
+                "constructorId": "footwork",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Belgian Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "footwork",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Italian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "footwork",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "footwork",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "European Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "footwork",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1995": {}
     }
 }

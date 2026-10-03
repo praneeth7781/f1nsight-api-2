@@ -1,11 +1,11 @@
 {
     "driverId": "pizzonia",
     "driverCode": "PIZ",
-    "lastUpdate": "2024-08-03T03:38:38.398054",
+    "lastUpdate": "2026-10-02T11:47:20.559723",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 11,
+    "totalDNFs": 9,
     "seasonWins": {
         "2003": 0,
         "2004": 0,
@@ -24,7 +24,7 @@
     "seasonDNFs": {
         "2003": 6,
         "2004": 1,
-        "2005": 4
+        "2005": 2
     },
     "poles": {
         "2003": [],
@@ -49,14 +49,24 @@
             "Belgian Grand Prix": "Gearbox"
         },
         "2005": {
-            "Belgian Grand Prix": "Collision",
             "Brazilian Grand Prix": "Accident",
-            "Japanese Grand Prix": "Accident",
-            "Chinese Grand Prix": "Tyre puncture"
+            "Japanese Grand Prix": "Accident"
         }
     },
     "fastLaps": {
-        "2003": {},
+        "2003": {
+            "Australian Grand Prix": -1,
+            "Malaysian Grand Prix": -1,
+            "Brazilian Grand Prix": -1,
+            "San Marino Grand Prix": -1,
+            "Spanish Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "European Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1
+        },
         "2004": {
             "German Grand Prix": "1:14.586",
             "Hungarian Grand Prix": "1:20.501",
@@ -66,6 +76,7 @@
         "2005": {
             "Italian Grand Prix": "1:22.870",
             "Belgian Grand Prix": "1:57.541",
+            "Brazilian Grand Prix": -1,
             "Japanese Grand Prix": "1:36.711",
             "Chinese Grand Prix": "1:34.560"
         }
@@ -91,38 +102,44 @@
         "2003": {
             "year": "2003",
             "pos": {
-                "Australian Grand Prix": {
-                    "points": 0
-                },
-                "Malaysian Grand Prix": {
-                    "points": 0
-                },
-                "Brazilian Grand Prix": {
-                    "points": 0
-                },
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "European Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Hungarian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -130,16 +147,25 @@
             "year": "2004",
             "pos": {
                 "German Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Hungarian Grand Prix": {
-                    "points": 4
+                    "points": 4.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 4
+                    "points": 4.0
                 },
                 "Italian Grand Prix": {
-                    "points": 6
+                    "points": 6.0
+                },
+                "Chinese Grand Prix": {
+                    "points": 6.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 6.0
+                },
+                "Brazilian Grand Prix": {
+                    "points": 6.0
                 }
             }
         },
@@ -147,19 +173,19 @@
             "year": "2005",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Japanese Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Chinese Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 }
             }
         }
@@ -221,7 +247,7 @@
         "2004": {
             "year": "2004",
             "positions": {
-                "German Grand Prix": "11",
+                "German Grand Prix": "10",
                 "Hungarian Grand Prix": "6",
                 "Belgian Grand Prix": "14",
                 "Italian Grand Prix": "8"
@@ -232,7 +258,7 @@
             "positions": {
                 "Italian Grand Prix": "16",
                 "Belgian Grand Prix": "15",
-                "Brazilian Grand Prix": "15",
+                "Brazilian Grand Prix": "13",
                 "Japanese Grand Prix": "12",
                 "Chinese Grand Prix": "13"
             }
@@ -457,5 +483,259 @@
             "Japanese Grand Prix": -5,
             "Chinese Grand Prix": 0
         }
+    },
+    "driverNumber": "",
+    "raceResults": {
+        "2003": {
+            "1": {
+                "raceName": "Australian Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Malaysian Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "San Marino Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Spanish Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Launch control",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Austrian Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 8,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Monaco Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Electrical",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Canadian Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "European Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "French Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 11,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "British Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "jaguar",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "2004": {
+            "12": {
+                "raceName": "German Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 10,
+                "points": 2.0,
+                "status": "Finished",
+                "constructorId": "williams",
+                "fastestLapRank": 10,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Hungarian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 6,
+                "points": 2.0,
+                "status": "+1 Lap",
+                "constructorId": "williams",
+                "fastestLapRank": 5,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Belgian Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "williams",
+                "fastestLapRank": 8,
+                "shared": false
+            },
+            "15": {
+                "raceName": "Italian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 8,
+                "points": 2.0,
+                "status": "Finished",
+                "constructorId": "williams",
+                "fastestLapRank": 3,
+                "shared": false
+            }
+        },
+        "2005": {
+            "15": {
+                "raceName": "Italian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 16,
+                "points": 2.0,
+                "status": "Finished",
+                "constructorId": "williams",
+                "fastestLapRank": 6,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Belgian Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Collision",
+                "constructorId": "williams",
+                "fastestLapRank": 15,
+                "shared": false
+            },
+            "17": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "williams",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "18": {
+                "raceName": "Japanese Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 12,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "williams",
+                "fastestLapRank": 18,
+                "shared": false
+            },
+            "19": {
+                "raceName": "Chinese Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Tyre puncture",
+                "constructorId": "williams",
+                "fastestLapRank": 9,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "2003": {},
+        "2004": {},
+        "2005": {}
     }
 }

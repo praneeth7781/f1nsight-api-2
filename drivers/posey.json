@@ -1,6 +1,6 @@
 {
     "driverId": "posey",
-    "lastUpdate": "2024-08-03T03:38:38.472038",
+    "lastUpdate": "2026-10-02T11:47:20.521581",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         "1972": {}
     },
     "fastLaps": {
-        "1971": {},
-        "1972": {}
+        "1971": {
+            "United States Grand Prix": -1
+        },
+        "1972": {
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1971": {
             "year": "1971",
-            "position": "49",
+            "position": "40",
             "points": "0"
         },
         "1972": {
             "year": "1972",
-            "position": "32",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,7 @@
             "year": "1971",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +68,7 @@
             "year": "1972",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +90,15 @@
     "qualiPosition": {
         "1971": {
             "year": "1971",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "17"
+            }
         },
         "1972": {
             "year": "1972",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "22"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +180,42 @@
         "1972": -1
     },
     "positionsGainLost": {
+        "1971": {},
+        "1972": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1971": {
+            "11": {
+                "raceName": "United States Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "surtees",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1972": {
+            "12": {
+                "raceName": "United States Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "surtees",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1971": {},
         "1972": {}
     }

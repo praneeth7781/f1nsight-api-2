@@ -1,10 +1,10 @@
 {
     "driverId": "seidel",
-    "lastUpdate": "2024-08-03T03:38:41.599759",
+    "lastUpdate": "2026-10-02T11:47:20.476198",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 10,
+    "totalDNFs": 9,
     "seasonWins": {
         "1953": 0,
         "1958": 0,
@@ -31,7 +31,7 @@
         "1958": 3,
         "1960": 0,
         "1961": 4,
-        "1962": 3
+        "1962": 2
     },
     "poles": {
         "1953": [],
@@ -63,41 +63,57 @@
         },
         "1962": {
             "Dutch Grand Prix": "Not classified",
-            "British Grand Prix": "Brakes",
-            "German Grand Prix": "Did not qualify"
+            "British Grand Prix": "Brakes"
         }
     },
     "fastLaps": {
-        "1953": {},
-        "1958": {},
-        "1960": {},
-        "1961": {},
-        "1962": {}
+        "1953": {
+            "German Grand Prix": -1
+        },
+        "1958": {
+            "Belgian Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Moroccan Grand Prix": -1
+        },
+        "1960": {
+            "Italian Grand Prix": -1
+        },
+        "1961": {
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1962": {
+            "Dutch Grand Prix": -1,
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1953": {
             "year": "1953",
-            "position": "67",
+            "position": "40",
             "points": "0"
         },
         "1958": {
             "year": "1958",
-            "position": "52",
+            "position": "40",
             "points": "0"
         },
         "1960": {
             "year": "1960",
-            "position": "39",
+            "position": "40",
             "points": "0"
         },
         "1961": {
             "year": "1961",
-            "position": "37",
+            "position": "40",
             "points": "0"
         },
         "1962": {
             "year": "1962",
-            "position": "38",
+            "position": "40",
             "points": "0"
         }
     },
@@ -106,7 +122,13 @@
             "year": "1953",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -114,13 +136,25 @@
             "year": "1958",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 },
                 "Moroccan Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -128,7 +162,10 @@
             "year": "1960",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -136,19 +173,22 @@
             "year": "1961",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -156,13 +196,31 @@
             "year": "1962",
             "pos": {
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -202,31 +260,47 @@
             "year": "1962",
             "positions": {
                 "Dutch Grand Prix": "14",
-                "British Grand Prix": "20",
-                "German Grand Prix": "28"
+                "British Grand Prix": "20"
             }
         }
     },
     "qualiPosition": {
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "29"
+            }
         },
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "17",
+                "German Grand Prix": "17",
+                "Moroccan Grand Prix": "20"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "13"
+            }
         },
         "1961": {
             "year": "1961",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "0",
+                "French Grand Prix": "0",
+                "British Grand Prix": "22",
+                "German Grand Prix": "23",
+                "Italian Grand Prix": "28"
+            }
         },
         "1962": {
             "year": "1962",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "20",
+                "British Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -341,6 +415,171 @@
         "1962": -1
     },
     "positionsGainLost": {
+        "1953": {},
+        "1958": {},
+        "1960": {},
+        "1961": {},
+        "1962": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1953": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 29,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "veritas",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1958": {
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Halfshaft",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "German Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Suspension",
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Moroccan Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1961": {
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 23,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 27,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 17,
+                "positionText": "17",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+17 Laps",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Handling",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 30,
+                "positionText": "R",
+                "classified": false,
+                "grid": 28,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1962": {
+            "1": {
+                "raceName": "Dutch Grand Prix",
+                "position": 14,
+                "positionText": "N",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "emeryson",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Brakes",
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1953": {},
         "1958": {},
         "1960": {},

@@ -1,6 +1,6 @@
 {
     "driverId": "hobbs",
-    "lastUpdate": "2024-08-03T03:38:29.217823",
+    "lastUpdate": "2026-10-02T11:47:20.513642",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -50,30 +50,41 @@
         "1974": {}
     },
     "fastLaps": {
-        "1967": {},
-        "1968": {},
-        "1971": {},
-        "1974": {}
+        "1967": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Canadian Grand Prix": -1
+        },
+        "1968": {
+            "Italian Grand Prix": -1
+        },
+        "1971": {
+            "United States Grand Prix": -1
+        },
+        "1974": {
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1967": {
             "year": "1967",
-            "position": "25",
+            "position": "40",
             "points": "0"
         },
         "1968": {
             "year": "1968",
-            "position": "29",
+            "position": "40",
             "points": "0"
         },
         "1971": {
             "year": "1971",
-            "position": "27",
+            "position": "40",
             "points": "0"
         },
         "1974": {
             "year": "1974",
-            "position": "22",
+            "position": "40",
             "points": "0"
         }
     },
@@ -82,13 +93,22 @@
             "year": "1967",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -96,7 +116,16 @@
             "year": "1968",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -104,7 +133,7 @@
             "year": "1971",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -112,10 +141,16 @@
             "year": "1974",
             "pos": {
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -152,19 +187,30 @@
     "qualiPosition": {
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "14",
+                "German Grand Prix": "22",
+                "Canadian Grand Prix": "12"
+            }
         },
         "1968": {
             "year": "1968",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "14"
+            }
         },
         "1971": {
             "year": "1971",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "22"
+            }
         },
         "1974": {
             "year": "1974",
-            "positions": {}
+            "positions": {
+                "Austrian Grand Prix": "17",
+                "Italian Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -268,6 +314,108 @@
         "1974": -1
     },
     "positionsGainLost": {
+        "1967": {},
+        "1968": {},
+        "1971": {},
+        "1974": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1967": {
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "lola",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Canadian Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1968": {
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1971": {
+            "11": {
+                "raceName": "United States Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "mclaren",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1974": {
+            "12": {
+                "raceName": "Austrian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "mclaren",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Italian Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "mclaren",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1967": {},
         "1968": {},
         "1971": {},

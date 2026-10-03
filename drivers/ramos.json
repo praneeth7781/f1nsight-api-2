@@ -1,6 +1,6 @@
 {
     "driverId": "ramos",
-    "lastUpdate": "2024-08-03T03:38:39.045992",
+    "lastUpdate": "2026-10-02T11:47:20.483151",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -40,18 +40,27 @@
         }
     },
     "fastLaps": {
-        "1955": {},
-        "1956": {}
+        "1955": {
+            "Dutch Grand Prix": -1,
+            "British Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1956": {
+            "Monaco Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1955": {
             "year": "1955",
-            "position": "34",
+            "position": "40",
             "points": "0"
         },
         "1956": {
             "year": "1956",
-            "position": "21",
+            "position": "22",
             "points": "2"
         }
     },
@@ -60,13 +69,13 @@
             "year": "1955",
             "pos": {
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -74,16 +83,25 @@
             "year": "1956",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 2
+                    "points": 2.0
+                },
+                "Indianapolis 500": {
+                    "points": 2.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 2.0
                 },
                 "French Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "British Grand Prix": {
-                    "points": 2
+                    "points": 2.0
+                },
+                "German Grand Prix": {
+                    "points": 2.0
                 },
                 "Italian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 }
             }
         }
@@ -110,11 +128,20 @@
     "qualiPosition": {
         "1955": {
             "year": "1955",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "14",
+                "British Grand Prix": "18",
+                "Italian Grand Prix": "18"
+            }
         },
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "14",
+                "French Grand Prix": "14",
+                "British Grand Prix": "26",
+                "Italian Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -196,6 +223,102 @@
         "1956": -1
     },
     "positionsGainLost": {
+        "1955": {},
+        "1956": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1955": {
+            "5": {
+                "raceName": "Dutch Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "+8 Laps",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Oil pressure",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Fuel system",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1956": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 14,
+                "points": 2.0,
+                "status": "+7 Laps",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "French Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Axle",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "gordini",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1955": {},
         "1956": {}
     }

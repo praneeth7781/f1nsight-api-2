@@ -1,6 +1,6 @@
 {
     "driverId": "teague",
-    "lastUpdate": "2024-08-03T03:38:43.132917",
+    "lastUpdate": "2026-10-02T11:47:20.474415",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -43,24 +43,30 @@
         "1957": {}
     },
     "fastLaps": {
-        "1953": {},
-        "1954": {},
-        "1957": {}
+        "1953": {
+            "Indianapolis 500": -1
+        },
+        "1954": {
+            "Indianapolis 500": -1
+        },
+        "1957": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1953": {
             "year": "1953",
-            "position": "82",
+            "position": "40",
             "points": "0"
         },
         "1954": {
             "year": "1954",
-            "position": "56",
+            "position": "40",
             "points": "0"
         },
         "1957": {
             "year": "1957",
-            "position": "29",
+            "position": "40",
             "points": "0"
         }
     },
@@ -69,7 +75,28 @@
             "year": "1953",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -77,7 +104,28 @@
             "year": "1954",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -85,7 +133,22 @@
             "year": "1957",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Pescara Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -113,15 +176,21 @@
     "qualiPosition": {
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "22"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "8"
+            }
         },
         "1957": {
             "year": "1957",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "28"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -214,6 +283,57 @@
         "1957": -1
     },
     "positionsGainLost": {
+        "1953": {},
+        "1954": {},
+        "1957": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1953": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Oil leak",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 8,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        },
+        "1957": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 28,
+                "points": 0.0,
+                "status": "Finished",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1953": {},
         "1954": {},
         "1957": {}

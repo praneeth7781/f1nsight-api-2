@@ -1,6 +1,6 @@
 {
     "driverId": "chapman",
-    "lastUpdate": "2024-08-03T03:38:22.965680",
+    "lastUpdate": "2026-10-02T11:47:20.485624",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,14 @@
         }
     },
     "fastLaps": {
-        "1956": {}
+        "1956": {
+            "French Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1956": {
             "year": "1956",
-            "position": "66",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,7 +45,16 @@
             "year": "1956",
             "pos": {
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -59,7 +70,9 @@
     "qualiPosition": {
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "5"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -130,6 +143,27 @@
         "1956": -1
     },
     "positionsGainLost": {
+        "1956": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1956": {
+            "5": {
+                "raceName": "French Grand Prix",
+                "position": 20,
+                "positionText": "W",
+                "classified": false,
+                "grid": 5,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "vanwall",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1956": {}
     }
 }

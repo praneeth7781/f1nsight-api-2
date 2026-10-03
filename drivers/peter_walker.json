@@ -1,6 +1,6 @@
 {
     "driverId": "peter_walker",
-    "lastUpdate": "2024-08-03T03:38:37.884986",
+    "lastUpdate": "2026-10-02T11:47:20.451935",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -46,24 +46,31 @@
         }
     },
     "fastLaps": {
-        "1950": {},
-        "1951": {},
-        "1955": {}
+        "1950": {
+            "British Grand Prix": -1
+        },
+        "1951": {
+            "British Grand Prix": -1
+        },
+        "1955": {
+            "Dutch Grand Prix": -1,
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
             "year": "1950",
-            "position": "68",
+            "position": "40",
             "points": "0"
         },
         "1951": {
             "year": "1951",
-            "position": "28",
+            "position": "40",
             "points": "0"
         },
         "1955": {
             "year": "1955",
-            "position": "58",
+            "position": "40",
             "points": "0"
         }
     },
@@ -72,7 +79,25 @@
             "year": "1950",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -80,7 +105,16 @@
             "year": "1951",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -88,10 +122,13 @@
             "year": "1955",
             "pos": {
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -120,15 +157,22 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "10"
+            }
         },
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "19"
+            }
         },
         "1955": {
             "year": "1955",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "10",
+                "British Grand Prix": "14"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -221,6 +265,69 @@
         "1955": -1
     },
     "positionsGainLost": {
+        "1950": {},
+        "1951": {},
+        "1955": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "1": {
+                "raceName": "British Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "era",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        },
+        "1951": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1955": {
+            "5": {
+                "raceName": "Dutch Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Wheel bearing",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "connaught",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {},
         "1951": {},
         "1955": {}

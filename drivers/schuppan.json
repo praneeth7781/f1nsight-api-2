@@ -1,10 +1,10 @@
 {
     "driverId": "schuppan",
-    "lastUpdate": "2024-08-03T03:38:41.553491",
+    "lastUpdate": "2026-10-02T11:47:20.525264",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 5,
     "seasonWins": {
         "1974": 0,
         "1975": 0,
@@ -21,9 +21,9 @@
         "1977": 0
     },
     "seasonDNFs": {
-        "1974": 6,
+        "1974": 4,
         "1975": 1,
-        "1977": 1
+        "1977": 0
     },
     "poles": {
         "1974": [],
@@ -40,36 +40,44 @@
             "Monaco Grand Prix": "Accident",
             "Swedish Grand Prix": "Disqualified",
             "Dutch Grand Prix": "Disqualified",
-            "French Grand Prix": "Did not qualify",
-            "British Grand Prix": "Did not qualify",
             "German Grand Prix": "Gearbox"
         },
         "1975": {
             "Swedish Grand Prix": "Transmission"
         },
-        "1977": {
-            "Dutch Grand Prix": "Did not qualify"
-        }
+        "1977": {}
     },
     "fastLaps": {
-        "1974": {},
-        "1975": {},
-        "1977": {}
+        "1974": {
+            "Belgian Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Swedish Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "German Grand Prix": -1
+        },
+        "1975": {
+            "Swedish Grand Prix": -1
+        },
+        "1977": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1974": {
             "year": "1974",
-            "position": "44",
+            "position": "40",
             "points": "0"
         },
         "1975": {
             "year": "1975",
-            "position": "48",
+            "position": "40",
             "points": "0"
         },
         "1977": {
             "year": "1977",
-            "position": "24",
+            "position": "40",
             "points": "0"
         }
     },
@@ -78,25 +86,37 @@
             "year": "1974",
             "pos": {
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Swedish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -104,7 +124,28 @@
             "year": "1975",
             "pos": {
                 "Swedish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -112,16 +153,28 @@
             "year": "1977",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -134,8 +187,6 @@
                 "Monaco Grand Prix": "17",
                 "Swedish Grand Prix": "12",
                 "Dutch Grand Prix": "13",
-                "French Grand Prix": "23",
-                "British Grand Prix": "30",
                 "German Grand Prix": "21"
             }
         },
@@ -150,23 +201,34 @@
             "positions": {
                 "British Grand Prix": "12",
                 "German Grand Prix": "7",
-                "Austrian Grand Prix": "16",
-                "Dutch Grand Prix": "29"
+                "Austrian Grand Prix": "16"
             }
         }
     },
     "qualiPosition": {
         "1974": {
             "year": "1974",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "14",
+                "Monaco Grand Prix": "25",
+                "Swedish Grand Prix": "26",
+                "Dutch Grand Prix": "17",
+                "German Grand Prix": "22"
+            }
         },
         "1975": {
             "year": "1975",
-            "positions": {}
+            "positions": {
+                "Swedish Grand Prix": "26"
+            }
         },
         "1977": {
             "year": "1977",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "23",
+                "German Grand Prix": "19",
+                "Austrian Grand Prix": "25"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -259,6 +321,129 @@
         "1977": -1
     },
     "positionsGainLost": {
+        "1974": {},
+        "1975": {},
+        "1977": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1974": {
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 14,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Monaco Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Swedish Grand Prix",
+                "position": 12,
+                "positionText": "D",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Disqualified",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Dutch Grand Prix",
+                "position": 13,
+                "positionText": "D",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Disqualified",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "German Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1975": {
+            "7": {
+                "raceName": "Swedish Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Transmission",
+                "constructorId": "hill",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1977": {
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "surtees",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "German Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "surtees",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Austrian Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 25,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "surtees",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1974": {},
         "1975": {},
         "1977": {}

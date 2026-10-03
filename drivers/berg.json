@@ -1,6 +1,6 @@
 {
     "driverId": "berg",
-    "lastUpdate": "2024-08-03T03:38:20.946056",
+    "lastUpdate": "2026-10-02T11:47:20.543876",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -34,12 +34,22 @@
         }
     },
     "fastLaps": {
-        "1986": {}
+        "1986": {
+            "Detroit Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Hungarian Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Portuguese Grand Prix": -1,
+            "Mexican Grand Prix": -1,
+            "Australian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1986": {
             "year": "1986",
-            "position": "28",
+            "position": "40",
             "points": "0"
         }
     },
@@ -48,31 +58,34 @@
             "year": "1986",
             "pos": {
                 "Detroit Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Hungarian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Australian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -96,7 +109,17 @@
     "qualiPosition": {
         "1986": {
             "year": "1986",
-            "positions": {}
+            "positions": {
+                "Detroit Grand Prix": "25",
+                "French Grand Prix": "26",
+                "British Grand Prix": "26",
+                "German Grand Prix": "26",
+                "Hungarian Grand Prix": "26",
+                "Austrian Grand Prix": "26",
+                "Portuguese Grand Prix": "27",
+                "Mexican Grand Prix": "26",
+                "Australian Grand Prix": "26"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -167,6 +190,123 @@
         "1986": -1
     },
     "positionsGainLost": {
+        "1986": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1986": {
+            "7": {
+                "raceName": "Detroit Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Electrical",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "French Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Turbo",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "British Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Collision",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "German Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 26,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Hungarian Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Turbo",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Austrian Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Electrical",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 27,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "Mexican Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 26,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Australian Grand Prix",
+                "position": 15,
+                "positionText": "N",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Not classified",
+                "constructorId": "osella",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1986": {}
     }
 }

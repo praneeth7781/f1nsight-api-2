@@ -1,6 +1,6 @@
 {
     "driverId": "tomaso",
-    "lastUpdate": "2024-08-03T03:38:43.425095",
+    "lastUpdate": "2026-10-02T11:47:20.486950",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         }
     },
     "fastLaps": {
-        "1957": {},
-        "1959": {}
+        "1957": {
+            "Argentine Grand Prix": -1
+        },
+        "1959": {
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1957": {
             "year": "1957",
-            "position": "33",
+            "position": "40",
             "points": "0"
         },
         "1959": {
             "year": "1959",
-            "position": "50",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,28 @@
             "year": "1957",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Pescara Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +89,7 @@
             "year": "1959",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +111,15 @@
     "qualiPosition": {
         "1957": {
             "year": "1957",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "12"
+            }
         },
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "14"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -172,6 +201,42 @@
         "1959": -1
     },
     "positionsGainLost": {
+        "1957": {},
+        "1959": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1957": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+9 Laps",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1959": {
+            "9": {
+                "raceName": "United States Grand Prix",
+                "position": 11,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Brakes",
+                "constructorId": "cooper-osca",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1957": {},
         "1959": {}
     }

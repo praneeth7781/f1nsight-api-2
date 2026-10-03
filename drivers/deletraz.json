@@ -1,6 +1,6 @@
 {
     "driverId": "deletraz",
-    "lastUpdate": "2024-08-03T03:38:24.154349",
+    "lastUpdate": "2026-10-02T11:47:20.553856",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -38,18 +38,23 @@
         }
     },
     "fastLaps": {
-        "1994": {},
-        "1995": {}
+        "1994": {
+            "Australian Grand Prix": -1
+        },
+        "1995": {
+            "Portuguese Grand Prix": -1,
+            "European Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1994": {
             "year": "1994",
-            "position": "41",
+            "position": "40",
             "points": "0"
         },
         "1995": {
             "year": "1995",
-            "position": "34",
+            "position": "40",
             "points": "0"
         }
     },
@@ -58,7 +63,7 @@
             "year": "1994",
             "pos": {
                 "Australian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -66,10 +71,19 @@
             "year": "1995",
             "pos": {
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "European Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Pacific Grand Prix": {
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
+                },
+                "Australian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -207,5 +221,53 @@
             "Portuguese Grand Prix": 4,
             "European Grand Prix": 9
         }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1994": {
+            "16": {
+                "raceName": "Australian Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Gearbox",
+                "constructorId": "larrousse",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1995": {
+            "13": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Physical",
+                "constructorId": "pacific",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "European Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+7 Laps",
+                "constructorId": "pacific",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1994": {},
+        "1995": {}
     }
 }

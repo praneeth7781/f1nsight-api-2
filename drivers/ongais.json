@@ -1,10 +1,10 @@
 {
     "driverId": "ongais",
-    "lastUpdate": "2024-08-03T03:38:36.818608",
+    "lastUpdate": "2026-10-02T11:47:20.533460",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 3,
     "seasonWins": {
         "1977": 0,
         "1978": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1977": 1,
-        "1978": 4
+        "1978": 2
     },
     "poles": {
         "1977": [],
@@ -35,24 +35,28 @@
         },
         "1978": {
             "Argentine Grand Prix": "Distributor",
-            "Brazilian Grand Prix": "Brakes",
-            "United States Grand Prix West": "Did not prequalify",
-            "Dutch Grand Prix": "Did not prequalify"
+            "Brazilian Grand Prix": "Brakes"
         }
     },
     "fastLaps": {
-        "1977": {},
-        "1978": {}
+        "1977": {
+            "United States Grand Prix": -1,
+            "Canadian Grand Prix": -1
+        },
+        "1978": {
+            "Argentine Grand Prix": -1,
+            "Brazilian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1977": {
             "year": "1977",
-            "position": "26",
+            "position": "40",
             "points": "0"
         },
         "1978": {
             "year": "1978",
-            "position": "36",
+            "position": "40",
             "points": "0"
         }
     },
@@ -61,10 +65,13 @@
             "year": "1977",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -72,16 +79,52 @@
             "year": "1978",
             "pos": {
                 "Argentine Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 },
                 "United States Grand Prix West": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
+                },
+                "Swedish Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -98,20 +141,24 @@
             "year": "1978",
             "positions": {
                 "Argentine Grand Prix": "21",
-                "Brazilian Grand Prix": "19",
-                "United States Grand Prix West": "29",
-                "Dutch Grand Prix": "32"
+                "Brazilian Grand Prix": "19"
             }
         }
     },
     "qualiPosition": {
         "1977": {
             "year": "1977",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "26",
+                "Canadian Grand Prix": "22"
+            }
         },
         "1978": {
             "year": "1978",
-            "positions": {}
+            "positions": {
+                "Argentine Grand Prix": "21",
+                "Brazilian Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -193,6 +240,66 @@
         "1978": -1
     },
     "positionsGainLost": {
+        "1977": {},
+        "1978": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1977": {
+            "15": {
+                "raceName": "United States Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Canadian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1978": {
+            "1": {
+                "raceName": "Argentine Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Distributor",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Brakes",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1977": {},
         "1978": {}
     }

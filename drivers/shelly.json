@@ -1,10 +1,10 @@
 {
     "driverId": "shelly",
-    "lastUpdate": "2024-08-03T03:38:41.840664",
+    "lastUpdate": "2026-10-02T11:47:20.504836",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 1,
     "seasonWins": {
         "1962": 0
     },
@@ -15,7 +15,7 @@
         "1962": 0
     },
     "seasonDNFs": {
-        "1962": 3
+        "1962": 1
     },
     "poles": {
         "1962": []
@@ -25,18 +25,18 @@
     },
     "DNFs": {
         "1962": {
-            "British Grand Prix": "Engine",
-            "German Grand Prix": "Did not qualify",
-            "Italian Grand Prix": "Did not qualify"
+            "British Grand Prix": "Engine"
         }
     },
     "fastLaps": {
-        "1962": {}
+        "1962": {
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1962": {
             "year": "1962",
-            "position": "49",
+            "position": "40",
             "points": "0"
         }
     },
@@ -45,13 +45,19 @@
             "year": "1962",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -60,16 +66,16 @@
         "1962": {
             "year": "1962",
             "positions": {
-                "British Grand Prix": "21",
-                "German Grand Prix": "27",
-                "Italian Grand Prix": "22"
+                "British Grand Prix": "21"
             }
         }
     },
     "qualiPosition": {
         "1962": {
             "year": "1962",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "18"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -140,6 +146,27 @@
         "1962": -1
     },
     "positionsGainLost": {
+        "1962": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1962": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1962": {}
     }
 }

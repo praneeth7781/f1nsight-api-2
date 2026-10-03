@@ -1,39 +1,33 @@
 {
     "driverId": "parkes",
-    "lastUpdate": "2024-08-03T03:38:37.177609",
+    "lastUpdate": "2026-10-02T11:47:20.512447",
     "totalWins": 0,
     "totalPodiums": 2,
     "totalPoles": 1,
-    "totalDNFs": 4,
+    "totalDNFs": 3,
     "seasonWins": {
-        "1959": 0,
         "1966": 0,
         "1967": 0
     },
     "seasonPodiums": {
-        "1959": 0,
         "1966": 2,
         "1967": 0
     },
     "seasonPoles": {
-        "1959": 0,
         "1966": 1,
         "1967": 0
     },
     "seasonDNFs": {
-        "1959": 1,
         "1966": 2,
         "1967": 1
     },
     "poles": {
-        "1959": [],
         "1966": [
             "Italian Grand Prix"
         ],
         "1967": []
     },
     "podiums": {
-        "1959": {},
         "1966": {
             "French Grand Prix": "2",
             "Italian Grand Prix": "2"
@@ -41,9 +35,6 @@
         "1967": {}
     },
     "DNFs": {
-        "1959": {
-            "British Grand Prix": "Did not qualify"
-        },
         "1966": {
             "Dutch Grand Prix": "Accident",
             "German Grand Prix": "Accident"
@@ -53,16 +44,18 @@
         }
     },
     "fastLaps": {
-        "1959": {},
-        "1966": {},
-        "1967": {}
+        "1966": {
+            "French Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1967": {
+            "Dutch Grand Prix": -1,
+            "Belgian Grand Prix": -1
+        }
     },
     "finalStandings": {
-        "1959": {
-            "year": "1959",
-            "position": "78",
-            "points": "0"
-        },
         "1966": {
             "year": "1966",
             "position": "8",
@@ -75,28 +68,29 @@
         }
     },
     "posAfterRace": {
-        "1959": {
-            "year": "1959",
-            "pos": {
-                "British Grand Prix": {
-                    "points": 0
-                }
-            }
-        },
         "1966": {
             "year": "1966",
             "pos": {
                 "French Grand Prix": {
-                    "points": 6
+                    "points": 6.0
+                },
+                "British Grand Prix": {
+                    "points": 6.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 6
+                    "points": 6.0
                 },
                 "German Grand Prix": {
-                    "points": 6
+                    "points": 6.0
                 },
                 "Italian Grand Prix": {
-                    "points": 12
+                    "points": 12.0
+                },
+                "United States Grand Prix": {
+                    "points": 12.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 12.0
                 }
             }
         },
@@ -104,21 +98,36 @@
             "year": "1967",
             "pos": {
                 "Dutch Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 2
+                    "points": 2.0
+                },
+                "French Grand Prix": {
+                    "points": 2.0
+                },
+                "British Grand Prix": {
+                    "points": 2.0
+                },
+                "German Grand Prix": {
+                    "points": 2.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 2.0
+                },
+                "Italian Grand Prix": {
+                    "points": 2.0
+                },
+                "United States Grand Prix": {
+                    "points": 2.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 2.0
                 }
             }
         }
     },
     "racePosition": {
-        "1959": {
-            "year": "1959",
-            "positions": {
-                "British Grand Prix": "27"
-            }
-        },
         "1966": {
             "year": "1966",
             "positions": {
@@ -137,24 +146,24 @@
         }
     },
     "qualiPosition": {
-        "1959": {
-            "year": "1959",
-            "positions": {}
-        },
         "1966": {
             "year": "1966",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "3",
+                "Dutch Grand Prix": "5",
+                "German Grand Prix": "7",
+                "Italian Grand Prix": "1"
+            }
         },
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "10",
+                "Belgian Grand Prix": "8"
+            }
         }
     },
     "driverQualifyingTimes": {
-        "1959": {
-            "year": "1959",
-            "QualiTimes": {}
-        },
         "1966": {
             "year": "1966",
             "QualiTimes": {}
@@ -241,6 +250,90 @@
     },
     "positionsGainLost": {
         "1959": {},
+        "1966": {},
+        "1967": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1966": {
+            "3": {
+                "raceName": "French Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 3,
+                "points": 6.0,
+                "status": "Finished",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Dutch Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 5,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 7,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 1,
+                "points": 6.0,
+                "status": "Finished",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1967": {
+            "3": {
+                "raceName": "Dutch Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 10,
+                "points": 2.0,
+                "status": "+1 Lap",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Belgian Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 8,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1966": {},
         "1967": {}
     }

@@ -1,7 +1,7 @@
 {
     "driverId": "yamamoto",
     "driverCode": "YAM",
-    "lastUpdate": "2024-08-03T03:38:45.610689",
+    "lastUpdate": "2026-10-02T11:47:20.562623",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -53,6 +53,8 @@
     },
     "fastLaps": {
         "2006": {
+            "German Grand Prix": -1,
+            "Hungarian Grand Prix": -1,
             "Turkish Grand Prix": "1:32.337",
             "Italian Grand Prix": "1:26.548",
             "Chinese Grand Prix": "1:41.847",
@@ -99,52 +101,37 @@
         "2006": {
             "year": "2006",
             "pos": {
-                "German Grand Prix": {
-                    "points": 0
-                },
-                "Hungarian Grand Prix": {
-                    "points": 0
-                },
-                "Turkish Grand Prix": {
-                    "points": 0
-                },
-                "Italian Grand Prix": {
-                    "points": 0
-                },
                 "Chinese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
         "2007": {
             "year": "2007",
             "pos": {
-                "Hungarian Grand Prix": {
-                    "points": 0
-                },
                 "Turkish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Chinese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -152,25 +139,34 @@
             "year": "2010",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Hungarian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Singapore Grand Prix": {
+                    "points": 0.0
                 },
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Korean Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Brazilian Grand Prix": {
+                    "points": 0.0
+                },
+                "Abu Dhabi Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -217,13 +213,13 @@
         "2006": {
             "year": "2006",
             "positions": {
-                "German Grand Prix": "21",
-                "Hungarian Grand Prix": "22",
-                "Turkish Grand Prix": "21",
+                "German Grand Prix": "22",
+                "Hungarian Grand Prix": "21",
+                "Turkish Grand Prix": "20",
                 "Italian Grand Prix": "22",
                 "Chinese Grand Prix": "19",
                 "Japanese Grand Prix": "22",
-                "Brazilian Grand Prix": "21"
+                "Brazilian Grand Prix": "20"
             }
         },
         "2007": {
@@ -242,10 +238,10 @@
             "year": "2010",
             "positions": {
                 "British Grand Prix": "24",
-                "German Grand Prix": "23",
+                "German Grand Prix": "22",
                 "Hungarian Grand Prix": "24",
-                "Belgian Grand Prix": "21",
-                "Italian Grand Prix": "24",
+                "Belgian Grand Prix": "19",
+                "Italian Grand Prix": "23",
                 "Japanese Grand Prix": "24",
                 "Korean Grand Prix": "23"
             }
@@ -281,7 +277,7 @@
                     "N/A"
                 ],
                 "Japanese Grand Prix": [
-                    "N/A",
+                    "",
                     "N/A",
                     "N/A"
                 ],
@@ -476,5 +472,271 @@
             "Japanese Grand Prix": 8,
             "Korean Grand Prix": 8
         }
+    },
+    "driverNumber": "",
+    "raceResults": {
+        "2006": {
+            "12": {
+                "raceName": "German Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Driveshaft",
+                "constructorId": "super_aguri",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Hungarian Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "super_aguri",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Turkish Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Spun off",
+                "constructorId": "super_aguri",
+                "fastestLapRank": 20,
+                "shared": false
+            },
+            "15": {
+                "raceName": "Italian Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Hydraulics",
+                "constructorId": "super_aguri",
+                "fastestLapRank": 22,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Chinese Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "super_aguri",
+                "fastestLapRank": 19,
+                "shared": false
+            },
+            "17": {
+                "raceName": "Japanese Grand Prix",
+                "position": 17,
+                "positionText": "17",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "super_aguri",
+                "fastestLapRank": 21,
+                "shared": false
+            },
+            "18": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "super_aguri",
+                "fastestLapRank": 7,
+                "shared": false
+            }
+        },
+        "2007": {
+            "11": {
+                "raceName": "Hungarian Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Accident",
+                "constructorId": "spyker",
+                "fastestLapRank": 22,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Turkish Grand Prix",
+                "position": 20,
+                "positionText": "20",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "spyker",
+                "fastestLapRank": 22,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Italian Grand Prix",
+                "position": 20,
+                "positionText": "20",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "spyker",
+                "fastestLapRank": 21,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Belgian Grand Prix",
+                "position": 17,
+                "positionText": "17",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "spyker",
+                "fastestLapRank": 20,
+                "shared": false
+            },
+            "15": {
+                "raceName": "Japanese Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "constructorId": "spyker",
+                "fastestLapRank": 20,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Chinese Grand Prix",
+                "position": 17,
+                "positionText": "17",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "spyker",
+                "fastestLapRank": 17,
+                "shared": false
+            },
+            "17": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Collision",
+                "constructorId": "spyker",
+                "fastestLapRank": 21,
+                "shared": false
+            }
+        },
+        "2010": {
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 20,
+                "positionText": "20",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "hrt",
+                "fastestLapRank": 22,
+                "shared": false
+            },
+            "11": {
+                "raceName": "German Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Engine",
+                "constructorId": "hrt",
+                "fastestLapRank": 22,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Hungarian Grand Prix",
+                "position": 19,
+                "positionText": "19",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "constructorId": "hrt",
+                "fastestLapRank": 23,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Belgian Grand Prix",
+                "position": 20,
+                "positionText": "20",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "hrt",
+                "fastestLapRank": 20,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Italian Grand Prix",
+                "position": 19,
+                "positionText": "19",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "hrt",
+                "fastestLapRank": 20,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Japanese Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 24,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "constructorId": "hrt",
+                "fastestLapRank": 16,
+                "shared": false
+            },
+            "17": {
+                "raceName": "Korean Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "constructorId": "hrt",
+                "fastestLapRank": 19,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "2006": {},
+        "2007": {},
+        "2010": {}
     }
 }
