@@ -2,9 +2,9 @@
     "driverId": "hamilton",
     "driverCode": "HAM",
     "driverNumber": "44",
-    "lastUpdate": "2026-10-04T15:24:53.955105",
+    "lastUpdate": "2026-10-05T19:19:35.636437",
     "totalWins": 106,
-    "totalPodiums": 207,
+    "totalPodiums": 208,
     "totalPoles": 104,
     "totalDNFs": 39,
     "seasonWins": {
@@ -49,7 +49,7 @@
         "2023": 6,
         "2024": 5,
         "2025": 0,
-        "2026": 5
+        "2026": 6
     },
     "seasonPoles": {
         "2007": 6,
@@ -482,7 +482,8 @@
             "Canadian Grand Prix": "2",
             "Monaco Grand Prix": "2",
             "Barcelona Grand Prix": "1",
-            "British Grand Prix": "3"
+            "British Grand Prix": "3",
+            "Bahrain Grand Prix in Malaysia": "3"
         }
     },
     "DNFs": {
@@ -989,7 +990,8 @@
             "Dutch Grand Prix": "1:14.566",
             "Italian Grand Prix": "1:25.300",
             "Spanish Grand Prix": "1:39.839",
-            "Azerbaijan Grand Prix": "1:46.170"
+            "Azerbaijan Grand Prix": "1:46.170",
+            "Bahrain Grand Prix in Malaysia": "1:38.610"
         }
     },
     "finalStandings": {
@@ -1091,7 +1093,7 @@
         "2026": {
             "year": "2026",
             "position": "3",
-            "points": "199"
+            "points": "214"
         }
     },
     "posAfterRace": {
@@ -2377,6 +2379,9 @@
                 },
                 "Azerbaijan Grand Prix": {
                     "points": 199
+                },
+                "Bahrain Grand Prix in Malaysia": {
+                    "points": 214
                 }
             }
         }
@@ -2874,7 +2879,8 @@
                 "Dutch Grand Prix": "4",
                 "Italian Grand Prix": "6",
                 "Spanish Grand Prix": "22",
-                "Azerbaijan Grand Prix": "6"
+                "Azerbaijan Grand Prix": "6",
+                "Bahrain Grand Prix in Malaysia": "3"
             }
         }
     },
@@ -3371,7 +3377,8 @@
                 "Dutch Grand Prix": "5",
                 "Italian Grand Prix": "4",
                 "Spanish Grand Prix": "4",
-                "Azerbaijan Grand Prix": "6"
+                "Azerbaijan Grand Prix": "6",
+                "Bahrain Grand Prix in Malaysia": "2"
             }
         }
     },
@@ -5448,6 +5455,11 @@
                     "1:44.260",
                     "1:44.037",
                     "1:43.858"
+                ],
+                "Bahrain Grand Prix in Malaysia": [
+                    "1:36.595",
+                    "1:36.032",
+                    "1:35.428"
                 ]
             }
         }
@@ -5455,21 +5467,21 @@
     "consistency": {
         "mean": {
             "wins": 5.3,
-            "podiums": 10.35,
+            "podiums": 10.4,
             "poles": 5.2,
-            "points": 260.875
+            "points": 261.625
         },
         "std": {
             "wins": 4.196427051671457,
-            "podiums": 5.246665607793201,
+            "podiums": 5.2,
             "poles": 4.1424630354415966,
-            "points": 110.93397529611927
+            "points": 110.56320307860115
         },
         "cv": {
             "wins": 0.7917786889946146,
-            "podiums": 0.5069242133133528,
+            "podiums": 0.5,
             "poles": 0.7966275068156916,
-            "points": 0.42523804617582855
+            "points": 0.4226018273429571
         }
     },
     "peakSeason": {
@@ -5506,7 +5518,7 @@
         "2023": 6.181818181818182,
         "2024": 6.958333333333333,
         "2025": 8.5,
-        "2026": 5.266666666666667
+        "2026": 5.125
     },
     "avgQualiPositions": {
         "2007": 2.6470588235294117,
@@ -5528,7 +5540,7 @@
         "2023": 6.363636363636363,
         "2024": 8.041666666666666,
         "2025": 9.375,
-        "2026": 4.466666666666667
+        "2026": 4.3125
     },
     "rates": {
         "wins": {
@@ -5551,7 +5563,7 @@
             "2023": 0.0,
             "2024": 0.08333333333333333,
             "2025": 0.0,
-            "2026": 0.06666666666666667
+            "2026": 0.0625
         },
         "podiums": {
             "2007": 0.7058823529411765,
@@ -5573,7 +5585,7 @@
             "2023": 0.2727272727272727,
             "2024": 0.20833333333333334,
             "2025": 0.0,
-            "2026": 0.3333333333333333
+            "2026": 0.375
         },
         "poles": {
             "2007": 0.35294117647058826,
@@ -5617,13 +5629,13 @@
             "2023": 0.09090909090909091,
             "2024": 0.08333333333333333,
             "2025": 0.16666666666666666,
-            "2026": 0.06666666666666667
+            "2026": 0.0625
         }
     },
-    "winRate": 0.2683544303797468,
-    "podiumRate": 0.5240506329113924,
-    "poleRate": 0.26329113924050634,
-    "dnfRate": 0.09873417721518987,
+    "winRate": 0.2676767676767677,
+    "podiumRate": 0.5252525252525253,
+    "poleRate": 0.26262626262626265,
+    "dnfRate": 0.09848484848484848,
     "ptwConRate": {
         "2007": 0.6666666666666666,
         "2008": 0.42857142857142855,
@@ -6080,7 +6092,8 @@
             "Dutch Grand Prix": 1,
             "Italian Grand Prix": -2,
             "Spanish Grand Prix": -18,
-            "Azerbaijan Grand Prix": 0
+            "Azerbaijan Grand Prix": 0,
+            "Bahrain Grand Prix in Malaysia": -1
         }
     }
 }
