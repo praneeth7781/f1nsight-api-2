@@ -1,10 +1,10 @@
 {
     "driverId": "nelleman",
-    "lastUpdate": "2024-08-03T03:38:36.415014",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1976": 0
     },
@@ -15,7 +15,7 @@
         "1976": 0
     },
     "seasonDNFs": {
-        "1976": 1
+        "1976": 0
     },
     "poles": {
         "1976": []
@@ -24,28 +24,24 @@
         "1976": {}
     },
     "DNFs": {
-        "1976": {
-            "Swedish Grand Prix": "Did not qualify"
-        }
+        "1976": {}
     },
     "fastLaps": {
-        "1976": {}
+        "1976": {
+            "Swedish Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1976": {
             "year": "1976",
-            "position": "49",
+            "position": "0",
             "points": "0"
         }
     },
     "posAfterRace": {
         "1976": {
             "year": "1976",
-            "pos": {
-                "Swedish Grand Prix": {
-                    "points": 0
-                }
-            }
+            "pos": {}
         }
     },
     "racePosition": {
@@ -59,7 +55,9 @@
     "qualiPosition": {
         "1976": {
             "year": "1976",
-            "positions": {}
+            "positions": {
+                "Swedish Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -103,7 +101,7 @@
         }
     },
     "avgRacePositions": {
-        "1976": 27.0
+        "1976": -1
     },
     "avgQualiPositions": {
         "1976": -1
@@ -119,17 +117,44 @@
             "1976": 0.0
         },
         "DNFs": {
-            "1976": 1.0
+            "1976": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1976": -1
     },
     "positionsGainLost": {
         "1976": {}
-    }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1976": {
+            "7": {
+                "raceName": "Swedish Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "brabham-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1976": {}
+    },
+    "seasonStarts": {
+        "1976": 0
+    },
+    "totalStarts": 0
 }

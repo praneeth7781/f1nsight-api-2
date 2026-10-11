@@ -1,10 +1,10 @@
 {
     "driverId": "riu",
-    "lastUpdate": "2024-08-03T03:38:39.966782",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1954": 0
     },
@@ -15,7 +15,7 @@
         "1954": 0
     },
     "seasonDNFs": {
-        "1954": 1
+        "1954": 0
     },
     "poles": {
         "1954": []
@@ -24,28 +24,24 @@
         "1954": {}
     },
     "DNFs": {
-        "1954": {
-            "Italian Grand Prix": "Did not qualify"
-        }
+        "1954": {}
     },
     "fastLaps": {
-        "1954": {}
+        "1954": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1954": {
             "year": "1954",
-            "position": "81",
+            "position": "0",
             "points": "0"
         }
     },
     "posAfterRace": {
         "1954": {
             "year": "1954",
-            "pos": {
-                "Italian Grand Prix": {
-                    "points": 0
-                }
-            }
+            "pos": {}
         }
     },
     "racePosition": {
@@ -59,7 +55,9 @@
     "qualiPosition": {
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -103,7 +101,7 @@
         }
     },
     "avgRacePositions": {
-        "1954": 21.0
+        "1954": -1
     },
     "avgQualiPositions": {
         "1954": -1
@@ -119,17 +117,44 @@
             "1954": 0.0
         },
         "DNFs": {
-            "1954": 1.0
+            "1954": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1954": -1
     },
     "positionsGainLost": {
         "1954": {}
-    }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1954": {
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 21,
+                "positionText": "F",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1954": {}
+    },
+    "seasonStarts": {
+        "1954": 0
+    },
+    "totalStarts": 0
 }

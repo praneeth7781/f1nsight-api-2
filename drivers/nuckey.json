@@ -1,10 +1,10 @@
 {
     "driverId": "nuckey",
-    "lastUpdate": "2024-08-03T03:38:36.634354",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1953": 0,
         "1954": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1953": 0,
-        "1954": 1
+        "1954": 0
     },
     "poles": {
         "1953": [],
@@ -31,23 +31,25 @@
     },
     "DNFs": {
         "1953": {},
-        "1954": {
-            "British Grand Prix": "Withdrew"
-        }
+        "1954": {}
     },
     "fastLaps": {
-        "1953": {},
-        "1954": {}
+        "1953": {
+            "German Grand Prix": -1
+        },
+        "1954": {
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1953": {
             "year": "1953",
-            "position": "51",
+            "position": "40",
             "points": "0"
         },
         "1954": {
             "year": "1954",
-            "position": "96",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +58,13 @@
             "year": "1953",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +72,19 @@
             "year": "1954",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +106,15 @@
     "qualiPosition": {
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "20"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "29"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -139,10 +163,10 @@
     },
     "avgRacePositions": {
         "1953": 11.0,
-        "1954": 32.0
+        "1954": -1
     },
     "avgQualiPositions": {
-        "1953": -1,
+        "1953": 20.0,
         "1954": -1
     },
     "rates": {
@@ -166,13 +190,60 @@
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1953": -1,
         "1954": -1
     },
     "positionsGainLost": {
+        "1953": {
+            "German Grand Prix": 9
+        },
+        "1954": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1953": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 32,
+                "positionText": "W",
+                "classified": false,
+                "grid": 29,
+                "points": 0.0,
+                "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1953": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1954": 0
+    },
+    "totalStarts": 1
 }

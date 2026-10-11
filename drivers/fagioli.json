@@ -1,9 +1,9 @@
 {
     "driverId": "fagioli",
-    "lastUpdate": "2024-08-03T03:38:25.040555",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 1,
     "totalPodiums": 6,
-    "totalPoles": 1,
+    "totalPoles": 0,
     "totalDNFs": 1,
     "seasonWins": {
         "1950": 0,
@@ -15,7 +15,7 @@
     },
     "seasonPoles": {
         "1950": 0,
-        "1951": 1
+        "1951": 0
     },
     "seasonDNFs": {
         "1950": 1,
@@ -23,9 +23,7 @@
     },
     "poles": {
         "1950": [],
-        "1951": [
-            "French Grand Prix"
-        ]
+        "1951": []
     },
     "podiums": {
         "1950": {
@@ -46,8 +44,17 @@
         "1951": {}
     },
     "fastLaps": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "British Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Swiss Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1951": {
+            "French Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
@@ -66,22 +73,25 @@
             "year": "1950",
             "pos": {
                 "British Grand Prix": {
-                    "points": 6
+                    "points": 6.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 6
+                    "points": 6.0
+                },
+                "Indianapolis 500": {
+                    "points": 6.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 12
+                    "points": 12.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 18
+                    "points": 18.0
                 },
                 "French Grand Prix": {
-                    "points": 24
+                    "points": 24.0
                 },
                 "Italian Grand Prix": {
-                    "points": 28
+                    "points": 24.0
                 }
             }
         },
@@ -89,7 +99,19 @@
             "year": "1951",
             "pos": {
                 "French Grand Prix": {
-                    "points": 4
+                    "points": 4.0
+                },
+                "British Grand Prix": {
+                    "points": 4.0
+                },
+                "German Grand Prix": {
+                    "points": 4.0
+                },
+                "Italian Grand Prix": {
+                    "points": 4.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 4.0
                 }
             }
         }
@@ -116,11 +138,20 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "2",
+                "Monaco Grand Prix": "5",
+                "Swiss Grand Prix": "3",
+                "Belgian Grand Prix": "3",
+                "French Grand Prix": "3",
+                "Italian Grand Prix": "5"
+            }
         },
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "7"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -137,19 +168,19 @@
         "mean": {
             "wins": 0.5,
             "podiums": 3.0,
-            "poles": 0.5,
+            "poles": 0.0,
             "points": 14.0
         },
         "std": {
             "wins": 0.5,
             "podiums": 2.0,
-            "poles": 0.5,
+            "poles": 0.0,
             "points": 10.0
         },
         "cv": {
             "wins": 1.0,
             "podiums": 0.6666666666666666,
-            "poles": 1.0,
+            "poles": 0,
             "points": 0.7142857142857143
         }
     },
@@ -163,8 +194,8 @@
             "podiums": 5
         },
         "poles": {
-            "season": "1951",
-            "poles": 1
+            "season": "No peak season",
+            "poles": 0
         }
     },
     "avgRacePositions": {
@@ -172,8 +203,8 @@
         "1951": 1.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
+        "1950": 3.5,
+        "1951": 7.0
     },
     "rates": {
         "wins": {
@@ -186,23 +217,147 @@
         },
         "poles": {
             "1950": 0.0,
-            "1951": 1.0
+            "1951": 0.0
         },
         "DNFs": {
             "1950": 0.16666666666666666,
-            "1951": 1.0
+            "1951": 0.0
         }
     },
     "winRate": 0.14285714285714285,
     "podiumRate": 0.8571428571428571,
-    "poleRate": 0.14285714285714285,
+    "poleRate": 0.0,
     "dnfRate": 0.14285714285714285,
     "ptwConRate": {
         "1950": -1,
-        "1951": 1.0
+        "1951": -1
     },
     "positionsGainLost": {
+        "1950": {
+            "British Grand Prix": 0,
+            "Monaco Grand Prix": -7,
+            "Swiss Grand Prix": 1,
+            "Belgian Grand Prix": 1,
+            "French Grand Prix": 1,
+            "Italian Grand Prix": 2
+        },
+        "1951": {
+            "French Grand Prix": 6
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "1": {
+                "raceName": "British Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 2,
+                "points": 6.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 5,
+                "points": 0.0,
+                "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Swiss Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 3,
+                "points": 6.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 3,
+                "points": 6.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 2,
+                "positionText": "2",
+                "classified": true,
+                "grid": 3,
+                "points": 6.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 3,
+                "positionText": "3",
+                "classified": true,
+                "grid": 5,
+                "points": 4.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1951": {
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 1,
+                "positionText": "1",
+                "classified": true,
+                "grid": 7,
+                "points": 4.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {},
         "1951": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 6,
+        "1951": 1
+    },
+    "totalStarts": 7
 }

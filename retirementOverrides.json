@@ -1,0 +1,46 @@
+{
+    "_comment": [
+        "Causes for retirements that Jolpica records only as 'Retired'.",
+        "Since 2024 almost every DNF arrives without a cause, so the car",
+        "reliability controls on the site need this file. Keys: season, round,",
+        "driverId; cause must be one of the causes in statusCategories.json.",
+        "v2/unknownRetirements.json lists every retirement still missing a cause."
+    ],
+    "overrides": [
+        {
+            "season": 2025,
+            "round": 10,
+            "driverId": "norris",
+            "cause": "contact",
+            "note": "Hit the back of Piastri's car on lap 67, Canadian GP."
+        },
+        {
+            "season": 2025,
+            "round": 11,
+            "driverId": "max_verstappen",
+            "cause": "contact",
+            "note": "Hit by Antonelli at turn 3 on lap 1, Austrian GP."
+        },
+        {
+            "season": 2025,
+            "round": 15,
+            "driverId": "norris",
+            "cause": "mechanical",
+            "note": "Oil leak with seven laps to go, Dutch GP."
+        },
+        {
+            "season": 2025,
+            "round": 15,
+            "driverId": "hamilton",
+            "cause": "accident",
+            "note": "Crashed at turn 3 on lap 23 in damp conditions, Dutch GP."
+        },
+        {
+            "season": 2025,
+            "round": 21,
+            "driverId": "hamilton",
+            "cause": "contact",
+            "note": "Retired with damage after first-lap contact, Sao Paulo GP."
+        }
+    ]
+}

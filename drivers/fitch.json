@@ -1,6 +1,6 @@
 {
     "driverId": "fitch",
-    "lastUpdate": "2024-08-03T03:38:25.306794",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,13 +36,17 @@
         "1955": {}
     },
     "fastLaps": {
-        "1953": {},
-        "1955": {}
+        "1953": {
+            "Italian Grand Prix": -1
+        },
+        "1955": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1953": {
             "year": "1953",
-            "position": "104",
+            "position": "40",
             "points": "0"
         },
         "1955": {
@@ -56,7 +60,7 @@
             "year": "1953",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +68,7 @@
             "year": "1955",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +90,15 @@
     "qualiPosition": {
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "26"
+            }
         },
         "1955": {
             "year": "1955",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "20"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -142,8 +150,8 @@
         "1955": 9.0
     },
     "avgQualiPositions": {
-        "1953": -1,
-        "1955": -1
+        "1953": 26.0,
+        "1955": 20.0
     },
     "rates": {
         "wins": {
@@ -160,7 +168,7 @@
         },
         "DNFs": {
             "1953": 1.0,
-            "1955": 1.0
+            "1955": 0.0
         }
     },
     "winRate": 0.0,
@@ -172,7 +180,56 @@
         "1955": -1
     },
     "positionsGainLost": {
+        "1953": {
+            "Italian Grand Prix": -2
+        },
+        "1955": {
+            "Italian Grand Prix": 11
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1953": {
+            "9": {
+                "raceName": "Italian Grand Prix",
+                "position": 28,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "hwm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1955": {
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1953": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1955": 1
+    },
+    "totalStarts": 2
 }

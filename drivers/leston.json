@@ -1,10 +1,10 @@
 {
     "driverId": "leston",
-    "lastUpdate": "2024-08-03T03:38:32.857290",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1956": 0,
         "1957": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1956": 1,
-        "1957": 2
+        "1957": 1
     },
     "poles": {
         "1956": [],
@@ -34,23 +34,27 @@
             "Italian Grand Prix": "Suspension"
         },
         "1957": {
-            "Monaco Grand Prix": "Did not qualify",
             "British Grand Prix": "Engine"
         }
     },
     "fastLaps": {
-        "1956": {},
-        "1957": {}
+        "1956": {
+            "Italian Grand Prix": -1
+        },
+        "1957": {
+            "Monaco Grand Prix": -1,
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1956": {
             "year": "1956",
-            "position": "71",
+            "position": "40",
             "points": "0"
         },
         "1957": {
             "year": "1957",
-            "position": "56",
+            "position": "40",
             "points": "0"
         }
     },
@@ -59,7 +63,7 @@
             "year": "1956",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -67,10 +71,19 @@
             "year": "1957",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Pescara Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -93,11 +106,16 @@
     "qualiPosition": {
         "1956": {
             "year": "1956",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "20"
+            }
         },
         "1957": {
             "year": "1957",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0",
+                "British Grand Prix": "12"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -146,11 +164,11 @@
     },
     "avgRacePositions": {
         "1956": 23.0,
-        "1957": 18.0
+        "1957": 15.0
     },
     "avgQualiPositions": {
-        "1956": -1,
-        "1957": -1
+        "1956": 20.0,
+        "1957": 12.0
     },
     "rates": {
         "wins": {
@@ -167,7 +185,7 @@
         },
         "DNFs": {
             "1956": 1.0,
-            "1957": 0.5
+            "1957": 1.0
         }
     },
     "winRate": 0.0,
@@ -179,7 +197,70 @@
         "1957": -1
     },
     "positionsGainLost": {
+        "1956": {
+            "Italian Grand Prix": -3
+        },
+        "1957": {
+            "British Grand Prix": -3
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1956": {
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "connaught",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1957": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 21,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 12,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1956": {},
         "1957": {}
-    }
+    },
+    "seasonStarts": {
+        "1956": 1,
+        "1957": 1
+    },
+    "totalStarts": 2
 }

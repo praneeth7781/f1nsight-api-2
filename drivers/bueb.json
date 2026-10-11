@@ -1,10 +1,10 @@
 {
     "driverId": "bueb",
-    "lastUpdate": "2024-08-03T03:38:22.217952",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1957": 0,
         "1958": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1957": 1,
         "1958": 1,
-        "1959": 1
+        "1959": 0
     },
     "poles": {
         "1957": [],
@@ -42,29 +42,36 @@
         "1958": {
             "British Grand Prix": "Gearbox"
         },
-        "1959": {
-            "Monaco Grand Prix": "Did not qualify"
-        }
+        "1959": {}
     },
     "fastLaps": {
-        "1957": {},
-        "1958": {},
-        "1959": {}
+        "1957": {
+            "Monaco Grand Prix": -1,
+            "British Grand Prix": -1
+        },
+        "1958": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        },
+        "1959": {
+            "Monaco Grand Prix": -1,
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1957": {
             "year": "1957",
-            "position": "30",
+            "position": "40",
             "points": "0"
         },
         "1958": {
             "year": "1958",
-            "position": "43",
+            "position": "40",
             "points": "0"
         },
         "1959": {
             "year": "1959",
-            "position": "43",
+            "position": "40",
             "points": "0"
         }
     },
@@ -73,10 +80,25 @@
             "year": "1957",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Pescara Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -84,10 +106,19 @@
             "year": "1958",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Moroccan Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -95,10 +126,22 @@
             "year": "1959",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -129,15 +172,24 @@
     "qualiPosition": {
         "1957": {
             "year": "1957",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "16",
+                "British Grand Prix": "19"
+            }
         },
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "17",
+                "German Grand Prix": "16"
+            }
         },
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0",
+                "British Grand Prix": "18"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -191,12 +243,12 @@
     "avgRacePositions": {
         "1957": 9.5,
         "1958": 14.0,
-        "1959": 15.0
+        "1959": 13.0
     },
     "avgQualiPositions": {
-        "1957": -1,
-        "1958": -1,
-        "1959": -1
+        "1957": 17.5,
+        "1958": 16.5,
+        "1959": 18.0
     },
     "rates": {
         "wins": {
@@ -217,21 +269,134 @@
         "DNFs": {
             "1957": 0.5,
             "1958": 0.5,
-            "1959": 0.5
+            "1959": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5,
+    "dnfRate": 0.4,
     "ptwConRate": {
         "1957": -1,
         "1958": -1,
         "1959": -1
     },
     "positionsGainLost": {
+        "1957": {
+            "Monaco Grand Prix": 5,
+            "British Grand Prix": 11
+        },
+        "1958": {
+            "British Grand Prix": 0,
+            "German Grand Prix": 5
+        },
+        "1959": {
+            "British Grand Prix": 5
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1957": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 11,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "connaught",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+19 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1958": {
+            "7": {
+                "raceName": "British Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "connaught",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "German Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "team_lotus",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1959": {
+            "1": {
+                "raceName": "Monaco Grand Prix",
+                "position": 17,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "cooper-borgward",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1957": {},
         "1958": {},
         "1959": {}
-    }
+    },
+    "seasonStarts": {
+        "1957": 2,
+        "1958": 2,
+        "1959": 1
+    },
+    "totalStarts": 5
 }

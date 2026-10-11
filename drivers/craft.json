@@ -1,10 +1,10 @@
 {
     "driverId": "craft",
-    "lastUpdate": "2024-08-03T03:38:23.715703",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1971": 0
     },
@@ -15,7 +15,7 @@
         "1971": 0
     },
     "seasonDNFs": {
-        "1971": 2
+        "1971": 1
     },
     "poles": {
         "1971": []
@@ -25,17 +25,19 @@
     },
     "DNFs": {
         "1971": {
-            "Canadian Grand Prix": "Did not qualify",
             "United States Grand Prix": "Suspension"
         }
     },
     "fastLaps": {
-        "1971": {}
+        "1971": {
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1971": {
             "year": "1971",
-            "position": "48",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,11 +45,8 @@
         "1971": {
             "year": "1971",
             "pos": {
-                "Canadian Grand Prix": {
-                    "points": 0
-                },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -64,7 +63,10 @@
     "qualiPosition": {
         "1971": {
             "year": "1971",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "0",
+                "United States Grand Prix": "27"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -108,10 +110,10 @@
         }
     },
     "avgRacePositions": {
-        "1971": 25.0
+        "1971": 24.0
     },
     "avgQualiPositions": {
-        "1971": -1
+        "1971": 27.0
     },
     "rates": {
         "wins": {
@@ -135,6 +137,49 @@
         "1971": -1
     },
     "positionsGainLost": {
+        "1971": {
+            "United States Grand Prix": 3
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1971": {
+            "10": {
+                "raceName": "Canadian Grand Prix",
+                "position": 26,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "brabham",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "United States Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 27,
+                "points": 0.0,
+                "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "brabham",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1971": {}
-    }
+    },
+    "seasonStarts": {
+        "1971": 1
+    },
+    "totalStarts": 1
 }

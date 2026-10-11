@@ -1,10 +1,10 @@
 {
     "driverId": "koinigg",
-    "lastUpdate": "2024-08-03T03:38:31.635890",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1974": 0
     },
@@ -15,7 +15,7 @@
         "1974": 0
     },
     "seasonDNFs": {
-        "1974": 2
+        "1974": 1
     },
     "poles": {
         "1974": []
@@ -25,17 +25,19 @@
     },
     "DNFs": {
         "1974": {
-            "Austrian Grand Prix": "Did not qualify",
             "United States Grand Prix": "Fatal accident"
         }
     },
     "fastLaps": {
-        "1974": {}
+        "1974": {
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1974": {
             "year": "1974",
-            "position": "33",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,14 +45,11 @@
         "1974": {
             "year": "1974",
             "pos": {
-                "Austrian Grand Prix": {
-                    "points": 0
-                },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -59,7 +58,6 @@
         "1974": {
             "year": "1974",
             "positions": {
-                "Austrian Grand Prix": "31",
                 "Canadian Grand Prix": "10",
                 "United States Grand Prix": "23"
             }
@@ -68,7 +66,10 @@
     "qualiPosition": {
         "1974": {
             "year": "1974",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "22",
+                "United States Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -112,10 +113,10 @@
         }
     },
     "avgRacePositions": {
-        "1974": 21.333333333333332
+        "1974": 16.5
     },
     "avgQualiPositions": {
-        "1974": -1
+        "1974": 22.5
     },
     "rates": {
         "wins": {
@@ -128,17 +129,61 @@
             "1974": 0.0
         },
         "DNFs": {
-            "1974": 0.6666666666666666
+            "1974": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1974": -1
     },
     "positionsGainLost": {
+        "1974": {
+            "Canadian Grand Prix": 12,
+            "United States Grand Prix": 0
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1974": {
+            "14": {
+                "raceName": "Canadian Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "surtees",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "United States Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Fatal accident",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "surtees",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1974": {}
-    }
+    },
+    "seasonStarts": {
+        "1974": 2
+    },
+    "totalStarts": 2
 }

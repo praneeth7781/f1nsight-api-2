@@ -1,6 +1,6 @@
 {
     "driverId": "morgan",
-    "lastUpdate": "2024-08-03T03:38:35.934248",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,14 @@
         }
     },
     "fastLaps": {
-        "1975": {}
+        "1975": {
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1975": {
             "year": "1975",
-            "position": "43",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,7 +45,19 @@
             "year": "1975",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -59,7 +73,9 @@
     "qualiPosition": {
         "1975": {
             "year": "1975",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "23"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -106,7 +122,7 @@
         "1975": 18.0
     },
     "avgQualiPositions": {
-        "1975": -1
+        "1975": 23.0
     },
     "rates": {
         "wins": {
@@ -130,6 +146,35 @@
         "1975": -1
     },
     "positionsGainLost": {
+        "1975": {
+            "British Grand Prix": 5
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1975": {
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 18,
+                "positionText": "18",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "surtees",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1975": {}
-    }
+    },
+    "seasonStarts": {
+        "1975": 1
+    },
+    "totalStarts": 1
 }

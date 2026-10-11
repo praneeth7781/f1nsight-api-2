@@ -1,10 +1,10 @@
 {
     "driverId": "gaillard",
-    "lastUpdate": "2024-08-03T03:38:25.762710",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 1,
     "seasonWins": {
         "1979": 0
     },
@@ -15,7 +15,7 @@
         "1979": 0
     },
     "seasonDNFs": {
-        "1979": 4
+        "1979": 1
     },
     "poles": {
         "1979": []
@@ -25,19 +25,22 @@
     },
     "DNFs": {
         "1979": {
-            "French Grand Prix": "Did not qualify",
-            "German Grand Prix": "Did not qualify",
-            "Austrian Grand Prix": "Suspension",
-            "Dutch Grand Prix": "Did not qualify"
+            "Austrian Grand Prix": "Suspension"
         }
     },
     "fastLaps": {
-        "1979": {}
+        "1979": {
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Dutch Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1979": {
             "year": "1979",
-            "position": "31",
+            "position": "40",
             "points": "0"
         }
     },
@@ -45,20 +48,26 @@
         "1979": {
             "year": "1979",
             "pos": {
-                "French Grand Prix": {
-                    "points": 0
-                },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -78,7 +87,13 @@
     "qualiPosition": {
         "1979": {
             "year": "1979",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "0",
+                "British Grand Prix": "23",
+                "German Grand Prix": "0",
+                "Austrian Grand Prix": "24",
+                "Dutch Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -122,10 +137,10 @@
         }
     },
     "avgRacePositions": {
-        "1979": 20.2
+        "1979": 12.5
     },
     "avgQualiPositions": {
-        "1979": -1
+        "1979": 23.5
     },
     "rates": {
         "wins": {
@@ -138,17 +153,103 @@
             "1979": 0.0
         },
         "DNFs": {
-            "1979": 0.8
+            "1979": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1979": -1
     },
     "positionsGainLost": {
+        "1979": {
+            "British Grand Prix": 10,
+            "Austrian Grand Prix": 12
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1979": {
+            "8": {
+                "raceName": "French Grand Prix",
+                "position": 26,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "British Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "German Grand Prix",
+                "position": 25,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Austrian Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Dutch Grand Prix",
+                "position": 25,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "ensign",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1979": {}
-    }
+    },
+    "seasonStarts": {
+        "1979": 2
+    },
+    "totalStarts": 2
 }

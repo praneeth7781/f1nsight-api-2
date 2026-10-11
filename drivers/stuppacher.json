@@ -1,10 +1,10 @@
 {
     "driverId": "stuppacher",
-    "lastUpdate": "2024-08-03T03:38:42.500319",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 0,
     "seasonWins": {
         "1976": 0
     },
@@ -15,7 +15,7 @@
         "1976": 0
     },
     "seasonDNFs": {
-        "1976": 3
+        "1976": 0
     },
     "poles": {
         "1976": []
@@ -24,19 +24,19 @@
         "1976": {}
     },
     "DNFs": {
-        "1976": {
-            "Italian Grand Prix": "Withdrew",
-            "Canadian Grand Prix": "Did not qualify",
-            "United States Grand Prix": "Did not qualify"
-        }
+        "1976": {}
     },
     "fastLaps": {
-        "1976": {}
+        "1976": {
+            "Italian Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1976": {
             "year": "1976",
-            "position": "48",
+            "position": "40",
             "points": "0"
         }
     },
@@ -45,13 +45,16 @@
             "year": "1976",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -69,7 +72,11 @@
     "qualiPosition": {
         "1976": {
             "year": "1976",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "0",
+                "Canadian Grand Prix": "0",
+                "United States Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -113,7 +120,7 @@
         }
     },
     "avgRacePositions": {
-        "1976": 27.666666666666668
+        "1976": -1
     },
     "avgQualiPositions": {
         "1976": -1
@@ -129,17 +136,72 @@
             "1976": 0.0
         },
         "DNFs": {
-            "1976": 1.0
+            "1976": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1976": -1
     },
     "positionsGainLost": {
         "1976": {}
-    }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1976": {
+            "13": {
+                "raceName": "Italian Grand Prix",
+                "position": 29,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Canadian Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "United States Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1976": {}
+    },
+    "seasonStarts": {
+        "1976": 0
+    },
+    "totalStarts": 0
 }

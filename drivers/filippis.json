@@ -1,10 +1,10 @@
 {
     "driverId": "filippis",
-    "lastUpdate": "2024-08-03T03:38:25.156559",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 2,
     "seasonWins": {
         "1958": 0,
         "1959": 0
@@ -18,8 +18,8 @@
         "1959": 0
     },
     "seasonDNFs": {
-        "1958": 3,
-        "1959": 1
+        "1958": 2,
+        "1959": 0
     },
     "poles": {
         "1958": [],
@@ -31,17 +31,20 @@
     },
     "DNFs": {
         "1958": {
-            "Monaco Grand Prix": "Did not qualify",
             "Portuguese Grand Prix": "Engine",
             "Italian Grand Prix": "Engine"
         },
-        "1959": {
-            "Monaco Grand Prix": "Did not qualify"
-        }
+        "1959": {}
     },
     "fastLaps": {
-        "1958": {},
-        "1959": {}
+        "1958": {
+            "Belgian Grand Prix": -1,
+            "Portuguese Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1959": {
+            "Monaco Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1958": {
@@ -51,7 +54,7 @@
         },
         "1959": {
             "year": "1959",
-            "position": "63",
+            "position": "21",
             "points": "0"
         }
     },
@@ -59,17 +62,26 @@
         "1958": {
             "year": "1958",
             "pos": {
-                "Monaco Grand Prix": {
-                    "points": 0
-                },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Portuguese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Moroccan Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -77,7 +89,7 @@
             "year": "1959",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -86,7 +98,6 @@
         "1958": {
             "year": "1958",
             "positions": {
-                "Monaco Grand Prix": "22",
                 "Belgian Grand Prix": "10",
                 "Portuguese Grand Prix": "15",
                 "Italian Grand Prix": "8"
@@ -102,11 +113,17 @@
     "qualiPosition": {
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "Belgian Grand Prix": "19",
+                "Portuguese Grand Prix": "15",
+                "Italian Grand Prix": "21"
+            }
         },
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -154,11 +171,11 @@
         }
     },
     "avgRacePositions": {
-        "1958": 13.75,
-        "1959": 21.0
+        "1958": 11.0,
+        "1959": -1
     },
     "avgQualiPositions": {
-        "1958": -1,
+        "1958": 18.333333333333332,
         "1959": -1
     },
     "rates": {
@@ -175,20 +192,97 @@
             "1959": 0.0
         },
         "DNFs": {
-            "1958": 0.75,
-            "1959": 3.0
+            "1958": 0.6666666666666666,
+            "1959": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8,
+    "dnfRate": 0.6666666666666666,
     "ptwConRate": {
         "1958": -1,
         "1959": -1
     },
     "positionsGainLost": {
+        "1958": {
+            "Belgian Grand Prix": 9,
+            "Portuguese Grand Prix": 0,
+            "Italian Grand Prix": 13
+        },
+        "1959": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1958": {
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Portuguese Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Italian Grand Prix",
+                "position": 8,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1959": {
+            "1": {
+                "raceName": "Monaco Grand Prix",
+                "position": 21,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "porsche",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1958": {},
         "1959": {}
-    }
+    },
+    "seasonStarts": {
+        "1958": 3,
+        "1959": 0
+    },
+    "totalStarts": 3
 }

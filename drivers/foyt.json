@@ -1,6 +1,6 @@
 {
     "driverId": "foyt",
-    "lastUpdate": "2024-08-03T03:38:25.514142",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -45,24 +45,30 @@
         }
     },
     "fastLaps": {
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1958": {
+            "Indianapolis 500": -1
+        },
+        "1959": {
+            "Indianapolis 500": -1
+        },
+        "1960": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1958": {
             "year": "1958",
-            "position": "55",
+            "position": "40",
             "points": "0"
         },
         "1959": {
             "year": "1959",
-            "position": "37",
+            "position": "40",
             "points": "0"
         },
         "1960": {
             "year": "1960",
-            "position": "68",
+            "position": "40",
             "points": "0"
         }
     },
@@ -71,7 +77,28 @@
             "year": "1958",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Moroccan Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -79,7 +106,28 @@
             "year": "1959",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -87,7 +135,28 @@
             "year": "1960",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -115,15 +184,21 @@
     "qualiPosition": {
         "1958": {
             "year": "1958",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "12"
+            }
         },
         "1959": {
             "year": "1959",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "17"
+            }
         },
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "16"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -180,9 +255,9 @@
         "1960": 25.0
     },
     "avgQualiPositions": {
-        "1958": -1,
-        "1959": -1,
-        "1960": -1
+        "1958": 12.0,
+        "1959": 17.0,
+        "1960": 16.0
     },
     "rates": {
         "wins": {
@@ -202,7 +277,7 @@
         },
         "DNFs": {
             "1958": 1.0,
-            "1959": 1.0,
+            "1959": 0.0,
             "1960": 1.0
         }
     },
@@ -216,8 +291,77 @@
         "1960": -1
     },
     "positionsGainLost": {
+        "1958": {
+            "Indianapolis 500": -4
+        },
+        "1959": {
+            "Indianapolis 500": 7
+        },
+        "1960": {
+            "Indianapolis 500": -9
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1958": {
+            "4": {
+                "raceName": "Indianapolis 500",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 12,
+                "points": 0.0,
+                "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "kuzma",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1959": {
+            "2": {
+                "raceName": "Indianapolis 500",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "kuzma",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1960": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 25,
+                "positionText": "25",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1958": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1958": 1,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 3
 }

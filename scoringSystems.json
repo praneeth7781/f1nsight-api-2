@@ -1,0 +1,291 @@
+{
+  "_comment": "Single source of truth for official and hypothetical F1 scoring. The frontend reads this file directly.",
+  "gaps": {
+    "fastestLapUnavailable": {
+      "from": 1960,
+      "to": 2003,
+      "note": "No fastest-lap data. Hypothetical fastest-lap bonuses are not awarded in these seasons."
+    }
+  },
+  "inProgressSeason": {
+    "year": 2026,
+    "note": "Informational label only. Own-era mismatches are treated as in-progress solely for the current incomplete season, not every year at or after this year."
+  },
+  "notes": {
+    "minDistancePercent": "Documented FIA fastest-lap distance rule only. score_entries does not apply minDistancePercent."
+  },
+  "ownEraExceptions": [
+    {
+      "season": 1955,
+      "kind": "drivers",
+      "id": "trintignant",
+      "race": {"season": 1955, "round": "1", "raceName": "Argentine Grand Prix"},
+      "cause": "Jolpica standings omit the second Argentine GP car (P3 share 1.33). Each car is a separate dropped-score result; Wikipedia 11⅓."
+    },
+    {
+      "season": 1955,
+      "kind": "drivers",
+      "id": "farina",
+      "race": {"season": 1955, "round": "1", "raceName": "Argentine Grand Prix"},
+      "cause": "Jolpica standings omit the second Argentine GP car (P3 share 1.33). Each car is a separate dropped-score result; Wikipedia 10⅓."
+    },
+    {
+      "season": 1967,
+      "kind": "drivers",
+      "id": "jack_brabham",
+      "race": {"season": 1967, "round": "10", "raceName": "United States Grand Prix"},
+      "cause": "Split drop (best 4 of last 5) removes the US GP 2 points. Jolpica standings keep them (48 vs historical 46)."
+    },
+    {
+      "season": 1977,
+      "kind": "drivers",
+      "id": "lauda",
+      "race": {"season": 1977, "round": "9", "raceName": "French Grand Prix"},
+      "cause": "Split drop 8-of-first-9 + 7-of-last-8 from results is 72 (Wikipedia). Jolpica standings are 70, equal to dropping the French GP 2 points."
+    },
+    {
+      "season": 1977,
+      "kind": "drivers",
+      "id": "reutemann",
+      "race": {"season": 1977, "round": "9", "raceName": "French Grand Prix"},
+      "cause": "Split drop from results is 42 (Wikipedia). Jolpica standings are 41, equal to dropping a 1-point finish from the first half."
+    },
+    {
+      "season": 2018,
+      "kind": "constructors",
+      "id": "force_india",
+      "cause": "Mid-season re-entry: race-file sum 111, official constructors championship 52. Rescoring cannot invent the FIA reset."
+    },
+    {
+      "season": 2020,
+      "kind": "constructors",
+      "id": "racing_point",
+      "cause": "15-point FIA deduction (Racing Point brake-duct protest). Race-file sum 210, official 195."
+    }
+  ],
+  "shortenedRaces": {
+    "halfPoints": [
+      {"season": 1975, "round": "4", "raceName": "Spanish Grand Prix"},
+      {"season": 1975, "round": "12", "raceName": "Austrian Grand Prix"},
+      {"season": 1984, "round": "6", "raceName": "Monaco Grand Prix"},
+      {"season": 1991, "round": "16", "raceName": "Australian Grand Prix"},
+      {"season": 2009, "round": "2", "raceName": "Malaysian Grand Prix"},
+      {"season": 2021, "round": "12", "raceName": "Belgian Grand Prix"}
+    ],
+    "doublePoints": [
+      {"season": 2014, "round": "19", "raceName": "Abu Dhabi Grand Prix"}
+    ],
+    "slidingScale": {
+      "neverUsedInARace": true,
+      "fromYear": 2022,
+      "note": "More than 2 laps but under 75% used to pay half points (six races). From 2022 a sliding scale applies, but it has never been used.",
+      "tiers": [
+        {"minPercent": 0, "maxPercent": 25, "exclusiveMax": true, "points": [6, 4, 3, 2, 1]},
+        {"minPercent": 25, "maxPercent": 50, "exclusiveMax": true, "points": [13, 10, 8, 6, 5, 4, 3, 2, 1]},
+        {"minPercent": 50, "maxPercent": 75, "exclusiveMax": true, "points": [19, 14, 12, 9, 8, 6, 5, 3, 2, 1]}
+      ]
+    }
+  },
+  "sharedCars": {
+    "splitThrough": 1957,
+    "zeroFrom": 1958,
+    "note": "1950–1957: position points split equally among drivers sharing a car. From 1958 shared cars score 0."
+  },
+    "sprint": {
+    "firstSeason": 2021,
+    "note": "Systems from before 2021 award nothing for sprints. A sprint suspended and not resumed before 50% distance awards no points; at 50% or more it awards full points. There is no sliding scale for sprints."
+  },
+  "dropRules": {
+    "drivers": {
+      "1950": {"type": "bestN", "n": 4},
+      "1951": {"type": "bestN", "n": 4},
+      "1952": {"type": "bestN", "n": 4},
+      "1953": {"type": "bestN", "n": 4},
+      "1954": {"type": "bestN", "n": 5},
+      "1955": {"type": "bestN", "n": 5},
+      "1956": {"type": "bestN", "n": 5},
+      "1957": {"type": "bestN", "n": 5},
+      "1958": {"type": "bestN", "n": 6},
+      "1959": {"type": "bestN", "n": 5},
+      "1960": {"type": "bestN", "n": 6},
+      "1961": {"type": "bestN", "n": 5},
+      "1962": {"type": "bestN", "n": 5},
+      "1963": {"type": "bestN", "n": 6},
+      "1964": {"type": "bestN", "n": 6},
+      "1965": {"type": "bestN", "n": 6},
+      "1966": {"type": "bestN", "n": 5},
+      "1967": {"type": "split", "halves": [{"races": 6, "best": 5}, {"races": 5, "best": 4}]},
+      "1968": {"type": "split", "halves": [{"races": 6, "best": 5}, {"races": 6, "best": 5}]},
+      "1969": {"type": "split", "halves": [{"races": 6, "best": 5}, {"races": 5, "best": 4}]},
+      "1970": {"type": "split", "halves": [{"races": 7, "best": 6}, {"races": 6, "best": 5}]},
+      "1971": {"type": "split", "halves": [{"races": 6, "best": 5}, {"races": 5, "best": 4}]},
+      "1972": {"type": "split", "halves": [{"races": 6, "best": 5}, {"races": 6, "best": 5}]},
+      "1973": {"type": "split", "halves": [{"races": 8, "best": 7}, {"races": 7, "best": 6}]},
+      "1974": {"type": "split", "halves": [{"races": 8, "best": 7}, {"races": 7, "best": 6}]},
+      "1975": {"type": "split", "halves": [{"races": 8, "best": 7}, {"races": 6, "best": 5}]},
+      "1976": {"type": "split", "halves": [{"races": 8, "best": 7}, {"races": 8, "best": 7}]},
+      "1977": {"type": "split", "halves": [{"races": 9, "best": 8}, {"races": 8, "best": 7}]},
+      "1978": {"type": "split", "halves": [{"races": 8, "best": 7}, {"races": 8, "best": 7}]},
+      "1979": {"type": "split", "halves": [{"races": 7, "best": 4}, {"races": 8, "best": 4}]},
+      "1980": {"type": "split", "halves": [{"races": 7, "best": 5}, {"races": 7, "best": 5}]},
+      "1981": {"type": "bestN", "n": 11},
+      "1982": {"type": "bestN", "n": 11},
+      "1983": {"type": "bestN", "n": 11},
+      "1984": {"type": "bestN", "n": 11},
+      "1985": {"type": "bestN", "n": 11},
+      "1986": {"type": "bestN", "n": 11},
+      "1987": {"type": "bestN", "n": 11},
+      "1988": {"type": "bestN", "n": 11},
+      "1989": {"type": "bestN", "n": 11},
+      "1990": {"type": "bestN", "n": 11}
+    },
+    "constructors": {
+      "started": 1958,
+      "bestCarOnlyThrough": 1978,
+      "indyNeverCounts": true,
+      "fastestLapNeverForConstructorsThrough": 1959,
+      "note": "1958–1978: only the team's highest-placed car scored, with the same dropped-score rules as drivers. From 1979 every car scores and nothing is dropped. Indy 500 results never counted for constructors."
+    }
+  },
+  "countback": {
+    "note": "Ties on points are broken by most Grand Prix wins, then most 2nds, then most 3rds, and so on. Sprint results are excluded."
+  },
+  "systems": [
+    {
+      "id": "1950-1959",
+      "label": "1950–1959",
+      "yearFrom": 1950,
+      "yearTo": 1959,
+      "racePoints": [8, 6, 4, 3, 2],
+      "sprintPoints": [],
+      "fastestLap": {
+        "points": 1,
+        "splitTies": true,
+        "top10Only": false,
+        "minDistancePercent": null,
+        "constructors": false
+      }
+    },
+    {
+      "id": "1960",
+      "label": "1960",
+      "yearFrom": 1960,
+      "yearTo": 1960,
+      "racePoints": [8, 6, 4, 3, 2, 1],
+      "sprintPoints": [],
+      "fastestLap": {
+        "points": 0,
+        "splitTies": false,
+        "top10Only": false,
+        "minDistancePercent": null,
+        "constructors": false
+      }
+    },
+    {
+      "id": "1961-1990",
+      "label": "1961–1990",
+      "yearFrom": 1961,
+      "yearTo": 1990,
+      "racePoints": [9, 6, 4, 3, 2, 1],
+      "sprintPoints": [],
+      "fastestLap": {
+        "points": 0,
+        "splitTies": false,
+        "top10Only": false,
+        "minDistancePercent": null,
+        "constructors": false
+      }
+    },
+    {
+      "id": "1991-2002",
+      "label": "1991–2002",
+      "yearFrom": 1991,
+      "yearTo": 2002,
+      "racePoints": [10, 6, 4, 3, 2, 1],
+      "sprintPoints": [],
+      "fastestLap": {
+        "points": 0,
+        "splitTies": false,
+        "top10Only": false,
+        "minDistancePercent": null,
+        "constructors": false
+      }
+    },
+    {
+      "id": "2003-2009",
+      "label": "2003–2009",
+      "yearFrom": 2003,
+      "yearTo": 2009,
+      "racePoints": [10, 8, 6, 5, 4, 3, 2, 1],
+      "sprintPoints": [],
+      "fastestLap": {
+        "points": 0,
+        "splitTies": false,
+        "top10Only": false,
+        "minDistancePercent": null,
+        "constructors": false
+      }
+    },
+    {
+      "id": "2010-2018",
+      "label": "2010–2018",
+      "yearFrom": 2010,
+      "yearTo": 2018,
+      "racePoints": [25, 18, 15, 12, 10, 8, 6, 4, 2, 1],
+      "sprintPoints": [],
+      "fastestLap": {
+        "points": 0,
+        "splitTies": false,
+        "top10Only": false,
+        "minDistancePercent": null,
+        "constructors": false
+      }
+    },
+    {
+      "id": "2019-2021",
+      "label": "2019–2021",
+      "yearFrom": 2019,
+      "yearTo": 2021,
+      "racePoints": [25, 18, 15, 12, 10, 8, 6, 4, 2, 1],
+      "sprintPoints": [3, 2, 1],
+      "fastestLap": {
+        "points": 1,
+        "splitTies": false,
+        "top10Only": true,
+        "minDistancePercent": null,
+        "constructors": true
+      }
+    },
+    {
+      "id": "2022-2024",
+      "label": "2022–2024",
+      "yearFrom": 2022,
+      "yearTo": 2024,
+      "racePoints": [25, 18, 15, 12, 10, 8, 6, 4, 2, 1],
+      "sprintPoints": [8, 7, 6, 5, 4, 3, 2, 1],
+      "fastestLap": {
+        "points": 1,
+        "splitTies": false,
+        "top10Only": true,
+        "minDistancePercent": 50,
+        "minDistancePercentApplied": false,
+        "constructors": true
+      }
+    },
+    {
+      "id": "2025-onward",
+      "label": "2025 onward",
+      "yearFrom": 2025,
+      "yearTo": null,
+      "racePoints": [25, 18, 15, 12, 10, 8, 6, 4, 2, 1],
+      "sprintPoints": [8, 7, 6, 5, 4, 3, 2, 1],
+      "fastestLap": {
+        "points": 0,
+        "splitTies": false,
+        "top10Only": false,
+        "minDistancePercent": null,
+        "constructors": false
+      }
+    }
+  ]
+}

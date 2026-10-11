@@ -1,10 +1,10 @@
 {
     "driverId": "reg_parnell",
-    "lastUpdate": "2024-08-03T03:38:39.467206",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1950": 0,
         "1951": 0,
@@ -25,7 +25,7 @@
     },
     "seasonDNFs": {
         "1950": 1,
-        "1951": 1,
+        "1951": 0,
         "1952": 0,
         "1954": 1
     },
@@ -47,19 +47,28 @@
         "1950": {
             "French Grand Prix": "Engine"
         },
-        "1951": {
-            "Italian Grand Prix": "Withdrew"
-        },
+        "1951": {},
         "1952": {},
         "1954": {
             "British Grand Prix": "Engine"
         }
     },
     "fastLaps": {
-        "1950": {},
-        "1951": {},
-        "1952": {},
-        "1954": {}
+        "1950": {
+            "British Grand Prix": -1,
+            "French Grand Prix": -1
+        },
+        "1951": {
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "Italian Grand Prix": -1
+        },
+        "1952": {
+            "British Grand Prix": -1
+        },
+        "1954": {
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
@@ -74,12 +83,12 @@
         },
         "1952": {
             "year": "1952",
-            "position": "31",
+            "position": "40",
             "points": "0"
         },
         "1954": {
             "year": "1954",
-            "position": "86",
+            "position": "40",
             "points": "0"
         }
     },
@@ -88,10 +97,25 @@
             "year": "1950",
             "pos": {
                 "British Grand Prix": {
-                    "points": 4
+                    "points": 4.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 4.0
+                },
+                "Indianapolis 500": {
+                    "points": 4.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 4.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 4.0
                 },
                 "French Grand Prix": {
-                    "points": 4
+                    "points": 4.0
+                },
+                "Italian Grand Prix": {
+                    "points": 4.0
                 }
             }
         },
@@ -99,13 +123,19 @@
             "year": "1951",
             "pos": {
                 "French Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "British Grand Prix": {
-                    "points": 5
+                    "points": 5.0
+                },
+                "German Grand Prix": {
+                    "points": 5.0
                 },
                 "Italian Grand Prix": {
-                    "points": 5
+                    "points": 5.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 5.0
                 }
             }
         },
@@ -113,7 +143,16 @@
             "year": "1952",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -121,7 +160,19 @@
             "year": "1954",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -158,19 +209,30 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "4",
+                "French Grand Prix": "11"
+            }
         },
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "9",
+                "British Grand Prix": "20",
+                "Italian Grand Prix": "8"
+            }
         },
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "6"
+            }
         },
         "1954": {
             "year": "1954",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "14"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -227,15 +289,15 @@
     },
     "avgRacePositions": {
         "1950": 8.0,
-        "1951": 10.0,
+        "1951": 4.5,
         "1952": 7.0,
         "1954": 23.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1,
-        "1954": -1
+        "1950": 7.5,
+        "1951": 14.5,
+        "1952": 6.0,
+        "1954": 14.0
     },
     "rates": {
         "wins": {
@@ -258,15 +320,15 @@
         },
         "DNFs": {
             "1950": 0.5,
-            "1951": 0.3333333333333333,
-            "1952": 1.0,
+            "1951": 0.0,
+            "1952": 0.0,
             "1954": 1.0
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.14285714285714285,
+    "podiumRate": 0.16666666666666666,
     "poleRate": 0.0,
-    "dnfRate": 0.42857142857142855,
+    "dnfRate": 0.3333333333333333,
     "ptwConRate": {
         "1950": -1,
         "1951": -1,
@@ -274,9 +336,142 @@
         "1954": -1
     },
     "positionsGainLost": {
+        "1950": {
+            "British Grand Prix": 1,
+            "French Grand Prix": -2
+        },
+        "1951": {
+            "French Grand Prix": 5,
+            "British Grand Prix": 15
+        },
+        "1952": {
+            "British Grand Prix": -1
+        },
+        "1954": {
+            "British Grand Prix": -9
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "1": {
+                "raceName": "British Grand Prix",
+                "position": 3,
+                "positionText": "3",
+                "classified": true,
+                "grid": 4,
+                "points": 4.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "alfa",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "maserati",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1951": {
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 9,
+                "points": 3.0,
+                "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 20,
+                "points": 2.0,
+                "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 21,
+                "positionText": "W",
+                "classified": false,
+                "grid": 8,
+                "points": 0.0,
+                "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1952": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 6,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "cooper",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1954": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {},
         "1951": {},
         "1952": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 2,
+        "1951": 2,
+        "1952": 1,
+        "1954": 1
+    },
+    "totalStarts": 6
 }

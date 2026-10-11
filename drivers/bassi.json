@@ -1,6 +1,6 @@
 {
     "driverId": "bassi",
-    "lastUpdate": "2024-08-03T03:38:20.588286",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -29,12 +29,14 @@
         }
     },
     "fastLaps": {
-        "1965": {}
+        "1965": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1965": {
             "year": "1965",
-            "position": "44",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,7 +45,13 @@
             "year": "1965",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -59,7 +67,9 @@
     "qualiPosition": {
         "1965": {
             "year": "1965",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "22"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -106,7 +116,7 @@
         "1965": 23.0
     },
     "avgQualiPositions": {
-        "1965": -1
+        "1965": 22.0
     },
     "rates": {
         "wins": {
@@ -130,6 +140,35 @@
         "1965": -1
     },
     "positionsGainLost": {
+        "1965": {
+            "Italian Grand Prix": -1
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1965": {
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1965": {}
-    }
+    },
+    "seasonStarts": {
+        "1965": 1
+    },
+    "totalStarts": 1
 }

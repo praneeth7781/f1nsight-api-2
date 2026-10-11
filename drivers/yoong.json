@@ -1,10 +1,10 @@
 {
     "driverId": "yoong",
-    "lastUpdate": "2024-08-03T03:38:45.632223",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 10,
+    "totalDNFs": 8,
     "seasonWins": {
         "2001": 0,
         "2002": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "2001": 2,
-        "2002": 8
+        "2002": 6
     },
     "poles": {
         "2001": [],
@@ -36,8 +36,6 @@
         },
         "2002": {
             "Malaysian Grand Prix": "Gearbox",
-            "San Marino Grand Prix": "107% Rule",
-            "Spanish Grand Prix": "Safety",
             "Austrian Grand Prix": "Engine",
             "Monaco Grand Prix": "Accident",
             "European Grand Prix": "Hydraulics",
@@ -46,8 +44,26 @@
         }
     },
     "fastLaps": {
-        "2001": {},
-        "2002": {}
+        "2001": {
+            "Italian Grand Prix": -1,
+            "United States Grand Prix": -1,
+            "Japanese Grand Prix": -1
+        },
+        "2002": {
+            "Australian Grand Prix": -1,
+            "Malaysian Grand Prix": -1,
+            "Brazilian Grand Prix": -1,
+            "San Marino Grand Prix": -1,
+            "Spanish Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "European Grand Prix": -1,
+            "French Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "United States Grand Prix": -1,
+            "Japanese Grand Prix": -1
+        }
     },
     "finalStandings": {
         "2001": {
@@ -65,14 +81,8 @@
         "2001": {
             "year": "2001",
             "pos": {
-                "Italian Grand Prix": {
-                    "points": 0
-                },
-                "United States Grand Prix": {
-                    "points": 0
-                },
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -80,43 +90,55 @@
             "year": "2002",
             "pos": {
                 "Australian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Malaysian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Brazilian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "San Marino Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "European Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Hungarian Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Japanese Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -153,13 +175,26 @@
         "2001": {
             "year": "2001",
             "positions": {
-                "United States Grand Prix": "22"
+                "Italian Grand Prix": "22",
+                "United States Grand Prix": "22",
+                "Japanese Grand Prix": "22"
             }
         },
         "2002": {
             "year": "2002",
             "positions": {
+                "Australian Grand Prix": "21",
                 "Malaysian Grand Prix": "22",
+                "Brazilian Grand Prix": "22",
+                "San Marino Grand Prix": "0",
+                "Spanish Grand Prix": "21",
+                "Austrian Grand Prix": "22",
+                "Monaco Grand Prix": "22",
+                "Canadian Grand Prix": "22",
+                "European Grand Prix": "22",
+                "French Grand Prix": "19",
+                "Italian Grand Prix": "20",
+                "United States Grand Prix": "20",
                 "Japanese Grand Prix": "20"
             }
         }
@@ -227,11 +262,11 @@
     },
     "avgRacePositions": {
         "2001": 16.666666666666668,
-        "2002": 15.692307692307692
+        "2002": 14.545454545454545
     },
     "avgQualiPositions": {
         "2001": 22.0,
-        "2002": 21.0
+        "2002": 21.09090909090909
     },
     "rates": {
         "wins": {
@@ -248,24 +283,276 @@
         },
         "DNFs": {
             "2001": 0.6666666666666666,
-            "2002": 0.15384615384615385
+            "2002": 0.5454545454545454
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.625,
+    "dnfRate": 0.5714285714285714,
     "ptwConRate": {
         "2001": -1,
         "2002": -1
     },
     "positionsGainLost": {
         "2001": {
-            "United States Grand Prix": 3
+            "Italian Grand Prix": 7,
+            "United States Grand Prix": 3,
+            "Japanese Grand Prix": 6
         },
         "2002": {
+            "Australian Grand Prix": 14,
             "Malaysian Grand Prix": 5,
+            "Brazilian Grand Prix": 9,
+            "Austrian Grand Prix": 8,
+            "Monaco Grand Prix": 2,
+            "Canadian Grand Prix": 8,
+            "European Grand Prix": 4,
+            "French Grand Prix": 9,
+            "Italian Grand Prix": 7,
+            "United States Grand Prix": 2,
             "Japanese Grand Prix": 4
         }
-    }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "2001": {
+            "15": {
+                "raceName": "Italian Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "United States Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "17": {
+                "raceName": "Japanese Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "2002": {
+            "1": {
+                "raceName": "Australian Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Malaysian Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "San Marino Grand Prix",
+                "position": 22,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "107% Rule",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Spanish Grand Prix",
+                "position": 22,
+                "positionText": "W",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Safety",
+                "outcome": "withdrew",
+                "cause": null,
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Austrian Grand Prix",
+                "position": 14,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Monaco Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Canadian Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "European Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "French Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "15": {
+                "raceName": "Italian Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "United States Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "17": {
+                "raceName": "Japanese Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "minardi",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "2001": {},
+        "2002": {}
+    },
+    "seasonStarts": {
+        "2001": 3,
+        "2002": 11
+    },
+    "totalStarts": 14
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "sommer",
-    "lastUpdate": "2024-08-03T03:38:41.977406",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -32,7 +32,13 @@
         }
     },
     "fastLaps": {
-        "1950": {}
+        "1950": {
+            "Monaco Grand Prix": -1,
+            "Swiss Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
@@ -46,19 +52,22 @@
             "year": "1950",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 3
+                    "points": 3.0
+                },
+                "Indianapolis 500": {
+                    "points": 3.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "French Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 },
                 "Italian Grand Prix": {
-                    "points": 3
+                    "points": 3.0
                 }
             }
         }
@@ -78,7 +87,13 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "9",
+                "Swiss Grand Prix": "13",
+                "Belgian Grand Prix": "5",
+                "French Grand Prix": "16",
+                "Italian Grand Prix": "8"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -125,7 +140,7 @@
         "1950": 11.6
     },
     "avgQualiPositions": {
-        "1950": -1
+        "1950": 10.2
     },
     "rates": {
         "wins": {
@@ -149,6 +164,95 @@
         "1950": -1
     },
     "positionsGainLost": {
+        "1950": {
+            "Monaco Grand Prix": 5,
+            "Swiss Grand Prix": -2,
+            "Belgian Grand Prix": -7,
+            "French Grand Prix": -1,
+            "Italian Grand Prix": -2
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 4,
+                "positionText": "4",
+                "classified": true,
+                "grid": 9,
+                "points": 3.0,
+                "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Swiss Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "ferrari",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 5,
+                "points": 0.0,
+                "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "French Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 8,
+                "points": 0.0,
+                "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 5
+    },
+    "totalStarts": 5
 }

@@ -1,109 +1,85 @@
 {
     "driverId": "parnell",
-    "lastUpdate": "2024-08-03T03:38:37.194822",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 1,
     "seasonWins": {
-        "1959": 0,
         "1961": 0,
         "1963": 0
     },
     "seasonPodiums": {
-        "1959": 0,
         "1961": 0,
         "1963": 0
     },
     "seasonPoles": {
-        "1959": 0,
         "1961": 0,
         "1963": 0
     },
     "seasonDNFs": {
-        "1959": 1,
         "1961": 1,
-        "1963": 1
+        "1963": 0
     },
     "poles": {
-        "1959": [],
         "1961": [],
         "1963": []
     },
     "podiums": {
-        "1959": {},
         "1961": {},
         "1963": {}
     },
     "DNFs": {
-        "1959": {
-            "British Grand Prix": "Did not qualify"
-        },
         "1961": {
             "British Grand Prix": "Clutch"
         },
-        "1963": {
-            "German Grand Prix": "Did not qualify"
-        }
-    },
-    "fastLaps": {
-        "1959": {},
-        "1961": {},
         "1963": {}
     },
-    "finalStandings": {
-        "1959": {
-            "year": "1959",
-            "position": "85",
-            "points": "0"
+    "fastLaps": {
+        "1961": {
+            "British Grand Prix": -1,
+            "Italian Grand Prix": -1
         },
+        "1963": {
+            "German Grand Prix": -1
+        }
+    },
+    "finalStandings": {
         "1961": {
             "year": "1961",
-            "position": "27",
+            "position": "40",
             "points": "0"
         },
         "1963": {
             "year": "1963",
-            "position": "56",
+            "position": "0",
             "points": "0"
         }
     },
     "posAfterRace": {
-        "1959": {
-            "year": "1959",
-            "pos": {
-                "British Grand Prix": {
-                    "points": 0
-                }
-            }
-        },
         "1961": {
             "year": "1961",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
         "1963": {
             "year": "1963",
-            "pos": {
-                "German Grand Prix": {
-                    "points": 0
-                }
-            }
+            "pos": {}
         }
     },
     "racePosition": {
-        "1959": {
-            "year": "1959",
-            "positions": {
-                "British Grand Prix": "30"
-            }
-        },
         "1961": {
             "year": "1961",
             "positions": {
@@ -119,24 +95,21 @@
         }
     },
     "qualiPosition": {
-        "1959": {
-            "year": "1959",
-            "positions": {}
-        },
         "1961": {
             "year": "1961",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "29",
+                "Italian Grand Prix": "27"
+            }
         },
         "1963": {
             "year": "1963",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
-        "1959": {
-            "year": "1959",
-            "QualiTimes": {}
-        },
         "1961": {
             "year": "1961",
             "QualiTimes": {}
@@ -181,49 +154,103 @@
         }
     },
     "avgRacePositions": {
-        "1959": 30.0,
         "1961": 18.0,
-        "1963": 25.0
+        "1963": -1
     },
     "avgQualiPositions": {
-        "1959": -1,
-        "1961": -1,
+        "1961": 28.0,
         "1963": -1
     },
     "rates": {
         "wins": {
-            "1959": 0.0,
             "1961": 0.0,
             "1963": 0.0
         },
         "podiums": {
-            "1959": 0.0,
             "1961": 0.0,
             "1963": 0.0
         },
         "poles": {
-            "1959": 0.0,
             "1961": 0.0,
             "1963": 0.0
         },
         "DNFs": {
-            "1959": 1.0,
             "1961": 0.5,
-            "1963": 1.0
+            "1963": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.75,
+    "dnfRate": 0.5,
     "ptwConRate": {
-        "1959": -1,
         "1961": -1,
         "1963": -1
     },
     "positionsGainLost": {
-        "1959": {},
+        "1961": {
+            "British Grand Prix": 3,
+            "Italian Grand Prix": 17
+        },
+        "1963": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1961": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 26,
+                "positionText": "R",
+                "classified": false,
+                "grid": 29,
+                "points": 0.0,
+                "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 27,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1963": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 25,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1961": {},
         "1963": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 2,
+        "1963": 0
+    },
+    "totalStarts": 2
 }

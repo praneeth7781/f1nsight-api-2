@@ -1,0 +1,46 @@
+{
+    "schemaVersion": 2,
+    "generatedAt": "2026-10-11T12:15:23.686147",
+    "drivers": 839,
+    "firstSeason": 1950,
+    "lastSeason": 2026,
+    "files": {
+        "results": "v2/drivers/{driverId}/results.json",
+        "summary": "v2/drivers/{driverId}/summary.json",
+        "coverage": "v2/coverage.json",
+        "unknownRetirements": "v2/unknownRetirements.json",
+        "rescoredSeasons": "scoring/rescored/{season}.json",
+        "scoringSystems": "scoringSystems.json"
+    },
+    "outcomes": {
+        "finished": "Classified, on the lead lap.",
+        "lapped": "Classified, one or more laps down.",
+        "retired": "Started but did not finish (DNF). May still be classified.",
+        "dsq": "Disqualified or excluded after starting.",
+        "dns": "Entered and qualified but did not start.",
+        "dnq": "Did not qualify or pre-qualify (never started).",
+        "withdrew": "Withdrew before the start (never started)."
+    },
+    "causes": {
+        "mechanical": "Car or power-unit failure.",
+        "accident": "Driver crash or spin with no other car involved.",
+        "contact": "Collision with another car, or damage from one.",
+        "tyre": "Tyre failure or puncture.",
+        "operational": "Team or pit-stop error: fuel, wheel nut, refuelling.",
+        "driver": "Driver health: illness, injury, physical.",
+        "unknown": "Retired with no cause recorded."
+    },
+    "started": [
+        "dsq",
+        "finished",
+        "lapped",
+        "retired"
+    ],
+    "notes": {
+        "grid": "null when Jolpica reports 0. pitLaneStart is true for such rows from 2000; before that it is null because the grid slot was usually just not recorded.",
+        "finish": "null unless the row is classified; retired drivers keep their outcome and cause instead of a position.",
+        "teammates": "Other drivers entered by the same constructor in the same race, with their finish, outcome and grid.",
+        "sharedDrive": "True when another entry holds the same finishing position (1950s shared cars).",
+        "points": "As awarded at the time. Use scoring/rescored for other points systems."
+    }
+}

@@ -1,6 +1,6 @@
 {
     "driverId": "ahrens",
-    "lastUpdate": "2024-08-03T03:38:18.679955",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -36,18 +36,22 @@
         "1968": {}
     },
     "fastLaps": {
-        "1967": {},
-        "1968": {}
+        "1967": {
+            "German Grand Prix": -1
+        },
+        "1968": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1967": {
             "year": "1967",
-            "position": "43",
+            "position": "40",
             "points": "0"
         },
         "1968": {
             "year": "1968",
-            "position": "28",
+            "position": "40",
             "points": "0"
         }
     },
@@ -56,7 +60,19 @@
             "year": "1967",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -64,7 +80,19 @@
             "year": "1968",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +114,15 @@
     "qualiPosition": {
         "1967": {
             "year": "1967",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "23"
+            }
         },
         "1968": {
             "year": "1968",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "17"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -142,8 +174,8 @@
         "1968": 12.0
     },
     "avgQualiPositions": {
-        "1967": -1,
-        "1968": -1
+        "1967": 23.0,
+        "1968": 17.0
     },
     "rates": {
         "wins": {
@@ -160,7 +192,7 @@
         },
         "DNFs": {
             "1967": 1.0,
-            "1968": 1.0
+            "1968": 0.0
         }
     },
     "winRate": 0.0,
@@ -172,7 +204,56 @@
         "1968": -1
     },
     "positionsGainLost": {
+        "1967": {
+            "German Grand Prix": 2
+        },
+        "1968": {
+            "German Grand Prix": 5
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1967": {
+            "7": {
+                "raceName": "German Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 23,
+                "points": 0.0,
+                "status": "Radiator",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "protos",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1968": {
+            "8": {
+                "raceName": "German Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 17,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "brabham-repco",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1967": {},
         "1968": {}
-    }
+    },
+    "seasonStarts": {
+        "1967": 1,
+        "1968": 1
+    },
+    "totalStarts": 2
 }

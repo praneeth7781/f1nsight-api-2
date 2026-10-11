@@ -1,10 +1,10 @@
 {
     "driverId": "brancatelli",
-    "lastUpdate": "2024-08-03T03:38:21.884419",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 0,
     "seasonWins": {
         "1979": 0
     },
@@ -15,7 +15,7 @@
         "1979": 0
     },
     "seasonDNFs": {
-        "1979": 3
+        "1979": 0
     },
     "poles": {
         "1979": []
@@ -24,19 +24,19 @@
         "1979": {}
     },
     "DNFs": {
-        "1979": {
-            "Spanish Grand Prix": "Did not qualify",
-            "Belgian Grand Prix": "Did not qualify",
-            "Monaco Grand Prix": "Did not prequalify"
-        }
+        "1979": {}
     },
     "fastLaps": {
-        "1979": {}
+        "1979": {
+            "Spanish Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Monaco Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1979": {
             "year": "1979",
-            "position": "35",
+            "position": "28",
             "points": "0"
         }
     },
@@ -45,13 +45,13 @@
             "year": "1979",
             "pos": {
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -69,7 +69,11 @@
     "qualiPosition": {
         "1979": {
             "year": "1979",
-            "positions": {}
+            "positions": {
+                "Spanish Grand Prix": "0",
+                "Belgian Grand Prix": "0",
+                "Monaco Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -113,7 +117,7 @@
         }
     },
     "avgRacePositions": {
-        "1979": 26.666666666666668
+        "1979": -1
     },
     "avgQualiPositions": {
         "1979": -1
@@ -129,17 +133,72 @@
             "1979": 0.0
         },
         "DNFs": {
-            "1979": 1.0
+            "1979": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1979": -1
     },
     "positionsGainLost": {
         "1979": {}
-    }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1979": {
+            "5": {
+                "raceName": "Spanish Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "kauhsen",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Belgian Grand Prix",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "kauhsen",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Monaco Grand Prix",
+                "position": 25,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not prequalify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "merzario",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1979": {}
+    },
+    "seasonStarts": {
+        "1979": 0
+    },
+    "totalStarts": 0
 }

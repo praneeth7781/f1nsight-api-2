@@ -1,10 +1,10 @@
 {
     "driverId": "heyer",
-    "lastUpdate": "2024-08-03T03:38:28.983660",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1977": 0
     },
@@ -15,7 +15,7 @@
         "1977": 0
     },
     "seasonDNFs": {
-        "1977": 1
+        "1977": 0
     },
     "poles": {
         "1977": []
@@ -24,28 +24,24 @@
         "1977": {}
     },
     "DNFs": {
-        "1977": {
-            "German Grand Prix": "Did not qualify"
-        }
+        "1977": {}
     },
     "fastLaps": {
-        "1977": {}
+        "1977": {
+            "German Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1977": {
             "year": "1977",
-            "position": "49",
+            "position": "0",
             "points": "0"
         }
     },
     "posAfterRace": {
         "1977": {
             "year": "1977",
-            "pos": {
-                "German Grand Prix": {
-                    "points": 0
-                }
-            }
+            "pos": {}
         }
     },
     "racePosition": {
@@ -59,7 +55,9 @@
     "qualiPosition": {
         "1977": {
             "year": "1977",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "25"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -103,7 +101,7 @@
         }
     },
     "avgRacePositions": {
-        "1977": 24.0
+        "1977": -1
     },
     "avgQualiPositions": {
         "1977": -1
@@ -119,17 +117,44 @@
             "1977": 0.0
         },
         "DNFs": {
-            "1977": 1.0
+            "1977": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1977": -1
     },
     "positionsGainLost": {
         "1977": {}
-    }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1977": {
+            "11": {
+                "raceName": "German Grand Prix",
+                "position": 24,
+                "positionText": "F",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "penske",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1977": {}
+    },
+    "seasonStarts": {
+        "1977": 0
+    },
+    "totalStarts": 0
 }

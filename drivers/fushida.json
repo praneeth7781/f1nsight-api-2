@@ -1,10 +1,10 @@
 {
     "driverId": "fushida",
-    "lastUpdate": "2024-08-03T03:38:25.686971",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 0,
     "seasonWins": {
         "1975": 0
     },
@@ -15,7 +15,7 @@
         "1975": 0
     },
     "seasonDNFs": {
-        "1975": 2
+        "1975": 0
     },
     "poles": {
         "1975": []
@@ -24,18 +24,18 @@
         "1975": {}
     },
     "DNFs": {
-        "1975": {
-            "Dutch Grand Prix": "Withdrew",
-            "British Grand Prix": "Did not qualify"
-        }
+        "1975": {}
     },
     "fastLaps": {
-        "1975": {}
+        "1975": {
+            "Dutch Grand Prix": -1,
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1975": {
             "year": "1975",
-            "position": "50",
+            "position": "40",
             "points": "0"
         }
     },
@@ -44,10 +44,25 @@
             "year": "1975",
             "pos": {
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -64,7 +79,10 @@
     "qualiPosition": {
         "1975": {
             "year": "1975",
-            "positions": {}
+            "positions": {
+                "Dutch Grand Prix": "0",
+                "British Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -108,7 +126,7 @@
         }
     },
     "avgRacePositions": {
-        "1975": 26.5
+        "1975": -1
     },
     "avgQualiPositions": {
         "1975": -1
@@ -124,17 +142,58 @@
             "1975": 0.0
         },
         "DNFs": {
-            "1975": 1.0
+            "1975": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1975": -1
     },
     "positionsGainLost": {
         "1975": {}
-    }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1975": {
+            "8": {
+                "raceName": "Dutch Grand Prix",
+                "position": 25,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
+                "constructorId": "maki",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "maki",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1975": {}
+    },
+    "seasonStarts": {
+        "1975": 0
+    },
+    "totalStarts": 0
 }

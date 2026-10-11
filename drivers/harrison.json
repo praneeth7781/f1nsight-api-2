@@ -1,6 +1,6 @@
 {
     "driverId": "harrison",
-    "lastUpdate": "2024-08-03T03:38:27.760688",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -30,12 +30,16 @@
         }
     },
     "fastLaps": {
-        "1950": {}
+        "1950": {
+            "British Grand Prix": -1,
+            "Monaco Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1950": {
             "year": "1950",
-            "position": "30",
+            "position": "40",
             "points": "0"
         }
     },
@@ -44,13 +48,25 @@
             "year": "1950",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Indianapolis 500": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -68,7 +84,11 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "15",
+                "Monaco Grand Prix": "14",
+                "Italian Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -115,7 +135,7 @@
         "1950": 11.0
     },
     "avgQualiPositions": {
-        "1950": -1
+        "1950": 16.666666666666668
     },
     "rates": {
         "wins": {
@@ -139,6 +159,65 @@
         "1950": -1
     },
     "positionsGainLost": {
+        "1950": {
+            "British Grand Prix": 8,
+            "Monaco Grand Prix": -3,
+            "Italian Grand Prix": 12
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "1": {
+                "raceName": "British Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "era",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "era",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 9,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Radiator",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "era",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 3
+    },
+    "totalStarts": 3
 }

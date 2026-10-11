@@ -1,10 +1,10 @@
 {
     "driverId": "schlesser",
-    "lastUpdate": "2024-08-03T03:38:41.484178",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1983": 0,
         "1988": 0
@@ -18,7 +18,7 @@
         "1988": 0
     },
     "seasonDNFs": {
-        "1983": 1,
+        "1983": 0,
         "1988": 0
     },
     "poles": {
@@ -30,41 +30,51 @@
         "1988": {}
     },
     "DNFs": {
-        "1983": {
-            "French Grand Prix": "Did not qualify"
-        },
+        "1983": {},
         "1988": {}
     },
     "fastLaps": {
-        "1983": {},
-        "1988": {}
+        "1983": {
+            "French Grand Prix": -1
+        },
+        "1988": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1983": {
             "year": "1983",
-            "position": "35",
+            "position": "0",
             "points": "0"
         },
         "1988": {
             "year": "1988",
-            "position": "30",
+            "position": "40",
             "points": "0"
         }
     },
     "posAfterRace": {
         "1983": {
             "year": "1983",
-            "pos": {
-                "French Grand Prix": {
-                    "points": 0
-                }
-            }
+            "pos": {}
         },
         "1988": {
             "year": "1988",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
+                },
+                "Australian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -86,11 +96,15 @@
     "qualiPosition": {
         "1983": {
             "year": "1983",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "0"
+            }
         },
         "1988": {
             "year": "1988",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "22"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -138,12 +152,12 @@
         }
     },
     "avgRacePositions": {
-        "1983": 29.0,
+        "1983": -1,
         "1988": 11.0
     },
     "avgQualiPositions": {
         "1983": -1,
-        "1988": -1
+        "1988": 22.0
     },
     "rates": {
         "wins": {
@@ -159,20 +173,67 @@
             "1988": 0.0
         },
         "DNFs": {
-            "1983": 1.0,
-            "1988": 1.0
+            "1983": 0.0,
+            "1988": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1983": -1,
         "1988": -1
     },
     "positionsGainLost": {
         "1983": {},
+        "1988": {
+            "Italian Grand Prix": 11
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1983": {
+            "3": {
+                "raceName": "French Grand Prix",
+                "position": 29,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "ram",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1988": {
+            "12": {
+                "raceName": "Italian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "williams",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1983": {},
         "1988": {}
-    }
+    },
+    "seasonStarts": {
+        "1983": 0,
+        "1988": 1
+    },
+    "totalStarts": 1
 }

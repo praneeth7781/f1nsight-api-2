@@ -1,10 +1,10 @@
 {
     "driverId": "byrne",
-    "lastUpdate": "2024-08-03T03:38:22.488008",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 2,
     "seasonWins": {
         "1982": 0
     },
@@ -15,7 +15,7 @@
         "1982": 0
     },
     "seasonDNFs": {
-        "1982": 5
+        "1982": 2
     },
     "poles": {
         "1982": []
@@ -25,20 +25,22 @@
     },
     "DNFs": {
         "1982": {
-            "German Grand Prix": "Did not qualify",
             "Austrian Grand Prix": "Spun off",
-            "Swiss Grand Prix": "Did not qualify",
-            "Italian Grand Prix": "Did not qualify",
             "Caesars Palace Grand Prix": "Spun off"
         }
     },
     "fastLaps": {
-        "1982": {}
+        "1982": {
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Swiss Grand Prix": -1,
+            "Caesars Palace Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1982": {
             "year": "1982",
-            "position": "37",
+            "position": "40",
             "points": "0"
         }
     },
@@ -46,20 +48,17 @@
         "1982": {
             "year": "1982",
             "pos": {
-                "German Grand Prix": {
-                    "points": 0
-                },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Swiss Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Caesars Palace Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -71,7 +70,6 @@
                 "German Grand Prix": "27",
                 "Austrian Grand Prix": "12",
                 "Swiss Grand Prix": "28",
-                "Italian Grand Prix": "30",
                 "Caesars Palace Grand Prix": "16"
             }
         }
@@ -79,7 +77,12 @@
     "qualiPosition": {
         "1982": {
             "year": "1982",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "0",
+                "Austrian Grand Prix": "26",
+                "Swiss Grand Prix": "0",
+                "Caesars Palace Grand Prix": "26"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -123,10 +126,10 @@
         }
     },
     "avgRacePositions": {
-        "1982": 22.6
+        "1982": 14.0
     },
     "avgQualiPositions": {
-        "1982": -1
+        "1982": 26.0
     },
     "rates": {
         "wins": {
@@ -150,6 +153,78 @@
         "1982": -1
     },
     "positionsGainLost": {
+        "1982": {
+            "Austrian Grand Prix": 14,
+            "Caesars Palace Grand Prix": 10
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1982": {
+            "12": {
+                "raceName": "German Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "theodore",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Austrian Grand Prix",
+                "position": 12,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "theodore",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "Swiss Grand Prix",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "theodore",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "16": {
+                "raceName": "Caesars Palace Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "theodore",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1982": {}
-    }
+    },
+    "seasonStarts": {
+        "1982": 2
+    },
+    "totalStarts": 2
 }

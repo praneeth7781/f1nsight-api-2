@@ -1,6 +1,6 @@
 {
     "driverId": "chitwood",
-    "lastUpdate": "2024-08-03T03:38:23.283344",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -27,7 +27,9 @@
         "1950": {}
     },
     "fastLaps": {
-        "1950": {}
+        "1950": {
+            "Indianapolis 500": -1
+        }
     },
     "finalStandings": {
         "1950": {
@@ -41,7 +43,19 @@
             "year": "1950",
             "pos": {
                 "Indianapolis 500": {
-                    "points": 1
+                    "points": 1.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 1.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 1.0
+                },
+                "French Grand Prix": {
+                    "points": 1.0
+                },
+                "Italian Grand Prix": {
+                    "points": 1.0
                 }
             }
         }
@@ -57,7 +71,9 @@
     "qualiPosition": {
         "1950": {
             "year": "1950",
-            "positions": {}
+            "positions": {
+                "Indianapolis 500": "9"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -104,7 +120,7 @@
         "1950": 5.0
     },
     "avgQualiPositions": {
-        "1950": -1
+        "1950": 9.0
     },
     "rates": {
         "wins": {
@@ -128,6 +144,35 @@
         "1950": -1
     },
     "positionsGainLost": {
+        "1950": {
+            "Indianapolis 500": 4
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1950": {
+            "3": {
+                "raceName": "Indianapolis 500",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 9,
+                "points": 1.0,
+                "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "kurtis_kraft",
+                "fastestLapRank": null,
+                "shared": true
+            }
+        }
+    },
+    "sprintResults": {
         "1950": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1
+    },
+    "totalStarts": 1
 }

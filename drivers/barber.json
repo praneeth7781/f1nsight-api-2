@@ -1,10 +1,10 @@
 {
     "driverId": "barber",
-    "lastUpdate": "2024-08-03T03:38:20.372209",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 4,
     "seasonWins": {
         "1971": 0,
         "1972": 0
@@ -18,7 +18,7 @@
         "1972": 0
     },
     "seasonDNFs": {
-        "1971": 4,
+        "1971": 3,
         "1972": 1
     },
     "poles": {
@@ -31,7 +31,6 @@
     },
     "DNFs": {
         "1971": {
-            "Monaco Grand Prix": "Did not qualify",
             "Dutch Grand Prix": "Not classified",
             "Canadian Grand Prix": "Oil pressure",
             "United States Grand Prix": "Not classified"
@@ -41,18 +40,26 @@
         }
     },
     "fastLaps": {
-        "1971": {},
-        "1972": {}
+        "1971": {
+            "Monaco Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1
+        },
+        "1972": {
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1971": {
             "year": "1971",
-            "position": "37",
+            "position": "40",
             "points": "0"
         },
         "1972": {
             "year": "1972",
-            "position": "34",
+            "position": "40",
             "points": "0"
         }
     },
@@ -61,16 +68,31 @@
             "year": "1971",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 },
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         },
@@ -78,10 +100,10 @@
             "year": "1972",
             "pos": {
                 "Canadian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -107,11 +129,19 @@
     "qualiPosition": {
         "1971": {
             "year": "1971",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0",
+                "Dutch Grand Prix": "24",
+                "Canadian Grand Prix": "24",
+                "United States Grand Prix": "25"
+            }
         },
         "1972": {
             "year": "1972",
-            "positions": {}
+            "positions": {
+                "Canadian Grand Prix": "22",
+                "United States Grand Prix": "20"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -159,12 +189,12 @@
         }
     },
     "avgRacePositions": {
-        "1971": 18.75,
+        "1971": 17.666666666666668,
         "1972": 18.0
     },
     "avgQualiPositions": {
-        "1971": -1,
-        "1972": -1
+        "1971": 24.333333333333332,
+        "1972": 21.0
     },
     "rates": {
         "wins": {
@@ -181,19 +211,127 @@
         },
         "DNFs": {
             "1971": 1.0,
-            "1972": 2.0
+            "1972": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8333333333333334,
+    "dnfRate": 0.8,
     "ptwConRate": {
         "1971": -1,
         "1972": -1
     },
     "positionsGainLost": {
+        "1971": {
+            "Dutch Grand Prix": 10,
+            "Canadian Grand Prix": 3,
+            "United States Grand Prix": 7
+        },
+        "1972": {
+            "Canadian Grand Prix": 2,
+            "United States Grand Prix": 4
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1971": {
+            "3": {
+                "raceName": "Monaco Grand Prix",
+                "position": 22,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "march-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Dutch Grand Prix",
+                "position": 14,
+                "positionText": "N",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
+                "constructorId": "march-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Canadian Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 24,
+                "points": 0.0,
+                "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "march-ford",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "United States Grand Prix",
+                "position": 18,
+                "positionText": "N",
+                "classified": false,
+                "grid": 25,
+                "points": 0.0,
+                "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
+                "constructorId": "march-ford",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1972": {
+            "11": {
+                "raceName": "Canadian Grand Prix",
+                "position": 20,
+                "positionText": "N",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
+                "constructorId": "march",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "United States Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 20,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "march",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1971": {},
         "1972": {}
-    }
+    },
+    "seasonStarts": {
+        "1971": 3,
+        "1972": 2
+    },
+    "totalStarts": 5
 }

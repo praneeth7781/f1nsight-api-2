@@ -1,10 +1,10 @@
 {
     "driverId": "colombo",
-    "lastUpdate": "2024-08-03T03:38:23.446906",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 0,
     "seasonWins": {
         "1978": 0
     },
@@ -15,7 +15,7 @@
         "1978": 0
     },
     "seasonDNFs": {
-        "1978": 3
+        "1978": 0
     },
     "poles": {
         "1978": []
@@ -24,52 +24,40 @@
         "1978": {}
     },
     "DNFs": {
-        "1978": {
-            "Belgian Grand Prix": "Did not qualify",
-            "Spanish Grand Prix": "Did not qualify",
-            "Italian Grand Prix": "Did not prequalify"
-        }
+        "1978": {}
     },
     "fastLaps": {
-        "1978": {}
+        "1978": {
+            "Spanish Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1978": {
             "year": "1978",
-            "position": "42",
+            "position": "0",
             "points": "0"
         }
     },
     "posAfterRace": {
         "1978": {
             "year": "1978",
-            "pos": {
-                "Belgian Grand Prix": {
-                    "points": 0
-                },
-                "Spanish Grand Prix": {
-                    "points": 0
-                },
-                "Italian Grand Prix": {
-                    "points": 0
-                }
-            }
+            "pos": {}
         }
     },
     "racePosition": {
         "1978": {
             "year": "1978",
             "positions": {
-                "Belgian Grand Prix": "28",
-                "Spanish Grand Prix": "28",
-                "Italian Grand Prix": "32"
+                "Spanish Grand Prix": "28"
             }
         }
     },
     "qualiPosition": {
         "1978": {
             "year": "1978",
-            "positions": {}
+            "positions": {
+                "Spanish Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -113,7 +101,7 @@
         }
     },
     "avgRacePositions": {
-        "1978": 29.333333333333332
+        "1978": -1
     },
     "avgQualiPositions": {
         "1978": -1
@@ -129,17 +117,44 @@
             "1978": 0.0
         },
         "DNFs": {
-            "1978": 1.0
+            "1978": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1978": -1
     },
     "positionsGainLost": {
         "1978": {}
-    }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1978": {
+            "7": {
+                "raceName": "Spanish Grand Prix",
+                "position": 28,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "ats",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1978": {}
+    },
+    "seasonStarts": {
+        "1978": 0
+    },
+    "totalStarts": 0
 }

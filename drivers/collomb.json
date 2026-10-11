@@ -1,10 +1,10 @@
 {
     "driverId": "collomb",
-    "lastUpdate": "2024-08-03T03:38:23.435938",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 3,
     "seasonWins": {
         "1961": 0,
         "1962": 0,
@@ -26,8 +26,8 @@
     "seasonDNFs": {
         "1961": 2,
         "1962": 1,
-        "1963": 1,
-        "1964": 1
+        "1963": 0,
+        "1964": 0
     },
     "poles": {
         "1961": [],
@@ -49,38 +49,44 @@
         "1962": {
             "German Grand Prix": "Gearbox"
         },
-        "1963": {
-            "Monaco Grand Prix": "Did not qualify"
-        },
-        "1964": {
-            "Monaco Grand Prix": "Did not qualify"
-        }
-    },
-    "fastLaps": {
-        "1961": {},
-        "1962": {},
         "1963": {},
         "1964": {}
+    },
+    "fastLaps": {
+        "1961": {
+            "French Grand Prix": -1,
+            "German Grand Prix": -1
+        },
+        "1962": {
+            "German Grand Prix": -1
+        },
+        "1963": {
+            "Monaco Grand Prix": -1,
+            "German Grand Prix": -1
+        },
+        "1964": {
+            "Monaco Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1961": {
             "year": "1961",
-            "position": "45",
+            "position": "40",
             "points": "0"
         },
         "1962": {
             "year": "1962",
-            "position": "56",
+            "position": "40",
             "points": "0"
         },
         "1963": {
             "year": "1963",
-            "position": "25",
+            "position": "40",
             "points": "0"
         },
         "1964": {
             "year": "1964",
-            "position": "37",
+            "position": "27",
             "points": "0"
         }
     },
@@ -89,10 +95,19 @@
             "year": "1961",
             "pos": {
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -100,7 +115,16 @@
             "year": "1962",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -108,10 +132,28 @@
             "year": "1963",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -119,7 +161,19 @@
             "year": "1964",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "Belgian Grand Prix": {
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -155,19 +209,29 @@
     "qualiPosition": {
         "1961": {
             "year": "1961",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "21",
+                "German Grand Prix": "26"
+            }
         },
         "1962": {
             "year": "1962",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "22"
+            }
         },
         "1963": {
             "year": "1963",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0",
+                "German Grand Prix": "21"
+            }
         },
         "1964": {
             "year": "1964",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -225,13 +289,13 @@
     "avgRacePositions": {
         "1961": 21.0,
         "1962": 25.0,
-        "1963": 13.5,
-        "1964": 19.0
+        "1963": 10.0,
+        "1964": -1
     },
     "avgQualiPositions": {
-        "1961": -1,
-        "1962": -1,
-        "1963": -1,
+        "1961": 23.5,
+        "1962": 22.0,
+        "1963": 21.0,
         "1964": -1
     },
     "rates": {
@@ -255,15 +319,15 @@
         },
         "DNFs": {
             "1961": 1.0,
-            "1962": 2.0,
-            "1963": 1.0,
-            "1964": 2.0
+            "1962": 1.0,
+            "1963": 0.0,
+            "1964": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8333333333333334,
+    "dnfRate": 0.75,
     "ptwConRate": {
         "1961": -1,
         "1962": -1,
@@ -271,9 +335,125 @@
         "1964": -1
     },
     "positionsGainLost": {
+        "1961": {
+            "French Grand Prix": -2,
+            "German Grand Prix": 7
+        },
+        "1962": {
+            "German Grand Prix": -3
+        },
+        "1963": {
+            "German Grand Prix": 11
+        },
+        "1964": {}
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1961": {
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 21,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 26,
+                "points": 0.0,
+                "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1962": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 25,
+                "positionText": "R",
+                "classified": false,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1963": {
+            "1": {
+                "raceName": "Monaco Grand Prix",
+                "position": 17,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1964": {
+            "1": {
+                "raceName": "Monaco Grand Prix",
+                "position": 19,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "lotus-brm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1961": {},
         "1962": {},
         "1963": {},
         "1964": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 2,
+        "1962": 1,
+        "1963": 1,
+        "1964": 0
+    },
+    "totalStarts": 4
 }

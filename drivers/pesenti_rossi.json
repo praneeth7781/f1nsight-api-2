@@ -1,10 +1,10 @@
 {
     "driverId": "pesenti_rossi",
-    "lastUpdate": "2024-08-03T03:38:37.792678",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1976": 0
     },
@@ -15,7 +15,7 @@
         "1976": 0
     },
     "seasonDNFs": {
-        "1976": 1
+        "1976": 0
     },
     "poles": {
         "1976": []
@@ -24,17 +24,20 @@
         "1976": {}
     },
     "DNFs": {
-        "1976": {
-            "Dutch Grand Prix": "Did not qualify"
-        }
+        "1976": {}
     },
     "fastLaps": {
-        "1976": {}
+        "1976": {
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1976": {
             "year": "1976",
-            "position": "32",
+            "position": "40",
             "points": "0"
         }
     },
@@ -43,16 +46,25 @@
             "year": "1976",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Canadian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Japanese Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -71,7 +83,12 @@
     "qualiPosition": {
         "1976": {
             "year": "1976",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "26",
+                "Austrian Grand Prix": "23",
+                "Dutch Grand Prix": "0",
+                "Italian Grand Prix": "21"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -115,10 +132,10 @@
         }
     },
     "avgRacePositions": {
-        "1976": 17.5
+        "1976": 14.333333333333334
     },
     "avgQualiPositions": {
-        "1976": -1
+        "1976": 23.333333333333332
     },
     "rates": {
         "wins": {
@@ -131,17 +148,90 @@
             "1976": 0.0
         },
         "DNFs": {
-            "1976": 0.25
+            "1976": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.25,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1976": -1
     },
     "positionsGainLost": {
+        "1976": {
+            "German Grand Prix": 12,
+            "Austrian Grand Prix": 12,
+            "Italian Grand Prix": 3
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1976": {
+            "10": {
+                "raceName": "German Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 26,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "Austrian Grand Prix",
+                "position": 11,
+                "positionText": "11",
+                "classified": true,
+                "grid": 23,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Dutch Grand Prix",
+                "position": 27,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Italian Grand Prix",
+                "position": 18,
+                "positionText": "18",
+                "classified": true,
+                "grid": 21,
+                "points": 0.0,
+                "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "tyrrell",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1976": {}
-    }
+    },
+    "seasonStarts": {
+        "1976": 3
+    },
+    "totalStarts": 3
 }

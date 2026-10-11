@@ -1,6 +1,6 @@
 {
     "driverId": "bucknum",
-    "lastUpdate": "2024-08-03T03:38:22.205049",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -52,14 +52,28 @@
         }
     },
     "fastLaps": {
-        "1964": {},
-        "1965": {},
-        "1966": {}
+        "1964": {
+            "German Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "United States Grand Prix": -1
+        },
+        "1965": {
+            "Monaco Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "French Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        },
+        "1966": {
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1964": {
             "year": "1964",
-            "position": "29",
+            "position": "40",
             "points": "0"
         },
         "1965": {
@@ -69,7 +83,7 @@
         },
         "1966": {
             "year": "1966",
-            "position": "22",
+            "position": "40",
             "points": "0"
         }
     },
@@ -78,13 +92,19 @@
             "year": "1964",
             "pos": {
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Austrian Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -92,22 +112,31 @@
             "year": "1965",
             "pos": {
                 "Monaco Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "Dutch Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 2
+                    "points": 2.0
                 }
             }
         },
@@ -115,10 +144,10 @@
             "year": "1966",
             "pos": {
                 "United States Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Mexican Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 }
             }
         }
@@ -154,15 +183,29 @@
     "qualiPosition": {
         "1964": {
             "year": "1964",
-            "positions": {}
+            "positions": {
+                "German Grand Prix": "22",
+                "Italian Grand Prix": "10",
+                "United States Grand Prix": "14"
+            }
         },
         "1965": {
             "year": "1965",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "15",
+                "Belgian Grand Prix": "11",
+                "French Grand Prix": "16",
+                "Italian Grand Prix": "6",
+                "United States Grand Prix": "12",
+                "Mexican Grand Prix": "10"
+            }
         },
         "1966": {
             "year": "1966",
-            "positions": {}
+            "positions": {
+                "United States Grand Prix": "18",
+                "Mexican Grand Prix": "13"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -219,9 +262,9 @@
         "1966": 9.0
     },
     "avgQualiPositions": {
-        "1964": -1,
-        "1965": -1,
-        "1966": -1
+        "1964": 15.333333333333334,
+        "1965": 11.666666666666666,
+        "1966": 15.5
     },
     "rates": {
         "wins": {
@@ -241,8 +284,8 @@
         },
         "DNFs": {
             "1964": 1.0,
-            "1965": 0.5,
-            "1966": 1.5
+            "1965": 0.6666666666666666,
+            "1966": 0.5
         }
     },
     "winRate": 0.0,
@@ -255,8 +298,197 @@
         "1966": -1
     },
     "positionsGainLost": {
+        "1964": {
+            "German Grand Prix": 9,
+            "Italian Grand Prix": -8,
+            "United States Grand Prix": 1
+        },
+        "1965": {
+            "Monaco Grand Prix": 2,
+            "Belgian Grand Prix": -6,
+            "French Grand Prix": 0,
+            "Italian Grand Prix": -14,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": 5
+        },
+        "1966": {
+            "United States Grand Prix": 8,
+            "Mexican Grand Prix": 5
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1964": {
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 22,
+                "points": 0.0,
+                "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 18,
+                "positionText": "R",
+                "classified": false,
+                "grid": 10,
+                "points": 0.0,
+                "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "United States Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 14,
+                "points": 0.0,
+                "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1965": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "3": {
+                "raceName": "Belgian Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 16,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Italian Grand Prix",
+                "position": 20,
+                "positionText": "R",
+                "classified": false,
+                "grid": 6,
+                "points": 0.0,
+                "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "United States Grand Prix",
+                "position": 13,
+                "positionText": "13",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "+18 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "Mexican Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 10,
+                "points": 2.0,
+                "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1966": {
+            "8": {
+                "raceName": "United States Grand Prix",
+                "position": 10,
+                "positionText": "R",
+                "classified": false,
+                "grid": 18,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "Mexican Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "honda",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1964": {},
         "1965": {},
         "1966": {}
-    }
+    },
+    "seasonStarts": {
+        "1964": 3,
+        "1965": 6,
+        "1966": 2
+    },
+    "totalStarts": 11
 }

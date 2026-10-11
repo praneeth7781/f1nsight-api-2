@@ -1,0 +1,68 @@
+{
+    "_comment": [
+        "Maps every raw Jolpica/Ergast result status to a small vocabulary.",
+        "outcome comes from positionText first (digits, R, N, W, F, D, E) and",
+        "falls back to the status group below; cause only applies to retirements.",
+        "Statuses matching lappedPattern ('+1 Lap', '+2 Laps', ...) are lapped.",
+        "A status missing from this file is treated as a retirement with cause",
+        "'unknown' and listed in v2/coverage.json so it can be added here."
+    ],
+    "schemaVersion": 1,
+    "outcomes": {
+        "finished": "Classified, on the lead lap.",
+        "lapped": "Classified, one or more laps down.",
+        "retired": "Started but did not finish (DNF). May still be classified.",
+        "dsq": "Disqualified or excluded after starting.",
+        "dns": "Entered and qualified but did not start.",
+        "dnq": "Did not qualify or pre-qualify (never started).",
+        "withdrew": "Withdrew before the start (never started)."
+    },
+    "causes": {
+        "mechanical": "Car or power-unit failure.",
+        "accident": "Driver crash or spin with no other car involved.",
+        "contact": "Collision with another car, or damage from one.",
+        "tyre": "Tyre failure or puncture.",
+        "operational": "Team or pit-stop error: fuel, wheel nut, refuelling.",
+        "driver": "Driver health: illness, injury, physical.",
+        "unknown": "Retired with no cause recorded."
+    },
+    "lappedPattern": "^\\+\\d+ Laps?$",
+    "kinds": {
+        "finished": ["Finished"],
+        "lapped": ["Lapped"],
+        "dsq": ["Disqualified", "Excluded", "Underweight"],
+        "dns": ["Did not start"],
+        "dnq": ["Did not qualify", "107% Rule", "Did not prequalify"],
+        "withdrew": ["Withdrew", "Safety concerns", "Safety"]
+    },
+    "retirements": {
+        "mechanical": [
+            "Engine", "Engine fire", "Engine misfire", "Power Unit", "Power loss",
+            "Turbo", "Supercharger", "ERS", "Battery", "Alternator", "Electrical",
+            "Electronics", "Ignition", "Magneto", "Distributor", "Spark plugs",
+            "Injection", "Fuel system", "Fuel pump", "Fuel pressure", "Fuel leak",
+            "Fuel pipe", "Fuel", "Throttle", "Launch control",
+            "Gearbox", "Transmission", "Clutch", "Differential", "Driveshaft",
+            "Halfshaft", "Drivetrain", "CV joint", "Axle", "Crankshaft",
+            "Oil leak", "Oil pressure", "Oil pump", "Oil pipe", "Oil line",
+            "Overheating", "Radiator", "Water leak", "Water pressure",
+            "Water pump", "Water pipe", "Cooling system", "Heat shield fire", "Fire",
+            "Exhaust", "Hydraulics", "Pneumatics", "Brakes", "Brake duct",
+            "Suspension", "Steering", "Track rod", "Handling", "Chassis",
+            "Undertray", "Broken wing", "Front wing", "Rear wing", "Wheel",
+            "Wheel bearing", "Wheel rim", "Vibrations", "Safety belt", "Seat",
+            "Driver Seat", "Mechanical", "Technical"
+        ],
+        "accident": ["Accident", "Spun off", "Fatal accident"],
+        "contact": ["Collision", "Collision damage", "Damage", "Debris"],
+        "tyre": ["Tyre", "Tyre puncture", "Puncture"],
+        "operational": [
+            "Out of fuel", "Refuelling", "Fuel rig", "Wheel nut", "Stalled",
+            "Not restarted"
+        ],
+        "driver": [
+            "Physical", "Driver unwell", "Illness", "Injury", "Injured", "Eye injury"
+        ],
+        "unknown": ["Retired", "Not classified"]
+    }
+}

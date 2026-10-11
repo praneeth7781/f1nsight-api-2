@@ -1,10 +1,10 @@
 {
     "driverId": "abate",
-    "lastUpdate": "2024-08-03T03:38:18.507143",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 0,
     "seasonWins": {
         "1962": 0,
         "1963": 0
@@ -18,8 +18,8 @@
         "1963": 0
     },
     "seasonDNFs": {
-        "1962": 1,
-        "1963": 1
+        "1962": 0,
+        "1963": 0
     },
     "poles": {
         "1962": [],
@@ -30,26 +30,26 @@
         "1963": {}
     },
     "DNFs": {
-        "1962": {
-            "French Grand Prix": "Withdrew"
-        },
-        "1963": {
-            "Italian Grand Prix": "Withdrew"
-        }
-    },
-    "fastLaps": {
         "1962": {},
         "1963": {}
+    },
+    "fastLaps": {
+        "1962": {
+            "French Grand Prix": -1
+        },
+        "1963": {
+            "Italian Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1962": {
             "year": "1962",
-            "position": "50",
+            "position": "40",
             "points": "0"
         },
         "1963": {
             "year": "1963",
-            "position": "61",
+            "position": "40",
             "points": "0"
         }
     },
@@ -58,7 +58,22 @@
             "year": "1962",
             "pos": {
                 "French Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "British Grand Prix": {
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -66,7 +81,16 @@
             "year": "1963",
             "pos": {
                 "Italian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
+                },
+                "Mexican Grand Prix": {
+                    "points": 0.0
+                },
+                "South African Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -88,11 +112,15 @@
     "qualiPosition": {
         "1962": {
             "year": "1962",
-            "positions": {}
+            "positions": {
+                "French Grand Prix": "0"
+            }
         },
         "1963": {
             "year": "1963",
-            "positions": {}
+            "positions": {
+                "Italian Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -140,8 +168,8 @@
         }
     },
     "avgRacePositions": {
-        "1962": 21.0,
-        "1963": 32.0
+        "1962": -1,
+        "1963": -1
     },
     "avgQualiPositions": {
         "1962": -1,
@@ -161,14 +189,14 @@
             "1963": 0.0
         },
         "DNFs": {
-            "1962": 1.0,
-            "1963": 1.0
+            "1962": 0.0,
+            "1963": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1962": -1,
         "1963": -1
@@ -176,5 +204,50 @@
     "positionsGainLost": {
         "1962": {},
         "1963": {}
-    }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1962": {
+            "4": {
+                "raceName": "French Grand Prix",
+                "position": 21,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
+                "constructorId": "lotus-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1963": {
+            "7": {
+                "raceName": "Italian Grand Prix",
+                "position": 32,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
+                "constructorId": "porsche",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
+        "1962": {},
+        "1963": {}
+    },
+    "seasonStarts": {
+        "1962": 0,
+        "1963": 0
+    },
+    "totalStarts": 0
 }

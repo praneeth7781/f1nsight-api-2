@@ -1,6 +1,6 @@
 {
     "driverId": "brise",
-    "lastUpdate": "2024-08-03T03:38:21.946624",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -33,7 +33,18 @@
         }
     },
     "fastLaps": {
-        "1975": {}
+        "1975": {
+            "Spanish Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "Swedish Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "French Grand Prix": -1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1,
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": -1,
+            "United States Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1975": {
@@ -47,34 +58,37 @@
             "year": "1975",
             "pos": {
                 "Spanish Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Monaco Grand Prix": {
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Swedish Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "French Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "British Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "German Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "Austrian Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "Italian Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 },
                 "United States Grand Prix": {
-                    "points": 1
+                    "points": 1.0
                 }
             }
         }
@@ -99,7 +113,18 @@
     "qualiPosition": {
         "1975": {
             "year": "1975",
-            "positions": {}
+            "positions": {
+                "Spanish Grand Prix": "18",
+                "Belgian Grand Prix": "7",
+                "Swedish Grand Prix": "17",
+                "Dutch Grand Prix": "7",
+                "French Grand Prix": "12",
+                "British Grand Prix": "13",
+                "German Grand Prix": "17",
+                "Austrian Grand Prix": "16",
+                "Italian Grand Prix": "6",
+                "United States Grand Prix": "17"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -146,7 +171,7 @@
         "1975": 13.1
     },
     "avgQualiPositions": {
-        "1975": -1
+        "1975": 13.0
     },
     "rates": {
         "wins": {
@@ -170,6 +195,170 @@
         "1975": -1
     },
     "positionsGainLost": {
+        "1975": {
+            "Spanish Grand Prix": 11,
+            "Belgian Grand Prix": -12,
+            "Swedish Grand Prix": 11,
+            "Dutch Grand Prix": 0,
+            "French Grand Prix": 5,
+            "British Grand Prix": -2,
+            "German Grand Prix": 4,
+            "Austrian Grand Prix": 1,
+            "Italian Grand Prix": -17,
+            "United States Grand Prix": -2
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1975": {
+            "4": {
+                "raceName": "Spanish Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 18,
+                "points": 0.0,
+                "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "williams",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "Belgian Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 7,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "hill",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Swedish Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 17,
+                "points": 1.0,
+                "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "hill",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "8": {
+                "raceName": "Dutch Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 7,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "hill",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "9": {
+                "raceName": "French Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 12,
+                "points": 0.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "hill",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "10": {
+                "raceName": "British Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "hill",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "11": {
+                "raceName": "German Grand Prix",
+                "position": 13,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "hill",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "12": {
+                "raceName": "Austrian Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 16,
+                "points": 0.0,
+                "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "hill",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "13": {
+                "raceName": "Italian Grand Prix",
+                "position": 23,
+                "positionText": "R",
+                "classified": false,
+                "grid": 6,
+                "points": 0.0,
+                "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "hill",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "14": {
+                "raceName": "United States Grand Prix",
+                "position": 19,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
+                "constructorId": "hill",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1975": {}
-    }
+    },
+    "seasonStarts": {
+        "1975": 10
+    },
+    "totalStarts": 10
 }

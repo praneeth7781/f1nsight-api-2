@@ -1,6 +1,6 @@
 {
     "driverId": "duncan_hamilton",
-    "lastUpdate": "2024-08-03T03:38:24.610944",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -47,24 +47,32 @@
         }
     },
     "fastLaps": {
-        "1951": {},
-        "1952": {},
-        "1953": {}
+        "1951": {
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        },
+        "1952": {
+            "British Grand Prix": -1,
+            "Dutch Grand Prix": -1
+        },
+        "1953": {
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1951": {
             "year": "1951",
-            "position": "41",
+            "position": "40",
             "points": "0"
         },
         "1952": {
             "year": "1952",
-            "position": "30",
+            "position": "40",
             "points": "0"
         },
         "1953": {
             "year": "1953",
-            "position": "98",
+            "position": "40",
             "points": "0"
         }
     },
@@ -73,10 +81,16 @@
             "year": "1951",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "German Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "Spanish Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -84,10 +98,16 @@
             "year": "1952",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
                 },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         },
@@ -95,7 +115,16 @@
             "year": "1953",
             "pos": {
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "German Grand Prix": {
+                    "points": 0.0
+                },
+                "Swiss Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -125,15 +154,23 @@
     "qualiPosition": {
         "1951": {
             "year": "1951",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "11",
+                "German Grand Prix": "20"
+            }
         },
         "1952": {
             "year": "1952",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "11",
+                "Dutch Grand Prix": "10"
+            }
         },
         "1953": {
             "year": "1953",
-            "positions": {}
+            "positions": {
+                "British Grand Prix": "17"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -190,9 +227,9 @@
         "1953": 24.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1,
-        "1953": -1
+        "1951": 15.5,
+        "1952": 10.5,
+        "1953": 17.0
     },
     "rates": {
         "wins": {
@@ -226,8 +263,107 @@
         "1953": -1
     },
     "positionsGainLost": {
+        "1951": {
+            "British Grand Prix": -1,
+            "German Grand Prix": 5
+        },
+        "1952": {
+            "British Grand Prix": -13,
+            "Dutch Grand Prix": 3
+        },
+        "1953": {
+            "British Grand Prix": -7
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1951": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 12,
+                "positionText": "12",
+                "classified": true,
+                "grid": 11,
+                "points": 0.0,
+                "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "6": {
+                "raceName": "German Grand Prix",
+                "position": 15,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "lago",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1952": {
+            "5": {
+                "raceName": "British Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 11,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "hwm",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "Dutch Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 10,
+                "points": 0.0,
+                "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "hwm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        },
+        "1953": {
+            "6": {
+                "raceName": "British Grand Prix",
+                "position": 24,
+                "positionText": "R",
+                "classified": false,
+                "grid": 17,
+                "points": 0.0,
+                "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "hwm",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1951": {},
         "1952": {},
         "1953": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 2,
+        "1952": 2,
+        "1953": 1
+    },
+    "totalStarts": 5
 }

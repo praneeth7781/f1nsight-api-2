@@ -1,10 +1,10 @@
 {
     "driverId": "reventlow",
-    "lastUpdate": "2024-08-03T03:38:39.635589",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 1,
     "seasonWins": {
         "1960": 0
     },
@@ -15,7 +15,7 @@
         "1960": 0
     },
     "seasonDNFs": {
-        "1960": 4
+        "1960": 1
     },
     "poles": {
         "1960": []
@@ -25,19 +25,21 @@
     },
     "DNFs": {
         "1960": {
-            "Monaco Grand Prix": "Did not qualify",
-            "Dutch Grand Prix": "Withdrew",
-            "Belgian Grand Prix": "Engine",
-            "British Grand Prix": "Withdrew"
+            "Belgian Grand Prix": "Engine"
         }
     },
     "fastLaps": {
-        "1960": {}
+        "1960": {
+            "Monaco Grand Prix": -1,
+            "Dutch Grand Prix": -1,
+            "Belgian Grand Prix": -1,
+            "British Grand Prix": -1
+        }
     },
     "finalStandings": {
         "1960": {
             "year": "1960",
-            "position": "85",
+            "position": "40",
             "points": "0"
         }
     },
@@ -45,17 +47,26 @@
         "1960": {
             "year": "1960",
             "pos": {
-                "Monaco Grand Prix": {
-                    "points": 0
-                },
                 "Dutch Grand Prix": {
-                    "points": 0
+                    "points": 0.0
                 },
                 "Belgian Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "French Grand Prix": {
+                    "points": 0.0
                 },
                 "British Grand Prix": {
-                    "points": 0
+                    "points": 0.0
+                },
+                "Portuguese Grand Prix": {
+                    "points": 0.0
+                },
+                "Italian Grand Prix": {
+                    "points": 0.0
+                },
+                "United States Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -74,7 +85,12 @@
     "qualiPosition": {
         "1960": {
             "year": "1960",
-            "positions": {}
+            "positions": {
+                "Monaco Grand Prix": "0",
+                "Dutch Grand Prix": "0",
+                "Belgian Grand Prix": "16",
+                "British Grand Prix": "0"
+            }
         }
     },
     "driverQualifyingTimes": {
@@ -118,10 +134,10 @@
         }
     },
     "avgRacePositions": {
-        "1960": 21.25
+        "1960": 17.0
     },
     "avgQualiPositions": {
-        "1960": -1
+        "1960": 16.0
     },
     "rates": {
         "wins": {
@@ -145,6 +161,77 @@
         "1960": -1
     },
     "positionsGainLost": {
+        "1960": {
+            "Belgian Grand Prix": -1
+        }
+    },
+    "driverCode": "",
+    "driverNumber": "",
+    "raceResults": {
+        "1960": {
+            "2": {
+                "raceName": "Monaco Grand Prix",
+                "position": 23,
+                "positionText": "F",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
+                "constructorId": "scarab",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "4": {
+                "raceName": "Dutch Grand Prix",
+                "position": 20,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
+                "constructorId": "scarab",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "5": {
+                "raceName": "Belgian Grand Prix",
+                "position": 17,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
+                "constructorId": "scarab",
+                "fastestLapRank": null,
+                "shared": false
+            },
+            "7": {
+                "raceName": "British Grand Prix",
+                "position": 25,
+                "positionText": "W",
+                "classified": false,
+                "grid": 0,
+                "points": 0.0,
+                "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
+                "constructorId": "cooper-climax",
+                "fastestLapRank": null,
+                "shared": false
+            }
+        }
+    },
+    "sprintResults": {
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1960": 1
+    },
+    "totalStarts": 1
 }
