@@ -1,6 +1,6 @@
 {
     "driverId": "parsons",
-    "lastUpdate": "2026-10-02T11:47:20.453796",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 1,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -551,14 +551,14 @@
             "points": 1.3333333333333333
         },
         "std": {
-            "wins": 0.31426968052735443,
-            "podiums": 0.31426968052735443,
+            "wins": 0.31426968052735454,
+            "podiums": 0.31426968052735454,
             "poles": 0.0,
-            "points": 2.8674417556808756
+            "points": 2.867441755680875
         },
         "cv": {
-            "wins": 2.82842712474619,
-            "podiums": 2.82842712474619,
+            "wins": 2.828427124746191,
+            "podiums": 2.828427124746191,
             "poles": 0,
             "points": 2.1505813167606567
         }
@@ -589,15 +589,15 @@
         "1958": 12.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1
+        "1950": 5.0,
+        "1951": 8.0,
+        "1952": 31.0,
+        "1953": 8.0,
+        "1954": 27.0,
+        "1955": 27.0,
+        "1956": 6.0,
+        "1957": 17.0,
+        "1958": 6.0
     },
     "rates": {
         "wins": {
@@ -635,11 +635,11 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1951": 0.0,
+            "1951": 1.0,
             "1952": 0.0,
-            "1953": 0.0,
+            "1953": 1.0,
             "1954": 0.0,
-            "1955": 0.0,
+            "1955": 1.0,
             "1956": 0.0,
             "1957": 0.0,
             "1958": 0.0
@@ -661,15 +661,33 @@
         "1958": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {},
-        "1957": {},
-        "1958": {}
+        "1950": {
+            "Indianapolis 500": 4
+        },
+        "1951": {
+            "Indianapolis 500": -13
+        },
+        "1952": {
+            "Indianapolis 500": 21
+        },
+        "1953": {
+            "Indianapolis 500": -18
+        },
+        "1954": {
+            "Indianapolis 500": 16
+        },
+        "1955": {
+            "Indianapolis 500": 6
+        },
+        "1956": {
+            "Indianapolis 500": 2
+        },
+        "1957": {
+            "Indianapolis 500": 1
+        },
+        "1958": {
+            "Indianapolis 500": -6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -683,6 +701,8 @@
                 "grid": 5,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -697,6 +717,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -711,6 +733,8 @@
                 "grid": 31,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -725,6 +749,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -739,6 +765,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -753,6 +781,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -767,6 +797,8 @@
                 "grid": 6,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -781,6 +813,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -795,6 +829,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -811,5 +847,17 @@
         "1956": {},
         "1957": {},
         "1958": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1,
+        "1952": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1,
+        "1956": 1,
+        "1957": 1,
+        "1958": 1
+    },
+    "totalStarts": 9
 }

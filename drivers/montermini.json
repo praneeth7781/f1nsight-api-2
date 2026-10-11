@@ -1,10 +1,10 @@
 {
     "driverId": "montermini",
-    "lastUpdate": "2026-10-02T11:47:20.552873",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 24,
+    "totalDNFs": 15,
     "seasonWins": {
         "1994": 0,
         "1995": 0,
@@ -21,9 +21,9 @@
         "1996": 0
     },
     "seasonDNFs": {
-        "1994": 1,
-        "1995": 14,
-        "1996": 9
+        "1994": 0,
+        "1995": 12,
+        "1996": 3
     },
     "poles": {
         "1994": [],
@@ -36,14 +36,10 @@
         "1996": {}
     },
     "DNFs": {
-        "1994": {
-            "Spanish Grand Prix": "Injury"
-        },
+        "1994": {},
         "1995": {
             "Argentine Grand Prix": "Collision",
             "San Marino Grand Prix": "Gearbox",
-            "Spanish Grand Prix": "Withdrew",
-            "Monaco Grand Prix": "Disqualified",
             "Canadian Grand Prix": "Gearbox",
             "French Grand Prix": "Not classified",
             "British Grand Prix": "Spun off",
@@ -56,15 +52,9 @@
             "Australian Grand Prix": "Gearbox"
         },
         "1996": {
-            "Australian Grand Prix": "107% Rule",
             "Brazilian Grand Prix": "Spun off",
-            "European Grand Prix": "107% Rule",
-            "San Marino Grand Prix": "107% Rule",
-            "Monaco Grand Prix": "Injury",
-            "Spanish Grand Prix": "107% Rule",
             "Canadian Grand Prix": "Electrical",
-            "French Grand Prix": "Electrical",
-            "British Grand Prix": "Did not qualify"
+            "French Grand Prix": "Electrical"
         }
     },
     "fastLaps": {
@@ -512,14 +502,14 @@
         }
     },
     "avgRacePositions": {
-        "1994": 27.0,
-        "1995": 18.529411764705884,
-        "1996": 19.7
+        "1994": -1,
+        "1995": 18.0625,
+        "1996": 16.75
     },
     "avgQualiPositions": {
         "1994": -1,
-        "1995": 22.058823529411764,
-        "1996": 21.5
+        "1995": 21.9375,
+        "1996": 21.25
     },
     "rates": {
         "wins": {
@@ -538,15 +528,15 @@
             "1996": 0.0
         },
         "DNFs": {
-            "1994": 1.0,
-            "1995": 0.058823529411764705,
-            "1996": 0.1
+            "1994": 0.0,
+            "1995": 0.75,
+            "1996": 0.75
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8571428571428571,
+    "dnfRate": 0.75,
     "ptwConRate": {
         "1994": -1,
         "1995": -1,
@@ -558,7 +548,6 @@
             "Brazilian Grand Prix": 13,
             "Argentine Grand Prix": 0,
             "San Marino Grand Prix": 1,
-            "Spanish Grand Prix": -3,
             "Monaco Grand Prix": 5,
             "Canadian Grand Prix": 0,
             "French Grand Prix": 4,
@@ -570,14 +559,14 @@
             "Portuguese Grand Prix": 3,
             "European Grand Prix": 3,
             "Pacific Grand Prix": 2,
-            "Japanese Grand Prix": 3,
+            "Japanese Grand Prix": 2,
             "Australian Grand Prix": 0
         },
         "1996": {
             "Brazilian Grand Prix": 1,
             "Argentine Grand Prix": 12,
-            "San Marino Grand Prix": 0,
-            "Monaco Grand Prix": 0
+            "Canadian Grand Prix": 5,
+            "French Grand Prix": 0
         }
     },
     "driverCode": "",
@@ -592,6 +581,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Injury",
+                "outcome": "withdrew",
+                "cause": "driver",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -606,6 +597,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -618,6 +611,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -630,6 +625,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -642,6 +639,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -654,6 +653,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -666,6 +667,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -678,6 +681,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -690,6 +695,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -702,6 +709,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -714,6 +723,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -726,6 +737,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Out of fuel",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -738,6 +751,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -750,6 +765,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -762,6 +779,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Out of fuel",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -774,6 +793,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -786,6 +807,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -798,6 +821,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -812,6 +837,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "107% Rule",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "forti",
                 "fastestLapRank": null,
                 "shared": false
@@ -824,6 +851,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "forti",
                 "fastestLapRank": null,
                 "shared": false
@@ -836,6 +865,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "forti",
                 "fastestLapRank": null,
                 "shared": false
@@ -848,6 +879,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "107% Rule",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "forti",
                 "fastestLapRank": null,
                 "shared": false
@@ -860,6 +893,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "107% Rule",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "forti",
                 "fastestLapRank": null,
                 "shared": false
@@ -872,6 +907,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Injury",
+                "outcome": "dnq",
+                "cause": "driver",
                 "constructorId": "forti",
                 "fastestLapRank": null,
                 "shared": false
@@ -884,6 +921,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "107% Rule",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "forti",
                 "fastestLapRank": null,
                 "shared": false
@@ -896,6 +935,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "forti",
                 "fastestLapRank": null,
                 "shared": false
@@ -908,6 +949,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "forti",
                 "fastestLapRank": null,
                 "shared": false
@@ -920,6 +963,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "forti",
                 "fastestLapRank": null,
                 "shared": false
@@ -930,5 +975,11 @@
         "1994": {},
         "1995": {},
         "1996": {}
-    }
+    },
+    "seasonStarts": {
+        "1994": 0,
+        "1995": 16,
+        "1996": 4
+    },
+    "totalStarts": 20
 }

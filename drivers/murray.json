@@ -1,6 +1,6 @@
 {
     "driverId": "murray",
-    "lastUpdate": "2026-10-02T11:47:20.451229",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -234,9 +234,9 @@
         "1952": 28.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1
+        "1950": 21.0,
+        "1951": 15.0,
+        "1952": 22.0
     },
     "rates": {
         "wins": {
@@ -256,8 +256,8 @@
         },
         "DNFs": {
             "1950": 1.0,
-            "1951": 2.0,
-            "1952": 2.0
+            "1951": 1.0,
+            "1952": 1.0
         }
     },
     "winRate": 0.0,
@@ -270,9 +270,16 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {}
+        "1950": {
+            "British Grand Prix": 3,
+            "Italian Grand Prix": 16
+        },
+        "1951": {
+            "British Grand Prix": -3
+        },
+        "1952": {
+            "British Grand Prix": -6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -286,6 +293,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -298,6 +307,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -312,6 +323,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -326,6 +339,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -336,5 +351,11 @@
         "1950": {},
         "1951": {},
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 2,
+        "1951": 1,
+        "1952": 1
+    },
+    "totalStarts": 4
 }

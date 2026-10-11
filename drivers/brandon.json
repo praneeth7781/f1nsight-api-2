@@ -1,6 +1,6 @@
 {
     "driverId": "brandon",
-    "lastUpdate": "2026-10-02T11:47:20.466219",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -192,8 +192,8 @@
         "1954": 29.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1954": -1
+        "1952": 16.75,
+        "1954": 25.0
     },
     "rates": {
         "wins": {
@@ -210,7 +210,7 @@
         },
         "DNFs": {
             "1952": 0.0,
-            "1954": 0.0
+            "1954": 1.0
         }
     },
     "winRate": 0.0,
@@ -222,8 +222,15 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1954": {}
+        "1952": {
+            "Swiss Grand Prix": 9,
+            "Belgian Grand Prix": 3,
+            "British Grand Prix": -2,
+            "Italian Grand Prix": 7
+        },
+        "1954": {
+            "British Grand Prix": -4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -237,6 +244,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -249,6 +258,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -261,6 +272,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -273,6 +286,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -287,6 +302,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -296,5 +313,10 @@
     "sprintResults": {
         "1952": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 4,
+        "1954": 1
+    },
+    "totalStarts": 5
 }

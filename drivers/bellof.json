@@ -1,10 +1,10 @@
 {
     "driverId": "bellof",
-    "lastUpdate": "2026-10-02T11:47:20.542208",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 15,
+    "totalDNFs": 3,
     "seasonWins": {
         "1984": 0,
         "1985": 0
@@ -18,7 +18,7 @@
         "1985": 0
     },
     "seasonDNFs": {
-        "1984": 12,
+        "1984": 0,
         "1985": 3
     },
     "poles": {
@@ -30,23 +30,10 @@
         "1985": {}
     },
     "DNFs": {
-        "1984": {
-            "Brazilian Grand Prix": "Disqualified",
-            "South African Grand Prix": "Disqualified",
-            "Belgian Grand Prix": "Disqualified",
-            "San Marino Grand Prix": "Disqualified",
-            "French Grand Prix": "Disqualified",
-            "Monaco Grand Prix": "Disqualified",
-            "Canadian Grand Prix": "Disqualified",
-            "Detroit Grand Prix": "Accident",
-            "Dallas Grand Prix": "Disqualified",
-            "British Grand Prix": "Disqualified",
-            "Austrian Grand Prix": "Disqualified",
-            "Dutch Grand Prix": "Disqualified"
-        },
+        "1984": {},
         "1985": {
             "San Marino Grand Prix": "Engine",
-            "Monaco Grand Prix": "Did not qualify",
+            "Austrian Grand Prix": "Out of fuel",
             "Dutch Grand Prix": "Engine"
         }
     },
@@ -306,11 +293,11 @@
     },
     "avgRacePositions": {
         "1984": 16.333333333333332,
-        "1985": 11.9
+        "1985": 10.777777777777779
     },
     "avgQualiPositions": {
-        "1984": -1,
-        "1985": -1
+        "1984": 21.363636363636363,
+        "1985": 22.444444444444443
     },
     "rates": {
         "wins": {
@@ -326,21 +313,43 @@
             "1985": 0.0
         },
         "DNFs": {
-            "1984": 1.0,
-            "1985": 1.2
+            "1984": 0.0,
+            "1985": 0.3333333333333333
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.7272727272727273,
+    "dnfRate": 0.14285714285714285,
     "ptwConRate": {
         "1984": -1,
         "1985": -1
     },
     "positionsGainLost": {
-        "1984": {},
-        "1985": {}
+        "1984": {
+            "Brazilian Grand Prix": -3,
+            "South African Grand Prix": 9,
+            "Belgian Grand Prix": 10,
+            "San Marino Grand Prix": 11,
+            "French Grand Prix": -4,
+            "Monaco Grand Prix": 11,
+            "Canadian Grand Prix": 6,
+            "Detroit Grand Prix": 6,
+            "Dallas Grand Prix": -6,
+            "British Grand Prix": 13,
+            "Dutch Grand Prix": 12
+        },
+        "1985": {
+            "Portuguese Grand Prix": 15,
+            "San Marino Grand Prix": 1,
+            "Canadian Grand Prix": 12,
+            "Detroit Grand Prix": 15,
+            "French Grand Prix": 13,
+            "British Grand Prix": 15,
+            "German Grand Prix": 11,
+            "Austrian Grand Prix": 15,
+            "Dutch Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -354,6 +363,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -366,6 +377,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -378,6 +391,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -390,6 +405,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -402,6 +419,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -414,6 +433,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -426,6 +447,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -438,6 +461,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "dsq",
+                "cause": "accident",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -450,6 +475,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -462,6 +489,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -474,6 +503,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -486,6 +517,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -500,6 +533,8 @@
                 "grid": 21,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -512,6 +547,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -524,6 +561,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -536,6 +575,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -548,6 +589,8 @@
                 "grid": 19,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -560,6 +603,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -572,6 +617,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -584,6 +631,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -596,6 +645,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Out of fuel",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -608,6 +659,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -617,5 +670,10 @@
     "sprintResults": {
         "1984": {},
         "1985": {}
-    }
+    },
+    "seasonStarts": {
+        "1984": 12,
+        "1985": 9
+    },
+    "totalStarts": 21
 }

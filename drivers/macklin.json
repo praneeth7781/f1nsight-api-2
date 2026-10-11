@@ -1,10 +1,10 @@
 {
     "driverId": "macklin",
-    "lastUpdate": "2026-10-02T11:47:20.466364",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 9,
+    "totalDNFs": 7,
     "seasonWins": {
         "1952": 0,
         "1953": 0,
@@ -24,10 +24,10 @@
         "1955": 0
     },
     "seasonDNFs": {
-        "1952": 1,
+        "1952": 0,
         "1953": 6,
         "1954": 1,
-        "1955": 1
+        "1955": 0
     },
     "poles": {
         "1952": [],
@@ -42,9 +42,7 @@
         "1955": {}
     },
     "DNFs": {
-        "1952": {
-            "Swiss Grand Prix": "Withdrew"
-        },
+        "1952": {},
         "1953": {
             "Dutch Grand Prix": "Throttle",
             "Belgian Grand Prix": "Engine",
@@ -56,9 +54,7 @@
         "1954": {
             "French Grand Prix": "Engine"
         },
-        "1955": {
-            "Monaco Grand Prix": "Did not qualify"
-        }
+        "1955": {}
     },
     "fastLaps": {
         "1952": {
@@ -322,16 +318,16 @@
         }
     },
     "avgRacePositions": {
-        "1952": 14.666666666666666,
+        "1952": 10.75,
         "1953": 20.0,
         "1954": 17.0,
-        "1955": 14.5
+        "1955": 8.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1
+        "1952": 16.5,
+        "1953": 17.0,
+        "1954": 15.0,
+        "1955": 16.0
     },
     "rates": {
         "wins": {
@@ -353,16 +349,16 @@
             "1955": 0.0
         },
         "DNFs": {
-            "1952": 0.3333333333333333,
-            "1953": 0.3333333333333333,
-            "1954": 2.0,
-            "1955": 1.0
+            "1952": 0.0,
+            "1953": 1.0,
+            "1954": 1.0,
+            "1955": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5833333333333334,
     "ptwConRate": {
         "1952": -1,
         "1953": -1,
@@ -370,10 +366,26 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {}
+        "1952": {
+            "Belgian Grand Prix": 3,
+            "French Grand Prix": 5,
+            "British Grand Prix": 14,
+            "Dutch Grand Prix": 1
+        },
+        "1953": {
+            "Dutch Grand Prix": -4,
+            "Belgian Grand Prix": 4,
+            "French Grand Prix": -6,
+            "British Grand Prix": -8,
+            "Swiss Grand Prix": -1,
+            "Italian Grand Prix": -3
+        },
+        "1954": {
+            "French Grand Prix": -2
+        },
+        "1955": {
+            "British Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -387,6 +399,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -399,6 +413,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -411,6 +427,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -423,6 +441,8 @@
                 "grid": 29,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -435,6 +455,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -449,6 +471,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Throttle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -461,6 +485,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -473,6 +499,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -485,6 +513,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -497,6 +527,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -509,6 +541,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -523,6 +557,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -537,6 +573,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -549,6 +587,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+11 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -560,5 +600,12 @@
         "1953": {},
         "1954": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 4,
+        "1953": 6,
+        "1954": 1,
+        "1955": 1
+    },
+    "totalStarts": 12
 }

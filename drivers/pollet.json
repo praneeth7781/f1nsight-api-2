@@ -1,6 +1,6 @@
 {
     "driverId": "pollet",
-    "lastUpdate": "2026-10-02T11:47:20.479471",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -192,8 +192,8 @@
         "1955": 10.666666666666666
     },
     "avgQualiPositions": {
-        "1954": -1,
-        "1955": -1
+        "1954": 17.0,
+        "1955": 17.0
     },
     "rates": {
         "wins": {
@@ -210,7 +210,7 @@
         },
         "DNFs": {
             "1954": 1.0,
-            "1955": 0.6666666666666666
+            "1955": 0.3333333333333333
         }
     },
     "winRate": 0.0,
@@ -222,8 +222,15 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1954": {},
-        "1955": {}
+        "1954": {
+            "French Grand Prix": -2,
+            "Spanish Grand Prix": 2
+        },
+        "1955": {
+            "Monaco Grand Prix": 13,
+            "Dutch Grand Prix": 2,
+            "Italian Grand Prix": 4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -237,6 +244,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -249,6 +258,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -263,6 +274,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -275,6 +288,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -287,6 +302,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -296,5 +313,10 @@
     "sprintResults": {
         "1954": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1954": 2,
+        "1955": 3
+    },
+    "totalStarts": 5
 }

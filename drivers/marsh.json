@@ -1,10 +1,10 @@
 {
     "driverId": "marsh",
-    "lastUpdate": "2026-10-02T11:47:20.488872",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 1,
     "seasonWins": {
         "1957": 0,
         "1958": 0,
@@ -26,8 +26,8 @@
     "seasonDNFs": {
         "1957": 0,
         "1958": 0,
-        "1961": 2,
-        "1962": 4
+        "1961": 1,
+        "1962": 0
     },
     "poles": {
         "1957": [],
@@ -45,15 +45,9 @@
         "1957": {},
         "1958": {},
         "1961": {
-            "Belgian Grand Prix": "Withdrew",
             "British Grand Prix": "Ignition"
         },
-        "1962": {
-            "Monaco Grand Prix": "Withdrew",
-            "Belgian Grand Prix": "Withdrew",
-            "French Grand Prix": "Withdrew",
-            "German Grand Prix": "Withdrew"
-        }
+        "1962": {}
     },
     "fastLaps": {
         "1957": {
@@ -298,13 +292,13 @@
     "avgRacePositions": {
         "1957": 15.0,
         "1958": 8.0,
-        "1961": 20.333333333333332,
-        "1962": 23.75
+        "1961": 19.5,
+        "1962": -1
     },
     "avgQualiPositions": {
-        "1957": -1,
-        "1958": -1,
-        "1961": -1,
+        "1957": 22.0,
+        "1958": 14.0,
+        "1961": 23.5,
         "1962": -1
     },
     "rates": {
@@ -329,14 +323,14 @@
         "DNFs": {
             "1957": 0.0,
             "1958": 0.0,
-            "1961": 0.0,
+            "1961": 0.5,
             "1962": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.25,
     "ptwConRate": {
         "1957": -1,
         "1958": -1,
@@ -344,9 +338,16 @@
         "1962": -1
     },
     "positionsGainLost": {
-        "1957": {},
-        "1958": {},
-        "1961": {},
+        "1957": {
+            "German Grand Prix": 7
+        },
+        "1958": {
+            "German Grand Prix": 6
+        },
+        "1961": {
+            "British Grand Prix": 3,
+            "German Grand Prix": 5
+        },
         "1962": {}
     },
     "driverCode": "",
@@ -361,6 +362,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -375,6 +378,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -389,6 +394,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -401,6 +408,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -413,6 +422,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -427,6 +438,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -439,6 +452,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -451,6 +466,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -463,6 +480,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -474,5 +493,12 @@
         "1958": {},
         "1961": {},
         "1962": {}
-    }
+    },
+    "seasonStarts": {
+        "1957": 1,
+        "1958": 1,
+        "1961": 2,
+        "1962": 0
+    },
+    "totalStarts": 4
 }

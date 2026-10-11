@@ -1,7 +1,7 @@
 {
     "driverId": "ide",
     "driverCode": "IDE",
-    "lastUpdate": "2026-10-02T11:47:20.562337",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -188,7 +188,7 @@
         "2006": 17.25
     },
     "avgQualiPositions": {
-        "2006": 21.75
+        "2006": 20.75
     },
     "rates": {
         "wins": {
@@ -214,7 +214,7 @@
     "positionsGainLost": {
         "2006": {
             "Bahrain Grand Prix": 2,
-            "Malaysian Grand Prix": 5,
+            "Malaysian Grand Prix": 1,
             "Australian Grand Prix": 9,
             "San Marino Grand Prix": 2
         }
@@ -230,6 +230,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Mechanical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 21,
                 "shared": false
@@ -242,6 +244,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Mechanical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 21,
                 "shared": false
@@ -254,6 +258,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 18,
                 "shared": false
@@ -266,6 +272,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 21,
                 "shared": false
@@ -274,5 +282,9 @@
     },
     "sprintResults": {
         "2006": {}
-    }
+    },
+    "seasonStarts": {
+        "2006": 4
+    },
+    "totalStarts": 4
 }

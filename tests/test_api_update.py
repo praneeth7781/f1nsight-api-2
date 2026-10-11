@@ -990,8 +990,14 @@ class DailyPathAndScoringGuardTests(unittest.TestCase):
             finally:
                 os.chdir(previous_directory)
 
-    def test_daily_update_runs_races_before_drivers(self):
+    def _run_daily_update(self, unexplained):
         calls = []
+        report = {
+            'written': 0, 'unchanged': 0, 'explained': [],
+            'unexplained': unexplained, 'poleDiffs': [],
+            'driverFileCount': 0, 'driversListCount': 0,
+            'filesNotInList': [], 'listNotInFiles': [], 'orphanFiles': [],
+        }
 
         def record(name):
             def inner(*args, **kwargs):
@@ -1000,6 +1006,10 @@ class DailyPathAndScoringGuardTests(unittest.TestCase):
                     return True
                 if name == 'write_rescored_files':
                     return []
+                if name == 'rebuild_driver_files':
+                    return report
+                if name == 'publish_v2':
+                    return {}
                 return None
             return inner
 
@@ -1015,21 +1025,18 @@ class DailyPathAndScoringGuardTests(unittest.TestCase):
                 'update_sprintResults',
                 'update_driverStandings',
                 'update_constructorStandings',
-                'update_driverData',
-                'analyse_driverData',
-                'replace_NaN',
                 'update_team_records',
             )
         }
         with (
             mock.patch.multiple(api_update, **patches),
             mock.patch(
-                'drivers_build.refresh_season_poles',
-                side_effect=record('refresh_season_poles'),
+                'drivers_build.rebuild_driver_files',
+                side_effect=record('rebuild_driver_files'),
             ),
             mock.patch(
-                'drivers_build.rebuild_drivers_list',
-                side_effect=record('rebuild_drivers_list'),
+                'drivers_v2.publish_v2',
+                side_effect=record('publish_v2'),
             ),
             mock.patch(
                 'scoring.apply_scoring_overrides',
@@ -1041,16 +1048,33 @@ class DailyPathAndScoringGuardTests(unittest.TestCase):
             ),
         ):
             api_update.update()
+        return calls
+
+    def test_daily_update_rebuilds_drivers_after_races(self):
+        calls = self._run_daily_update(unexplained=[])
         self.assertLess(
             calls.index('update_raceResults'),
-            calls.index('update_driverData'),
+            calls.index('rebuild_driver_files'),
         )
         self.assertLess(
-            calls.index('update_driverData'),
-            calls.index('analyse_driverData'),
+            calls.index('update_constructorStandings'),
+            calls.index('rebuild_driver_files'),
         )
-        self.assertIn('rebuild_drivers_list', calls)
-        self.assertGreaterEqual(calls.count('refresh_season_poles'), 2)
+        self.assertLess(
+            calls.index('rebuild_driver_files'),
+            calls.index('publish_v2'),
+        )
+        self.assertLess(
+            calls.index('publish_v2'),
+            calls.index('update_team_records'),
+        )
+        self.assertIn('write_rescored_files', calls)
+
+    def test_daily_update_stops_on_unexplained_shrink(self):
+        with self.assertRaises(RuntimeError):
+            self._run_daily_update(
+                unexplained=[{'driverId': 'alonso', 'changes': [{'path': 'totalWins'}]}]
+            )
 
 
 if __name__ == '__main__':

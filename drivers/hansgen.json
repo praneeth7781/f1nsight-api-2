@@ -1,10 +1,10 @@
 {
     "driverId": "hansgen",
-    "lastUpdate": "2026-10-02T11:47:20.503421",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 1,
     "seasonWins": {
         "1961": 0,
         "1963": 0,
@@ -22,7 +22,7 @@
     },
     "seasonDNFs": {
         "1961": 1,
-        "1963": 2,
+        "1963": 0,
         "1964": 0
     },
     "poles": {
@@ -39,10 +39,7 @@
         "1961": {
             "United States Grand Prix": "Accident"
         },
-        "1963": {
-            "United States Grand Prix": "Withdrew",
-            "Mexican Grand Prix": "Withdrew"
-        },
+        "1963": {},
         "1964": {}
     },
     "fastLaps": {
@@ -201,13 +198,13 @@
     },
     "avgRacePositions": {
         "1961": 18.0,
-        "1963": 22.5,
+        "1963": -1,
         "1964": 5.0
     },
     "avgQualiPositions": {
-        "1961": -1,
+        "1961": 14.0,
         "1963": -1,
-        "1964": -1
+        "1964": 17.0
     },
     "rates": {
         "wins": {
@@ -227,23 +224,27 @@
         },
         "DNFs": {
             "1961": 1.0,
-            "1963": 0.5,
-            "1964": 1.0
+            "1963": 0.0,
+            "1964": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.75,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1961": -1,
         "1963": -1,
         "1964": -1
     },
     "positionsGainLost": {
-        "1961": {},
+        "1961": {
+            "United States Grand Prix": -4
+        },
         "1963": {},
-        "1964": {}
+        "1964": {
+            "United States Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -257,6 +258,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -271,6 +274,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -283,6 +288,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -297,6 +304,8 @@
                 "grid": 17,
                 "points": 2.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -307,5 +316,11 @@
         "1961": {},
         "1963": {},
         "1964": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 1,
+        "1963": 0,
+        "1964": 1
+    },
+    "totalStarts": 2
 }

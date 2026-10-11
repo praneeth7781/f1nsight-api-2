@@ -1,6 +1,6 @@
 {
     "driverId": "deletraz",
-    "lastUpdate": "2026-10-02T11:47:20.553856",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -234,6 +234,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "larrousse",
                 "fastestLapRank": null,
                 "shared": false
@@ -248,6 +250,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Physical",
+                "outcome": "retired",
+                "cause": "driver",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -260,6 +264,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -269,5 +275,10 @@
     "sprintResults": {
         "1994": {},
         "1995": {}
-    }
+    },
+    "seasonStarts": {
+        "1994": 1,
+        "1995": 2
+    },
+    "totalStarts": 3
 }

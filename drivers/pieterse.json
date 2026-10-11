@@ -1,6 +1,6 @@
 {
     "driverId": "pieterse",
-    "lastUpdate": "2026-10-02T11:47:20.505960",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -147,49 +147,45 @@
     },
     "avgRacePositions": {
         "1962": 10.0,
-        "1963": 19.0,
-        "1965": 25.0
+        "1963": 19.0
     },
     "avgQualiPositions": {
-        "1962": -1,
-        "1963": -1,
-        "1965": -1
+        "1962": 13.0,
+        "1963": 12.0
     },
     "rates": {
         "wins": {
             "1962": 0.0,
-            "1963": 0.0,
-            "1965": 0.0
+            "1963": 0.0
         },
         "podiums": {
             "1962": 0.0,
-            "1963": 0.0,
-            "1965": 0.0
+            "1963": 0.0
         },
         "poles": {
             "1962": 0.0,
-            "1963": 0.0,
-            "1965": 0.0
+            "1963": 0.0
         },
         "DNFs": {
             "1962": 0.0,
-            "1963": 0.0,
-            "1965": 0.0
+            "1963": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1962": -1,
-        "1963": -1,
-        "1965": -1
+        "1963": -1
     },
     "positionsGainLost": {
-        "1962": {},
-        "1963": {},
-        "1965": {}
+        "1962": {
+            "South African Grand Prix": 3
+        },
+        "1963": {
+            "South African Grand Prix": -7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -203,6 +199,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+11 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -217,6 +215,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -226,5 +226,10 @@
     "sprintResults": {
         "1962": {},
         "1963": {}
-    }
+    },
+    "seasonStarts": {
+        "1962": 1,
+        "1963": 1
+    },
+    "totalStarts": 2
 }

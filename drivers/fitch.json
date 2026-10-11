@@ -1,6 +1,6 @@
 {
     "driverId": "fitch",
-    "lastUpdate": "2026-10-02T11:47:20.477900",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -150,8 +150,8 @@
         "1955": 9.0
     },
     "avgQualiPositions": {
-        "1953": -1,
-        "1955": -1
+        "1953": 26.0,
+        "1955": 20.0
     },
     "rates": {
         "wins": {
@@ -168,7 +168,7 @@
         },
         "DNFs": {
             "1953": 1.0,
-            "1955": 1.0
+            "1955": 0.0
         }
     },
     "winRate": 0.0,
@@ -180,8 +180,12 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1953": {},
-        "1955": {}
+        "1953": {
+            "Italian Grand Prix": -2
+        },
+        "1955": {
+            "Italian Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -195,6 +199,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -209,6 +215,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -218,5 +226,10 @@
     "sprintResults": {
         "1953": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1955": 1
+    },
+    "totalStarts": 2
 }

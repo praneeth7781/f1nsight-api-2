@@ -1,6 +1,6 @@
 {
     "driverId": "donohue",
-    "lastUpdate": "2026-10-02T11:47:20.521155",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -47,8 +47,8 @@
             "Spanish Grand Prix": "Accident",
             "Monaco Grand Prix": "Accident",
             "French Grand Prix": "Transmission",
-            "German Grand Prix": "Tyre",
-            "Austrian Grand Prix": "Accident"
+            "British Grand Prix": "Accident",
+            "German Grand Prix": "Tyre"
         }
     },
     "fastLaps": {
@@ -277,12 +277,12 @@
     "avgRacePositions": {
         "1971": 3.0,
         "1974": 16.0,
-        "1975": 14.0
+        "1975": 12.818181818181818
     },
     "avgQualiPositions": {
-        "1971": -1,
-        "1974": -1,
-        "1975": -1
+        "1971": 8.0,
+        "1974": 19.0,
+        "1975": 17.181818181818183
     },
     "rates": {
         "wins": {
@@ -302,23 +302,40 @@
         },
         "DNFs": {
             "1971": 0.0,
-            "1974": 0.0,
-            "1975": 0.0
+            "1974": 0.5,
+            "1975": 0.5454545454545454
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.06666666666666667,
+    "podiumRate": 0.07142857142857142,
     "poleRate": 0.0,
-    "dnfRate": 0.5333333333333333,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1971": -1,
         "1974": -1,
         "1975": -1
     },
     "positionsGainLost": {
-        "1971": {},
-        "1974": {},
-        "1975": {}
+        "1971": {
+            "Canadian Grand Prix": 5
+        },
+        "1974": {
+            "Canadian Grand Prix": 12,
+            "United States Grand Prix": -6
+        },
+        "1975": {
+            "Argentine Grand Prix": 9,
+            "Brazilian Grand Prix": -5,
+            "South African Grand Prix": 10,
+            "Spanish Grand Prix": -3,
+            "Monaco Grand Prix": 6,
+            "Belgian Grand Prix": 10,
+            "Swedish Grand Prix": 11,
+            "Dutch Grand Prix": 10,
+            "French Grand Prix": -6,
+            "British Grand Prix": 10,
+            "German Grand Prix": -4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -332,6 +349,8 @@
                 "grid": 8,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -346,6 +365,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -358,6 +379,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -372,6 +395,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -384,6 +409,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Handling",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -396,6 +423,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -408,6 +437,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -420,6 +451,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -432,6 +465,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -444,6 +479,8 @@
                 "grid": 16,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -456,6 +493,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -468,6 +507,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -480,6 +521,8 @@
                 "grid": 15,
                 "points": 2.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -492,6 +535,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Tyre",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -504,6 +549,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "withdrew",
+                "cause": "accident",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -514,5 +561,11 @@
         "1971": {},
         "1974": {},
         "1975": {}
-    }
+    },
+    "seasonStarts": {
+        "1971": 1,
+        "1974": 2,
+        "1975": 11
+    },
+    "totalStarts": 14
 }

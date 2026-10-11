@@ -1,10 +1,10 @@
 {
     "driverId": "streiff",
-    "lastUpdate": "2026-10-02T11:47:20.543121",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 24,
+    "totalDNFs": 26,
     "seasonWins": {
         "1984": 0,
         "1985": 0,
@@ -29,9 +29,9 @@
     "seasonDNFs": {
         "1984": 1,
         "1985": 1,
-        "1986": 7,
+        "1986": 8,
         "1987": 5,
-        "1988": 10
+        "1988": 11
     },
     "poles": {
         "1984": [],
@@ -63,7 +63,8 @@
             "German Grand Prix": "Engine",
             "Austrian Grand Prix": "Engine",
             "Portuguese Grand Prix": "Engine",
-            "Mexican Grand Prix": "Turbo"
+            "Mexican Grand Prix": "Turbo",
+            "Australian Grand Prix": "Out of fuel"
         },
         "1987": {
             "Monaco Grand Prix": "Accident",
@@ -82,7 +83,8 @@
             "German Grand Prix": "Throttle",
             "Hungarian Grand Prix": "Collision",
             "Italian Grand Prix": "Clutch",
-            "Spanish Grand Prix": "Engine"
+            "Spanish Grand Prix": "Engine",
+            "Australian Grand Prix": "Electrical"
         }
     },
     "fastLaps": {
@@ -593,11 +595,11 @@
         "1988": 16.75
     },
     "avgQualiPositions": {
-        "1984": -1,
-        "1985": -1,
-        "1986": -1,
-        "1987": -1,
-        "1988": -1
+        "1984": 13.0,
+        "1985": 15.8,
+        "1986": 18.125,
+        "1987": 21.0,
+        "1988": 16.5625
     },
     "rates": {
         "wins": {
@@ -624,9 +626,9 @@
         "DNFs": {
             "1984": 1.0,
             "1985": 0.2,
-            "1986": 0.0625,
-            "1987": 0.0625,
-            "1988": 0.0625
+            "1986": 0.5,
+            "1987": 0.3125,
+            "1988": 0.6875
         }
     },
     "winRate": 0.0,
@@ -641,11 +643,70 @@
         "1988": -1
     },
     "positionsGainLost": {
-        "1984": {},
-        "1985": {},
-        "1986": {},
-        "1987": {},
-        "1988": {}
+        "1984": {
+            "Portuguese Grand Prix": -8
+        },
+        "1985": {
+            "Italian Grand Prix": 9,
+            "Belgian Grand Prix": 9,
+            "European Grand Prix": -3,
+            "South African Grand Prix": 8,
+            "Australian Grand Prix": 15
+        },
+        "1986": {
+            "Brazilian Grand Prix": 11,
+            "Spanish Grand Prix": 3,
+            "San Marino Grand Prix": 9,
+            "Monaco Grand Prix": 2,
+            "Belgian Grand Prix": 6,
+            "Canadian Grand Prix": 6,
+            "Detroit Grand Prix": 9,
+            "French Grand Prix": 1,
+            "British Grand Prix": 10,
+            "German Grand Prix": -6,
+            "Hungarian Grand Prix": 10,
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": 14,
+            "Portuguese Grand Prix": 1,
+            "Mexican Grand Prix": -4,
+            "Australian Grand Prix": 5
+        },
+        "1987": {
+            "Brazilian Grand Prix": 9,
+            "San Marino Grand Prix": 12,
+            "Belgian Grand Prix": 14,
+            "Monaco Grand Prix": 0,
+            "Detroit Grand Prix": -1,
+            "French Grand Prix": 19,
+            "British Grand Prix": 12,
+            "German Grand Prix": 18,
+            "Hungarian Grand Prix": 5,
+            "Austrian Grand Prix": -1,
+            "Italian Grand Prix": 12,
+            "Portuguese Grand Prix": 9,
+            "Spanish Grand Prix": 8,
+            "Mexican Grand Prix": 17,
+            "Japanese Grand Prix": 13,
+            "Australian Grand Prix": -7
+        },
+        "1988": {
+            "Brazilian Grand Prix": 4,
+            "San Marino Grand Prix": 3,
+            "Monaco Grand Prix": -14,
+            "Mexican Grand Prix": 7,
+            "Canadian Grand Prix": -6,
+            "Detroit Grand Prix": -10,
+            "French Grand Prix": -8,
+            "British Grand Prix": -9,
+            "German Grand Prix": -4,
+            "Hungarian Grand Prix": -1,
+            "Belgian Grand Prix": 8,
+            "Italian Grand Prix": 7,
+            "Portuguese Grand Prix": 12,
+            "Spanish Grand Prix": -7,
+            "Japanese Grand Prix": 10,
+            "Australian Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -659,6 +720,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "renault",
                 "fastestLapRank": null,
                 "shared": false
@@ -673,6 +736,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -685,6 +750,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -697,6 +764,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -709,6 +778,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -721,6 +792,8 @@
                 "grid": 18,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -735,6 +808,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -747,6 +822,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -759,6 +836,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -771,6 +850,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -783,6 +864,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -795,6 +878,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -807,6 +892,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -819,6 +906,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Heat shield fire",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -831,6 +920,8 @@
                 "grid": 16,
                 "points": 1.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -843,6 +934,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -855,6 +948,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -867,6 +962,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -879,6 +976,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -891,6 +990,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -903,6 +1004,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -915,6 +1018,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "Out of fuel",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -929,6 +1034,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -941,6 +1048,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -953,6 +1062,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -965,6 +1076,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -977,6 +1090,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Wheel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -989,6 +1104,8 @@
                 "grid": 25,
                 "points": 1.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1001,6 +1118,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1013,6 +1132,8 @@
                 "grid": 22,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1025,6 +1146,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1037,6 +1160,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1049,6 +1174,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1061,6 +1188,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1073,6 +1202,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1085,6 +1216,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1097,6 +1230,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1109,6 +1244,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -1123,6 +1260,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1135,6 +1274,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1147,6 +1288,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Throttle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1159,6 +1302,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1171,6 +1316,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1183,6 +1330,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1195,6 +1344,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1207,6 +1358,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Broken wing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1219,6 +1372,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Throttle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1231,6 +1386,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1243,6 +1400,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1255,6 +1414,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1267,6 +1428,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1279,6 +1442,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1291,6 +1456,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1303,6 +1470,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -1315,5 +1484,13 @@
         "1986": {},
         "1987": {},
         "1988": {}
-    }
+    },
+    "seasonStarts": {
+        "1984": 1,
+        "1985": 5,
+        "1986": 16,
+        "1987": 16,
+        "1988": 16
+    },
+    "totalStarts": 54
 }

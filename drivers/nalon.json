@@ -1,10 +1,10 @@
 {
     "driverId": "nalon",
-    "lastUpdate": "2026-10-02T11:47:20.462251",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 1,
-    "totalDNFs": 2,
+    "totalDNFs": 3,
     "seasonWins": {
         "1951": 0,
         "1952": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1951": 1,
         "1952": 1,
-        "1953": 0
+        "1953": 1
     },
     "poles": {
         "1951": [
@@ -44,7 +44,9 @@
         "1952": {
             "Indianapolis 500": "Supercharger"
         },
-        "1953": {}
+        "1953": {
+            "Indianapolis 500": "Accident"
+        }
     },
     "fastLaps": {
         "1951": {
@@ -251,9 +253,9 @@
         "1953": 11.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1,
-        "1953": -1
+        "1951": 1.0,
+        "1952": 4.0,
+        "1953": 26.0
     },
     "rates": {
         "wins": {
@@ -287,9 +289,15 @@
         "1953": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {},
-        "1953": {}
+        "1951": {
+            "Indianapolis 500": -9
+        },
+        "1952": {
+            "Indianapolis 500": -21
+        },
+        "1953": {
+            "Indianapolis 500": 15
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -303,6 +311,8 @@
                 "grid": 1,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -317,6 +327,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Supercharger",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -331,6 +343,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -341,5 +355,11 @@
         "1951": {},
         "1952": {},
         "1953": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 1,
+        "1953": 1
+    },
+    "totalStarts": 3
 }

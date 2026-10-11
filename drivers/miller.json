@@ -1,6 +1,6 @@
 {
     "driverId": "miller",
-    "lastUpdate": "2026-10-02T11:47:20.462975",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -188,8 +188,8 @@
         "1952": 30.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1
+        "1951": 28.0,
+        "1952": 27.0
     },
     "rates": {
         "wins": {
@@ -218,8 +218,12 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {}
+        "1951": {
+            "Indianapolis 500": 3
+        },
+        "1952": {
+            "Indianapolis 500": -3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -233,6 +237,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -247,6 +253,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Supercharger",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -256,5 +264,10 @@
     "sprintResults": {
         "1951": {},
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 1
+    },
+    "totalStarts": 2
 }

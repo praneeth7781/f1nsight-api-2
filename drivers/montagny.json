@@ -1,7 +1,7 @@
 {
     "driverId": "montagny",
     "driverCode": "FMO",
-    "lastUpdate": "2026-10-02T11:47:20.562481",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -201,7 +201,7 @@
         "2006": 18.714285714285715
     },
     "avgQualiPositions": {
-        "2006": 21.285714285714285
+        "2006": 20.285714285714285
     },
     "rates": {
         "wins": {
@@ -226,13 +226,13 @@
     },
     "positionsGainLost": {
         "2006": {
-            "European Grand Prix": 5,
-            "Spanish Grand Prix": -1,
+            "European Grand Prix": 4,
+            "Spanish Grand Prix": -2,
             "Monaco Grand Prix": 4,
             "British Grand Prix": 3,
-            "Canadian Grand Prix": 2,
-            "United States Grand Prix": 0,
-            "French Grand Prix": 5
+            "Canadian Grand Prix": 1,
+            "United States Grand Prix": -3,
+            "French Grand Prix": 4
         }
     },
     "driverNumber": "",
@@ -246,6 +246,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 20,
                 "shared": false
@@ -258,6 +260,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Driveshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 22,
                 "shared": false
@@ -270,6 +274,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 22,
                 "shared": false
@@ -282,6 +288,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 19,
                 "shared": false
@@ -294,6 +302,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 20,
                 "shared": false
@@ -306,6 +316,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "super_aguri",
                 "fastestLapRank": null,
                 "shared": false
@@ -318,6 +330,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 20,
                 "shared": false
@@ -326,5 +340,9 @@
     },
     "sprintResults": {
         "2006": {}
-    }
+    },
+    "seasonStarts": {
+        "2006": 7
+    },
+    "totalStarts": 7
 }

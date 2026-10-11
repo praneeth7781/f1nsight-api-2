@@ -1,10 +1,10 @@
 {
     "driverId": "wharton",
-    "lastUpdate": "2026-10-02T11:47:20.465924",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 7,
     "seasonWins": {
         "1952": 0,
         "1953": 0,
@@ -26,7 +26,7 @@
     "seasonDNFs": {
         "1952": 2,
         "1953": 3,
-        "1954": 2,
+        "1954": 1,
         "1955": 1
     },
     "poles": {
@@ -52,8 +52,7 @@
             "Italian Grand Prix": "Not classified"
         },
         "1954": {
-            "French Grand Prix": "Transmission",
-            "German Grand Prix": "Withdrew"
+            "French Grand Prix": "Transmission"
         },
         "1955": {
             "Italian Grand Prix": "Injection"
@@ -329,14 +328,14 @@
     "avgRacePositions": {
         "1952": 10.5,
         "1953": 14.8,
-        "1954": 11.4,
+        "1954": 8.5,
         "1955": 14.5
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1
+        "1952": 10.5,
+        "1953": 14.2,
+        "1954": 11.75,
+        "1955": 16.0
     },
     "rates": {
         "wins": {
@@ -359,15 +358,15 @@
         },
         "DNFs": {
             "1952": 0.5,
-            "1953": 0.4,
-            "1954": 0.4,
-            "1955": 1.0
+            "1953": 0.6,
+            "1954": 0.25,
+            "1955": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5,
+    "dnfRate": 0.4666666666666667,
     "ptwConRate": {
         "1952": -1,
         "1953": -1,
@@ -375,10 +374,29 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {}
+        "1952": {
+            "Swiss Grand Prix": 9,
+            "Belgian Grand Prix": -12,
+            "Dutch Grand Prix": -3,
+            "Italian Grand Prix": 6
+        },
+        "1953": {
+            "Dutch Grand Prix": 1,
+            "French Grand Prix": -6,
+            "British Grand Prix": 3,
+            "Swiss Grand Prix": 2,
+            "Italian Grand Prix": -3
+        },
+        "1954": {
+            "French Grand Prix": 4,
+            "British Grand Prix": 1,
+            "Swiss Grand Prix": 2,
+            "Spanish Grand Prix": 6
+        },
+        "1955": {
+            "British Grand Prix": 6,
+            "Italian Grand Prix": -3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -392,6 +410,8 @@
                 "grid": 13,
                 "points": 3.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "frazer_nash",
                 "fastestLapRank": null,
                 "shared": false
@@ -404,6 +424,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "frazer_nash",
                 "fastestLapRank": null,
                 "shared": false
@@ -416,6 +438,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "frazer_nash",
                 "fastestLapRank": null,
                 "shared": false
@@ -428,6 +452,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -442,6 +468,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Physical",
+                "outcome": "retired",
+                "cause": "driver",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -454,6 +482,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -466,6 +496,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -478,6 +510,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -490,6 +524,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -504,6 +540,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -516,6 +554,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -528,6 +568,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -540,6 +582,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -552,6 +596,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -566,6 +612,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+18 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": true
@@ -578,6 +626,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Injection",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -589,5 +639,12 @@
         "1953": {},
         "1954": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 4,
+        "1953": 5,
+        "1954": 4,
+        "1955": 2
+    },
+    "totalStarts": 15
 }

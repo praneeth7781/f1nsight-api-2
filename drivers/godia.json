@@ -1,6 +1,6 @@
 {
     "driverId": "godia",
-    "lastUpdate": "2026-10-02T11:47:20.465196",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -345,14 +345,14 @@
         "1954": 6.0,
         "1956": 7.6,
         "1957": 12.333333333333334,
-        "1958": 16.5
+        "1958": 11.666666666666666
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1954": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1
+        "1951": 17.0,
+        "1954": 13.0,
+        "1956": 17.8,
+        "1957": 16.0,
+        "1958": 12.666666666666666
     },
     "rates": {
         "wins": {
@@ -379,15 +379,15 @@
         "DNFs": {
             "1951": 0.0,
             "1954": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0
+            "1956": 0.2,
+            "1957": 0.6666666666666666,
+            "1958": 0.6666666666666666
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.42857142857142855,
+    "dnfRate": 0.38461538461538464,
     "ptwConRate": {
         "1951": -1,
         "1954": -1,
@@ -396,11 +396,29 @@
         "1958": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1954": {},
-        "1956": {},
-        "1957": {},
-        "1958": {}
+        "1951": {
+            "Spanish Grand Prix": 7
+        },
+        "1954": {
+            "Spanish Grand Prix": 7
+        },
+        "1956": {
+            "Belgian Grand Prix": -2,
+            "French Grand Prix": 10,
+            "British Grand Prix": 17,
+            "German Grand Prix": 12,
+            "Italian Grand Prix": 14
+        },
+        "1957": {
+            "German Grand Prix": 2,
+            "Pescara Grand Prix": 3,
+            "Italian Grand Prix": 6
+        },
+        "1958": {
+            "Argentine Grand Prix": 1,
+            "Belgian Grand Prix": 7,
+            "French Grand Prix": -5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -414,6 +432,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -428,6 +448,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -442,6 +464,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -454,6 +478,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -466,6 +492,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -478,6 +506,8 @@
                 "grid": 16,
                 "points": 3.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -490,6 +520,8 @@
                 "grid": 18,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -504,6 +536,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Steering",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -516,6 +550,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -528,6 +564,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -542,6 +580,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -554,6 +594,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -566,6 +608,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -578,5 +622,13 @@
         "1956": {},
         "1957": {},
         "1958": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1954": 1,
+        "1956": 5,
+        "1957": 3,
+        "1958": 3
+    },
+    "totalStarts": 13
 }

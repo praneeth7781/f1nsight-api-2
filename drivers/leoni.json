@@ -1,6 +1,6 @@
 {
     "driverId": "leoni",
-    "lastUpdate": "2026-10-02T11:47:20.533904",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -156,29 +156,23 @@
         }
     },
     "avgRacePositions": {
-        "1977": 27.0,
-        "1978": 25.0
+        "1978": 22.5
     },
     "avgQualiPositions": {
-        "1977": -1,
-        "1978": -1
+        "1978": 19.5
     },
     "rates": {
         "wins": {
-            "1977": 0.0,
             "1978": 0.0
         },
         "podiums": {
-            "1977": 0.0,
             "1978": 0.0
         },
         "poles": {
-            "1977": 0.0,
             "1978": 0.0
         },
         "DNFs": {
-            "1977": 1.0,
-            "1978": 0.25
+            "1978": 1.0
         }
     },
     "winRate": 0.0,
@@ -186,12 +180,13 @@
     "poleRate": 0.0,
     "dnfRate": 1.0,
     "ptwConRate": {
-        "1977": -1,
         "1978": -1
     },
     "positionsGainLost": {
-        "1977": {},
-        "1978": {}
+        "1978": {
+            "Argentine Grand Prix": 0,
+            "Brazilian Grand Prix": -6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -205,6 +200,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -217,6 +214,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -225,5 +224,9 @@
     },
     "sprintResults": {
         "1978": {}
-    }
+    },
+    "seasonStarts": {
+        "1978": 2
+    },
+    "totalStarts": 2
 }

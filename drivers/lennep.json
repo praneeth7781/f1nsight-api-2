@@ -1,10 +1,10 @@
 {
     "driverId": "lennep",
-    "lastUpdate": "2026-10-02T11:47:20.520004",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1971": 0,
         "1973": 0,
@@ -26,7 +26,7 @@
     "seasonDNFs": {
         "1971": 0,
         "1973": 1,
-        "1974": 1,
+        "1974": 0,
         "1975": 0
     },
     "poles": {
@@ -46,9 +46,7 @@
         "1973": {
             "Italian Grand Prix": "Overheating"
         },
-        "1974": {
-            "Dutch Grand Prix": "Did not qualify"
-        },
+        "1974": {},
         "1975": {}
     },
     "fastLaps": {
@@ -327,14 +325,14 @@
     "avgRacePositions": {
         "1971": 8.0,
         "1973": 12.0,
-        "1974": 20.5,
+        "1974": 14.0,
         "1975": 10.333333333333334
     },
     "avgQualiPositions": {
-        "1971": -1,
-        "1973": -1,
-        "1974": -1,
-        "1975": -1
+        "1971": 21.0,
+        "1973": 22.0,
+        "1974": 30.0,
+        "1975": 22.666666666666668
     },
     "rates": {
         "wins": {
@@ -357,7 +355,7 @@
         },
         "DNFs": {
             "1971": 0.0,
-            "1973": 0.0,
+            "1973": 0.3333333333333333,
             "1974": 0.0,
             "1975": 0.0
         }
@@ -365,7 +363,7 @@
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.2222222222222222,
+    "dnfRate": 0.125,
     "ptwConRate": {
         "1971": -1,
         "1973": -1,
@@ -373,10 +371,22 @@
         "1975": -1
     },
     "positionsGainLost": {
-        "1971": {},
-        "1973": {},
-        "1974": {},
-        "1975": {}
+        "1971": {
+            "Dutch Grand Prix": 13
+        },
+        "1973": {
+            "Dutch Grand Prix": 14,
+            "Austrian Grand Prix": 14,
+            "Italian Grand Prix": 2
+        },
+        "1974": {
+            "Belgian Grand Prix": 16
+        },
+        "1975": {
+            "Dutch Grand Prix": 12,
+            "French Grand Prix": 7,
+            "German Grand Prix": 18
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -390,6 +400,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -404,6 +416,8 @@
                 "grid": 20,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -416,6 +430,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -428,6 +444,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -442,6 +460,8 @@
                 "grid": 30,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -454,6 +474,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -468,6 +490,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -480,6 +504,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -492,6 +518,8 @@
                 "grid": 24,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -503,5 +531,12 @@
         "1973": {},
         "1974": {},
         "1975": {}
-    }
+    },
+    "seasonStarts": {
+        "1971": 1,
+        "1973": 3,
+        "1974": 1,
+        "1975": 3
+    },
+    "totalStarts": 8
 }

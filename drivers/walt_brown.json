@@ -1,6 +1,6 @@
 {
     "driverId": "walt_brown",
-    "lastUpdate": "2026-10-02T11:47:20.456616",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -180,8 +180,8 @@
         "1951": 26.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
+        "1950": 20.0,
+        "1951": 13.0
     },
     "rates": {
         "wins": {
@@ -198,7 +198,7 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1951": 0.0
+            "1951": 1.0
         }
     },
     "winRate": 0.0,
@@ -210,8 +210,12 @@
         "1951": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "Indianapolis 500": 1
+        },
+        "1951": {
+            "Indianapolis 500": -13
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -225,6 +229,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+11 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,6 +245,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -248,5 +256,10 @@
     "sprintResults": {
         "1950": {},
         "1951": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1
+    },
+    "totalStarts": 2
 }

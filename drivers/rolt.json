@@ -1,6 +1,6 @@
 {
     "driverId": "rolt",
-    "lastUpdate": "2026-10-02T11:47:20.452076",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -224,9 +224,9 @@
         "1955": 19.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1953": -1,
-        "1955": -1
+        "1950": 10.0,
+        "1953": 10.0,
+        "1955": 14.0
     },
     "rates": {
         "wins": {
@@ -260,9 +260,15 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1953": {},
-        "1955": {}
+        "1950": {
+            "British Grand Prix": -10
+        },
+        "1953": {
+            "British Grand Prix": -2
+        },
+        "1955": {
+            "British Grand Prix": -5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -276,6 +282,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "era",
                 "fastestLapRank": null,
                 "shared": true
@@ -290,6 +298,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": false
@@ -304,6 +314,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": true
@@ -314,5 +326,11 @@
         "1950": {},
         "1953": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1953": 1,
+        "1955": 1
+    },
+    "totalStarts": 3
 }

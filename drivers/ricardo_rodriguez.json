@@ -1,6 +1,6 @@
 {
     "driverId": "ricardo_rodriguez",
-    "lastUpdate": "2026-10-02T11:47:20.502125",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -35,7 +35,7 @@
         },
         "1962": {
             "Dutch Grand Prix": "Accident",
-            "Monaco Grand Prix": "Withdrew"
+            "Italian Grand Prix": "Ignition"
         }
     },
     "fastLaps": {
@@ -189,11 +189,11 @@
     },
     "avgRacePositions": {
         "1961": 17.0,
-        "1962": 11.2
+        "1962": 8.5
     },
     "avgQualiPositions": {
-        "1961": -1,
-        "1962": -1
+        "1961": 2.0,
+        "1962": 9.75
     },
     "rates": {
         "wins": {
@@ -210,20 +210,27 @@
         },
         "DNFs": {
             "1961": 1.0,
-            "1962": 0.2
+            "1962": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.6,
     "ptwConRate": {
         "1961": -1,
         "1962": -1
     },
     "positionsGainLost": {
-        "1961": {},
-        "1962": {}
+        "1961": {
+            "Italian Grand Prix": -15
+        },
+        "1962": {
+            "Dutch Grand Prix": 1,
+            "Belgian Grand Prix": 3,
+            "German Grand Prix": 4,
+            "Italian Grand Prix": -3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -237,6 +244,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -251,6 +260,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -263,6 +274,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -275,6 +288,8 @@
                 "grid": 7,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -287,6 +302,8 @@
                 "grid": 10,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -299,6 +316,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -308,5 +327,10 @@
     "sprintResults": {
         "1961": {},
         "1962": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 1,
+        "1962": 4
+    },
+    "totalStarts": 5
 }

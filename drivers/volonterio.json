@@ -1,6 +1,6 @@
 {
     "driverId": "volonterio",
-    "lastUpdate": "2026-10-02T11:47:20.480935",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -193,9 +193,9 @@
         "1957": 11.0
     },
     "avgQualiPositions": {
-        "1954": -1,
-        "1956": -1,
-        "1957": -1
+        "1954": 21.0,
+        "1956": 19.0,
+        "1957": 16.0
     },
     "rates": {
         "wins": {
@@ -215,8 +215,8 @@
         },
         "DNFs": {
             "1954": 1.0,
-            "1956": 1.0,
-            "1957": 1.0
+            "1956": 0.0,
+            "1957": 0.0
         }
     },
     "winRate": 0.0,
@@ -229,9 +229,15 @@
         "1957": -1
     },
     "positionsGainLost": {
-        "1954": {},
-        "1956": {},
-        "1957": {}
+        "1954": {
+            "Spanish Grand Prix": 10
+        },
+        "1956": {
+            "German Grand Prix": 12
+        },
+        "1957": {
+            "Italian Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -245,6 +251,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -259,6 +267,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -273,6 +283,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+15 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -283,5 +295,11 @@
         "1954": {},
         "1956": {},
         "1957": {}
-    }
+    },
+    "seasonStarts": {
+        "1954": 1,
+        "1956": 1,
+        "1957": 1
+    },
+    "totalStarts": 3
 }

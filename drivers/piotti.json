@@ -1,10 +1,10 @@
 {
     "driverId": "piotti",
-    "lastUpdate": "2026-10-02T11:47:20.483749",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 3,
     "seasonWins": {
         "1955": 0,
         "1956": 0,
@@ -21,9 +21,9 @@
         "1957": 0
     },
     "seasonDNFs": {
-        "1955": 1,
-        "1956": 2,
-        "1957": 3
+        "1955": 0,
+        "1956": 1,
+        "1957": 2
     },
     "poles": {
         "1955": [],
@@ -36,15 +36,11 @@
         "1957": {}
     },
     "DNFs": {
-        "1955": {
-            "Italian Grand Prix": "Withdrew"
-        },
+        "1955": {},
         "1956": {
-            "Argentine Grand Prix": "Accident",
-            "German Grand Prix": "Withdrew"
+            "Argentine Grand Prix": "Accident"
         },
         "1957": {
-            "Monaco Grand Prix": "Did not qualify",
             "Pescara Grand Prix": "Engine",
             "Italian Grand Prix": "Engine"
         }
@@ -249,58 +245,57 @@
         }
     },
     "avgRacePositions": {
-        "1955": 23.0,
-        "1956": 12.333333333333334,
-        "1957": 16.0,
-        "1958": 25.0
+        "1955": -1,
+        "1956": 7.5,
+        "1957": 14.666666666666666
     },
     "avgQualiPositions": {
         "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1
+        "1956": 13.5,
+        "1957": 14.666666666666666
     },
     "rates": {
         "wins": {
             "1955": 0.0,
             "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0
+            "1957": 0.0
         },
         "podiums": {
             "1955": 0.0,
             "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0
+            "1957": 0.0
         },
         "poles": {
             "1955": 0.0,
             "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0
+            "1957": 0.0
         },
         "DNFs": {
-            "1955": 1.0,
-            "1956": 0.3333333333333333,
-            "1957": 0.25,
-            "1958": 1.0
+            "1955": 0.0,
+            "1956": 0.5,
+            "1957": 0.6666666666666666
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.7777777777777778,
+    "dnfRate": 0.6,
     "ptwConRate": {
         "1955": -1,
         "1956": -1,
-        "1957": -1,
-        "1958": -1
+        "1957": -1
     },
     "positionsGainLost": {
         "1955": {},
-        "1956": {},
-        "1957": {},
-        "1958": {}
+        "1956": {
+            "Argentine Grand Prix": 3,
+            "Italian Grand Prix": 9
+        },
+        "1957": {
+            "Argentine Grand Prix": 4,
+            "Pescara Grand Prix": -3,
+            "Italian Grand Prix": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -314,6 +309,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "arzani-volpini",
                 "fastestLapRank": null,
                 "shared": false
@@ -328,6 +325,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -340,6 +339,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -352,6 +353,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -366,6 +369,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -378,6 +383,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -390,6 +397,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -402,6 +411,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -412,5 +423,11 @@
         "1955": {},
         "1956": {},
         "1957": {}
-    }
+    },
+    "seasonStarts": {
+        "1955": 0,
+        "1956": 2,
+        "1957": 3
+    },
+    "totalStarts": 5
 }

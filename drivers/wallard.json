@@ -1,6 +1,6 @@
 {
     "driverId": "wallard",
-    "lastUpdate": "2026-10-02T11:47:20.454636",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 1,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -180,8 +180,8 @@
         "1951": 1.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
+        "1950": 23.0,
+        "1951": 2.0
     },
     "rates": {
         "wins": {
@@ -210,8 +210,12 @@
         "1951": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "Indianapolis 500": 17
+        },
+        "1951": {
+            "Indianapolis 500": 1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -225,6 +229,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "moore",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,6 +245,8 @@
                 "grid": 2,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -248,5 +256,10 @@
     "sprintResults": {
         "1950": {},
         "1951": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1
+    },
+    "totalStarts": 2
 }

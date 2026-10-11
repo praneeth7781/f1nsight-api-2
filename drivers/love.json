@@ -1,6 +1,6 @@
 {
     "driverId": "love",
-    "lastUpdate": "2026-10-02T11:47:20.505681",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -44,14 +44,14 @@
     "seasonDNFs": {
         "1962": 0,
         "1963": 0,
-        "1964": 1,
+        "1964": 0,
         "1965": 1,
         "1967": 0,
         "1968": 0,
         "1969": 1,
         "1970": 0,
         "1971": 1,
-        "1972": 0
+        "1972": 1
     },
     "poles": {
         "1962": [],
@@ -82,9 +82,7 @@
     "DNFs": {
         "1962": {},
         "1963": {},
-        "1964": {
-            "Italian Grand Prix": "Did not qualify"
-        },
+        "1964": {},
         "1965": {
             "South African Grand Prix": "Halfshaft"
         },
@@ -97,7 +95,9 @@
         "1971": {
             "South African Grand Prix": "Differential"
         },
-        "1972": {}
+        "1972": {
+            "South African Grand Prix": "Spun off"
+        }
     },
     "fastLaps": {
         "1962": {
@@ -680,7 +680,7 @@
     "avgRacePositions": {
         "1962": 8.0,
         "1963": 9.0,
-        "1964": 23.0,
+        "1964": -1,
         "1965": 19.0,
         "1967": 2.0,
         "1968": 9.0,
@@ -690,16 +690,16 @@
         "1972": 16.0
     },
     "avgQualiPositions": {
-        "1962": -1,
-        "1963": -1,
+        "1962": 12.0,
+        "1963": 13.0,
         "1964": -1,
-        "1965": -1,
-        "1967": -1,
-        "1968": -1,
-        "1969": -1,
-        "1970": -1,
-        "1971": -1,
-        "1972": -1
+        "1965": 18.0,
+        "1967": 5.0,
+        "1968": 17.0,
+        "1969": 10.0,
+        "1970": 22.0,
+        "1971": 21.0,
+        "1972": 26.0
     },
     "rates": {
         "wins": {
@@ -742,19 +742,19 @@
             "1962": 0.0,
             "1963": 0.0,
             "1964": 0.0,
-            "1965": 0.0,
+            "1965": 1.0,
             "1967": 0.0,
             "1968": 0.0,
-            "1969": 0.0,
+            "1969": 1.0,
             "1970": 0.0,
-            "1971": 0.0,
-            "1972": 0.0
+            "1971": 1.0,
+            "1972": 1.0
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.1,
+    "podiumRate": 0.1111111111111111,
     "poleRate": 0.0,
-    "dnfRate": 0.5,
+    "dnfRate": 0.4444444444444444,
     "ptwConRate": {
         "1962": -1,
         "1963": -1,
@@ -768,16 +768,34 @@
         "1972": -1
     },
     "positionsGainLost": {
-        "1962": {},
-        "1963": {},
+        "1962": {
+            "South African Grand Prix": 4
+        },
+        "1963": {
+            "South African Grand Prix": 4
+        },
         "1964": {},
-        "1965": {},
-        "1967": {},
-        "1968": {},
-        "1969": {},
-        "1970": {},
-        "1971": {},
-        "1972": {}
+        "1965": {
+            "South African Grand Prix": -1
+        },
+        "1967": {
+            "South African Grand Prix": 3
+        },
+        "1968": {
+            "South African Grand Prix": 8
+        },
+        "1969": {
+            "South African Grand Prix": -6
+        },
+        "1970": {
+            "South African Grand Prix": 14
+        },
+        "1971": {
+            "South African Grand Prix": 0
+        },
+        "1972": {
+            "South African Grand Prix": 10
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -791,6 +809,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -805,6 +825,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -819,6 +841,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -833,6 +857,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -847,6 +873,8 @@
                 "grid": 5,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -861,6 +889,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -875,6 +905,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -889,6 +921,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -903,6 +937,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Differential",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -917,6 +953,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -934,5 +972,18 @@
         "1970": {},
         "1971": {},
         "1972": {}
-    }
+    },
+    "seasonStarts": {
+        "1962": 1,
+        "1963": 1,
+        "1964": 0,
+        "1965": 1,
+        "1967": 1,
+        "1968": 1,
+        "1969": 1,
+        "1970": 1,
+        "1971": 1,
+        "1972": 1
+    },
+    "totalStarts": 9
 }

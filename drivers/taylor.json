@@ -1,6 +1,6 @@
 {
     "driverId": "taylor",
-    "lastUpdate": "2026-10-02T11:47:20.509890",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -192,8 +192,8 @@
         "1966": 10.0
     },
     "avgQualiPositions": {
-        "1964": -1,
-        "1966": -1
+        "1964": 20.0,
+        "1966": 18.25
     },
     "rates": {
         "wins": {
@@ -210,7 +210,7 @@
         },
         "DNFs": {
             "1964": 0.0,
-            "1966": 0.0
+            "1966": 0.25
         }
     },
     "winRate": 0.0,
@@ -222,8 +222,15 @@
         "1966": -1
     },
     "positionsGainLost": {
-        "1964": {},
-        "1966": {}
+        "1964": {
+            "British Grand Prix": 6
+        },
+        "1966": {
+            "French Grand Prix": 9,
+            "British Grand Prix": 8,
+            "Dutch Grand Prix": 9,
+            "German Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -237,6 +244,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+24 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -251,6 +260,8 @@
                 "grid": 15,
                 "points": 1.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -263,6 +274,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -275,6 +288,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -287,6 +302,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -296,5 +313,10 @@
     "sprintResults": {
         "1964": {},
         "1966": {}
-    }
+    },
+    "seasonStarts": {
+        "1964": 1,
+        "1966": 4
+    },
+    "totalStarts": 5
 }

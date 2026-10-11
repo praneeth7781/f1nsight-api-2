@@ -1,6 +1,6 @@
 {
     "driverId": "uria",
-    "lastUpdate": "2026-10-02T11:47:20.481372",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -189,8 +189,8 @@
         "1956": 6.0
     },
     "avgQualiPositions": {
-        "1955": -1,
-        "1956": -1
+        "1955": 21.0,
+        "1956": 13.0
     },
     "rates": {
         "wins": {
@@ -207,7 +207,7 @@
         },
         "DNFs": {
             "1955": 1.0,
-            "1956": 1.0
+            "1956": 0.0
         }
     },
     "winRate": 0.0,
@@ -219,8 +219,12 @@
         "1956": -1
     },
     "positionsGainLost": {
-        "1955": {},
-        "1956": {}
+        "1955": {
+            "Argentine Grand Prix": 7
+        },
+        "1956": {
+            "Argentine Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -234,6 +238,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Out of fuel",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -248,6 +254,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -257,5 +265,10 @@
     "sprintResults": {
         "1955": {},
         "1956": {}
-    }
+    },
+    "seasonStarts": {
+        "1955": 1,
+        "1956": 1
+    },
+    "totalStarts": 2
 }

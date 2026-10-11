@@ -1,6 +1,6 @@
 {
     "driverId": "koinigg",
-    "lastUpdate": "2026-10-02T11:47:20.526588",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -113,10 +113,10 @@
         }
     },
     "avgRacePositions": {
-        "1974": 21.333333333333332
+        "1974": 16.5
     },
     "avgQualiPositions": {
-        "1974": -1
+        "1974": 22.5
     },
     "rates": {
         "wins": {
@@ -129,18 +129,21 @@
             "1974": 0.0
         },
         "DNFs": {
-            "1974": 0.6666666666666666
+            "1974": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1974": -1
     },
     "positionsGainLost": {
-        "1974": {}
+        "1974": {
+            "Canadian Grand Prix": 12,
+            "United States Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -154,6 +157,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -166,6 +171,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Fatal accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -174,5 +181,9 @@
     },
     "sprintResults": {
         "1974": {}
-    }
+    },
+    "seasonStarts": {
+        "1974": 2
+    },
+    "totalStarts": 2
 }

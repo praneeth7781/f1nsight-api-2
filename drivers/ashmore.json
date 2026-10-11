@@ -1,10 +1,10 @@
 {
     "driverId": "ashmore",
-    "lastUpdate": "2026-10-02T11:47:20.501116",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1961": 0,
         "1962": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1961": 2,
-        "1962": 1
+        "1962": 0
     },
     "poles": {
         "1961": [],
@@ -34,9 +34,7 @@
             "British Grand Prix": "Ignition",
             "Italian Grand Prix": "Accident"
         },
-        "1962": {
-            "Belgian Grand Prix": "Withdrew"
-        }
+        "1962": {}
     },
     "fastLaps": {
         "1961": {
@@ -183,10 +181,10 @@
     },
     "avgRacePositions": {
         "1961": 25.333333333333332,
-        "1962": 23.5
+        "1962": -1
     },
     "avgQualiPositions": {
-        "1961": -1,
+        "1961": 25.333333333333332,
         "1962": -1
     },
     "rates": {
@@ -204,19 +202,23 @@
         },
         "DNFs": {
             "1961": 0.6666666666666666,
-            "1962": 1.0
+            "1962": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8,
+    "dnfRate": 0.6666666666666666,
     "ptwConRate": {
         "1961": -1,
         "1962": -1
     },
     "positionsGainLost": {
-        "1961": {},
+        "1961": {
+            "British Grand Prix": -2,
+            "German Grand Prix": 9,
+            "Italian Grand Prix": -7
+        },
         "1962": {}
     },
     "driverCode": "",
@@ -231,6 +233,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -243,6 +247,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -255,6 +261,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -269,6 +277,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -278,5 +288,10 @@
     "sprintResults": {
         "1961": {},
         "1962": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 3,
+        "1962": 0
+    },
+    "totalStarts": 3
 }

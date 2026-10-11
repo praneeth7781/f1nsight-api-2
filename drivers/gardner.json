@@ -1,10 +1,10 @@
 {
     "driverId": "gardner",
-    "lastUpdate": "2026-10-02T11:47:20.510030",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 5,
     "seasonWins": {
         "1964": 0,
         "1965": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1964": 1,
         "1965": 4,
-        "1968": 1
+        "1968": 0
     },
     "poles": {
         "1964": [],
@@ -45,9 +45,7 @@
             "German Grand Prix": "Gearbox",
             "Italian Grand Prix": "Engine"
         },
-        "1968": {
-            "Italian Grand Prix": "Did not qualify"
-        }
+        "1968": {}
     },
     "fastLaps": {
         "1964": {
@@ -250,11 +248,11 @@
     "avgRacePositions": {
         "1964": 23.0,
         "1965": 14.142857142857142,
-        "1968": 21.0
+        "1968": -1
     },
     "avgQualiPositions": {
-        "1964": -1,
-        "1965": -1,
+        "1964": 19.0,
+        "1965": 14.714285714285714,
         "1968": -1
     },
     "rates": {
@@ -275,22 +273,32 @@
         },
         "DNFs": {
             "1964": 1.0,
-            "1965": 0.14285714285714285,
-            "1968": 1.0
+            "1965": 0.5714285714285714,
+            "1968": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.625,
     "ptwConRate": {
         "1964": -1,
         "1965": -1,
         "1968": -1
     },
     "positionsGainLost": {
-        "1964": {},
-        "1965": {},
+        "1964": {
+            "British Grand Prix": -4
+        },
+        "1965": {
+            "South African Grand Prix": 3,
+            "Monaco Grand Prix": -3,
+            "Belgian Grand Prix": 0,
+            "British Grand Prix": 5,
+            "Dutch Grand Prix": 0,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": 0
+        },
         "1968": {}
     },
     "driverCode": "",
@@ -305,6 +313,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -319,6 +329,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -331,6 +343,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -343,6 +357,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -355,6 +371,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -367,6 +385,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -379,6 +399,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -391,6 +413,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -405,6 +429,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -415,5 +441,11 @@
         "1964": {},
         "1965": {},
         "1968": {}
-    }
+    },
+    "seasonStarts": {
+        "1964": 1,
+        "1965": 7,
+        "1968": 0
+    },
+    "totalStarts": 8
 }

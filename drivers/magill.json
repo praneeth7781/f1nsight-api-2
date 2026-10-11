@@ -1,10 +1,10 @@
 {
     "driverId": "magill",
-    "lastUpdate": "2026-10-02T11:47:20.487846",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1957": 0,
         "1958": 0,
@@ -22,7 +22,7 @@
     },
     "seasonDNFs": {
         "1957": 1,
-        "1958": 1,
+        "1958": 0,
         "1959": 1
     },
     "poles": {
@@ -39,9 +39,7 @@
         "1957": {
             "Indianapolis 500": "Accident"
         },
-        "1958": {
-            "Indianapolis 500": "Disqualified"
-        },
+        "1958": {},
         "1959": {
             "Indianapolis 500": "Accident"
         }
@@ -251,9 +249,9 @@
         "1959": 30.0
     },
     "avgQualiPositions": {
-        "1957": -1,
-        "1958": -1,
-        "1959": -1
+        "1957": 18.0,
+        "1958": 31.0,
+        "1959": 31.0
     },
     "rates": {
         "wins": {
@@ -273,23 +271,29 @@
         },
         "DNFs": {
             "1957": 1.0,
-            "1958": 1.0,
+            "1958": 0.0,
             "1959": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.6666666666666666,
     "ptwConRate": {
         "1957": -1,
         "1958": -1,
         "1959": -1
     },
     "positionsGainLost": {
-        "1957": {},
-        "1958": {},
-        "1959": {}
+        "1957": {
+            "Indianapolis 500": -6
+        },
+        "1958": {
+            "Indianapolis 500": 14
+        },
+        "1959": {
+            "Indianapolis 500": 1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -303,6 +307,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -317,6 +323,8 @@
                 "grid": 31,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -331,6 +339,8 @@
                 "grid": 31,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "sutton",
                 "fastestLapRank": null,
                 "shared": false
@@ -341,5 +351,11 @@
         "1957": {},
         "1958": {},
         "1959": {}
-    }
+    },
+    "seasonStarts": {
+        "1957": 1,
+        "1958": 1,
+        "1959": 1
+    },
+    "totalStarts": 3
 }

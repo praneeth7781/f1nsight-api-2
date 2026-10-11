@@ -1,6 +1,6 @@
 {
     "driverId": "attwood",
-    "lastUpdate": "2026-10-02T11:47:20.510176",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -27,8 +27,8 @@
         "1969": 0
     },
     "seasonDNFs": {
-        "1964": 1,
-        "1965": 2,
+        "1964": 0,
+        "1965": 3,
         "1967": 0,
         "1968": 2,
         "1969": 0
@@ -50,11 +50,10 @@
         "1969": {}
     },
     "DNFs": {
-        "1964": {
-            "British Grand Prix": "Withdrew"
-        },
+        "1964": {},
         "1965": {
             "Monaco Grand Prix": "Wheel",
+            "Belgian Grand Prix": "Accident",
             "German Grand Prix": "Water leak"
         },
         "1967": {},
@@ -406,7 +405,7 @@
         }
     },
     "avgRacePositions": {
-        "1964": 25.0,
+        "1964": -1,
         "1965": 10.75,
         "1967": 10.0,
         "1968": 10.166666666666666,
@@ -414,10 +413,10 @@
     },
     "avgQualiPositions": {
         "1964": -1,
-        "1965": -1,
-        "1967": -1,
-        "1968": -1,
-        "1969": -1
+        "1965": 14.375,
+        "1967": 13.0,
+        "1968": 14.333333333333334,
+        "1969": 10.0
     },
     "rates": {
         "wins": {
@@ -442,17 +441,17 @@
             "1969": 0.0
         },
         "DNFs": {
-            "1964": 1.0,
-            "1965": 0.125,
-            "1967": 1.0,
-            "1968": 0.16666666666666666,
-            "1969": 1.0
+            "1964": 0.0,
+            "1965": 0.375,
+            "1967": 0.0,
+            "1968": 0.3333333333333333,
+            "1969": 0.0
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.058823529411764705,
+    "podiumRate": 0.0625,
     "poleRate": 0.0,
-    "dnfRate": 0.35294117647058826,
+    "dnfRate": 0.3125,
     "ptwConRate": {
         "1964": -1,
         "1965": -1,
@@ -462,10 +461,30 @@
     },
     "positionsGainLost": {
         "1964": {},
-        "1965": {},
-        "1967": {},
-        "1968": {},
-        "1969": {}
+        "1965": {
+            "Monaco Grand Prix": -6,
+            "Belgian Grand Prix": -1,
+            "British Grand Prix": 3,
+            "Dutch Grand Prix": 5,
+            "German Grand Prix": 4,
+            "Italian Grand Prix": 7,
+            "United States Grand Prix": 6,
+            "Mexican Grand Prix": 11
+        },
+        "1967": {
+            "Canadian Grand Prix": 3
+        },
+        "1968": {
+            "Monaco Grand Prix": 4,
+            "Belgian Grand Prix": 4,
+            "Dutch Grand Prix": 8,
+            "French Grand Prix": 5,
+            "British Grand Prix": -2,
+            "German Grand Prix": 6
+        },
+        "1969": {
+            "Monaco Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -479,6 +498,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -493,6 +514,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Wheel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -505,6 +528,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -517,6 +542,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+17 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -529,6 +556,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -541,6 +570,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Water leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -553,6 +584,8 @@
                 "grid": 13,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -565,6 +598,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -577,6 +612,8 @@
                 "grid": 17,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -591,6 +628,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -605,6 +644,8 @@
                 "grid": 6,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -617,6 +658,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Oil pipe",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -629,6 +672,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -641,6 +686,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -653,6 +700,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Radiator",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -665,6 +714,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -679,6 +730,8 @@
                 "grid": 10,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -691,5 +744,13 @@
         "1967": {},
         "1968": {},
         "1969": {}
-    }
+    },
+    "seasonStarts": {
+        "1964": 0,
+        "1965": 8,
+        "1967": 1,
+        "1968": 6,
+        "1969": 1
+    },
+    "totalStarts": 16
 }

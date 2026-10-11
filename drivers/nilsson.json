@@ -1,6 +1,6 @@
 {
     "driverId": "nilsson",
-    "lastUpdate": "2026-10-02T11:47:20.530007",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 1,
     "totalPodiums": 4,
     "totalPoles": 0,
@@ -48,8 +48,8 @@
             "United States Grand Prix": "Engine"
         },
         "1977": {
-            "Argentine Grand Prix": "Withdrew",
             "Monaco Grand Prix": "Gearbox",
+            "Swedish Grand Prix": "Wheel bearing",
             "German Grand Prix": "Engine",
             "Austrian Grand Prix": "Engine",
             "Dutch Grand Prix": "Accident",
@@ -351,20 +351,20 @@
     },
     "avgRacePositions": {
         "1976": 15.4,
-        "1977": 12.941176470588236
+        "1977": 12.4375
     },
     "avgQualiPositions": {
-        "1976": -1,
-        "1977": -1
+        "1976": 13.733333333333333,
+        "1977": 10.0625
     },
     "rates": {
         "wins": {
             "1976": 0.0,
-            "1977": 0.058823529411764705
+            "1977": 0.0625
         },
         "podiums": {
             "1976": 0.13333333333333333,
-            "1977": 0.11764705882352941
+            "1977": 0.125
         },
         "poles": {
             "1976": 0.0,
@@ -372,20 +372,53 @@
         },
         "DNFs": {
             "1976": 0.6,
-            "1977": 0.5294117647058824
+            "1977": 0.5625
         }
     },
-    "winRate": 0.03125,
-    "podiumRate": 0.125,
+    "winRate": 0.03225806451612903,
+    "podiumRate": 0.12903225806451613,
     "poleRate": 0.0,
-    "dnfRate": 0.59375,
+    "dnfRate": 0.5806451612903226,
     "ptwConRate": {
         "1976": -1,
         "1977": -1
     },
     "positionsGainLost": {
-        "1976": {},
-        "1977": {}
+        "1976": {
+            "South African Grand Prix": 3,
+            "United States Grand Prix West": -12,
+            "Spanish Grand Prix": 4,
+            "Belgian Grand Prix": -3,
+            "Monaco Grand Prix": 1,
+            "Swedish Grand Prix": -18,
+            "French Grand Prix": -14,
+            "British Grand Prix": 3,
+            "German Grand Prix": 11,
+            "Austrian Grand Prix": 1,
+            "Dutch Grand Prix": -10,
+            "Italian Grand Prix": -1,
+            "Canadian Grand Prix": 3,
+            "United States Grand Prix": -3,
+            "Japanese Grand Prix": 10
+        },
+        "1977": {
+            "Brazilian Grand Prix": 5,
+            "South African Grand Prix": -2,
+            "United States Grand Prix West": 8,
+            "Spanish Grand Prix": 7,
+            "Monaco Grand Prix": 0,
+            "Belgian Grand Prix": 2,
+            "Swedish Grand Prix": -12,
+            "French Grand Prix": -1,
+            "British Grand Prix": 2,
+            "German Grand Prix": -5,
+            "Austrian Grand Prix": -5,
+            "Dutch Grand Prix": -11,
+            "Italian Grand Prix": 0,
+            "United States Grand Prix": -9,
+            "Canadian Grand Prix": -18,
+            "Japanese Grand Prix": 1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -399,6 +432,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -411,6 +446,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -423,6 +460,8 @@
                 "grid": 7,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -435,6 +474,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -447,6 +488,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -459,6 +502,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -471,6 +516,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -483,6 +530,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -495,6 +544,8 @@
                 "grid": 16,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -507,6 +558,8 @@
                 "grid": 4,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -519,6 +572,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -531,6 +586,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -543,6 +600,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -555,6 +614,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -567,6 +628,8 @@
                 "grid": 16,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -581,6 +644,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -593,6 +658,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -605,6 +672,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -617,6 +686,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -629,6 +700,8 @@
                 "grid": 12,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -641,6 +714,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -653,6 +728,8 @@
                 "grid": 3,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -665,6 +742,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -677,6 +756,8 @@
                 "grid": 3,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -689,6 +770,8 @@
                 "grid": 5,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -701,6 +784,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -713,6 +798,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -725,6 +812,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -737,6 +826,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -749,6 +840,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -761,6 +854,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -773,6 +868,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -782,5 +879,10 @@
     "sprintResults": {
         "1976": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1976": 15,
+        "1977": 16
+    },
+    "totalStarts": 31
 }

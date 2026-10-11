@@ -1,6 +1,6 @@
 {
     "driverId": "ramos",
-    "lastUpdate": "2026-10-02T11:47:20.483151",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -193,8 +193,8 @@
         "1956": 13.25
     },
     "avgQualiPositions": {
-        "1955": -1,
-        "1956": -1
+        "1955": 16.666666666666668,
+        "1956": 18.75
     },
     "rates": {
         "wins": {
@@ -223,8 +223,17 @@
         "1956": -1
     },
     "positionsGainLost": {
-        "1955": {},
-        "1956": {}
+        "1955": {
+            "Dutch Grand Prix": 6,
+            "British Grand Prix": 3,
+            "Italian Grand Prix": 2
+        },
+        "1956": {
+            "Monaco Grand Prix": 9,
+            "French Grand Prix": 6,
+            "British Grand Prix": 10,
+            "Italian Grand Prix": -3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -238,6 +247,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -250,6 +261,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -262,6 +275,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -276,6 +291,8 @@
                 "grid": 14,
                 "points": 2.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -288,6 +305,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -300,6 +319,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Axle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -312,6 +333,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -321,5 +344,10 @@
     "sprintResults": {
         "1955": {},
         "1956": {}
-    }
+    },
+    "seasonStarts": {
+        "1955": 3,
+        "1956": 4
+    },
+    "totalStarts": 7
 }

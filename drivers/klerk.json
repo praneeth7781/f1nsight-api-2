@@ -1,6 +1,6 @@
 {
     "driverId": "klerk",
-    "lastUpdate": "2026-10-02T11:47:20.509319",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -325,10 +325,10 @@
         "1970": 11.0
     },
     "avgQualiPositions": {
-        "1963": -1,
-        "1965": -1,
-        "1969": -1,
-        "1970": -1
+        "1963": 16.0,
+        "1965": 17.0,
+        "1969": 16.0,
+        "1970": 21.0
     },
     "rates": {
         "wins": {
@@ -351,9 +351,9 @@
         },
         "DNFs": {
             "1963": 1.0,
-            "1965": 1.0,
+            "1965": 0.0,
             "1969": 1.0,
-            "1970": 1.0
+            "1970": 0.0
         }
     },
     "winRate": 0.0,
@@ -367,10 +367,18 @@
         "1970": -1
     },
     "positionsGainLost": {
-        "1963": {},
-        "1965": {},
-        "1969": {},
-        "1970": {}
+        "1963": {
+            "South African Grand Prix": 1
+        },
+        "1965": {
+            "South African Grand Prix": 7
+        },
+        "1969": {
+            "South African Grand Prix": 7
+        },
+        "1970": {
+            "South African Grand Prix": 10
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -384,6 +392,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "alfa",
                 "fastestLapRank": null,
                 "shared": false
@@ -398,6 +408,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alfa",
                 "fastestLapRank": null,
                 "shared": false
@@ -412,6 +424,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -426,6 +440,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -437,5 +453,12 @@
         "1965": {},
         "1969": {},
         "1970": {}
-    }
+    },
+    "seasonStarts": {
+        "1963": 1,
+        "1965": 1,
+        "1969": 1,
+        "1970": 1
+    },
+    "totalStarts": 4
 }

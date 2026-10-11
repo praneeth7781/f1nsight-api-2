@@ -1,6 +1,6 @@
 {
     "driverId": "abecassis",
-    "lastUpdate": "2026-10-02T11:47:20.461266",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -194,8 +194,8 @@
         "1952": 17.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1
+        "1951": 20.0,
+        "1952": 10.0
     },
     "rates": {
         "wins": {
@@ -224,8 +224,12 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {}
+        "1951": {
+            "Swiss Grand Prix": 3
+        },
+        "1952": {
+            "Swiss Grand Prix": -7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -239,6 +243,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -253,6 +259,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -262,5 +270,10 @@
     "sprintResults": {
         "1951": {},
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 1
+    },
+    "totalStarts": 2
 }

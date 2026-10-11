@@ -1,6 +1,6 @@
 {
     "driverId": "ulmen",
-    "lastUpdate": "2026-10-02T11:47:20.466801",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -134,7 +134,7 @@
         "1952": 13.5
     },
     "avgQualiPositions": {
-        "1952": -1
+        "1952": 15.5
     },
     "rates": {
         "wins": {
@@ -158,7 +158,10 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1952": {}
+        "1952": {
+            "Swiss Grand Prix": -3,
+            "German Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -172,6 +175,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "veritas",
                 "fastestLapRank": null,
                 "shared": false
@@ -184,6 +189,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "veritas",
                 "fastestLapRank": null,
                 "shared": false
@@ -192,5 +199,9 @@
     },
     "sprintResults": {
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 2
+    },
+    "totalStarts": 2
 }

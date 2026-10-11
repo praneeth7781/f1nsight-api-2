@@ -1,10 +1,10 @@
 {
     "driverId": "lovely",
-    "lastUpdate": "2026-10-02T11:47:20.492984",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 4,
     "seasonWins": {
         "1959": 0,
         "1960": 0,
@@ -27,10 +27,10 @@
         "1971": 0
     },
     "seasonDNFs": {
-        "1959": 1,
+        "1959": 0,
         "1960": 0,
         "1969": 1,
-        "1970": 4,
+        "1970": 1,
         "1971": 2
     },
     "poles": {
@@ -48,18 +48,13 @@
         "1971": {}
     },
     "DNFs": {
-        "1959": {
-            "Monaco Grand Prix": "Did not qualify"
-        },
+        "1959": {},
         "1960": {},
         "1969": {
             "United States Grand Prix": "Halfshaft"
         },
         "1970": {
-            "Dutch Grand Prix": "Did not qualify",
-            "French Grand Prix": "Did not qualify",
-            "British Grand Prix": "Not classified",
-            "United States Grand Prix": "Did not qualify"
+            "British Grand Prix": "Not classified"
         },
         "1971": {
             "Canadian Grand Prix": "Not classified",
@@ -318,18 +313,18 @@
         }
     },
     "avgRacePositions": {
-        "1959": 22.0,
+        "1959": -1,
         "1960": 11.0,
         "1969": 10.0,
-        "1970": 20.5,
+        "1970": 10.0,
         "1971": 19.5
     },
     "avgQualiPositions": {
         "1959": -1,
-        "1960": -1,
-        "1969": -1,
-        "1970": -1,
-        "1971": -1
+        "1960": 20.0,
+        "1969": 16.0,
+        "1970": 23.0,
+        "1971": 27.0
     },
     "rates": {
         "wins": {
@@ -354,17 +349,17 @@
             "1971": 0.0
         },
         "DNFs": {
-            "1959": 1.0,
-            "1960": 1.0,
+            "1959": 0.0,
+            "1960": 0.0,
             "1969": 0.3333333333333333,
-            "1970": 0.25,
-            "1971": 0.5
+            "1970": 1.0,
+            "1971": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.7272727272727273,
+    "dnfRate": 0.5714285714285714,
     "ptwConRate": {
         "1959": -1,
         "1960": -1,
@@ -374,10 +369,21 @@
     },
     "positionsGainLost": {
         "1959": {},
-        "1960": {},
-        "1969": {},
-        "1970": {},
-        "1971": {}
+        "1960": {
+            "United States Grand Prix": 9
+        },
+        "1969": {
+            "Canadian Grand Prix": 9,
+            "United States Grand Prix": 2,
+            "Mexican Grand Prix": 7
+        },
+        "1970": {
+            "British Grand Prix": 13
+        },
+        "1971": {
+            "Canadian Grand Prix": 7,
+            "United States Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -391,6 +397,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -405,6 +413,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-castellotti",
                 "fastestLapRank": null,
                 "shared": false
@@ -419,6 +429,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -431,6 +443,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -443,6 +457,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -457,6 +473,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -469,6 +487,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -481,6 +501,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -493,6 +515,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -507,6 +531,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -519,6 +545,8 @@
                 "grid": 29,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -531,5 +559,13 @@
         "1969": {},
         "1970": {},
         "1971": {}
-    }
+    },
+    "seasonStarts": {
+        "1959": 0,
+        "1960": 1,
+        "1969": 3,
+        "1970": 1,
+        "1971": 2
+    },
+    "totalStarts": 7
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "walker",
-    "lastUpdate": "2026-10-02T11:47:20.520143",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -34,7 +34,7 @@
             "Dutch Grand Prix": "Accident"
         },
         "1972": {
-            "Argentine Grand Prix": "Disqualified",
+            "French Grand Prix": "Halfshaft",
             "British Grand Prix": "Suspension",
             "German Grand Prix": "Oil leak",
             "Austrian Grand Prix": "Engine",
@@ -234,8 +234,8 @@
         "1972": 17.1
     },
     "avgQualiPositions": {
-        "1971": -1,
-        "1972": -1
+        "1971": 22.0,
+        "1972": 19.8
     },
     "rates": {
         "wins": {
@@ -252,20 +252,33 @@
         },
         "DNFs": {
             "1971": 1.0,
-            "1972": 0.1
+            "1972": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6363636363636364,
+    "dnfRate": 0.5454545454545454,
     "ptwConRate": {
         "1971": -1,
         "1972": -1
     },
     "positionsGainLost": {
-        "1971": {},
-        "1972": {}
+        "1971": {
+            "Dutch Grand Prix": 0
+        },
+        "1972": {
+            "Argentine Grand Prix": 1,
+            "South African Grand Prix": 9,
+            "Spanish Grand Prix": 15,
+            "Monaco Grand Prix": 0,
+            "Belgian Grand Prix": -2,
+            "French Grand Prix": 4,
+            "British Grand Prix": -1,
+            "German Grand Prix": 0,
+            "Austrian Grand Prix": -6,
+            "United States Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -279,6 +292,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lotus-pw",
                 "fastestLapRank": null,
                 "shared": false
@@ -293,6 +308,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -305,6 +322,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -317,6 +336,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -329,6 +350,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -341,6 +364,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -353,6 +378,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -365,6 +392,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -377,6 +406,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -389,6 +420,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -401,6 +434,8 @@
                 "grid": 30,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -410,5 +445,10 @@
     "sprintResults": {
         "1971": {},
         "1972": {}
-    }
+    },
+    "seasonStarts": {
+        "1971": 1,
+        "1972": 10
+    },
+    "totalStarts": 11
 }

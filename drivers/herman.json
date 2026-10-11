@@ -1,10 +1,10 @@
 {
     "driverId": "herman",
-    "lastUpdate": "2026-10-02T11:47:20.481969",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 3,
     "seasonWins": {
         "1955": 0,
         "1956": 0,
@@ -31,7 +31,7 @@
         "1956": 1,
         "1957": 1,
         "1959": 0,
-        "1960": 0
+        "1960": 1
     },
     "poles": {
         "1955": [],
@@ -56,7 +56,9 @@
             "Indianapolis 500": "Accident"
         },
         "1959": {},
-        "1960": {}
+        "1960": {
+            "Indianapolis 500": "Clutch"
+        }
     },
     "fastLaps": {
         "1955": {
@@ -356,11 +358,11 @@
         "1960": 32.0
     },
     "avgQualiPositions": {
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1959": -1,
-        "1960": -1
+        "1955": 16.0,
+        "1956": 27.0,
+        "1957": 30.0,
+        "1959": 23.0,
+        "1960": 30.0
     },
     "rates": {
         "wins": {
@@ -386,10 +388,10 @@
         },
         "DNFs": {
             "1955": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
+            "1956": 1.0,
+            "1957": 1.0,
             "1959": 0.0,
-            "1960": 0.0
+            "1960": 1.0
         }
     },
     "winRate": 0.0,
@@ -404,11 +406,21 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1955": {},
-        "1956": {},
-        "1957": {},
-        "1959": {},
-        "1960": {}
+        "1955": {
+            "Indianapolis 500": 9
+        },
+        "1956": {
+            "Indianapolis 500": -1
+        },
+        "1957": {
+            "Indianapolis 500": 9
+        },
+        "1959": {
+            "Indianapolis 500": 10
+        },
+        "1960": {
+            "Indianapolis 500": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -422,6 +434,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -436,6 +450,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -450,6 +466,8 @@
                 "grid": 30,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "dunn",
                 "fastestLapRank": null,
                 "shared": false
@@ -464,6 +482,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "dunn",
                 "fastestLapRank": null,
                 "shared": false
@@ -478,6 +498,8 @@
                 "grid": 30,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ewing",
                 "fastestLapRank": null,
                 "shared": false
@@ -490,5 +512,13 @@
         "1957": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1955": 1,
+        "1956": 1,
+        "1957": 1,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 5
 }

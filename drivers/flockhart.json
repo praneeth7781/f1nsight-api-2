@@ -1,6 +1,6 @@
 {
     "driverId": "flockhart",
-    "lastUpdate": "2026-10-02T11:47:20.480340",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -412,17 +412,17 @@
         "1954": 20.0,
         "1956": 15.0,
         "1957": 12.0,
-        "1958": 20.5,
+        "1958": 24.0,
         "1959": 10.0,
         "1960": 13.5
     },
     "avgQualiPositions": {
-        "1954": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1,
-        "1960": -1
+        "1954": 10.0,
+        "1956": 21.5,
+        "1957": 11.0,
+        "1958": 15.0,
+        "1959": 12.0,
+        "1960": 17.5
     },
     "rates": {
         "wins": {
@@ -452,16 +452,16 @@
         "DNFs": {
             "1954": 1.0,
             "1956": 0.5,
-            "1957": 0.5,
-            "1958": 0.5,
-            "1959": 0.2,
+            "1957": 1.0,
+            "1958": 1.0,
+            "1959": 0.4,
             "1960": 0.5
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.07142857142857142,
+    "podiumRate": 0.07692307692307693,
     "poleRate": 0.0,
-    "dnfRate": 0.6428571428571429,
+    "dnfRate": 0.6153846153846154,
     "ptwConRate": {
         "1954": -1,
         "1956": -1,
@@ -471,12 +471,31 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1954": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1954": {
+            "British Grand Prix": -10
+        },
+        "1956": {
+            "British Grand Prix": -10,
+            "Italian Grand Prix": 23
+        },
+        "1957": {
+            "Monaco Grand Prix": 2,
+            "French Grand Prix": -4
+        },
+        "1958": {
+            "Moroccan Grand Prix": -9
+        },
+        "1959": {
+            "Monaco Grand Prix": 2,
+            "French Grand Prix": 7,
+            "British Grand Prix": -5,
+            "Portuguese Grand Prix": 4,
+            "Italian Grand Prix": 2
+        },
+        "1960": {
+            "French Grand Prix": 8,
+            "United States Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -490,6 +509,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -504,6 +525,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -516,6 +539,8 @@
                 "grid": 26,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": false
@@ -530,6 +555,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -542,6 +569,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -556,6 +585,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -570,6 +601,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -582,6 +615,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -594,6 +629,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -606,6 +643,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -618,6 +657,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -632,6 +673,8 @@
                 "grid": 14,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -644,6 +687,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -657,5 +702,14 @@
         "1958": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1954": 1,
+        "1956": 2,
+        "1957": 2,
+        "1958": 1,
+        "1959": 5,
+        "1960": 2
+    },
+    "totalStarts": 13
 }

@@ -1,10 +1,10 @@
 {
     "driverId": "byrne",
-    "lastUpdate": "2026-10-02T11:47:20.540282",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 2,
     "seasonWins": {
         "1982": 0
     },
@@ -15,7 +15,7 @@
         "1982": 0
     },
     "seasonDNFs": {
-        "1982": 4
+        "1982": 2
     },
     "poles": {
         "1982": []
@@ -25,9 +25,7 @@
     },
     "DNFs": {
         "1982": {
-            "German Grand Prix": "Did not qualify",
             "Austrian Grand Prix": "Spun off",
-            "Swiss Grand Prix": "Did not qualify",
             "Caesars Palace Grand Prix": "Spun off"
         }
     },
@@ -128,10 +126,10 @@
         }
     },
     "avgRacePositions": {
-        "1982": 22.6
+        "1982": 14.0
     },
     "avgQualiPositions": {
-        "1982": -1
+        "1982": 26.0
     },
     "rates": {
         "wins": {
@@ -155,7 +153,10 @@
         "1982": -1
     },
     "positionsGainLost": {
-        "1982": {}
+        "1982": {
+            "Austrian Grand Prix": 14,
+            "Caesars Palace Grand Prix": 10
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -169,6 +170,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -181,6 +184,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -193,6 +198,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -205,6 +212,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -213,5 +222,9 @@
     },
     "sprintResults": {
         "1982": {}
-    }
+    },
+    "seasonStarts": {
+        "1982": 2
+    },
+    "totalStarts": 2
 }

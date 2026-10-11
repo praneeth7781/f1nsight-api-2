@@ -1,10 +1,10 @@
 {
     "driverId": "naylor",
-    "lastUpdate": "2026-10-02T11:47:20.488572",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 7,
+    "totalDNFs": 5,
     "seasonWins": {
         "1957": 0,
         "1958": 0,
@@ -30,8 +30,8 @@
         "1957": 0,
         "1958": 1,
         "1959": 1,
-        "1960": 3,
-        "1961": 2
+        "1960": 2,
+        "1961": 1
     },
     "poles": {
         "1957": [],
@@ -56,12 +56,10 @@
             "British Grand Prix": "Transmission"
         },
         "1960": {
-            "Monaco Grand Prix": "Did not qualify",
             "Italian Grand Prix": "Gearbox",
             "United States Grand Prix": "Engine"
         },
         "1961": {
-            "French Grand Prix": "Withdrew",
             "Italian Grand Prix": "Engine"
         }
     },
@@ -335,15 +333,15 @@
         "1957": 13.0,
         "1958": 23.0,
         "1959": 22.0,
-        "1960": 15.5,
-        "1961": 27.0
+        "1960": 14.333333333333334,
+        "1961": 23.0
     },
     "avgQualiPositions": {
-        "1957": -1,
-        "1958": -1,
-        "1959": -1,
-        "1960": -1,
-        "1961": -1
+        "1957": 17.0,
+        "1958": 25.0,
+        "1959": 14.0,
+        "1960": 14.0,
+        "1961": 31.0
     },
     "rates": {
         "wins": {
@@ -369,16 +367,16 @@
         },
         "DNFs": {
             "1957": 0.0,
-            "1958": 0.0,
-            "1959": 0.0,
-            "1960": 0.0,
-            "1961": 0.0
+            "1958": 1.0,
+            "1959": 1.0,
+            "1960": 0.6666666666666666,
+            "1961": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.7777777777777778,
+    "dnfRate": 0.7142857142857143,
     "ptwConRate": {
         "1957": -1,
         "1958": -1,
@@ -387,11 +385,23 @@
         "1961": -1
     },
     "positionsGainLost": {
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {},
-        "1961": {}
+        "1957": {
+            "German Grand Prix": 4
+        },
+        "1958": {
+            "German Grand Prix": 2
+        },
+        "1959": {
+            "British Grand Prix": -8
+        },
+        "1960": {
+            "British Grand Prix": 5,
+            "Italian Grand Prix": -4,
+            "United States Grand Prix": -2
+        },
+        "1961": {
+            "Italian Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -405,6 +415,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -419,6 +431,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -433,6 +447,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jbw",
                 "fastestLapRank": null,
                 "shared": false
@@ -447,6 +463,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "jbw",
                 "fastestLapRank": null,
                 "shared": false
@@ -459,6 +477,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jbw",
                 "fastestLapRank": null,
                 "shared": false
@@ -471,6 +491,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jbw",
                 "fastestLapRank": null,
                 "shared": false
@@ -483,6 +505,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -497,6 +521,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "jbw",
                 "fastestLapRank": null,
                 "shared": false
@@ -509,6 +535,8 @@
                 "grid": 31,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jbw",
                 "fastestLapRank": null,
                 "shared": false
@@ -521,5 +549,13 @@
         "1959": {},
         "1960": {},
         "1961": {}
-    }
+    },
+    "seasonStarts": {
+        "1957": 1,
+        "1958": 1,
+        "1959": 1,
+        "1960": 3,
+        "1961": 1
+    },
+    "totalStarts": 7
 }

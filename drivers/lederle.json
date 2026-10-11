@@ -1,10 +1,10 @@
 {
     "driverId": "lederle",
-    "lastUpdate": "2026-10-02T11:47:20.505537",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1962": 0,
         "1963": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1962": 0,
-        "1963": 1
+        "1963": 0
     },
     "poles": {
         "1962": [],
@@ -31,9 +31,7 @@
     },
     "DNFs": {
         "1962": {},
-        "1963": {
-            "South African Grand Prix": "Withdrew"
-        }
+        "1963": {}
     },
     "fastLaps": {
         "1962": {
@@ -116,19 +114,19 @@
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 0.3333333333333333
+            "points": 0.5
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 0.4714045207910317
+            "points": 0.5
         },
         "cv": {
             "wins": 0,
             "podiums": 0,
             "poles": 0,
-            "points": 1.4142135623730951
+            "points": 1.0
         }
     },
     "peakSeason": {
@@ -147,49 +145,43 @@
     },
     "avgRacePositions": {
         "1962": 6.0,
-        "1963": 22.0,
-        "1965": 22.0
+        "1963": -1
     },
     "avgQualiPositions": {
-        "1962": -1,
-        "1963": -1,
-        "1965": -1
+        "1962": 10.0,
+        "1963": -1
     },
     "rates": {
         "wins": {
             "1962": 0.0,
-            "1963": 0.0,
-            "1965": 0.0
+            "1963": 0.0
         },
         "podiums": {
             "1962": 0.0,
-            "1963": 0.0,
-            "1965": 0.0
+            "1963": 0.0
         },
         "poles": {
             "1962": 0.0,
-            "1963": 0.0,
-            "1965": 0.0
+            "1963": 0.0
         },
         "DNFs": {
             "1962": 0.0,
-            "1963": 0.0,
-            "1965": 0.0
+            "1963": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1962": -1,
-        "1963": -1,
-        "1965": -1
+        "1963": -1
     },
     "positionsGainLost": {
-        "1962": {},
-        "1963": {},
-        "1965": {}
+        "1962": {
+            "South African Grand Prix": 4
+        },
+        "1963": {}
     },
     "driverCode": "",
     "driverNumber": "",
@@ -203,6 +195,8 @@
                 "grid": 10,
                 "points": 1.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -217,6 +211,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -226,5 +222,10 @@
     "sprintResults": {
         "1962": {},
         "1963": {}
-    }
+    },
+    "seasonStarts": {
+        "1962": 1,
+        "1963": 0
+    },
+    "totalStarts": 1
 }

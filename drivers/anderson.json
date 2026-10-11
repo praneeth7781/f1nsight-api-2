@@ -1,10 +1,10 @@
 {
     "driverId": "anderson",
-    "lastUpdate": "2026-10-02T11:47:20.507544",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 11,
+    "totalDNFs": 12,
     "seasonWins": {
         "1963": 0,
         "1964": 0,
@@ -28,10 +28,10 @@
     },
     "seasonDNFs": {
         "1963": 0,
-        "1964": 1,
-        "1965": 3,
+        "1964": 2,
+        "1965": 4,
         "1966": 4,
-        "1967": 3
+        "1967": 2
     },
     "poles": {
         "1963": [],
@@ -52,10 +52,12 @@
     "DNFs": {
         "1963": {},
         "1964": {
+            "Monaco Grand Prix": "Gearbox",
             "German Grand Prix": "Suspension"
         },
         "1965": {
             "South African Grand Prix": "Not classified",
+            "French Grand Prix": "Fuel system",
             "British Grand Prix": "Gearbox",
             "Dutch Grand Prix": "Engine"
         },
@@ -66,7 +68,6 @@
             "German Grand Prix": "Transmission"
         },
         "1967": {
-            "Monaco Grand Prix": "Did not qualify",
             "French Grand Prix": "Ignition",
             "British Grand Prix": "Engine"
         }
@@ -468,14 +469,14 @@
         "1964": 9.0,
         "1965": 13.6,
         "1966": 11.5,
-        "1967": 10.5
+        "1967": 9.2
     },
     "avgQualiPositions": {
-        "1963": -1,
-        "1964": -1,
-        "1965": -1,
-        "1966": -1,
-        "1967": -1
+        "1963": 17.5,
+        "1964": 12.571428571428571,
+        "1965": 13.8,
+        "1966": 12.166666666666666,
+        "1967": 15.0
     },
     "rates": {
         "wins": {
@@ -501,16 +502,16 @@
         },
         "DNFs": {
             "1963": 0.0,
-            "1964": 0.0,
-            "1965": 0.0,
-            "1966": 0.0,
-            "1967": 0.0
+            "1964": 0.2857142857142857,
+            "1965": 0.8,
+            "1966": 0.6666666666666666,
+            "1967": 0.4
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.038461538461538464,
+    "podiumRate": 0.04,
     "poleRate": 0.0,
-    "dnfRate": 0.5,
+    "dnfRate": 0.48,
     "ptwConRate": {
         "1963": -1,
         "1964": -1,
@@ -519,11 +520,41 @@
         "1967": -1
     },
     "positionsGainLost": {
-        "1963": {},
-        "1964": {},
-        "1965": {},
-        "1966": {},
-        "1967": {}
+        "1963": {
+            "British Grand Prix": 4,
+            "Italian Grand Prix": 7
+        },
+        "1964": {
+            "Monaco Grand Prix": 5,
+            "Dutch Grand Prix": 5,
+            "French Grand Prix": 3,
+            "British Grand Prix": 0,
+            "German Grand Prix": -2,
+            "Austrian Grand Prix": 11,
+            "Italian Grand Prix": 3
+        },
+        "1965": {
+            "South African Grand Prix": -4,
+            "Monaco Grand Prix": 0,
+            "French Grand Prix": 6,
+            "British Grand Prix": 0,
+            "Dutch Grand Prix": -1
+        },
+        "1966": {
+            "Monaco Grand Prix": -8,
+            "French Grand Prix": 5,
+            "British Grand Prix": -2,
+            "Dutch Grand Prix": 3,
+            "German Grand Prix": -3,
+            "Italian Grand Prix": 9
+        },
+        "1967": {
+            "South African Grand Prix": 5,
+            "Dutch Grand Prix": 8,
+            "Belgian Grand Prix": 9,
+            "French Grand Prix": 1,
+            "British Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -537,6 +568,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lola",
                 "fastestLapRank": null,
                 "shared": false
@@ -549,6 +582,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lola",
                 "fastestLapRank": null,
                 "shared": false
@@ -563,6 +598,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -575,6 +612,8 @@
                 "grid": 11,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -587,6 +626,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -599,6 +640,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -611,6 +654,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -623,6 +668,8 @@
                 "grid": 14,
                 "points": 4.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -635,6 +682,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -649,6 +698,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -661,6 +712,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+15 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -673,6 +726,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -685,6 +740,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -697,6 +754,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -711,6 +770,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -723,6 +784,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -735,6 +798,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -747,6 +812,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -759,6 +826,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -771,6 +840,8 @@
                 "grid": 15,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -785,6 +856,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -797,6 +870,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -809,6 +884,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -821,6 +898,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -833,6 +912,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -845,6 +926,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -857,5 +940,13 @@
         "1965": {},
         "1966": {},
         "1967": {}
-    }
+    },
+    "seasonStarts": {
+        "1963": 2,
+        "1964": 7,
+        "1965": 5,
+        "1966": 6,
+        "1967": 5
+    },
+    "totalStarts": 25
 }

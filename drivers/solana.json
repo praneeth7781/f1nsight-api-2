@@ -1,10 +1,10 @@
 {
     "driverId": "solana",
-    "lastUpdate": "2026-10-02T11:47:20.508596",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 6,
     "seasonWins": {
         "1963": 0,
         "1964": 0,
@@ -30,7 +30,7 @@
         "1968": 0
     },
     "seasonDNFs": {
-        "1963": 0,
+        "1963": 1,
         "1964": 0,
         "1965": 1,
         "1966": 1,
@@ -54,7 +54,9 @@
         "1968": {}
     },
     "DNFs": {
-        "1963": {},
+        "1963": {
+            "Mexican Grand Prix": "Engine"
+        },
         "1964": {},
         "1965": {
             "Mexican Grand Prix": "Ignition"
@@ -332,12 +334,12 @@
         "1968": 17.0
     },
     "avgQualiPositions": {
-        "1963": -1,
-        "1964": -1,
-        "1965": -1,
-        "1966": -1,
-        "1967": -1,
-        "1968": -1
+        "1963": 11.0,
+        "1964": 14.0,
+        "1965": 13.0,
+        "1966": 15.0,
+        "1967": 8.0,
+        "1968": 11.0
     },
     "rates": {
         "wins": {
@@ -366,10 +368,10 @@
         },
         "DNFs": {
             "1963": 1.0,
-            "1964": 1.0,
+            "1964": 0.0,
             "1965": 0.5,
             "1966": 1.0,
-            "1967": 0.5,
+            "1967": 1.0,
             "1968": 1.0
         }
     },
@@ -386,12 +388,26 @@
         "1968": -1
     },
     "positionsGainLost": {
-        "1963": {},
-        "1964": {},
-        "1965": {},
-        "1966": {},
-        "1967": {},
-        "1968": {}
+        "1963": {
+            "Mexican Grand Prix": 0
+        },
+        "1964": {
+            "Mexican Grand Prix": 4
+        },
+        "1965": {
+            "United States Grand Prix": 5,
+            "Mexican Grand Prix": -1
+        },
+        "1966": {
+            "Mexican Grand Prix": -3
+        },
+        "1967": {
+            "United States Grand Prix": -11,
+            "Mexican Grand Prix": -8
+        },
+        "1968": {
+            "Mexican Grand Prix": -6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -405,6 +421,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -419,6 +437,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -433,6 +453,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+15 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -445,6 +467,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -459,6 +483,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -473,6 +499,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -485,6 +513,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -499,6 +529,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Broken wing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -512,5 +544,14 @@
         "1966": {},
         "1967": {},
         "1968": {}
-    }
+    },
+    "seasonStarts": {
+        "1963": 1,
+        "1964": 1,
+        "1965": 2,
+        "1966": 1,
+        "1967": 2,
+        "1968": 1
+    },
+    "totalStarts": 8
 }

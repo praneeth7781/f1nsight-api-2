@@ -1,10 +1,10 @@
 {
     "driverId": "settember",
-    "lastUpdate": "2026-10-02T11:47:20.504555",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 7,
+    "totalDNFs": 5,
     "seasonWins": {
         "1962": 0,
         "1963": 0
@@ -18,8 +18,8 @@
         "1963": 0
     },
     "seasonDNFs": {
-        "1962": 2,
-        "1963": 5
+        "1962": 1,
+        "1963": 4
     },
     "poles": {
         "1962": [],
@@ -31,12 +31,10 @@
     },
     "DNFs": {
         "1962": {
-            "Italian Grand Prix": "Engine",
-            "South African Grand Prix": "Withdrew"
+            "Italian Grand Prix": "Engine"
         },
         "1963": {
-            "Monaco Grand Prix": "Withdrew",
-            "Dutch Grand Prix": "Withdrew",
+            "Belgian Grand Prix": "Accident",
             "French Grand Prix": "Wheel bearing",
             "British Grand Prix": "Ignition",
             "German Grand Prix": "Accident"
@@ -213,12 +211,12 @@
         }
     },
     "avgRacePositions": {
-        "1962": 16.666666666666668,
-        "1963": 18.571428571428573
+        "1962": 15.0,
+        "1963": 16.0
     },
     "avgQualiPositions": {
-        "1962": -1,
-        "1963": -1
+        "1962": 20.0,
+        "1963": 19.75
     },
     "rates": {
         "wins": {
@@ -234,21 +232,29 @@
             "1963": 0.0
         },
         "DNFs": {
-            "1962": 0.6666666666666666,
-            "1963": 0.2857142857142857
+            "1962": 0.5,
+            "1963": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.9,
+    "dnfRate": 0.8333333333333334,
     "ptwConRate": {
         "1962": -1,
         "1963": -1
     },
     "positionsGainLost": {
-        "1962": {},
-        "1963": {}
+        "1962": {
+            "British Grand Prix": 8,
+            "Italian Grand Prix": 2
+        },
+        "1963": {
+            "Belgian Grand Prix": 11,
+            "French Grand Prix": 2,
+            "British Grand Prix": -4,
+            "German Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -262,6 +268,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "emeryson",
                 "fastestLapRank": null,
                 "shared": false
@@ -274,6 +282,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "emeryson",
                 "fastestLapRank": null,
                 "shared": false
@@ -286,6 +296,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "emeryson",
                 "fastestLapRank": null,
                 "shared": false
@@ -300,6 +312,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "scirocco",
                 "fastestLapRank": null,
                 "shared": false
@@ -312,6 +326,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "scirocco",
                 "fastestLapRank": null,
                 "shared": false
@@ -324,6 +340,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "scirocco",
                 "fastestLapRank": null,
                 "shared": false
@@ -336,6 +354,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "scirocco",
                 "fastestLapRank": null,
                 "shared": false
@@ -348,6 +368,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "scirocco",
                 "fastestLapRank": null,
                 "shared": false
@@ -360,6 +382,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "scirocco",
                 "fastestLapRank": null,
                 "shared": false
@@ -369,5 +393,10 @@
     "sprintResults": {
         "1962": {},
         "1963": {}
-    }
+    },
+    "seasonStarts": {
+        "1962": 2,
+        "1963": 4
+    },
+    "totalStarts": 6
 }

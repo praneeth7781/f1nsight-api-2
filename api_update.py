@@ -1,5 +1,5 @@
 import argparse
-import requests, json, os, datetime, math, numpy as np, shutil, tempfile
+import requests, json, os, datetime, numpy as np, tempfile
 import time
 from datetime import datetime as dt
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
@@ -214,8 +214,8 @@ def load_json(file_path, default):
         return json.load(file)
 
 
-def write_json_atomic(file_path, data):
-    """Replace a JSON file only after the complete new document is written."""
+def write_text_atomic(file_path, text):
+    """Replace a file only after the complete new content is written."""
     directory = os.path.dirname(file_path) or '.'
     ensure_directory_exists(directory)
     file_descriptor, temporary_path = tempfile.mkstemp(
@@ -224,14 +224,10 @@ def write_json_atomic(file_path, data):
         dir=directory,
     )
     try:
-        with os.fdopen(file_descriptor, 'w', encoding='utf-8') as file:
-            json.dump(
-                data,
-                file,
-                indent=4,
-                ensure_ascii=False,
-                cls=NpEncoder,
-            )
+        # newline='' writes the text verbatim, so output is byte-identical on
+        # every OS and unchanged files can be detected by comparing text.
+        with os.fdopen(file_descriptor, 'w', encoding='utf-8', newline='') as file:
+            file.write(text)
             file.flush()
             os.fsync(file.fileno())
         os.replace(temporary_path, file_path)
@@ -239,6 +235,14 @@ def write_json_atomic(file_path, data):
         if os.path.exists(temporary_path):
             os.unlink(temporary_path)
         raise
+
+
+def write_json_atomic(file_path, data):
+    """Replace a JSON file only after the complete new document is written."""
+    write_text_atomic(
+        file_path,
+        json.dumps(data, indent=4, ensure_ascii=False, cls=NpEncoder),
+    )
 
 
 def merge_round_records(existing, additions):
@@ -338,494 +342,6 @@ def season_is_complete(season=None):
     }
     return bool(calendar_rounds) and calendar_rounds <= completed
 
-
-def update_driverData():
-    from drivers_build import did_not_finish
-
-    input_directory = 'drivers/'
-    output_directory = 'drivers2/'
-    if not os.path.exists(output_directory):
-        os.makedirs(output_directory)
-
-    race = _latest_stored_race()
-    if race is None:
-        race = api_races(f'{api_url}/current/last/results.json')[0]
-    raceName = race["raceName"]
-    season = str(race["season"])
-    round = str(race["round"])
-    results = race["Results"]
-    drivers_done = 0
-
-    local_standings = load_json(f'races/{season}/driverStandings.json', {})
-    standings_rows = local_standings.get(round) or local_standings.get(str(int(round))) or []
-    if standings_rows:
-        standings_by_driver = {
-            standing['Driver']['driverId']: standing
-            for standing in standings_rows
-        }
-    else:
-        standings_url = f'{api_url}/{season}/{round}/driverStandings.json'
-        standings_data = api_get_json(standings_url)
-        standings_lists = (
-            standings_data.get('MRData', {})
-            .get('StandingsTable', {})
-            .get('StandingsLists', [])
-        )
-        if not standings_lists:
-            raise RuntimeError(f'API returned no driver standings: {standings_url}')
-        standings_by_driver = {
-            standing['Driver']['driverId']: standing
-            for standing in standings_lists[0].get('DriverStandings', [])
-        }
-
-    qualifying_races = {
-        str(item.get('round')): item
-        for item in load_json(f'races/{season}/qualifying.json', [])
-    }
-    qualifying_race = qualifying_races.get(round)
-    if qualifying_race is None:
-        qualifying_url = f'{api_url}/{season}/{round}/qualifying.json'
-        qualifying_race = api_races(qualifying_url)[0]
-    qualifying_by_driver = {
-        qualifying['Driver']['driverId']: qualifying
-        for qualifying in (qualifying_race or {}).get('QualifyingResults', [])
-    }
-    sprint_races = {
-        str(item.get('round')): item
-        for item in load_json(f'races/{season}/sprint.json', [])
-    }
-    sprint_by_driver = {
-        row['Driver']['driverId']: row
-        for row in (sprint_races.get(round) or {}).get('SprintResults', [])
-        if row.get('Driver', {}).get('driverId')
-    }
-    finished_weekend = set()
-
-    for result in results:
-            driverId = result["Driver"]["driverId"]
-            input_file = os.path.join(input_directory, f'{driverId}.json')
-            output_file = os.path.join(output_directory, f'{driverId}.json')
-
-            # Load driver data from the input file or create a new default structure if it doesn't exist
-            if os.path.exists(input_file):
-                with open(input_file, 'r', encoding='utf-8') as file:
-                    data = json.load(file)
-            else:
-                # Create a new file structure with default (empty) values
-                data = {
-                    "driverId": driverId,
-                    "driverCode": result["Driver"].get("code", ""),
-                    "driverNumber": result["Driver"].get("permanentNumber", ""),
-                    "lastUpdate": "",
-                    "totalWins": 0,
-                    "totalPodiums": 0,
-                    "totalPoles": 0,
-                    "totalDNFs": 0,
-                    "seasonWins": {},
-                    "seasonPodiums": {},
-                    "seasonPoles": {},
-                    "seasonDNFs": {},
-                    "poles": {},
-                    "podiums": {},
-                    "DNFs": {},
-                    "fastLaps": {},
-                    "finalStandings": {},
-                    "posAfterRace": {},
-                    "racePosition": {},
-                    "qualiPosition": {},
-                    "driverQualifyingTimes": {},
-                    "consistency": {},
-                    "peakSeason": {},
-                    "avgRacePositions": {},
-                    "avgQualiPositions": {},
-                    "rates": {},
-                    "winRate": 0.0,
-                    "podiumRate": 0.0,
-                    "poleRate": 0.0,
-                    "dnfRate": 0.0,
-                    "ptwConRate": {},
-                    "positionsGainLost": {}
-                }
-
-            # Update last update time
-            data["lastUpdate"] = datetime.datetime.now().isoformat()
-
-            # Ensure keys exist for the new season
-            if season not in data["seasonWins"]:
-                data["seasonWins"][season] = 0
-            if season not in data["seasonPodiums"]:
-                data["seasonPodiums"][season] = 0
-            if season not in data["seasonPoles"]:
-                data["seasonPoles"][season] = 0
-            if season not in data["seasonDNFs"]:
-                data["seasonDNFs"][season] = 0
-            if season not in data["fastLaps"]:
-                data["fastLaps"][season] = {}
-            if season not in data["DNFs"]:
-                data["DNFs"][season] = {}
-            if season not in data["podiums"]:
-                data["podiums"][season] = {}
-            if season not in data["racePosition"]:
-                data["racePosition"][season] = {"year": season, "positions": {}}
-            if season not in data["qualiPosition"]:
-                data["qualiPosition"][season] = {"year": season, "positions": {}}
-            if season not in data["driverQualifyingTimes"]:
-                data["driverQualifyingTimes"][season] = {"year": season, "QualiTimes": {}}
-            if season not in data["finalStandings"]:
-                data["finalStandings"][season] = {"year": season, "position": "0", "points": "0"}
-            if season not in data["posAfterRace"]:
-                data["posAfterRace"][season] = {"year": season, "pos": {}}
-            if season not in data["poles"]:
-                data["poles"][season] = []
-
-            data.setdefault("raceResults", {})
-            data.setdefault("sprintResults", {})
-            data["raceResults"].setdefault(season, {})
-            data["sprintResults"].setdefault(season, {})
-            existing_round = data["raceResults"][season].get(round)
-            race_payload = {
-                "round": int(round) if str(round).isdigit() else round,
-                "raceName": raceName,
-                "position": int(result["position"]) if str(result.get("position", "")).isdigit() else None,
-                "points": parse_points(result.get("points")),
-                "status": result.get("status"),
-                "grid": result.get("grid"),
-            }
-            if existing_round is None or (
-                (race_payload["points"] or 0) > (existing_round.get("points") or 0)
-                or (
-                    race_payload["position"] is not None
-                    and (
-                        existing_round.get("position") is None
-                        or race_payload["position"] < existing_round["position"]
-                    )
-                )
-            ):
-                data["raceResults"][season][round] = race_payload
-            sprint_row = sprint_by_driver.get(driverId)
-            if sprint_row:
-                data["sprintResults"][season][round] = {
-                    "position": int(sprint_row["position"]) if str(sprint_row.get("position", "")).isdigit() else None,
-                    "points": parse_points(sprint_row.get("points")),
-                    "status": sprint_row.get("status"),
-                }
-
-            # Classified retirements still count as a DNF; +N laps do not.
-            if did_not_finish(result.get("status")):
-                if driverId not in finished_weekend:
-                    data["DNFs"][season][raceName] = result["status"]
-            else:
-                finished_weekend.add(driverId)
-                data["DNFs"][season].pop(raceName, None)
-            data["seasonDNFs"][season] = len(data["DNFs"][season].keys())
-            data["totalDNFs"] = sum(data["seasonDNFs"].values())
-
-            if result["position"] in ["1", "2", "3"]:
-                data["podiums"][season][raceName] = result["position"]
-                data["seasonPodiums"][season] = len(data["podiums"][season].keys())
-                data["totalPodiums"] = sum(data["seasonPodiums"].values())
-
-            if "FastestLap" in result:
-                data["fastLaps"][season][raceName] = result["FastestLap"]["Time"]["time"]
-            else:
-                data["fastLaps"][season][raceName] = -1
-
-            data["racePosition"][season]["positions"][raceName] = result["position"]
-
-            if result["position"] == "1":
-                data["seasonWins"][season] = list(data["racePosition"][season]["positions"].values()).count("1")
-                data["totalWins"] = sum(data["seasonWins"].values())
-
-            data["qualiPosition"][season]["positions"][raceName] = result["grid"]
-
-            # Reuse the single standings response fetched before the driver loop.
-            driverStanding = standings_by_driver.get(driverId)
-            if driverStanding:
-                data["finalStandings"][season]["position"] = driverStanding.get("position", "40")
-                data["finalStandings"][season]["points"] = driverStanding["points"]
-                data["posAfterRace"][season]["pos"][raceName] = {"points": parse_points(driverStanding["points"])}
-            else:
-                raise RuntimeError(
-                    f'Driver standings missing {driverId} for round {round}'
-                )
-
-            # Reuse the single qualifying response fetched before the driver loop.
-            qualifying = qualifying_by_driver.get(driverId)
-            if qualifying:
-                val1 = qualifying.get("Q1", "N/A")
-                val2 = qualifying.get("Q2", "N/A")
-                val3 = qualifying.get("Q3", "N/A")
-                data["driverQualifyingTimes"][season]["QualiTimes"][raceName] = [val1, val2, val3]
-
-            # Save updated data to output file
-            with open(output_file, "w", encoding='utf-8') as f:
-                json.dump(data, f, indent=4, ensure_ascii=False)
-
-            drivers_done += 1
-            print(drivers_done, output_file)
-            print("------------------------------")
-    print("Driver Data updated successfully!")
-
-def analyse_driverData():
-    input_directory = 'drivers2/'
-    output_directory = 'drivers2/'
-
-    if not os.path.exists(output_directory):
-        os.makedirs(output_directory)
-
-    json_files = [f for f in os.listdir(input_directory) if f.endswith('.json')]
-
-    def calculate_consistency(metric):
-        mean = np.mean(metric)
-        std_dev = np.std(metric)
-        cv = std_dev / mean if mean !=0 else 0
-        return mean, std_dev, cv
-
-    def find_peak_season(metric, seasons):
-        peak_value = np.max(metric)
-        peak_season = seasons[np.argmax(metric)]
-        if peak_value == 0:
-            return "No peak season", 0
-        return peak_season, peak_value
-
-    def calculate_positions_gained_lost(seasons, race_positions, quali_positions):
-        positions_gained_lost = {}
-        for season in seasons:
-            positions_gained_lost[season] = {}
-            for race in race_positions[season]['positions']:
-                if race in quali_positions[season]['positions']:
-                    race_pos = race_positions[season]['positions'][race]
-                    quali_pos = quali_positions[season]['positions'][race]
-                    positions_gained_lost[season][race] = int(quali_pos) - int(race_pos)
-        return positions_gained_lost
-
-    def average_positions_gained_lost(seasons, positions_gained_lost):
-        avg_positions_gained_lost = {}
-        for season in seasons:
-            gains_losses = list(positions_gained_lost[season].values())
-            avg_positions_gained_lost[season] = np.mean(gains_losses) if gains_losses else 0
-        return avg_positions_gained_lost
-
-    def replace_nan_with_minus_one(d):
-        def replace_nan(x):
-            if isinstance(x, dict):
-                return {k: replace_nan(v) for k, v in x.items()}
-            elif isinstance(x, list):
-                return [replace_nan(i) for i in x]
-            elif isinstance(x, float) and math.isnan(x):
-                return -1
-            else:
-                return x
-
-        new_d = replace_nan(d)
-        
-        new_d = {(k if not (isinstance(k, float) and math.isnan(k)) else -1): v for k, v in new_d.items()}
-        
-        return new_d
-
-    def convert_np_int_to_int(d):
-        for key, value in d.items():
-            if isinstance(value, np.int32):
-                d[key] = int(value)
-            elif isinstance(value, dict):
-                convert_np_int_to_int(value)
-
-    def process(input_file):
-        with open(input_file, 'r', encoding='utf-8') as file:
-            data = json.load(file)
-        if(data):
-            seasons = sorted(data['seasonWins'].keys())
-            wins_per_season = [data['seasonWins'][season] for season in seasons]
-            podiums_per_season = [data['seasonPodiums'][season] for season in seasons]
-            poles_per_season = [data['seasonPoles'][season] for season in seasons]
-            dnfs_per_season = [data['seasonDNFs'][season] for season in seasons]
-
-            # final_positions = [int(data['finalStandings'][season]['position']) for season in seasons]
-            points_per_season = [float(data['finalStandings'][season]['points']) for season in seasons]
-
-            mean_wins, std_dev_wins, cv_wins = calculate_consistency(wins_per_season)
-            mean_podiums, std_dev_podiums, cv_podiums = calculate_consistency(podiums_per_season)
-            mean_poles, std_dev_poles, cv_poles = calculate_consistency(poles_per_season)
-            mean_points, std_dev_points, cv_points = calculate_consistency(points_per_season)
-
-            peak_season_wins, peak_wins = find_peak_season(wins_per_season, seasons)
-            peak_season_podiums, peak_podiums = find_peak_season(podiums_per_season, seasons)
-            peak_season_poles, peak_poles = find_peak_season(poles_per_season, seasons)
-
-            race_positions_per_season = {season: [int(data['racePosition'][season]['positions'][race]) for race in data['racePosition'][season]['positions']] for season in seasons}
-            quali_positions_per_season = {season: [int(data['qualiPosition'][season]['positions'][race]) for race in data['qualiPosition'][season]['positions']] for season in seasons}
-            avg_race_positions = [np.mean(race_positions_per_season[season]) for season in seasons]
-            avg_quali_positions = [np.mean(quali_positions_per_season[season]) for season in seasons]
-
-            total_races_per_season = {season: len(data['racePosition'][season]['positions']) for season in seasons}
-            total_races = 0
-            pole_conversion_rate = {}
-            for season in seasons:
-                total_races += total_races_per_season[season]
-                pole_races = data["poles"][season]
-                if len(pole_races):
-                    tempwins = 0
-                    for racex in pole_races:
-                        if data["racePosition"][season]["positions"][racex] == "1":
-                            tempwins += 1
-                    pole_conversion_rate[season] = tempwins/len(pole_races)
-                else:
-                    pole_conversion_rate[season] = -1
-            win_rate_per_season = [wins_per_season[seasons.index(season)] / total_races_per_season[season] for season in seasons]
-            podium_rate_per_season = [podiums_per_season[seasons.index(season)] / total_races_per_season[season] for season in seasons]
-            pole_rate_per_season = [poles_per_season[seasons.index(season)] / total_races_per_season[season] for season in seasons]
-            dnf_rate_per_season = [dnfs_per_season[seasons.index(season)] / total_races_per_season[season] for season in seasons]
-            win_rate = data['totalWins']/total_races
-            podium_rate = data['totalPodiums']/total_races
-            pole_rate = data['totalPoles']/total_races
-            dnf_rate = data['totalDNFs']/total_races
-
-
-            # pole_conversion_rate = data['totalWins'] / data['totalPoles'] if data['totalPoles'] > 0 else 0
-            positions_gained_lost = calculate_positions_gained_lost(seasons, data['racePosition'], data['qualiPosition'])
-
-            avg_positions_gained_lost_per_season = average_positions_gained_lost(seasons, positions_gained_lost)
-
-            data['consistency'] = {
-                'mean' : {
-                    'wins' : mean_wins,
-                    'podiums' : mean_podiums,
-                    'poles' : mean_poles,
-                    'points' : mean_points
-                },
-                'std' : {
-                    'wins' : std_dev_wins,
-                    'podiums' : std_dev_podiums,
-                    'poles' : std_dev_poles,
-                    'points': std_dev_points
-                },
-                'cv' : {
-                    'wins' : cv_wins,
-                    'podiums' : cv_podiums,
-                    'poles' : cv_poles,
-                    'points' : cv_points
-                }
-            }
-            data['peakSeason'] = {
-                'wins' : {
-                    'season' : peak_season_wins,
-                    'wins' : peak_wins
-                },
-                'podiums' : {
-                    'season': peak_season_podiums,
-                    'podiums': peak_podiums
-                },
-                'poles' : {
-                    'season' : peak_season_poles,
-                    'poles' : peak_poles
-                }
-            }
-            data['avgRacePositions'] = {
-                season : avg_race_positions[seasons.index(season)]
-                for season in seasons
-            }
-            data['avgQualiPositions'] = {
-                season : avg_quali_positions[seasons.index(season)]
-                for season in seasons
-            }
-            data['rates'] = {
-                'wins' : {
-                    season : win_rate_per_season[seasons.index(season)] for season in seasons
-                },
-                'podiums' : {
-                    season : podium_rate_per_season[seasons.index(season)] for season in seasons
-                },
-                'poles' : {
-                    season : pole_rate_per_season[seasons.index(season)] for season in seasons
-                },
-                'DNFs': {
-                    season : dnf_rate_per_season[seasons.index(season)] for season in seasons
-                }
-            }
-            data['winRate'] = win_rate
-            data['podiumRate'] = podium_rate
-            data['poleRate'] = pole_rate
-            data['dnfRate'] = dnf_rate
-            data['ptwConRate'] = pole_conversion_rate
-            data['positionsGainLost'] = positions_gained_lost
-            convert_np_int_to_int(data)
-            # replace_nan_with_minus_one(data)
-        return data
-
-
-    files_done = 0
-    for filename in json_files:
-        input_file = os.path.join(input_directory, filename)
-        output_file = os.path.join(output_directory, filename)
-        files_done += 1
-        print("Current file: ", input_file)
-
-        processed_data = process(input_file)
-
-        f = open(output_file, "w", encoding='utf-8')
-        json.dump(processed_data, f, indent=4, ensure_ascii=False, cls=NpEncoder)
-        f.close()
-        print(files_done, input_file, output_file)
-        print("---------------------------------------------")
-
-    print("Driver Data analysis complete!")
-
-def replace_NaN():
-    input_directory = 'drivers2/'
-    output_directory = 'drivers/'
-
-    if not os.path.exists(output_directory):
-        os.makedirs(output_directory)
-
-    json_files = [f for f in os.listdir(input_directory) if f.endswith('.json')]
-
-    def replace_nan_with_minus_one(d):
-        def replace_nan(x):
-            if isinstance(x, dict):
-                return {k: replace_nan(v) for k, v in x.items()}
-            elif isinstance(x, list):
-                return [replace_nan(i) for i in x]
-            elif isinstance(x, float) and math.isnan(x):
-                return -1
-            else:
-                return x
-
-        new_d = replace_nan(d)
-        
-        new_d = {(k if not (isinstance(k, float) and math.isnan(k)) else -1): v for k, v in new_d.items()}
-        
-        return new_d
-
-    files_done = 0
-    for filename in json_files:
-        input_file = os.path.join(input_directory, filename)
-        output_file = os.path.join(output_directory, filename)
-        files_done += 1
-        print("Current file: ", input_file)
-
-        with open(input_file, 'r', encoding='utf-8') as file:
-            data = json.load(file)
-        if(data):
-            updated_data = replace_nan_with_minus_one(data)
-        f = open(output_file, "w", encoding='utf-8')
-        json.dump(updated_data, f, indent=4, ensure_ascii=False, cls=NpEncoder)
-        f.close()
-        print(files_done, input_file, output_file)
-        print("-----------------------------------")
-        
-    shutil.rmtree('drivers2')
-    print("Replaced NaNs in Driver Data!")
-
-class NpEncoder(json.JSONEncoder):
-    def default(self, obj):
-        import numpy as np
-        if isinstance(obj, np.integer):
-            return int(obj)
-        if isinstance(obj, np.floating):
-            return float(obj)
-        if isinstance(obj, np.ndarray):
-            return obj.tolist()
-        return super(NpEncoder, self).default(obj)
 
 def ensure_directory_exists(directory_path):
     """Create directory if it doesn't exist"""
@@ -1456,7 +972,9 @@ def update_team_records():
         eras, total = [], _blank_record()
         total_stats = {}
         for era in config['lineage']:
-            constructor_ids = set(era['constructorIds'])
+            # Keep the lineage order: iterating a set varies per process and
+            # reorders the merged per-driver counts on every run.
+            constructor_ids = list(dict.fromkeys(era['constructorIds']))
             start = era['startYear']
             end = era['endYear'] if era['endYear'] is not None else current_year
             record = _blank_record()
@@ -1966,7 +1484,32 @@ def parse_args(argv=None):
         action='store_true',
         help='Rebuild teamRecords.json only.',
     )
+    parser.add_argument(
+        '--publish-v2',
+        action='store_true',
+        help='Write v2/ driver rows, summaries and coverage from stored race data.',
+    )
+    parser.add_argument(
+        '--validate-v2',
+        action='store_true',
+        help='Build the v2 rows in memory and check them without writing.',
+    )
     return parser.parse_args(argv)
+
+
+def rebuild_summary(report):
+    return {
+        'written': report['written'],
+        'unchanged': report.get('unchanged', 0),
+        'explainedCount': len(report['explained']),
+        'unexplainedCount': len(report['unexplained']),
+        'poleDiffs': len(report['poleDiffs']),
+        'driverFileCount': report['driverFileCount'],
+        'driversListCount': report['driversListCount'],
+        'filesNotInList': report['filesNotInList'],
+        'listNotInFiles': report['listNotInFiles'],
+        'orphanFiles': report.get('orphanFiles', []),
+    }
 
 
 def main(argv=None):
@@ -1984,20 +1527,15 @@ def main(argv=None):
     if args.rebuild_drivers:
         from drivers_build import rebuild_driver_files
         report = rebuild_driver_files(write=True)
-        print(json.dumps({
-            'written': report['written'],
-            'explainedCount': len(report['explained']),
-            'unexplainedCount': len(report['unexplained']),
-            'poleDiffs': len(report['poleDiffs']),
-            'driverFileCount': report['driverFileCount'],
-            'driversListCount': report['driversListCount'],
-            'filesNotInList': report['filesNotInList'],
-            'listNotInFiles': report['listNotInFiles'],
-        }, indent=2))
+        print(json.dumps(rebuild_summary(report), indent=2))
         if report['unexplained']:
             print('UNEXPLAINED shrinking lists/counts:')
             print(json.dumps(report['unexplained'][:50], indent=2, default=str))
             raise SystemExit(1)
+        return
+    if args.publish_v2 or args.validate_v2:
+        from drivers_v2 import publish_v2
+        print(json.dumps(publish_v2(write=args.publish_v2), indent=2))
         return
     if args.rescore:
         from scoring import apply_scoring_overrides, write_rescored_files
@@ -2040,20 +1578,23 @@ def update():
     update_driverStandings()
     print("==========Updating Constructor Standings==========")
     update_constructorStandings()
-    print("==========Updating Driver Data==========")
-    update_driverData()
-    print("==========Refreshing season poles==========")
-    from drivers_build import refresh_season_poles, rebuild_drivers_list
-    refresh_season_poles(current_year, directory='drivers2')
-    print("==========Analysing Driver Data==========")
-    analyse_driverData()
-    print("==========Replacing NaNs in Driver Data==========")
-    replace_NaN()
-    refresh_season_poles(current_year, directory='drivers')
+    print("==========Rebuilding Driver Data==========")
+    # The race files are the source of truth: every driver file is rebuilt
+    # from them (and driversList.json refreshed) so nothing drifts between
+    # the daily run and a full rebuild.
+    from drivers_build import rebuild_driver_files
+    report = rebuild_driver_files(write=True)
+    print(json.dumps(rebuild_summary(report), indent=2))
+    if report['unexplained']:
+        print(json.dumps(report['unexplained'][:50], indent=2, default=str))
+        raise RuntimeError(
+            'Driver rebuild found unexplained shrinking counts; nothing was written'
+        )
+    print("==========Publishing v2 Driver Data==========")
+    from drivers_v2 import publish_v2
+    print(json.dumps(publish_v2(write=True), indent=2))
     print("==========Updating Team Records==========")
     update_team_records()
-    print("==========Updating driversList.json==========")
-    rebuild_drivers_list(write=True)
     print("==========Rescoring championships==========")
     from scoring import apply_scoring_overrides, write_rescored_files
     apply_scoring_overrides()

@@ -1,6 +1,6 @@
 {
     "driverId": "homeier",
-    "lastUpdate": "2026-10-02T11:47:20.479192",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -244,9 +244,9 @@
         "1960": 13.0
     },
     "avgQualiPositions": {
-        "1954": -1,
-        "1955": -1,
-        "1960": -1
+        "1954": 18.0,
+        "1955": 7.0,
+        "1960": 31.0
     },
     "rates": {
         "wins": {
@@ -266,8 +266,8 @@
         },
         "DNFs": {
             "1954": 1.0,
-            "1955": 1.0,
-            "1960": 1.0
+            "1955": 0.0,
+            "1960": 0.0
         }
     },
     "winRate": 0.0,
@@ -280,9 +280,15 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1954": {},
-        "1955": {},
-        "1960": {}
+        "1954": {
+            "Indianapolis 500": -15
+        },
+        "1955": {
+            "Indianapolis 500": 2
+        },
+        "1960": {
+            "Indianapolis 500": 18
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -296,6 +302,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -310,6 +318,8 @@
                 "grid": 7,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -324,6 +334,8 @@
                 "grid": 31,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -334,5 +346,11 @@
         "1954": {},
         "1955": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1954": 1,
+        "1955": 1,
+        "1960": 1
+    },
+    "totalStarts": 3
 }

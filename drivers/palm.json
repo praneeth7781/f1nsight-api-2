@@ -1,6 +1,6 @@
 {
     "driverId": "palm",
-    "lastUpdate": "2026-10-02T11:47:20.527859",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -25,7 +25,7 @@
     },
     "DNFs": {
         "1975": {
-            "Monaco Grand Prix": "Did not qualify"
+            "Swedish Grand Prix": "Out of fuel"
         }
     },
     "fastLaps": {
@@ -131,10 +131,10 @@
         }
     },
     "avgRacePositions": {
-        "1975": 17.0
+        "1975": 10.0
     },
     "avgQualiPositions": {
-        "1975": -1
+        "1975": 21.0
     },
     "rates": {
         "wins": {
@@ -158,7 +158,9 @@
         "1975": -1
     },
     "positionsGainLost": {
-        "1975": {}
+        "1975": {
+            "Swedish Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -172,6 +174,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "hesketh",
                 "fastestLapRank": null,
                 "shared": false
@@ -184,6 +188,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Out of fuel",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "hesketh",
                 "fastestLapRank": null,
                 "shared": false
@@ -192,5 +198,9 @@
     },
     "sprintResults": {
         "1975": {}
-    }
+    },
+    "seasonStarts": {
+        "1975": 1
+    },
+    "totalStarts": 1
 }

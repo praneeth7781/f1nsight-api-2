@@ -1,10 +1,10 @@
 {
     "driverId": "parnell",
-    "lastUpdate": "2026-10-02T11:47:20.500960",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1961": 0,
         "1963": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1961": 1,
-        "1963": 1
+        "1963": 0
     },
     "poles": {
         "1961": [],
@@ -33,9 +33,7 @@
         "1961": {
             "British Grand Prix": "Clutch"
         },
-        "1963": {
-            "German Grand Prix": "Did not qualify"
-        }
+        "1963": {}
     },
     "fastLaps": {
         "1961": {
@@ -156,49 +154,44 @@
         }
     },
     "avgRacePositions": {
-        "1959": 30.0,
         "1961": 18.0,
-        "1963": 25.0
+        "1963": -1
     },
     "avgQualiPositions": {
-        "1959": -1,
-        "1961": -1,
+        "1961": 28.0,
         "1963": -1
     },
     "rates": {
         "wins": {
-            "1959": 0.0,
             "1961": 0.0,
             "1963": 0.0
         },
         "podiums": {
-            "1959": 0.0,
             "1961": 0.0,
             "1963": 0.0
         },
         "poles": {
-            "1959": 0.0,
             "1961": 0.0,
             "1963": 0.0
         },
         "DNFs": {
-            "1959": 1.0,
             "1961": 0.5,
-            "1963": 1.0
+            "1963": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.75,
+    "dnfRate": 0.5,
     "ptwConRate": {
-        "1959": -1,
         "1961": -1,
         "1963": -1
     },
     "positionsGainLost": {
-        "1959": {},
-        "1961": {},
+        "1961": {
+            "British Grand Prix": 3,
+            "Italian Grand Prix": 17
+        },
         "1963": {}
     },
     "driverCode": "",
@@ -213,6 +206,8 @@
                 "grid": 29,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -225,6 +220,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,6 +236,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -248,5 +247,10 @@
     "sprintResults": {
         "1961": {},
         "1963": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 2,
+        "1963": 0
+    },
+    "totalStarts": 2
 }

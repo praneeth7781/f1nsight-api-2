@@ -1,10 +1,10 @@
 {
     "driverId": "whitehead",
-    "lastUpdate": "2026-10-02T11:47:20.453512",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 5,
     "seasonWins": {
         "1950": 0,
         "1951": 0,
@@ -27,7 +27,7 @@
         "1954": 0
     },
     "seasonDNFs": {
-        "1950": 1,
+        "1950": 0,
         "1951": 3,
         "1952": 1,
         "1953": 0,
@@ -50,9 +50,7 @@
         "1954": {}
     },
     "DNFs": {
-        "1950": {
-            "Monaco Grand Prix": "Engine"
-        },
+        "1950": {},
         "1951": {
             "Swiss Grand Prix": "Accident",
             "French Grand Prix": "Engine",
@@ -360,18 +358,18 @@
         }
     },
     "avgRacePositions": {
-        "1950": 10.0,
+        "1950": 5.0,
         "1951": 16.5,
-        "1952": 18.333333333333332,
+        "1952": 13.0,
         "1953": 9.0,
         "1954": 28.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1
+        "1950": 18.0,
+        "1951": 14.0,
+        "1952": 16.5,
+        "1953": 14.0,
+        "1954": 24.0
     },
     "rates": {
         "wins": {
@@ -382,7 +380,7 @@
             "1954": 0.0
         },
         "podiums": {
-            "1950": 0.3333333333333333,
+            "1950": 0.5,
             "1951": 0.0,
             "1952": 0.0,
             "1953": 0.0,
@@ -396,17 +394,17 @@
             "1954": 0.0
         },
         "DNFs": {
-            "1950": 0.3333333333333333,
-            "1951": 0.25,
-            "1952": 0.3333333333333333,
-            "1953": 1.0,
+            "1950": 0.0,
+            "1951": 0.75,
+            "1952": 0.5,
+            "1953": 0.0,
             "1954": 1.0
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.08333333333333333,
+    "podiumRate": 0.1,
     "poleRate": 0.0,
-    "dnfRate": 0.5833333333333334,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1950": -1,
         "1951": -1,
@@ -415,11 +413,26 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1954": {}
+        "1950": {
+            "French Grand Prix": 15,
+            "Italian Grand Prix": 11
+        },
+        "1951": {
+            "Swiss Grand Prix": -6,
+            "French Grand Prix": -3,
+            "British Grand Prix": -1,
+            "Italian Grand Prix": 0
+        },
+        "1952": {
+            "French Grand Prix": -3,
+            "British Grand Prix": 10
+        },
+        "1953": {
+            "British Grand Prix": 5
+        },
+        "1954": {
+            "British Grand Prix": -4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -433,6 +446,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "withdrew",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -445,6 +460,8 @@
                 "grid": 18,
                 "points": 4.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -457,6 +474,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -471,6 +490,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -483,6 +504,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -495,6 +518,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -507,6 +532,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -521,6 +548,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "alta",
                 "fastestLapRank": null,
                 "shared": false
@@ -533,6 +562,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -547,6 +578,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+11 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -561,6 +594,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -573,5 +608,13 @@
         "1952": {},
         "1953": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 2,
+        "1951": 4,
+        "1952": 2,
+        "1953": 1,
+        "1954": 1
+    },
+    "totalStarts": 10
 }

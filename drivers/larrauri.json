@@ -1,6 +1,6 @@
 {
     "driverId": "larrauri",
-    "lastUpdate": "2026-10-02T11:47:20.545767",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -178,42 +178,43 @@
         }
     },
     "avgRacePositions": {
-        "1988": 24.4375,
-        "1989": 35.6
+        "1988": 20.0
     },
     "avgQualiPositions": {
-        "1988": -1,
-        "1989": -1
+        "1988": 24.25
     },
     "rates": {
         "wins": {
-            "1988": 0.0,
-            "1989": 0.0
+            "1988": 0.0
         },
         "podiums": {
-            "1988": 0.0,
-            "1989": 0.0
+            "1988": 0.0
         },
         "poles": {
-            "1988": 0.0,
-            "1989": 0.0
+            "1988": 0.0
         },
         "DNFs": {
-            "1988": 0.875,
-            "1989": 2.8
+            "1988": 0.75
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.9047619047619048,
+    "dnfRate": 0.75,
     "ptwConRate": {
-        "1988": -1,
-        "1989": -1
+        "1988": -1
     },
     "positionsGainLost": {
-        "1988": {},
-        "1989": {}
+        "1988": {
+            "Brazilian Grand Prix": 0,
+            "Monaco Grand Prix": -2,
+            "Mexican Grand Prix": 13,
+            "Canadian Grand Prix": -1,
+            "Detroit Grand Prix": 5,
+            "French Grand Prix": 9,
+            "German Grand Prix": 10,
+            "Australian Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -227,6 +228,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eurobrun",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,6 +242,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eurobrun",
                 "fastestLapRank": null,
                 "shared": false
@@ -251,6 +256,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "eurobrun",
                 "fastestLapRank": null,
                 "shared": false
@@ -263,6 +270,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Chassis",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eurobrun",
                 "fastestLapRank": null,
                 "shared": false
@@ -275,6 +284,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eurobrun",
                 "fastestLapRank": null,
                 "shared": false
@@ -287,6 +298,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eurobrun",
                 "fastestLapRank": null,
                 "shared": false
@@ -299,6 +312,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "eurobrun",
                 "fastestLapRank": null,
                 "shared": false
@@ -311,6 +326,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eurobrun",
                 "fastestLapRank": null,
                 "shared": false
@@ -319,5 +336,9 @@
     },
     "sprintResults": {
         "1988": {}
-    }
+    },
+    "seasonStarts": {
+        "1988": 8
+    },
+    "totalStarts": 8
 }

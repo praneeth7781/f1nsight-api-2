@@ -1,10 +1,10 @@
 {
     "driverId": "gartner",
-    "lastUpdate": "2026-10-02T11:47:20.542506",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 6,
     "seasonWins": {
         "1984": 0
     },
@@ -15,7 +15,7 @@
         "1984": 0
     },
     "seasonDNFs": {
-        "1984": 5
+        "1984": 6
     },
     "poles": {
         "1984": []
@@ -29,7 +29,8 @@
             "British Grand Prix": "Accident",
             "German Grand Prix": "Turbo",
             "Austrian Grand Prix": "Engine",
-            "European Grand Prix": "Fuel system"
+            "European Grand Prix": "Fuel system",
+            "Portuguese Grand Prix": "Out of fuel"
         }
     },
     "fastLaps": {
@@ -171,7 +172,7 @@
         "1984": 16.125
     },
     "avgQualiPositions": {
-        "1984": -1
+        "1984": 23.875
     },
     "rates": {
         "wins": {
@@ -195,7 +196,16 @@
         "1984": -1
     },
     "positionsGainLost": {
-        "1984": {}
+        "1984": {
+            "San Marino Grand Prix": 10,
+            "British Grand Prix": 0,
+            "German Grand Prix": 6,
+            "Austrian Grand Prix": -2,
+            "Dutch Grand Prix": 11,
+            "Italian Grand Prix": 19,
+            "European Grand Prix": 10,
+            "Portuguese Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -209,6 +219,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -221,6 +233,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -233,6 +247,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -245,6 +261,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -257,6 +275,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -269,6 +289,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -281,6 +303,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -293,6 +317,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Out of fuel",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -301,5 +327,9 @@
     },
     "sprintResults": {
         "1984": {}
-    }
+    },
+    "seasonStarts": {
+        "1984": 8
+    },
+    "totalStarts": 8
 }

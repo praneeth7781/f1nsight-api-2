@@ -1,10 +1,10 @@
 {
     "driverId": "aston",
-    "lastUpdate": "2026-10-02T11:47:20.470875",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1952": 0
     },
@@ -15,7 +15,7 @@
         "1952": 0
     },
     "seasonDNFs": {
-        "1952": 2
+        "1952": 1
     },
     "poles": {
         "1952": []
@@ -25,7 +25,6 @@
     },
     "DNFs": {
         "1952": {
-            "British Grand Prix": "Withdrew",
             "German Grand Prix": "Oil pressure"
         }
     },
@@ -120,10 +119,10 @@
         }
     },
     "avgRacePositions": {
-        "1952": 28.333333333333332
+        "1952": 22.0
     },
     "avgQualiPositions": {
-        "1952": -1
+        "1952": 21.0
     },
     "rates": {
         "wins": {
@@ -147,7 +146,9 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1952": {}
+        "1952": {
+            "German Grand Prix": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -161,6 +162,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "butterworth",
                 "fastestLapRank": null,
                 "shared": false
@@ -173,6 +176,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "butterworth",
                 "fastestLapRank": null,
                 "shared": false
@@ -181,5 +186,9 @@
     },
     "sprintResults": {
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1
+    },
+    "totalStarts": 1
 }

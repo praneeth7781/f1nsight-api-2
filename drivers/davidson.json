@@ -1,10 +1,10 @@
 {
     "driverId": "davidson",
-    "lastUpdate": "2026-10-02T11:47:20.559574",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 10,
+    "totalDNFs": 11,
     "seasonWins": {
         "2002": 0,
         "2005": 0,
@@ -26,7 +26,7 @@
     "seasonDNFs": {
         "2002": 2,
         "2005": 1,
-        "2007": 5,
+        "2007": 6,
         "2008": 2
     },
     "poles": {
@@ -50,6 +50,7 @@
             "Malaysian Grand Prix": "Engine"
         },
         "2007": {
+            "Bahrain Grand Prix": "Engine",
             "French Grand Prix": "Collision",
             "British Grand Prix": "Mechanical",
             "Hungarian Grand Prix": "Accident",
@@ -520,21 +521,21 @@
     "consistency": {
         "mean": {
             "wins": 0.0,
-            "podiums": 0.125,
+            "podiums": 0.0,
             "poles": 0.0,
-            "points": 0.8125
+            "points": 0.0
         },
         "std": {
             "wins": 0.0,
-            "podiums": 0.33071891388307384,
+            "podiums": 0.0,
             "poles": 0.0,
-            "points": 1.1162856937182344
+            "points": 0.0
         },
         "cv": {
             "wins": 0,
-            "podiums": 2.6457513110645907,
+            "podiums": 0,
             "poles": 0,
-            "points": 1.3738900845762885
+            "points": 0
         }
     },
     "peakSeason": {
@@ -543,8 +544,8 @@
             "wins": 0
         },
         "podiums": {
-            "season": "1953",
-            "podiums": 1
+            "season": "No peak season",
+            "podiums": 0
         },
         "poles": {
             "season": "No peak season",
@@ -552,90 +553,86 @@
         }
     },
     "avgRacePositions": {
-        "1950": 12.0,
-        "1951": 8.0,
-        "1952": 4.0,
-        "1953": 3.0,
-        "1954": 4.0,
-        "1955": 11.0,
-        "1959": 7.0,
-        "1960": 12.0
+        "2002": 17.5,
+        "2005": 19.0,
+        "2007": 15.647058823529411,
+        "2008": 17.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1959": -1,
-        "1960": -1
+        "2002": 20.0,
+        "2005": 15.0,
+        "2007": 16.058823529411764,
+        "2008": 21.0
     },
     "rates": {
         "wins": {
-            "1950": 0.0,
-            "1951": 0.0,
-            "1952": 0.0,
-            "1953": 0.0,
-            "1954": 0.0,
-            "1955": 0.0,
-            "1959": 0.0,
-            "1960": 0.0
+            "2002": 0.0,
+            "2005": 0.0,
+            "2007": 0.0,
+            "2008": 0.0
         },
         "podiums": {
-            "1950": 0.0,
-            "1951": 0.0,
-            "1952": 0.0,
-            "1953": 1.0,
-            "1954": 0.0,
-            "1955": 0.0,
-            "1959": 0.0,
-            "1960": 0.0
+            "2002": 0.0,
+            "2005": 0.0,
+            "2007": 0.0,
+            "2008": 0.0
         },
         "poles": {
-            "1950": 0.0,
-            "1951": 0.0,
-            "1952": 0.0,
-            "1953": 0.0,
-            "1954": 0.0,
-            "1955": 0.0,
-            "1959": 0.0,
-            "1960": 0.0
+            "2002": 0.0,
+            "2005": 0.0,
+            "2007": 0.0,
+            "2008": 0.0
         },
         "DNFs": {
-            "1950": 0.0,
-            "1951": 0.0,
-            "1952": 0.0,
-            "1953": 0.0,
-            "1954": 0.0,
-            "1955": 0.0,
-            "1959": 0.0,
-            "1960": 0.0
+            "2002": 1.0,
+            "2005": 1.0,
+            "2007": 0.35294117647058826,
+            "2008": 0.5
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.125,
+    "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.0,
+    "dnfRate": 0.4583333333333333,
     "ptwConRate": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1959": -1,
-        "1960": -1
+        "2002": -1,
+        "2005": -1,
+        "2007": -1,
+        "2008": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1959": {},
-        "1960": {}
+        "2002": {
+            "Hungarian Grand Prix": 3,
+            "Belgian Grand Prix": 2
+        },
+        "2005": {
+            "Malaysian Grand Prix": -4
+        },
+        "2007": {
+            "Australian Grand Prix": -5,
+            "Malaysian Grand Prix": 2,
+            "Bahrain Grand Prix": -3,
+            "Spanish Grand Prix": 4,
+            "Monaco Grand Prix": -1,
+            "Canadian Grand Prix": 6,
+            "United States Grand Prix": 5,
+            "French Grand Prix": -1,
+            "British Grand Prix": 1,
+            "European Grand Prix": 3,
+            "Hungarian Grand Prix": -5,
+            "Turkish Grand Prix": -3,
+            "Italian Grand Prix": 0,
+            "Belgian Grand Prix": 4,
+            "Japanese Grand Prix": 2,
+            "Chinese Grand Prix": -8,
+            "Brazilian Grand Prix": 6
+        },
+        "2008": {
+            "Australian Grand Prix": 2,
+            "Malaysian Grand Prix": 6,
+            "Bahrain Grand Prix": 5,
+            "Spanish Grand Prix": 3
+        }
     },
     "driverCode": "DAV",
     "driverNumber": "",
@@ -649,6 +646,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -661,6 +660,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -675,6 +676,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "bar",
                 "fastestLapRank": 18,
                 "shared": false
@@ -689,6 +692,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 19,
                 "shared": false
@@ -701,6 +706,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 20,
                 "shared": false
@@ -713,6 +720,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 17,
                 "shared": false
@@ -725,6 +734,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 15,
                 "shared": false
@@ -737,6 +748,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 16,
                 "shared": false
@@ -749,6 +762,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 15,
                 "shared": false
@@ -761,6 +776,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 12,
                 "shared": false
@@ -773,6 +790,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "super_aguri",
                 "fastestLapRank": null,
                 "shared": false
@@ -785,6 +804,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Mechanical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 20,
                 "shared": false
@@ -797,6 +818,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 13,
                 "shared": false
@@ -809,6 +832,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 18,
                 "shared": false
@@ -821,6 +846,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 17,
                 "shared": false
@@ -833,6 +860,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 17,
                 "shared": false
@@ -845,6 +874,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 19,
                 "shared": false
@@ -857,6 +888,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Throttle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 17,
                 "shared": false
@@ -869,6 +902,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 22,
                 "shared": false
@@ -881,6 +916,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 14,
                 "shared": false
@@ -895,6 +932,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "super_aguri",
                 "fastestLapRank": null,
                 "shared": false
@@ -907,6 +946,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 18,
                 "shared": false
@@ -919,6 +960,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 14,
                 "shared": false
@@ -931,6 +974,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Radiator",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 20,
                 "shared": false
@@ -942,5 +987,12 @@
         "2005": {},
         "2007": {},
         "2008": {}
-    }
+    },
+    "seasonStarts": {
+        "2002": 2,
+        "2005": 1,
+        "2007": 17,
+        "2008": 4
+    },
+    "totalStarts": 24
 }

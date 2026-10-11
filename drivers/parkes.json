@@ -1,6 +1,6 @@
 {
     "driverId": "parkes",
-    "lastUpdate": "2026-10-02T11:47:20.512447",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 2,
     "totalPoles": 1,
@@ -176,21 +176,21 @@
     "consistency": {
         "mean": {
             "wins": 0.0,
-            "podiums": 0.6666666666666666,
-            "poles": 0.3333333333333333,
-            "points": 4.666666666666667
+            "podiums": 1.0,
+            "poles": 0.5,
+            "points": 7.0
         },
         "std": {
             "wins": 0.0,
-            "podiums": 0.9428090415820634,
-            "poles": 0.4714045207910317,
-            "points": 5.2493385826745405
+            "podiums": 1.0,
+            "poles": 0.5,
+            "points": 5.0
         },
         "cv": {
             "wins": 0,
-            "podiums": 1.4142135623730951,
-            "poles": 1.4142135623730951,
-            "points": 1.1248582677159729
+            "podiums": 1.0,
+            "poles": 1.0,
+            "points": 0.7142857142857143
         }
     },
     "peakSeason": {
@@ -208,50 +208,50 @@
         }
     },
     "avgRacePositions": {
-        "1959": 27.0,
         "1966": 8.25,
         "1967": 11.5
     },
     "avgQualiPositions": {
-        "1959": -1,
-        "1966": -1,
-        "1967": -1
+        "1966": 4.0,
+        "1967": 9.0
     },
     "rates": {
         "wins": {
-            "1959": 0.0,
             "1966": 0.0,
             "1967": 0.0
         },
         "podiums": {
-            "1959": 0.0,
             "1966": 0.5,
             "1967": 0.0
         },
         "poles": {
-            "1959": 0.0,
             "1966": 0.25,
             "1967": 0.0
         },
         "DNFs": {
-            "1959": 1.0,
-            "1966": 0.25,
+            "1966": 0.5,
             "1967": 0.5
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.2857142857142857,
-    "poleRate": 0.14285714285714285,
-    "dnfRate": 0.5714285714285714,
+    "podiumRate": 0.3333333333333333,
+    "poleRate": 0.16666666666666666,
+    "dnfRate": 0.5,
     "ptwConRate": {
-        "1959": -1,
         "1966": 0.0,
         "1967": -1
     },
     "positionsGainLost": {
-        "1959": {},
-        "1966": {},
-        "1967": {}
+        "1966": {
+            "French Grand Prix": 1,
+            "Dutch Grand Prix": -11,
+            "German Grand Prix": -6,
+            "Italian Grand Prix": -1
+        },
+        "1967": {
+            "Dutch Grand Prix": 5,
+            "Belgian Grand Prix": -10
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -265,6 +265,8 @@
                 "grid": 3,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -277,6 +279,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -289,6 +293,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -301,6 +307,8 @@
                 "grid": 1,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -315,6 +323,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -327,6 +337,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -336,5 +348,10 @@
     "sprintResults": {
         "1966": {},
         "1967": {}
-    }
+    },
+    "seasonStarts": {
+        "1966": 4,
+        "1967": 2
+    },
+    "totalStarts": 6
 }

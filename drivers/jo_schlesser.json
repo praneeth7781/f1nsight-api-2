@@ -1,6 +1,6 @@
 {
     "driverId": "jo_schlesser",
-    "lastUpdate": "2026-10-02T11:47:20.514870",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -182,8 +182,8 @@
         "1968": 17.0
     },
     "avgQualiPositions": {
-        "1967": -1,
-        "1968": -1
+        "1967": 21.0,
+        "1968": 16.0
     },
     "rates": {
         "wins": {
@@ -212,8 +212,12 @@
         "1968": -1
     },
     "positionsGainLost": {
-        "1967": {},
-        "1968": {}
+        "1967": {
+            "German Grand Prix": -3
+        },
+        "1968": {
+            "French Grand Prix": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -227,6 +231,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "matra",
                 "fastestLapRank": null,
                 "shared": false
@@ -241,6 +247,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -250,5 +258,10 @@
     "sprintResults": {
         "1967": {},
         "1968": {}
-    }
+    },
+    "seasonStarts": {
+        "1967": 1,
+        "1968": 1
+    },
+    "totalStarts": 2
 }

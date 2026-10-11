@@ -1,6 +1,6 @@
 {
     "driverId": "branca",
-    "lastUpdate": "2026-10-02T11:47:20.459232",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -168,8 +168,8 @@
         "1951": 21.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
+        "1950": 14.0,
+        "1951": 17.0
     },
     "rates": {
         "wins": {
@@ -186,7 +186,7 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1951": 0.0
+            "1951": 1.0
         }
     },
     "winRate": 0.0,
@@ -198,8 +198,13 @@
         "1951": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "Swiss Grand Prix": 6,
+            "Belgian Grand Prix": 1
+        },
+        "1951": {
+            "German Grand Prix": -4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -213,6 +218,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -225,6 +232,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,6 +248,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -248,5 +259,10 @@
     "sprintResults": {
         "1950": {},
         "1951": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 2,
+        "1951": 1
+    },
+    "totalStarts": 3
 }

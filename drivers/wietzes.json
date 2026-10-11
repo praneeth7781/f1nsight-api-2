@@ -1,10 +1,10 @@
 {
     "driverId": "wietzes",
-    "lastUpdate": "2026-10-02T11:47:20.515165",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1967": 0,
         "1974": 0
@@ -18,7 +18,7 @@
         "1974": 0
     },
     "seasonDNFs": {
-        "1967": 1,
+        "1967": 0,
         "1974": 1
     },
     "poles": {
@@ -30,9 +30,7 @@
         "1974": {}
     },
     "DNFs": {
-        "1967": {
-            "Canadian Grand Prix": "Disqualified"
-        },
+        "1967": {},
         "1974": {
             "Canadian Grand Prix": "Engine"
         }
@@ -160,34 +158,46 @@
         }
     },
     "avgRacePositions": {
-        "1968": 13.0
+        "1967": 13.0,
+        "1974": 25.0
     },
     "avgQualiPositions": {
-        "1968": -1
+        "1967": 16.0,
+        "1974": 26.0
     },
     "rates": {
         "wins": {
-            "1968": 0.0
+            "1967": 0.0,
+            "1974": 0.0
         },
         "podiums": {
-            "1968": 0.0
+            "1967": 0.0,
+            "1974": 0.0
         },
         "poles": {
-            "1968": 0.0
+            "1967": 0.0,
+            "1974": 0.0
         },
         "DNFs": {
-            "1968": 1.0
+            "1967": 0.0,
+            "1974": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.5,
     "ptwConRate": {
-        "1968": -1
+        "1967": -1,
+        "1974": -1
     },
     "positionsGainLost": {
-        "1968": {}
+        "1967": {
+            "Canadian Grand Prix": 3
+        },
+        "1974": {
+            "Canadian Grand Prix": 1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -201,6 +211,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -215,6 +227,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -224,5 +238,10 @@
     "sprintResults": {
         "1967": {},
         "1974": {}
-    }
+    },
+    "seasonStarts": {
+        "1967": 1,
+        "1974": 1
+    },
+    "totalStarts": 2
 }

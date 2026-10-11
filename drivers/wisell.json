@@ -1,10 +1,10 @@
 {
     "driverId": "wisell",
-    "lastUpdate": "2026-10-02T11:47:20.519308",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 15,
+    "totalDNFs": 14,
     "seasonWins": {
         "1970": 0,
         "1971": 0,
@@ -28,7 +28,7 @@
     },
     "seasonDNFs": {
         "1970": 1,
-        "1971": 5,
+        "1971": 4,
         "1972": 6,
         "1973": 2,
         "1974": 1
@@ -56,7 +56,6 @@
         "1971": {
             "Spanish Grand Prix": "Not classified",
             "Monaco Grand Prix": "Wheel bearing",
-            "Dutch Grand Prix": "Disqualified",
             "British Grand Prix": "Not classified",
             "United States Grand Prix": "Brakes"
         },
@@ -458,11 +457,11 @@
         "1974": 14.0
     },
     "avgQualiPositions": {
-        "1970": -1,
-        "1971": -1,
-        "1972": -1,
-        "1973": -1,
-        "1974": -1
+        "1970": 10.5,
+        "1971": 12.3,
+        "1972": 13.75,
+        "1973": 18.0,
+        "1974": 16.0
     },
     "rates": {
         "wins": {
@@ -488,16 +487,16 @@
         },
         "DNFs": {
             "1970": 0.5,
-            "1971": 0.1,
-            "1972": 0.125,
-            "1973": 0.5,
+            "1971": 0.4,
+            "1972": 0.75,
+            "1973": 1.0,
             "1974": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.043478260869565216,
     "poleRate": 0.0,
-    "dnfRate": 0.6521739130434783,
+    "dnfRate": 0.6086956521739131,
     "ptwConRate": {
         "1970": -1,
         "1971": -1,
@@ -506,11 +505,39 @@
         "1974": -1
     },
     "positionsGainLost": {
-        "1970": {},
-        "1971": {},
-        "1972": {},
-        "1973": {},
-        "1974": {}
+        "1970": {
+            "United States Grand Prix": 6,
+            "Mexican Grand Prix": 2
+        },
+        "1971": {
+            "South African Grand Prix": 10,
+            "Spanish Grand Prix": 4,
+            "Monaco Grand Prix": -4,
+            "Dutch Grand Prix": -16,
+            "French Grand Prix": 9,
+            "British Grand Prix": 6,
+            "German Grand Prix": 9,
+            "Austrian Grand Prix": 6,
+            "Canadian Grand Prix": 2,
+            "United States Grand Prix": -19
+        },
+        "1972": {
+            "Argentine Grand Prix": -7,
+            "Spanish Grand Prix": -8,
+            "Monaco Grand Prix": -9,
+            "French Grand Prix": -3,
+            "German Grand Prix": -10,
+            "Italian Grand Prix": -2,
+            "Canadian Grand Prix": 2,
+            "United States Grand Prix": 6
+        },
+        "1973": {
+            "Swedish Grand Prix": -7,
+            "French Grand Prix": 1
+        },
+        "1974": {
+            "Swedish Grand Prix": 2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -524,6 +551,8 @@
                 "grid": 9,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -536,6 +565,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -550,6 +581,8 @@
                 "grid": 14,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -562,6 +595,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -574,6 +609,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -586,6 +623,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -598,6 +637,8 @@
                 "grid": 15,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -610,6 +651,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "lotus-pw",
                 "fastestLapRank": null,
                 "shared": false
@@ -622,6 +665,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -634,6 +679,8 @@
                 "grid": 10,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -646,6 +693,8 @@
                 "grid": 7,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -658,6 +707,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -672,6 +723,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Water leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -684,6 +737,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -696,6 +751,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -708,6 +765,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -720,6 +779,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -732,6 +793,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -744,6 +807,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -756,6 +821,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -770,6 +837,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -782,6 +851,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -796,6 +867,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -808,5 +881,13 @@
         "1972": {},
         "1973": {},
         "1974": {}
-    }
+    },
+    "seasonStarts": {
+        "1970": 2,
+        "1971": 10,
+        "1972": 8,
+        "1973": 2,
+        "1974": 1
+    },
+    "totalStarts": 23
 }

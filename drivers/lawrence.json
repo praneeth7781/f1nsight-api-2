@@ -1,6 +1,6 @@
 {
     "driverId": "lawrence",
-    "lastUpdate": "2026-10-02T11:47:20.512728",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -128,7 +128,7 @@
         "1966": 11.0
     },
     "avgQualiPositions": {
-        "1966": -1
+        "1966": 22.5
     },
     "rates": {
         "wins": {
@@ -152,7 +152,10 @@
         "1966": -1
     },
     "positionsGainLost": {
-        "1966": {}
+        "1966": {
+            "British Grand Prix": 8,
+            "German Grand Prix": 15
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -166,6 +169,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -178,6 +183,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -186,5 +193,9 @@
     },
     "sprintResults": {
         "1966": {}
-    }
+    },
+    "seasonStarts": {
+        "1966": 2
+    },
+    "totalStarts": 2
 }

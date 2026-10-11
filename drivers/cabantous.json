@@ -1,6 +1,6 @@
 {
     "driverId": "cabantous",
-    "lastUpdate": "2026-10-02T11:47:20.449461",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -325,10 +325,10 @@
         "1953": 14.5
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1,
-        "1953": -1
+        "1950": 6.75,
+        "1951": 12.166666666666666,
+        "1952": 10.0,
+        "1953": 23.0
     },
     "rates": {
         "wins": {
@@ -351,9 +351,9 @@
         },
         "DNFs": {
             "1950": 0.5,
-            "1951": 0.3333333333333333,
-            "1952": 2.0,
-            "1953": 1.0
+            "1951": 0.5,
+            "1952": 0.0,
+            "1953": 0.0
         }
     },
     "winRate": 0.0,
@@ -367,10 +367,27 @@
         "1953": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {},
-        "1953": {}
+        "1950": {
+            "British Grand Prix": 2,
+            "Swiss Grand Prix": -11,
+            "Belgian Grand Prix": -5,
+            "French Grand Prix": -3
+        },
+        "1951": {
+            "Swiss Grand Prix": -3,
+            "Belgian Grand Prix": 3,
+            "French Grand Prix": 4,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": 6,
+            "Spanish Grand Prix": -3
+        },
+        "1952": {
+            "French Grand Prix": 0
+        },
+        "1953": {
+            "French Grand Prix": 4,
+            "Italian Grand Prix": 13
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -384,6 +401,8 @@
                 "grid": 6,
                 "points": 3.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -396,6 +415,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -408,6 +429,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Oil pipe",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -420,6 +443,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "+12 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -434,6 +459,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -446,6 +473,8 @@
                 "grid": 8,
                 "points": 2.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -458,6 +487,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -470,6 +501,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -482,6 +515,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -494,6 +529,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -508,6 +545,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -522,6 +561,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -534,6 +575,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "+13 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -545,5 +588,12 @@
         "1951": {},
         "1952": {},
         "1953": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 4,
+        "1951": 6,
+        "1952": 1,
+        "1953": 2
+    },
+    "totalStarts": 13
 }

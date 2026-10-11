@@ -1,6 +1,6 @@
 {
     "driverId": "penske",
-    "lastUpdate": "2026-10-02T11:47:20.503005",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -151,8 +151,8 @@
         "1962": 9.0
     },
     "avgQualiPositions": {
-        "1961": -1,
-        "1962": -1
+        "1961": 16.0,
+        "1962": 13.0
     },
     "rates": {
         "wins": {
@@ -181,8 +181,12 @@
         "1962": -1
     },
     "positionsGainLost": {
-        "1961": {},
-        "1962": {}
+        "1961": {
+            "United States Grand Prix": 8
+        },
+        "1962": {
+            "United States Grand Prix": 4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -196,6 +200,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -210,6 +216,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -219,5 +227,10 @@
     "sprintResults": {
         "1961": {},
         "1962": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 1,
+        "1962": 1
+    },
+    "totalStarts": 2
 }

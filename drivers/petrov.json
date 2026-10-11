@@ -1,11 +1,11 @@
 {
     "driverId": "petrov",
     "driverCode": "PET",
-    "lastUpdate": "2026-10-02T11:47:20.565042",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 11,
+    "totalDNFs": 12,
     "seasonWins": {
         "2010": 0,
         "2011": 0,
@@ -22,9 +22,9 @@
         "2012": 0
     },
     "seasonDNFs": {
-        "2010": 5,
-        "2011": 3,
-        "2012": 3
+        "2010": 6,
+        "2011": 4,
+        "2012": 2
     },
     "poles": {
         "2010": [],
@@ -43,18 +43,19 @@
             "Bahrain Grand Prix": "Suspension",
             "Australian Grand Prix": "Spun off",
             "Malaysian Grand Prix": "Gearbox",
+            "Monaco Grand Prix": "Brakes",
             "Japanese Grand Prix": "Accident",
             "Korean Grand Prix": "Accident"
         },
         "2011": {
+            "Malaysian Grand Prix": "Accident",
             "Monaco Grand Prix": "Collision",
             "Italian Grand Prix": "Collision",
             "Korean Grand Prix": "Collision"
         },
         "2012": {
             "Australian Grand Prix": "Steering",
-            "Monaco Grand Prix": "Electrical",
-            "British Grand Prix": "Engine"
+            "Monaco Grand Prix": "Electrical"
         }
     },
     "fastLaps": {
@@ -825,12 +826,12 @@
     "avgRacePositions": {
         "2010": 13.631578947368421,
         "2011": 12.368421052631579,
-        "2012": 16.95
+        "2012": 16.57894736842105
     },
     "avgQualiPositions": {
-        "2010": 13.526315789473685,
-        "2011": 10.210526315789474,
-        "2012": 19.8
+        "2010": 14.157894736842104,
+        "2011": 10.473684210526315,
+        "2012": 19.0
     },
     "rates": {
         "wins": {
@@ -850,14 +851,14 @@
         },
         "DNFs": {
             "2010": 0.3157894736842105,
-            "2011": 0.3157894736842105,
-            "2012": 0.3
+            "2011": 0.21052631578947367,
+            "2012": 0.10526315789473684
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.017241379310344827,
+    "podiumRate": 0.017543859649122806,
     "poleRate": 0.0,
-    "dnfRate": 0.22413793103448276,
+    "dnfRate": 0.21052631578947367,
     "ptwConRate": {
         "2010": -1,
         "2011": -1,
@@ -869,19 +870,19 @@
             "Australian Grand Prix": -1,
             "Malaysian Grand Prix": -8,
             "Chinese Grand Prix": 7,
-            "Spanish Grand Prix": 3,
+            "Spanish Grand Prix": 8,
             "Monaco Grand Prix": 1,
             "Turkish Grand Prix": -6,
             "Canadian Grand Prix": -3,
             "European Grand Prix": -4,
-            "British Grand Prix": 3,
+            "British Grand Prix": 2,
             "German Grand Prix": 3,
             "Hungarian Grand Prix": 2,
-            "Belgian Grand Prix": 15,
-            "Italian Grand Prix": 2,
-            "Singapore Grand Prix": 2,
+            "Belgian Grand Prix": 14,
+            "Italian Grand Prix": 7,
+            "Singapore Grand Prix": 1,
             "Japanese Grand Prix": -9,
-            "Korean Grand Prix": -3,
+            "Korean Grand Prix": 2,
             "Brazilian Grand Prix": -6,
             "Abu Dhabi Grand Prix": 4
         },
@@ -891,7 +892,7 @@
             "Chinese Grand Prix": 1,
             "Turkish Grand Prix": -1,
             "Spanish Grand Prix": -5,
-            "Monaco Grand Prix": -8,
+            "Monaco Grand Prix": -9,
             "Canadian Grand Prix": 5,
             "European Grand Prix": -4,
             "British Grand Prix": 2,
@@ -900,31 +901,30 @@
             "Belgian Grand Prix": 1,
             "Italian Grand Prix": -15,
             "Singapore Grand Prix": 1,
-            "Japanese Grand Prix": 0,
+            "Japanese Grand Prix": 1,
             "Korean Grand Prix": -15,
-            "Indian Grand Prix": 0,
+            "Indian Grand Prix": 5,
             "Abu Dhabi Grand Prix": -1,
             "Brazilian Grand Prix": 5
         },
         "2012": {
-            "Australian Grand Prix": 1,
-            "Malaysian Grand Prix": 4,
-            "Chinese Grand Prix": 2,
-            "Bahrain Grand Prix": 4,
-            "Spanish Grand Prix": 2,
-            "Monaco Grand Prix": -1,
-            "Canadian Grand Prix": 0,
+            "Australian Grand Prix": 0,
+            "Malaysian Grand Prix": 3,
+            "Chinese Grand Prix": 1,
+            "Bahrain Grand Prix": 2,
+            "Spanish Grand Prix": 1,
+            "Monaco Grand Prix": -2,
+            "Canadian Grand Prix": -1,
             "European Grand Prix": 7,
-            "British Grand Prix": -5,
-            "German Grand Prix": 4,
+            "German Grand Prix": 2,
             "Hungarian Grand Prix": 1,
-            "Belgian Grand Prix": 6,
-            "Italian Grand Prix": 4,
-            "Singapore Grand Prix": 0,
-            "Japanese Grand Prix": 6,
-            "Korean Grand Prix": 3,
+            "Belgian Grand Prix": 5,
+            "Italian Grand Prix": 3,
+            "Singapore Grand Prix": -1,
+            "Japanese Grand Prix": 5,
+            "Korean Grand Prix": 2,
             "Indian Grand Prix": 2,
-            "Abu Dhabi Grand Prix": 5,
+            "Abu Dhabi Grand Prix": 4,
             "United States Grand Prix": 4,
             "Brazilian Grand Prix": 8
         }
@@ -940,6 +940,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "renault",
                 "fastestLapRank": 19,
                 "shared": false
@@ -952,6 +954,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "renault",
                 "fastestLapRank": 18,
                 "shared": false
@@ -964,6 +968,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "renault",
                 "fastestLapRank": 14,
                 "shared": false
@@ -976,6 +982,8 @@
                 "grid": 14,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 8,
                 "shared": false
@@ -988,6 +996,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1000,6 +1010,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "renault",
                 "fastestLapRank": 12,
                 "shared": false
@@ -1012,6 +1024,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 1,
                 "shared": false
@@ -1024,6 +1038,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 12,
                 "shared": false
@@ -1036,6 +1052,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 12,
                 "shared": false
@@ -1048,6 +1066,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 5,
                 "shared": false
@@ -1060,6 +1080,8 @@
                 "grid": 13,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1072,6 +1094,8 @@
                 "grid": 7,
                 "points": 10.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 6,
                 "shared": false
@@ -1084,6 +1108,8 @@
                 "grid": 23,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 7,
                 "shared": false
@@ -1096,6 +1122,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 9,
                 "shared": false
@@ -1108,6 +1136,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 11,
                 "shared": false
@@ -1120,6 +1150,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "renault",
                 "fastestLapRank": null,
                 "shared": false
@@ -1132,6 +1164,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "renault",
                 "fastestLapRank": 13,
                 "shared": false
@@ -1144,6 +1178,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 15,
                 "shared": false
@@ -1156,6 +1192,8 @@
                 "grid": 10,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1170,6 +1208,8 @@
                 "grid": 6,
                 "points": 15.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 7,
                 "shared": false
@@ -1182,6 +1222,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "renault",
                 "fastestLapRank": 3,
                 "shared": false
@@ -1194,6 +1236,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 7,
                 "shared": false
@@ -1206,6 +1250,8 @@
                 "grid": 7,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1218,6 +1264,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1230,6 +1278,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "renault",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1242,6 +1292,8 @@
                 "grid": 10,
                 "points": 10.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 3,
                 "shared": false
@@ -1254,6 +1306,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1266,6 +1320,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 6,
                 "shared": false
@@ -1278,6 +1334,8 @@
                 "grid": 9,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1290,6 +1348,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1302,6 +1362,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 9,
                 "shared": false
@@ -1314,6 +1376,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "renault",
                 "fastestLapRank": null,
                 "shared": false
@@ -1326,6 +1390,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1338,6 +1404,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 7,
                 "shared": false
@@ -1350,6 +1418,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "renault",
                 "fastestLapRank": 23,
                 "shared": false
@@ -1362,6 +1432,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 11,
                 "shared": false
@@ -1374,6 +1446,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 5,
                 "shared": false
@@ -1386,6 +1460,8 @@
                 "grid": 15,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "renault",
                 "fastestLapRank": 7,
                 "shared": false
@@ -1400,6 +1476,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Steering",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "caterham",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1412,6 +1490,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1424,6 +1504,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 19,
                 "shared": false
@@ -1436,6 +1518,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1448,6 +1532,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1460,6 +1546,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "caterham",
                 "fastestLapRank": 20,
                 "shared": false
@@ -1472,6 +1560,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1484,6 +1574,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1496,6 +1588,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "withdrew",
+                "cause": "mechanical",
                 "constructorId": "caterham",
                 "fastestLapRank": null,
                 "shared": false
@@ -1508,6 +1602,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1520,6 +1616,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 20,
                 "shared": false
@@ -1532,6 +1630,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 15,
                 "shared": false
@@ -1544,6 +1644,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 15,
                 "shared": false
@@ -1556,6 +1658,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1568,6 +1672,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1580,6 +1686,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1592,6 +1700,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 19,
                 "shared": false
@@ -1604,6 +1714,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 19,
                 "shared": false
@@ -1616,6 +1728,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1628,6 +1742,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "caterham",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1638,5 +1754,11 @@
         "2010": {},
         "2011": {},
         "2012": {}
-    }
+    },
+    "seasonStarts": {
+        "2010": 19,
+        "2011": 19,
+        "2012": 19
+    },
+    "totalStarts": 57
 }

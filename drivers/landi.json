@@ -1,6 +1,6 @@
 {
     "driverId": "landi",
-    "lastUpdate": "2026-10-02T11:47:20.464912",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -269,10 +269,10 @@
         "1956": 4.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1956": -1
+        "1951": 16.0,
+        "1952": 17.0,
+        "1953": 20.5,
+        "1956": 11.0
     },
     "rates": {
         "wins": {
@@ -295,9 +295,9 @@
         },
         "DNFs": {
             "1951": 1.0,
-            "1952": 0.5,
-            "1953": 0.5,
-            "1956": 1.0
+            "1952": 0.0,
+            "1953": 1.0,
+            "1956": 0.0
         }
     },
     "winRate": 0.0,
@@ -311,10 +311,20 @@
         "1956": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1956": {}
+        "1951": {
+            "Italian Grand Prix": -4
+        },
+        "1952": {
+            "Dutch Grand Prix": 7,
+            "Italian Grand Prix": 10
+        },
+        "1953": {
+            "Swiss Grand Prix": 10,
+            "Italian Grand Prix": -5
+        },
+        "1956": {
+            "Argentine Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -328,6 +338,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -342,6 +354,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -354,6 +368,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -368,6 +384,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -380,6 +398,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -394,6 +414,8 @@
                 "grid": 11,
                 "points": 1.5,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -405,5 +427,12 @@
         "1952": {},
         "1953": {},
         "1956": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 2,
+        "1953": 2,
+        "1956": 1
+    },
+    "totalStarts": 6
 }

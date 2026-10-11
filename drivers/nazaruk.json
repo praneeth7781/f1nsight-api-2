@@ -1,6 +1,6 @@
 {
     "driverId": "nazaruk",
-    "lastUpdate": "2026-10-02T11:47:20.461545",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -252,9 +252,9 @@
         "1954": 5.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1953": -1,
-        "1954": -1
+        "1951": 7.0,
+        "1953": 23.0,
+        "1954": 14.0
     },
     "rates": {
         "wins": {
@@ -274,7 +274,7 @@
         },
         "DNFs": {
             "1951": 0.0,
-            "1953": 0.0,
+            "1953": 1.0,
             "1954": 0.0
         }
     },
@@ -288,9 +288,15 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1953": {},
-        "1954": {}
+        "1951": {
+            "Indianapolis 500": 5
+        },
+        "1953": {
+            "Indianapolis 500": 2
+        },
+        "1954": {
+            "Indianapolis 500": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -304,6 +310,8 @@
                 "grid": 7,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -318,6 +326,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "turner",
                 "fastestLapRank": null,
                 "shared": false
@@ -332,6 +342,8 @@
                 "grid": 14,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -342,5 +354,11 @@
         "1951": {},
         "1953": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1953": 1,
+        "1954": 1
+    },
+    "totalStarts": 3
 }

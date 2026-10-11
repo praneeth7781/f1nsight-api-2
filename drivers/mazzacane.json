@@ -1,10 +1,10 @@
 {
     "driverId": "mazzacane",
-    "lastUpdate": "2026-10-02T11:47:20.557704",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 9,
     "seasonWins": {
         "2000": 0,
         "2001": 0
@@ -18,7 +18,7 @@
         "2001": 0
     },
     "seasonDNFs": {
-        "2000": 5,
+        "2000": 6,
         "2001": 3
     },
     "poles": {
@@ -35,7 +35,8 @@
             "Monaco Grand Prix": "Spun off",
             "French Grand Prix": "Spun off",
             "Hungarian Grand Prix": "Engine",
-            "United States Grand Prix": "Engine"
+            "United States Grand Prix": "Engine",
+            "Malaysian Grand Prix": "Engine"
         },
         "2001": {
             "Australian Grand Prix": "Brakes",
@@ -326,8 +327,8 @@
         "2001": 16.5
     },
     "avgQualiPositions": {
-        "2000": 21.5,
-        "2001": -1
+        "2000": 21.529411764705884,
+        "2001": 20.0
     },
     "rates": {
         "wins": {
@@ -344,7 +345,7 @@
         },
         "DNFs": {
             "2000": 0.35294117647058826,
-            "2001": 1.5
+            "2001": 0.75
         }
     },
     "winRate": 0.0,
@@ -358,11 +359,29 @@
     "positionsGainLost": {
         "2000": {
             "Australian Grand Prix": 9,
+            "Brazilian Grand Prix": 10,
             "San Marino Grand Prix": 7,
             "British Grand Prix": 7,
-            "Japanese Grand Prix": 7
+            "Spanish Grand Prix": 6,
+            "European Grand Prix": 13,
+            "Monaco Grand Prix": 4,
+            "Canadian Grand Prix": 10,
+            "French Grand Prix": 3,
+            "Austrian Grand Prix": 10,
+            "German Grand Prix": 10,
+            "Hungarian Grand Prix": 5,
+            "Belgian Grand Prix": 5,
+            "Italian Grand Prix": 12,
+            "United States Grand Prix": 7,
+            "Japanese Grand Prix": 7,
+            "Malaysian Grand Prix": 9
         },
-        "2001": {}
+        "2001": {
+            "Australian Grand Prix": -2,
+            "Malaysian Grand Prix": 7,
+            "Brazilian Grand Prix": 7,
+            "San Marino Grand Prix": 2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -376,6 +395,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -388,6 +409,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -400,6 +423,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -412,6 +437,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -424,6 +451,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -436,6 +465,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -448,6 +479,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -460,6 +493,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -472,6 +507,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -484,6 +521,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -496,6 +535,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -508,6 +549,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -520,6 +563,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -532,6 +577,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -544,6 +591,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -556,6 +605,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -568,6 +619,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -582,6 +635,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "prost",
                 "fastestLapRank": null,
                 "shared": false
@@ -594,6 +649,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "prost",
                 "fastestLapRank": null,
                 "shared": false
@@ -606,6 +663,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "prost",
                 "fastestLapRank": null,
                 "shared": false
@@ -618,6 +677,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "prost",
                 "fastestLapRank": null,
                 "shared": false
@@ -627,5 +688,10 @@
     "sprintResults": {
         "2000": {},
         "2001": {}
-    }
+    },
+    "seasonStarts": {
+        "2000": 17,
+        "2001": 4
+    },
+    "totalStarts": 21
 }

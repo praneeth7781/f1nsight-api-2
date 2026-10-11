@@ -1,6 +1,6 @@
 {
     "driverId": "ball",
-    "lastUpdate": "2026-10-02T11:47:20.461970",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -186,8 +186,8 @@
         "1952": 32.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1
+        "1951": 29.0,
+        "1952": 17.0
     },
     "rates": {
         "wins": {
@@ -204,7 +204,7 @@
         },
         "DNFs": {
             "1951": 0.0,
-            "1952": 0.0
+            "1952": 1.0
         }
     },
     "winRate": 0.0,
@@ -216,8 +216,12 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {}
+        "1951": {
+            "Indianapolis 500": 24
+        },
+        "1952": {
+            "Indianapolis 500": -15
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -231,6 +235,8 @@
                 "grid": 29,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "schroeder",
                 "fastestLapRank": null,
                 "shared": false
@@ -245,6 +251,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stevens",
                 "fastestLapRank": null,
                 "shared": false
@@ -254,5 +262,10 @@
     "sprintResults": {
         "1951": {},
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 1
+    },
+    "totalStarts": 2
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "guy_mairesse",
-    "lastUpdate": "2026-10-02T11:47:20.459965",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -174,8 +174,8 @@
         "1951": 11.5
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
+        "1950": 11.0,
+        "1951": 20.0
     },
     "rates": {
         "wins": {
@@ -192,7 +192,7 @@
         },
         "DNFs": {
             "1950": 1.0,
-            "1951": 0.5
+            "1951": 0.0
         }
     },
     "winRate": 0.0,
@@ -204,8 +204,13 @@
         "1951": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "Italian Grand Prix": 0
+        },
+        "1951": {
+            "Swiss Grand Prix": 7,
+            "French Grand Prix": 10
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -219,6 +224,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Oil pipe",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -233,6 +240,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+11 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -245,6 +254,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+11 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -254,5 +265,10 @@
     "sprintResults": {
         "1950": {},
         "1951": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 2
+    },
+    "totalStarts": 3
 }

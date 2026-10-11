@@ -2,11 +2,11 @@
     "driverId": "latifi",
     "driverCode": "LAT",
     "driverNumber": "6",
-    "lastUpdate": "2026-10-02T11:47:20.570934",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 10,
+    "totalDNFs": 13,
     "seasonWins": {
         "2020": 0,
         "2021": 0,
@@ -24,8 +24,8 @@
     },
     "seasonDNFs": {
         "2020": 3,
-        "2021": 3,
-        "2022": 4
+        "2021": 5,
+        "2022": 5
     },
     "poles": {
         "2020": [],
@@ -44,7 +44,9 @@
             "Sakhir Grand Prix": "Engine"
         },
         "2021": {
+            "Bahrain Grand Prix": "Retired",
             "Emilia Romagna Grand Prix": "Collision",
+            "Russian Grand Prix": "Accident",
             "Qatar Grand Prix": "Puncture",
             "Abu Dhabi Grand Prix": "Accident"
         },
@@ -52,7 +54,8 @@
             "Saudi Arabian Grand Prix": "Accident",
             "Austrian Grand Prix": "Undertray",
             "French Grand Prix": "Collision damage",
-            "Singapore Grand Prix": "Collision damage"
+            "Singapore Grand Prix": "Collision damage",
+            "Abu Dhabi Grand Prix": "Collision damage"
         }
     },
     "fastLaps": {
@@ -859,9 +862,9 @@
         "2022": 16.227272727272727
     },
     "avgQualiPositions": {
-        "2020": 18.88235294117647,
-        "2021": 16.40909090909091,
-        "2022": 18.59090909090909
+        "2020": 18.5625,
+        "2021": 15.952380952380953,
+        "2022": 17.5
     },
     "rates": {
         "wins": {
@@ -881,8 +884,8 @@
         },
         "DNFs": {
             "2020": 0.17647058823529413,
-            "2021": 0.13636363636363635,
-            "2022": 0.13636363636363635
+            "2021": 0.22727272727272727,
+            "2022": 0.22727272727272727
         }
     },
     "winRate": 0.0,
@@ -899,20 +902,19 @@
             "Austrian Grand Prix": 9,
             "Styrian Grand Prix": 1,
             "Hungarian Grand Prix": -4,
-            "British Grand Prix": 5,
+            "British Grand Prix": 3,
             "70th Anniversary Grand Prix": -1,
             "Spanish Grand Prix": 1,
             "Belgian Grand Prix": 3,
             "Italian Grand Prix": 9,
             "Tuscan Grand Prix": 4,
-            "Russian Grand Prix": 3,
+            "Russian Grand Prix": 4,
             "Eifel Grand Prix": 4,
             "Portuguese Grand Prix": 2,
             "Emilia Romagna Grand Prix": 8,
-            "Turkish Grand Prix": 1,
             "Bahrain Grand Prix": 6,
-            "Sakhir Grand Prix": -1,
-            "Abu Dhabi Grand Prix": 3
+            "Sakhir Grand Prix": -2,
+            "Abu Dhabi Grand Prix": 1
         },
         "2021": {
             "Bahrain Grand Prix": -1,
@@ -924,42 +926,41 @@
             "French Grand Prix": -2,
             "Styrian Grand Prix": -1,
             "Austrian Grand Prix": 2,
-            "British Grand Prix": 4,
+            "British Grand Prix": 3,
             "Hungarian Grand Prix": 11,
-            "Belgian Grand Prix": 3,
-            "Dutch Grand Prix": -2,
-            "Italian Grand Prix": 5,
-            "Russian Grand Prix": -5,
-            "Turkish Grand Prix": 0,
-            "United States Grand Prix": 2,
-            "Mexico City Grand Prix": 0,
-            "São Paulo Grand Prix": 1,
+            "Belgian Grand Prix": 1,
+            "Italian Grand Prix": 2,
+            "Russian Grand Prix": -1,
+            "Turkish Grand Prix": -2,
+            "United States Grand Prix": -1,
+            "Mexico City Grand Prix": -4,
+            "São Paulo Grand Prix": 0,
             "Qatar Grand Prix": -2,
             "Saudi Arabian Grand Prix": 4,
             "Abu Dhabi Grand Prix": 0
         },
         "2022": {
             "Bahrain Grand Prix": 4,
-            "Saudi Arabian Grand Prix": 1,
-            "Australian Grand Prix": 3,
-            "Emilia Romagna Grand Prix": 2,
+            "Saudi Arabian Grand Prix": 0,
+            "Australian Grand Prix": 2,
+            "Emilia Romagna Grand Prix": 3,
             "Miami Grand Prix": 5,
-            "Spanish Grand Prix": 4,
+            "Spanish Grand Prix": 3,
             "Monaco Grand Prix": 4,
             "Azerbaijan Grand Prix": 3,
-            "Canadian Grand Prix": 3,
+            "Canadian Grand Prix": 2,
             "British Grand Prix": -2,
-            "Austrian Grand Prix": 0,
-            "French Grand Prix": 3,
-            "Hungarian Grand Prix": 2,
-            "Belgian Grand Prix": -1,
+            "Austrian Grand Prix": -2,
+            "French Grand Prix": 1,
+            "Hungarian Grand Prix": 1,
+            "Belgian Grand Prix": -7,
             "Dutch Grand Prix": 2,
-            "Italian Grand Prix": 1,
-            "Singapore Grand Prix": 1,
+            "Italian Grand Prix": -5,
+            "Singapore Grand Prix": 0,
             "Japanese Grand Prix": 11,
-            "United States Grand Prix": 3,
-            "Mexico City Grand Prix": 2,
-            "São Paulo Grand Prix": 0,
+            "United States Grand Prix": 0,
+            "Mexico City Grand Prix": 0,
+            "São Paulo Grand Prix": 2,
             "Abu Dhabi Grand Prix": 1
         }
     },
@@ -973,6 +974,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 16,
                 "shared": false
@@ -985,6 +988,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 17,
                 "shared": false
@@ -997,6 +1002,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 19,
                 "shared": false
@@ -1009,6 +1016,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1021,6 +1030,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 5,
                 "shared": false
@@ -1033,6 +1044,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 9,
                 "shared": false
@@ -1045,6 +1058,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 6,
                 "shared": false
@@ -1057,6 +1072,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1069,6 +1086,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "williams",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1081,6 +1100,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1093,6 +1114,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 13,
                 "shared": false
@@ -1105,6 +1128,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 19,
                 "shared": false
@@ -1117,6 +1142,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1129,6 +1156,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Collision damage",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "williams",
                 "fastestLapRank": 19,
                 "shared": false
@@ -1141,6 +1170,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 15,
                 "shared": false
@@ -1153,6 +1184,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1165,6 +1198,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1179,6 +1214,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "williams",
                 "fastestLapRank": 19,
                 "shared": false
@@ -1191,6 +1228,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "williams",
                 "fastestLapRank": null,
                 "shared": false
@@ -1203,6 +1242,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1215,6 +1256,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1227,6 +1270,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1239,6 +1284,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1251,6 +1298,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 12,
                 "shared": false
@@ -1263,6 +1312,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1275,6 +1326,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 11,
                 "shared": false
@@ -1287,6 +1340,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1299,6 +1354,8 @@
                 "grid": 18,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1311,6 +1368,8 @@
                 "grid": 10,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": null,
                 "shared": false
@@ -1323,6 +1382,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1335,6 +1396,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1347,6 +1410,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "williams",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1359,6 +1424,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1371,6 +1438,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1383,6 +1452,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1395,6 +1466,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1407,6 +1480,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Puncture",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "williams",
                 "fastestLapRank": 20,
                 "shared": false
@@ -1419,6 +1494,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 12,
                 "shared": false
@@ -1431,6 +1508,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "williams",
                 "fastestLapRank": 15,
                 "shared": false
@@ -1445,6 +1524,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 20,
                 "shared": false
@@ -1457,6 +1538,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1469,6 +1552,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1481,6 +1566,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 12,
                 "shared": false
@@ -1493,6 +1580,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1505,6 +1594,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1517,6 +1608,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1529,6 +1622,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 20,
                 "shared": false
@@ -1541,6 +1636,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1553,6 +1650,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 13,
                 "shared": false
@@ -1565,6 +1664,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Undertray",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "williams",
                 "fastestLapRank": 19,
                 "shared": false
@@ -1577,6 +1678,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Collision damage",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "williams",
                 "fastestLapRank": 19,
                 "shared": false
@@ -1589,6 +1692,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1601,6 +1706,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1613,6 +1720,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1625,6 +1734,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 15,
                 "shared": false
@@ -1637,6 +1748,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Collision damage",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "williams",
                 "fastestLapRank": 20,
                 "shared": false
@@ -1649,6 +1762,8 @@
                 "grid": 20,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -1661,6 +1776,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 19,
                 "shared": false
@@ -1673,6 +1790,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 20,
                 "shared": false
@@ -1685,6 +1804,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 11,
                 "shared": false
@@ -1697,6 +1818,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Collision damage",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "williams",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1751,5 +1874,11 @@
                 "constructorId": "williams"
             }
         }
-    }
+    },
+    "seasonStarts": {
+        "2020": 17,
+        "2021": 22,
+        "2022": 22
+    },
+    "totalStarts": 61
 }

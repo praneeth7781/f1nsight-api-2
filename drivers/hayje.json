@@ -1,10 +1,10 @@
 {
     "driverId": "hayje",
-    "lastUpdate": "2026-10-02T11:47:20.531011",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 3,
     "seasonWins": {
         "1976": 0,
         "1977": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1976": 1,
-        "1977": 3
+        "1977": 2
     },
     "poles": {
         "1976": [],
@@ -35,7 +35,6 @@
         },
         "1977": {
             "South African Grand Prix": "Gearbox",
-            "Monaco Grand Prix": "Did not qualify",
             "Belgian Grand Prix": "Not classified"
         }
     },
@@ -211,11 +210,11 @@
     },
     "avgRacePositions": {
         "1976": 14.0,
-        "1977": 23.833333333333332
+        "1977": 17.0
     },
     "avgQualiPositions": {
-        "1976": -1,
-        "1977": -1
+        "1976": 21.0,
+        "1977": 24.0
     },
     "rates": {
         "wins": {
@@ -232,7 +231,7 @@
         },
         "DNFs": {
             "1976": 1.0,
-            "1977": 0.16666666666666666
+            "1977": 1.0
         }
     },
     "winRate": 0.0,
@@ -244,8 +243,13 @@
         "1977": -1
     },
     "positionsGainLost": {
-        "1976": {},
-        "1977": {}
+        "1976": {
+            "Dutch Grand Prix": 7
+        },
+        "1977": {
+            "South African Grand Prix": 2,
+            "Belgian Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -259,6 +263,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -273,6 +279,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -285,6 +293,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -297,6 +307,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -306,5 +318,10 @@
     "sprintResults": {
         "1976": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1976": 1,
+        "1977": 2
+    },
+    "totalStarts": 3
 }

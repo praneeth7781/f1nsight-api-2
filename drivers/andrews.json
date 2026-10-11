@@ -1,6 +1,6 @@
 {
     "driverId": "andrews",
-    "lastUpdate": "2026-10-02T11:47:20.482428",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -179,8 +179,8 @@
         "1956": 26.0
     },
     "avgQualiPositions": {
-        "1955": -1,
-        "1956": -1
+        "1955": 28.0,
+        "1956": 20.0
     },
     "rates": {
         "wins": {
@@ -209,8 +209,12 @@
         "1956": -1
     },
     "positionsGainLost": {
-        "1955": {},
-        "1956": {}
+        "1955": {
+            "Indianapolis 500": 8
+        },
+        "1956": {
+            "Indianapolis 500": -6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -224,6 +228,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "schroeder",
                 "fastestLapRank": null,
                 "shared": false
@@ -238,6 +244,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -247,5 +255,10 @@
     "sprintResults": {
         "1955": {},
         "1956": {}
-    }
+    },
+    "seasonStarts": {
+        "1955": 1,
+        "1956": 1
+    },
+    "totalStarts": 2
 }

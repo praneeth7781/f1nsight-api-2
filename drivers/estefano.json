@@ -1,10 +1,10 @@
 {
     "driverId": "estefano",
-    "lastUpdate": "2026-10-02T11:47:20.496689",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 0,
     "seasonWins": {
         "1960": 0,
         "1963": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1960": 0,
-        "1963": 3
+        "1963": 0
     },
     "poles": {
         "1960": [],
@@ -31,11 +31,7 @@
     },
     "DNFs": {
         "1960": {},
-        "1963": {
-            "Monaco Grand Prix": "Withdrew",
-            "French Grand Prix": "Withdrew",
-            "British Grand Prix": "Withdrew"
-        }
+        "1963": {}
     },
     "fastLaps": {
         "1960": {
@@ -209,48 +205,42 @@
     },
     "avgRacePositions": {
         "1960": 14.0,
-        "1962": 30.0,
-        "1963": 23.666666666666668
+        "1963": -1
     },
     "avgQualiPositions": {
-        "1960": -1,
-        "1962": -1,
+        "1960": 20.0,
         "1963": -1
     },
     "rates": {
         "wins": {
             "1960": 0.0,
-            "1962": 0.0,
             "1963": 0.0
         },
         "podiums": {
             "1960": 0.0,
-            "1962": 0.0,
             "1963": 0.0
         },
         "poles": {
             "1960": 0.0,
-            "1962": 0.0,
             "1963": 0.0
         },
         "DNFs": {
             "1960": 0.0,
-            "1962": 0.0,
             "1963": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1960": -1,
-        "1962": -1,
         "1963": -1
     },
     "positionsGainLost": {
-        "1960": {},
-        "1962": {},
+        "1960": {
+            "Argentine Grand Prix": 6
+        },
         "1963": {}
     },
     "driverCode": "",
@@ -265,6 +255,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -279,6 +271,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "tomaso",
                 "fastestLapRank": null,
                 "shared": false
@@ -291,6 +285,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "tomaso",
                 "fastestLapRank": null,
                 "shared": false
@@ -303,6 +299,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "tomaso",
                 "fastestLapRank": null,
                 "shared": false
@@ -312,5 +310,10 @@
     "sprintResults": {
         "1960": {},
         "1963": {}
-    }
+    },
+    "seasonStarts": {
+        "1960": 1,
+        "1963": 0
+    },
+    "totalStarts": 1
 }

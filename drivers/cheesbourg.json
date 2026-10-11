@@ -1,6 +1,6 @@
 {
     "driverId": "cheesbourg",
-    "lastUpdate": "2026-10-02T11:47:20.487986",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -249,9 +249,9 @@
         "1959": 21.0
     },
     "avgQualiPositions": {
-        "1957": -1,
-        "1958": -1,
-        "1959": -1
+        "1957": 23.0,
+        "1958": 33.0,
+        "1959": 30.0
     },
     "rates": {
         "wins": {
@@ -271,7 +271,7 @@
         },
         "DNFs": {
             "1957": 1.0,
-            "1958": 1.0,
+            "1958": 0.0,
             "1959": 1.0
         }
     },
@@ -285,9 +285,15 @@
         "1959": -1
     },
     "positionsGainLost": {
-        "1957": {},
-        "1958": {},
-        "1959": {}
+        "1957": {
+            "Indianapolis 500": -3
+        },
+        "1958": {
+            "Indianapolis 500": 23
+        },
+        "1959": {
+            "Indianapolis 500": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -301,6 +307,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -315,6 +323,8 @@
                 "grid": 33,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -329,6 +339,8 @@
                 "grid": 30,
                 "points": 0.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -339,5 +351,11 @@
         "1957": {},
         "1958": {},
         "1959": {}
-    }
+    },
+    "seasonStarts": {
+        "1957": 1,
+        "1958": 1,
+        "1959": 1
+    },
+    "totalStarts": 3
 }

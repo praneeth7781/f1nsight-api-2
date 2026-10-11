@@ -1,6 +1,6 @@
 {
     "driverId": "niday",
-    "lastUpdate": "2026-10-02T11:47:20.474845",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -246,9 +246,9 @@
         "1955": 16.0
     },
     "avgQualiPositions": {
-        "1953": -1,
-        "1954": -1,
-        "1955": -1
+        "1953": 30.0,
+        "1954": 13.0,
+        "1955": 9.0
     },
     "rates": {
         "wins": {
@@ -268,7 +268,7 @@
         },
         "DNFs": {
             "1953": 1.0,
-            "1954": 1.0,
+            "1954": 0.0,
             "1955": 1.0
         }
     },
@@ -282,9 +282,15 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1953": {},
-        "1954": {},
-        "1955": {}
+        "1953": {
+            "Indianapolis 500": 0
+        },
+        "1954": {
+            "Indianapolis 500": 3
+        },
+        "1955": {
+            "Indianapolis 500": -7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -298,6 +304,8 @@
                 "grid": 30,
                 "points": 0.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -312,6 +320,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "stevens",
                 "fastestLapRank": null,
                 "shared": false
@@ -326,6 +336,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -336,5 +348,11 @@
         "1953": {},
         "1954": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1954": 1,
+        "1955": 1
+    },
+    "totalStarts": 3
 }

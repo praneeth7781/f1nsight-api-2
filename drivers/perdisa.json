@@ -1,10 +1,10 @@
 {
     "driverId": "perdisa",
-    "lastUpdate": "2026-10-02T11:47:20.481515",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 2,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1955": 0,
         "1956": 0,
@@ -22,7 +22,7 @@
     },
     "seasonDNFs": {
         "1955": 0,
-        "1956": 1,
+        "1956": 0,
         "1957": 0
     },
     "poles": {
@@ -41,9 +41,7 @@
     },
     "DNFs": {
         "1955": {},
-        "1956": {
-            "German Grand Prix": "Withdrew"
-        },
+        "1956": {},
         "1957": {}
     },
     "fastLaps": {
@@ -259,13 +257,13 @@
     },
     "avgRacePositions": {
         "1955": 5.5,
-        "1956": 8.4,
+        "1956": 5.5,
         "1957": 6.0
     },
     "avgQualiPositions": {
-        "1955": -1,
-        "1956": -1,
-        "1957": -1
+        "1955": 8.0,
+        "1956": 11.0,
+        "1957": 11.0
     },
     "rates": {
         "wins": {
@@ -275,7 +273,7 @@
         },
         "podiums": {
             "1955": 0.5,
-            "1956": 0.2,
+            "1956": 0.25,
             "1957": 0.0
         },
         "poles": {
@@ -290,18 +288,28 @@
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.25,
+    "podiumRate": 0.2857142857142857,
     "poleRate": 0.0,
-    "dnfRate": 0.125,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1955": -1,
         "1956": -1,
         "1957": -1
     },
     "positionsGainLost": {
-        "1955": {},
-        "1956": {},
-        "1957": {}
+        "1955": {
+            "Monaco Grand Prix": 2,
+            "Belgian Grand Prix": 3
+        },
+        "1956": {
+            "Monaco Grand Prix": 0,
+            "Belgian Grand Prix": 6,
+            "French Grand Prix": 8,
+            "British Grand Prix": 8
+        },
+        "1957": {
+            "Argentine Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -315,6 +323,8 @@
                 "grid": 5,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -327,6 +337,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -341,6 +353,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "+14 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -353,6 +367,8 @@
                 "grid": 9,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -365,6 +381,8 @@
                 "grid": 13,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -377,6 +395,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -389,6 +409,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -403,6 +425,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": true
@@ -413,5 +437,11 @@
         "1955": {},
         "1956": {},
         "1957": {}
-    }
+    },
+    "seasonStarts": {
+        "1955": 2,
+        "1956": 4,
+        "1957": 1
+    },
+    "totalStarts": 7
 }

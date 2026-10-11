@@ -1,10 +1,10 @@
 {
     "driverId": "hesnault",
-    "lastUpdate": "2026-10-02T11:47:20.541903",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 15,
+    "totalDNFs": 14,
     "seasonWins": {
         "1984": 0,
         "1985": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1984": 10,
-        "1985": 5
+        "1985": 4
     },
     "poles": {
         "1984": [],
@@ -46,7 +46,6 @@
             "Brazilian Grand Prix": "Accident",
             "Portuguese Grand Prix": "Electrical",
             "San Marino Grand Prix": "Engine",
-            "Monaco Grand Prix": "Did not qualify",
             "German Grand Prix": "Clutch"
         }
     },
@@ -306,11 +305,11 @@
     },
     "avgRacePositions": {
         "1984": 17.0,
-        "1985": 23.6
+        "1985": 23.25
     },
     "avgQualiPositions": {
-        "1984": -1,
-        "1985": -1
+        "1984": 18.6,
+        "1985": 19.75
     },
     "rates": {
         "wins": {
@@ -327,20 +326,41 @@
         },
         "DNFs": {
             "1984": 0.6666666666666666,
-            "1985": 2.0
+            "1985": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.75,
+    "dnfRate": 0.7368421052631579,
     "ptwConRate": {
         "1984": -1,
         "1985": -1
     },
     "positionsGainLost": {
-        "1984": {},
-        "1985": {}
+        "1984": {
+            "Brazilian Grand Prix": 0,
+            "South African Grand Prix": 7,
+            "Belgian Grand Prix": 3,
+            "San Marino Grand Prix": -9,
+            "Monaco Grand Prix": 2,
+            "Canadian Grand Prix": -13,
+            "Detroit Grand Prix": -3,
+            "Dallas Grand Prix": -6,
+            "British Grand Prix": 5,
+            "German Grand Prix": 9,
+            "Austrian Grand Prix": 13,
+            "Dutch Grand Prix": 13,
+            "Italian Grand Prix": -4,
+            "European Grand Prix": 9,
+            "Portuguese Grand Prix": -2
+        },
+        "1985": {
+            "Brazilian Grand Prix": -5,
+            "Portuguese Grand Prix": -6,
+            "San Marino Grand Prix": -2,
+            "German Grand Prix": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -354,6 +374,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -366,6 +388,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -378,6 +402,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Radiator",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -390,6 +416,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -402,6 +430,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -414,6 +444,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -426,6 +458,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -438,6 +472,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -450,6 +486,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -462,6 +500,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -474,6 +514,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -486,6 +528,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -498,6 +542,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -510,6 +556,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -522,6 +570,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -536,6 +586,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -548,6 +600,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -560,6 +614,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -572,6 +628,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -584,6 +642,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "renault",
                 "fastestLapRank": null,
                 "shared": false
@@ -593,5 +653,10 @@
     "sprintResults": {
         "1984": {},
         "1985": {}
-    }
+    },
+    "seasonStarts": {
+        "1984": 15,
+        "1985": 4
+    },
+    "totalStarts": 19
 }

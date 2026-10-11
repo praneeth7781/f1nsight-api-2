@@ -1,10 +1,10 @@
 {
     "driverId": "foitek",
-    "lastUpdate": "2026-10-02T11:47:20.547933",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 6,
     "seasonWins": {
         "1990": 0
     },
@@ -15,7 +15,7 @@
         "1990": 0
     },
     "seasonDNFs": {
-        "1990": 5
+        "1990": 6
     },
     "poles": {
         "1990": []
@@ -28,6 +28,7 @@
             "United States Grand Prix": "Accident",
             "Brazilian Grand Prix": "Transmission",
             "San Marino Grand Prix": "Engine",
+            "Monaco Grand Prix": "Collision",
             "Canadian Grand Prix": "Engine",
             "German Grand Prix": "Spun off"
         }
@@ -174,42 +175,42 @@
         }
     },
     "avgRacePositions": {
-        "1989": 33.833333333333336,
-        "1990": 20.2
+        "1990": 16.142857142857142
     },
     "avgQualiPositions": {
-        "1989": -1,
-        "1990": -1
+        "1990": 22.571428571428573
     },
     "rates": {
         "wins": {
-            "1989": 0.0,
             "1990": 0.0
         },
         "podiums": {
-            "1989": 0.0,
             "1990": 0.0
         },
         "poles": {
-            "1989": 0.0,
             "1990": 0.0
         },
         "DNFs": {
-            "1989": 1.0,
-            "1990": 1.2
+            "1990": 0.8571428571428571
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.9545454545454546,
+    "dnfRate": 0.8571428571428571,
     "ptwConRate": {
-        "1989": -1,
         "1990": -1
     },
     "positionsGainLost": {
-        "1989": {},
-        "1990": {}
+        "1990": {
+            "United States Grand Prix": 4,
+            "Brazilian Grand Prix": -1,
+            "San Marino Grand Prix": 7,
+            "Monaco Grand Prix": 13,
+            "Canadian Grand Prix": 6,
+            "Mexican Grand Prix": 8,
+            "German Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -223,6 +224,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -235,6 +238,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -247,6 +252,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "onyx",
                 "fastestLapRank": null,
                 "shared": false
@@ -259,6 +266,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "onyx",
                 "fastestLapRank": null,
                 "shared": false
@@ -271,6 +280,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "onyx",
                 "fastestLapRank": null,
                 "shared": false
@@ -283,6 +294,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "onyx",
                 "fastestLapRank": null,
                 "shared": false
@@ -295,6 +308,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "onyx",
                 "fastestLapRank": null,
                 "shared": false
@@ -303,5 +318,9 @@
     },
     "sprintResults": {
         "1990": {}
-    }
+    },
+    "seasonStarts": {
+        "1990": 7
+    },
+    "totalStarts": 7
 }

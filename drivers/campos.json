@@ -1,10 +1,10 @@
 {
     "driverId": "campos",
-    "lastUpdate": "2026-10-02T11:47:20.544443",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 16,
+    "totalDNFs": 14,
     "seasonWins": {
         "1987": 0,
         "1988": 0
@@ -18,7 +18,7 @@
         "1988": 0
     },
     "seasonDNFs": {
-        "1987": 15,
+        "1987": 13,
         "1988": 1
     },
     "poles": {
@@ -31,10 +31,8 @@
     },
     "DNFs": {
         "1987": {
-            "Brazilian Grand Prix": "Disqualified",
             "San Marino Grand Prix": "Gearbox",
             "Belgian Grand Prix": "Gearbox",
-            "Monaco Grand Prix": "Withdrew",
             "Detroit Grand Prix": "Accident",
             "French Grand Prix": "Turbo",
             "British Grand Prix": "Fuel system",
@@ -297,12 +295,12 @@
         }
     },
     "avgRacePositions": {
-        "1987": 19.6875,
-        "1988": 24.6
+        "1987": 19.333333333333332,
+        "1988": 20.0
     },
     "avgQualiPositions": {
-        "1987": -1,
-        "1988": -1
+        "1987": 20.466666666666665,
+        "1988": 22.5
     },
     "rates": {
         "wins": {
@@ -318,21 +316,40 @@
             "1988": 0.0
         },
         "DNFs": {
-            "1987": 0.9375,
-            "1988": 3.0
+            "1987": 0.8666666666666667,
+            "1988": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.9047619047619048,
+    "dnfRate": 0.8235294117647058,
     "ptwConRate": {
         "1987": -1,
         "1988": -1
     },
     "positionsGainLost": {
-        "1987": {},
-        "1988": {}
+        "1987": {
+            "Brazilian Grand Prix": -6,
+            "San Marino Grand Prix": -3,
+            "Belgian Grand Prix": -6,
+            "Detroit Grand Prix": 0,
+            "French Grand Prix": 5,
+            "British Grand Prix": 4,
+            "German Grand Prix": 8,
+            "Hungarian Grand Prix": 1,
+            "Austrian Grand Prix": -4,
+            "Italian Grand Prix": 1,
+            "Portuguese Grand Prix": -3,
+            "Spanish Grand Prix": 10,
+            "Mexican Grand Prix": 5,
+            "Japanese Grand Prix": -4,
+            "Australian Grand Prix": 9
+        },
+        "1988": {
+            "Brazilian Grand Prix": -1,
+            "San Marino Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -346,6 +363,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -358,6 +377,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -370,6 +391,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -382,6 +405,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -394,6 +419,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -406,6 +433,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -418,6 +447,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -430,6 +461,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -442,6 +475,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -454,6 +489,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -466,6 +503,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -478,6 +517,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -490,6 +531,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -502,6 +545,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -514,6 +559,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -526,6 +573,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -540,6 +589,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Chassis",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -552,6 +603,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -561,5 +614,10 @@
     "sprintResults": {
         "1987": {},
         "1988": {}
-    }
+    },
+    "seasonStarts": {
+        "1987": 15,
+        "1988": 2
+    },
+    "totalStarts": 17
 }

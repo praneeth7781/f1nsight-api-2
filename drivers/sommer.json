@@ -1,6 +1,6 @@
 {
     "driverId": "sommer",
-    "lastUpdate": "2026-10-02T11:47:20.452502",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -140,7 +140,7 @@
         "1950": 11.6
     },
     "avgQualiPositions": {
-        "1950": -1
+        "1950": 10.2
     },
     "rates": {
         "wins": {
@@ -164,7 +164,13 @@
         "1950": -1
     },
     "positionsGainLost": {
-        "1950": {}
+        "1950": {
+            "Monaco Grand Prix": 5,
+            "Swiss Grand Prix": -2,
+            "Belgian Grand Prix": -7,
+            "French Grand Prix": -1,
+            "Italian Grand Prix": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -178,6 +184,8 @@
                 "grid": 9,
                 "points": 3.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -190,6 +198,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -202,6 +212,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -214,6 +226,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -226,6 +240,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -234,5 +250,9 @@
     },
     "sprintResults": {
         "1950": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 5
+    },
+    "totalStarts": 5
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "menditeguy",
-    "lastUpdate": "2026-10-02T11:47:20.473428",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -34,8 +34,8 @@
     },
     "seasonDNFs": {
         "1953": 1,
-        "1954": 1,
-        "1955": 0,
+        "1954": 0,
+        "1955": 1,
         "1956": 1,
         "1957": 3,
         "1958": 0,
@@ -65,10 +65,10 @@
         "1953": {
             "Argentine Grand Prix": "Gearbox"
         },
-        "1954": {
-            "Argentine Grand Prix": "Withdrew"
+        "1954": {},
+        "1955": {
+            "Argentine Grand Prix": "Fuel pressure"
         },
-        "1955": {},
         "1956": {
             "Argentine Grand Prix": "Halfshaft"
         },
@@ -529,7 +529,7 @@
     },
     "avgRacePositions": {
         "1953": 14.0,
-        "1954": 18.0,
+        "1954": -1,
         "1955": 7.0,
         "1956": 10.0,
         "1957": 9.5,
@@ -537,13 +537,13 @@
         "1960": 4.0
     },
     "avgQualiPositions": {
-        "1953": -1,
+        "1953": 10.0,
         "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1960": -1
+        "1955": 18.0,
+        "1956": 6.0,
+        "1957": 8.75,
+        "1958": 6.0,
+        "1960": 12.0
     },
     "rates": {
         "wins": {
@@ -575,18 +575,18 @@
         },
         "DNFs": {
             "1953": 1.0,
-            "1954": 1.0,
+            "1954": 0.0,
             "1955": 0.5,
             "1956": 1.0,
-            "1957": 0.25,
-            "1958": 1.0,
-            "1960": 1.0
+            "1957": 0.75,
+            "1958": 0.0,
+            "1960": 0.0
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.09090909090909091,
+    "podiumRate": 0.1,
     "poleRate": 0.0,
-    "dnfRate": 0.6363636363636364,
+    "dnfRate": 0.6,
     "ptwConRate": {
         "1953": -1,
         "1954": -1,
@@ -597,13 +597,29 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1953": {},
+        "1953": {
+            "Argentine Grand Prix": -4
+        },
         "1954": {},
-        "1955": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1960": {}
+        "1955": {
+            "Argentine Grand Prix": 11,
+            "Italian Grand Prix": 11
+        },
+        "1956": {
+            "Argentine Grand Prix": -4
+        },
+        "1957": {
+            "Argentine Grand Prix": 5,
+            "Monaco Grand Prix": -3,
+            "French Grand Prix": 1,
+            "British Grand Prix": -6
+        },
+        "1958": {
+            "Argentine Grand Prix": -1
+        },
+        "1960": {
+            "Argentine Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -617,6 +633,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -631,6 +649,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -645,6 +665,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Fuel pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -657,6 +679,8 @@
                 "grid": 16,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -671,6 +695,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -685,6 +711,8 @@
                 "grid": 8,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -697,6 +725,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -709,6 +739,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -721,6 +753,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -735,6 +769,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -749,6 +785,8 @@
                 "grid": 12,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -763,5 +801,15 @@
         "1957": {},
         "1958": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1954": 0,
+        "1955": 2,
+        "1956": 1,
+        "1957": 4,
+        "1958": 1,
+        "1960": 1
+    },
+    "totalStarts": 10
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "ruby",
-    "lastUpdate": "2026-10-02T11:47:20.497724",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -171,8 +171,8 @@
         "1961": 14.0
     },
     "avgQualiPositions": {
-        "1960": -1,
-        "1961": -1
+        "1960": 12.0,
+        "1961": 19.0
     },
     "rates": {
         "wins": {
@@ -189,7 +189,7 @@
         },
         "DNFs": {
             "1960": 0.0,
-            "1961": 0.0
+            "1961": 1.0
         }
     },
     "winRate": 0.0,
@@ -201,8 +201,12 @@
         "1961": -1
     },
     "positionsGainLost": {
-        "1960": {},
-        "1961": {}
+        "1960": {
+            "Indianapolis 500": 5
+        },
+        "1961": {
+            "United States Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -216,6 +220,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "watson",
                 "fastestLapRank": null,
                 "shared": false
@@ -230,6 +236,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,5 +247,10 @@
     "sprintResults": {
         "1960": {},
         "1961": {}
-    }
+    },
+    "seasonStarts": {
+        "1960": 1,
+        "1961": 1
+    },
+    "totalStarts": 2
 }

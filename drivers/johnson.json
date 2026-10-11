@@ -1,6 +1,6 @@
 {
     "driverId": "johnson",
-    "lastUpdate": "2026-10-02T11:47:20.467843",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -597,15 +597,15 @@
         "1960": 6.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1,
-        "1960": -1
+        "1952": 24.0,
+        "1953": 25.0,
+        "1954": 16.0,
+        "1955": 32.0,
+        "1956": 32.0,
+        "1957": 20.0,
+        "1958": 26.0,
+        "1959": 8.0,
+        "1960": 7.0
     },
     "rates": {
         "wins": {
@@ -644,10 +644,10 @@
         "DNFs": {
             "1952": 0.0,
             "1953": 0.0,
-            "1954": 0.0,
+            "1954": 1.0,
             "1955": 0.0,
             "1956": 0.0,
-            "1957": 0.0,
+            "1957": 1.0,
             "1958": 0.0,
             "1959": 0.0,
             "1960": 0.0
@@ -669,15 +669,33 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1952": {
+            "Indianapolis 500": 8
+        },
+        "1953": {
+            "Indianapolis 500": 18
+        },
+        "1954": {
+            "Indianapolis 500": -6
+        },
+        "1955": {
+            "Indianapolis 500": 19
+        },
+        "1956": {
+            "Indianapolis 500": 17
+        },
+        "1957": {
+            "Indianapolis 500": -5
+        },
+        "1958": {
+            "Indianapolis 500": 17
+        },
+        "1959": {
+            "Indianapolis 500": 0
+        },
+        "1960": {
+            "Indianapolis 500": 1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -691,6 +709,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "trevis",
                 "fastestLapRank": null,
                 "shared": false
@@ -705,6 +725,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -719,6 +741,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "pawl",
                 "fastestLapRank": null,
                 "shared": true
@@ -733,6 +757,8 @@
                 "grid": 32,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "trevis",
                 "fastestLapRank": null,
                 "shared": false
@@ -747,6 +773,8 @@
                 "grid": 32,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -761,6 +789,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -775,6 +805,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -789,6 +821,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -803,6 +837,8 @@
                 "grid": 7,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "trevis",
                 "fastestLapRank": null,
                 "shared": false
@@ -819,5 +855,17 @@
         "1958": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1,
+        "1956": 1,
+        "1957": 1,
+        "1958": 1,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 9
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "crawford",
-    "lastUpdate": "2026-10-02T11:47:20.528833",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -125,7 +125,7 @@
         "1975": 17.0
     },
     "avgQualiPositions": {
-        "1975": -1
+        "1975": 25.0
     },
     "rates": {
         "wins": {
@@ -149,7 +149,10 @@
         "1975": -1
     },
     "positionsGainLost": {
-        "1975": {}
+        "1975": {
+            "British Grand Prix": 4,
+            "Italian Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -163,6 +166,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -175,6 +180,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -183,5 +190,9 @@
     },
     "sprintResults": {
         "1975": {}
-    }
+    },
+    "seasonStarts": {
+        "1975": 2
+    },
+    "totalStarts": 2
 }

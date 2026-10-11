@@ -1,10 +1,10 @@
 {
     "driverId": "andre_pilette",
-    "lastUpdate": "2026-10-02T11:47:20.463718",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 2,
     "seasonWins": {
         "1951": 0,
         "1953": 0,
@@ -33,9 +33,9 @@
         "1951": 0,
         "1953": 0,
         "1954": 1,
-        "1956": 1,
-        "1963": 1,
-        "1964": 3
+        "1956": 0,
+        "1963": 0,
+        "1964": 1
     },
     "poles": {
         "1951": [],
@@ -59,16 +59,10 @@
         "1954": {
             "German Grand Prix": "Suspension"
         },
-        "1956": {
-            "German Grand Prix": "Withdrew"
-        },
-        "1963": {
-            "German Grand Prix": "Did not qualify"
-        },
+        "1956": {},
+        "1963": {},
         "1964": {
-            "Monaco Grand Prix": "Withdrew",
-            "Belgian Grand Prix": "Engine",
-            "German Grand Prix": "Did not qualify"
+            "Belgian Grand Prix": "Engine"
         }
     },
     "fastLaps": {
@@ -390,19 +384,19 @@
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 0.2857142857142857
+            "points": 0.3333333333333333
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 0.6998542122237653
+            "points": 0.74535599249993
         },
         "cv": {
             "wins": 0,
             "podiums": 0,
             "poles": 0,
-            "points": 2.4494897427831788
+            "points": 2.2360679774997902
         }
     },
     "peakSeason": {
@@ -423,19 +417,17 @@
         "1951": 6.0,
         "1953": 11.0,
         "1954": 11.333333333333334,
-        "1956": 11.0,
-        "1961": 33.0,
-        "1963": 25.0,
-        "1964": 19.666666666666668
+        "1956": 7.666666666666667,
+        "1963": -1,
+        "1964": 15.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1953": -1,
-        "1954": -1,
-        "1956": -1,
-        "1961": -1,
+        "1951": 12.0,
+        "1953": 18.0,
+        "1954": 13.333333333333334,
+        "1956": 15.333333333333334,
         "1963": -1,
-        "1964": -1
+        "1964": 20.0
     },
     "rates": {
         "wins": {
@@ -443,7 +435,6 @@
             "1953": 0.0,
             "1954": 0.0,
             "1956": 0.0,
-            "1961": 0.0,
             "1963": 0.0,
             "1964": 0.0
         },
@@ -452,7 +443,6 @@
             "1953": 0.0,
             "1954": 0.0,
             "1956": 0.0,
-            "1961": 0.0,
             "1963": 0.0,
             "1964": 0.0
         },
@@ -461,41 +451,51 @@
             "1953": 0.0,
             "1954": 0.0,
             "1956": 0.0,
-            "1961": 0.0,
             "1963": 0.0,
             "1964": 0.0
         },
         "DNFs": {
             "1951": 0.0,
             "1953": 0.0,
-            "1954": 0.0,
+            "1954": 0.3333333333333333,
             "1956": 0.0,
-            "1961": 0.0,
             "1963": 0.0,
-            "1964": 0.0
+            "1964": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5333333333333333,
+    "dnfRate": 0.2222222222222222,
     "ptwConRate": {
         "1951": -1,
         "1953": -1,
         "1954": -1,
         "1956": -1,
-        "1961": -1,
         "1963": -1,
         "1964": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1953": {},
-        "1954": {},
-        "1956": {},
-        "1961": {},
+        "1951": {
+            "Belgian Grand Prix": 6
+        },
+        "1953": {
+            "Belgian Grand Prix": 7
+        },
+        "1954": {
+            "Belgian Grand Prix": 3,
+            "British Grand Prix": 3,
+            "German Grand Prix": 0
+        },
+        "1956": {
+            "Monaco Grand Prix": 5,
+            "Belgian Grand Prix": 10,
+            "French Grand Prix": 8
+        },
         "1963": {},
-        "1964": {}
+        "1964": {
+            "Belgian Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -509,6 +509,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -523,6 +525,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": false
@@ -537,6 +541,8 @@
                 "grid": 8,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -549,6 +555,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -561,6 +569,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -575,6 +585,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+12 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": true
@@ -587,6 +599,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -599,6 +613,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -611,6 +627,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -625,6 +643,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -639,6 +659,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "scirocco",
                 "fastestLapRank": null,
                 "shared": false
@@ -651,6 +673,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "scirocco",
                 "fastestLapRank": null,
                 "shared": false
@@ -663,6 +687,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "scirocco",
                 "fastestLapRank": null,
                 "shared": false
@@ -676,5 +702,14 @@
         "1956": {},
         "1963": {},
         "1964": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1953": 1,
+        "1954": 3,
+        "1956": 3,
+        "1963": 0,
+        "1964": 1
+    },
+    "totalStarts": 9
 }

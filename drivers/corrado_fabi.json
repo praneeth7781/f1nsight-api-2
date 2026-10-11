@@ -1,10 +1,10 @@
 {
     "driverId": "corrado_fabi",
-    "lastUpdate": "2026-10-02T11:47:20.540820",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 15,
+    "totalDNFs": 10,
     "seasonWins": {
         "1983": 0,
         "1984": 0
@@ -18,7 +18,7 @@
         "1984": 0
     },
     "seasonDNFs": {
-        "1983": 13,
+        "1983": 8,
         "1984": 2
     },
     "poles": {
@@ -32,17 +32,12 @@
     "DNFs": {
         "1983": {
             "Brazilian Grand Prix": "Engine",
-            "United States Grand Prix West": "Did not qualify",
             "French Grand Prix": "Engine",
             "San Marino Grand Prix": "Spun off",
-            "Monaco Grand Prix": "Did not qualify",
             "Belgian Grand Prix": "Wheel",
-            "Detroit Grand Prix": "Withdrew",
             "Canadian Grand Prix": "Engine",
-            "British Grand Prix": "Did not qualify",
-            "German Grand Prix": "Did not qualify",
+            "Dutch Grand Prix": "Engine",
             "Italian Grand Prix": "Engine",
-            "European Grand Prix": "Did not qualify",
             "South African Grand Prix": "Engine"
         },
         "1984": {
@@ -281,12 +276,12 @@
         }
     },
     "avgRacePositions": {
-        "1983": 21.0,
+        "1983": 17.0,
         "1984": 13.666666666666666
     },
     "avgQualiPositions": {
-        "1983": -1,
-        "1984": -1
+        "1983": 24.77777777777778,
+        "1984": 14.0
     },
     "rates": {
         "wins": {
@@ -302,21 +297,35 @@
             "1984": 0.0
         },
         "DNFs": {
-            "1983": 0.9333333333333333,
-            "1984": 4.666666666666667
+            "1983": 0.8888888888888888,
+            "1984": 0.6666666666666666
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8888888888888888,
+    "dnfRate": 0.8333333333333334,
     "ptwConRate": {
         "1983": -1,
         "1984": -1
     },
     "positionsGainLost": {
-        "1983": {},
-        "1984": {}
+        "1983": {
+            "Brazilian Grand Prix": 0,
+            "French Grand Prix": 8,
+            "San Marino Grand Prix": 6,
+            "Belgian Grand Prix": 4,
+            "Canadian Grand Prix": 5,
+            "Austrian Grand Prix": 16,
+            "Dutch Grand Prix": 14,
+            "Italian Grand Prix": 11,
+            "South African Grand Prix": 6
+        },
+        "1984": {
+            "Monaco Grand Prix": -1,
+            "Canadian Grand Prix": -2,
+            "Dallas Grand Prix": 4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -330,6 +339,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -342,6 +353,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -354,6 +367,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -366,6 +381,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -378,6 +395,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -390,6 +409,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Wheel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -402,6 +423,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -414,6 +437,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -426,6 +451,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -438,6 +465,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -450,6 +479,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -462,6 +493,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -474,6 +507,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -486,6 +521,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -498,6 +535,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -512,6 +551,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -524,6 +565,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -536,6 +579,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -545,5 +590,10 @@
     "sprintResults": {
         "1983": {},
         "1984": {}
-    }
+    },
+    "seasonStarts": {
+        "1983": 9,
+        "1984": 3
+    },
+    "totalStarts": 12
 }

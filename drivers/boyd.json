@@ -1,10 +1,10 @@
 {
     "driverId": "boyd",
-    "lastUpdate": "2026-10-02T11:47:20.483012",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 3,
     "seasonWins": {
         "1955": 0,
         "1956": 0,
@@ -35,7 +35,7 @@
         "1957": 0,
         "1958": 0,
         "1959": 0,
-        "1960": 0
+        "1960": 1
     },
     "poles": {
         "1955": [],
@@ -65,7 +65,9 @@
         "1957": {},
         "1958": {},
         "1959": {},
-        "1960": {}
+        "1960": {
+            "Indianapolis 500": "Engine"
+        }
     },
     "fastLaps": {
         "1955": {
@@ -419,12 +421,12 @@
         "1960": 27.0
     },
     "avgQualiPositions": {
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1,
-        "1960": -1
+        "1955": 26.0,
+        "1956": 12.0,
+        "1957": 5.0,
+        "1958": 8.0,
+        "1959": 11.0,
+        "1960": 13.0
     },
     "rates": {
         "wins": {
@@ -454,9 +456,9 @@
         "DNFs": {
             "1955": 1.0,
             "1956": 1.0,
-            "1957": 1.0,
-            "1958": 1.0,
-            "1959": 1.0,
+            "1957": 0.0,
+            "1958": 0.0,
+            "1959": 0.0,
             "1960": 1.0
         }
     },
@@ -473,12 +475,24 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1955": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1955": {
+            "Indianapolis 500": -3
+        },
+        "1956": {
+            "Indianapolis 500": -18
+        },
+        "1957": {
+            "Indianapolis 500": -1
+        },
+        "1958": {
+            "Indianapolis 500": 5
+        },
+        "1959": {
+            "Indianapolis 500": 5
+        },
+        "1960": {
+            "Indianapolis 500": -14
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -492,6 +506,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -506,6 +522,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -520,6 +538,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -534,6 +554,8 @@
                 "grid": 8,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -548,6 +570,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "epperly",
                 "fastestLapRank": null,
                 "shared": false
@@ -562,6 +586,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "epperly",
                 "fastestLapRank": null,
                 "shared": false
@@ -575,5 +601,14 @@
         "1958": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1955": 1,
+        "1956": 1,
+        "1957": 1,
+        "1958": 1,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 6
 }

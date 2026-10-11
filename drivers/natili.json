@@ -1,10 +1,10 @@
 {
     "driverId": "natili",
-    "lastUpdate": "2026-10-02T11:47:20.501255",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1961": 0
     },
@@ -15,7 +15,7 @@
         "1961": 0
     },
     "seasonDNFs": {
-        "1961": 2
+        "1961": 1
     },
     "poles": {
         "1961": []
@@ -25,8 +25,7 @@
     },
     "DNFs": {
         "1961": {
-            "British Grand Prix": "Gearbox",
-            "Italian Grand Prix": "Withdrew"
+            "British Grand Prix": "Gearbox"
         }
     },
     "fastLaps": {
@@ -120,10 +119,10 @@
         }
     },
     "avgRacePositions": {
-        "1961": 32.5
+        "1961": 30.0
     },
     "avgQualiPositions": {
-        "1961": -1
+        "1961": 28.0
     },
     "rates": {
         "wins": {
@@ -147,7 +146,9 @@
         "1961": -1
     },
     "positionsGainLost": {
-        "1961": {}
+        "1961": {
+            "British Grand Prix": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -161,6 +162,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -173,6 +176,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -181,5 +186,9 @@
     },
     "sprintResults": {
         "1961": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 1
+    },
+    "totalStarts": 1
 }

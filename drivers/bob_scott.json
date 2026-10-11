@@ -1,6 +1,6 @@
 {
     "driverId": "bob_scott",
-    "lastUpdate": "2026-10-02T11:47:20.468124",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -250,9 +250,9 @@
         "1954": 18.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1,
-        "1954": -1
+        "1952": 25.0,
+        "1953": 19.0,
+        "1954": 31.0
     },
     "rates": {
         "wins": {
@@ -272,8 +272,8 @@
         },
         "DNFs": {
             "1952": 1.0,
-            "1953": 1.0,
-            "1954": 1.0
+            "1953": 0.0,
+            "1954": 0.0
         }
     },
     "winRate": 0.0,
@@ -286,9 +286,15 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {},
-        "1954": {}
+        "1952": {
+            "Indianapolis 500": -4
+        },
+        "1953": {
+            "Indianapolis 500": 7
+        },
+        "1954": {
+            "Indianapolis 500": 13
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -302,6 +308,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -316,6 +324,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -330,6 +340,8 @@
                 "grid": 31,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "stevens",
                 "fastestLapRank": null,
                 "shared": true
@@ -340,5 +352,11 @@
         "1952": {},
         "1953": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1,
+        "1953": 1,
+        "1954": 1
+    },
+    "totalStarts": 3
 }

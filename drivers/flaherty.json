@@ -1,6 +1,6 @@
 {
     "driverId": "flaherty",
-    "lastUpdate": "2026-10-02T11:47:20.455309",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 1,
     "totalPodiums": 1,
     "totalPoles": 1,
@@ -420,12 +420,12 @@
         "1959": 19.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1959": -1
+        "1950": 11.0,
+        "1953": 24.0,
+        "1954": 28.0,
+        "1955": 12.0,
+        "1956": 1.0,
+        "1959": 18.0
     },
     "rates": {
         "wins": {
@@ -454,11 +454,11 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1953": 0.0,
-            "1954": 0.0,
+            "1953": 1.0,
+            "1954": 1.0,
             "1955": 0.0,
             "1956": 0.0,
-            "1959": 0.0
+            "1959": 1.0
         }
     },
     "winRate": 0.16666666666666666,
@@ -474,12 +474,24 @@
         "1959": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {},
-        "1959": {}
+        "1950": {
+            "Indianapolis 500": 1
+        },
+        "1953": {
+            "Indianapolis 500": 2
+        },
+        "1954": {
+            "Indianapolis 500": 0
+        },
+        "1955": {
+            "Indianapolis 500": 2
+        },
+        "1956": {
+            "Indianapolis 500": 0
+        },
+        "1959": {
+            "Indianapolis 500": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -493,6 +505,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -507,6 +521,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -521,6 +537,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -535,6 +553,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -549,6 +569,8 @@
                 "grid": 1,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "watson",
                 "fastestLapRank": null,
                 "shared": false
@@ -563,6 +585,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "watson",
                 "fastestLapRank": null,
                 "shared": false
@@ -576,5 +600,14 @@
         "1955": {},
         "1956": {},
         "1959": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1,
+        "1956": 1,
+        "1959": 1
+    },
+    "totalStarts": 6
 }

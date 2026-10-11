@@ -1,6 +1,6 @@
 {
     "driverId": "sweikert",
-    "lastUpdate": "2026-10-02T11:47:20.467984",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 1,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -361,11 +361,11 @@
         "1956": 6.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1
+        "1952": 32.0,
+        "1953": 29.0,
+        "1954": 9.0,
+        "1955": 14.0,
+        "1956": 10.0
     },
     "rates": {
         "wins": {
@@ -392,9 +392,9 @@
         "DNFs": {
             "1952": 1.0,
             "1953": 1.0,
-            "1954": 1.0,
-            "1955": 1.0,
-            "1956": 1.0
+            "1954": 0.0,
+            "1955": 0.0,
+            "1956": 0.0
         }
     },
     "winRate": 0.2,
@@ -409,11 +409,21 @@
         "1956": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {}
+        "1952": {
+            "Indianapolis 500": 6
+        },
+        "1953": {
+            "Indianapolis 500": 9
+        },
+        "1954": {
+            "Indianapolis 500": -5
+        },
+        "1955": {
+            "Indianapolis 500": 13
+        },
+        "1956": {
+            "Indianapolis 500": 4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -427,6 +437,8 @@
                 "grid": 32,
                 "points": 0.0,
                 "status": "Differential",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -441,6 +453,8 @@
                 "grid": 29,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -455,6 +469,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -469,6 +485,8 @@
                 "grid": 14,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -483,6 +501,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -495,5 +515,13 @@
         "1954": {},
         "1955": {},
         "1956": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1,
+        "1956": 1
+    },
+    "totalStarts": 5
 }

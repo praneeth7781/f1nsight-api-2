@@ -1,10 +1,10 @@
 {
     "driverId": "boesel",
-    "lastUpdate": "2026-10-02T11:47:20.539546",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 17,
+    "totalDNFs": 13,
     "seasonWins": {
         "1982": 0,
         "1983": 0
@@ -18,8 +18,8 @@
         "1983": 0
     },
     "seasonDNFs": {
-        "1982": 8,
-        "1983": 9
+        "1982": 6,
+        "1983": 7
     },
     "poles": {
         "1982": [],
@@ -35,9 +35,7 @@
             "Detroit Grand Prix": "Collision",
             "Canadian Grand Prix": "Engine",
             "Dutch Grand Prix": "Engine",
-            "French Grand Prix": "Did not qualify",
             "German Grand Prix": "Tyre",
-            "Austrian Grand Prix": "Did not qualify",
             "Swiss Grand Prix": "Water leak"
         },
         "1983": {
@@ -47,8 +45,6 @@
             "Canadian Grand Prix": "Halfshaft",
             "British Grand Prix": "Suspension",
             "German Grand Prix": "Engine",
-            "Austrian Grand Prix": "Did not qualify",
-            "Italian Grand Prix": "Did not qualify",
             "South African Grand Prix": "Not classified"
         }
     },
@@ -325,12 +321,12 @@
         }
     },
     "avgRacePositions": {
-        "1982": 20.866666666666667,
-        "1983": 15.8
+        "1982": 16.9,
+        "1983": 14.076923076923077
     },
     "avgQualiPositions": {
-        "1982": -1,
-        "1983": -1
+        "1982": 22.1,
+        "1983": 23.153846153846153
     },
     "rates": {
         "wins": {
@@ -346,21 +342,46 @@
             "1983": 0.0
         },
         "DNFs": {
-            "1982": 0.7333333333333333,
-            "1983": 0.7333333333333333
+            "1982": 0.6,
+            "1983": 0.5384615384615384
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5652173913043478,
     "ptwConRate": {
         "1982": -1,
         "1983": -1
     },
     "positionsGainLost": {
-        "1982": {},
-        "1983": {}
+        "1982": {
+            "South African Grand Prix": 6,
+            "Brazilian Grand Prix": -9,
+            "United States Grand Prix West": 14,
+            "Belgian Grand Prix": 16,
+            "Detroit Grand Prix": -3,
+            "Canadian Grand Prix": 7,
+            "Dutch Grand Prix": -1,
+            "German Grand Prix": 9,
+            "Swiss Grand Prix": 2,
+            "Caesars Palace Grand Prix": 11
+        },
+        "1983": {
+            "Brazilian Grand Prix": -3,
+            "United States Grand Prix West": 19,
+            "French Grand Prix": 11,
+            "San Marino Grand Prix": 16,
+            "Monaco Grand Prix": 1,
+            "Belgian Grand Prix": 13,
+            "Detroit Grand Prix": 13,
+            "Canadian Grand Prix": 6,
+            "British Grand Prix": 3,
+            "German Grand Prix": 8,
+            "Dutch Grand Prix": 14,
+            "European Grand Prix": 8,
+            "South African Grand Prix": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -374,6 +395,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -386,6 +409,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -398,6 +423,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -410,6 +437,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -422,6 +451,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -434,6 +465,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -446,6 +479,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -458,6 +493,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -470,6 +507,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Tyre",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -482,6 +521,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -494,6 +535,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Water leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -506,6 +549,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -520,6 +565,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -532,6 +579,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -544,6 +593,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -556,6 +607,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -568,6 +621,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -580,6 +635,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -592,6 +649,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -604,6 +663,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -616,6 +677,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -628,6 +691,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -640,6 +705,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -652,6 +719,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -664,6 +733,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -676,6 +747,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -688,6 +761,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -697,5 +772,10 @@
     "sprintResults": {
         "1982": {},
         "1983": {}
-    }
+    },
+    "seasonStarts": {
+        "1982": 10,
+        "1983": 13
+    },
+    "totalStarts": 23
 }

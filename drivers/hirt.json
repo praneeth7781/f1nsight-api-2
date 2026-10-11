@@ -1,6 +1,6 @@
 {
     "driverId": "hirt",
-    "lastUpdate": "2026-10-02T11:47:20.461406",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -245,9 +245,9 @@
         "1953": 17.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1,
-        "1953": -1
+        "1951": 16.0,
+        "1952": 20.0,
+        "1953": 17.0
     },
     "rates": {
         "wins": {
@@ -281,9 +281,17 @@
         "1953": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {},
-        "1953": {}
+        "1951": {
+            "Swiss Grand Prix": -5
+        },
+        "1952": {
+            "Swiss Grand Prix": 12,
+            "French Grand Prix": 6,
+            "British Grand Prix": -6
+        },
+        "1953": {
+            "Swiss Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -297,6 +305,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "veritas",
                 "fastestLapRank": null,
                 "shared": false
@@ -311,6 +321,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -323,6 +335,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+11 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": true
@@ -335,6 +349,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -349,6 +365,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -359,5 +377,11 @@
         "1951": {},
         "1952": {},
         "1953": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 3,
+        "1953": 1
+    },
+    "totalStarts": 5
 }

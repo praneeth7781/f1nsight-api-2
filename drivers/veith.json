@@ -1,6 +1,6 @@
 {
     "driverId": "veith",
-    "lastUpdate": "2026-10-02T11:47:20.484607",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -363,11 +363,11 @@
         "1960": 8.0
     },
     "avgQualiPositions": {
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1,
-        "1960": -1
+        "1956": 23.0,
+        "1957": 16.0,
+        "1958": 4.0,
+        "1959": 7.0,
+        "1960": 25.0
     },
     "rates": {
         "wins": {
@@ -394,7 +394,7 @@
         "DNFs": {
             "1956": 0.0,
             "1957": 0.0,
-            "1958": 0.0,
+            "1958": 1.0,
             "1959": 0.0,
             "1960": 0.0
         }
@@ -411,11 +411,21 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1956": {
+            "Indianapolis 500": 16
+        },
+        "1957": {
+            "Indianapolis 500": 7
+        },
+        "1958": {
+            "Indianapolis 500": -22
+        },
+        "1959": {
+            "Indianapolis 500": -5
+        },
+        "1960": {
+            "Indianapolis 500": 17
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -429,6 +439,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -443,6 +455,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "phillips",
                 "fastestLapRank": null,
                 "shared": false
@@ -457,6 +471,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -471,6 +487,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "moore",
                 "fastestLapRank": null,
                 "shared": false
@@ -485,6 +503,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "meskowski",
                 "fastestLapRank": null,
                 "shared": false
@@ -497,5 +517,13 @@
         "1958": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1956": 1,
+        "1957": 1,
+        "1958": 1,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 5
 }

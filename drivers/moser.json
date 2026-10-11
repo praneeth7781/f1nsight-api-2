@@ -1,10 +1,10 @@
 {
     "driverId": "moser",
-    "lastUpdate": "2026-10-02T11:47:20.513929",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 14,
+    "totalDNFs": 9,
     "seasonWins": {
         "1967": 0,
         "1968": 0,
@@ -28,9 +28,9 @@
     },
     "seasonDNFs": {
         "1967": 1,
-        "1968": 3,
-        "1969": 4,
-        "1970": 5,
+        "1968": 1,
+        "1969": 5,
+        "1970": 1,
         "1971": 1
     },
     "poles": {
@@ -52,22 +52,17 @@
             "British Grand Prix": "Oil pressure"
         },
         "1968": {
-            "Monaco Grand Prix": "Did not qualify",
-            "British Grand Prix": "Not classified",
-            "Italian Grand Prix": "Did not qualify"
+            "British Grand Prix": "Not classified"
         },
         "1969": {
             "Monaco Grand Prix": "Halfshaft",
             "Dutch Grand Prix": "Ignition",
             "Italian Grand Prix": "Fuel leak",
-            "Canadian Grand Prix": "Accident"
+            "Canadian Grand Prix": "Accident",
+            "Mexican Grand Prix": "Fuel leak"
         },
         "1970": {
-            "Dutch Grand Prix": "Did not qualify",
-            "French Grand Prix": "Did not qualify",
-            "German Grand Prix": "Did not qualify",
-            "Austrian Grand Prix": "Radiator",
-            "Italian Grand Prix": "Did not qualify"
+            "Austrian Grand Prix": "Radiator"
         },
         "1971": {
             "Italian Grand Prix": "Suspension"
@@ -398,17 +393,17 @@
     },
     "avgRacePositions": {
         "1967": 15.0,
-        "1968": 14.0,
+        "1968": 8.0,
         "1969": 11.571428571428571,
-        "1970": 23.4,
+        "1970": 21.0,
         "1971": 21.0
     },
     "avgQualiPositions": {
-        "1967": -1,
-        "1968": -1,
-        "1969": -1,
-        "1970": -1,
-        "1971": -1
+        "1967": 20.0,
+        "1968": 13.0,
+        "1969": 15.0,
+        "1970": 24.0,
+        "1971": 22.0
     },
     "rates": {
         "wins": {
@@ -434,16 +429,16 @@
         },
         "DNFs": {
             "1967": 1.0,
-            "1968": 0.25,
-            "1969": 0.14285714285714285,
-            "1970": 0.2,
+            "1968": 0.5,
+            "1969": 0.7142857142857143,
+            "1970": 1.0,
             "1971": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8333333333333334,
+    "dnfRate": 0.75,
     "ptwConRate": {
         "1967": -1,
         "1968": -1,
@@ -452,11 +447,28 @@
         "1971": -1
     },
     "positionsGainLost": {
-        "1967": {},
-        "1968": {},
-        "1969": {},
-        "1970": {},
-        "1971": {}
+        "1967": {
+            "British Grand Prix": 5
+        },
+        "1968": {
+            "Dutch Grand Prix": 2,
+            "British Grand Prix": 8
+        },
+        "1969": {
+            "Monaco Grand Prix": 2,
+            "Dutch Grand Prix": 3,
+            "French Grand Prix": 6,
+            "Italian Grand Prix": 0,
+            "Canadian Grand Prix": 0,
+            "United States Grand Prix": 11,
+            "Mexican Grand Prix": 2
+        },
+        "1970": {
+            "Austrian Grand Prix": 3
+        },
+        "1971": {
+            "Italian Grand Prix": 1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -470,6 +482,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -484,6 +498,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -496,6 +512,8 @@
                 "grid": 7,
                 "points": 2.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -508,6 +526,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -520,6 +540,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -534,6 +556,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -546,6 +570,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -558,6 +584,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -570,6 +598,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -582,6 +612,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -594,6 +626,8 @@
                 "grid": 17,
                 "points": 1.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -606,6 +640,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -620,6 +656,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "bellasi",
                 "fastestLapRank": null,
                 "shared": false
@@ -632,6 +670,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "bellasi",
                 "fastestLapRank": null,
                 "shared": false
@@ -644,6 +684,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "bellasi",
                 "fastestLapRank": null,
                 "shared": false
@@ -656,6 +698,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Radiator",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "bellasi",
                 "fastestLapRank": null,
                 "shared": false
@@ -668,6 +712,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "bellasi",
                 "fastestLapRank": null,
                 "shared": false
@@ -682,6 +728,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "bellasi",
                 "fastestLapRank": null,
                 "shared": false
@@ -694,5 +742,13 @@
         "1969": {},
         "1970": {},
         "1971": {}
-    }
+    },
+    "seasonStarts": {
+        "1967": 1,
+        "1968": 2,
+        "1969": 7,
+        "1970": 1,
+        "1971": 1
+    },
+    "totalStarts": 12
 }

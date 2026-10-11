@@ -1,6 +1,6 @@
 {
     "driverId": "keizan",
-    "lastUpdate": "2026-10-02T11:47:20.523073",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -295,9 +295,9 @@
         "1975": 13.0
     },
     "avgQualiPositions": {
-        "1973": -1,
-        "1974": -1,
-        "1975": -1
+        "1973": 22.0,
+        "1974": 24.0,
+        "1975": 22.0
     },
     "rates": {
         "wins": {
@@ -317,8 +317,8 @@
         },
         "DNFs": {
             "1973": 1.0,
-            "1974": 1.0,
-            "1975": 1.0
+            "1974": 0.0,
+            "1975": 0.0
         }
     },
     "winRate": 0.0,
@@ -331,9 +331,15 @@
         "1975": -1
     },
     "positionsGainLost": {
-        "1973": {},
-        "1974": {},
-        "1975": {}
+        "1973": {
+            "South African Grand Prix": 9
+        },
+        "1974": {
+            "South African Grand Prix": 10
+        },
+        "1975": {
+            "South African Grand Prix": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -347,6 +353,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -361,6 +369,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -375,6 +385,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -385,5 +397,11 @@
         "1973": {},
         "1974": {},
         "1975": {}
-    }
+    },
+    "seasonStarts": {
+        "1973": 1,
+        "1974": 1,
+        "1975": 1
+    },
+    "totalStarts": 3
 }

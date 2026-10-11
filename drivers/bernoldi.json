@@ -1,10 +1,10 @@
 {
     "driverId": "bernoldi",
-    "lastUpdate": "2026-10-02T11:47:20.558507",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 20,
+    "totalDNFs": 18,
     "seasonWins": {
         "2001": 0,
         "2002": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "2001": 10,
-        "2002": 10
+        "2002": 8
     },
     "poles": {
         "2001": [],
@@ -43,7 +43,6 @@
             "Italian Grand Prix": "Crankshaft"
         },
         "2002": {
-            "Australian Grand Prix": "Disqualified",
             "Malaysian Grand Prix": "Fuel",
             "Brazilian Grand Prix": "Suspension",
             "San Marino Grand Prix": "Power loss",
@@ -51,7 +50,6 @@
             "Austrian Grand Prix": "Collision",
             "Canadian Grand Prix": "Suspension",
             "British Grand Prix": "Driveshaft",
-            "French Grand Prix": "Did not qualify",
             "German Grand Prix": "Engine"
         }
     },
@@ -329,11 +327,11 @@
     },
     "avgRacePositions": {
         "2001": 15.588235294117647,
-        "2002": 16.083333333333332
+        "2002": 15.636363636363637
     },
     "avgQualiPositions": {
-        "2001": 19.0,
-        "2002": 16.0
+        "2001": 18.529411764705884,
+        "2002": 17.727272727272727
     },
     "rates": {
         "wins": {
@@ -350,23 +348,49 @@
         },
         "DNFs": {
             "2001": 0.5882352941176471,
-            "2002": 0.8333333333333334
+            "2002": 0.7272727272727273
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6896551724137931,
+    "dnfRate": 0.6428571428571429,
     "ptwConRate": {
         "2001": -1,
         "2002": -1
     },
     "positionsGainLost": {
         "2001": {
-            "United States Grand Prix": 6
+            "Australian Grand Prix": -3,
+            "Malaysian Grand Prix": 4,
+            "Brazilian Grand Prix": -4,
+            "San Marino Grand Prix": 6,
+            "Spanish Grand Prix": -4,
+            "Austrian Grand Prix": -2,
+            "Monaco Grand Prix": 11,
+            "Canadian Grand Prix": 2,
+            "European Grand Prix": -2,
+            "French Grand Prix": 0,
+            "British Grand Prix": 6,
+            "German Grand Prix": 11,
+            "Hungarian Grand Prix": 0,
+            "Belgian Grand Prix": 9,
+            "Italian Grand Prix": 4,
+            "United States Grand Prix": 6,
+            "Japanese Grand Prix": 6
         },
         "2002": {
-            "Malaysian Grand Prix": -3
+            "Australian Grand Prix": 5,
+            "Malaysian Grand Prix": -3,
+            "Brazilian Grand Prix": 1,
+            "San Marino Grand Prix": 8,
+            "Spanish Grand Prix": -1,
+            "Austrian Grand Prix": -9,
+            "Monaco Grand Prix": 9,
+            "Canadian Grand Prix": -4,
+            "European Grand Prix": 10,
+            "British Grand Prix": 2,
+            "German Grand Prix": 5
         }
     },
     "driverCode": "",
@@ -381,6 +405,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -393,6 +419,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -405,6 +433,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -417,6 +447,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -429,6 +461,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Fuel pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -441,6 +475,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -453,6 +489,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -465,6 +503,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -477,6 +517,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -489,6 +531,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -501,6 +545,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -513,6 +559,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -525,6 +573,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -537,6 +587,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -549,6 +601,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Crankshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -561,6 +615,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -573,6 +629,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -587,6 +645,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -599,6 +659,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Fuel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -611,6 +673,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -623,6 +687,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Power loss",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -635,6 +701,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -647,6 +715,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -659,6 +729,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -671,6 +743,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -683,6 +757,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -695,6 +771,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Driveshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -707,6 +785,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -719,6 +799,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -728,5 +810,10 @@
     "sprintResults": {
         "2001": {},
         "2002": {}
-    }
+    },
+    "seasonStarts": {
+        "2001": 17,
+        "2002": 11
+    },
+    "totalStarts": 28
 }

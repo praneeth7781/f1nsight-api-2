@@ -1,6 +1,6 @@
 {
     "driverId": "cabianca",
-    "lastUpdate": "2026-10-02T11:47:20.491975",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -194,14 +194,14 @@
         }
     },
     "avgRacePositions": {
-        "1958": 16.5,
+        "1958": 9.0,
         "1959": 15.0,
         "1960": 4.0
     },
     "avgQualiPositions": {
-        "1958": -1,
-        "1959": -1,
-        "1960": -1
+        "1958": 20.0,
+        "1959": 21.0,
+        "1960": 4.0
     },
     "rates": {
         "wins": {
@@ -221,23 +221,29 @@
         },
         "DNFs": {
             "1958": 1.0,
-            "1959": 2.0,
-            "1960": 2.0
+            "1959": 0.0,
+            "1960": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5,
+    "dnfRate": 0.3333333333333333,
     "ptwConRate": {
         "1958": -1,
         "1959": -1,
         "1960": -1
     },
     "positionsGainLost": {
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1958": {
+            "Italian Grand Prix": 11
+        },
+        "1959": {
+            "Italian Grand Prix": 6
+        },
+        "1960": {
+            "Italian Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -251,6 +257,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -265,6 +273,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -279,6 +289,8 @@
                 "grid": 4,
                 "points": 3.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-castellotti",
                 "fastestLapRank": null,
                 "shared": false
@@ -289,5 +301,11 @@
         "1958": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1958": 1,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 3
 }

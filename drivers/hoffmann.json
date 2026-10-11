@@ -1,10 +1,10 @@
 {
     "driverId": "hoffmann",
-    "lastUpdate": "2026-10-02T11:47:20.529863",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1976": 0,
         "1977": 0
@@ -18,7 +18,7 @@
         "1977": 0
     },
     "seasonDNFs": {
-        "1976": 1,
+        "1976": 0,
         "1977": 1
     },
     "poles": {
@@ -30,9 +30,7 @@
         "1977": {}
     },
     "DNFs": {
-        "1976": {
-            "United States Grand Prix West": "Did not qualify"
-        },
+        "1976": {},
         "1977": {
             "Argentine Grand Prix": "Engine"
         }
@@ -247,12 +245,12 @@
         }
     },
     "avgRacePositions": {
-        "1976": 23.0,
+        "1976": 11.0,
         "1977": 12.0
     },
     "avgQualiPositions": {
-        "1976": -1,
-        "1977": -1
+        "1976": 20.0,
+        "1977": 19.0
     },
     "rates": {
         "wins": {
@@ -268,21 +266,26 @@
             "1977": 0.0
         },
         "DNFs": {
-            "1976": 0.75,
-            "1977": 1.5
+            "1976": 0.0,
+            "1977": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.3333333333333333,
     "ptwConRate": {
         "1976": -1,
         "1977": -1
     },
     "positionsGainLost": {
-        "1976": {},
-        "1977": {}
+        "1976": {
+            "Brazilian Grand Prix": 9
+        },
+        "1977": {
+            "Argentine Grand Prix": 2,
+            "Brazilian Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -296,6 +299,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -308,6 +313,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -322,6 +329,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -334,6 +343,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -343,5 +354,10 @@
     "sprintResults": {
         "1976": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1976": 1,
+        "1977": 2
+    },
+    "totalStarts": 3
 }

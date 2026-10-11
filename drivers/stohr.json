@@ -1,10 +1,10 @@
 {
     "driverId": "stohr",
-    "lastUpdate": "2026-10-02T11:47:20.538472",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 6,
     "seasonWins": {
         "1981": 0
     },
@@ -15,7 +15,7 @@
         "1981": 0
     },
     "seasonDNFs": {
-        "1981": 8
+        "1981": 6
     },
     "poles": {
         "1981": []
@@ -25,12 +25,10 @@
     },
     "DNFs": {
         "1981": {
-            "United States Grand Prix West": "Did not qualify",
             "Brazilian Grand Prix": "Accident",
             "Belgian Grand Prix": "Collision",
             "Monaco Grand Prix": "Fuel system",
             "Spanish Grand Prix": "Ignition",
-            "French Grand Prix": "Did not qualify",
             "British Grand Prix": "Spun off",
             "Austrian Grand Prix": "Overheating"
         }
@@ -186,10 +184,10 @@
         }
     },
     "avgRacePositions": {
-        "1981": 19.846153846153847
+        "1981": 16.88888888888889
     },
     "avgQualiPositions": {
-        "1981": -1
+        "1981": 19.88888888888889
     },
     "rates": {
         "wins": {
@@ -202,18 +200,28 @@
             "1981": 0.0
         },
         "DNFs": {
-            "1981": 0.7692307692307693
+            "1981": 0.6666666666666666
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.7692307692307693,
+    "dnfRate": 0.6666666666666666,
     "ptwConRate": {
         "1981": -1
     },
     "positionsGainLost": {
-        "1981": {}
+        "1981": {
+            "Brazilian Grand Prix": 2,
+            "Argentine Grand Prix": 10,
+            "Belgian Grand Prix": -11,
+            "Monaco Grand Prix": -4,
+            "Spanish Grand Prix": 3,
+            "British Grand Prix": -6,
+            "German Grand Prix": 14,
+            "Austrian Grand Prix": 5,
+            "Dutch Grand Prix": 14
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -227,6 +235,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,6 +249,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -251,6 +263,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -263,6 +277,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -275,6 +291,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -287,6 +305,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -299,6 +319,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -311,6 +333,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -323,6 +347,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -335,6 +361,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -347,6 +375,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -355,5 +385,9 @@
     },
     "sprintResults": {
         "1981": {}
-    }
+    },
+    "seasonStarts": {
+        "1981": 9
+    },
+    "totalStarts": 9
 }

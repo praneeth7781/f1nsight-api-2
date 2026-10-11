@@ -1,6 +1,6 @@
 {
     "driverId": "shelly",
-    "lastUpdate": "2026-10-02T11:47:20.504836",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -119,10 +119,10 @@
         }
     },
     "avgRacePositions": {
-        "1962": 23.333333333333332
+        "1962": 21.0
     },
     "avgQualiPositions": {
-        "1962": -1
+        "1962": 18.0
     },
     "rates": {
         "wins": {
@@ -146,7 +146,9 @@
         "1962": -1
     },
     "positionsGainLost": {
-        "1962": {}
+        "1962": {
+            "British Grand Prix": -3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -160,6 +162,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -168,5 +172,9 @@
     },
     "sprintResults": {
         "1962": {}
-    }
+    },
+    "seasonStarts": {
+        "1962": 1
+    },
+    "totalStarts": 1
 }

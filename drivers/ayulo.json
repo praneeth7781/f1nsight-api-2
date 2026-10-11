@@ -1,10 +1,10 @@
 {
     "driverId": "ayulo",
-    "lastUpdate": "2026-10-02T11:47:20.461689",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 0,
+    "totalDNFs": 1,
     "seasonWins": {
         "1951": 0,
         "1952": 0,
@@ -26,7 +26,7 @@
     "seasonDNFs": {
         "1951": 0,
         "1952": 0,
-        "1953": 0,
+        "1953": 1,
         "1954": 0
     },
     "poles": {
@@ -46,7 +46,9 @@
     "DNFs": {
         "1951": {},
         "1952": {},
-        "1953": {},
+        "1953": {
+            "Indianapolis 500": "Engine"
+        },
         "1954": {}
     },
     "fastLaps": {
@@ -308,10 +310,10 @@
         "1954": 13.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1
+        "1951": 3.0,
+        "1952": 28.0,
+        "1953": 4.0,
+        "1954": 22.0
     },
     "rates": {
         "wins": {
@@ -335,7 +337,7 @@
         "DNFs": {
             "1951": 0.0,
             "1952": 0.0,
-            "1953": 0.0,
+            "1953": 1.0,
             "1954": 0.0
         }
     },
@@ -350,10 +352,18 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1954": {}
+        "1951": {
+            "Indianapolis 500": 0
+        },
+        "1952": {
+            "Indianapolis 500": 8
+        },
+        "1953": {
+            "Indianapolis 500": -9
+        },
+        "1954": {
+            "Indianapolis 500": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -367,6 +377,8 @@
                 "grid": 3,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -381,6 +393,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "+16 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lesovsky",
                 "fastestLapRank": null,
                 "shared": false
@@ -395,6 +409,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -409,6 +425,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -420,5 +438,12 @@
         "1952": {},
         "1953": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 1,
+        "1953": 1,
+        "1954": 1
+    },
+    "totalStarts": 4
 }

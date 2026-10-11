@@ -1,10 +1,10 @@
 {
     "driverId": "villota",
-    "lastUpdate": "2026-10-02T11:47:20.532243",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 1,
     "seasonWins": {
         "1977": 0,
         "1978": 0,
@@ -22,8 +22,8 @@
     },
     "seasonDNFs": {
         "1977": 1,
-        "1978": 1,
-        "1982": 2
+        "1978": 0,
+        "1982": 0
     },
     "poles": {
         "1977": [],
@@ -37,15 +37,10 @@
     },
     "DNFs": {
         "1977": {
-            "German Grand Prix": "Did not qualify"
+            "Austrian Grand Prix": "Accident"
         },
-        "1978": {
-            "Spanish Grand Prix": "Did not qualify"
-        },
-        "1982": {
-            "Detroit Grand Prix": "Did not qualify",
-            "Canadian Grand Prix": "Did not qualify"
-        }
+        "1978": {},
+        "1982": {}
     },
     "fastLaps": {
         "1977": {
@@ -227,56 +222,51 @@
         }
     },
     "avgRacePositions": {
-        "1976": 28.0,
-        "1977": 24.0,
-        "1978": 27.0,
-        "1982": 29.8
+        "1977": 15.0,
+        "1978": -1,
+        "1982": -1
     },
     "avgQualiPositions": {
-        "1976": -1,
-        "1977": -1,
+        "1977": 24.5,
         "1978": -1,
         "1982": -1
     },
     "rates": {
         "wins": {
-            "1976": 0.0,
             "1977": 0.0,
             "1978": 0.0,
             "1982": 0.0
         },
         "podiums": {
-            "1976": 0.0,
             "1977": 0.0,
             "1978": 0.0,
             "1982": 0.0
         },
         "poles": {
-            "1976": 0.0,
             "1977": 0.0,
             "1978": 0.0,
             "1982": 0.0
         },
         "DNFs": {
-            "1976": 1.0,
-            "1977": 0.14285714285714285,
-            "1978": 1.0,
-            "1982": 0.2
+            "1977": 0.5,
+            "1978": 0.0,
+            "1982": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.9285714285714286,
+    "dnfRate": 0.5,
     "ptwConRate": {
-        "1976": -1,
         "1977": -1,
         "1978": -1,
         "1982": -1
     },
     "positionsGainLost": {
-        "1976": {},
-        "1977": {},
+        "1977": {
+            "Spanish Grand Prix": 10,
+            "Austrian Grand Prix": 9
+        },
         "1978": {},
         "1982": {}
     },
@@ -292,6 +282,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -304,6 +296,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -316,6 +310,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -330,6 +326,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -344,6 +342,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -356,6 +356,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -366,5 +368,11 @@
         "1977": {},
         "1978": {},
         "1982": {}
-    }
+    },
+    "seasonStarts": {
+        "1977": 2,
+        "1978": 0,
+        "1982": 0
+    },
+    "totalStarts": 2
 }

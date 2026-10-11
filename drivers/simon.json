@@ -1,10 +1,10 @@
 {
     "driverId": "simon",
-    "lastUpdate": "2026-10-02T11:47:20.463999",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 7,
     "seasonWins": {
         "1951": 0,
         "1952": 0,
@@ -31,7 +31,7 @@
         "1952": 1,
         "1955": 2,
         "1956": 1,
-        "1957": 1
+        "1957": 0
     },
     "poles": {
         "1951": [],
@@ -63,9 +63,7 @@
         "1956": {
             "French Grand Prix": "Engine"
         },
-        "1957": {
-            "Monaco Grand Prix": "Did not qualify"
-        }
+        "1957": {}
     },
     "fastLaps": {
         "1951": {
@@ -359,14 +357,14 @@
         "1952": 8.0,
         "1955": 19.5,
         "1956": 10.5,
-        "1957": 15.0
+        "1957": 11.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1
+        "1951": 13.5,
+        "1952": 6.0,
+        "1955": 9.0,
+        "1956": 22.5,
+        "1957": 16.0
     },
     "rates": {
         "wins": {
@@ -392,16 +390,16 @@
         },
         "DNFs": {
             "1951": 0.75,
-            "1952": 1.5,
-            "1955": 1.5,
-            "1956": 1.5,
-            "1957": 1.5
+            "1952": 0.5,
+            "1955": 1.0,
+            "1956": 0.5,
+            "1957": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.6363636363636364,
     "ptwConRate": {
         "1951": -1,
         "1952": -1,
@@ -410,11 +408,27 @@
         "1957": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {},
-        "1955": {},
-        "1956": {},
-        "1957": {}
+        "1951": {
+            "French Grand Prix": 2,
+            "German Grand Prix": -5,
+            "Italian Grand Prix": 5,
+            "Spanish Grand Prix": -2
+        },
+        "1952": {
+            "Swiss Grand Prix": -6,
+            "Italian Grand Prix": 2
+        },
+        "1955": {
+            "Monaco Grand Prix": -7,
+            "British Grand Prix": -14
+        },
+        "1956": {
+            "French Grand Prix": 8,
+            "Italian Grand Prix": 16
+        },
+        "1957": {
+            "Italian Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -428,6 +442,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -440,6 +456,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -452,6 +470,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -464,6 +484,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -478,6 +500,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": true
@@ -490,6 +514,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -504,6 +530,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -516,6 +544,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -530,6 +560,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -542,6 +574,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -556,6 +590,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -568,6 +604,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+15 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -580,5 +618,13 @@
         "1955": {},
         "1956": {},
         "1957": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 4,
+        "1952": 2,
+        "1955": 2,
+        "1956": 2,
+        "1957": 1
+    },
+    "totalStarts": 11
 }

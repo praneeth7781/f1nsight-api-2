@@ -1,6 +1,6 @@
 {
     "driverId": "george_connor",
-    "lastUpdate": "2026-10-02T11:47:20.454985",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -238,9 +238,9 @@
         "1952": 8.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1
+        "1950": 4.0,
+        "1951": 21.0,
+        "1952": 14.0
     },
     "rates": {
         "wins": {
@@ -260,7 +260,7 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1951": 0.0,
+            "1951": 1.0,
             "1952": 0.0
         }
     },
@@ -274,9 +274,15 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {}
+        "1950": {
+            "Indianapolis 500": -4
+        },
+        "1951": {
+            "Indianapolis 500": -9
+        },
+        "1952": {
+            "Indianapolis 500": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -290,6 +296,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lesovsky",
                 "fastestLapRank": null,
                 "shared": false
@@ -304,6 +312,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lesovsky",
                 "fastestLapRank": null,
                 "shared": false
@@ -318,6 +328,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -328,5 +340,11 @@
         "1950": {},
         "1951": {},
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1,
+        "1952": 1
+    },
+    "totalStarts": 3
 }

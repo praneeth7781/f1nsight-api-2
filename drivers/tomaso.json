@@ -1,6 +1,6 @@
 {
     "driverId": "tomaso",
-    "lastUpdate": "2026-10-02T11:47:20.486950",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -171,8 +171,8 @@
         "1959": 11.0
     },
     "avgQualiPositions": {
-        "1957": -1,
-        "1959": -1
+        "1957": 12.0,
+        "1959": 14.0
     },
     "rates": {
         "wins": {
@@ -189,7 +189,7 @@
         },
         "DNFs": {
             "1957": 0.0,
-            "1959": 0.0
+            "1959": 1.0
         }
     },
     "winRate": 0.0,
@@ -201,8 +201,12 @@
         "1959": -1
     },
     "positionsGainLost": {
-        "1957": {},
-        "1959": {}
+        "1957": {
+            "Argentine Grand Prix": 3
+        },
+        "1959": {
+            "United States Grand Prix": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -216,6 +220,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -230,6 +236,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-osca",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,5 +247,10 @@
     "sprintResults": {
         "1957": {},
         "1959": {}
-    }
+    },
+    "seasonStarts": {
+        "1957": 1,
+        "1959": 1
+    },
+    "totalStarts": 2
 }

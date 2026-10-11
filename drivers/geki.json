@@ -1,10 +1,10 @@
 {
     "driverId": "geki",
-    "lastUpdate": "2026-10-02T11:47:20.510618",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1964": 0,
         "1965": 0,
@@ -21,7 +21,7 @@
         "1966": 0
     },
     "seasonDNFs": {
-        "1964": 1,
+        "1964": 0,
         "1965": 1,
         "1966": 0
     },
@@ -36,9 +36,7 @@
         "1966": {}
     },
     "DNFs": {
-        "1964": {
-            "Italian Grand Prix": "Did not qualify"
-        },
+        "1964": {},
         "1965": {
             "Italian Grand Prix": "Gearbox"
         },
@@ -195,14 +193,14 @@
         }
     },
     "avgRacePositions": {
-        "1964": 22.0,
+        "1964": -1,
         "1965": 18.0,
         "1966": 9.0
     },
     "avgQualiPositions": {
         "1964": -1,
-        "1965": -1,
-        "1966": -1
+        "1965": 20.0,
+        "1966": 20.0
     },
     "rates": {
         "wins": {
@@ -221,15 +219,15 @@
             "1966": 0.0
         },
         "DNFs": {
-            "1964": 1.0,
+            "1964": 0.0,
             "1965": 1.0,
-            "1966": 1.0
+            "1966": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1964": -1,
         "1965": -1,
@@ -237,8 +235,12 @@
     },
     "positionsGainLost": {
         "1964": {},
-        "1965": {},
-        "1966": {}
+        "1965": {
+            "Italian Grand Prix": 2
+        },
+        "1966": {
+            "Italian Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -252,6 +254,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -266,6 +270,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -280,6 +286,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -290,5 +298,11 @@
         "1964": {},
         "1965": {},
         "1966": {}
-    }
+    },
+    "seasonStarts": {
+        "1964": 0,
+        "1965": 1,
+        "1966": 1
+    },
+    "totalStarts": 2
 }

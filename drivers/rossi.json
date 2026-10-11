@@ -2,7 +2,7 @@
     "driverId": "rossi",
     "driverCode": "RSS",
     "driverNumber": "53",
-    "lastUpdate": "2026-10-02T11:47:20.568715",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -166,7 +166,7 @@
         "2015": 15.4
     },
     "avgQualiPositions": {
-        "2015": 18.8
+        "2015": 17.8
     },
     "rates": {
         "wins": {
@@ -192,10 +192,10 @@
     "positionsGainLost": {
         "2015": {
             "Singapore Grand Prix": 6,
-            "Japanese Grand Prix": 2,
-            "United States Grand Prix": 6,
-            "Mexican Grand Prix": 3,
-            "Brazilian Grand Prix": 0
+            "Japanese Grand Prix": 1,
+            "United States Grand Prix": 5,
+            "Mexican Grand Prix": 1,
+            "Brazilian Grand Prix": -1
         }
     },
     "raceResults": {
@@ -208,6 +208,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 19,
                 "shared": false
@@ -220,6 +222,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 20,
                 "shared": false
@@ -232,6 +236,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 16,
                 "shared": false
@@ -244,6 +250,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 18,
                 "shared": false
@@ -256,6 +264,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 18,
                 "shared": false
@@ -264,5 +274,9 @@
     },
     "sprintResults": {
         "2015": {}
-    }
+    },
+    "seasonStarts": {
+        "2015": 5
+    },
+    "totalStarts": 5
 }

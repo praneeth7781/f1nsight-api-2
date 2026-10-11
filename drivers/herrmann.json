@@ -1,10 +1,10 @@
 {
     "driverId": "herrmann",
-    "lastUpdate": "2026-10-02T11:47:20.475890",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 11,
+    "totalDNFs": 8,
     "seasonWins": {
         "1953": 0,
         "1954": 0,
@@ -38,12 +38,12 @@
     "seasonDNFs": {
         "1953": 0,
         "1954": 3,
-        "1955": 1,
-        "1957": 2,
+        "1955": 0,
+        "1957": 1,
         "1958": 2,
         "1959": 2,
         "1960": 0,
-        "1961": 1
+        "1961": 0
     },
     "poles": {
         "1953": [],
@@ -74,11 +74,8 @@
             "German Grand Prix": "Fuel leak",
             "Spanish Grand Prix": "Injection"
         },
-        "1955": {
-            "Monaco Grand Prix": "Did not qualify"
-        },
+        "1955": {},
         "1957": {
-            "Monaco Grand Prix": "Did not qualify",
             "German Grand Prix": "Chassis"
         },
         "1958": {
@@ -90,9 +87,7 @@
             "German Grand Prix": "Accident"
         },
         "1960": {},
-        "1961": {
-            "French Grand Prix": "Withdrew"
-        }
+        "1961": {}
     },
     "fastLaps": {
         "1953": {
@@ -528,22 +523,22 @@
     "avgRacePositions": {
         "1953": 9.0,
         "1954": 9.6,
-        "1955": 13.5,
-        "1957": 17.0,
+        "1955": 4.0,
+        "1957": 16.0,
         "1958": 13.333333333333334,
         "1959": 14.5,
         "1960": 6.0,
-        "1961": 16.5
+        "1961": 12.333333333333334
     },
     "avgQualiPositions": {
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1,
-        "1960": -1,
-        "1961": -1
+        "1953": 14.0,
+        "1954": 7.0,
+        "1955": 10.0,
+        "1957": 11.0,
+        "1958": 18.666666666666668,
+        "1959": 15.0,
+        "1960": 10.0,
+        "1961": 12.333333333333334
     },
     "rates": {
         "wins": {
@@ -578,19 +573,19 @@
         },
         "DNFs": {
             "1953": 0.0,
-            "1954": 0.0,
+            "1954": 0.6,
             "1955": 0.0,
-            "1957": 0.0,
-            "1958": 0.0,
-            "1959": 0.0,
+            "1957": 1.0,
+            "1958": 0.6666666666666666,
+            "1959": 1.0,
             "1960": 0.0,
             "1961": 0.0
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.05,
+    "podiumRate": 0.058823529411764705,
     "poleRate": 0.0,
-    "dnfRate": 0.55,
+    "dnfRate": 0.47058823529411764,
     "ptwConRate": {
         "1953": -1,
         "1954": -1,
@@ -602,14 +597,39 @@
         "1961": -1
     },
     "positionsGainLost": {
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {},
-        "1961": {}
+        "1953": {
+            "German Grand Prix": 5
+        },
+        "1954": {
+            "French Grand Prix": -7,
+            "German Grand Prix": -11,
+            "Swiss Grand Prix": 4,
+            "Italian Grand Prix": 4,
+            "Spanish Grand Prix": -3
+        },
+        "1955": {
+            "Argentine Grand Prix": 6
+        },
+        "1957": {
+            "German Grand Prix": -5
+        },
+        "1958": {
+            "German Grand Prix": 0,
+            "Italian Grand Prix": 7,
+            "Moroccan Grand Prix": 9
+        },
+        "1959": {
+            "British Grand Prix": -1,
+            "German Grand Prix": 2
+        },
+        "1960": {
+            "Italian Grand Prix": 4
+        },
+        "1961": {
+            "Monaco Grand Prix": 4,
+            "Dutch Grand Prix": -2,
+            "German Grand Prix": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -623,6 +643,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "veritas",
                 "fastestLapRank": null,
                 "shared": false
@@ -637,6 +659,8 @@
                 "grid": 7,
                 "points": 1.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -649,6 +673,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -661,6 +687,8 @@
                 "grid": 7,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -673,6 +701,8 @@
                 "grid": 8,
                 "points": 3.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -685,6 +715,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Injection",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -699,6 +731,8 @@
                 "grid": 10,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": true
@@ -711,6 +745,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -725,6 +761,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -737,6 +775,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Chassis",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -751,6 +791,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -763,6 +805,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -775,6 +819,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -789,6 +835,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -801,6 +849,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -815,6 +865,8 @@
                 "grid": 10,
                 "points": 1.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -829,6 +881,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -841,6 +895,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -853,6 +909,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -865,6 +923,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -880,5 +940,16 @@
         "1959": {},
         "1960": {},
         "1961": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1954": 5,
+        "1955": 1,
+        "1957": 1,
+        "1958": 3,
+        "1959": 2,
+        "1960": 1,
+        "1961": 3
+    },
+    "totalStarts": 17
 }

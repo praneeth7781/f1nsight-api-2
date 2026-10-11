@@ -1,6 +1,6 @@
 {
     "driverId": "mcdowell",
-    "lastUpdate": "2026-10-02T11:47:20.456462",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -238,9 +238,9 @@
         "1952": 21.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1
+        "1950": 33.0,
+        "1951": 26.0,
+        "1952": 33.0
     },
     "rates": {
         "wins": {
@@ -260,7 +260,7 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1951": 0.0,
+            "1951": 1.0,
             "1952": 0.0
         }
     },
@@ -274,9 +274,15 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {}
+        "1950": {
+            "Indianapolis 500": 15
+        },
+        "1951": {
+            "Indianapolis 500": -6
+        },
+        "1952": {
+            "Indianapolis 500": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -290,6 +296,8 @@
                 "grid": 33,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -304,6 +312,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -318,6 +328,8 @@
                 "grid": 33,
                 "points": 0.0,
                 "status": "+18 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -328,5 +340,11 @@
         "1950": {},
         "1951": {},
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1,
+        "1952": 1
+    },
+    "totalStarts": 3
 }

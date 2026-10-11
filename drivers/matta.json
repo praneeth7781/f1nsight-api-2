@@ -1,10 +1,10 @@
 {
     "driverId": "matta",
-    "lastUpdate": "2026-10-02T11:47:20.560002",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 7,
     "seasonWins": {
         "2003": 0,
         "2004": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "2003": 3,
-        "2004": 5
+        "2004": 4
     },
     "poles": {
         "2003": [],
@@ -38,7 +38,6 @@
         "2004": {
             "San Marino Grand Prix": "Accident",
             "European Grand Prix": "Collision",
-            "Canadian Grand Prix": "Disqualified",
             "United States Grand Prix": "Gearbox",
             "German Grand Prix": "Puncture"
         }
@@ -472,7 +471,7 @@
     },
     "avgQualiPositions": {
         "2003": 11.25,
-        "2004": 11.833333333333334
+        "2004": 11.666666666666666
     },
     "rates": {
         "wins": {
@@ -489,13 +488,13 @@
         },
         "DNFs": {
             "2003": 0.1875,
-            "2004": 0.25
+            "2004": 0.3333333333333333
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.2857142857142857,
+    "dnfRate": 0.25,
     "ptwConRate": {
         "2003": -1,
         "2004": -1
@@ -530,7 +529,7 @@
             "Canadian Grand Prix": -7,
             "United States Grand Prix": -3,
             "French Grand Prix": -3,
-            "British Grand Prix": 1,
+            "British Grand Prix": -1,
             "German Grand Prix": -4
         }
     },
@@ -546,6 +545,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -558,6 +559,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -570,6 +573,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -582,6 +587,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -594,6 +601,8 @@
                 "grid": 13,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -606,6 +615,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -618,6 +629,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -630,6 +643,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -642,6 +657,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -654,6 +671,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -666,6 +685,8 @@
                 "grid": 6,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -678,6 +699,8 @@
                 "grid": 9,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -690,6 +713,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -702,6 +727,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Tyre",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -714,6 +741,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -726,6 +755,8 @@
                 "grid": 3,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -740,6 +771,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": 15,
                 "shared": false
@@ -752,6 +785,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": 12,
                 "shared": false
@@ -764,6 +799,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": 11,
                 "shared": false
@@ -776,6 +813,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "toyota",
                 "fastestLapRank": 15,
                 "shared": false
@@ -788,6 +827,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": 14,
                 "shared": false
@@ -800,6 +841,8 @@
                 "grid": 15,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": 8,
                 "shared": false
@@ -812,6 +855,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "toyota",
                 "fastestLapRank": null,
                 "shared": false
@@ -824,6 +869,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": 12,
                 "shared": false
@@ -836,6 +883,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toyota",
                 "fastestLapRank": 14,
                 "shared": false
@@ -848,6 +897,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": 14,
                 "shared": false
@@ -860,6 +911,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toyota",
                 "fastestLapRank": 13,
                 "shared": false
@@ -872,6 +925,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Puncture",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "toyota",
                 "fastestLapRank": 14,
                 "shared": false
@@ -881,5 +936,10 @@
     "sprintResults": {
         "2003": {},
         "2004": {}
-    }
+    },
+    "seasonStarts": {
+        "2003": 16,
+        "2004": 12
+    },
+    "totalStarts": 28
 }

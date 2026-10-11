@@ -1,6 +1,6 @@
 {
     "driverId": "wilds",
-    "lastUpdate": "2026-10-02T11:47:20.526731",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -191,35 +191,29 @@
         }
     },
     "avgRacePositions": {
-        "1974": 26.6,
-        "1975": 19.5,
-        "1976": 29.0
+        "1974": 14.0,
+        "1975": 19.5
     },
     "avgQualiPositions": {
-        "1974": -1,
-        "1975": -1,
-        "1976": -1
+        "1974": 22.0,
+        "1975": 22.0
     },
     "rates": {
         "wins": {
             "1974": 0.0,
-            "1975": 0.0,
-            "1976": 0.0
+            "1975": 0.0
         },
         "podiums": {
             "1974": 0.0,
-            "1975": 0.0,
-            "1976": 0.0
+            "1975": 0.0
         },
         "poles": {
             "1974": 0.0,
-            "1975": 0.0,
-            "1976": 0.0
+            "1975": 0.0
         },
         "DNFs": {
             "1974": 1.0,
-            "1975": 2.5,
-            "1976": 5.0
+            "1975": 1.0
         }
     },
     "winRate": 0.0,
@@ -228,13 +222,16 @@
     "dnfRate": 1.0,
     "ptwConRate": {
         "1974": -1,
-        "1975": -1,
-        "1976": -1
+        "1975": -1
     },
     "positionsGainLost": {
-        "1974": {},
-        "1975": {},
-        "1976": {}
+        "1974": {
+            "United States Grand Prix": 8
+        },
+        "1975": {
+            "Argentine Grand Prix": 4,
+            "Brazilian Grand Prix": 1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -248,6 +245,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -262,6 +261,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -274,6 +275,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -283,5 +286,10 @@
     "sprintResults": {
         "1974": {},
         "1975": {}
-    }
+    },
+    "seasonStarts": {
+        "1974": 1,
+        "1975": 2
+    },
+    "totalStarts": 3
 }

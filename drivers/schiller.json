@@ -1,10 +1,10 @@
 {
     "driverId": "schiller",
-    "lastUpdate": "2026-10-02T11:47:20.504130",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1962": 0
     },
@@ -15,7 +15,7 @@
         "1962": 0
     },
     "seasonDNFs": {
-        "1962": 2
+        "1962": 1
     },
     "poles": {
         "1962": []
@@ -25,7 +25,6 @@
     },
     "DNFs": {
         "1962": {
-            "Belgian Grand Prix": "Withdrew",
             "German Grand Prix": "Oil pressure"
         }
     },
@@ -129,10 +128,10 @@
         }
     },
     "avgRacePositions": {
-        "1962": 24.5
+        "1962": 24.0
     },
     "avgQualiPositions": {
-        "1962": -1
+        "1962": 20.0
     },
     "rates": {
         "wins": {
@@ -156,7 +155,9 @@
         "1962": -1
     },
     "positionsGainLost": {
-        "1962": {}
+        "1962": {
+            "German Grand Prix": -4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -170,6 +171,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -182,6 +185,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -190,5 +195,9 @@
     },
     "sprintResults": {
         "1962": {}
-    }
+    },
+    "seasonStarts": {
+        "1962": 1
+    },
+    "totalStarts": 1
 }

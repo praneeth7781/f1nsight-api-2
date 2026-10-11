@@ -1,10 +1,10 @@
 {
     "driverId": "serra",
-    "lastUpdate": "2026-10-02T11:47:20.538180",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 10,
+    "totalDNFs": 7,
     "seasonWins": {
         "1981": 0,
         "1982": 0,
@@ -21,8 +21,8 @@
         "1983": 0
     },
     "seasonDNFs": {
-        "1981": 4,
-        "1982": 5,
+        "1981": 3,
+        "1982": 3,
         "1983": 1
     },
     "poles": {
@@ -39,15 +39,12 @@
         "1981": {
             "Brazilian Grand Prix": "Collision",
             "Argentine Grand Prix": "Gearbox",
-            "Belgian Grand Prix": "Engine",
-            "French Grand Prix": "Withdrew"
+            "Belgian Grand Prix": "Engine"
         },
         "1982": {
             "Brazilian Grand Prix": "Suspension",
-            "Canadian Grand Prix": "Did not qualify",
             "Dutch Grand Prix": "Fuel system",
-            "British Grand Prix": "Collision",
-            "Swiss Grand Prix": "Did not qualify"
+            "British Grand Prix": "Collision"
         },
         "1983": {
             "French Grand Prix": "Gearbox"
@@ -379,14 +376,14 @@
         }
     },
     "avgRacePositions": {
-        "1981": 22.642857142857142,
-        "1982": 19.142857142857142,
+        "1981": 15.2,
+        "1982": 13.666666666666666,
         "1983": 10.5
     },
     "avgQualiPositions": {
-        "1981": -1,
-        "1982": -1,
-        "1983": -1
+        "1981": 20.2,
+        "1982": 23.333333333333332,
+        "1983": 21.0
     },
     "rates": {
         "wins": {
@@ -405,24 +402,45 @@
             "1983": 0.0
         },
         "DNFs": {
-            "1981": 0.8571428571428571,
-            "1982": 0.8571428571428571,
-            "1983": 3.0
+            "1981": 0.6,
+            "1982": 0.3333333333333333,
+            "1983": 0.25
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.65625,
+    "dnfRate": 0.3888888888888889,
     "ptwConRate": {
         "1981": -1,
         "1982": -1,
         "1983": -1
     },
     "positionsGainLost": {
-        "1981": {},
-        "1982": {},
-        "1983": {}
+        "1981": {
+            "United States Grand Prix West": 11,
+            "Brazilian Grand Prix": -2,
+            "Argentine Grand Prix": 2,
+            "Belgian Grand Prix": 4,
+            "Spanish Grand Prix": 10
+        },
+        "1982": {
+            "South African Grand Prix": 8,
+            "Brazilian Grand Prix": 11,
+            "Belgian Grand Prix": 17,
+            "Detroit Grand Prix": 15,
+            "Dutch Grand Prix": -5,
+            "British Grand Prix": -1,
+            "German Grand Prix": 14,
+            "Austrian Grand Prix": 13,
+            "Italian Grand Prix": 15
+        },
+        "1983": {
+            "Brazilian Grand Prix": 15,
+            "French Grand Prix": 7,
+            "San Marino Grand Prix": 12,
+            "Monaco Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -436,6 +454,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -448,6 +468,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -460,6 +482,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -472,6 +496,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -484,6 +510,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -496,6 +524,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -510,6 +540,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -522,6 +554,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -534,6 +568,8 @@
                 "grid": 23,
                 "points": 1.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -546,6 +582,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -558,6 +596,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -570,6 +610,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -582,6 +624,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -594,6 +638,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -606,6 +652,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -618,6 +666,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -630,6 +680,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fittipaldi",
                 "fastestLapRank": null,
                 "shared": false
@@ -644,6 +696,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -656,6 +710,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -668,6 +724,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -680,6 +738,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -690,5 +750,11 @@
         "1981": {},
         "1982": {},
         "1983": {}
-    }
+    },
+    "seasonStarts": {
+        "1981": 5,
+        "1982": 9,
+        "1983": 4
+    },
+    "totalStarts": 18
 }

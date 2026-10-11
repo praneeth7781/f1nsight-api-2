@@ -1,6 +1,6 @@
 {
     "driverId": "rose",
-    "lastUpdate": "2026-10-02T11:47:20.454071",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -182,8 +182,8 @@
         "1951": 14.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
+        "1950": 3.0,
+        "1951": 5.0
     },
     "rates": {
         "wins": {
@@ -200,7 +200,7 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1951": 0.0
+            "1951": 1.0
         }
     },
     "winRate": 0.0,
@@ -212,8 +212,12 @@
         "1951": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "Indianapolis 500": 0
+        },
+        "1951": {
+            "Indianapolis 500": -9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -227,6 +231,8 @@
                 "grid": 3,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "deidt",
                 "fastestLapRank": null,
                 "shared": false
@@ -241,6 +247,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "deidt",
                 "fastestLapRank": null,
                 "shared": false
@@ -250,5 +258,10 @@
     "sprintResults": {
         "1950": {},
         "1951": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1
+    },
+    "totalStarts": 2
 }

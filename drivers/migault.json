@@ -1,10 +1,10 @@
 {
     "driverId": "migault",
-    "lastUpdate": "2026-10-02T11:47:20.522496",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 10,
+    "totalDNFs": 9,
     "seasonWins": {
         "1972": 0,
         "1974": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1972": 1,
         "1974": 6,
-        "1975": 3
+        "1975": 2
     },
     "poles": {
         "1972": [],
@@ -49,8 +49,7 @@
         },
         "1975": {
             "Spanish Grand Prix": "Not classified",
-            "Belgian Grand Prix": "Suspension",
-            "French Grand Prix": "Withdrew"
+            "Belgian Grand Prix": "Suspension"
         }
     },
     "fastLaps": {
@@ -311,13 +310,13 @@
     },
     "avgRacePositions": {
         "1972": 21.0,
-        "1974": 17.818181818181817,
-        "1975": 18.0
+        "1974": 16.9,
+        "1975": 14.0
     },
     "avgQualiPositions": {
-        "1972": -1,
-        "1974": -1,
-        "1975": -1
+        "1972": 25.0,
+        "1974": 22.6,
+        "1975": 22.0
     },
     "rates": {
         "wins": {
@@ -337,23 +336,39 @@
         },
         "DNFs": {
             "1972": 1.0,
-            "1974": 0.09090909090909091,
-            "1975": 0.3333333333333333
+            "1974": 0.6,
+            "1975": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.7333333333333333,
+    "dnfRate": 0.6923076923076923,
     "ptwConRate": {
         "1972": -1,
         "1974": -1,
         "1975": -1
     },
     "positionsGainLost": {
-        "1972": {},
-        "1974": {},
-        "1975": {}
+        "1972": {
+            "Austrian Grand Prix": 4
+        },
+        "1974": {
+            "Argentine Grand Prix": 6,
+            "Brazilian Grand Prix": 7,
+            "South African Grand Prix": 10,
+            "Spanish Grand Prix": 3,
+            "Belgian Grand Prix": 9,
+            "Monaco Grand Prix": 6,
+            "Dutch Grand Prix": 10,
+            "French Grand Prix": 8,
+            "British Grand Prix": -2,
+            "Italian Grand Prix": 0
+        },
+        "1975": {
+            "Spanish Grand Prix": 7,
+            "Belgian Grand Prix": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -367,6 +382,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "connew",
                 "fastestLapRank": null,
                 "shared": false
@@ -381,6 +398,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Water leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -393,6 +412,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -405,6 +426,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -417,6 +440,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -429,6 +454,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -441,6 +468,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -453,6 +482,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -465,6 +496,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -477,6 +510,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -489,6 +524,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -503,6 +540,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "lola",
                 "fastestLapRank": null,
                 "shared": false
@@ -515,6 +554,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hill",
                 "fastestLapRank": null,
                 "shared": false
@@ -527,6 +568,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": null,
                 "shared": false
@@ -537,5 +580,11 @@
         "1972": {},
         "1974": {},
         "1975": {}
-    }
+    },
+    "seasonStarts": {
+        "1972": 1,
+        "1974": 10,
+        "1975": 2
+    },
+    "totalStarts": 13
 }

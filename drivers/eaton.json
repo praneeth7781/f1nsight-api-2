@@ -1,10 +1,10 @@
 {
     "driverId": "eaton",
-    "lastUpdate": "2026-10-02T11:47:20.517653",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 9,
+    "totalDNFs": 7,
     "seasonWins": {
         "1969": 0,
         "1970": 0,
@@ -22,7 +22,7 @@
     },
     "seasonDNFs": {
         "1969": 2,
-        "1970": 7,
+        "1970": 5,
         "1971": 0
     },
     "poles": {
@@ -42,8 +42,6 @@
         },
         "1970": {
             "South African Grand Prix": "Engine",
-            "Spanish Grand Prix": "Did not qualify",
-            "Monaco Grand Prix": "Did not qualify",
             "Dutch Grand Prix": "Oil leak",
             "British Grand Prix": "Oil pressure",
             "Italian Grand Prix": "Overheating",
@@ -267,13 +265,13 @@
     },
     "avgRacePositions": {
         "1969": 12.0,
-        "1970": 16.1,
+        "1970": 15.125,
         "1971": 15.0
     },
     "avgQualiPositions": {
-        "1969": -1,
-        "1970": -1,
-        "1971": -1
+        "1969": 13.0,
+        "1970": 17.75,
+        "1971": 21.0
     },
     "rates": {
         "wins": {
@@ -293,23 +291,37 @@
         },
         "DNFs": {
             "1969": 1.0,
-            "1970": 0.2,
-            "1971": 2.0
+            "1970": 0.625,
+            "1971": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6923076923076923,
+    "dnfRate": 0.6363636363636364,
     "ptwConRate": {
         "1969": -1,
         "1970": -1,
         "1971": -1
     },
     "positionsGainLost": {
-        "1969": {},
-        "1970": {},
-        "1971": {}
+        "1969": {
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": 3
+        },
+        "1970": {
+            "South African Grand Prix": 7,
+            "Dutch Grand Prix": 4,
+            "French Grand Prix": 7,
+            "British Grand Prix": -5,
+            "Austrian Grand Prix": 12,
+            "Italian Grand Prix": 6,
+            "Canadian Grand Prix": -1,
+            "United States Grand Prix": -9
+        },
+        "1971": {
+            "Canadian Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -323,6 +335,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -335,6 +349,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -349,6 +365,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -361,6 +379,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -373,6 +393,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -385,6 +407,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -397,6 +421,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -409,6 +435,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -421,6 +449,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -433,6 +463,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -445,6 +477,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -457,6 +491,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -471,6 +507,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -481,5 +519,11 @@
         "1969": {},
         "1970": {},
         "1971": {}
-    }
+    },
+    "seasonStarts": {
+        "1969": 2,
+        "1970": 8,
+        "1971": 1
+    },
+    "totalStarts": 11
 }

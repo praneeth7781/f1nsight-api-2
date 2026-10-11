@@ -1,10 +1,10 @@
 {
     "driverId": "roig",
-    "lastUpdate": "2026-10-02T11:47:20.517948",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 9,
+    "totalDNFs": 6,
     "seasonWins": {
         "1970": 0,
         "1971": 0,
@@ -21,8 +21,8 @@
         "1972": 0
     },
     "seasonDNFs": {
-        "1970": 2,
-        "1971": 5,
+        "1970": 0,
+        "1971": 4,
         "1972": 2
     },
     "poles": {
@@ -36,14 +36,10 @@
         "1972": {}
     },
     "DNFs": {
-        "1970": {
-            "Spanish Grand Prix": "Did not qualify",
-            "French Grand Prix": "Did not qualify"
-        },
+        "1970": {},
         "1971": {
             "South African Grand Prix": "Engine",
             "Spanish Grand Prix": "Fuel pump",
-            "Monaco Grand Prix": "Did not qualify",
             "Dutch Grand Prix": "Engine",
             "French Grand Prix": "Fuel pump"
         },
@@ -282,14 +278,14 @@
         }
     },
     "avgRacePositions": {
-        "1970": 22.0,
-        "1971": 20.2,
+        "1970": -1,
+        "1971": 20.0,
         "1972": 23.0
     },
     "avgQualiPositions": {
         "1970": -1,
-        "1971": -1,
-        "1972": -1
+        "1971": 20.75,
+        "1972": 21.5
     },
     "rates": {
         "wins": {
@@ -308,8 +304,8 @@
             "1972": 0.0
         },
         "DNFs": {
-            "1970": 1.0,
-            "1971": 0.4,
+            "1970": 0.0,
+            "1971": 1.0,
             "1972": 1.0
         }
     },
@@ -324,8 +320,16 @@
     },
     "positionsGainLost": {
         "1970": {},
-        "1971": {},
-        "1972": {}
+        "1971": {
+            "South African Grand Prix": 0,
+            "Spanish Grand Prix": 4,
+            "Dutch Grand Prix": 1,
+            "French Grand Prix": -2
+        },
+        "1972": {
+            "Argentine Grand Prix": 0,
+            "Spanish Grand Prix": -3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -339,6 +343,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -351,6 +357,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -365,6 +373,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -377,6 +387,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -389,6 +401,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "march-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -401,6 +415,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -413,6 +429,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -427,6 +445,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -439,6 +459,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -449,5 +471,11 @@
         "1970": {},
         "1971": {},
         "1972": {}
-    }
+    },
+    "seasonStarts": {
+        "1970": 0,
+        "1971": 4,
+        "1972": 2
+    },
+    "totalStarts": 6
 }

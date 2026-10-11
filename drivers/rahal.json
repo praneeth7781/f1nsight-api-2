@@ -1,6 +1,6 @@
 {
     "driverId": "rahal",
-    "lastUpdate": "2026-10-02T11:47:20.535123",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -116,7 +116,7 @@
         "1978": 15.0
     },
     "avgQualiPositions": {
-        "1978": -1
+        "1978": 20.0
     },
     "rates": {
         "wins": {
@@ -140,7 +140,10 @@
         "1978": -1
     },
     "positionsGainLost": {
-        "1978": {}
+        "1978": {
+            "United States Grand Prix": 8,
+            "Canadian Grand Prix": 2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -154,6 +157,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "wolf",
                 "fastestLapRank": null,
                 "shared": false
@@ -166,6 +171,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "wolf",
                 "fastestLapRank": null,
                 "shared": false
@@ -174,5 +181,9 @@
     },
     "sprintResults": {
         "1978": {}
-    }
+    },
+    "seasonStarts": {
+        "1978": 2
+    },
+    "totalStarts": 2
 }

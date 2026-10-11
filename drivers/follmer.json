@@ -1,6 +1,6 @@
 {
     "driverId": "follmer",
-    "lastUpdate": "2026-10-02T11:47:20.522934",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -185,7 +185,7 @@
         "1973": 14.75
     },
     "avgQualiPositions": {
-        "1973": -1
+        "1973": 18.916666666666668
     },
     "rates": {
         "wins": {
@@ -209,7 +209,20 @@
         "1973": -1
     },
     "positionsGainLost": {
-        "1973": {}
+        "1973": {
+            "South African Grand Prix": 15,
+            "Spanish Grand Prix": 11,
+            "Belgian Grand Prix": -8,
+            "Swedish Grand Prix": 5,
+            "French Grand Prix": -2,
+            "British Grand Prix": -1,
+            "Dutch Grand Prix": 12,
+            "German Grand Prix": 2,
+            "Austrian Grand Prix": 3,
+            "Italian Grand Prix": 11,
+            "Canadian Grand Prix": -4,
+            "United States Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -223,6 +236,8 @@
                 "grid": 21,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -235,6 +250,8 @@
                 "grid": 14,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -247,6 +264,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Throttle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -259,6 +278,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -271,6 +292,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -283,6 +306,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -295,6 +320,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -307,6 +334,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -319,6 +348,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Differential",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -331,6 +362,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -343,6 +376,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -355,6 +390,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -363,5 +400,9 @@
     },
     "sprintResults": {
         "1973": {}
-    }
+    },
+    "seasonStarts": {
+        "1973": 12
+    },
+    "totalStarts": 12
 }

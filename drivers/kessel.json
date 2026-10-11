@@ -1,6 +1,6 @@
 {
     "driverId": "kessel",
-    "lastUpdate": "2026-10-02T11:47:20.530307",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -147,42 +147,38 @@
         }
     },
     "avgRacePositions": {
-        "1976": 21.0,
-        "1977": 33.0
+        "1976": 16.333333333333332
     },
     "avgQualiPositions": {
-        "1976": -1,
-        "1977": -1
+        "1976": 24.666666666666668
     },
     "rates": {
         "wins": {
-            "1976": 0.0,
-            "1977": 0.0
+            "1976": 0.0
         },
         "podiums": {
-            "1976": 0.0,
-            "1977": 0.0
+            "1976": 0.0
         },
         "poles": {
-            "1976": 0.0,
-            "1977": 0.0
+            "1976": 0.0
         },
         "DNFs": {
-            "1976": 0.8,
-            "1977": 4.0
+            "1976": 0.6666666666666666
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8333333333333334,
+    "dnfRate": 0.6666666666666666,
     "ptwConRate": {
-        "1976": -1,
-        "1977": -1
+        "1976": -1
     },
     "positionsGainLost": {
-        "1976": {},
-        "1977": {}
+        "1976": {
+            "Belgian Grand Prix": 11,
+            "Swedish Grand Prix": 3,
+            "Austrian Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -196,6 +192,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -208,6 +206,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -220,6 +220,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -228,5 +230,9 @@
     },
     "sprintResults": {
         "1976": {}
-    }
+    },
+    "seasonStarts": {
+        "1976": 3
+    },
+    "totalStarts": 3
 }

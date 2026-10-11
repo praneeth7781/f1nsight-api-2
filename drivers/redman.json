@@ -1,10 +1,10 @@
 {
     "driverId": "redman",
-    "lastUpdate": "2026-10-02T11:47:20.516194",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 5,
     "seasonWins": {
         "1968": 0,
         "1970": 0,
@@ -31,11 +31,11 @@
     },
     "seasonDNFs": {
         "1968": 2,
-        "1970": 1,
+        "1970": 0,
         "1971": 0,
         "1972": 1,
-        "1973": 1,
-        "1974": 1
+        "1973": 0,
+        "1974": 2
     },
     "poles": {
         "1968": [],
@@ -60,17 +60,14 @@
             "South African Grand Prix": "Oil leak",
             "Belgian Grand Prix": "Spun off"
         },
-        "1970": {
-            "German Grand Prix": "Did not qualify"
-        },
+        "1970": {},
         "1971": {},
         "1972": {
             "United States Grand Prix": "Engine"
         },
-        "1973": {
-            "United States Grand Prix": "Disqualified"
-        },
+        "1973": {},
         "1974": {
+            "Belgian Grand Prix": "Engine",
             "Monaco Grand Prix": "Collision"
         }
     },
@@ -418,21 +415,21 @@
     "consistency": {
         "mean": {
             "wins": 0.0,
-            "podiums": 0.0,
+            "podiums": 0.16666666666666666,
             "poles": 0.0,
-            "points": 2.6
+            "points": 1.3333333333333333
         },
         "std": {
             "wins": 0.0,
-            "podiums": 0.0,
+            "podiums": 0.372677996249965,
             "poles": 0.0,
-            "points": 4.223742416388575
+            "points": 1.8856180831641267
         },
         "cv": {
             "wins": 0,
-            "podiums": 0,
+            "podiums": 2.2360679774997902,
             "poles": 0,
-            "points": 1.6245163139956056
+            "points": 1.4142135623730951
         }
     },
     "peakSeason": {
@@ -441,8 +438,8 @@
             "wins": 0
         },
         "podiums": {
-            "season": "No peak season",
-            "podiums": 0
+            "season": "1968",
+            "podiums": 1
         },
         "poles": {
             "season": "No peak season",
@@ -450,66 +447,91 @@
         }
     },
     "avgRacePositions": {
-        "1977": 27.833333333333332,
-        "1978": 21.0625,
-        "1979": 17.428571428571427,
-        "1980": 15.571428571428571,
-        "1981": 13.666666666666666
+        "1968": 12.333333333333334,
+        "1970": -1,
+        "1971": 7.0,
+        "1972": 11.25,
+        "1973": 24.0,
+        "1974": 16.0
     },
     "avgQualiPositions": {
-        "1977": -1,
-        "1978": -1,
-        "1979": -1,
-        "1980": -1,
-        "1981": -1
+        "1968": 15.0,
+        "1970": -1,
+        "1971": 17.0,
+        "1972": 16.5,
+        "1973": 13.0,
+        "1974": 18.333333333333332
     },
     "rates": {
         "wins": {
-            "1977": 0.0,
-            "1978": 0.0,
-            "1979": 0.0,
-            "1980": 0.0,
-            "1981": 0.0
+            "1968": 0.0,
+            "1970": 0.0,
+            "1971": 0.0,
+            "1972": 0.0,
+            "1973": 0.0,
+            "1974": 0.0
         },
         "podiums": {
-            "1977": 0.0,
-            "1978": 0.0,
-            "1979": 0.0,
-            "1980": 0.0,
-            "1981": 0.0
+            "1968": 0.3333333333333333,
+            "1970": 0.0,
+            "1971": 0.0,
+            "1972": 0.0,
+            "1973": 0.0,
+            "1974": 0.0
         },
         "poles": {
-            "1977": 0.0,
-            "1978": 0.0,
-            "1979": 0.0,
-            "1980": 0.0,
-            "1981": 0.0
+            "1968": 0.0,
+            "1970": 0.0,
+            "1971": 0.0,
+            "1972": 0.0,
+            "1973": 0.0,
+            "1974": 0.0
         },
         "DNFs": {
-            "1977": 1.0,
-            "1978": 0.375,
-            "1979": 0.42857142857142855,
-            "1980": 0.8571428571428571,
-            "1981": 0.4
+            "1968": 0.6666666666666666,
+            "1970": 0.0,
+            "1971": 0.0,
+            "1972": 0.25,
+            "1973": 0.0,
+            "1974": 0.6666666666666666
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.0,
+    "podiumRate": 0.08333333333333333,
     "poleRate": 0.0,
-    "dnfRate": 0.7413793103448276,
+    "dnfRate": 0.4166666666666667,
     "ptwConRate": {
-        "1977": -1,
-        "1978": -1,
-        "1979": -1,
-        "1980": -1,
-        "1981": -1
+        "1968": -1,
+        "1970": -1,
+        "1971": -1,
+        "1972": -1,
+        "1973": -1,
+        "1974": -1
     },
     "positionsGainLost": {
-        "1977": {},
-        "1978": {},
-        "1979": {},
-        "1980": {},
-        "1981": {}
+        "1968": {
+            "South African Grand Prix": 0,
+            "Spanish Grand Prix": 10,
+            "Belgian Grand Prix": -2
+        },
+        "1970": {},
+        "1971": {
+            "South African Grand Prix": 10
+        },
+        "1972": {
+            "Monaco Grand Prix": 5,
+            "French Grand Prix": 4,
+            "German Grand Prix": 14,
+            "United States Grand Prix": -2
+        },
+        "1973": {
+            "United States Grand Prix": -11
+        },
+        "1974": {
+            "Spanish Grand Prix": 14,
+            "Belgian Grand Prix": 0,
+            "Monaco Grand Prix": -7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -523,6 +545,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -535,6 +559,8 @@
                 "grid": 13,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -547,6 +573,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -561,6 +589,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "tomaso",
                 "fastestLapRank": null,
                 "shared": false
@@ -575,6 +605,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -589,6 +621,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -601,6 +635,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -613,6 +649,8 @@
                 "grid": 19,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -625,6 +663,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -639,6 +679,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -653,6 +695,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -665,6 +709,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -677,6 +723,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -690,5 +738,14 @@
         "1972": {},
         "1973": {},
         "1974": {}
-    }
+    },
+    "seasonStarts": {
+        "1968": 3,
+        "1970": 0,
+        "1971": 1,
+        "1972": 4,
+        "1973": 1,
+        "1974": 3
+    },
+    "totalStarts": 12
 }

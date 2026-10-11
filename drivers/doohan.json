@@ -2,7 +2,7 @@
     "driverId": "doohan",
     "driverCode": "DOO",
     "driverNumber": "61",
-    "lastUpdate": "2026-10-02T11:47:20.572856",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -292,13 +292,13 @@
         },
         "DNFs": {
             "2024": 0.0,
-            "2025": 0.5
+            "2025": 0.3333333333333333
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.42857142857142855,
+    "dnfRate": 0.2857142857142857,
     "ptwConRate": {
         "2024": -1,
         "2025": -1
@@ -326,6 +326,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alpine",
                 "fastestLapRank": 13,
                 "shared": false
@@ -340,6 +342,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "alpine",
                 "fastestLapRank": null,
                 "shared": false
@@ -352,6 +356,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "alpine",
                 "fastestLapRank": 14,
                 "shared": false
@@ -364,6 +370,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "alpine",
                 "fastestLapRank": 20,
                 "shared": false
@@ -376,6 +384,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "alpine",
                 "fastestLapRank": 8,
                 "shared": false
@@ -388,6 +398,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Lapped",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alpine",
                 "fastestLapRank": 12,
                 "shared": false
@@ -400,6 +412,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "alpine",
                 "fastestLapRank": null,
                 "shared": false
@@ -424,5 +438,10 @@
                 "constructorId": "alpine"
             }
         }
-    }
+    },
+    "seasonStarts": {
+        "2024": 1,
+        "2025": 6
+    },
+    "totalStarts": 7
 }

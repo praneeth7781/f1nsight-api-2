@@ -1,6 +1,6 @@
 {
     "driverId": "duncan_hamilton",
-    "lastUpdate": "2026-10-02T11:47:20.464283",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -227,9 +227,9 @@
         "1953": 24.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1,
-        "1953": -1
+        "1951": 15.5,
+        "1952": 10.5,
+        "1953": 17.0
     },
     "rates": {
         "wins": {
@@ -263,9 +263,17 @@
         "1953": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {},
-        "1953": {}
+        "1951": {
+            "British Grand Prix": -1,
+            "German Grand Prix": 5
+        },
+        "1952": {
+            "British Grand Prix": -13,
+            "Dutch Grand Prix": 3
+        },
+        "1953": {
+            "British Grand Prix": -7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -279,6 +287,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -291,6 +301,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -305,6 +317,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -317,6 +331,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -331,6 +347,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -341,5 +359,11 @@
         "1951": {},
         "1952": {},
         "1953": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 2,
+        "1952": 2,
+        "1953": 1
+    },
+    "totalStarts": 5
 }

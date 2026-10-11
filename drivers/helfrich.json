@@ -1,6 +1,6 @@
 {
     "driverId": "helfrich",
-    "lastUpdate": "2026-10-02T11:47:20.472426",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -213,9 +213,9 @@
         "1954": 14.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1,
-        "1954": -1
+        "1952": 18.0,
+        "1953": 28.0,
+        "1954": 21.0
     },
     "rates": {
         "wins": {
@@ -235,7 +235,7 @@
         },
         "DNFs": {
             "1952": 1.0,
-            "1953": 1.0,
+            "1953": 0.0,
             "1954": 1.0
         }
     },
@@ -249,9 +249,15 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {},
-        "1954": {}
+        "1952": {
+            "German Grand Prix": -9
+        },
+        "1953": {
+            "German Grand Prix": 16
+        },
+        "1954": {
+            "German Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -265,6 +271,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "veritas",
                 "fastestLapRank": null,
                 "shared": false
@@ -279,6 +287,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "veritas",
                 "fastestLapRank": null,
                 "shared": false
@@ -293,6 +303,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "klenk",
                 "fastestLapRank": null,
                 "shared": false
@@ -303,5 +315,11 @@
         "1952": {},
         "1953": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1,
+        "1953": 1,
+        "1954": 1
+    },
+    "totalStarts": 3
 }

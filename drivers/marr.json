@@ -1,6 +1,6 @@
 {
     "driverId": "marr",
-    "lastUpdate": "2026-10-02T11:47:20.479749",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -165,8 +165,8 @@
         "1955": 20.0
     },
     "avgQualiPositions": {
-        "1954": -1,
-        "1955": -1
+        "1954": 22.0,
+        "1955": 19.0
     },
     "rates": {
         "wins": {
@@ -183,7 +183,7 @@
         },
         "DNFs": {
             "1954": 0.0,
-            "1955": 0.0
+            "1955": 1.0
         }
     },
     "winRate": 0.0,
@@ -195,8 +195,12 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1954": {},
-        "1955": {}
+        "1954": {
+            "British Grand Prix": 9
+        },
+        "1955": {
+            "British Grand Prix": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -210,6 +214,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": false
@@ -224,6 +230,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": false
@@ -233,5 +241,10 @@
     "sprintResults": {
         "1954": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1954": 1,
+        "1955": 1
+    },
+    "totalStarts": 2
 }

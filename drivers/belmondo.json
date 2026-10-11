@@ -1,10 +1,10 @@
 {
     "driverId": "belmondo",
-    "lastUpdate": "2026-10-02T11:47:20.549994",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 16,
+    "totalDNFs": 2,
     "seasonWins": {
         "1992": 0,
         "1994": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1992": 0,
-        "1994": 16
+        "1994": 2
     },
     "poles": {
         "1992": [],
@@ -32,22 +32,8 @@
     "DNFs": {
         "1992": {},
         "1994": {
-            "Brazilian Grand Prix": "Did not qualify",
-            "Pacific Grand Prix": "Did not qualify",
-            "San Marino Grand Prix": "Did not qualify",
             "Monaco Grand Prix": "Physical",
-            "Spanish Grand Prix": "Spun off",
-            "Canadian Grand Prix": "Did not qualify",
-            "French Grand Prix": "Did not qualify",
-            "British Grand Prix": "Did not qualify",
-            "German Grand Prix": "Did not qualify",
-            "Hungarian Grand Prix": "Did not qualify",
-            "Belgian Grand Prix": "Did not qualify",
-            "Italian Grand Prix": "Did not qualify",
-            "Portuguese Grand Prix": "Did not qualify",
-            "European Grand Prix": "Did not qualify",
-            "Japanese Grand Prix": "Did not qualify",
-            "Australian Grand Prix": "Did not qualify"
+            "Spanish Grand Prix": "Spun off"
         }
     },
     "fastLaps": {
@@ -304,12 +290,12 @@
         }
     },
     "avgRacePositions": {
-        "1992": 20.818181818181817,
-        "1994": 26.75
+        "1992": 12.2,
+        "1994": 19.0
     },
     "avgQualiPositions": {
-        "1992": -1,
-        "1994": 26.5
+        "1992": 21.2,
+        "1994": 25.0
     },
     "rates": {
         "wins": {
@@ -325,22 +311,28 @@
             "1994": 0.0
         },
         "DNFs": {
-            "1992": 0.5454545454545454,
-            "1994": 0.375
+            "1992": 0.0,
+            "1994": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8148148148148148,
+    "dnfRate": 0.2857142857142857,
     "ptwConRate": {
         "1992": -1,
         "1994": -1
     },
     "positionsGainLost": {
-        "1992": {},
+        "1992": {
+            "Spanish Grand Prix": 11,
+            "San Marino Grand Prix": 11,
+            "Canadian Grand Prix": 6,
+            "German Grand Prix": 9,
+            "Hungarian Grand Prix": 8
+        },
         "1994": {
-            "San Marino Grand Prix": -1,
+            "Monaco Grand Prix": 11,
             "Spanish Grand Prix": 1
         }
     },
@@ -356,6 +348,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -368,6 +362,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -380,6 +376,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -392,6 +390,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -404,6 +404,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -418,6 +420,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -430,6 +434,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -442,6 +448,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -454,6 +462,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Physical",
+                "outcome": "retired",
+                "cause": "driver",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -466,6 +476,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -478,6 +490,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -490,6 +504,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -502,6 +518,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -514,6 +532,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -526,6 +546,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -538,6 +560,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -550,6 +574,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -562,6 +588,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -574,6 +602,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -586,6 +616,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -598,6 +630,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -607,5 +641,10 @@
     "sprintResults": {
         "1992": {},
         "1994": {}
-    }
+    },
+    "seasonStarts": {
+        "1992": 5,
+        "1994": 2
+    },
+    "totalStarts": 7
 }

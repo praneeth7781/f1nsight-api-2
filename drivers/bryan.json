@@ -1,10 +1,10 @@
 {
     "driverId": "bryan",
-    "lastUpdate": "2026-10-02T11:47:20.467256",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 1,
     "totalPodiums": 3,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 3,
     "seasonWins": {
         "1952": 0,
         "1953": 0,
@@ -47,7 +47,7 @@
         "1957": 0,
         "1958": 0,
         "1959": 1,
-        "1960": 0
+        "1960": 1
     },
     "poles": {
         "1952": [],
@@ -90,7 +90,9 @@
         "1959": {
             "Indianapolis 500": "Engine"
         },
-        "1960": {}
+        "1960": {
+            "Indianapolis 500": "Fuel system"
+        }
     },
     "fastLaps": {
         "1952": {
@@ -566,13 +568,13 @@
         },
         "std": {
             "wins": 0.31426968052735443,
-            "podiums": 0.4714045207910317,
+            "podiums": 0.47140452079103173,
             "poles": 0.0,
             "points": 2.9814239699997196
         },
         "cv": {
             "wins": 2.82842712474619,
-            "podiums": 1.4142135623730951,
+            "podiums": 1.4142135623730954,
             "poles": 0,
             "points": 1.4907119849998598
         }
@@ -603,15 +605,15 @@
         "1960": 19.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1,
-        "1960": -1
+        "1952": 21.0,
+        "1953": 31.0,
+        "1954": 3.0,
+        "1955": 11.0,
+        "1956": 19.0,
+        "1957": 15.0,
+        "1958": 7.0,
+        "1959": 20.0,
+        "1960": 10.0
     },
     "rates": {
         "wins": {
@@ -651,12 +653,12 @@
             "1952": 0.0,
             "1953": 0.0,
             "1954": 0.0,
-            "1955": 0.0,
+            "1955": 1.0,
             "1956": 0.0,
             "1957": 0.0,
             "1958": 0.0,
-            "1959": 0.0,
-            "1960": 0.0
+            "1959": 1.0,
+            "1960": 1.0
         }
     },
     "winRate": 0.1111111111111111,
@@ -675,15 +677,33 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1952": {
+            "Indianapolis 500": 15
+        },
+        "1953": {
+            "Indianapolis 500": 17
+        },
+        "1954": {
+            "Indianapolis 500": 1
+        },
+        "1955": {
+            "Indianapolis 500": -13
+        },
+        "1956": {
+            "Indianapolis 500": 0
+        },
+        "1957": {
+            "Indianapolis 500": 12
+        },
+        "1958": {
+            "Indianapolis 500": 6
+        },
+        "1959": {
+            "Indianapolis 500": -13
+        },
+        "1960": {
+            "Indianapolis 500": -9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -697,6 +717,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -711,6 +733,8 @@
                 "grid": 31,
                 "points": 0.0,
                 "status": "+17 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "schroeder",
                 "fastestLapRank": null,
                 "shared": false
@@ -725,6 +749,8 @@
                 "grid": 3,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -739,6 +765,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -753,6 +781,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+15 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -767,6 +797,8 @@
                 "grid": 15,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -781,6 +813,8 @@
                 "grid": 7,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "epperly",
                 "fastestLapRank": null,
                 "shared": false
@@ -795,6 +829,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "epperly",
                 "fastestLapRank": null,
                 "shared": false
@@ -809,6 +845,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "epperly",
                 "fastestLapRank": null,
                 "shared": false
@@ -825,5 +863,17 @@
         "1958": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1,
+        "1956": 1,
+        "1957": 1,
+        "1958": 1,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 9
 }

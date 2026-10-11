@@ -1,6 +1,6 @@
 {
     "driverId": "mclaren",
-    "lastUpdate": "2026-10-02T11:47:20.491681",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 4,
     "totalPodiums": 27,
     "totalPoles": 0,
@@ -56,13 +56,13 @@
         "1960": 1,
         "1961": 1,
         "1962": 2,
-        "1963": 4,
+        "1963": 6,
         "1964": 5,
         "1965": 5,
-        "1966": 3,
+        "1966": 2,
         "1967": 7,
         "1968": 4,
-        "1969": 3,
+        "1969": 2,
         "1970": 2
     },
     "poles": {
@@ -151,8 +151,10 @@
         },
         "1963": {
             "Dutch Grand Prix": "Gearbox",
+            "French Grand Prix": "Ignition",
             "British Grand Prix": "Engine",
             "German Grand Prix": "Accident",
+            "United States Grand Prix": "Fuel pump",
             "Mexican Grand Prix": "Engine"
         },
         "1964": {
@@ -171,7 +173,6 @@
         },
         "1966": {
             "Monaco Grand Prix": "Oil leak",
-            "Belgian Grand Prix": "Withdrew",
             "Mexican Grand Prix": "Engine"
         },
         "1967": {
@@ -191,8 +192,7 @@
         },
         "1969": {
             "Dutch Grand Prix": "Suspension",
-            "United States Grand Prix": "Engine",
-            "Mexican Grand Prix": "Withdrew"
+            "United States Grand Prix": "Engine"
         },
         "1970": {
             "South African Grand Prix": "Engine",
@@ -1239,13 +1239,13 @@
         },
         "std": {
             "wins": 0.46153846153846156,
-            "podiums": 1.8170787401565716,
+            "podiums": 1.817078740156572,
             "poles": 0.0,
             "points": 10.065172244313175
         },
         "cv": {
             "wins": 1.5,
-            "podiums": 0.8748897637790899,
+            "podiums": 0.8748897637790901,
             "poles": 0,
             "points": 0.6941498099526328
         }
@@ -1273,26 +1273,26 @@
         "1963": 10.7,
         "1964": 10.5,
         "1965": 9.9,
-        "1966": 10.4,
+        "1966": 9.0,
         "1967": 13.333333333333334,
         "1968": 8.090909090909092,
-        "1969": 7.090909090909091,
+        "1969": 6.1,
         "1970": 11.333333333333334
     },
     "avgQualiPositions": {
-        "1958": -1,
-        "1959": -1,
-        "1960": -1,
-        "1961": -1,
-        "1962": -1,
-        "1963": -1,
-        "1964": -1,
-        "1965": -1,
-        "1966": -1,
-        "1967": -1,
-        "1968": -1,
-        "1969": -1,
-        "1970": -1
+        "1958": 16.5,
+        "1959": 9.571428571428571,
+        "1960": 9.125,
+        "1961": 11.0,
+        "1962": 4.444444444444445,
+        "1963": 6.7,
+        "1964": 7.1,
+        "1965": 9.1,
+        "1966": 12.0,
+        "1967": 7.777777777777778,
+        "1968": 7.818181818181818,
+        "1969": 8.0,
+        "1970": 10.333333333333334
     },
     "rates": {
         "wins": {
@@ -1322,7 +1322,7 @@
             "1966": 0.0,
             "1967": 0.0,
             "1968": 0.2727272727272727,
-            "1969": 0.2727272727272727,
+            "1969": 0.3,
             "1970": 0.3333333333333333
         },
         "poles": {
@@ -1342,24 +1342,24 @@
         },
         "DNFs": {
             "1958": 0.0,
-            "1959": 0.0,
-            "1960": 0.0,
-            "1961": 0.0,
-            "1962": 0.0,
-            "1963": 0.0,
-            "1964": 0.0,
-            "1965": 0.0,
-            "1966": 0.0,
-            "1967": 0.0,
-            "1968": 0.0,
-            "1969": 0.0,
-            "1970": 0.0
+            "1959": 0.42857142857142855,
+            "1960": 0.125,
+            "1961": 0.125,
+            "1962": 0.2222222222222222,
+            "1963": 0.6,
+            "1964": 0.5,
+            "1965": 0.5,
+            "1966": 0.5,
+            "1967": 0.7777777777777778,
+            "1968": 0.36363636363636365,
+            "1969": 0.2,
+            "1970": 0.6666666666666666
         }
     },
-    "winRate": 0.038834951456310676,
-    "podiumRate": 0.2621359223300971,
+    "winRate": 0.039603960396039604,
+    "podiumRate": 0.26732673267326734,
     "poleRate": 0.0,
-    "dnfRate": 0.4077669902912621,
+    "dnfRate": 0.39603960396039606,
     "ptwConRate": {
         "1958": -1,
         "1959": -1,
@@ -1376,19 +1376,133 @@
         "1970": -1
     },
     "positionsGainLost": {
-        "1958": {},
-        "1959": {},
-        "1960": {},
-        "1961": {},
-        "1962": {},
-        "1963": {},
-        "1964": {},
-        "1965": {},
-        "1966": {},
-        "1967": {},
-        "1968": {},
-        "1969": {},
-        "1970": {}
+        "1958": {
+            "German Grand Prix": 7,
+            "Moroccan Grand Prix": 8
+        },
+        "1959": {
+            "Monaco Grand Prix": 8,
+            "French Grand Prix": 5,
+            "British Grand Prix": 5,
+            "German Grand Prix": 1,
+            "Portuguese Grand Prix": -3,
+            "Italian Grand Prix": -8,
+            "United States Grand Prix": 9
+        },
+        "1960": {
+            "Argentine Grand Prix": 12,
+            "Monaco Grand Prix": 9,
+            "Dutch Grand Prix": -7,
+            "Belgian Grand Prix": 12,
+            "French Grand Prix": 4,
+            "British Grand Prix": -1,
+            "Portuguese Grand Prix": 4,
+            "United States Grand Prix": 7
+        },
+        "1961": {
+            "Monaco Grand Prix": 1,
+            "Dutch Grand Prix": 2,
+            "Belgian Grand Prix": -3,
+            "French Grand Prix": 3,
+            "British Grand Prix": 6,
+            "German Grand Prix": 6,
+            "Italian Grand Prix": 11,
+            "United States Grand Prix": 0
+        },
+        "1962": {
+            "Dutch Grand Prix": -11,
+            "Monaco Grand Prix": 2,
+            "Belgian Grand Prix": -14,
+            "French Grand Prix": -1,
+            "British Grand Prix": 1,
+            "German Grand Prix": 0,
+            "Italian Grand Prix": 1,
+            "United States Grand Prix": 3,
+            "South African Grand Prix": 6
+        },
+        "1963": {
+            "Monaco Grand Prix": 5,
+            "Belgian Grand Prix": 3,
+            "Dutch Grand Prix": -15,
+            "French Grand Prix": -6,
+            "British Grand Prix": -17,
+            "German Grand Prix": -12,
+            "Italian Grand Prix": 5,
+            "United States Grand Prix": 0,
+            "Mexican Grand Prix": -8,
+            "South African Grand Prix": 5
+        },
+        "1964": {
+            "Monaco Grand Prix": -4,
+            "Dutch Grand Prix": -2,
+            "Belgian Grand Prix": 5,
+            "French Grand Prix": 1,
+            "British Grand Prix": -16,
+            "German Grand Prix": -9,
+            "Austrian Grand Prix": -4,
+            "Italian Grand Prix": 3,
+            "United States Grand Prix": -11,
+            "Mexican Grand Prix": 3
+        },
+        "1965": {
+            "South African Grand Prix": 3,
+            "Monaco Grand Prix": 2,
+            "Belgian Grand Prix": 6,
+            "French Grand Prix": -1,
+            "British Grand Prix": 1,
+            "Dutch Grand Prix": -6,
+            "German Grand Prix": -4,
+            "Italian Grand Prix": 6,
+            "United States Grand Prix": -14,
+            "Mexican Grand Prix": -1
+        },
+        "1966": {
+            "Monaco Grand Prix": -5,
+            "British Grand Prix": 7,
+            "United States Grand Prix": 6,
+            "Mexican Grand Prix": 4
+        },
+        "1967": {
+            "Monaco Grand Prix": 6,
+            "Dutch Grand Prix": -3,
+            "French Grand Prix": -6,
+            "British Grand Prix": -8,
+            "German Grand Prix": -17,
+            "Canadian Grand Prix": -1,
+            "Italian Grand Prix": -8,
+            "United States Grand Prix": -8,
+            "Mexican Grand Prix": -5
+        },
+        "1968": {
+            "Spanish Grand Prix": -2,
+            "Monaco Grand Prix": -8,
+            "Belgian Grand Prix": 5,
+            "Dutch Grand Prix": -9,
+            "French Grand Prix": -2,
+            "British Grand Prix": 3,
+            "German Grand Prix": 3,
+            "Italian Grand Prix": -10,
+            "Canadian Grand Prix": 6,
+            "United States Grand Prix": 4,
+            "Mexican Grand Prix": 7
+        },
+        "1969": {
+            "South African Grand Prix": 3,
+            "Spanish Grand Prix": 11,
+            "Monaco Grand Prix": 6,
+            "Dutch Grand Prix": -6,
+            "French Grand Prix": 3,
+            "British Grand Prix": 4,
+            "German Grand Prix": 5,
+            "Italian Grand Prix": 1,
+            "Canadian Grand Prix": 4,
+            "United States Grand Prix": -12
+        },
+        "1970": {
+            "South African Grand Prix": -8,
+            "Spanish Grand Prix": 9,
+            "Monaco Grand Prix": -4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -1402,6 +1516,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -1414,6 +1530,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -1428,6 +1546,8 @@
                 "grid": 13,
                 "points": 2.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1440,6 +1560,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1452,6 +1574,8 @@
                 "grid": 8,
                 "points": 4.5,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1464,6 +1588,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1476,6 +1602,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1488,6 +1616,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1500,6 +1630,8 @@
                 "grid": 10,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1514,6 +1646,8 @@
                 "grid": 13,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1526,6 +1660,8 @@
                 "grid": 11,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1538,6 +1674,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1550,6 +1688,8 @@
                 "grid": 14,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1562,6 +1702,8 @@
                 "grid": 7,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1574,6 +1716,8 @@
                 "grid": 3,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1586,6 +1730,8 @@
                 "grid": 6,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1598,6 +1744,8 @@
                 "grid": 10,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1612,6 +1760,8 @@
                 "grid": 7,
                 "points": 1.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1624,6 +1774,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1636,6 +1788,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1648,6 +1802,8 @@
                 "grid": 8,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1660,6 +1816,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1672,6 +1830,8 @@
                 "grid": 12,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1684,6 +1844,8 @@
                 "grid": 14,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1696,6 +1858,8 @@
                 "grid": 4,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1710,6 +1874,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1722,6 +1888,8 @@
                 "grid": 3,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1734,6 +1902,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1746,6 +1916,8 @@
                 "grid": 3,
                 "points": 3.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1758,6 +1930,8 @@
                 "grid": 4,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1770,6 +1944,8 @@
                 "grid": 5,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1782,6 +1958,8 @@
                 "grid": 4,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1794,6 +1972,8 @@
                 "grid": 6,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1806,6 +1986,8 @@
                 "grid": 8,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1820,6 +2002,8 @@
                 "grid": 8,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1832,6 +2016,8 @@
                 "grid": 5,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1844,6 +2030,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1856,6 +2044,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1868,6 +2058,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1880,6 +2072,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1892,6 +2086,8 @@
                 "grid": 8,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1904,6 +2100,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1916,6 +2114,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1928,6 +2128,8 @@
                 "grid": 9,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1942,6 +2144,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1954,6 +2158,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1966,6 +2172,8 @@
                 "grid": 7,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1978,6 +2186,8 @@
                 "grid": 7,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1990,6 +2200,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2002,6 +2214,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2014,6 +2228,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2026,6 +2242,8 @@
                 "grid": 5,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2038,6 +2256,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2050,6 +2270,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2064,6 +2286,8 @@
                 "grid": 8,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2076,6 +2300,8 @@
                 "grid": 7,
                 "points": 2.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2088,6 +2314,8 @@
                 "grid": 9,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2100,6 +2328,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2112,6 +2342,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2124,6 +2356,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Differential",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2136,6 +2370,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2148,6 +2384,8 @@
                 "grid": 11,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2160,6 +2398,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2172,6 +2412,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -2186,6 +2428,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2198,6 +2442,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "mclaren-seren",
                 "fastestLapRank": null,
                 "shared": false
@@ -2210,6 +2456,8 @@
                 "grid": 13,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-seren",
                 "fastestLapRank": null,
                 "shared": false
@@ -2222,6 +2470,8 @@
                 "grid": 11,
                 "points": 2.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2234,6 +2484,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2248,6 +2500,8 @@
                 "grid": 10,
                 "points": 3.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -2260,6 +2514,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "mclaren-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -2272,6 +2528,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eagle-weslake",
                 "fastestLapRank": null,
                 "shared": false
@@ -2284,6 +2542,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eagle-weslake",
                 "fastestLapRank": null,
                 "shared": false
@@ -2296,6 +2556,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eagle-weslake",
                 "fastestLapRank": null,
                 "shared": false
@@ -2308,6 +2570,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -2320,6 +2584,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -2332,6 +2598,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Water leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -2344,6 +2612,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -2358,6 +2628,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2370,6 +2642,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2382,6 +2656,8 @@
                 "grid": 6,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2394,6 +2670,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2406,6 +2684,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2418,6 +2698,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2430,6 +2712,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -2442,6 +2726,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2454,6 +2740,8 @@
                 "grid": 8,
                 "points": 6.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2466,6 +2754,8 @@
                 "grid": 10,
                 "points": 1.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2478,6 +2768,8 @@
                 "grid": 9,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2492,6 +2784,8 @@
                 "grid": 8,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2504,6 +2798,8 @@
                 "grid": 13,
                 "points": 6.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2516,6 +2812,8 @@
                 "grid": 11,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2528,6 +2826,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2540,6 +2840,8 @@
                 "grid": 7,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2552,6 +2854,8 @@
                 "grid": 7,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2564,6 +2868,8 @@
                 "grid": 8,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2576,6 +2882,8 @@
                 "grid": 5,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2588,6 +2896,8 @@
                 "grid": 9,
                 "points": 2.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2600,6 +2910,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2612,6 +2924,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2626,6 +2940,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2638,6 +2954,8 @@
                 "grid": 11,
                 "points": 6.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2650,6 +2968,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -2670,5 +2990,21 @@
         "1968": {},
         "1969": {},
         "1970": {}
-    }
+    },
+    "seasonStarts": {
+        "1958": 2,
+        "1959": 7,
+        "1960": 8,
+        "1961": 8,
+        "1962": 9,
+        "1963": 10,
+        "1964": 10,
+        "1965": 10,
+        "1966": 4,
+        "1967": 9,
+        "1968": 11,
+        "1969": 10,
+        "1970": 3
+    },
+    "totalStarts": 101
 }

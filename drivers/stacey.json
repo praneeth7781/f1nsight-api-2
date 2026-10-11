@@ -1,6 +1,6 @@
 {
     "driverId": "stacey",
-    "lastUpdate": "2026-10-02T11:47:20.491522",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -260,9 +260,9 @@
         "1960": 12.25
     },
     "avgQualiPositions": {
-        "1958": -1,
-        "1959": -1,
-        "1960": -1
+        "1958": 20.0,
+        "1959": 12.0,
+        "1960": 13.0
     },
     "rates": {
         "wins": {
@@ -283,7 +283,7 @@
         "DNFs": {
             "1958": 1.0,
             "1959": 0.5,
-            "1960": 0.25
+            "1960": 1.0
         }
     },
     "winRate": 0.0,
@@ -296,9 +296,19 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1958": {
+            "British Grand Prix": 2
+        },
+        "1959": {
+            "British Grand Prix": 4,
+            "United States Grand Prix": -5
+        },
+        "1960": {
+            "Argentine Grand Prix": -5,
+            "Monaco Grand Prix": 0,
+            "Dutch Grand Prix": -1,
+            "Belgian Grand Prix": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -312,6 +322,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -326,6 +338,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -338,6 +352,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -352,6 +368,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Physical",
+                "outcome": "retired",
+                "cause": "driver",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -364,6 +382,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Chassis",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -376,6 +396,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -388,6 +410,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -398,5 +422,11 @@
         "1958": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1958": 1,
+        "1959": 2,
+        "1960": 4
+    },
+    "totalStarts": 7
 }

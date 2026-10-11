@@ -1,6 +1,6 @@
 {
     "driverId": "gaze",
-    "lastUpdate": "2026-10-02T11:47:20.469148",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -129,10 +129,10 @@
         }
     },
     "avgRacePositions": {
-        "1952": 21.75
+        "1952": 19.0
     },
     "avgQualiPositions": {
-        "1952": -1
+        "1952": 18.666666666666668
     },
     "rates": {
         "wins": {
@@ -145,18 +145,22 @@
             "1952": 0.0
         },
         "DNFs": {
-            "1952": 0.75
+            "1952": 0.6666666666666666
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.75,
+    "dnfRate": 0.6666666666666666,
     "ptwConRate": {
         "1952": -1
     },
     "positionsGainLost": {
-        "1952": {}
+        "1952": {
+            "Belgian Grand Prix": 1,
+            "British Grand Prix": -1,
+            "German Grand Prix": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -170,6 +174,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -182,6 +188,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -194,6 +202,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -202,5 +212,9 @@
     },
     "sprintResults": {
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 3
+    },
+    "totalStarts": 3
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "swaters",
-    "lastUpdate": "2026-10-02T11:47:20.464767",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -237,9 +237,9 @@
         "1954": 13.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1953": -1,
-        "1954": -1
+        "1951": 22.0,
+        "1953": 16.0,
+        "1954": 16.333333333333332
     },
     "rates": {
         "wins": {
@@ -260,7 +260,7 @@
         "DNFs": {
             "1951": 0.5,
             "1953": 0.5,
-            "1954": 0.3333333333333333
+            "1954": 0.6666666666666666
         }
     },
     "winRate": 0.0,
@@ -273,9 +273,19 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1953": {},
-        "1954": {}
+        "1951": {
+            "German Grand Prix": 12,
+            "Italian Grand Prix": 7
+        },
+        "1953": {
+            "German Grand Prix": 12,
+            "Swiss Grand Prix": -6
+        },
+        "1954": {
+            "Belgian Grand Prix": 1,
+            "Swiss Grand Prix": 8,
+            "Spanish Grand Prix": 1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -289,6 +299,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -301,6 +313,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -315,6 +329,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -327,6 +343,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -341,6 +359,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -353,6 +373,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -365,6 +387,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -375,5 +399,11 @@
         "1951": {},
         "1953": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 2,
+        "1953": 2,
+        "1954": 3
+    },
+    "totalStarts": 7
 }

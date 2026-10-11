@@ -1,6 +1,6 @@
 {
     "driverId": "gounon",
-    "lastUpdate": "2026-10-02T11:47:20.551822",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -208,19 +208,19 @@
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 0.3333333333333333
+            "points": 0.0
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 0.74535599249993
+            "points": 0.0
         },
         "cv": {
             "wins": 0,
             "podiums": 0,
             "poles": 0,
-            "points": 2.2360679774997902
+            "points": 0
         }
     },
     "peakSeason": {
@@ -238,74 +238,53 @@
         }
     },
     "avgRacePositions": {
-        "1954": 15.0,
-        "1955": 14.666666666666666,
-        "1956": 10.75,
-        "1957": 15.833333333333334,
-        "1958": 17.666666666666668,
-        "1960": 17.0
+        "1993": 17.5,
+        "1994": 14.714285714285714
     },
     "avgQualiPositions": {
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1960": -1
+        "1993": 17.5,
+        "1994": 25.714285714285715
     },
     "rates": {
         "wins": {
-            "1954": 0.0,
-            "1955": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0,
-            "1960": 0.0
+            "1993": 0.0,
+            "1994": 0.0
         },
         "podiums": {
-            "1954": 0.0,
-            "1955": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0,
-            "1960": 0.0
+            "1993": 0.0,
+            "1994": 0.0
         },
         "poles": {
-            "1954": 0.0,
-            "1955": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0,
-            "1960": 0.0
+            "1993": 0.0,
+            "1994": 0.0
         },
         "DNFs": {
-            "1954": 0.0,
-            "1955": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0,
-            "1960": 0.0
+            "1993": 1.0,
+            "1994": 0.42857142857142855
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.7222222222222222,
+    "dnfRate": 0.5555555555555556,
     "ptwConRate": {
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1960": -1
+        "1993": -1,
+        "1994": -1
     },
     "positionsGainLost": {
-        "1954": {},
-        "1955": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1960": {}
+        "1993": {
+            "Japanese Grand Prix": -5,
+            "Australian Grand Prix": 5
+        },
+        "1994": {
+            "French Grand Prix": 17,
+            "British Grand Prix": 10,
+            "German Grand Prix": 17,
+            "Hungarian Grand Prix": 3,
+            "Belgian Grand Prix": 14,
+            "Italian Grand Prix": 5,
+            "Portuguese Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -319,6 +298,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -331,6 +312,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -345,6 +328,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -357,6 +342,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -369,6 +356,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -381,6 +370,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Handling",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -393,6 +384,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -405,6 +398,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -417,6 +412,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -426,5 +423,10 @@
     "sprintResults": {
         "1993": {},
         "1994": {}
-    }
+    },
+    "seasonStarts": {
+        "1993": 2,
+        "1994": 7
+    },
+    "totalStarts": 9
 }

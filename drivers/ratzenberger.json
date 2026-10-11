@@ -1,10 +1,10 @@
 {
     "driverId": "ratzenberger",
-    "lastUpdate": "2026-10-02T11:47:20.552554",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 0,
     "seasonWins": {
         "1994": 0
     },
@@ -15,7 +15,7 @@
         "1994": 0
     },
     "seasonDNFs": {
-        "1994": 2
+        "1994": 0
     },
     "poles": {
         "1994": []
@@ -24,10 +24,7 @@
         "1994": {}
     },
     "DNFs": {
-        "1994": {
-            "Brazilian Grand Prix": "Did not qualify",
-            "San Marino Grand Prix": "Accident"
-        }
+        "1994": {}
     },
     "fastLaps": {
         "1994": {
@@ -170,7 +167,7 @@
         }
     },
     "avgRacePositions": {
-        "1994": 21.333333333333332
+        "1994": 11.0
     },
     "avgQualiPositions": {
         "1994": 26.0
@@ -186,20 +183,19 @@
             "1994": 0.0
         },
         "DNFs": {
-            "1994": 0.6666666666666666
+            "1994": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1994": -1
     },
     "positionsGainLost": {
         "1994": {
-            "Pacific Grand Prix": 15,
-            "San Marino Grand Prix": 0
+            "Pacific Grand Prix": 15
         }
     },
     "driverCode": "",
@@ -214,6 +210,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -226,6 +224,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -238,6 +238,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "withdrew",
+                "cause": "accident",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -246,5 +248,9 @@
     },
     "sprintResults": {
         "1994": {}
-    }
+    },
+    "seasonStarts": {
+        "1994": 1
+    },
+    "totalStarts": 1
 }

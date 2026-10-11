@@ -1,10 +1,10 @@
 {
     "driverId": "bleekemolen",
-    "lastUpdate": "2026-10-02T11:47:20.535266",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1978": 0
     },
@@ -15,7 +15,7 @@
         "1978": 0
     },
     "seasonDNFs": {
-        "1978": 2
+        "1978": 1
     },
     "poles": {
         "1978": []
@@ -25,8 +25,7 @@
     },
     "DNFs": {
         "1978": {
-            "United States Grand Prix": "Oil leak",
-            "Canadian Grand Prix": "Did not prequalify"
+            "United States Grand Prix": "Oil leak"
         }
     },
     "fastLaps": {
@@ -114,29 +113,23 @@
         }
     },
     "avgRacePositions": {
-        "1977": 34.0,
-        "1978": 25.5
+        "1978": 18.0
     },
     "avgQualiPositions": {
-        "1977": -1,
-        "1978": -1
+        "1978": 25.0
     },
     "rates": {
         "wins": {
-            "1977": 0.0,
             "1978": 0.0
         },
         "podiums": {
-            "1977": 0.0,
             "1978": 0.0
         },
         "poles": {
-            "1977": 0.0,
             "1978": 0.0
         },
         "DNFs": {
-            "1977": 1.0,
-            "1978": 0.25
+            "1978": 1.0
         }
     },
     "winRate": 0.0,
@@ -144,12 +137,12 @@
     "poleRate": 0.0,
     "dnfRate": 1.0,
     "ptwConRate": {
-        "1977": -1,
         "1978": -1
     },
     "positionsGainLost": {
-        "1977": {},
-        "1978": {}
+        "1978": {
+            "United States Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -163,6 +156,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -175,6 +170,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not prequalify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -183,5 +180,9 @@
     },
     "sprintResults": {
         "1978": {}
-    }
+    },
+    "seasonStarts": {
+        "1978": 1
+    },
+    "totalStarts": 1
 }

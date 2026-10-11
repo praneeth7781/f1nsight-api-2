@@ -1,6 +1,6 @@
 {
     "driverId": "giunti",
-    "lastUpdate": "2026-10-02T11:47:20.518249",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -146,7 +146,7 @@
         "1970": 10.25
     },
     "avgQualiPositions": {
-        "1970": -1
+        "1970": 9.75
     },
     "rates": {
         "wins": {
@@ -170,7 +170,12 @@
         "1970": -1
     },
     "positionsGainLost": {
-        "1970": {}
+        "1970": {
+            "Belgian Grand Prix": 4,
+            "French Grand Prix": -3,
+            "Austrian Grand Prix": -2,
+            "Italian Grand Prix": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -184,6 +189,8 @@
                 "grid": 8,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -196,6 +203,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -208,6 +217,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -220,6 +231,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -228,5 +241,9 @@
     },
     "sprintResults": {
         "1970": {}
-    }
+    },
+    "seasonStarts": {
+        "1970": 4
+    },
+    "totalStarts": 4
 }

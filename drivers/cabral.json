@@ -1,6 +1,6 @@
 {
     "driverId": "cabral",
-    "lastUpdate": "2026-10-02T11:47:20.495559",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -260,14 +260,14 @@
     "avgRacePositions": {
         "1959": 10.0,
         "1960": 9.0,
-        "1963": 18.0,
+        "1963": 14.0,
         "1964": 16.0
     },
     "avgQualiPositions": {
-        "1959": -1,
-        "1960": -1,
-        "1963": -1,
-        "1964": -1
+        "1959": 14.0,
+        "1960": 15.0,
+        "1963": 20.0,
+        "1964": 19.0
     },
     "rates": {
         "wins": {
@@ -290,15 +290,15 @@
         },
         "DNFs": {
             "1959": 0.0,
-            "1960": 0.0,
-            "1963": 0.0,
-            "1964": 0.0
+            "1960": 1.0,
+            "1963": 1.0,
+            "1964": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8,
+    "dnfRate": 0.75,
     "ptwConRate": {
         "1959": -1,
         "1960": -1,
@@ -306,10 +306,18 @@
         "1964": -1
     },
     "positionsGainLost": {
-        "1959": {},
-        "1960": {},
-        "1963": {},
-        "1964": {}
+        "1959": {
+            "Portuguese Grand Prix": 4
+        },
+        "1960": {
+            "Portuguese Grand Prix": 6
+        },
+        "1963": {
+            "German Grand Prix": 6
+        },
+        "1964": {
+            "Italian Grand Prix": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -323,6 +331,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -337,6 +347,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -351,6 +363,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -365,6 +379,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "derrington",
                 "fastestLapRank": null,
                 "shared": false
@@ -376,5 +392,12 @@
         "1960": {},
         "1963": {},
         "1964": {}
-    }
+    },
+    "seasonStarts": {
+        "1959": 1,
+        "1960": 1,
+        "1963": 1,
+        "1964": 1
+    },
+    "totalStarts": 4
 }

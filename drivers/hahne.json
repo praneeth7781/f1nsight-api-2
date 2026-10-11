@@ -1,10 +1,10 @@
 {
     "driverId": "hahne",
-    "lastUpdate": "2026-10-02T11:47:20.514524",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1967": 0,
         "1968": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1967": 1,
         "1968": 0,
-        "1970": 1
+        "1970": 0
     },
     "poles": {
         "1967": [],
@@ -40,9 +40,7 @@
             "German Grand Prix": "Suspension"
         },
         "1968": {},
-        "1970": {
-            "German Grand Prix": "Did not qualify"
-        }
+        "1970": {}
     },
     "fastLaps": {
         "1967": {
@@ -209,11 +207,11 @@
     "avgRacePositions": {
         "1967": 17.0,
         "1968": 10.0,
-        "1970": 25.0
+        "1970": -1
     },
     "avgQualiPositions": {
-        "1967": -1,
-        "1968": -1,
+        "1967": 14.0,
+        "1968": 18.0,
         "1970": -1
     },
     "rates": {
@@ -234,22 +232,26 @@
         },
         "DNFs": {
             "1967": 1.0,
-            "1968": 1.0,
-            "1970": 1.0
+            "1968": 0.0,
+            "1970": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1967": -1,
         "1968": -1,
         "1970": -1
     },
     "positionsGainLost": {
-        "1967": {},
-        "1968": {},
+        "1967": {
+            "German Grand Prix": -3
+        },
+        "1968": {
+            "German Grand Prix": 8
+        },
         "1970": {}
     },
     "driverCode": "",
@@ -264,6 +266,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lola",
                 "fastestLapRank": null,
                 "shared": false
@@ -278,6 +282,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lola",
                 "fastestLapRank": null,
                 "shared": false
@@ -292,6 +298,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -302,5 +310,11 @@
         "1967": {},
         "1968": {},
         "1970": {}
-    }
+    },
+    "seasonStarts": {
+        "1967": 1,
+        "1968": 1,
+        "1970": 0
+    },
+    "totalStarts": 2
 }

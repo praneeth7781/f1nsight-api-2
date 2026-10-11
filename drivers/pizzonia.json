@@ -1,11 +1,11 @@
 {
     "driverId": "pizzonia",
     "driverCode": "PIZ",
-    "lastUpdate": "2026-10-02T11:47:20.559723",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 9,
+    "totalDNFs": 11,
     "seasonWins": {
         "2003": 0,
         "2004": 0,
@@ -24,7 +24,7 @@
     "seasonDNFs": {
         "2003": 6,
         "2004": 1,
-        "2005": 2
+        "2005": 4
     },
     "poles": {
         "2003": [],
@@ -49,8 +49,10 @@
             "Belgian Grand Prix": "Gearbox"
         },
         "2005": {
+            "Belgian Grand Prix": "Collision",
             "Brazilian Grand Prix": "Accident",
-            "Japanese Grand Prix": "Accident"
+            "Japanese Grand Prix": "Accident",
+            "Chinese Grand Prix": "Tyre puncture"
         }
     },
     "fastLaps": {
@@ -422,8 +424,8 @@
     },
     "avgQualiPositions": {
         "2003": 13.818181818181818,
-        "2004": 9.75,
-        "2005": 14.2
+        "2004": 9.5,
+        "2005": 13.8
     },
     "rates": {
         "wins": {
@@ -443,8 +445,8 @@
         },
         "DNFs": {
             "2003": 0.5454545454545454,
-            "2004": 1.5,
-            "2005": 1.2
+            "2004": 0.25,
+            "2005": 0.8
         }
     },
     "winRate": 0.0,
@@ -471,7 +473,7 @@
             "British Grand Prix": -10
         },
         "2004": {
-            "German Grand Prix": 4,
+            "German Grand Prix": 3,
             "Hungarian Grand Prix": -1,
             "Belgian Grand Prix": 1,
             "Italian Grand Prix": 1
@@ -479,7 +481,7 @@
         "2005": {
             "Italian Grand Prix": 9,
             "Belgian Grand Prix": 0,
-            "Brazilian Grand Prix": -4,
+            "Brazilian Grand Prix": -6,
             "Japanese Grand Prix": -5,
             "Chinese Grand Prix": 0
         }
@@ -495,6 +497,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -507,6 +511,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -519,6 +525,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -531,6 +539,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -543,6 +553,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Launch control",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -555,6 +567,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -567,6 +581,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -579,6 +595,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -591,6 +609,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -603,6 +623,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -615,6 +637,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jaguar",
                 "fastestLapRank": null,
                 "shared": false
@@ -629,6 +653,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 10,
                 "shared": false
@@ -641,6 +667,8 @@
                 "grid": 6,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 5,
                 "shared": false
@@ -653,6 +681,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "williams",
                 "fastestLapRank": 8,
                 "shared": false
@@ -665,6 +695,8 @@
                 "grid": 8,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 3,
                 "shared": false
@@ -679,6 +711,8 @@
                 "grid": 16,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 6,
                 "shared": false
@@ -691,6 +725,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "williams",
                 "fastestLapRank": 15,
                 "shared": false
@@ -703,6 +739,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "williams",
                 "fastestLapRank": null,
                 "shared": false
@@ -715,6 +753,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "williams",
                 "fastestLapRank": 18,
                 "shared": false
@@ -727,6 +767,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Tyre puncture",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "williams",
                 "fastestLapRank": 9,
                 "shared": false
@@ -737,5 +779,11 @@
         "2003": {},
         "2004": {},
         "2005": {}
-    }
+    },
+    "seasonStarts": {
+        "2003": 11,
+        "2004": 4,
+        "2005": 5
+    },
+    "totalStarts": 20
 }

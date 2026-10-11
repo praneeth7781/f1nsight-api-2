@@ -1,10 +1,10 @@
 {
     "driverId": "opel",
-    "lastUpdate": "2026-10-02T11:47:20.523516",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 6,
     "seasonWins": {
         "1973": 0,
         "1974": 0
@@ -18,8 +18,8 @@
         "1974": 0
     },
     "seasonDNFs": {
-        "1973": 5,
-        "1974": 3
+        "1973": 4,
+        "1974": 2
     },
     "poles": {
         "1973": [],
@@ -31,7 +31,6 @@
     },
     "DNFs": {
         "1973": {
-            "Dutch Grand Prix": "Withdrew",
             "Austrian Grand Prix": "Fuel system",
             "Italian Grand Prix": "Overheating",
             "Canadian Grand Prix": "Not classified",
@@ -39,8 +38,7 @@
         },
         "1974": {
             "Spanish Grand Prix": "Oil leak",
-            "Belgian Grand Prix": "Engine",
-            "Monaco Grand Prix": "Did not qualify"
+            "Belgian Grand Prix": "Engine"
         }
     },
     "fastLaps": {
@@ -238,12 +236,12 @@
         }
     },
     "avgRacePositions": {
-        "1973": 19.0,
-        "1974": 20.0
+        "1973": 18.166666666666668,
+        "1974": 17.0
     },
     "avgQualiPositions": {
-        "1973": -1,
-        "1974": -1
+        "1973": 22.5,
+        "1974": 22.25
     },
     "rates": {
         "wins": {
@@ -259,21 +257,33 @@
             "1974": 0.0
         },
         "DNFs": {
-            "1973": 0.7142857142857143,
-            "1974": 0.8333333333333334
+            "1973": 0.6666666666666666,
+            "1974": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6923076923076923,
+    "dnfRate": 0.6,
     "ptwConRate": {
         "1973": -1,
         "1974": -1
     },
     "positionsGainLost": {
-        "1973": {},
-        "1974": {}
+        "1973": {
+            "French Grand Prix": 10,
+            "British Grand Prix": 8,
+            "Austrian Grand Prix": 5,
+            "Italian Grand Prix": -5,
+            "Canadian Grand Prix": 6,
+            "United States Grand Prix": 2
+        },
+        "1974": {
+            "Spanish Grand Prix": 1,
+            "Belgian Grand Prix": -5,
+            "Swedish Grand Prix": 11,
+            "Dutch Grand Prix": 14
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -287,6 +297,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -299,6 +311,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -311,6 +325,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -323,6 +339,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -335,6 +353,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -347,6 +367,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -359,6 +381,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Throttle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -373,6 +397,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -385,6 +411,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -397,6 +425,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -409,6 +439,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -421,6 +453,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -430,5 +464,10 @@
     "sprintResults": {
         "1973": {},
         "1974": {}
-    }
+    },
+    "seasonStarts": {
+        "1973": 6,
+        "1974": 4
+    },
+    "totalStarts": 10
 }

@@ -1,10 +1,10 @@
 {
     "driverId": "ligier",
-    "lastUpdate": "2026-10-02T11:47:20.512306",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 7,
+    "totalDNFs": 6,
     "seasonWins": {
         "1966": 0,
         "1967": 0
@@ -18,7 +18,7 @@
         "1967": 0
     },
     "seasonDNFs": {
-        "1966": 4,
+        "1966": 3,
         "1967": 3
     },
     "poles": {
@@ -33,8 +33,7 @@
         "1966": {
             "Monaco Grand Prix": "Not classified",
             "Belgian Grand Prix": "Not classified",
-            "French Grand Prix": "Not classified",
-            "German Grand Prix": "Injury"
+            "French Grand Prix": "Not classified"
         },
         "1967": {
             "French Grand Prix": "Not classified",
@@ -231,12 +230,12 @@
         }
     },
     "avgRacePositions": {
-        "1966": 9.833333333333334,
+        "1966": 8.0,
         "1967": 10.428571428571429
     },
     "avgQualiPositions": {
-        "1966": -1,
-        "1967": -1
+        "1966": 14.2,
+        "1967": 17.857142857142858
     },
     "rates": {
         "wins": {
@@ -252,21 +251,35 @@
             "1967": 0.0
         },
         "DNFs": {
-            "1966": 0.6666666666666666,
-            "1967": 0.5714285714285714
+            "1966": 0.6,
+            "1967": 0.42857142857142855
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5384615384615384,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1966": -1,
         "1967": -1
     },
     "positionsGainLost": {
-        "1966": {},
-        "1967": {}
+        "1966": {
+            "Monaco Grand Prix": 9,
+            "Belgian Grand Prix": 6,
+            "French Grand Prix": 2,
+            "British Grand Prix": 7,
+            "Dutch Grand Prix": 7
+        },
+        "1967": {
+            "Belgian Grand Prix": 8,
+            "French Grand Prix": 8,
+            "British Grand Prix": 11,
+            "German Grand Prix": 9,
+            "Italian Grand Prix": 3,
+            "United States Grand Prix": 5,
+            "Mexican Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -280,6 +293,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -292,6 +307,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -304,6 +321,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -316,6 +335,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -328,6 +349,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -340,6 +363,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Injury",
+                "outcome": "withdrew",
+                "cause": "driver",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -354,6 +379,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -366,6 +393,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -378,6 +407,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -390,6 +421,8 @@
                 "grid": 17,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -402,6 +435,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -414,6 +449,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -426,6 +463,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -435,5 +474,10 @@
     "sprintResults": {
         "1966": {},
         "1967": {}
-    }
+    },
+    "seasonStarts": {
+        "1966": 5,
+        "1967": 7
+    },
+    "totalStarts": 12
 }

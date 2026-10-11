@@ -1,6 +1,6 @@
 {
     "driverId": "klodwig",
-    "lastUpdate": "2026-10-02T11:47:20.471443",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -160,8 +160,8 @@
         "1953": 15.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1
+        "1952": 29.0,
+        "1953": 32.0
     },
     "rates": {
         "wins": {
@@ -190,8 +190,12 @@
         "1953": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {}
+        "1952": {
+            "German Grand Prix": 17
+        },
+        "1953": {
+            "German Grand Prix": 17
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -205,6 +209,8 @@
                 "grid": 29,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "bmw",
                 "fastestLapRank": null,
                 "shared": false
@@ -219,6 +225,8 @@
                 "grid": 32,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "bmw",
                 "fastestLapRank": null,
                 "shared": false
@@ -228,5 +236,10 @@
     "sprintResults": {
         "1952": {},
         "1953": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1,
+        "1953": 1
+    },
+    "totalStarts": 2
 }

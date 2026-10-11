@@ -1,6 +1,6 @@
 {
     "driverId": "davies",
-    "lastUpdate": "2026-10-02T11:47:20.456322",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -356,11 +356,11 @@
         "1955": 3.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1
+        "1950": 27.0,
+        "1951": 27.0,
+        "1953": 32.0,
+        "1954": 27.0,
+        "1955": 10.0
     },
     "rates": {
         "wins": {
@@ -386,7 +386,7 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1951": 0.0,
+            "1951": 1.0,
             "1953": 0.0,
             "1954": 0.0,
             "1955": 0.0
@@ -404,11 +404,21 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1953": {},
-        "1954": {},
-        "1955": {}
+        "1950": {
+            "Indianapolis 500": 10
+        },
+        "1951": {
+            "Indianapolis 500": 11
+        },
+        "1953": {
+            "Indianapolis 500": 22
+        },
+        "1954": {
+            "Indianapolis 500": 16
+        },
+        "1955": {
+            "Indianapolis 500": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -422,6 +432,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ewing",
                 "fastestLapRank": null,
                 "shared": false
@@ -436,6 +448,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Axle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "pawl",
                 "fastestLapRank": null,
                 "shared": false
@@ -450,6 +464,8 @@
                 "grid": 32,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -464,6 +480,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -478,6 +496,8 @@
                 "grid": 10,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -490,5 +510,13 @@
         "1953": {},
         "1954": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1
+    },
+    "totalStarts": 5
 }

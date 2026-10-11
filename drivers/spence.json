@@ -1,10 +1,10 @@
 {
     "driverId": "spence",
-    "lastUpdate": "2026-10-02T11:47:20.507841",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 16,
+    "totalDNFs": 18,
     "seasonWins": {
         "1963": 0,
         "1964": 0,
@@ -30,9 +30,9 @@
         "1968": 0
     },
     "seasonDNFs": {
-        "1963": 0,
+        "1963": 1,
         "1964": 2,
-        "1965": 2,
+        "1965": 3,
         "1966": 6,
         "1967": 5,
         "1968": 1
@@ -56,13 +56,16 @@
         "1968": {}
     },
     "DNFs": {
-        "1963": {},
+        "1963": {
+            "Italian Grand Prix": "Oil pressure"
+        },
         "1964": {
             "Austrian Grand Prix": "Halfshaft",
             "United States Grand Prix": "Injection"
         },
         "1965": {
             "German Grand Prix": "Transmission",
+            "Italian Grand Prix": "Alternator",
             "United States Grand Prix": "Engine"
         },
         "1966": {
@@ -520,19 +523,19 @@
         "mean": {
             "wins": 0.0,
             "podiums": 0.16666666666666666,
-            "poles": 0.16666666666666666,
+            "poles": 0.0,
             "points": 4.5
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.372677996249965,
-            "poles": 0.372677996249965,
+            "poles": 0.0,
             "points": 3.905124837953327
         },
         "cv": {
             "wins": 0,
             "podiums": 2.2360679774997902,
-            "poles": 2.2360679774997902,
+            "poles": 0,
             "points": 0.8678055195451838
         }
     },
@@ -546,8 +549,8 @@
             "podiums": 1
         },
         "poles": {
-            "season": "1964",
-            "poles": 1
+            "season": "No peak season",
+            "poles": 0
         }
     },
     "avgRacePositions": {
@@ -559,12 +562,12 @@
         "1968": 20.0
     },
     "avgQualiPositions": {
-        "1963": -1,
-        "1964": -1,
-        "1965": -1,
-        "1966": -1,
-        "1967": -1,
-        "1968": -1
+        "1963": 9.0,
+        "1964": 8.666666666666666,
+        "1965": 7.111111111111111,
+        "1966": 11.125,
+        "1967": 11.636363636363637,
+        "1968": 14.0
     },
     "rates": {
         "wins": {
@@ -585,7 +588,7 @@
         },
         "poles": {
             "1963": 0.0,
-            "1964": 0.16666666666666666,
+            "1964": 0.0,
             "1965": 0.0,
             "1966": 0.0,
             "1967": 0.0,
@@ -593,32 +596,74 @@
         },
         "DNFs": {
             "1963": 1.0,
-            "1964": 0.16666666666666666,
-            "1965": 0.1111111111111111,
-            "1966": 0.125,
-            "1967": 0.09090909090909091,
+            "1964": 0.3333333333333333,
+            "1965": 0.3333333333333333,
+            "1966": 0.75,
+            "1967": 0.45454545454545453,
             "1968": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.027777777777777776,
-    "poleRate": 0.027777777777777776,
+    "poleRate": 0.0,
     "dnfRate": 0.5,
     "ptwConRate": {
         "1963": -1,
-        "1964": 0.0,
+        "1964": -1,
         "1965": -1,
         "1966": -1,
         "1967": -1,
         "1968": -1
     },
     "positionsGainLost": {
-        "1963": {},
-        "1964": {},
-        "1965": {},
-        "1966": {},
-        "1967": {},
-        "1968": {}
+        "1963": {
+            "Italian Grand Prix": -4
+        },
+        "1964": {
+            "British Grand Prix": 4,
+            "German Grand Prix": 9,
+            "Austrian Grand Prix": -6,
+            "Italian Grand Prix": 2,
+            "United States Grand Prix": -11,
+            "Mexican Grand Prix": 1
+        },
+        "1965": {
+            "South African Grand Prix": 0,
+            "Belgian Grand Prix": 5,
+            "French Grand Prix": 3,
+            "British Grand Prix": 2,
+            "Dutch Grand Prix": 0,
+            "German Grand Prix": -5,
+            "Italian Grand Prix": -3,
+            "United States Grand Prix": -13,
+            "Mexican Grand Prix": 3
+        },
+        "1966": {
+            "Monaco Grand Prix": 1,
+            "Belgian Grand Prix": -3,
+            "French Grand Prix": -5,
+            "British Grand Prix": -9,
+            "Dutch Grand Prix": 7,
+            "German Grand Prix": 4,
+            "Italian Grand Prix": 9,
+            "United States Grand Prix": 3
+        },
+        "1967": {
+            "South African Grand Prix": -1,
+            "Monaco Grand Prix": 6,
+            "Dutch Grand Prix": 4,
+            "Belgian Grand Prix": 6,
+            "French Grand Prix": -3,
+            "British Grand Prix": -2,
+            "German Grand Prix": -12,
+            "Canadian Grand Prix": 5,
+            "Italian Grand Prix": 7,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": 6
+        },
+        "1968": {
+            "South African Grand Prix": -6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -632,6 +677,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -646,6 +693,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -658,6 +707,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -670,6 +721,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -682,6 +735,8 @@
                 "grid": 8,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -694,6 +749,8 @@
                 "grid": 1,
                 "points": 0.0,
                 "status": "Injection",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": true
@@ -706,6 +763,8 @@
                 "grid": 5,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -720,6 +779,8 @@
                 "grid": 4,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -732,6 +793,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -744,6 +807,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -756,6 +821,8 @@
                 "grid": 6,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -768,6 +835,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -780,6 +849,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -792,6 +863,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Alternator",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -804,6 +877,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -816,6 +891,8 @@
                 "grid": 6,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -830,6 +907,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -842,6 +921,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -854,6 +935,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -866,6 +949,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -878,6 +963,8 @@
                 "grid": 12,
                 "points": 2.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -890,6 +977,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Alternator",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -902,6 +991,8 @@
                 "grid": 14,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -914,6 +1005,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -928,6 +1021,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -940,6 +1035,8 @@
                 "grid": 12,
                 "points": 1.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -952,6 +1049,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -964,6 +1063,8 @@
                 "grid": 11,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -976,6 +1077,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -988,6 +1091,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1000,6 +1105,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Differential",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1012,6 +1119,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1024,6 +1133,8 @@
                 "grid": 12,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1036,6 +1147,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1048,6 +1161,8 @@
                 "grid": 11,
                 "points": 2.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1062,6 +1177,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1075,5 +1192,14 @@
         "1966": {},
         "1967": {},
         "1968": {}
-    }
+    },
+    "seasonStarts": {
+        "1963": 1,
+        "1964": 6,
+        "1965": 9,
+        "1966": 8,
+        "1967": 11,
+        "1968": 1
+    },
+    "totalStarts": 36
 }

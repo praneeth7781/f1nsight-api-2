@@ -1,6 +1,6 @@
 {
     "driverId": "teague",
-    "lastUpdate": "2026-10-02T11:47:20.474415",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -247,9 +247,9 @@
         "1957": 7.0
     },
     "avgQualiPositions": {
-        "1953": -1,
-        "1954": -1,
-        "1957": -1
+        "1953": 22.0,
+        "1954": 8.0,
+        "1957": 28.0
     },
     "rates": {
         "wins": {
@@ -269,8 +269,8 @@
         },
         "DNFs": {
             "1953": 1.0,
-            "1954": 1.0,
-            "1957": 1.0
+            "1954": 0.0,
+            "1957": 0.0
         }
     },
     "winRate": 0.0,
@@ -283,9 +283,15 @@
         "1957": -1
     },
     "positionsGainLost": {
-        "1953": {},
-        "1954": {},
-        "1957": {}
+        "1953": {
+            "Indianapolis 500": 4
+        },
+        "1954": {
+            "Indianapolis 500": -7
+        },
+        "1957": {
+            "Indianapolis 500": 21
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -299,6 +305,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -313,6 +321,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -327,6 +337,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -337,5 +349,11 @@
         "1953": {},
         "1954": {},
         "1957": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1954": 1,
+        "1957": 1
+    },
+    "totalStarts": 3
 }

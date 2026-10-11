@@ -1,6 +1,6 @@
 {
     "driverId": "wacker",
-    "lastUpdate": "2026-10-02T11:47:20.475141",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -174,8 +174,8 @@
         "1954": 10.0
     },
     "avgQualiPositions": {
-        "1953": -1,
-        "1954": -1
+        "1953": 15.0,
+        "1954": 16.5
     },
     "rates": {
         "wins": {
@@ -192,7 +192,7 @@
         },
         "DNFs": {
             "1953": 0.0,
-            "1954": 0.0
+            "1954": 0.5
         }
     },
     "winRate": 0.0,
@@ -204,8 +204,13 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1953": {},
-        "1954": {}
+        "1953": {
+            "Belgian Grand Prix": 6
+        },
+        "1954": {
+            "Swiss Grand Prix": 1,
+            "Italian Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -219,6 +224,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -233,6 +240,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -245,6 +254,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -254,5 +265,10 @@
     "sprintResults": {
         "1953": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1954": 2
+    },
+    "totalStarts": 3
 }

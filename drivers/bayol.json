@@ -1,6 +1,6 @@
 {
     "driverId": "bayol",
-    "lastUpdate": "2026-10-02T11:47:20.473001",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -354,11 +354,11 @@
         "1956": 6.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1
+        "1952": 10.0,
+        "1953": 14.0,
+        "1954": 15.0,
+        "1955": 15.5,
+        "1956": 11.0
     },
     "rates": {
         "wins": {
@@ -384,10 +384,10 @@
         },
         "DNFs": {
             "1952": 1.0,
-            "1953": 0.5,
-            "1954": 1.0,
-            "1955": 0.5,
-            "1956": 1.0
+            "1953": 1.0,
+            "1954": 0.0,
+            "1955": 1.0,
+            "1956": 0.0
         }
     },
     "winRate": 0.0,
@@ -402,11 +402,23 @@
         "1956": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {}
+        "1952": {
+            "Italian Grand Prix": -14
+        },
+        "1953": {
+            "French Grand Prix": -4,
+            "Italian Grand Prix": -14
+        },
+        "1954": {
+            "Argentine Grand Prix": 10
+        },
+        "1955": {
+            "Argentine Grand Prix": -1,
+            "Monaco Grand Prix": 2
+        },
+        "1956": {
+            "Monaco Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -420,6 +432,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osca",
                 "fastestLapRank": null,
                 "shared": false
@@ -434,6 +448,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osca",
                 "fastestLapRank": null,
                 "shared": false
@@ -446,6 +462,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osca",
                 "fastestLapRank": null,
                 "shared": false
@@ -460,6 +478,8 @@
                 "grid": 15,
                 "points": 2.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -474,6 +494,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -486,6 +508,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -500,6 +524,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+12 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": true
@@ -512,5 +538,13 @@
         "1954": {},
         "1955": {},
         "1956": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1,
+        "1953": 2,
+        "1954": 1,
+        "1955": 2,
+        "1956": 1
+    },
+    "totalStarts": 7
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "james",
-    "lastUpdate": "2026-10-02T11:47:20.463558",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -186,8 +186,8 @@
         "1952": 13.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1
+        "1951": 30.0,
+        "1952": 16.0
     },
     "rates": {
         "wins": {
@@ -204,7 +204,7 @@
         },
         "DNFs": {
             "1951": 1.0,
-            "1952": 1.0
+            "1952": 0.0
         }
     },
     "winRate": 0.0,
@@ -216,8 +216,12 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {}
+        "1951": {
+            "Indianapolis 500": -3
+        },
+        "1952": {
+            "Indianapolis 500": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -231,6 +235,8 @@
                 "grid": 30,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "watson",
                 "fastestLapRank": null,
                 "shared": false
@@ -245,6 +251,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -254,5 +262,10 @@
     "sprintResults": {
         "1951": {},
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 1
+    },
+    "totalStarts": 2
 }

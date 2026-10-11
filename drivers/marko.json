@@ -1,6 +1,6 @@
 {
     "driverId": "marko",
-    "lastUpdate": "2026-10-02T11:47:20.520701",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -215,8 +215,8 @@
         "1972": 13.0
     },
     "avgQualiPositions": {
-        "1971": -1,
-        "1972": -1
+        "1971": 16.0,
+        "1972": 17.6
     },
     "rates": {
         "wins": {
@@ -245,8 +245,19 @@
         "1972": -1
     },
     "positionsGainLost": {
-        "1971": {},
-        "1972": {}
+        "1971": {
+            "Austrian Grand Prix": 6,
+            "Italian Grand Prix": -10,
+            "Canadian Grand Prix": 7,
+            "United States Grand Prix": 3
+        },
+        "1972": {
+            "Argentine Grand Prix": 9,
+            "South African Grand Prix": 9,
+            "Monaco Grand Prix": 9,
+            "Belgian Grand Prix": 13,
+            "French Grand Prix": -17
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -260,6 +271,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -272,6 +285,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -284,6 +299,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -296,6 +313,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -310,6 +329,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -322,6 +343,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -334,6 +357,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -346,6 +371,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -358,6 +385,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Eye injury",
+                "outcome": "retired",
+                "cause": "driver",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -367,5 +396,10 @@
     "sprintResults": {
         "1971": {},
         "1972": {}
-    }
+    },
+    "seasonStarts": {
+        "1971": 4,
+        "1972": 5
+    },
+    "totalStarts": 9
 }

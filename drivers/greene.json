@@ -1,6 +1,6 @@
 {
     "driverId": "greene",
-    "lastUpdate": "2026-10-02T11:47:20.498601",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -220,58 +220,56 @@
         }
     },
     "avgRacePositions": {
-        "1959": 25.0,
         "1960": 24.0,
         "1961": 15.0,
-        "1962": 21.666666666666668
+        "1962": 20.0
     },
     "avgQualiPositions": {
-        "1959": -1,
-        "1960": -1,
-        "1961": -1,
-        "1962": -1
+        "1960": 22.0,
+        "1961": 26.0,
+        "1962": 19.0
     },
     "rates": {
         "wins": {
-            "1959": 0.0,
             "1960": 0.0,
             "1961": 0.0,
             "1962": 0.0
         },
         "podiums": {
-            "1959": 0.0,
             "1960": 0.0,
             "1961": 0.0,
             "1962": 0.0
         },
         "poles": {
-            "1959": 0.0,
             "1960": 0.0,
             "1961": 0.0,
             "1962": 0.0
         },
         "DNFs": {
-            "1959": 1.0,
             "1960": 1.0,
-            "1961": 1.0,
-            "1962": 0.3333333333333333
+            "1961": 0.0,
+            "1962": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8333333333333334,
+    "dnfRate": 0.6666666666666666,
     "ptwConRate": {
-        "1959": -1,
         "1960": -1,
         "1961": -1,
         "1962": -1
     },
     "positionsGainLost": {
-        "1959": {},
-        "1960": {},
-        "1961": {},
-        "1962": {}
+        "1960": {
+            "British Grand Prix": -2
+        },
+        "1961": {
+            "British Grand Prix": 11
+        },
+        "1962": {
+            "German Grand Prix": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -285,6 +283,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -299,6 +299,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gilby",
                 "fastestLapRank": null,
                 "shared": false
@@ -313,6 +315,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -325,6 +329,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gilby",
                 "fastestLapRank": null,
                 "shared": false
@@ -335,5 +341,11 @@
         "1960": {},
         "1961": {},
         "1962": {}
-    }
+    },
+    "seasonStarts": {
+        "1960": 1,
+        "1961": 1,
+        "1962": 1
+    },
+    "totalStarts": 3
 }

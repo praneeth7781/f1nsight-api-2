@@ -1,11 +1,11 @@
 {
     "driverId": "bianchi",
     "driverCode": "BIA",
-    "lastUpdate": "2026-10-02T11:47:20.492843",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 13,
+    "totalDNFs": 11,
     "seasonWins": {
         "1959": 0,
         "1960": 0,
@@ -34,9 +34,9 @@
         "1968": 0
     },
     "seasonDNFs": {
-        "1959": 1,
+        "1959": 0,
         "1960": 2,
-        "1961": 4,
+        "1961": 3,
         "1962": 0,
         "1963": 1,
         "1965": 0,
@@ -63,15 +63,12 @@
         }
     },
     "DNFs": {
-        "1959": {
-            "Monaco Grand Prix": "Did not qualify"
-        },
+        "1959": {},
         "1960": {
             "French Grand Prix": "Transmission",
             "British Grand Prix": "Electrical"
         },
         "1961": {
-            "Monaco Grand Prix": "Did not qualify",
             "Belgian Grand Prix": "Oil leak",
             "French Grand Prix": "Overheating",
             "British Grand Prix": "Gearbox"
@@ -522,9 +519,9 @@
         }
     },
     "avgRacePositions": {
-        "1959": 20.0,
+        "1959": -1,
         "1960": 12.666666666666666,
-        "1961": 19.75,
+        "1961": 19.666666666666668,
         "1962": 12.5,
         "1963": 11.0,
         "1965": 12.0,
@@ -532,12 +529,12 @@
     },
     "avgQualiPositions": {
         "1959": -1,
-        "1960": -1,
-        "1961": -1,
-        "1962": -1,
-        "1963": -1,
-        "1965": -1,
-        "1968": -1
+        "1960": 15.666666666666666,
+        "1961": 24.0,
+        "1962": 21.5,
+        "1963": 16.0,
+        "1965": 17.0,
+        "1968": 17.428571428571427
     },
     "rates": {
         "wins": {
@@ -568,19 +565,19 @@
             "1968": 0.0
         },
         "DNFs": {
-            "1959": 1.0,
-            "1960": 0.3333333333333333,
-            "1961": 0.25,
-            "1962": 0.5,
+            "1959": 0.0,
+            "1960": 0.6666666666666666,
+            "1961": 1.0,
+            "1962": 0.0,
             "1963": 1.0,
-            "1965": 1.0,
-            "1968": 0.14285714285714285
+            "1965": 0.0,
+            "1968": 0.7142857142857143
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.05263157894736842,
+    "podiumRate": 0.058823529411764705,
     "poleRate": 0.0,
-    "dnfRate": 0.6842105263157895,
+    "dnfRate": 0.6470588235294118,
     "ptwConRate": {
         "1959": -1,
         "1960": -1,
@@ -592,12 +589,35 @@
     },
     "positionsGainLost": {
         "1959": {},
-        "1960": {},
-        "1961": {},
-        "1962": {},
-        "1963": {},
-        "1965": {},
-        "1968": {}
+        "1960": {
+            "Belgian Grand Prix": 9,
+            "French Grand Prix": 1,
+            "British Grand Prix": -1
+        },
+        "1961": {
+            "Belgian Grand Prix": 3,
+            "French Grand Prix": 0,
+            "British Grand Prix": 10
+        },
+        "1962": {
+            "Belgian Grand Prix": 9,
+            "German Grand Prix": 9
+        },
+        "1963": {
+            "Belgian Grand Prix": 5
+        },
+        "1965": {
+            "Belgian Grand Prix": 5
+        },
+        "1968": {
+            "Monaco Grand Prix": 11,
+            "Belgian Grand Prix": 6,
+            "Dutch Grand Prix": -1,
+            "German Grand Prix": 1,
+            "Canadian Grand Prix": 8,
+            "United States Grand Prix": 11,
+            "Mexican Grand Prix": 7
+        }
     },
     "driverNumber": "",
     "raceResults": {
@@ -610,6 +630,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -624,6 +646,8 @@
                 "grid": 15,
                 "points": 1.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -636,6 +660,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -648,6 +674,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -662,6 +690,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "emeryson",
                 "fastestLapRank": null,
                 "shared": false
@@ -674,6 +704,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -686,6 +718,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -698,6 +732,8 @@
                 "grid": 30,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -712,6 +748,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -724,6 +762,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "enb",
                 "fastestLapRank": null,
                 "shared": false
@@ -738,6 +778,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lola",
                 "fastestLapRank": null,
                 "shared": false
@@ -752,6 +794,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -766,6 +810,8 @@
                 "grid": 14,
                 "points": 4.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -778,6 +824,8 @@
                 "grid": 12,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -790,6 +838,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -802,6 +852,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -814,6 +866,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -826,6 +880,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -838,6 +894,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -852,5 +910,15 @@
         "1963": {},
         "1965": {},
         "1968": {}
-    }
+    },
+    "seasonStarts": {
+        "1959": 0,
+        "1960": 3,
+        "1961": 3,
+        "1962": 2,
+        "1963": 1,
+        "1965": 1,
+        "1968": 7
+    },
+    "totalStarts": 17
 }

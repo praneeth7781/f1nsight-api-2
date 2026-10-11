@@ -1,6 +1,6 @@
 {
     "driverId": "georges_berger",
-    "lastUpdate": "2026-10-02T11:47:20.475297",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -182,8 +182,8 @@
         "1954": 18.0
     },
     "avgQualiPositions": {
-        "1953": -1,
-        "1954": -1
+        "1953": 20.0,
+        "1954": 20.0
     },
     "rates": {
         "wins": {
@@ -212,8 +212,12 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1953": {},
-        "1954": {}
+        "1953": {
+            "Belgian Grand Prix": 1
+        },
+        "1954": {
+            "French Grand Prix": 2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -227,6 +231,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -241,6 +247,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -250,5 +258,10 @@
     "sprintResults": {
         "1953": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1954": 1
+    },
+    "totalStarts": 2
 }

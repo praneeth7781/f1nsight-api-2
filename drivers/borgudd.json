@@ -1,10 +1,10 @@
 {
     "driverId": "borgudd",
-    "lastUpdate": "2026-10-02T11:47:20.538894",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 4,
     "seasonWins": {
         "1981": 0,
         "1982": 0
@@ -18,7 +18,7 @@
         "1982": 0
     },
     "seasonDNFs": {
-        "1981": 5,
+        "1981": 4,
         "1982": 0
     },
     "poles": {
@@ -31,7 +31,6 @@
     },
     "DNFs": {
         "1981": {
-            "French Grand Prix": "Did not qualify",
             "German Grand Prix": "Engine",
             "Austrian Grand Prix": "Brakes",
             "Italian Grand Prix": "Spun off",
@@ -255,12 +254,12 @@
         }
     },
     "avgRacePositions": {
-        "1981": 19.25,
+        "1981": 13.857142857142858,
         "1982": 11.0
     },
     "avgQualiPositions": {
-        "1981": -1,
-        "1982": -1
+        "1981": 22.714285714285715,
+        "1982": 22.666666666666668
     },
     "rates": {
         "wins": {
@@ -276,21 +275,33 @@
             "1982": 0.0
         },
         "DNFs": {
-            "1981": 0.75,
-            "1982": 3.0
+            "1981": 0.5714285714285714,
+            "1982": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6,
+    "dnfRate": 0.4,
     "ptwConRate": {
         "1981": -1,
         "1982": -1
     },
     "positionsGainLost": {
-        "1981": {},
-        "1982": {}
+        "1981": {
+            "San Marino Grand Prix": 11,
+            "British Grand Prix": 15,
+            "German Grand Prix": 11,
+            "Austrian Grand Prix": 8,
+            "Dutch Grand Prix": 13,
+            "Italian Grand Prix": -1,
+            "Canadian Grand Prix": 5
+        },
+        "1982": {
+            "South African Grand Prix": 7,
+            "Brazilian Grand Prix": 14,
+            "United States Grand Prix West": 14
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -304,6 +315,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -316,6 +329,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -328,6 +343,8 @@
                 "grid": 21,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -340,6 +357,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -352,6 +371,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -364,6 +385,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -376,6 +399,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -388,6 +413,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -402,6 +429,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -414,6 +443,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -426,6 +457,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -435,5 +468,10 @@
     "sprintResults": {
         "1981": {},
         "1982": {}
-    }
+    },
+    "seasonStarts": {
+        "1981": 7,
+        "1982": 3
+    },
+    "totalStarts": 10
 }

@@ -1,10 +1,10 @@
 {
     "driverId": "hartley",
-    "lastUpdate": "2026-10-02T11:47:20.456174",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 3,
     "seasonWins": {
         "1950": 0,
         "1952": 0,
@@ -38,8 +38,8 @@
     "seasonDNFs": {
         "1950": 0,
         "1952": 1,
-        "1953": 0,
-        "1954": 0,
+        "1953": 1,
+        "1954": 1,
         "1956": 0,
         "1957": 0,
         "1959": 0,
@@ -70,8 +70,12 @@
         "1952": {
             "Indianapolis 500": "Exhaust"
         },
-        "1953": {},
-        "1954": {},
+        "1953": {
+            "Indianapolis 500": "Accident"
+        },
+        "1954": {
+            "Indianapolis 500": "Clutch"
+        },
         "1956": {},
         "1957": {},
         "1959": {},
@@ -534,14 +538,14 @@
         "1960": 14.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1956": -1,
-        "1957": -1,
-        "1959": -1,
-        "1960": -1
+        "1950": 31.0,
+        "1952": 18.0,
+        "1953": 6.0,
+        "1954": 17.0,
+        "1956": 22.0,
+        "1957": 14.0,
+        "1959": 9.0,
+        "1960": 24.0
     },
     "rates": {
         "wins": {
@@ -576,9 +580,9 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1952": 0.0,
-            "1953": 0.0,
-            "1954": 0.0,
+            "1952": 1.0,
+            "1953": 1.0,
+            "1954": 1.0,
             "1956": 0.0,
             "1957": 0.0,
             "1959": 0.0,
@@ -600,14 +604,30 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1956": {},
-        "1957": {},
-        "1959": {},
-        "1960": {}
+        "1950": {
+            "Indianapolis 500": 15
+        },
+        "1952": {
+            "Indianapolis 500": -10
+        },
+        "1953": {
+            "Indianapolis 500": -3
+        },
+        "1954": {
+            "Indianapolis 500": -6
+        },
+        "1956": {
+            "Indianapolis 500": 11
+        },
+        "1957": {
+            "Indianapolis 500": 4
+        },
+        "1959": {
+            "Indianapolis 500": -2
+        },
+        "1960": {
+            "Indianapolis 500": 10
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -621,6 +641,8 @@
                 "grid": 31,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "langley",
                 "fastestLapRank": null,
                 "shared": false
@@ -635,6 +657,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Exhaust",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -649,6 +673,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": true
@@ -663,6 +689,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -677,6 +705,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -691,6 +721,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lesovsky",
                 "fastestLapRank": null,
                 "shared": false
@@ -705,6 +737,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -719,6 +753,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -734,5 +770,16 @@
         "1957": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1952": 1,
+        "1953": 1,
+        "1954": 1,
+        "1956": 1,
+        "1957": 1,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 8
 }

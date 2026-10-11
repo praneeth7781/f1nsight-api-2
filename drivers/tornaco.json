@@ -1,6 +1,6 @@
 {
     "driverId": "tornaco",
-    "lastUpdate": "2026-10-02T11:47:20.468562",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -125,10 +125,10 @@
         }
     },
     "avgRacePositions": {
-        "1952": 15.333333333333334
+        "1952": 10.5
     },
     "avgQualiPositions": {
-        "1952": -1
+        "1952": 15.0
     },
     "rates": {
         "wins": {
@@ -141,18 +141,21 @@
             "1952": 0.0
         },
         "DNFs": {
-            "1952": 0.6666666666666666
+            "1952": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1952": -1
     },
     "positionsGainLost": {
-        "1952": {}
+        "1952": {
+            "Belgian Grand Prix": 6,
+            "Dutch Grand Prix": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -166,6 +169,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -178,6 +183,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -186,5 +193,9 @@
     },
     "sprintResults": {
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 2
+    },
+    "totalStarts": 2
 }

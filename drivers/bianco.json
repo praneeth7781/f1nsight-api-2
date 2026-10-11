@@ -1,6 +1,6 @@
 {
     "driverId": "bianco",
-    "lastUpdate": "2026-10-02T11:47:20.470425",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -130,7 +130,7 @@
         "1952": 20.75
     },
     "avgQualiPositions": {
-        "1952": -1
+        "1952": 20.25
     },
     "rates": {
         "wins": {
@@ -154,7 +154,12 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1952": {}
+        "1952": {
+            "British Grand Prix": 10,
+            "German Grand Prix": -14,
+            "Dutch Grand Prix": -6,
+            "Italian Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -168,6 +173,8 @@
                 "grid": 28,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -180,6 +187,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -192,6 +201,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Axle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -204,6 +215,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -212,5 +225,9 @@
     },
     "sprintResults": {
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 4
+    },
+    "totalStarts": 4
 }

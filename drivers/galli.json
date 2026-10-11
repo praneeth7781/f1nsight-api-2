@@ -1,10 +1,10 @@
 {
     "driverId": "galli",
-    "lastUpdate": "2026-10-02T11:47:20.519168",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 10,
+    "totalDNFs": 9,
     "seasonWins": {
         "1970": 0,
         "1971": 0,
@@ -24,7 +24,7 @@
         "1973": 0
     },
     "seasonDNFs": {
-        "1970": 1,
+        "1970": 0,
         "1971": 2,
         "1972": 4,
         "1973": 3
@@ -42,9 +42,7 @@
         "1973": {}
     },
     "DNFs": {
-        "1970": {
-            "Italian Grand Prix": "Did not qualify"
-        },
+        "1970": {},
         "1971": {
             "Italian Grand Prix": "Electrical",
             "United States Grand Prix": "Wheel"
@@ -349,16 +347,16 @@
         }
     },
     "avgRacePositions": {
-        "1970": 26.0,
+        "1970": -1,
         "1971": 16.166666666666668,
         "1972": 19.2,
         "1973": 16.4
     },
     "avgQualiPositions": {
         "1970": -1,
-        "1971": -1,
-        "1972": -1,
-        "1973": -1
+        "1971": 19.833333333333332,
+        "1972": 21.4,
+        "1973": 18.4
     },
     "rates": {
         "wins": {
@@ -380,16 +378,16 @@
             "1973": 0.0
         },
         "DNFs": {
-            "1970": 1.0,
-            "1971": 0.16666666666666666,
-            "1972": 0.2,
-            "1973": 0.2
+            "1970": 0.0,
+            "1971": 0.3333333333333333,
+            "1972": 0.8,
+            "1973": 0.6
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5882352941176471,
+    "dnfRate": 0.5625,
     "ptwConRate": {
         "1970": -1,
         "1971": -1,
@@ -398,9 +396,28 @@
     },
     "positionsGainLost": {
         "1970": {},
-        "1971": {},
-        "1972": {},
-        "1973": {}
+        "1971": {
+            "British Grand Prix": 10,
+            "German Grand Prix": 9,
+            "Austrian Grand Prix": 3,
+            "Italian Grand Prix": 0,
+            "Canadian Grand Prix": 4,
+            "United States Grand Prix": -4
+        },
+        "1972": {
+            "Belgian Grand Prix": 5,
+            "French Grand Prix": 6,
+            "British Grand Prix": -5,
+            "Austrian Grand Prix": 6,
+            "Italian Grand Prix": -1
+        },
+        "1973": {
+            "Argentine Grand Prix": -3,
+            "Brazilian Grand Prix": 9,
+            "Spanish Grand Prix": 9,
+            "Belgian Grand Prix": -5,
+            "Monaco Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -414,6 +431,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "mclaren-alfa_romeo",
                 "fastestLapRank": null,
                 "shared": false
@@ -428,6 +447,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -440,6 +461,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march-alfa_romeo",
                 "fastestLapRank": null,
                 "shared": false
@@ -452,6 +475,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march-alfa_romeo",
                 "fastestLapRank": null,
                 "shared": false
@@ -464,6 +489,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -476,6 +503,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -488,6 +517,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Wheel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -502,6 +533,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "tecno",
                 "fastestLapRank": null,
                 "shared": false
@@ -514,6 +547,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -526,6 +561,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "tecno",
                 "fastestLapRank": null,
                 "shared": false
@@ -538,6 +575,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tecno",
                 "fastestLapRank": null,
                 "shared": false
@@ -550,6 +589,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tecno",
                 "fastestLapRank": null,
                 "shared": false
@@ -564,6 +605,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -576,6 +619,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -588,6 +633,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -600,6 +647,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -612,6 +661,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -623,5 +674,12 @@
         "1971": {},
         "1972": {},
         "1973": {}
-    }
+    },
+    "seasonStarts": {
+        "1970": 0,
+        "1971": 6,
+        "1972": 5,
+        "1973": 5
+    },
+    "totalStarts": 16
 }

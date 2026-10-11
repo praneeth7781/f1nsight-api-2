@@ -1,10 +1,10 @@
 {
     "driverId": "piper",
-    "lastUpdate": "2026-10-02T11:47:20.495258",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1959": 0,
         "1960": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1959": 1,
-        "1960": 1
+        "1960": 0
     },
     "poles": {
         "1959": [],
@@ -33,9 +33,7 @@
         "1959": {
             "British Grand Prix": "Overheating"
         },
-        "1960": {
-            "French Grand Prix": "Engine"
-        }
+        "1960": {}
     },
     "fastLaps": {
         "1959": {
@@ -176,11 +174,11 @@
     },
     "avgRacePositions": {
         "1959": 21.0,
-        "1960": 17.0
+        "1960": 12.0
     },
     "avgQualiPositions": {
-        "1959": -1,
-        "1960": -1
+        "1959": 22.0,
+        "1960": 24.0
     },
     "rates": {
         "wins": {
@@ -197,20 +195,24 @@
         },
         "DNFs": {
             "1959": 1.0,
-            "1960": 0.5
+            "1960": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1959": -1,
         "1960": -1
     },
     "positionsGainLost": {
-        "1959": {},
-        "1960": {}
+        "1959": {
+            "British Grand Prix": 1
+        },
+        "1960": {
+            "British Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -224,6 +226,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -238,6 +242,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "withdrew",
+                "cause": "mechanical",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -250,6 +256,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -259,5 +267,10 @@
     "sprintResults": {
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 2
 }

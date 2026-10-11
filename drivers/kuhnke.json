@@ -1,10 +1,10 @@
 {
     "driverId": "kuhnke",
-    "lastUpdate": "2026-10-02T11:47:20.505120",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 0,
     "seasonWins": {
         "1962": 0,
         "1963": 0
@@ -18,8 +18,8 @@
         "1963": 0
     },
     "seasonDNFs": {
-        "1962": 1,
-        "1963": 1
+        "1962": 0,
+        "1963": 0
     },
     "poles": {
         "1962": [],
@@ -30,12 +30,8 @@
         "1963": {}
     },
     "DNFs": {
-        "1962": {
-            "Italian Grand Prix": "Withdrew"
-        },
-        "1963": {
-            "German Grand Prix": "Did not qualify"
-        }
+        "1962": {},
+        "1963": {}
     },
     "fastLaps": {
         "1962": {
@@ -150,8 +146,8 @@
         }
     },
     "avgRacePositions": {
-        "1962": 31.0,
-        "1963": 26.0
+        "1962": -1,
+        "1963": -1
     },
     "avgQualiPositions": {
         "1962": -1,
@@ -171,14 +167,14 @@
             "1963": 0.0
         },
         "DNFs": {
-            "1962": 1.0,
-            "1963": 1.0
+            "1962": 0.0,
+            "1963": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1962": -1,
         "1963": -1
@@ -199,6 +195,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "lotus-borgward",
                 "fastestLapRank": null,
                 "shared": false
@@ -213,6 +211,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "lotus-borgward",
                 "fastestLapRank": null,
                 "shared": false
@@ -222,5 +222,10 @@
     "sprintResults": {
         "1962": {},
         "1963": {}
-    }
+    },
+    "seasonStarts": {
+        "1962": 0,
+        "1963": 0
+    },
+    "totalStarts": 0
 }

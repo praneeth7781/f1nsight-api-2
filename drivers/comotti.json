@@ -1,6 +1,6 @@
 {
     "driverId": "comotti",
-    "lastUpdate": "2026-10-02T11:47:20.460545",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -162,8 +162,8 @@
         "1952": 12.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1952": -1
+        "1950": 26.0,
+        "1952": 16.0
     },
     "rates": {
         "wins": {
@@ -180,7 +180,7 @@
         },
         "DNFs": {
             "1950": 1.0,
-            "1952": 1.0
+            "1952": 0.0
         }
     },
     "winRate": 0.0,
@@ -192,8 +192,12 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1952": {}
+        "1950": {
+            "Italian Grand Prix": 6
+        },
+        "1952": {
+            "French Grand Prix": 4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -207,6 +211,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -221,6 +227,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+14 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -230,5 +238,10 @@
     "sprintResults": {
         "1950": {},
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1952": 1
+    },
+    "totalStarts": 2
 }

@@ -1,10 +1,10 @@
 {
     "driverId": "templeman",
-    "lastUpdate": "2026-10-02T11:47:20.482274",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 3,
     "seasonWins": {
         "1955": 0,
         "1958": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1955": 1,
         "1958": 1,
-        "1960": 0
+        "1960": 1
     },
     "poles": {
         "1955": [],
@@ -42,7 +42,9 @@
         "1958": {
             "Indianapolis 500": "Brakes"
         },
-        "1960": {}
+        "1960": {
+            "Indianapolis 500": "Clutch"
+        }
     },
     "fastLaps": {
         "1955": {
@@ -246,9 +248,9 @@
         "1960": 17.0
     },
     "avgQualiPositions": {
-        "1955": -1,
-        "1958": -1,
-        "1960": -1
+        "1955": 31.0,
+        "1958": 23.0,
+        "1960": 19.0
     },
     "rates": {
         "wins": {
@@ -282,9 +284,15 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1955": {},
-        "1958": {},
-        "1960": {}
+        "1955": {
+            "Indianapolis 500": 13
+        },
+        "1958": {
+            "Indianapolis 500": 4
+        },
+        "1960": {
+            "Indianapolis 500": 2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -298,6 +306,8 @@
                 "grid": 31,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "trevis",
                 "fastestLapRank": null,
                 "shared": false
@@ -312,6 +322,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -326,6 +338,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -336,5 +350,11 @@
         "1955": {},
         "1958": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1955": 1,
+        "1958": 1,
+        "1960": 1
+    },
+    "totalStarts": 3
 }

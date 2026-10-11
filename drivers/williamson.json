@@ -1,6 +1,6 @@
 {
     "driverId": "williamson",
-    "lastUpdate": "2026-10-02T11:47:20.524085",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -132,7 +132,7 @@
         "1973": 22.5
     },
     "avgQualiPositions": {
-        "1973": -1
+        "1973": 20.0
     },
     "rates": {
         "wins": {
@@ -156,7 +156,10 @@
         "1973": -1
     },
     "positionsGainLost": {
-        "1973": {}
+        "1973": {
+            "British Grand Prix": -3,
+            "Dutch Grand Prix": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -170,6 +173,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -182,6 +187,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -190,5 +197,9 @@
     },
     "sprintResults": {
         "1973": {}
-    }
+    },
+    "seasonStarts": {
+        "1973": 2
+    },
+    "totalStarts": 2
 }

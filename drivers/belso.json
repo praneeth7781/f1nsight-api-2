@@ -1,10 +1,10 @@
 {
     "driverId": "belso",
-    "lastUpdate": "2026-10-02T11:47:20.525115",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1974": 0
     },
@@ -15,7 +15,7 @@
         "1974": 0
     },
     "seasonDNFs": {
-        "1974": 2
+        "1974": 1
     },
     "poles": {
         "1974": []
@@ -25,8 +25,7 @@
     },
     "DNFs": {
         "1974": {
-            "South African Grand Prix": "Clutch",
-            "Spanish Grand Prix": "Did not qualify"
+            "South African Grand Prix": "Clutch"
         }
     },
     "fastLaps": {
@@ -150,10 +149,10 @@
         }
     },
     "avgRacePositions": {
-        "1974": 22.5
+        "1974": 17.5
     },
     "avgQualiPositions": {
-        "1974": -1
+        "1974": 24.0
     },
     "rates": {
         "wins": {
@@ -166,18 +165,21 @@
             "1974": 0.0
         },
         "DNFs": {
-            "1974": 0.75
+            "1974": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.75,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1974": -1
     },
     "positionsGainLost": {
-        "1974": {}
+        "1974": {
+            "South African Grand Prix": 0,
+            "Swedish Grand Prix": 13
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -191,6 +193,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -203,6 +207,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -215,6 +221,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -223,5 +231,9 @@
     },
     "sprintResults": {
         "1974": {}
-    }
+    },
+    "seasonStarts": {
+        "1974": 2
+    },
+    "totalStarts": 2
 }

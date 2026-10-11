@@ -1,6 +1,6 @@
 {
     "driverId": "fischer",
-    "lastUpdate": "2026-10-02T11:47:20.461126",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 2,
     "totalPoles": 0,
@@ -210,8 +210,8 @@
         "1952": 10.4
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1
+        "1951": 9.0,
+        "1952": 11.8
     },
     "rates": {
         "wins": {
@@ -228,7 +228,7 @@
         },
         "DNFs": {
             "1951": 0.0,
-            "1952": 0.0
+            "1952": 0.2
         }
     },
     "winRate": 0.0,
@@ -240,8 +240,17 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {}
+        "1951": {
+            "Swiss Grand Prix": -1,
+            "German Grand Prix": 2
+        },
+        "1952": {
+            "Swiss Grand Prix": 3,
+            "French Grand Prix": 6,
+            "British Grand Prix": 2,
+            "German Grand Prix": 3,
+            "Italian Grand Prix": -7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -255,6 +264,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -267,6 +278,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -281,6 +294,8 @@
                 "grid": 5,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -293,6 +308,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+11 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": true
@@ -305,6 +322,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -317,6 +336,8 @@
                 "grid": 6,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -329,6 +350,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -338,5 +361,10 @@
     "sprintResults": {
         "1951": {},
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 2,
+        "1952": 5
+    },
+    "totalStarts": 7
 }

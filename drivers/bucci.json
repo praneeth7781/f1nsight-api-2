@@ -1,6 +1,6 @@
 {
     "driverId": "bucci",
-    "lastUpdate": "2026-10-02T11:47:20.480643",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -194,8 +194,8 @@
         "1955": 9.0
     },
     "avgQualiPositions": {
-        "1954": -1,
-        "1955": -1
+        "1954": 14.0,
+        "1955": 20.0
     },
     "rates": {
         "wins": {
@@ -212,7 +212,7 @@
         },
         "DNFs": {
             "1954": 1.0,
-            "1955": 4.0
+            "1955": 1.0
         }
     },
     "winRate": 0.0,
@@ -224,8 +224,15 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1954": {},
-        "1955": {}
+        "1954": {
+            "British Grand Prix": -12,
+            "German Grand Prix": 3,
+            "Swiss Grand Prix": -6,
+            "Italian Grand Prix": -2
+        },
+        "1955": {
+            "Argentine Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -239,6 +246,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -251,6 +260,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Wheel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -263,6 +274,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -275,6 +288,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -289,6 +304,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Fuel pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -298,5 +315,10 @@
     "sprintResults": {
         "1954": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1954": 4,
+        "1955": 1
+    },
+    "totalStarts": 5
 }

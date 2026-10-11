@@ -1,6 +1,6 @@
 {
     "driverId": "carini",
-    "lastUpdate": "2026-10-02T11:47:20.469425",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -168,8 +168,8 @@
         "1953": 24.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1
+        "1952": 23.0,
+        "1953": 20.0
     },
     "rates": {
         "wins": {
@@ -186,7 +186,7 @@
         },
         "DNFs": {
             "1952": 1.0,
-            "1953": 2.0
+            "1953": 1.0
         }
     },
     "winRate": 0.0,
@@ -198,8 +198,13 @@
         "1953": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {}
+        "1952": {
+            "French Grand Prix": -1,
+            "German Grand Prix": -2
+        },
+        "1953": {
+            "Italian Grand Prix": -4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -213,6 +218,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -225,6 +232,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,6 +248,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -248,5 +259,10 @@
     "sprintResults": {
         "1952": {},
         "1953": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 2,
+        "1953": 1
+    },
+    "totalStarts": 3
 }

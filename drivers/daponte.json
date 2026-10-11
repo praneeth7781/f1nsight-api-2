@@ -1,6 +1,6 @@
 {
     "driverId": "daponte",
-    "lastUpdate": "2026-10-02T11:47:20.478177",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -137,7 +137,7 @@
         "1954": 13.0
     },
     "avgQualiPositions": {
-        "1954": -1
+        "1954": 18.5
     },
     "rates": {
         "wins": {
@@ -161,7 +161,10 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1954": {}
+        "1954": {
+            "Argentine Grand Prix": 3,
+            "Italian Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -175,6 +178,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -187,6 +192,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -195,5 +202,9 @@
     },
     "sprintResults": {
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1954": 2
+    },
+    "totalStarts": 2
 }

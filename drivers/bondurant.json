@@ -1,10 +1,10 @@
 {
     "driverId": "bondurant",
-    "lastUpdate": "2026-10-02T11:47:20.512166",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 4,
     "seasonWins": {
         "1965": 0,
         "1966": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1965": 1,
-        "1966": 4
+        "1966": 3
     },
     "poles": {
         "1965": [],
@@ -36,7 +36,6 @@
         "1966": {
             "Belgian Grand Prix": "Accident",
             "German Grand Prix": "Engine",
-            "United States Grand Prix": "Disqualified",
             "Mexican Grand Prix": "Fuel system"
         }
     },
@@ -203,8 +202,8 @@
         "1966": 11.857142857142858
     },
     "avgQualiPositions": {
-        "1965": -1,
-        "1966": -1
+        "1965": 16.0,
+        "1966": 14.857142857142858
     },
     "rates": {
         "wins": {
@@ -221,20 +220,31 @@
         },
         "DNFs": {
             "1965": 0.5,
-            "1966": 0.14285714285714285
+            "1966": 0.42857142857142855
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5555555555555556,
+    "dnfRate": 0.4444444444444444,
     "ptwConRate": {
         "1965": -1,
         "1966": -1
     },
     "positionsGainLost": {
-        "1965": {},
-        "1966": {}
+        "1965": {
+            "United States Grand Prix": 5,
+            "Mexican Grand Prix": 3
+        },
+        "1966": {
+            "Monaco Grand Prix": 12,
+            "Belgian Grand Prix": -2,
+            "British Grand Prix": 5,
+            "German Grand Prix": -5,
+            "Italian Grand Prix": 11,
+            "United States Grand Prix": -3,
+            "Mexican Grand Prix": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -248,6 +258,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -260,6 +272,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -274,6 +288,8 @@
                 "grid": 16,
                 "points": 3.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -286,6 +302,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -298,6 +316,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -310,6 +330,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -322,6 +344,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -334,6 +358,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "eagle-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -346,6 +372,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eagle-weslake",
                 "fastestLapRank": null,
                 "shared": false
@@ -355,5 +383,10 @@
     "sprintResults": {
         "1965": {},
         "1966": {}
-    }
+    },
+    "seasonStarts": {
+        "1965": 2,
+        "1966": 7
+    },
+    "totalStarts": 9
 }

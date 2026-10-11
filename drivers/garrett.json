@@ -1,6 +1,6 @@
 {
     "driverId": "garrett",
-    "lastUpdate": "2026-10-02T11:47:20.484900",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -186,8 +186,8 @@
         "1958": 21.0
     },
     "avgQualiPositions": {
-        "1956": -1,
-        "1958": -1
+        "1956": 29.0,
+        "1958": 15.0
     },
     "rates": {
         "wins": {
@@ -204,7 +204,7 @@
         },
         "DNFs": {
             "1956": 0.0,
-            "1958": 0.0
+            "1958": 1.0
         }
     },
     "winRate": 0.0,
@@ -216,8 +216,12 @@
         "1958": -1
     },
     "positionsGainLost": {
-        "1956": {},
-        "1958": {}
+        "1956": {
+            "Indianapolis 500": 13
+        },
+        "1958": {
+            "Indianapolis 500": -6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -231,6 +235,8 @@
                 "grid": 29,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -245,6 +251,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -254,5 +262,10 @@
     "sprintResults": {
         "1956": {},
         "1958": {}
-    }
+    },
+    "seasonStarts": {
+        "1956": 1,
+        "1958": 1
+    },
+    "totalStarts": 2
 }

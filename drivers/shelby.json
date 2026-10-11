@@ -1,6 +1,6 @@
 {
     "driverId": "shelby",
-    "lastUpdate": "2026-10-02T11:47:20.491205",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -205,8 +205,8 @@
         "1959": 11.5
     },
     "avgQualiPositions": {
-        "1958": -1,
-        "1959": -1
+        "1958": 13.25,
+        "1959": 12.0
     },
     "rates": {
         "wins": {
@@ -235,8 +235,18 @@
         "1959": -1
     },
     "positionsGainLost": {
-        "1958": {},
-        "1959": {}
+        "1958": {
+            "French Grand Prix": -3,
+            "British Grand Prix": 6,
+            "Portuguese Grand Prix": 0,
+            "Italian Grand Prix": 7
+        },
+        "1959": {
+            "Dutch Grand Prix": -4,
+            "British Grand Prix": -8,
+            "Portuguese Grand Prix": 5,
+            "Italian Grand Prix": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -250,6 +260,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -262,6 +274,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -274,6 +288,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -286,6 +302,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -300,6 +318,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "aston_martin",
                 "fastestLapRank": null,
                 "shared": false
@@ -312,6 +332,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "aston_martin",
                 "fastestLapRank": null,
                 "shared": false
@@ -324,6 +346,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "aston_martin",
                 "fastestLapRank": null,
                 "shared": false
@@ -336,6 +360,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "aston_martin",
                 "fastestLapRank": null,
                 "shared": false
@@ -345,5 +371,10 @@
     "sprintResults": {
         "1958": {},
         "1959": {}
-    }
+    },
+    "seasonStarts": {
+        "1958": 4,
+        "1959": 4
+    },
+    "totalStarts": 8
 }

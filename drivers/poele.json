@@ -1,6 +1,6 @@
 {
     "driverId": "poele",
-    "lastUpdate": "2026-10-02T11:47:20.548908",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -18,8 +18,8 @@
         "1992": 0
     },
     "seasonDNFs": {
-        "1991": 0,
-        "1992": 3
+        "1991": 1,
+        "1992": 2
     },
     "poles": {
         "1991": [],
@@ -30,9 +30,10 @@
         "1992": {}
     },
     "DNFs": {
-        "1991": {},
+        "1991": {
+            "San Marino Grand Prix": "Out of fuel"
+        },
         "1992": {
-            "British Grand Prix": "Withdrew",
             "Hungarian Grand Prix": "Spun off",
             "Italian Grand Prix": "Clutch"
         }
@@ -244,12 +245,12 @@
         }
     },
     "avgRacePositions": {
-        "1991": 29.625,
-        "1992": 25.307692307692307
+        "1991": 9.0,
+        "1992": 17.75
     },
     "avgQualiPositions": {
-        "1991": -1,
-        "1992": -1
+        "1991": 21.0,
+        "1992": 21.0
     },
     "rates": {
         "wins": {
@@ -266,20 +267,27 @@
         },
         "DNFs": {
             "1991": 1.0,
-            "1992": 1.2307692307692308
+            "1992": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.9310344827586207,
+    "dnfRate": 0.6,
     "ptwConRate": {
         "1991": -1,
         "1992": -1
     },
     "positionsGainLost": {
-        "1991": {},
-        "1992": {}
+        "1991": {
+            "San Marino Grand Prix": 12
+        },
+        "1992": {
+            "South African Grand Prix": 13,
+            "Hungarian Grand Prix": -4,
+            "Belgian Grand Prix": 5,
+            "Italian Grand Prix": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -293,6 +301,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Out of fuel",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "lambo",
                 "fastestLapRank": null,
                 "shared": false
@@ -307,6 +317,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -319,6 +331,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -331,6 +345,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "fondmetal",
                 "fastestLapRank": null,
                 "shared": false
@@ -343,6 +359,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "fondmetal",
                 "fastestLapRank": null,
                 "shared": false
@@ -355,6 +373,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "fondmetal",
                 "fastestLapRank": null,
                 "shared": false
@@ -364,5 +384,10 @@
     "sprintResults": {
         "1991": {},
         "1992": {}
-    }
+    },
+    "seasonStarts": {
+        "1991": 1,
+        "1992": 4
+    },
+    "totalStarts": 5
 }

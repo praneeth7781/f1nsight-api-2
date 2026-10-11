@@ -1,10 +1,10 @@
 {
     "driverId": "fabre",
-    "lastUpdate": "2026-10-02T11:47:20.544304",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 3,
     "seasonWins": {
         "1987": 0
     },
@@ -15,7 +15,7 @@
         "1987": 0
     },
     "seasonDNFs": {
-        "1987": 4
+        "1987": 3
     },
     "poles": {
         "1987": []
@@ -27,7 +27,6 @@
         "1987": {
             "German Grand Prix": "Engine",
             "Austrian Grand Prix": "Not classified",
-            "Italian Grand Prix": "Did not qualify",
             "Spanish Grand Prix": "Clutch"
         }
     },
@@ -188,10 +187,10 @@
         }
     },
     "avgRacePositions": {
-        "1987": 15.083333333333334
+        "1987": 13.909090909090908
     },
     "avgQualiPositions": {
-        "1987": -1
+        "1987": 24.90909090909091
     },
     "rates": {
         "wins": {
@@ -204,18 +203,30 @@
             "1987": 0.0
         },
         "DNFs": {
-            "1987": 0.3333333333333333
+            "1987": 0.2727272727272727
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.3333333333333333,
+    "dnfRate": 0.2727272727272727,
     "ptwConRate": {
         "1987": -1
     },
     "positionsGainLost": {
-        "1987": {}
+        "1987": {
+            "Brazilian Grand Prix": 10,
+            "San Marino Grand Prix": 11,
+            "Belgian Grand Prix": 15,
+            "Monaco Grand Prix": 11,
+            "Detroit Grand Prix": 14,
+            "French Grand Prix": 17,
+            "British Grand Prix": 16,
+            "German Grand Prix": 4,
+            "Hungarian Grand Prix": 13,
+            "Austrian Grand Prix": 10,
+            "Spanish Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -229,6 +240,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -241,6 +254,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -253,6 +268,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -265,6 +282,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -277,6 +296,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -289,6 +310,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -301,6 +324,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -313,6 +338,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -325,6 +352,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -337,6 +366,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -349,6 +380,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -361,6 +394,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ags",
                 "fastestLapRank": null,
                 "shared": false
@@ -369,5 +404,9 @@
     },
     "sprintResults": {
         "1987": {}
-    }
+    },
+    "seasonStarts": {
+        "1987": 11
+    },
+    "totalStarts": 11
 }

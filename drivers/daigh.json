@@ -1,10 +1,10 @@
 {
     "driverId": "daigh",
-    "lastUpdate": "2026-10-02T11:47:20.497441",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 2,
     "seasonWins": {
         "1960": 0
     },
@@ -15,7 +15,7 @@
         "1960": 0
     },
     "seasonDNFs": {
-        "1960": 5
+        "1960": 2
     },
     "poles": {
         "1960": []
@@ -25,10 +25,7 @@
     },
     "DNFs": {
         "1960": {
-            "Monaco Grand Prix": "Did not qualify",
-            "Dutch Grand Prix": "Withdrew",
             "Belgian Grand Prix": "Engine",
-            "French Grand Prix": "Engine",
             "British Grand Prix": "Overheating"
         }
     },
@@ -144,10 +141,10 @@
         }
     },
     "avgRacePositions": {
-        "1960": 17.833333333333332
+        "1960": 14.0
     },
     "avgQualiPositions": {
-        "1960": -1
+        "1960": 18.333333333333332
     },
     "rates": {
         "wins": {
@@ -160,18 +157,22 @@
             "1960": 0.0
         },
         "DNFs": {
-            "1960": 0.8333333333333334
+            "1960": 0.6666666666666666
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8333333333333334,
+    "dnfRate": 0.6666666666666666,
     "ptwConRate": {
         "1960": -1
     },
     "positionsGainLost": {
-        "1960": {}
+        "1960": {
+            "Belgian Grand Prix": 6,
+            "British Grand Prix": -1,
+            "United States Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -185,6 +186,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "scarab",
                 "fastestLapRank": null,
                 "shared": false
@@ -197,6 +200,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "scarab",
                 "fastestLapRank": null,
                 "shared": false
@@ -209,6 +214,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "scarab",
                 "fastestLapRank": null,
                 "shared": false
@@ -221,6 +228,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "withdrew",
+                "cause": "mechanical",
                 "constructorId": "scarab",
                 "fastestLapRank": null,
                 "shared": false
@@ -233,6 +242,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -245,6 +256,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "scarab",
                 "fastestLapRank": null,
                 "shared": false
@@ -253,5 +266,9 @@
     },
     "sprintResults": {
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1960": 3
+    },
+    "totalStarts": 3
 }

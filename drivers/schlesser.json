@@ -1,10 +1,10 @@
 {
     "driverId": "schlesser",
-    "lastUpdate": "2026-10-02T11:47:20.540974",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1983": 0,
         "1988": 0
@@ -18,7 +18,7 @@
         "1988": 0
     },
     "seasonDNFs": {
-        "1983": 1,
+        "1983": 0,
         "1988": 0
     },
     "poles": {
@@ -30,9 +30,7 @@
         "1988": {}
     },
     "DNFs": {
-        "1983": {
-            "French Grand Prix": "Did not qualify"
-        },
+        "1983": {},
         "1988": {}
     },
     "fastLaps": {
@@ -154,12 +152,12 @@
         }
     },
     "avgRacePositions": {
-        "1983": 29.0,
+        "1983": -1,
         "1988": 11.0
     },
     "avgQualiPositions": {
         "1983": -1,
-        "1988": -1
+        "1988": 22.0
     },
     "rates": {
         "wins": {
@@ -175,21 +173,23 @@
             "1988": 0.0
         },
         "DNFs": {
-            "1983": 1.0,
-            "1988": 1.0
+            "1983": 0.0,
+            "1988": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1983": -1,
         "1988": -1
     },
     "positionsGainLost": {
         "1983": {},
-        "1988": {}
+        "1988": {
+            "Italian Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -203,6 +203,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ram",
                 "fastestLapRank": null,
                 "shared": false
@@ -217,6 +219,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": null,
                 "shared": false
@@ -226,5 +230,10 @@
     "sprintResults": {
         "1983": {},
         "1988": {}
-    }
+    },
+    "seasonStarts": {
+        "1983": 0,
+        "1988": 1
+    },
+    "totalStarts": 1
 }

@@ -1,10 +1,10 @@
 {
     "driverId": "needell",
-    "lastUpdate": "2026-10-02T11:47:20.537147",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1980": 0
     },
@@ -15,7 +15,7 @@
         "1980": 0
     },
     "seasonDNFs": {
-        "1980": 2
+        "1980": 1
     },
     "poles": {
         "1980": []
@@ -25,8 +25,7 @@
     },
     "DNFs": {
         "1980": {
-            "Belgian Grand Prix": "Engine",
-            "Monaco Grand Prix": "Did not qualify"
+            "Belgian Grand Prix": "Engine"
         }
     },
     "fastLaps": {
@@ -138,10 +137,10 @@
         }
     },
     "avgRacePositions": {
-        "1980": 23.0
+        "1980": 20.0
     },
     "avgQualiPositions": {
-        "1980": -1
+        "1980": 23.0
     },
     "rates": {
         "wins": {
@@ -165,7 +164,9 @@
         "1980": -1
     },
     "positionsGainLost": {
-        "1980": {}
+        "1980": {
+            "Belgian Grand Prix": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -179,6 +180,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -191,6 +194,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -199,5 +204,9 @@
     },
     "sprintResults": {
         "1980": {}
-    }
+    },
+    "seasonStarts": {
+        "1980": 1
+    },
+    "totalStarts": 1
 }

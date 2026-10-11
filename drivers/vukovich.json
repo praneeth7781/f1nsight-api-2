@@ -1,10 +1,10 @@
 {
     "driverId": "vukovich",
-    "lastUpdate": "2026-10-02T11:47:20.463413",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 2,
     "totalPodiums": 2,
     "totalPoles": 1,
-    "totalDNFs": 2,
+    "totalDNFs": 3,
     "seasonWins": {
         "1951": 0,
         "1952": 0,
@@ -28,7 +28,7 @@
     },
     "seasonDNFs": {
         "1951": 1,
-        "1952": 0,
+        "1952": 1,
         "1953": 0,
         "1954": 0,
         "1955": 1
@@ -57,7 +57,9 @@
         "1951": {
             "Indianapolis 500": "Oil leak"
         },
-        "1952": {},
+        "1952": {
+            "Indianapolis 500": "Steering"
+        },
         "1953": {},
         "1954": {},
         "1955": {
@@ -368,11 +370,11 @@
         "1955": 25.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1
+        "1951": 20.0,
+        "1952": 8.0,
+        "1953": 1.0,
+        "1954": 19.0,
+        "1955": 5.0
     },
     "rates": {
         "wins": {
@@ -399,8 +401,8 @@
         "DNFs": {
             "1951": 1.0,
             "1952": 1.0,
-            "1953": 1.0,
-            "1954": 1.0,
+            "1953": 0.0,
+            "1954": 0.0,
             "1955": 1.0
         }
     },
@@ -416,11 +418,21 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {}
+        "1951": {
+            "Indianapolis 500": -9
+        },
+        "1952": {
+            "Indianapolis 500": -9
+        },
+        "1953": {
+            "Indianapolis 500": 0
+        },
+        "1954": {
+            "Indianapolis 500": 18
+        },
+        "1955": {
+            "Indianapolis 500": -20
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -434,6 +446,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "trevis",
                 "fastestLapRank": null,
                 "shared": false
@@ -448,6 +462,8 @@
                 "grid": 8,
                 "points": 1.0,
                 "status": "Steering",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -462,6 +478,8 @@
                 "grid": 1,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -476,6 +494,8 @@
                 "grid": 19,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -490,6 +510,8 @@
                 "grid": 5,
                 "points": 1.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -502,5 +524,13 @@
         "1953": {},
         "1954": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1
+    },
+    "totalStarts": 5
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "ongais",
-    "lastUpdate": "2026-10-02T11:47:20.533460",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -207,11 +207,11 @@
     },
     "avgRacePositions": {
         "1977": 16.0,
-        "1978": 25.25
+        "1978": 20.0
     },
     "avgQualiPositions": {
-        "1977": -1,
-        "1978": -1
+        "1977": 24.0,
+        "1978": 22.0
     },
     "rates": {
         "wins": {
@@ -228,20 +228,26 @@
         },
         "DNFs": {
             "1977": 0.5,
-            "1978": 0.25
+            "1978": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8333333333333334,
+    "dnfRate": 0.75,
     "ptwConRate": {
         "1977": -1,
         "1978": -1
     },
     "positionsGainLost": {
-        "1977": {},
-        "1978": {}
+        "1977": {
+            "United States Grand Prix": 1,
+            "Canadian Grand Prix": 15
+        },
+        "1978": {
+            "Argentine Grand Prix": 0,
+            "Brazilian Grand Prix": 4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -255,6 +261,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -267,6 +275,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "penske",
                 "fastestLapRank": null,
                 "shared": false
@@ -281,6 +291,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Distributor",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -293,6 +305,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -302,5 +316,10 @@
     "sprintResults": {
         "1977": {},
         "1978": {}
-    }
+    },
+    "seasonStarts": {
+        "1977": 2,
+        "1978": 2
+    },
+    "totalStarts": 4
 }

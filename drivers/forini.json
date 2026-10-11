@@ -1,6 +1,6 @@
 {
     "driverId": "forini",
-    "lastUpdate": "2026-10-02T11:47:20.544744",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -129,7 +129,7 @@
         "1987": 19.5
     },
     "avgQualiPositions": {
-        "1987": -1
+        "1987": 26.0
     },
     "rates": {
         "wins": {
@@ -153,7 +153,10 @@
         "1987": -1
     },
     "positionsGainLost": {
-        "1987": {}
+        "1987": {
+            "Italian Grand Prix": 5,
+            "Portuguese Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -167,6 +170,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -179,6 +184,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -187,5 +194,9 @@
     },
     "sprintResults": {
         "1987": {}
-    }
+    },
+    "seasonStarts": {
+        "1987": 2
+    },
+    "totalStarts": 2
 }

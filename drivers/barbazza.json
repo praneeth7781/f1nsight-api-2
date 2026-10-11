@@ -1,6 +1,6 @@
 {
     "driverId": "barbazza",
-    "lastUpdate": "2026-10-02T11:47:20.550772",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -141,19 +141,19 @@
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 1.0
+            "points": 2.0
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 1.0
+            "points": 0.0
         },
         "cv": {
             "wins": 0,
             "podiums": 0,
             "poles": 0,
-            "points": 1.0
+            "points": 0.0
         }
     },
     "peakSeason": {
@@ -171,42 +171,43 @@
         }
     },
     "avgRacePositions": {
-        "1991": 30.333333333333332,
         "1993": 16.375
     },
     "avgQualiPositions": {
-        "1991": -1,
-        "1993": -1
+        "1993": 23.75
     },
     "rates": {
         "wins": {
-            "1991": 0.0,
             "1993": 0.0
         },
         "podiums": {
-            "1991": 0.0,
             "1993": 0.0
         },
         "poles": {
-            "1991": 0.0,
             "1993": 0.0
         },
         "DNFs": {
-            "1991": 1.0,
-            "1993": 1.5
+            "1993": 0.625
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.85,
+    "dnfRate": 0.625,
     "ptwConRate": {
-        "1991": -1,
         "1993": -1
     },
     "positionsGainLost": {
-        "1991": {},
-        "1993": {}
+        "1993": {
+            "South African Grand Prix": 6,
+            "Brazilian Grand Prix": -1,
+            "European Grand Prix": 14,
+            "San Marino Grand Prix": 19,
+            "Spanish Grand Prix": 4,
+            "Monaco Grand Prix": 14,
+            "Canadian Grand Prix": 2,
+            "French Grand Prix": 1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -220,6 +221,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -232,6 +235,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -244,6 +249,8 @@
                 "grid": 20,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -256,6 +263,8 @@
                 "grid": 25,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -268,6 +277,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -280,6 +291,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -292,6 +305,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -304,6 +319,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -312,5 +329,9 @@
     },
     "sprintResults": {
         "1993": {}
-    }
+    },
+    "seasonStarts": {
+        "1993": 8
+    },
+    "totalStarts": 8
 }

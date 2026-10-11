@@ -1,6 +1,6 @@
 {
     "driverId": "brabham",
-    "lastUpdate": "2026-10-02T11:47:20.548227",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -386,12 +386,12 @@
         }
     },
     "avgRacePositions": {
-        "1990": 23.714285714285715,
+        "1990": 20.0,
         "1994": 15.625
     },
     "avgQualiPositions": {
-        "1990": -1,
-        "1994": 24.333333333333332
+        "1990": 23.375,
+        "1994": 24.1875
     },
     "rates": {
         "wins": {
@@ -407,24 +407,34 @@
             "1994": 0.0
         },
         "DNFs": {
-            "1990": 0.9285714285714286,
-            "1994": 0.8125
+            "1990": 0.875,
+            "1994": 0.625
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.7666666666666667,
+    "dnfRate": 0.7083333333333334,
     "ptwConRate": {
         "1990": -1,
         "1994": -1
     },
     "positionsGainLost": {
-        "1990": {},
+        "1990": {
+            "Monaco Grand Prix": 7,
+            "Mexican Grand Prix": -4,
+            "French Grand Prix": 10,
+            "German Grand Prix": 0,
+            "Belgian Grand Prix": 6,
+            "Portuguese Grand Prix": 8,
+            "Japanese Grand Prix": 0,
+            "Australian Grand Prix": 0
+        },
         "1994": {
             "Brazilian Grand Prix": 14,
             "Pacific Grand Prix": 2,
             "San Marino Grand Prix": 6,
+            "Monaco Grand Prix": 6,
             "Spanish Grand Prix": 14,
             "Canadian Grand Prix": 11,
             "French Grand Prix": 2,
@@ -451,6 +461,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -463,6 +475,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -475,6 +489,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -487,6 +503,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -499,6 +517,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -511,6 +531,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -523,6 +545,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -535,6 +559,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -549,6 +575,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -561,6 +589,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -573,6 +603,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -585,6 +617,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -597,6 +631,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -609,6 +645,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -621,6 +659,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -633,6 +673,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -645,6 +687,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -657,6 +701,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -669,6 +715,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Wheel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -681,6 +729,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Puncture",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -693,6 +743,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -705,6 +757,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -717,6 +771,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -729,6 +785,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -738,5 +796,10 @@
     "sprintResults": {
         "1990": {},
         "1994": {}
-    }
+    },
+    "seasonStarts": {
+        "1990": 8,
+        "1994": 16
+    },
+    "totalStarts": 24
 }

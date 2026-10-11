@@ -1,6 +1,6 @@
 {
     "driverId": "turner",
-    "lastUpdate": "2026-10-02T11:47:20.485181",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -306,10 +306,10 @@
         "1959": 27.0
     },
     "avgQualiPositions": {
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1
+        "1956": 24.0,
+        "1957": 19.0,
+        "1958": 10.0,
+        "1959": 14.0
     },
     "rates": {
         "wins": {
@@ -332,7 +332,7 @@
         },
         "DNFs": {
             "1956": 1.0,
-            "1957": 1.0,
+            "1957": 0.0,
             "1958": 1.0,
             "1959": 1.0
         }
@@ -348,10 +348,18 @@
         "1959": -1
     },
     "positionsGainLost": {
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1959": {}
+        "1956": {
+            "Indianapolis 500": -1
+        },
+        "1957": {
+            "Indianapolis 500": 8
+        },
+        "1958": {
+            "Indianapolis 500": -15
+        },
+        "1959": {
+            "Indianapolis 500": -13
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -365,6 +373,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -379,6 +389,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -393,6 +405,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lesovsky",
                 "fastestLapRank": null,
                 "shared": false
@@ -407,6 +421,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "vhristensen",
                 "fastestLapRank": null,
                 "shared": false
@@ -418,5 +434,12 @@
         "1957": {},
         "1958": {},
         "1959": {}
-    }
+    },
+    "seasonStarts": {
+        "1956": 1,
+        "1957": 1,
+        "1958": 1,
+        "1959": 1
+    },
+    "totalStarts": 4
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "peter_walker",
-    "lastUpdate": "2026-10-02T11:47:20.451935",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -229,9 +229,9 @@
         "1955": 17.5
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1955": -1
+        "1950": 10.0,
+        "1951": 19.0,
+        "1955": 12.0
     },
     "rates": {
         "wins": {
@@ -251,8 +251,8 @@
         },
         "DNFs": {
             "1950": 1.0,
-            "1951": 1.0,
-            "1955": 0.5
+            "1951": 0.0,
+            "1955": 1.0
         }
     },
     "winRate": 0.0,
@@ -265,9 +265,16 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1955": {}
+        "1950": {
+            "British Grand Prix": -10
+        },
+        "1951": {
+            "British Grand Prix": 12
+        },
+        "1955": {
+            "Dutch Grand Prix": -6,
+            "British Grand Prix": -5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -281,6 +288,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "era",
                 "fastestLapRank": null,
                 "shared": true
@@ -295,6 +304,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -309,6 +320,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -321,6 +334,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": true
@@ -331,5 +346,11 @@
         "1950": {},
         "1951": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1,
+        "1955": 2
+    },
+    "totalStarts": 4
 }

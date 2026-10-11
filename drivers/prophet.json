@@ -1,6 +1,6 @@
 {
     "driverId": "prophet",
-    "lastUpdate": "2026-10-02T11:47:20.509458",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -177,8 +177,8 @@
         "1965": 14.0
     },
     "avgQualiPositions": {
-        "1963": -1,
-        "1965": -1
+        "1963": 14.0,
+        "1965": 19.0
     },
     "rates": {
         "wins": {
@@ -195,7 +195,7 @@
         },
         "DNFs": {
             "1963": 1.0,
-            "1965": 1.0
+            "1965": 0.0
         }
     },
     "winRate": 0.0,
@@ -207,8 +207,12 @@
         "1965": -1
     },
     "positionsGainLost": {
-        "1963": {},
-        "1965": {}
+        "1963": {
+            "South African Grand Prix": -2
+        },
+        "1965": {
+            "South African Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -222,6 +226,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -236,6 +242,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+14 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -245,5 +253,10 @@
     "sprintResults": {
         "1963": {},
         "1965": {}
-    }
+    },
+    "seasonStarts": {
+        "1963": 1,
+        "1965": 1
+    },
+    "totalStarts": 2
 }

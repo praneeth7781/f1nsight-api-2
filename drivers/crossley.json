@@ -1,6 +1,6 @@
 {
     "driverId": "crossley",
-    "lastUpdate": "2026-10-02T11:47:20.451367",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -131,7 +131,7 @@
         "1950": 12.5
     },
     "avgQualiPositions": {
-        "1950": -1
+        "1950": 14.5
     },
     "rates": {
         "wins": {
@@ -155,7 +155,10 @@
         "1950": -1
     },
     "positionsGainLost": {
-        "1950": {}
+        "1950": {
+            "British Grand Prix": 1,
+            "Belgian Grand Prix": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -169,6 +172,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "alta",
                 "fastestLapRank": null,
                 "shared": false
@@ -181,6 +186,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alta",
                 "fastestLapRank": null,
                 "shared": false
@@ -189,5 +196,9 @@
     },
     "sprintResults": {
         "1950": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 2
+    },
+    "totalStarts": 2
 }

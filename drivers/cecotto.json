@@ -1,10 +1,10 @@
 {
     "driverId": "cecotto",
-    "lastUpdate": "2026-10-02T11:47:20.540676",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 16,
+    "totalDNFs": 11,
     "seasonWins": {
         "1983": 0,
         "1984": 0
@@ -18,8 +18,8 @@
         "1984": 0
     },
     "seasonDNFs": {
-        "1983": 7,
-        "1984": 9
+        "1983": 3,
+        "1984": 8
     },
     "poles": {
         "1983": [],
@@ -32,12 +32,8 @@
     "DNFs": {
         "1983": {
             "San Marino Grand Prix": "Spun off",
-            "Monaco Grand Prix": "Did not prequalify",
             "Detroit Grand Prix": "Gearbox",
-            "Canadian Grand Prix": "Differential",
-            "British Grand Prix": "Did not qualify",
-            "Austrian Grand Prix": "Did not qualify",
-            "Dutch Grand Prix": "Did not qualify"
+            "Canadian Grand Prix": "Differential"
         },
         "1984": {
             "Brazilian Grand Prix": "Turbo",
@@ -47,8 +43,7 @@
             "French Grand Prix": "Turbo",
             "Monaco Grand Prix": "Spun off",
             "Detroit Grand Prix": "Clutch",
-            "Dallas Grand Prix": "Spun off",
-            "British Grand Prix": "Did not qualify"
+            "Dallas Grand Prix": "Spun off"
         }
     },
     "fastLaps": {
@@ -312,12 +307,12 @@
         }
     },
     "avgRacePositions": {
-        "1983": 17.76923076923077,
-        "1984": 19.2
+        "1983": 13.444444444444445,
+        "1984": 18.22222222222222
     },
     "avgQualiPositions": {
-        "1983": -1,
-        "1984": -1
+        "1983": 22.0,
+        "1984": 17.666666666666668
     },
     "rates": {
         "wins": {
@@ -333,21 +328,41 @@
             "1984": 0.0
         },
         "DNFs": {
-            "1983": 0.5384615384615384,
-            "1984": 0.7
+            "1983": 0.3333333333333333,
+            "1984": 0.8888888888888888
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6956521739130435,
+    "dnfRate": 0.6111111111111112,
     "ptwConRate": {
         "1983": -1,
         "1984": -1
     },
     "positionsGainLost": {
-        "1983": {},
-        "1984": {}
+        "1983": {
+            "Brazilian Grand Prix": 7,
+            "United States Grand Prix West": 11,
+            "French Grand Prix": 6,
+            "San Marino Grand Prix": 0,
+            "Belgian Grand Prix": 15,
+            "Detroit Grand Prix": 11,
+            "Canadian Grand Prix": 2,
+            "German Grand Prix": 11,
+            "Italian Grand Prix": 14
+        },
+        "1984": {
+            "Brazilian Grand Prix": -4,
+            "South African Grand Prix": -3,
+            "Belgian Grand Prix": -10,
+            "San Marino Grand Prix": 6,
+            "French Grand Prix": -3,
+            "Monaco Grand Prix": 1,
+            "Canadian Grand Prix": 11,
+            "Detroit Grand Prix": 0,
+            "Dallas Grand Prix": -3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -361,6 +376,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -373,6 +390,8 @@
                 "grid": 17,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -385,6 +404,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -397,6 +418,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -409,6 +432,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not prequalify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -421,6 +446,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -433,6 +460,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -445,6 +474,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Differential",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -457,6 +488,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -469,6 +502,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -481,6 +516,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -493,6 +530,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -505,6 +544,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -519,6 +560,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -531,6 +574,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Tyre",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -543,6 +588,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -555,6 +602,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -567,6 +616,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -579,6 +630,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -591,6 +644,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -603,6 +658,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -615,6 +672,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -627,6 +686,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -636,5 +697,10 @@
     "sprintResults": {
         "1983": {},
         "1984": {}
-    }
+    },
+    "seasonStarts": {
+        "1983": 9,
+        "1984": 9
+    },
+    "totalStarts": 18
 }

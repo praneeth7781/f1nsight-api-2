@@ -1,10 +1,10 @@
 {
     "driverId": "beaufort",
-    "lastUpdate": "2026-10-02T11:47:20.488730",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 7,
+    "totalDNFs": 6,
     "seasonWins": {
         "1957": 0,
         "1958": 0,
@@ -42,7 +42,7 @@
         "1960": 0,
         "1961": 1,
         "1962": 2,
-        "1963": 2,
+        "1963": 1,
         "1964": 1
     },
     "poles": {
@@ -76,11 +76,10 @@
             "French Grand Prix": "Overheating"
         },
         "1962": {
-            "Monaco Grand Prix": "Did not qualify",
-            "United States Grand Prix": "Accident"
+            "United States Grand Prix": "Accident",
+            "South African Grand Prix": "Fuel system"
         },
         "1963": {
-            "Monaco Grand Prix": "Withdrew",
             "German Grand Prix": "Wheel"
         },
         "1964": {
@@ -620,19 +619,19 @@
         "1959": 9.5,
         "1960": 8.0,
         "1961": 13.333333333333334,
-        "1962": 11.666666666666666,
-        "1963": 12.444444444444445,
+        "1962": 10.625,
+        "1963": 8.857142857142858,
         "1964": 17.0
     },
     "avgQualiPositions": {
-        "1957": -1,
-        "1958": -1,
-        "1959": -1,
-        "1960": -1,
-        "1961": -1,
-        "1962": -1,
-        "1963": -1,
-        "1964": -1
+        "1957": 20.0,
+        "1958": 16.0,
+        "1959": 17.0,
+        "1960": 18.0,
+        "1961": 16.333333333333332,
+        "1962": 14.875,
+        "1963": 18.857142857142858,
+        "1964": 17.0
     },
     "rates": {
         "wins": {
@@ -667,19 +666,19 @@
         },
         "DNFs": {
             "1957": 0.0,
-            "1958": 0.0,
+            "1958": 0.5,
             "1959": 0.0,
             "1960": 0.0,
-            "1961": 0.0,
-            "1962": 0.0,
-            "1963": 0.0,
-            "1964": 0.0
+            "1961": 0.16666666666666666,
+            "1962": 0.25,
+            "1963": 0.14285714285714285,
+            "1964": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.2903225806451613,
+    "dnfRate": 0.21428571428571427,
     "ptwConRate": {
         "1957": -1,
         "1958": -1,
@@ -691,14 +690,50 @@
         "1964": -1
     },
     "positionsGainLost": {
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {},
-        "1961": {},
-        "1962": {},
-        "1963": {},
-        "1964": {}
+        "1957": {
+            "German Grand Prix": 6
+        },
+        "1958": {
+            "Dutch Grand Prix": 6,
+            "German Grand Prix": -4
+        },
+        "1959": {
+            "Dutch Grand Prix": 4,
+            "French Grand Prix": 11
+        },
+        "1960": {
+            "Dutch Grand Prix": 10
+        },
+        "1961": {
+            "Dutch Grand Prix": 3,
+            "Belgian Grand Prix": 3,
+            "French Grand Prix": -1,
+            "British Grand Prix": 2,
+            "German Grand Prix": 3,
+            "Italian Grand Prix": 8
+        },
+        "1962": {
+            "Dutch Grand Prix": 8,
+            "Belgian Grand Prix": 6,
+            "French Grand Prix": 11,
+            "British Grand Prix": 3,
+            "German Grand Prix": -5,
+            "Italian Grand Prix": 10,
+            "United States Grand Prix": -4,
+            "South African Grand Prix": 5
+        },
+        "1963": {
+            "Belgian Grand Prix": 12,
+            "Dutch Grand Prix": 10,
+            "British Grand Prix": 11,
+            "German Grand Prix": 6,
+            "United States Grand Prix": 13,
+            "Mexican Grand Prix": 8,
+            "South African Grand Prix": 10
+        },
+        "1964": {
+            "Dutch Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -712,6 +747,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -726,6 +763,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -738,6 +777,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -752,6 +793,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -764,6 +807,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -778,6 +823,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -792,6 +839,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -804,6 +853,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -816,6 +867,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -828,6 +881,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -840,6 +895,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -852,6 +909,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -866,6 +925,8 @@
                 "grid": 14,
                 "points": 1.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -878,6 +939,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -890,6 +953,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -902,6 +967,8 @@
                 "grid": 17,
                 "points": 1.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -914,6 +981,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -926,6 +995,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -938,6 +1009,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -950,6 +1023,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -962,6 +1037,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -976,6 +1053,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -988,6 +1067,8 @@
                 "grid": 18,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -1000,6 +1081,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -1012,6 +1095,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -1024,6 +1109,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Wheel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -1036,6 +1123,8 @@
                 "grid": 19,
                 "points": 1.0,
                 "status": "+11 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -1048,6 +1137,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -1060,6 +1151,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -1074,6 +1167,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -1089,5 +1184,16 @@
         "1962": {},
         "1963": {},
         "1964": {}
-    }
+    },
+    "seasonStarts": {
+        "1957": 1,
+        "1958": 2,
+        "1959": 2,
+        "1960": 1,
+        "1961": 6,
+        "1962": 8,
+        "1963": 7,
+        "1964": 1
+    },
+    "totalStarts": 28
 }

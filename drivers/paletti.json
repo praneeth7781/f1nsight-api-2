@@ -1,6 +1,6 @@
 {
     "driverId": "paletti",
-    "lastUpdate": "2026-10-02T11:47:20.540138",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -151,10 +151,10 @@
         }
     },
     "avgRacePositions": {
-        "1982": 25.875
+        "1982": 20.333333333333332
     },
     "avgQualiPositions": {
-        "1982": -1
+        "1982": 19.666666666666668
     },
     "rates": {
         "wins": {
@@ -178,7 +178,11 @@
         "1982": -1
     },
     "positionsGainLost": {
-        "1982": {}
+        "1982": {
+            "San Marino Grand Prix": 3,
+            "Detroit Grand Prix": -3,
+            "Canadian Grand Prix": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -192,6 +196,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -204,6 +210,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -216,6 +224,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Fatal accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -224,5 +234,9 @@
     },
     "sprintResults": {
         "1982": {}
-    }
+    },
+    "seasonStarts": {
+        "1982": 3
+    },
+    "totalStarts": 3
 }

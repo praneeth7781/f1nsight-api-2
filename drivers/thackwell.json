@@ -1,10 +1,10 @@
 {
     "driverId": "thackwell",
-    "lastUpdate": "2026-10-02T11:47:20.537586",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 2,
     "seasonWins": {
         "1980": 0,
         "1984": 0
@@ -18,8 +18,8 @@
         "1984": 0
     },
     "seasonDNFs": {
-        "1980": 3,
-        "1984": 2
+        "1980": 1,
+        "1984": 1
     },
     "poles": {
         "1980": [],
@@ -31,13 +31,10 @@
     },
     "DNFs": {
         "1980": {
-            "Dutch Grand Prix": "Did not qualify",
-            "Canadian Grand Prix": "Accident",
-            "United States Grand Prix": "Did not qualify"
+            "Canadian Grand Prix": "Accident"
         },
         "1984": {
-            "Canadian Grand Prix": "Turbo",
-            "German Grand Prix": "Did not qualify"
+            "Canadian Grand Prix": "Turbo"
         }
     },
     "fastLaps": {
@@ -190,12 +187,12 @@
         }
     },
     "avgRacePositions": {
-        "1980": 25.666666666666668,
-        "1984": 25.0
+        "1980": 24.0,
+        "1984": 23.0
     },
     "avgQualiPositions": {
-        "1980": -1,
-        "1984": -1
+        "1980": 24.0,
+        "1984": 25.0
     },
     "rates": {
         "wins": {
@@ -212,7 +209,7 @@
         },
         "DNFs": {
             "1980": 1.0,
-            "1984": 1.5
+            "1984": 1.0
         }
     },
     "winRate": 0.0,
@@ -224,8 +221,12 @@
         "1984": -1
     },
     "positionsGainLost": {
-        "1980": {},
-        "1984": {}
+        "1980": {
+            "Canadian Grand Prix": 0
+        },
+        "1984": {
+            "Canadian Grand Prix": 2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -239,6 +240,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -251,6 +254,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -263,6 +268,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -277,6 +284,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ram",
                 "fastestLapRank": null,
                 "shared": false
@@ -289,6 +298,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -298,5 +309,10 @@
     "sprintResults": {
         "1980": {},
         "1984": {}
-    }
+    },
+    "seasonStarts": {
+        "1980": 1,
+        "1984": 1
+    },
+    "totalStarts": 2
 }

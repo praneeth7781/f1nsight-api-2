@@ -1,10 +1,10 @@
 {
     "driverId": "campbell-jones",
-    "lastUpdate": "2026-10-02T11:47:20.501845",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 0,
     "seasonWins": {
         "1961": 0,
         "1962": 0,
@@ -21,9 +21,9 @@
         "1963": 0
     },
     "seasonDNFs": {
-        "1961": 1,
-        "1962": 1,
-        "1963": 1
+        "1961": 0,
+        "1962": 0,
+        "1963": 0
     },
     "poles": {
         "1961": [],
@@ -36,15 +36,9 @@
         "1963": {}
     },
     "DNFs": {
-        "1961": {
-            "German Grand Prix": "Withdrew"
-        },
-        "1962": {
-            "British Grand Prix": "Withdrew"
-        },
-        "1963": {
-            "Monaco Grand Prix": "Withdrew"
-        }
+        "1961": {},
+        "1962": {},
+        "1963": {}
     },
     "fastLaps": {
         "1961": {
@@ -246,14 +240,14 @@
         }
     },
     "avgRacePositions": {
-        "1961": 33.0,
-        "1962": 17.5,
-        "1963": 16.5
+        "1961": -1,
+        "1962": 11.0,
+        "1963": 13.0
     },
     "avgQualiPositions": {
         "1961": -1,
-        "1962": -1,
-        "1963": -1
+        "1962": 19.0,
+        "1963": 23.0
     },
     "rates": {
         "wins": {
@@ -272,15 +266,15 @@
             "1963": 0.0
         },
         "DNFs": {
-            "1961": 1.0,
-            "1962": 0.5,
-            "1963": 0.5
+            "1961": 0.0,
+            "1962": 0.0,
+            "1963": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1961": -1,
         "1962": -1,
@@ -288,8 +282,12 @@
     },
     "positionsGainLost": {
         "1961": {},
-        "1962": {},
-        "1963": {}
+        "1962": {
+            "Belgian Grand Prix": 8
+        },
+        "1963": {
+            "British Grand Prix": 10
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -303,6 +301,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -317,6 +317,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+16 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -329,6 +331,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "emeryson",
                 "fastestLapRank": null,
                 "shared": false
@@ -343,6 +347,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -355,6 +361,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lola",
                 "fastestLapRank": null,
                 "shared": false
@@ -365,5 +373,11 @@
         "1961": {},
         "1962": {},
         "1963": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 0,
+        "1962": 1,
+        "1963": 1
+    },
+    "totalStarts": 2
 }

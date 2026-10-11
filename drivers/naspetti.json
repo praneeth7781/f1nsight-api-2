@@ -1,6 +1,6 @@
 {
     "driverId": "naspetti",
-    "lastUpdate": "2026-10-02T11:47:20.550444",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -143,32 +143,32 @@
     },
     "consistency": {
         "mean": {
-            "wins": 0.2,
-            "podiums": 1.8,
+            "wins": 0.0,
+            "podiums": 0.0,
             "poles": 0.0,
-            "points": 13.0
+            "points": 0.0
         },
         "std": {
-            "wins": 0.4,
-            "podiums": 1.6,
+            "wins": 0.0,
+            "podiums": 0.0,
             "poles": 0.0,
-            "points": 12.361229712289955
+            "points": 0.0
         },
         "cv": {
-            "wins": 2.0,
-            "podiums": 0.888888888888889,
+            "wins": 0,
+            "podiums": 0,
             "poles": 0,
-            "points": 0.9508638240223042
+            "points": 0
         }
     },
     "peakSeason": {
         "wins": {
-            "season": "1989",
-            "wins": 1
+            "season": "No peak season",
+            "wins": 0
         },
         "podiums": {
-            "season": "1989",
-            "podiums": 4
+            "season": "No peak season",
+            "podiums": 0
         },
         "poles": {
             "season": "No peak season",
@@ -176,66 +176,50 @@
         }
     },
     "avgRacePositions": {
-        "1986": 20.066666666666666,
-        "1987": 19.125,
-        "1988": 12.75,
-        "1989": 11.4375,
-        "1990": 10.428571428571429
+        "1992": 14.0,
+        "1993": 26.0
     },
     "avgQualiPositions": {
-        "1986": -1,
-        "1987": -1,
-        "1988": -1,
-        "1989": -1,
-        "1990": -1
+        "1992": 23.4,
+        "1993": 23.0
     },
     "rates": {
         "wins": {
-            "1986": 0.0,
-            "1987": 0.0,
-            "1988": 0.0,
-            "1989": 0.0625,
-            "1990": 0.0
+            "1992": 0.0,
+            "1993": 0.0
         },
         "podiums": {
-            "1986": 0.0,
-            "1987": 0.0,
-            "1988": 0.125,
-            "1989": 0.25,
-            "1990": 0.21428571428571427
+            "1992": 0.0,
+            "1993": 0.0
         },
         "poles": {
-            "1986": 0.0,
-            "1987": 0.0,
-            "1988": 0.0,
-            "1989": 0.0,
-            "1990": 0.0
+            "1992": 0.0,
+            "1993": 0.0
         },
         "DNFs": {
-            "1986": 0.9333333333333333,
-            "1987": 0.875,
-            "1988": 0.875,
-            "1989": 0.875,
-            "1990": 1.0
+            "1992": 0.4,
+            "1993": 1.0
         }
     },
-    "winRate": 0.012987012987012988,
-    "podiumRate": 0.11688311688311688,
+    "winRate": 0.0,
+    "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6363636363636364,
+    "dnfRate": 0.5,
     "ptwConRate": {
-        "1986": -1,
-        "1987": -1,
-        "1988": -1,
-        "1989": -1,
-        "1990": -1
+        "1992": -1,
+        "1993": -1
     },
     "positionsGainLost": {
-        "1986": {},
-        "1987": {},
-        "1988": {},
-        "1989": {},
-        "1990": {}
+        "1992": {
+            "Belgian Grand Prix": 9,
+            "Italian Grand Prix": 5,
+            "Portuguese Grand Prix": 12,
+            "Japanese Grand Prix": 13,
+            "Australian Grand Prix": 8
+        },
+        "1993": {
+            "Portuguese Grand Prix": -3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -249,6 +233,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -261,6 +247,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -273,6 +261,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -285,6 +275,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -297,6 +289,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -311,6 +305,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jordan",
                 "fastestLapRank": null,
                 "shared": false
@@ -320,5 +316,10 @@
     "sprintResults": {
         "1992": {},
         "1993": {}
-    }
+    },
+    "seasonStarts": {
+        "1992": 5,
+        "1993": 1
+    },
+    "totalStarts": 6
 }

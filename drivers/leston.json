@@ -1,10 +1,10 @@
 {
     "driverId": "leston",
-    "lastUpdate": "2026-10-02T11:47:20.486652",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1956": 0,
         "1957": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1956": 1,
-        "1957": 2
+        "1957": 1
     },
     "poles": {
         "1956": [],
@@ -34,7 +34,6 @@
             "Italian Grand Prix": "Suspension"
         },
         "1957": {
-            "Monaco Grand Prix": "Did not qualify",
             "British Grand Prix": "Engine"
         }
     },
@@ -165,11 +164,11 @@
     },
     "avgRacePositions": {
         "1956": 23.0,
-        "1957": 18.0
+        "1957": 15.0
     },
     "avgQualiPositions": {
-        "1956": -1,
-        "1957": -1
+        "1956": 20.0,
+        "1957": 12.0
     },
     "rates": {
         "wins": {
@@ -186,7 +185,7 @@
         },
         "DNFs": {
             "1956": 1.0,
-            "1957": 0.5
+            "1957": 1.0
         }
     },
     "winRate": 0.0,
@@ -198,8 +197,12 @@
         "1957": -1
     },
     "positionsGainLost": {
-        "1956": {},
-        "1957": {}
+        "1956": {
+            "Italian Grand Prix": -3
+        },
+        "1957": {
+            "British Grand Prix": -3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -213,6 +216,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": false
@@ -227,6 +232,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,6 +246,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -248,5 +257,10 @@
     "sprintResults": {
         "1956": {},
         "1957": {}
-    }
+    },
+    "seasonStarts": {
+        "1956": 1,
+        "1957": 1
+    },
+    "totalStarts": 2
 }

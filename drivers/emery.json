@@ -1,6 +1,6 @@
 {
     "driverId": "emery",
-    "lastUpdate": "2026-10-02T11:47:20.486215",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -113,29 +113,23 @@
         }
     },
     "avgRacePositions": {
-        "1956": 25.0,
-        "1958": 21.0
+        "1956": 25.0
     },
     "avgQualiPositions": {
-        "1956": -1,
-        "1958": -1
+        "1956": 23.0
     },
     "rates": {
         "wins": {
-            "1956": 0.0,
-            "1958": 0.0
+            "1956": 0.0
         },
         "podiums": {
-            "1956": 0.0,
-            "1958": 0.0
+            "1956": 0.0
         },
         "poles": {
-            "1956": 0.0,
-            "1958": 0.0
+            "1956": 0.0
         },
         "DNFs": {
-            "1956": 1.0,
-            "1958": 1.0
+            "1956": 1.0
         }
     },
     "winRate": 0.0,
@@ -143,12 +137,12 @@
     "poleRate": 0.0,
     "dnfRate": 1.0,
     "ptwConRate": {
-        "1956": -1,
-        "1958": -1
+        "1956": -1
     },
     "positionsGainLost": {
-        "1956": {},
-        "1958": {}
+        "1956": {
+            "British Grand Prix": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -162,6 +156,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "emeryson",
                 "fastestLapRank": null,
                 "shared": false
@@ -170,5 +166,9 @@
     },
     "sprintResults": {
         "1956": {}
-    }
+    },
+    "seasonStarts": {
+        "1956": 1
+    },
+    "totalStarts": 1
 }

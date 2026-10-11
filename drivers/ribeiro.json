@@ -1,10 +1,10 @@
 {
     "driverId": "ribeiro",
-    "lastUpdate": "2026-10-02T11:47:20.531444",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 4,
     "seasonWins": {
         "1976": 0,
         "1977": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1976": 0,
-        "1977": 5
+        "1977": 4
     },
     "poles": {
         "1976": [],
@@ -35,8 +35,7 @@
             "Argentine Grand Prix": "Transmission",
             "Brazilian Grand Prix": "Engine",
             "South African Grand Prix": "Engine",
-            "United States Grand Prix West": "Gearbox",
-            "Monaco Grand Prix": "Did not qualify"
+            "United States Grand Prix West": "Gearbox"
         }
     },
     "fastLaps": {
@@ -229,49 +228,53 @@
     },
     "avgRacePositions": {
         "1976": 12.0,
-        "1977": 19.11764705882353,
-        "1979": 28.5
+        "1977": 12.777777777777779
     },
     "avgQualiPositions": {
-        "1976": -1,
-        "1977": -1,
-        "1979": -1
+        "1976": 22.0,
+        "1977": 21.444444444444443
     },
     "rates": {
         "wins": {
             "1976": 0.0,
-            "1977": 0.0,
-            "1979": 0.0
+            "1977": 0.0
         },
         "podiums": {
             "1976": 0.0,
-            "1977": 0.0,
-            "1979": 0.0
+            "1977": 0.0
         },
         "poles": {
             "1976": 0.0,
-            "1977": 0.0,
-            "1979": 0.0
+            "1977": 0.0
         },
         "DNFs": {
             "1976": 0.0,
-            "1977": 0.0,
-            "1979": 0.0
+            "1977": 0.4444444444444444
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.7,
+    "dnfRate": 0.4,
     "ptwConRate": {
         "1976": -1,
-        "1977": -1,
-        "1979": -1
+        "1977": -1
     },
     "positionsGainLost": {
-        "1976": {},
-        "1977": {},
-        "1979": {}
+        "1976": {
+            "United States Grand Prix": 10
+        },
+        "1977": {
+            "Argentine Grand Prix": 9,
+            "Brazilian Grand Prix": 6,
+            "South African Grand Prix": 1,
+            "United States Grand Prix West": 3,
+            "German Grand Prix": 12,
+            "Dutch Grand Prix": 13,
+            "United States Grand Prix": 8,
+            "Canadian Grand Prix": 15,
+            "Japanese Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -285,6 +288,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hesketh",
                 "fastestLapRank": null,
                 "shared": false
@@ -299,6 +304,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -311,6 +318,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -323,6 +332,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -335,6 +346,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -347,6 +360,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -359,6 +374,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -371,6 +388,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -383,6 +402,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -395,6 +416,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -407,6 +430,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -416,5 +441,10 @@
     "sprintResults": {
         "1976": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1976": 1,
+        "1977": 9
+    },
+    "totalStarts": 10
 }

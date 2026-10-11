@@ -2,11 +2,11 @@
     "driverId": "mazepin",
     "driverCode": "MAZ",
     "driverNumber": "9",
-    "lastUpdate": "2026-10-02T11:47:20.571677",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 5,
     "seasonWins": {
         "2021": 0
     },
@@ -17,7 +17,7 @@
         "2021": 0
     },
     "seasonDNFs": {
-        "2021": 6
+        "2021": 5
     },
     "poles": {
         "2021": []
@@ -31,8 +31,7 @@
             "Hungarian Grand Prix": "Collision",
             "Dutch Grand Prix": "Hydraulics",
             "Italian Grand Prix": "Power Unit",
-            "Saudi Arabian Grand Prix": "Collision",
-            "Abu Dhabi Grand Prix": "Illness"
+            "Saudi Arabian Grand Prix": "Collision"
         }
     },
     "fastLaps": {
@@ -351,10 +350,10 @@
         }
     },
     "avgRacePositions": {
-        "2021": 17.863636363636363
+        "2021": 17.761904761904763
     },
     "avgQualiPositions": {
-        "2021": 19.59090909090909
+        "2021": 18.428571428571427
     },
     "rates": {
         "wins": {
@@ -367,19 +366,19 @@
             "2021": 0.0
         },
         "DNFs": {
-            "2021": 0.2727272727272727
+            "2021": 0.23809523809523808
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.2727272727272727,
+    "dnfRate": 0.23809523809523808,
     "ptwConRate": {
         "2021": -1
     },
     "positionsGainLost": {
         "2021": {
-            "Bahrain Grand Prix": 0,
+            "Bahrain Grand Prix": -1,
             "Emilia Romagna Grand Prix": 2,
             "Portuguese Grand Prix": 1,
             "Spanish Grand Prix": 1,
@@ -388,19 +387,18 @@
             "French Grand Prix": -2,
             "Styrian Grand Prix": 2,
             "Austrian Grand Prix": 1,
-            "British Grand Prix": 3,
+            "British Grand Prix": 2,
             "Hungarian Grand Prix": 5,
-            "Belgian Grand Prix": 3,
-            "Dutch Grand Prix": 0,
-            "Italian Grand Prix": 4,
-            "Russian Grand Prix": 1,
-            "Turkish Grand Prix": 0,
-            "United States Grand Prix": 3,
-            "Mexico City Grand Prix": 1,
-            "São Paulo Grand Prix": 3,
+            "Belgian Grand Prix": 1,
+            "Dutch Grand Prix": -2,
+            "Italian Grand Prix": 0,
+            "Russian Grand Prix": -3,
+            "Turkish Grand Prix": -2,
+            "United States Grand Prix": 0,
+            "Mexico City Grand Prix": -3,
+            "São Paulo Grand Prix": 2,
             "Qatar Grand Prix": 2,
-            "Saudi Arabian Grand Prix": 2,
-            "Abu Dhabi Grand Prix": 0
+            "Saudi Arabian Grand Prix": 2
         }
     },
     "raceResults": {
@@ -413,6 +411,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "haas",
                 "fastestLapRank": null,
                 "shared": false
@@ -425,6 +425,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 17,
                 "shared": false
@@ -437,6 +439,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 19,
                 "shared": false
@@ -449,6 +453,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 19,
                 "shared": false
@@ -461,6 +467,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 19,
                 "shared": false
@@ -473,6 +481,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 19,
                 "shared": false
@@ -485,6 +495,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 20,
                 "shared": false
@@ -497,6 +509,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 19,
                 "shared": false
@@ -509,6 +523,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 19,
                 "shared": false
@@ -521,6 +537,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 18,
                 "shared": false
@@ -533,6 +551,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "haas",
                 "fastestLapRank": null,
                 "shared": false
@@ -545,6 +565,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": null,
                 "shared": false
@@ -557,6 +579,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "haas",
                 "fastestLapRank": 20,
                 "shared": false
@@ -569,6 +593,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Power Unit",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "haas",
                 "fastestLapRank": 18,
                 "shared": false
@@ -581,6 +607,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 20,
                 "shared": false
@@ -593,6 +621,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 20,
                 "shared": false
@@ -605,6 +635,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 20,
                 "shared": false
@@ -617,6 +649,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 15,
                 "shared": false
@@ -629,6 +663,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 19,
                 "shared": false
@@ -641,6 +677,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 16,
                 "shared": false
@@ -653,6 +691,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "haas",
                 "fastestLapRank": 20,
                 "shared": false
@@ -665,6 +705,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Illness",
+                "outcome": "withdrew",
+                "cause": "driver",
                 "constructorId": "haas",
                 "fastestLapRank": null,
                 "shared": false
@@ -695,5 +737,9 @@
                 "constructorId": "haas"
             }
         }
-    }
+    },
+    "seasonStarts": {
+        "2021": 21
+    },
+    "totalStarts": 21
 }

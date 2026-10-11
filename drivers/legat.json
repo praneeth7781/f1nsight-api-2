@@ -1,6 +1,6 @@
 {
     "driverId": "legat",
-    "lastUpdate": "2026-10-02T11:47:20.468860",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -180,8 +180,8 @@
         "1953": 20.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1
+        "1952": 21.0,
+        "1953": 19.0
     },
     "rates": {
         "wins": {
@@ -198,7 +198,7 @@
         },
         "DNFs": {
             "1952": 0.0,
-            "1953": 0.0
+            "1953": 1.0
         }
     },
     "winRate": 0.0,
@@ -210,8 +210,12 @@
         "1953": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {}
+        "1952": {
+            "Belgian Grand Prix": 8
+        },
+        "1953": {
+            "Belgian Grand Prix": -1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -225,6 +229,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "veritas",
                 "fastestLapRank": null,
                 "shared": false
@@ -239,6 +245,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "veritas",
                 "fastestLapRank": null,
                 "shared": false
@@ -248,5 +256,10 @@
     "sprintResults": {
         "1952": {},
         "1953": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1,
+        "1953": 1
+    },
+    "totalStarts": 2
 }

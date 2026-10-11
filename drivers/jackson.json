@@ -1,6 +1,6 @@
 {
     "driverId": "jackson",
-    "lastUpdate": "2026-10-02T11:47:20.458350",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -183,8 +183,8 @@
         "1954": 15.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1954": -1
+        "1950": 32.0,
+        "1954": 8.0
     },
     "rates": {
         "wins": {
@@ -201,7 +201,7 @@
         },
         "DNFs": {
             "1950": 1.0,
-            "1954": 1.0
+            "1954": 0.0
         }
     },
     "winRate": 0.0,
@@ -213,8 +213,12 @@
         "1954": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1954": {}
+        "1950": {
+            "Indianapolis 500": 3
+        },
+        "1954": {
+            "Indianapolis 500": -7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -228,6 +232,8 @@
                 "grid": 32,
                 "points": 0.0,
                 "status": "Supercharger",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -242,6 +248,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -251,5 +259,10 @@
     "sprintResults": {
         "1950": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1954": 1
+    },
+    "totalStarts": 2
 }

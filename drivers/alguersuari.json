@@ -1,11 +1,11 @@
 {
     "driverId": "alguersuari",
     "driverCode": "ALG",
-    "lastUpdate": "2026-10-02T11:47:20.564278",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 10,
+    "totalDNFs": 11,
     "seasonWins": {
         "2009": 0,
         "2010": 0,
@@ -24,7 +24,7 @@
     "seasonDNFs": {
         "2009": 5,
         "2010": 2,
-        "2011": 3
+        "2011": 4
     },
     "poles": {
         "2009": [],
@@ -51,7 +51,8 @@
         "2011": {
             "Chinese Grand Prix": "Wheel",
             "Monaco Grand Prix": "Collision",
-            "Belgian Grand Prix": "Collision"
+            "Belgian Grand Prix": "Collision",
+            "Singapore Grand Prix": "Accident"
         }
     },
     "fastLaps": {
@@ -693,9 +694,9 @@
         "2011": 13.526315789473685
     },
     "avgQualiPositions": {
-        "2009": 16.875,
-        "2010": 15.631578947368421,
-        "2011": 14.421052631578947
+        "2009": 16.125,
+        "2010": 15.263157894736842,
+        "2011": 14.631578947368421
     },
     "rates": {
         "wins": {
@@ -715,8 +716,8 @@
         },
         "DNFs": {
             "2009": 0.625,
-            "2010": 0.2631578947368421,
-            "2011": 0.2631578947368421
+            "2010": 0.10526315789473684,
+            "2011": 0.21052631578947367
         }
     },
     "winRate": 0.0,
@@ -730,33 +731,33 @@
     },
     "positionsGainLost": {
         "2009": {
-            "Hungarian Grand Prix": 5,
+            "Hungarian Grand Prix": 4,
             "European Grand Prix": 3,
             "Belgian Grand Prix": -3,
             "Italian Grand Prix": 2,
-            "Singapore Grand Prix": 2,
-            "Japanese Grand Prix": -3,
+            "Singapore Grand Prix": 1,
+            "Japanese Grand Prix": -6,
             "Brazilian Grand Prix": -2,
-            "Abu Dhabi Grand Prix": -5
+            "Abu Dhabi Grand Prix": -6
         },
         "2010": {
             "Bahrain Grand Prix": 5,
             "Australian Grand Prix": 6,
             "Malaysian Grand Prix": 5,
             "Chinese Grand Prix": -1,
-            "Spanish Grand Prix": 6,
+            "Spanish Grand Prix": 5,
             "Monaco Grand Prix": 6,
             "Turkish Grand Prix": 4,
             "Canadian Grand Prix": 4,
             "European Grand Prix": 4,
-            "British Grand Prix": -3,
-            "German Grand Prix": 1,
+            "British Grand Prix": -4,
+            "German Grand Prix": 0,
             "Hungarian Grand Prix": -7,
-            "Belgian Grand Prix": 0,
-            "Italian Grand Prix": 1,
+            "Belgian Grand Prix": -2,
+            "Italian Grand Prix": 0,
             "Singapore Grand Prix": -1,
             "Japanese Grand Prix": 5,
-            "Korean Grand Prix": 5,
+            "Korean Grand Prix": 4,
             "Brazilian Grand Prix": 3,
             "Abu Dhabi Grand Prix": 8
         },
@@ -766,11 +767,11 @@
             "Chinese Grand Prix": -17,
             "Turkish Grand Prix": 1,
             "Spanish Grand Prix": -3,
-            "Monaco Grand Prix": 0,
-            "Canadian Grand Prix": 10,
+            "Monaco Grand Prix": -1,
+            "Canadian Grand Prix": 16,
             "European Grand Prix": 10,
             "British Grand Prix": 8,
-            "German Grand Prix": 5,
+            "German Grand Prix": 4,
             "Hungarian Grand Prix": 6,
             "Belgian Grand Prix": -18,
             "Italian Grand Prix": 11,
@@ -793,6 +794,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 16,
                 "shared": false
@@ -805,6 +808,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 19,
                 "shared": false
@@ -817,6 +822,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": null,
                 "shared": false
@@ -829,6 +836,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 19,
                 "shared": false
@@ -841,6 +850,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 18,
                 "shared": false
@@ -853,6 +864,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 15,
                 "shared": false
@@ -865,6 +878,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 13,
                 "shared": false
@@ -877,6 +892,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 20,
                 "shared": false
@@ -891,6 +908,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 8,
                 "shared": false
@@ -903,6 +922,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 11,
                 "shared": false
@@ -915,6 +936,8 @@
                 "grid": 14,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 13,
                 "shared": false
@@ -927,6 +950,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 7,
                 "shared": false
@@ -939,6 +964,8 @@
                 "grid": 15,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 11,
                 "shared": false
@@ -951,6 +978,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 11,
                 "shared": false
@@ -963,6 +992,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 3,
                 "shared": false
@@ -975,6 +1006,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 16,
                 "shared": false
@@ -987,6 +1020,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 15,
                 "shared": false
@@ -999,6 +1034,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 12,
                 "shared": false
@@ -1011,6 +1048,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 12,
                 "shared": false
@@ -1023,6 +1062,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": null,
                 "shared": false
@@ -1035,6 +1076,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 9,
                 "shared": false
@@ -1047,6 +1090,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 15,
                 "shared": false
@@ -1059,6 +1104,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1071,6 +1118,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 5,
                 "shared": false
@@ -1083,6 +1132,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 9,
                 "shared": false
@@ -1095,6 +1146,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1107,6 +1160,8 @@
                 "grid": 17,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 15,
                 "shared": false
@@ -1121,6 +1176,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 10,
                 "shared": false
@@ -1133,6 +1190,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 17,
                 "shared": false
@@ -1145,6 +1204,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Wheel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 23,
                 "shared": false
@@ -1157,6 +1218,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 2,
                 "shared": false
@@ -1169,6 +1232,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 12,
                 "shared": false
@@ -1181,6 +1246,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 9,
                 "shared": false
@@ -1193,6 +1260,8 @@
                 "grid": 24,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 13,
                 "shared": false
@@ -1205,6 +1274,8 @@
                 "grid": 18,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 11,
                 "shared": false
@@ -1217,6 +1288,8 @@
                 "grid": 18,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 15,
                 "shared": false
@@ -1229,6 +1302,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1241,6 +1316,8 @@
                 "grid": 16,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 16,
                 "shared": false
@@ -1253,6 +1330,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": null,
                 "shared": false
@@ -1265,6 +1344,8 @@
                 "grid": 18,
                 "points": 6.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 10,
                 "shared": false
@@ -1277,6 +1358,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 11,
                 "shared": false
@@ -1289,6 +1372,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1301,6 +1386,8 @@
                 "grid": 11,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1313,6 +1400,8 @@
                 "grid": 10,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 10,
                 "shared": false
@@ -1325,6 +1414,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 8,
                 "shared": false
@@ -1337,6 +1428,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toro_rosso",
                 "fastestLapRank": 9,
                 "shared": false
@@ -1347,5 +1440,11 @@
         "2009": {},
         "2010": {},
         "2011": {}
-    }
+    },
+    "seasonStarts": {
+        "2009": 8,
+        "2010": 19,
+        "2011": 19
+    },
+    "totalStarts": 46
 }

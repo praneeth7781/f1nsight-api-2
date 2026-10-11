@@ -1,10 +1,10 @@
 {
     "driverId": "bussinello",
-    "lastUpdate": "2026-10-02T11:47:20.502439",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1961": 0,
         "1962": 0,
@@ -22,7 +22,7 @@
     },
     "seasonDNFs": {
         "1961": 1,
-        "1962": 1,
+        "1962": 0,
         "1965": 1
     },
     "poles": {
@@ -39,11 +39,9 @@
         "1961": {
             "Italian Grand Prix": "Engine"
         },
-        "1962": {
-            "Monaco Grand Prix": "Withdrew"
-        },
+        "1962": {},
         "1965": {
-            "German Grand Prix": "Did not qualify"
+            "Italian Grand Prix": "Oil pressure"
         }
     },
     "fastLaps": {
@@ -223,13 +221,13 @@
     },
     "avgRacePositions": {
         "1961": 29.0,
-        "1962": 23.0,
-        "1965": 16.5
+        "1962": -1,
+        "1965": 13.0
     },
     "avgQualiPositions": {
-        "1961": -1,
+        "1961": 24.0,
         "1962": -1,
-        "1965": -1
+        "1965": 21.0
     },
     "rates": {
         "wins": {
@@ -249,8 +247,8 @@
         },
         "DNFs": {
             "1961": 1.0,
-            "1962": 1.0,
-            "1965": 0.5
+            "1962": 0.0,
+            "1965": 1.0
         }
     },
     "winRate": 0.0,
@@ -263,9 +261,13 @@
         "1965": -1
     },
     "positionsGainLost": {
-        "1961": {},
+        "1961": {
+            "Italian Grand Prix": -5
+        },
         "1962": {},
-        "1965": {}
+        "1965": {
+            "Italian Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -279,6 +281,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "de_tomaso-alfa_romeo",
                 "fastestLapRank": null,
                 "shared": false
@@ -293,6 +297,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "de_tomaso-alfa_romeo",
                 "fastestLapRank": null,
                 "shared": false
@@ -307,6 +313,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -319,6 +327,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -329,5 +339,11 @@
         "1961": {},
         "1962": {},
         "1965": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 1,
+        "1962": 0,
+        "1965": 1
+    },
+    "totalStarts": 2
 }

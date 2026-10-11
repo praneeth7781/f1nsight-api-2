@@ -1,6 +1,6 @@
 {
     "driverId": "krause",
-    "lastUpdate": "2026-10-02T11:47:20.472150",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -162,8 +162,8 @@
         "1953": 14.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1
+        "1952": 23.0,
+        "1953": 26.0
     },
     "rates": {
         "wins": {
@@ -180,7 +180,7 @@
         },
         "DNFs": {
             "1952": 1.0,
-            "1953": 1.0
+            "1953": 0.0
         }
     },
     "winRate": 0.0,
@@ -192,8 +192,12 @@
         "1953": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {}
+        "1952": {
+            "German Grand Prix": 3
+        },
+        "1953": {
+            "German Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -207,6 +211,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "bmw",
                 "fastestLapRank": null,
                 "shared": false
@@ -221,6 +227,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "bmw",
                 "fastestLapRank": null,
                 "shared": false
@@ -230,5 +238,10 @@
     "sprintResults": {
         "1952": {},
         "1953": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1,
+        "1953": 1
+    },
+    "totalStarts": 2
 }

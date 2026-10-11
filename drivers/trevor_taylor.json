@@ -1,6 +1,6 @@
 {
     "driverId": "trevor_taylor",
-    "lastUpdate": "2026-10-02T11:47:20.499927",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -29,8 +29,8 @@
     "seasonDNFs": {
         "1961": 0,
         "1962": 5,
-        "1963": 4,
-        "1964": 6,
+        "1963": 5,
+        "1964": 5,
         "1966": 1
     },
     "poles": {
@@ -60,6 +60,7 @@
         },
         "1963": {
             "Belgian Grand Prix": "Physical",
+            "French Grand Prix": "Suspension",
             "British Grand Prix": "Fuel pump",
             "United States Grand Prix": "Electrical",
             "Mexican Grand Prix": "Engine"
@@ -69,7 +70,6 @@
             "French Grand Prix": "Accident",
             "British Grand Prix": "Driver unwell",
             "Austrian Grand Prix": "Suspension",
-            "Italian Grand Prix": "Did not qualify",
             "Mexican Grand Prix": "Overheating"
         },
         "1966": {
@@ -431,21 +431,21 @@
     "consistency": {
         "mean": {
             "wins": 0.0,
-            "podiums": 0.16666666666666666,
+            "podiums": 0.2,
             "poles": 0.0,
-            "points": 1.3333333333333333
+            "points": 1.6
         },
         "std": {
             "wins": 0.0,
-            "podiums": 0.372677996249965,
+            "podiums": 0.4000000000000001,
             "poles": 0.0,
-            "points": 2.1343747458109497
+            "points": 2.244994432064365
         },
         "cv": {
             "wins": 0,
-            "podiums": 2.2360679774997902,
+            "podiums": 2.0000000000000004,
             "poles": 0,
-            "points": 1.6007810593582124
+            "points": 1.403121520040228
         }
     },
     "peakSeason": {
@@ -463,24 +463,21 @@
         }
     },
     "avgRacePositions": {
-        "1959": 29.0,
         "1961": 13.0,
         "1962": 12.88888888888889,
         "1963": 13.444444444444445,
-        "1964": 15.0,
+        "1964": 14.142857142857142,
         "1966": 20.0
     },
     "avgQualiPositions": {
-        "1959": -1,
-        "1961": -1,
-        "1962": -1,
-        "1963": -1,
-        "1964": -1,
-        "1966": -1
+        "1961": 16.0,
+        "1962": 12.333333333333334,
+        "1963": 10.222222222222221,
+        "1964": 15.0,
+        "1966": 18.0
     },
     "rates": {
         "wins": {
-            "1959": 0.0,
             "1961": 0.0,
             "1962": 0.0,
             "1963": 0.0,
@@ -488,7 +485,6 @@
             "1966": 0.0
         },
         "podiums": {
-            "1959": 0.0,
             "1961": 0.0,
             "1962": 0.1111111111111111,
             "1963": 0.0,
@@ -496,7 +492,6 @@
             "1966": 0.0
         },
         "poles": {
-            "1959": 0.0,
             "1961": 0.0,
             "1962": 0.0,
             "1963": 0.0,
@@ -504,20 +499,18 @@
             "1966": 0.0
         },
         "DNFs": {
-            "1959": 1.0,
-            "1961": 1.0,
-            "1962": 0.1111111111111111,
-            "1963": 0.1111111111111111,
-            "1964": 0.125,
+            "1961": 0.0,
+            "1962": 0.5555555555555556,
+            "1963": 0.5555555555555556,
+            "1964": 0.7142857142857143,
             "1966": 1.0
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.034482758620689655,
+    "podiumRate": 0.037037037037037035,
     "poleRate": 0.0,
-    "dnfRate": 0.6206896551724138,
+    "dnfRate": 0.5925925925925926,
     "ptwConRate": {
-        "1959": -1,
         "1961": -1,
         "1962": -1,
         "1963": -1,
@@ -525,12 +518,43 @@
         "1966": -1
     },
     "positionsGainLost": {
-        "1959": {},
-        "1961": {},
-        "1962": {},
-        "1963": {},
-        "1964": {},
-        "1966": {}
+        "1961": {
+            "Dutch Grand Prix": 3
+        },
+        "1962": {
+            "Dutch Grand Prix": 8,
+            "Monaco Grand Prix": 4,
+            "Belgian Grand Prix": -9,
+            "French Grand Prix": 4,
+            "British Grand Prix": 2,
+            "German Grand Prix": 0,
+            "Italian Grand Prix": -2,
+            "United States Grand Prix": -4,
+            "South African Grand Prix": -8
+        },
+        "1963": {
+            "Monaco Grand Prix": 3,
+            "Belgian Grand Prix": -9,
+            "Dutch Grand Prix": 0,
+            "French Grand Prix": -6,
+            "British Grand Prix": -11,
+            "German Grand Prix": 10,
+            "United States Grand Prix": -10,
+            "Mexican Grand Prix": -6,
+            "South African Grand Prix": 0
+        },
+        "1964": {
+            "Monaco Grand Prix": -2,
+            "Belgian Grand Prix": 5,
+            "French Grand Prix": -4,
+            "British Grand Prix": -1,
+            "Austrian Grand Prix": 0,
+            "United States Grand Prix": 9,
+            "Mexican Grand Prix": -1
+        },
+        "1966": {
+            "British Grand Prix": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -544,6 +568,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -558,6 +584,8 @@
                 "grid": 10,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -570,6 +598,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -582,6 +612,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -594,6 +626,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -606,6 +640,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -618,6 +654,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -630,6 +668,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -642,6 +682,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+15 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -654,6 +696,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -668,6 +712,8 @@
                 "grid": 9,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -680,6 +726,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Physical",
+                "outcome": "retired",
+                "cause": "driver",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -692,6 +740,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+14 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -704,6 +754,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -716,6 +768,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -728,6 +782,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -740,6 +796,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -752,6 +810,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -764,6 +824,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -778,6 +840,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brp",
                 "fastestLapRank": null,
                 "shared": false
@@ -790,6 +854,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brp",
                 "fastestLapRank": null,
                 "shared": false
@@ -802,6 +868,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "brp",
                 "fastestLapRank": null,
                 "shared": false
@@ -814,6 +882,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Driver unwell",
+                "outcome": "retired",
+                "cause": "driver",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -826,6 +896,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brp",
                 "fastestLapRank": null,
                 "shared": false
@@ -838,6 +910,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brp",
                 "fastestLapRank": null,
                 "shared": false
@@ -850,6 +924,8 @@
                 "grid": 15,
                 "points": 1.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brp",
                 "fastestLapRank": null,
                 "shared": false
@@ -862,6 +938,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brp",
                 "fastestLapRank": null,
                 "shared": false
@@ -876,6 +954,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "shannon",
                 "fastestLapRank": null,
                 "shared": false
@@ -888,5 +968,13 @@
         "1963": {},
         "1964": {},
         "1966": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 1,
+        "1962": 9,
+        "1963": 9,
+        "1964": 7,
+        "1966": 1
+    },
+    "totalStarts": 27
 }

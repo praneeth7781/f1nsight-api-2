@@ -1,6 +1,6 @@
 {
     "driverId": "gilles_villeneuve",
-    "lastUpdate": "2026-10-02T11:47:20.532729",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 6,
     "totalPodiums": 13,
     "totalPoles": 2,
@@ -30,12 +30,12 @@
         "1982": 0
     },
     "seasonDNFs": {
-        "1977": 1,
+        "1977": 2,
         "1978": 6,
-        "1979": 3,
-        "1980": 6,
-        "1981": 9,
-        "1982": 4
+        "1979": 4,
+        "1980": 7,
+        "1981": 8,
+        "1982": 2
     },
     "poles": {
         "1977": [],
@@ -76,6 +76,7 @@
     },
     "DNFs": {
         "1977": {
+            "Canadian Grand Prix": "Transmission",
             "Japanese Grand Prix": "Accident"
         },
         "1978": {
@@ -89,10 +90,12 @@
         "1979": {
             "Argentine Grand Prix": "Engine",
             "Monaco Grand Prix": "Transmission",
+            "British Grand Prix": "Fuel system",
             "Dutch Grand Prix": "Tyre"
         },
         "1980": {
             "Argentine Grand Prix": "Accident",
+            "Brazilian Grand Prix": "Throttle",
             "South African Grand Prix": "Transmission",
             "United States Grand Prix West": "Transmission",
             "British Grand Prix": "Engine",
@@ -107,14 +110,11 @@
             "British Grand Prix": "Spun off",
             "Austrian Grand Prix": "Accident",
             "Dutch Grand Prix": "Collision",
-            "Italian Grand Prix": "Engine",
-            "Caesars Palace Grand Prix": "Disqualified"
+            "Italian Grand Prix": "Engine"
         },
         "1982": {
             "South African Grand Prix": "Turbo",
-            "Brazilian Grand Prix": "Spun off",
-            "United States Grand Prix West": "Disqualified",
-            "Belgian Grand Prix": "Accident"
+            "Brazilian Grand Prix": "Spun off"
         }
     },
     "fastLaps": {
@@ -781,15 +781,15 @@
         "1979": 5.533333333333333,
         "1980": 11.571428571428571,
         "1981": 13.533333333333333,
-        "1982": 16.0
+        "1982": 13.0
     },
     "avgQualiPositions": {
-        "1977": -1,
-        "1978": -1,
-        "1979": -1,
-        "1980": -1,
-        "1981": -1,
-        "1982": -1
+        "1977": 15.333333333333334,
+        "1978": 6.8125,
+        "1979": 5.066666666666666,
+        "1980": 12.214285714285714,
+        "1981": 7.0,
+        "1982": 3.75
     },
     "rates": {
         "wins": {
@@ -806,7 +806,7 @@
             "1979": 0.4666666666666667,
             "1980": 0.0,
             "1981": 0.2,
-            "1982": 0.2
+            "1982": 0.25
         },
         "poles": {
             "1977": 0.0,
@@ -818,17 +818,17 @@
         },
         "DNFs": {
             "1977": 0.6666666666666666,
-            "1978": 0.125,
-            "1979": 0.13333333333333333,
-            "1980": 0.14285714285714285,
-            "1981": 0.13333333333333333,
-            "1982": 0.4
+            "1978": 0.375,
+            "1979": 0.26666666666666666,
+            "1980": 0.5,
+            "1981": 0.5333333333333333,
+            "1982": 0.5
         }
     },
-    "winRate": 0.08823529411764706,
-    "podiumRate": 0.19117647058823528,
-    "poleRate": 0.029411764705882353,
-    "dnfRate": 0.47058823529411764,
+    "winRate": 0.08955223880597014,
+    "podiumRate": 0.19402985074626866,
+    "poleRate": 0.029850746268656716,
+    "dnfRate": 0.43283582089552236,
     "ptwConRate": {
         "1977": -1,
         "1978": -1,
@@ -838,12 +838,85 @@
         "1982": -1
     },
     "positionsGainLost": {
-        "1977": {},
-        "1978": {},
-        "1979": {},
-        "1980": {},
-        "1981": {},
-        "1982": {}
+        "1977": {
+            "British Grand Prix": -2,
+            "Canadian Grand Prix": 5,
+            "Japanese Grand Prix": 1
+        },
+        "1978": {
+            "Argentine Grand Prix": -1,
+            "Brazilian Grand Prix": -7,
+            "South African Grand Prix": -8,
+            "United States Grand Prix West": -14,
+            "Monaco Grand Prix": -4,
+            "Belgian Grand Prix": 0,
+            "Spanish Grand Prix": -5,
+            "Swedish Grand Prix": -2,
+            "French Grand Prix": -3,
+            "British Grand Prix": -10,
+            "German Grand Prix": 7,
+            "Austrian Grand Prix": 8,
+            "Dutch Grand Prix": -1,
+            "Italian Grand Prix": -5,
+            "United States Grand Prix": -19,
+            "Canadian Grand Prix": 2
+        },
+        "1979": {
+            "Argentine Grand Prix": -2,
+            "Brazilian Grand Prix": 0,
+            "South African Grand Prix": 2,
+            "United States Grand Prix West": 0,
+            "Spanish Grand Prix": -4,
+            "Belgian Grand Prix": -1,
+            "Monaco Grand Prix": -8,
+            "French Grand Prix": 1,
+            "British Grand Prix": -1,
+            "German Grand Prix": 1,
+            "Austrian Grand Prix": 3,
+            "Dutch Grand Prix": -3,
+            "Italian Grand Prix": 3,
+            "Canadian Grand Prix": 0,
+            "United States Grand Prix": 2
+        },
+        "1980": {
+            "Argentine Grand Prix": -4,
+            "Brazilian Grand Prix": -13,
+            "South African Grand Prix": -10,
+            "United States Grand Prix West": -5,
+            "Belgian Grand Prix": 6,
+            "Monaco Grand Prix": 1,
+            "French Grand Prix": 9,
+            "British Grand Prix": 0,
+            "German Grand Prix": 10,
+            "Austrian Grand Prix": 7,
+            "Dutch Grand Prix": 0,
+            "Italian Grand Prix": -14,
+            "Canadian Grand Prix": 17,
+            "United States Grand Prix": 5
+        },
+        "1981": {
+            "United States Grand Prix West": -15,
+            "Brazilian Grand Prix": -9,
+            "Argentine Grand Prix": -7,
+            "San Marino Grand Prix": -6,
+            "Belgian Grand Prix": 3,
+            "Monaco Grand Prix": 1,
+            "Spanish Grand Prix": 6,
+            "French Grand Prix": -9,
+            "British Grand Prix": -12,
+            "German Grand Prix": -2,
+            "Austrian Grand Prix": -20,
+            "Dutch Grand Prix": -8,
+            "Italian Grand Prix": -14,
+            "Canadian Grand Prix": 8,
+            "Caesars Palace Grand Prix": -14
+        },
+        "1982": {
+            "South African Grand Prix": -20,
+            "Brazilian Grand Prix": -14,
+            "United States Grand Prix West": -4,
+            "San Marino Grand Prix": 1
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -857,6 +930,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -869,6 +944,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -881,6 +958,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -895,6 +974,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -907,6 +988,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -919,6 +1002,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -931,6 +1016,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -943,6 +1030,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -955,6 +1044,8 @@
                 "grid": 4,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -967,6 +1058,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -979,6 +1072,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -991,6 +1086,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1003,6 +1100,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1015,6 +1114,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1027,6 +1128,8 @@
                 "grid": 11,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1039,6 +1142,8 @@
                 "grid": 5,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1051,6 +1156,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1063,6 +1170,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1075,6 +1184,8 @@
                 "grid": 3,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1089,6 +1200,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1101,6 +1214,8 @@
                 "grid": 5,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1113,6 +1228,8 @@
                 "grid": 3,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1125,6 +1242,8 @@
                 "grid": 1,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1137,6 +1256,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1149,6 +1270,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1161,6 +1284,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1173,6 +1298,8 @@
                 "grid": 3,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1185,6 +1312,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1197,6 +1326,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1209,6 +1340,8 @@
                 "grid": 5,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1221,6 +1354,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Tyre",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1233,6 +1368,8 @@
                 "grid": 5,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1245,6 +1382,8 @@
                 "grid": 2,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1257,6 +1396,8 @@
                 "grid": 3,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1271,6 +1412,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1283,6 +1426,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Throttle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1295,6 +1440,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1307,6 +1454,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1319,6 +1468,8 @@
                 "grid": 12,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1331,6 +1482,8 @@
                 "grid": 6,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1343,6 +1496,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1355,6 +1510,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1367,6 +1524,8 @@
                 "grid": 16,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1379,6 +1538,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1391,6 +1552,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1403,6 +1566,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Puncture",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1415,6 +1580,8 @@
                 "grid": 22,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1427,6 +1594,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1441,6 +1610,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1453,6 +1624,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1465,6 +1638,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1477,6 +1652,8 @@
                 "grid": 1,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1489,6 +1666,8 @@
                 "grid": 7,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1501,6 +1680,8 @@
                 "grid": 2,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1513,6 +1694,8 @@
                 "grid": 7,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1525,6 +1708,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1537,6 +1722,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1549,6 +1736,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1561,6 +1750,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1573,6 +1764,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1585,6 +1778,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1597,6 +1792,8 @@
                 "grid": 11,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1609,6 +1806,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1623,6 +1822,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1635,6 +1836,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1647,6 +1850,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1659,6 +1864,8 @@
                 "grid": 3,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1671,6 +1878,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "withdrew",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -1684,5 +1893,14 @@
         "1980": {},
         "1981": {},
         "1982": {}
-    }
+    },
+    "seasonStarts": {
+        "1977": 3,
+        "1978": 16,
+        "1979": 15,
+        "1980": 14,
+        "1981": 15,
+        "1982": 4
+    },
+    "totalStarts": 67
 }

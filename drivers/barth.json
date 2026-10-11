@@ -1,10 +1,10 @@
 {
     "driverId": "barth",
-    "lastUpdate": "2026-10-02T11:47:20.476361",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 2,
     "seasonWins": {
         "1953": 0,
         "1957": 0,
@@ -34,7 +34,7 @@
         "1957": 0,
         "1958": 0,
         "1960": 0,
-        "1961": 2,
+        "1961": 0,
         "1964": 1
     },
     "poles": {
@@ -60,10 +60,7 @@
         "1957": {},
         "1958": {},
         "1960": {},
-        "1961": {
-            "German Grand Prix": "Withdrew",
-            "Italian Grand Prix": "Withdrew"
-        },
+        "1961": {},
         "1964": {
             "German Grand Prix": "Clutch"
         }
@@ -356,16 +353,16 @@
         "1957": 12.0,
         "1958": 6.0,
         "1960": 7.0,
-        "1961": 30.5,
+        "1961": -1,
         "1964": 18.0
     },
     "avgQualiPositions": {
-        "1953": -1,
-        "1957": -1,
-        "1958": -1,
-        "1960": -1,
+        "1953": 24.0,
+        "1957": 12.0,
+        "1958": 13.0,
+        "1960": 12.0,
         "1961": -1,
-        "1964": -1
+        "1964": 20.0
     },
     "rates": {
         "wins": {
@@ -394,17 +391,17 @@
         },
         "DNFs": {
             "1953": 1.0,
-            "1957": 1.0,
-            "1958": 1.0,
-            "1960": 1.0,
-            "1961": 0.5,
+            "1957": 0.0,
+            "1958": 0.0,
+            "1960": 0.0,
+            "1961": 0.0,
             "1964": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5714285714285714,
+    "dnfRate": 0.4,
     "ptwConRate": {
         "1953": -1,
         "1957": -1,
@@ -414,12 +411,22 @@
         "1964": -1
     },
     "positionsGainLost": {
-        "1953": {},
-        "1957": {},
-        "1958": {},
-        "1960": {},
+        "1953": {
+            "German Grand Prix": 4
+        },
+        "1957": {
+            "German Grand Prix": 0
+        },
+        "1958": {
+            "German Grand Prix": 7
+        },
+        "1960": {
+            "Italian Grand Prix": 5
+        },
         "1961": {},
-        "1964": {}
+        "1964": {
+            "German Grand Prix": 2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -433,6 +440,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Exhaust",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "emw",
                 "fastestLapRank": null,
                 "shared": false
@@ -447,6 +456,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -461,6 +472,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -475,6 +488,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -489,6 +504,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -501,6 +518,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -515,6 +534,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -528,5 +549,14 @@
         "1960": {},
         "1961": {},
         "1964": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1957": 1,
+        "1958": 1,
+        "1960": 1,
+        "1961": 0,
+        "1964": 1
+    },
+    "totalStarts": 5
 }

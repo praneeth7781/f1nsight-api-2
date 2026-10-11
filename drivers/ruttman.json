@@ -1,6 +1,6 @@
 {
     "driverId": "ruttman",
-    "lastUpdate": "2026-10-02T11:47:20.456019",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 1,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -42,8 +42,8 @@
         "1954": 0,
         "1956": 1,
         "1957": 1,
-        "1958": 1,
-        "1960": 0
+        "1958": 0,
+        "1960": 1
     },
     "poles": {
         "1950": [],
@@ -80,10 +80,10 @@
         "1957": {
             "Indianapolis 500": "Engine"
         },
-        "1958": {
-            "German Grand Prix": "Engine"
-        },
-        "1960": {}
+        "1958": {},
+        "1960": {
+            "Indianapolis 500": "Axle"
+        }
     },
     "fastLaps": {
         "1950": {
@@ -532,18 +532,18 @@
         "1954": 4.0,
         "1956": 31.0,
         "1957": 31.0,
-        "1958": 18.0,
+        "1958": 10.0,
         "1960": 20.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1,
-        "1954": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1960": -1
+        "1950": 24.0,
+        "1951": 6.0,
+        "1952": 7.0,
+        "1954": 11.0,
+        "1956": 11.0,
+        "1957": 3.0,
+        "1958": 18.0,
+        "1960": 6.0
     },
     "rates": {
         "wins": {
@@ -578,19 +578,19 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1951": 0.0,
+            "1951": 1.0,
             "1952": 0.0,
             "1954": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
+            "1956": 1.0,
+            "1957": 1.0,
             "1958": 0.0,
-            "1960": 0.0
+            "1960": 1.0
         }
     },
-    "winRate": 0.1111111111111111,
-    "podiumRate": 0.1111111111111111,
+    "winRate": 0.125,
+    "podiumRate": 0.125,
     "poleRate": 0.0,
-    "dnfRate": 0.5555555555555556,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1950": -1,
         "1951": -1,
@@ -602,14 +602,30 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {},
-        "1954": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1960": {}
+        "1950": {
+            "Indianapolis 500": 9
+        },
+        "1951": {
+            "Indianapolis 500": -17
+        },
+        "1952": {
+            "Indianapolis 500": 6
+        },
+        "1954": {
+            "Indianapolis 500": 7
+        },
+        "1956": {
+            "Indianapolis 500": -20
+        },
+        "1957": {
+            "Indianapolis 500": -28
+        },
+        "1958": {
+            "French Grand Prix": 8
+        },
+        "1960": {
+            "Indianapolis 500": -14
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -623,6 +639,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lesovsky",
                 "fastestLapRank": null,
                 "shared": false
@@ -637,6 +655,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -651,6 +671,8 @@
                 "grid": 7,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -665,6 +687,8 @@
                 "grid": 11,
                 "points": 1.5,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -679,6 +703,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -693,6 +719,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "watson",
                 "fastestLapRank": null,
                 "shared": false
@@ -707,6 +735,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -719,6 +749,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "withdrew",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -733,6 +765,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Axle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "watson",
                 "fastestLapRank": null,
                 "shared": false
@@ -748,5 +782,16 @@
         "1957": {},
         "1958": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1,
+        "1952": 1,
+        "1954": 1,
+        "1956": 1,
+        "1957": 1,
+        "1958": 1,
+        "1960": 1
+    },
+    "totalStarts": 8
 }

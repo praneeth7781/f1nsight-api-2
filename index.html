@@ -48,6 +48,16 @@
         <h3>Example</h3>
         <p>To get information about the driver with ID <code>driver1</code>, you would use the following URL:</p>
         <pre><code>https://praneeth7781.github.io/f1nsight-api-2/drivers/driver1.json</code></pre>
+        <h2>Driver Results (v2)</h2>
+        <p>One labelled row per driver per race, built from the stored race files. Each row carries the grid, finish, points, laps, an <code>outcome</code> (finished, lapped, retired, dsq, dns, dnq, withdrew), the retirement <code>cause</code> (mechanical, accident, contact, tyre, operational, driver, unknown) and the teammates' results from the same race, so stats can be recomputed with any adjustments applied.</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/v2/drivers/{driver_id}/results.json</code></pre>
+        <p>As-recorded totals per career and season (starts, wins, podiums, poles, DNFs by cause, constructor standings):</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/v2/drivers/{driver_id}/summary.json</code></pre>
+        <p>Which seasons have qualifying times, sprints and known retirement causes; the vocabulary; and the retirements still missing a cause:</p>
+        <pre><code>https://praneeth7781.github.io/f1nsight-api-2/v2/coverage.json
+https://praneeth7781.github.io/f1nsight-api-2/v2/index.json
+https://praneeth7781.github.io/f1nsight-api-2/v2/unknownRetirements.json</code></pre>
+        <p>Points are as awarded at the time. Standings under other points systems are in <code>scoring/rescored/{year}.json</code>.</p>
         <h2>How to Access Drivers for a Constructor</h2>
         <p>To access the drivers who drove for a particular constuctor in a particular year, use the following URL format:</p>
         <pre><code>https://praneeth7781.github.io/f1nsight-api-2/constructors/{year}/{constructorId}.json</code></pre>

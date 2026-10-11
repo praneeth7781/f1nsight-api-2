@@ -1,6 +1,6 @@
 {
     "driverId": "raphanel",
-    "lastUpdate": "2026-10-02T11:47:20.546641",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -146,29 +146,23 @@
         }
     },
     "avgRacePositions": {
-        "1988": 29.0,
-        "1989": 32.9375
+        "1989": 23.0
     },
     "avgQualiPositions": {
-        "1988": -1,
-        "1989": -1
+        "1989": 18.0
     },
     "rates": {
         "wins": {
-            "1988": 0.0,
             "1989": 0.0
         },
         "podiums": {
-            "1988": 0.0,
             "1989": 0.0
         },
         "poles": {
-            "1988": 0.0,
             "1989": 0.0
         },
         "DNFs": {
-            "1988": 1.0,
-            "1989": 0.0625
+            "1989": 1.0
         }
     },
     "winRate": 0.0,
@@ -176,12 +170,12 @@
     "poleRate": 0.0,
     "dnfRate": 1.0,
     "ptwConRate": {
-        "1988": -1,
         "1989": -1
     },
     "positionsGainLost": {
-        "1988": {},
-        "1989": {}
+        "1989": {
+            "Monaco Grand Prix": -5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -195,6 +189,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "coloni",
                 "fastestLapRank": null,
                 "shared": false
@@ -203,5 +199,9 @@
     },
     "sprintResults": {
         "1989": {}
-    }
+    },
+    "seasonStarts": {
+        "1989": 1
+    },
+    "totalStarts": 1
 }

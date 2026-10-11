@@ -1,10 +1,10 @@
 {
     "driverId": "leclere",
-    "lastUpdate": "2026-10-02T11:47:20.529711",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1975": 0,
         "1976": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1975": 1,
-        "1976": 2
+        "1976": 1
     },
     "poles": {
         "1975": [],
@@ -34,7 +34,6 @@
             "United States Grand Prix": "Engine"
         },
         "1976": {
-            "United States Grand Prix West": "Did not qualify",
             "Swedish Grand Prix": "Engine"
         }
     },
@@ -210,11 +209,11 @@
     },
     "avgRacePositions": {
         "1975": 20.0,
-        "1976": 14.142857142857142
+        "1976": 13.0
     },
     "avgQualiPositions": {
-        "1975": -1,
-        "1976": -1
+        "1975": 20.0,
+        "1976": 22.5
     },
     "rates": {
         "wins": {
@@ -231,20 +230,29 @@
         },
         "DNFs": {
             "1975": 1.0,
-            "1976": 0.14285714285714285
+            "1976": 0.16666666666666666
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.375,
+    "dnfRate": 0.2857142857142857,
     "ptwConRate": {
         "1975": -1,
         "1976": -1
     },
     "positionsGainLost": {
-        "1975": {},
-        "1976": {}
+        "1975": {
+            "United States Grand Prix": 0
+        },
+        "1976": {
+            "South African Grand Prix": 9,
+            "Spanish Grand Prix": 13,
+            "Belgian Grand Prix": 14,
+            "Monaco Grand Prix": 7,
+            "Swedish Grand Prix": 5,
+            "French Grand Prix": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -258,6 +266,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -272,6 +282,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "wolf",
                 "fastestLapRank": null,
                 "shared": false
@@ -284,6 +296,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "wolf",
                 "fastestLapRank": null,
                 "shared": false
@@ -296,6 +310,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "wolf",
                 "fastestLapRank": null,
                 "shared": false
@@ -308,6 +324,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "wolf",
                 "fastestLapRank": null,
                 "shared": false
@@ -320,6 +338,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "wolf",
                 "fastestLapRank": null,
                 "shared": false
@@ -332,6 +352,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "wolf",
                 "fastestLapRank": null,
                 "shared": false
@@ -344,6 +366,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "wolf",
                 "fastestLapRank": null,
                 "shared": false
@@ -353,5 +377,10 @@
     "sprintResults": {
         "1975": {},
         "1976": {}
-    }
+    },
+    "seasonStarts": {
+        "1975": 1,
+        "1976": 6
+    },
+    "totalStarts": 7
 }

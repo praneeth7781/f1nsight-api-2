@@ -1,6 +1,6 @@
 {
     "driverId": "berg",
-    "lastUpdate": "2026-10-02T11:47:20.543876",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -166,7 +166,7 @@
         "1986": 18.88888888888889
     },
     "avgQualiPositions": {
-        "1986": -1
+        "1986": 26.0
     },
     "rates": {
         "wins": {
@@ -190,7 +190,17 @@
         "1986": -1
     },
     "positionsGainLost": {
-        "1986": {}
+        "1986": {
+            "Detroit Grand Prix": 5,
+            "French Grand Prix": 8,
+            "British Grand Prix": 0,
+            "German Grand Prix": 14,
+            "Hungarian Grand Prix": 0,
+            "Austrian Grand Prix": 2,
+            "Portuguese Grand Prix": 14,
+            "Mexican Grand Prix": 10,
+            "Australian Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -204,6 +214,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -216,6 +228,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -228,6 +242,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -240,6 +256,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -252,6 +270,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -264,6 +284,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -276,6 +298,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -288,6 +312,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -300,6 +326,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -308,5 +336,9 @@
     },
     "sprintResults": {
         "1986": {}
-    }
+    },
+    "seasonStarts": {
+        "1986": 9
+    },
+    "totalStarts": 9
 }

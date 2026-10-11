@@ -1,6 +1,6 @@
 {
     "driverId": "zorzi",
-    "lastUpdate": "2026-10-02T11:47:20.529566",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -301,9 +301,9 @@
         "1977": 17.0
     },
     "avgQualiPositions": {
-        "1975": -1,
-        "1976": -1,
-        "1977": -1
+        "1975": 22.0,
+        "1976": 17.0,
+        "1977": 20.6
     },
     "rates": {
         "wins": {
@@ -324,7 +324,7 @@
         "DNFs": {
             "1975": 0.0,
             "1976": 0.0,
-            "1977": 0.0
+            "1977": 0.8
         }
     },
     "winRate": 0.0,
@@ -337,9 +337,19 @@
         "1977": -1
     },
     "positionsGainLost": {
-        "1975": {},
-        "1976": {},
-        "1977": {}
+        "1975": {
+            "Italian Grand Prix": 8
+        },
+        "1976": {
+            "Brazilian Grand Prix": 8
+        },
+        "1977": {
+            "Argentine Grand Prix": 1,
+            "Brazilian Grand Prix": 12,
+            "South African Grand Prix": -2,
+            "United States Grand Prix West": 2,
+            "Spanish Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -353,6 +363,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": null,
                 "shared": false
@@ -367,6 +379,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": null,
                 "shared": false
@@ -381,6 +395,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -393,6 +409,8 @@
                 "grid": 18,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -405,6 +423,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -417,6 +437,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -429,6 +451,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -439,5 +463,11 @@
         "1975": {},
         "1976": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1975": 1,
+        "1976": 1,
+        "1977": 5
+    },
+    "totalStarts": 7
 }

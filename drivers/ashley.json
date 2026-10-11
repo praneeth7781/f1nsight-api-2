@@ -1,10 +1,10 @@
 {
     "driverId": "ashley",
-    "lastUpdate": "2026-10-02T11:47:20.526145",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 3,
     "seasonWins": {
         "1974": 0,
         "1975": 0,
@@ -27,7 +27,7 @@
         "1974": 1,
         "1975": 1,
         "1976": 1,
-        "1977": 1
+        "1977": 0
     },
     "poles": {
         "1974": [],
@@ -51,9 +51,7 @@
         "1976": {
             "Brazilian Grand Prix": "Oil pump"
         },
-        "1977": {
-            "Canadian Grand Prix": "Withdrew"
-        }
+        "1977": {}
     },
     "fastLaps": {
         "1974": {
@@ -308,16 +306,16 @@
         }
     },
     "avgRacePositions": {
-        "1974": 21.5,
+        "1974": 13.5,
         "1975": 25.0,
         "1976": 22.0,
-        "1977": 26.2
+        "1977": 17.0
     },
     "avgQualiPositions": {
-        "1974": -1,
-        "1975": -1,
-        "1976": -1,
-        "1977": -1
+        "1974": 22.0,
+        "1975": 20.0,
+        "1976": 21.0,
+        "1977": 22.0
     },
     "rates": {
         "wins": {
@@ -339,16 +337,16 @@
             "1977": 0.0
         },
         "DNFs": {
-            "1974": 0.75,
-            "1975": 3.0,
-            "1976": 3.0,
-            "1977": 0.6
+            "1974": 0.5,
+            "1975": 1.0,
+            "1976": 1.0,
+            "1977": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8181818181818182,
+    "dnfRate": 0.6,
     "ptwConRate": {
         "1974": -1,
         "1975": -1,
@@ -356,10 +354,19 @@
         "1977": -1
     },
     "positionsGainLost": {
-        "1974": {},
-        "1975": {},
-        "1976": {},
-        "1977": {}
+        "1974": {
+            "German Grand Prix": 6,
+            "Austrian Grand Prix": 11
+        },
+        "1975": {
+            "German Grand Prix": -5
+        },
+        "1976": {
+            "Brazilian Grand Prix": -1
+        },
+        "1977": {
+            "United States Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -373,6 +380,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "token",
                 "fastestLapRank": null,
                 "shared": false
@@ -385,6 +394,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "token",
                 "fastestLapRank": null,
                 "shared": false
@@ -399,6 +410,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "williams",
                 "fastestLapRank": null,
                 "shared": false
@@ -413,6 +426,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Oil pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -427,6 +442,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hesketh",
                 "fastestLapRank": null,
                 "shared": false
@@ -439,6 +456,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "hesketh",
                 "fastestLapRank": null,
                 "shared": false
@@ -450,5 +469,12 @@
         "1975": {},
         "1976": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1974": 2,
+        "1975": 1,
+        "1976": 1,
+        "1977": 1
+    },
+    "totalStarts": 5
 }

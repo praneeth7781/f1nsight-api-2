@@ -1,11 +1,11 @@
 {
     "driverId": "magnussen",
     "driverCode": "MAG",
-    "lastUpdate": "2026-10-02T11:47:20.554565",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 16,
+    "totalDNFs": 17,
     "seasonWins": {
         "1995": 0,
         "1997": 0,
@@ -23,7 +23,7 @@
     },
     "seasonDNFs": {
         "1995": 0,
-        "1997": 12,
+        "1997": 13,
         "1998": 4
     },
     "poles": {
@@ -41,6 +41,7 @@
         "1997": {
             "Australian Grand Prix": "Suspension",
             "Brazilian Grand Prix": "Accident",
+            "Argentine Grand Prix": "Engine",
             "San Marino Grand Prix": "Spun off",
             "Canadian Grand Prix": "Spun off",
             "French Grand Prix": "Brakes",
@@ -437,8 +438,8 @@
     },
     "avgQualiPositions": {
         "1995": 12.0,
-        "1997": 17.7,
-        "1998": 18.666666666666668
+        "1997": 15.823529411764707,
+        "1998": 18.714285714285715
     },
     "rates": {
         "wins": {
@@ -458,8 +459,8 @@
         },
         "DNFs": {
             "1995": 0.0,
-            "1997": 0.0,
-            "1998": 0.0
+            "1997": 0.7647058823529411,
+            "1998": 0.5714285714285714
         }
     },
     "winRate": 0.0,
@@ -484,13 +485,24 @@
             "Spanish Grand Prix": 9,
             "Canadian Grand Prix": -1,
             "French Grand Prix": -3,
-            "British Grand Prix": 2,
-            "German Grand Prix": 0
+            "British Grand Prix": 3,
+            "German Grand Prix": 0,
+            "Hungarian Grand Prix": -5,
+            "Belgian Grand Prix": 6,
+            "Italian Grand Prix": -6,
+            "Austrian Grand Prix": -10,
+            "Luxembourg Grand Prix": -3,
+            "Japanese Grand Prix": -7,
+            "European Grand Prix": 2
         },
         "1998": {
             "Australian Grand Prix": -2,
             "Brazilian Grand Prix": 6,
-            "Argentine Grand Prix": 1
+            "Argentine Grand Prix": 1,
+            "San Marino Grand Prix": -1,
+            "Spanish Grand Prix": 6,
+            "Monaco Grand Prix": 0,
+            "Canadian Grand Prix": 14
         }
     },
     "driverNumber": "",
@@ -504,6 +516,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -518,6 +532,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -530,6 +546,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -542,6 +560,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -554,6 +574,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -566,6 +588,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -578,6 +602,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -590,6 +616,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -602,6 +630,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -614,6 +644,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -626,6 +658,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -638,6 +672,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -650,6 +686,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -662,6 +700,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -674,6 +714,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -686,6 +728,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -698,6 +742,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -710,6 +756,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -724,6 +772,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -736,6 +786,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -748,6 +800,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -760,6 +814,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -772,6 +828,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -784,6 +842,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -796,6 +856,8 @@
                 "grid": 20,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "stewart",
                 "fastestLapRank": null,
                 "shared": false
@@ -806,5 +868,11 @@
         "1995": {},
         "1997": {},
         "1998": {}
-    }
+    },
+    "seasonStarts": {
+        "1995": 1,
+        "1997": 17,
+        "1998": 7
+    },
+    "totalStarts": 25
 }

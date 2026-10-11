@@ -1,10 +1,10 @@
 {
     "driverId": "pease",
-    "lastUpdate": "2026-10-02T11:47:20.515326",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1967": 0,
         "1969": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1967": 1,
-        "1969": 1
+        "1969": 0
     },
     "poles": {
         "1967": [],
@@ -33,9 +33,7 @@
         "1967": {
             "Canadian Grand Prix": "Not classified"
         },
-        "1969": {
-            "Canadian Grand Prix": "Disqualified"
-        }
+        "1969": {}
     },
     "fastLaps": {
         "1967": {
@@ -128,21 +126,21 @@
     "consistency": {
         "mean": {
             "wins": 0.0,
-            "podiums": 0.125,
+            "podiums": 0.0,
             "poles": 0.0,
-            "points": 1.0625
+            "points": 0.0
         },
         "std": {
             "wins": 0.0,
-            "podiums": 0.33071891388307384,
+            "podiums": 0.0,
             "poles": 0.0,
-            "points": 1.2358574958303243
+            "points": 0.0
         },
         "cv": {
             "wins": 0,
-            "podiums": 2.6457513110645907,
+            "podiums": 0,
             "poles": 0,
-            "points": 1.1631599960755994
+            "points": 0
         }
     },
     "peakSeason": {
@@ -151,8 +149,8 @@
             "wins": 0
         },
         "podiums": {
-            "season": "1955",
-            "podiums": 1
+            "season": "No peak season",
+            "podiums": 0
         },
         "poles": {
             "season": "No peak season",
@@ -160,90 +158,46 @@
         }
     },
     "avgRacePositions": {
-        "1950": 9.0,
-        "1953": 4.0,
-        "1954": 8.0,
-        "1955": 2.0,
-        "1956": 33.0,
-        "1957": 4.0,
-        "1958": 18.0,
-        "1959": 9.0
+        "1967": 15.0,
+        "1969": 14.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1
+        "1967": 15.0,
+        "1969": 17.0
     },
     "rates": {
         "wins": {
-            "1950": 0.0,
-            "1953": 0.0,
-            "1954": 0.0,
-            "1955": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0,
-            "1959": 0.0
+            "1967": 0.0,
+            "1969": 0.0
         },
         "podiums": {
-            "1950": 0.0,
-            "1953": 0.0,
-            "1954": 0.0,
-            "1955": 1.0,
-            "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0,
-            "1959": 0.0
+            "1967": 0.0,
+            "1969": 0.0
         },
         "poles": {
-            "1950": 0.0,
-            "1953": 0.0,
-            "1954": 0.0,
-            "1955": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0,
-            "1959": 0.0
+            "1967": 0.0,
+            "1969": 0.0
         },
         "DNFs": {
-            "1950": 0.0,
-            "1953": 0.0,
-            "1954": 0.0,
-            "1955": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0,
-            "1959": 0.0
+            "1967": 1.0,
+            "1969": 0.0
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.125,
+    "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.25,
+    "dnfRate": 0.5,
     "ptwConRate": {
-        "1950": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1
+        "1967": -1,
+        "1969": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1959": {}
+        "1967": {
+            "Canadian Grand Prix": 0
+        },
+        "1969": {
+            "Canadian Grand Prix": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -257,6 +211,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "eagle-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -271,6 +227,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "eagle-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -280,5 +238,10 @@
     "sprintResults": {
         "1967": {},
         "1969": {}
-    }
+    },
+    "seasonStarts": {
+        "1967": 1,
+        "1969": 1
+    },
+    "totalStarts": 2
 }

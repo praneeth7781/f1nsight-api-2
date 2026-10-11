@@ -1,10 +1,10 @@
 {
     "driverId": "pirocchi",
-    "lastUpdate": "2026-10-02T11:47:20.501557",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1961": 0
     },
@@ -15,7 +15,7 @@
         "1961": 0
     },
     "seasonDNFs": {
-        "1961": 1
+        "1961": 0
     },
     "poles": {
         "1961": []
@@ -24,9 +24,7 @@
         "1961": {}
     },
     "DNFs": {
-        "1961": {
-            "German Grand Prix": "Withdrew"
-        }
+        "1961": {}
     },
     "fastLaps": {
         "1961": {
@@ -116,10 +114,10 @@
         }
     },
     "avgRacePositions": {
-        "1961": 21.5
+        "1961": 12.0
     },
     "avgQualiPositions": {
-        "1961": -1
+        "1961": 29.0
     },
     "rates": {
         "wins": {
@@ -132,18 +130,20 @@
             "1961": 0.0
         },
         "DNFs": {
-            "1961": 0.5
+            "1961": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1961": -1
     },
     "positionsGainLost": {
-        "1961": {}
+        "1961": {
+            "Italian Grand Prix": 17
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -157,6 +157,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -169,6 +171,8 @@
                 "grid": 29,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -177,5 +181,9 @@
     },
     "sprintResults": {
         "1961": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 1
+    },
+    "totalStarts": 1
 }

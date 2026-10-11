@@ -1,6 +1,6 @@
 {
     "driverId": "rooyen",
-    "lastUpdate": "2026-10-02T11:47:20.515893",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -215,8 +215,8 @@
         "1969": 18.0
     },
     "avgQualiPositions": {
-        "1968": -1,
-        "1969": -1
+        "1968": 20.0,
+        "1969": 9.0
     },
     "rates": {
         "wins": {
@@ -245,8 +245,12 @@
         "1969": -1
     },
     "positionsGainLost": {
-        "1968": {},
-        "1969": {}
+        "1968": {
+            "South African Grand Prix": 4
+        },
+        "1969": {
+            "South African Grand Prix": -9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -260,6 +264,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -274,6 +280,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -283,5 +291,10 @@
     "sprintResults": {
         "1968": {},
         "1969": {}
-    }
+    },
+    "seasonStarts": {
+        "1968": 1,
+        "1969": 1
+    },
+    "totalStarts": 2
 }

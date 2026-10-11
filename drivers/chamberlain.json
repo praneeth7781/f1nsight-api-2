@@ -1,6 +1,6 @@
 {
     "driverId": "chamberlain",
-    "lastUpdate": "2026-10-02T11:47:20.504695",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -117,10 +117,10 @@
         }
     },
     "avgRacePositions": {
-        "1962": 24.333333333333332
+        "1962": 15.0
     },
     "avgQualiPositions": {
-        "1962": -1
+        "1962": 20.0
     },
     "rates": {
         "wins": {
@@ -133,18 +133,20 @@
             "1962": 0.0
         },
         "DNFs": {
-            "1962": 0.6666666666666666
+            "1962": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1962": -1
     },
     "positionsGainLost": {
-        "1962": {}
+        "1962": {
+            "British Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -158,6 +160,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+11 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -166,5 +170,9 @@
     },
     "sprintResults": {
         "1962": {}
-    }
+    },
+    "seasonStarts": {
+        "1962": 1
+    },
+    "totalStarts": 1
 }

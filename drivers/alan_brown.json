@@ -1,10 +1,10 @@
 {
     "driverId": "alan_brown",
-    "lastUpdate": "2026-10-02T11:47:20.466079",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1952": 0,
         "1953": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1952": 0,
         "1953": 2,
-        "1954": 1
+        "1954": 0
     },
     "poles": {
         "1952": [],
@@ -41,9 +41,7 @@
             "British Grand Prix": "Overheating",
             "German Grand Prix": "Engine"
         },
-        "1954": {
-            "British Grand Prix": "Withdrew"
-        }
+        "1954": {}
     },
     "fastLaps": {
         "1952": {
@@ -265,11 +263,11 @@
     "avgRacePositions": {
         "1952": 12.0,
         "1953": 13.5,
-        "1954": 31.0
+        "1954": -1
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1,
+        "1952": 12.25,
+        "1953": 18.5,
         "1954": -1
     },
     "rates": {
@@ -290,22 +288,32 @@
         },
         "DNFs": {
             "1952": 0.0,
-            "1953": 0.0,
+            "1953": 0.5,
             "1954": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.3333333333333333,
+    "dnfRate": 0.25,
     "ptwConRate": {
         "1952": -1,
         "1953": -1,
         "1954": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {},
+        "1952": {
+            "Swiss Grand Prix": 10,
+            "Belgian Grand Prix": 3,
+            "British Grand Prix": -9,
+            "Italian Grand Prix": -3
+        },
+        "1953": {
+            "Argentine Grand Prix": 3,
+            "British Grand Prix": 6,
+            "German Grand Prix": -1,
+            "Italian Grand Prix": 12
+        },
         "1954": {}
     },
     "driverCode": "",
@@ -320,6 +328,8 @@
                 "grid": 15,
                 "points": 2.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -332,6 +342,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -344,6 +356,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+16 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -356,6 +370,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+12 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -370,6 +386,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -382,6 +400,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -394,6 +414,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -406,6 +428,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -420,6 +444,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -430,5 +456,11 @@
         "1952": {},
         "1953": {},
         "1954": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 4,
+        "1953": 4,
+        "1954": 0
+    },
+    "totalStarts": 8
 }

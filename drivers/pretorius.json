@@ -1,6 +1,6 @@
 {
     "driverId": "pretorius",
-    "lastUpdate": "2026-10-02T11:47:20.515753",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -288,38 +288,32 @@
         }
     },
     "avgRacePositions": {
-        "1965": 27.0,
         "1968": 10.0,
         "1971": 22.0,
         "1973": 18.0
     },
     "avgQualiPositions": {
-        "1965": -1,
-        "1968": -1,
-        "1971": -1,
-        "1973": -1
+        "1968": 23.0,
+        "1971": 20.0,
+        "1973": 24.0
     },
     "rates": {
         "wins": {
-            "1965": 0.0,
             "1968": 0.0,
             "1971": 0.0,
             "1973": 0.0
         },
         "podiums": {
-            "1965": 0.0,
             "1968": 0.0,
             "1971": 0.0,
             "1973": 0.0
         },
         "poles": {
-            "1965": 0.0,
             "1968": 0.0,
             "1971": 0.0,
             "1973": 0.0
         },
         "DNFs": {
-            "1965": 1.0,
             "1968": 1.0,
             "1971": 1.0,
             "1973": 1.0
@@ -330,16 +324,20 @@
     "poleRate": 0.0,
     "dnfRate": 1.0,
     "ptwConRate": {
-        "1965": -1,
         "1968": -1,
         "1971": -1,
         "1973": -1
     },
     "positionsGainLost": {
-        "1965": {},
-        "1968": {},
-        "1971": {},
-        "1973": {}
+        "1968": {
+            "South African Grand Prix": 13
+        },
+        "1971": {
+            "South African Grand Prix": -2
+        },
+        "1973": {
+            "South African Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -353,6 +351,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -367,6 +367,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -381,6 +383,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "iso_marlboro",
                 "fastestLapRank": null,
                 "shared": false
@@ -391,5 +395,11 @@
         "1968": {},
         "1971": {},
         "1973": {}
-    }
+    },
+    "seasonStarts": {
+        "1968": 1,
+        "1971": 1,
+        "1973": 1
+    },
+    "totalStarts": 3
 }

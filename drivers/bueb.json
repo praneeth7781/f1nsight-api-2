@@ -1,10 +1,10 @@
 {
     "driverId": "bueb",
-    "lastUpdate": "2026-10-02T11:47:20.487426",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1957": 0,
         "1958": 0,
@@ -23,7 +23,7 @@
     "seasonDNFs": {
         "1957": 1,
         "1958": 1,
-        "1959": 1
+        "1959": 0
     },
     "poles": {
         "1957": [],
@@ -42,9 +42,7 @@
         "1958": {
             "British Grand Prix": "Gearbox"
         },
-        "1959": {
-            "Monaco Grand Prix": "Did not qualify"
-        }
+        "1959": {}
     },
     "fastLaps": {
         "1957": {
@@ -245,12 +243,12 @@
     "avgRacePositions": {
         "1957": 9.5,
         "1958": 14.0,
-        "1959": 15.0
+        "1959": 13.0
     },
     "avgQualiPositions": {
-        "1957": -1,
-        "1958": -1,
-        "1959": -1
+        "1957": 17.5,
+        "1958": 16.5,
+        "1959": 18.0
     },
     "rates": {
         "wins": {
@@ -271,22 +269,30 @@
         "DNFs": {
             "1957": 0.5,
             "1958": 0.5,
-            "1959": 0.5
+            "1959": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5,
+    "dnfRate": 0.4,
     "ptwConRate": {
         "1957": -1,
         "1958": -1,
         "1959": -1
     },
     "positionsGainLost": {
-        "1957": {},
-        "1958": {},
-        "1959": {}
+        "1957": {
+            "Monaco Grand Prix": 5,
+            "British Grand Prix": 11
+        },
+        "1958": {
+            "British Grand Prix": 0,
+            "German Grand Prix": 5
+        },
+        "1959": {
+            "British Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -300,6 +306,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": false
@@ -312,6 +320,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+19 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -326,6 +336,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": false
@@ -338,6 +350,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -352,6 +366,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -364,6 +380,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-borgward",
                 "fastestLapRank": null,
                 "shared": false
@@ -374,5 +392,11 @@
         "1957": {},
         "1958": {},
         "1959": {}
-    }
+    },
+    "seasonStarts": {
+        "1957": 2,
+        "1958": 2,
+        "1959": 1
+    },
+    "totalStarts": 5
 }

@@ -1,10 +1,10 @@
 {
     "driverId": "schiattarella",
-    "lastUpdate": "2026-10-02T11:47:20.553152",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 3,
     "seasonWins": {
         "1994": 0,
         "1995": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1994": 1,
-        "1995": 3
+        "1995": 2
     },
     "poles": {
         "1994": [],
@@ -35,8 +35,7 @@
         },
         "1995": {
             "Brazilian Grand Prix": "Steering",
-            "San Marino Grand Prix": "Suspension",
-            "Monaco Grand Prix": "Withdrew"
+            "San Marino Grand Prix": "Suspension"
         }
     },
     "fastLaps": {
@@ -254,11 +253,11 @@
     },
     "avgRacePositions": {
         "1994": 20.0,
-        "1995": 18.4
+        "1995": 16.5
     },
     "avgQualiPositions": {
         "1994": 26.0,
-        "1995": 22.2
+        "1995": 22.75
     },
     "rates": {
         "wins": {
@@ -275,13 +274,13 @@
         },
         "DNFs": {
             "1994": 0.5,
-            "1995": 0.2
+            "1995": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.5714285714285714,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1994": -1,
         "1995": -1
@@ -295,8 +294,7 @@
             "Brazilian Grand Prix": 3,
             "Argentine Grand Prix": 11,
             "San Marino Grand Prix": 4,
-            "Spanish Grand Prix": 7,
-            "Monaco Grand Prix": -6
+            "Spanish Grand Prix": 7
         }
     },
     "driverCode": "",
@@ -311,6 +309,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -323,6 +323,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -337,6 +339,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Steering",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -349,6 +353,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -361,6 +367,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -373,6 +381,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -385,6 +395,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "simtek",
                 "fastestLapRank": null,
                 "shared": false
@@ -394,5 +406,10 @@
     "sprintResults": {
         "1994": {},
         "1995": {}
-    }
+    },
+    "seasonStarts": {
+        "1994": 2,
+        "1995": 4
+    },
+    "totalStarts": 6
 }

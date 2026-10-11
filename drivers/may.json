@@ -1,10 +1,10 @@
 {
     "driverId": "may",
-    "lastUpdate": "2026-10-02T11:47:20.499785",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 1,
     "seasonWins": {
         "1961": 0
     },
@@ -15,7 +15,7 @@
         "1961": 0
     },
     "seasonDNFs": {
-        "1961": 3
+        "1961": 1
     },
     "poles": {
         "1961": []
@@ -25,9 +25,7 @@
     },
     "DNFs": {
         "1961": {
-            "Monaco Grand Prix": "Oil pipe",
-            "German Grand Prix": "Withdrew",
-            "Italian Grand Prix": "Withdrew"
+            "Monaco Grand Prix": "Oil pipe"
         }
     },
     "fastLaps": {
@@ -139,10 +137,10 @@
         }
     },
     "avgRacePositions": {
-        "1961": 23.25
+        "1961": 12.5
     },
     "avgQualiPositions": {
-        "1961": -1
+        "1961": 18.0
     },
     "rates": {
         "wins": {
@@ -155,18 +153,21 @@
             "1961": 0.0
         },
         "DNFs": {
-            "1961": 0.75
+            "1961": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.75,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1961": -1
     },
     "positionsGainLost": {
-        "1961": {}
+        "1961": {
+            "Monaco Grand Prix": 0,
+            "French Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -180,6 +181,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Oil pipe",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -192,6 +195,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -204,6 +209,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -216,6 +223,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -224,5 +233,9 @@
     },
     "sprintResults": {
         "1961": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 2
+    },
+    "totalStarts": 2
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "hobbs",
-    "lastUpdate": "2026-10-02T11:47:20.513642",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -272,10 +272,10 @@
         "1974": 8.0
     },
     "avgQualiPositions": {
-        "1967": -1,
-        "1968": -1,
-        "1971": -1,
-        "1974": -1
+        "1967": 16.0,
+        "1968": 14.0,
+        "1971": 22.0,
+        "1974": 20.0
     },
     "rates": {
         "wins": {
@@ -298,7 +298,7 @@
         },
         "DNFs": {
             "1967": 0.0,
-            "1968": 0.0,
+            "1968": 1.0,
             "1971": 0.0,
             "1974": 0.0
         }
@@ -314,10 +314,21 @@
         "1974": -1
     },
     "positionsGainLost": {
-        "1967": {},
-        "1968": {},
-        "1971": {},
-        "1974": {}
+        "1967": {
+            "British Grand Prix": 6,
+            "German Grand Prix": 12,
+            "Canadian Grand Prix": 3
+        },
+        "1968": {
+            "Italian Grand Prix": 4
+        },
+        "1971": {
+            "United States Grand Prix": 12
+        },
+        "1974": {
+            "Austrian Grand Prix": 10,
+            "Italian Grand Prix": 14
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -331,6 +342,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -343,6 +356,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lola",
                 "fastestLapRank": null,
                 "shared": false
@@ -355,6 +370,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -369,6 +386,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -383,6 +402,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -397,6 +418,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -409,6 +432,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren",
                 "fastestLapRank": null,
                 "shared": false
@@ -420,5 +445,12 @@
         "1968": {},
         "1971": {},
         "1974": {}
-    }
+    },
+    "seasonStarts": {
+        "1967": 3,
+        "1968": 1,
+        "1971": 1,
+        "1974": 2
+    },
+    "totalStarts": 7
 }

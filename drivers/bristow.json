@@ -1,6 +1,6 @@
 {
     "driverId": "bristow",
-    "lastUpdate": "2026-10-02T11:47:20.494832",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -194,8 +194,8 @@
         "1960": 13.333333333333334
     },
     "avgQualiPositions": {
-        "1959": -1,
-        "1960": -1
+        "1959": 16.0,
+        "1960": 6.666666666666667
     },
     "rates": {
         "wins": {
@@ -212,7 +212,7 @@
         },
         "DNFs": {
             "1959": 0.0,
-            "1960": 0.0
+            "1960": 1.0
         }
     },
     "winRate": 0.0,
@@ -224,8 +224,14 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1959": {},
-        "1960": {}
+        "1959": {
+            "British Grand Prix": 6
+        },
+        "1960": {
+            "Monaco Grand Prix": -10,
+            "Dutch Grand Prix": -8,
+            "Belgian Grand Prix": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -239,6 +245,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-borgward",
                 "fastestLapRank": null,
                 "shared": false
@@ -253,6 +261,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -265,6 +275,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -277,6 +289,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -286,5 +300,10 @@
     "sprintResults": {
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1959": 1,
+        "1960": 3
+    },
+    "totalStarts": 4
 }

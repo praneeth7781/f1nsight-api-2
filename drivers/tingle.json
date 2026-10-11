@@ -1,10 +1,10 @@
 {
     "driverId": "tingle",
-    "lastUpdate": "2026-10-02T11:47:20.506705",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 3,
     "seasonWins": {
         "1962": 0,
         "1963": 0,
@@ -30,7 +30,7 @@
         "1969": 0
     },
     "seasonDNFs": {
-        "1962": 1,
+        "1962": 0,
         "1963": 1,
         "1965": 0,
         "1967": 1,
@@ -54,9 +54,7 @@
         "1969": {}
     },
     "DNFs": {
-        "1962": {
-            "South African Grand Prix": "Withdrew"
-        },
+        "1962": {},
         "1963": {
             "South African Grand Prix": "Halfshaft"
         },
@@ -428,7 +426,7 @@
         }
     },
     "avgRacePositions": {
-        "1962": 21.0,
+        "1962": -1,
         "1963": 20.0,
         "1965": 13.0,
         "1967": 9.0,
@@ -437,11 +435,11 @@
     },
     "avgQualiPositions": {
         "1962": -1,
-        "1963": -1,
-        "1965": -1,
-        "1967": -1,
-        "1968": -1,
-        "1969": -1
+        "1963": 17.0,
+        "1965": 20.0,
+        "1967": 14.0,
+        "1968": 22.0,
+        "1969": 17.0
     },
     "rates": {
         "wins": {
@@ -469,18 +467,18 @@
             "1969": 0.0
         },
         "DNFs": {
-            "1962": 1.0,
+            "1962": 0.0,
             "1963": 1.0,
-            "1965": 1.0,
+            "1965": 0.0,
             "1967": 1.0,
             "1968": 1.0,
-            "1969": 1.0
+            "1969": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.6,
     "ptwConRate": {
         "1962": -1,
         "1963": -1,
@@ -491,11 +489,21 @@
     },
     "positionsGainLost": {
         "1962": {},
-        "1963": {},
-        "1965": {},
-        "1967": {},
-        "1968": {},
-        "1969": {}
+        "1963": {
+            "South African Grand Prix": -3
+        },
+        "1965": {
+            "South African Grand Prix": 7
+        },
+        "1967": {
+            "South African Grand Prix": 5
+        },
+        "1968": {
+            "South African Grand Prix": 7
+        },
+        "1969": {
+            "South African Grand Prix": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -509,6 +517,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -523,6 +533,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lds",
                 "fastestLapRank": null,
                 "shared": false
@@ -537,6 +549,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+12 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lds-alfa_romeo",
                 "fastestLapRank": null,
                 "shared": false
@@ -551,6 +565,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lds-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -565,6 +581,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lds",
                 "fastestLapRank": null,
                 "shared": false
@@ -579,6 +597,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-repco",
                 "fastestLapRank": null,
                 "shared": false
@@ -592,5 +612,14 @@
         "1967": {},
         "1968": {},
         "1969": {}
-    }
+    },
+    "seasonStarts": {
+        "1962": 0,
+        "1963": 1,
+        "1965": 1,
+        "1967": 1,
+        "1968": 1,
+        "1969": 1
+    },
+    "totalStarts": 5
 }

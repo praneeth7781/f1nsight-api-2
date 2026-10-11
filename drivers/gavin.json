@@ -1,10 +1,10 @@
 {
     "driverId": "gavin",
-    "lastUpdate": "2026-10-02T11:47:20.513350",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 7,
     "seasonWins": {
         "1967": 0,
         "1968": 0,
@@ -27,7 +27,7 @@
         "1967": 1,
         "1968": 4,
         "1969": 1,
-        "1970": 2
+        "1970": 1
     },
     "poles": {
         "1967": [],
@@ -57,8 +57,7 @@
             "United States Grand Prix": "Not classified"
         },
         "1970": {
-            "South African Grand Prix": "Engine",
-            "Monaco Grand Prix": "Did not qualify"
+            "South African Grand Prix": "Engine"
         }
     },
     "fastLaps": {
@@ -359,13 +358,13 @@
         "1967": 15.0,
         "1968": 10.4,
         "1969": 7.0,
-        "1970": 14.333333333333334
+        "1970": 11.0
     },
     "avgQualiPositions": {
-        "1967": -1,
-        "1968": -1,
-        "1969": -1,
-        "1970": -1
+        "1967": 11.0,
+        "1968": 11.8,
+        "1969": 14.666666666666666,
+        "1970": 15.5
     },
     "rates": {
         "wins": {
@@ -388,15 +387,15 @@
         },
         "DNFs": {
             "1967": 1.0,
-            "1968": 0.2,
+            "1968": 0.8,
             "1969": 0.3333333333333333,
-            "1970": 0.3333333333333333
+            "1970": 0.5
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.08333333333333333,
+    "podiumRate": 0.09090909090909091,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.6363636363636364,
     "ptwConRate": {
         "1967": -1,
         "1968": -1,
@@ -404,10 +403,25 @@
         "1970": -1
     },
     "positionsGainLost": {
-        "1967": {},
-        "1968": {},
-        "1969": {},
-        "1970": {}
+        "1967": {
+            "Monaco Grand Prix": -4
+        },
+        "1968": {
+            "Monaco Grand Prix": -12,
+            "French Grand Prix": -1,
+            "Italian Grand Prix": 11,
+            "Canadian Grand Prix": 4,
+            "Mexican Grand Prix": 5
+        },
+        "1969": {
+            "Canadian Grand Prix": 9,
+            "United States Grand Prix": 8,
+            "Mexican Grand Prix": 6
+        },
+        "1970": {
+            "South African Grand Prix": 0,
+            "Spanish Grand Prix": 9
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -421,6 +435,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Injection",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "matra",
                 "fastestLapRank": null,
                 "shared": false
@@ -435,6 +451,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "matra-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -447,6 +465,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -459,6 +479,8 @@
                 "grid": 13,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "matra-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -471,6 +493,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "matra-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -483,6 +507,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "matra-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -497,6 +523,8 @@
                 "grid": 15,
                 "points": 1.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "matra-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -509,6 +537,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "matra-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -521,6 +551,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "matra-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -535,6 +567,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -547,6 +581,8 @@
                 "grid": 14,
                 "points": 2.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -559,6 +595,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -570,5 +608,12 @@
         "1968": {},
         "1969": {},
         "1970": {}
-    }
+    },
+    "seasonStarts": {
+        "1967": 1,
+        "1968": 5,
+        "1969": 3,
+        "1970": 2
+    },
+    "totalStarts": 11
 }

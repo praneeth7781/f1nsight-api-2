@@ -1,6 +1,6 @@
 {
     "driverId": "amick",
-    "lastUpdate": "2026-10-02T11:47:20.493980",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -192,8 +192,8 @@
         "1960": 11.0
     },
     "avgQualiPositions": {
-        "1959": -1,
-        "1960": -1
+        "1959": 26.0,
+        "1960": 22.0
     },
     "rates": {
         "wins": {
@@ -210,7 +210,7 @@
         },
         "DNFs": {
             "1959": 1.0,
-            "1960": 1.0
+            "1960": 0.0
         }
     },
     "winRate": 0.0,
@@ -222,8 +222,12 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1959": {},
-        "1960": {}
+        "1959": {
+            "Indianapolis 500": -5
+        },
+        "1960": {
+            "Indianapolis 500": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -237,6 +241,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -251,6 +257,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "epperly",
                 "fastestLapRank": null,
                 "shared": false
@@ -260,5 +268,10 @@
     "sprintResults": {
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 2
 }

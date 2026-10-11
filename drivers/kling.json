@@ -1,6 +1,6 @@
 {
     "driverId": "kling",
-    "lastUpdate": "2026-10-02T11:47:20.479332",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 2,
     "totalPoles": 0,
@@ -219,8 +219,8 @@
         "1955": 8.6
     },
     "avgQualiPositions": {
-        "1954": -1,
-        "1955": -1
+        "1954": 8.666666666666666,
+        "1955": 5.2
     },
     "rates": {
         "wins": {
@@ -237,7 +237,7 @@
         },
         "DNFs": {
             "1954": 0.3333333333333333,
-            "1955": 0.4
+            "1955": 0.6
         }
     },
     "winRate": 0.0,
@@ -249,8 +249,21 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1954": {},
-        "1955": {}
+        "1954": {
+            "French Grand Prix": 0,
+            "British Grand Prix": -1,
+            "German Grand Prix": 19,
+            "Swiss Grand Prix": -4,
+            "Italian Grand Prix": -10,
+            "Spanish Grand Prix": 7
+        },
+        "1955": {
+            "Argentine Grand Prix": 6,
+            "Belgian Grand Prix": -4,
+            "Dutch Grand Prix": -12,
+            "British Grand Prix": 1,
+            "Italian Grand Prix": -8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -264,6 +277,8 @@
                 "grid": 2,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -276,6 +291,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -288,6 +305,8 @@
                 "grid": 23,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -300,6 +319,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -312,6 +333,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -324,6 +347,8 @@
                 "grid": 12,
                 "points": 2.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -338,6 +363,8 @@
                 "grid": 10,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": true
@@ -350,6 +377,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -362,6 +391,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -374,6 +405,8 @@
                 "grid": 4,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -386,6 +419,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -395,5 +430,10 @@
     "sprintResults": {
         "1954": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1954": 6,
+        "1955": 5
+    },
+    "totalStarts": 11
 }

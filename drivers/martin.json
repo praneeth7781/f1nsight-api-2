@@ -1,6 +1,6 @@
 {
     "driverId": "martin",
-    "lastUpdate": "2026-10-02T11:47:20.451795",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -132,7 +132,7 @@
         "1950": 16.5
     },
     "avgQualiPositions": {
-        "1950": -1
+        "1950": 8.0
     },
     "rates": {
         "wins": {
@@ -156,7 +156,10 @@
         "1950": -1
     },
     "positionsGainLost": {
-        "1950": {}
+        "1950": {
+            "British Grand Prix": -12,
+            "Swiss Grand Prix": -5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -170,6 +173,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -182,6 +187,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -190,5 +197,9 @@
     },
     "sprintResults": {
         "1950": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 2
+    },
+    "totalStarts": 2
 }

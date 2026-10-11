@@ -1,10 +1,10 @@
 {
     "driverId": "henton",
-    "lastUpdate": "2026-10-02T11:47:20.528419",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 12,
+    "totalDNFs": 9,
     "seasonWins": {
         "1975": 0,
         "1977": 0,
@@ -25,8 +25,8 @@
     },
     "seasonDNFs": {
         "1975": 2,
-        "1977": 1,
-        "1981": 2,
+        "1977": 0,
+        "1981": 0,
         "1982": 7
     },
     "poles": {
@@ -43,16 +43,11 @@
     },
     "DNFs": {
         "1975": {
-            "Austrian Grand Prix": "Accident",
+            "British Grand Prix": "Accident",
             "United States Grand Prix": "Not classified"
         },
-        "1977": {
-            "Dutch Grand Prix": "Disqualified"
-        },
-        "1981": {
-            "French Grand Prix": "Did not qualify",
-            "Austrian Grand Prix": "Did not qualify"
-        },
+        "1977": {},
+        "1981": {},
         "1982": {
             "United States Grand Prix West": "Spun off",
             "San Marino Grand Prix": "Transmission",
@@ -388,16 +383,16 @@
         }
     },
     "avgRacePositions": {
-        "1975": 18.666666666666668,
-        "1977": 22.833333333333332,
-        "1981": 26.333333333333332,
-        "1982": 14.5625
+        "1975": 14.0,
+        "1977": 12.0,
+        "1981": 10.0,
+        "1982": 12.571428571428571
     },
     "avgQualiPositions": {
-        "1975": -1,
-        "1977": -1,
-        "1981": -1,
-        "1982": -1
+        "1975": 20.0,
+        "1977": 20.5,
+        "1981": 23.0,
+        "1982": 19.071428571428573
     },
     "rates": {
         "wins": {
@@ -420,15 +415,15 @@
         },
         "DNFs": {
             "1975": 1.0,
-            "1977": 0.5,
-            "1981": 0.25,
-            "1982": 0.1875
+            "1977": 0.0,
+            "1981": 0.0,
+            "1982": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.7567567567567568,
+    "dnfRate": 0.47368421052631576,
     "ptwConRate": {
         "1975": -1,
         "1977": -1,
@@ -436,10 +431,33 @@
         "1982": -1
     },
     "positionsGainLost": {
-        "1975": {},
-        "1977": {},
-        "1981": {},
-        "1982": {}
+        "1975": {
+            "British Grand Prix": 5,
+            "United States Grand Prix": 7
+        },
+        "1977": {
+            "United States Grand Prix West": 8,
+            "Dutch Grand Prix": 9
+        },
+        "1981": {
+            "Italian Grand Prix": 13
+        },
+        "1982": {
+            "United States Grand Prix West": 6,
+            "San Marino Grand Prix": -2,
+            "Belgian Grand Prix": 2,
+            "Monaco Grand Prix": 9,
+            "Detroit Grand Prix": 11,
+            "Canadian Grand Prix": 14,
+            "Dutch Grand Prix": -2,
+            "British Grand Prix": 9,
+            "French Grand Prix": 13,
+            "German Grand Prix": 10,
+            "Austrian Grand Prix": 9,
+            "Swiss Grand Prix": 7,
+            "Italian Grand Prix": -6,
+            "Caesars Palace Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -453,6 +471,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -465,6 +485,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "withdrew",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -477,6 +499,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -491,6 +515,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -503,6 +529,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "boro",
                 "fastestLapRank": null,
                 "shared": false
@@ -517,6 +545,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -529,6 +559,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -541,6 +573,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -555,6 +589,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -567,6 +603,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -579,6 +617,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -591,6 +631,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -603,6 +645,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -615,6 +659,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -627,6 +673,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Throttle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -639,6 +687,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -651,6 +701,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -663,6 +715,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -675,6 +729,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -687,6 +743,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -699,6 +757,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -711,6 +771,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -722,5 +784,12 @@
         "1977": {},
         "1981": {},
         "1982": {}
-    }
+    },
+    "seasonStarts": {
+        "1975": 2,
+        "1977": 2,
+        "1981": 1,
+        "1982": 14
+    },
+    "totalStarts": 19
 }

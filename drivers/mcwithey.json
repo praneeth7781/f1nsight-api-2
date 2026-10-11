@@ -1,10 +1,10 @@
 {
     "driverId": "mcwithey",
-    "lastUpdate": "2026-10-02T11:47:20.493550",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 0,
+    "totalDNFs": 1,
     "seasonWins": {
         "1959": 0,
         "1960": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1959": 0,
-        "1960": 0
+        "1960": 1
     },
     "poles": {
         "1959": [],
@@ -31,7 +31,9 @@
     },
     "DNFs": {
         "1959": {},
-        "1960": {}
+        "1960": {
+            "Indianapolis 500": "Brakes"
+        }
     },
     "fastLaps": {
         "1959": {
@@ -190,8 +192,8 @@
         "1960": 29.0
     },
     "avgQualiPositions": {
-        "1959": -1,
-        "1960": -1
+        "1959": 33.0,
+        "1960": 32.0
     },
     "rates": {
         "wins": {
@@ -208,7 +210,7 @@
         },
         "DNFs": {
             "1959": 0.0,
-            "1960": 0.0
+            "1960": 1.0
         }
     },
     "winRate": 0.0,
@@ -220,8 +222,12 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1959": {},
-        "1960": {}
+        "1959": {
+            "Indianapolis 500": 17
+        },
+        "1960": {
+            "Indianapolis 500": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -235,6 +241,8 @@
                 "grid": 33,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -249,6 +257,8 @@
                 "grid": 32,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "epperly",
                 "fastestLapRank": null,
                 "shared": false
@@ -258,5 +268,10 @@
     "sprintResults": {
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 2
 }

@@ -1,10 +1,10 @@
 {
     "driverId": "starrabba",
-    "lastUpdate": "2026-10-02T11:47:20.501985",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1961": 0,
         "1963": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1961": 1,
-        "1963": 1
+        "1963": 0
     },
     "poles": {
         "1961": [],
@@ -33,9 +33,7 @@
         "1961": {
             "Italian Grand Prix": "Engine"
         },
-        "1963": {
-            "Italian Grand Prix": "Withdrew"
-        }
+        "1963": {}
     },
     "fastLaps": {
         "1961": {
@@ -161,10 +159,10 @@
     },
     "avgRacePositions": {
         "1961": 15.0,
-        "1963": 33.0
+        "1963": -1
     },
     "avgQualiPositions": {
-        "1961": -1,
+        "1961": 30.0,
         "1963": -1
     },
     "rates": {
@@ -182,7 +180,7 @@
         },
         "DNFs": {
             "1961": 1.0,
-            "1963": 1.0
+            "1963": 0.0
         }
     },
     "winRate": 0.0,
@@ -194,7 +192,9 @@
         "1963": -1
     },
     "positionsGainLost": {
-        "1961": {},
+        "1961": {
+            "Italian Grand Prix": 15
+        },
         "1963": {}
     },
     "driverCode": "",
@@ -209,6 +209,8 @@
                 "grid": 30,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -223,6 +225,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "lotus-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -232,5 +236,10 @@
     "sprintResults": {
         "1961": {},
         "1963": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 1,
+        "1963": 0
+    },
+    "totalStarts": 1
 }

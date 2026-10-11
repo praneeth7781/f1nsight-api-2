@@ -1,6 +1,6 @@
 {
     "driverId": "pantano",
-    "lastUpdate": "2026-10-02T11:47:20.560742",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -278,7 +278,7 @@
         "2004": 16.142857142857142
     },
     "avgQualiPositions": {
-        "2004": 17.071428571428573
+        "2004": 16.785714285714285
     },
     "rates": {
         "wins": {
@@ -305,18 +305,18 @@
         "2004": {
             "Australian Grand Prix": 2,
             "Malaysian Grand Prix": 5,
-            "Bahrain Grand Prix": 0,
+            "Bahrain Grand Prix": -1,
             "San Marino Grand Prix": -5,
             "Spanish Grand Prix": 5,
             "Monaco Grand Prix": 3,
             "European Grand Prix": 2,
             "United States Grand Prix": -2,
             "French Grand Prix": 1,
-            "British Grand Prix": -1,
+            "British Grand Prix": -3,
             "German Grand Prix": 2,
             "Hungarian Grand Prix": 1,
             "Belgian Grand Prix": -1,
-            "Italian Grand Prix": 1
+            "Italian Grand Prix": 0
         }
     },
     "driverCode": "",
@@ -331,6 +331,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jordan",
                 "fastestLapRank": 18,
                 "shared": false
@@ -343,6 +345,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jordan",
                 "fastestLapRank": 18,
                 "shared": false
@@ -355,6 +359,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jordan",
                 "fastestLapRank": 18,
                 "shared": false
@@ -367,6 +373,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jordan",
                 "fastestLapRank": 18,
                 "shared": false
@@ -379,6 +387,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Steering",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jordan",
                 "fastestLapRank": 18,
                 "shared": false
@@ -391,6 +401,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jordan",
                 "fastestLapRank": 14,
                 "shared": false
@@ -403,6 +415,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jordan",
                 "fastestLapRank": 15,
                 "shared": false
@@ -415,6 +429,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "jordan",
                 "fastestLapRank": null,
                 "shared": false
@@ -427,6 +443,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jordan",
                 "fastestLapRank": 17,
                 "shared": false
@@ -439,6 +457,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "jordan",
                 "fastestLapRank": 17,
                 "shared": false
@@ -451,6 +471,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "jordan",
                 "fastestLapRank": 16,
                 "shared": false
@@ -463,6 +485,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "jordan",
                 "fastestLapRank": 18,
                 "shared": false
@@ -475,6 +499,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "jordan",
                 "fastestLapRank": null,
                 "shared": false
@@ -487,6 +513,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "jordan",
                 "fastestLapRank": 16,
                 "shared": false
@@ -495,5 +523,9 @@
     },
     "sprintResults": {
         "2004": {}
-    }
+    },
+    "seasonStarts": {
+        "2004": 14
+    },
+    "totalStarts": 14
 }

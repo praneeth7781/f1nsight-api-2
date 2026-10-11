@@ -1,10 +1,10 @@
 {
     "driverId": "davis",
-    "lastUpdate": "2026-10-02T11:47:20.494554",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1959": 0,
         "1962": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1959": 1,
-        "1962": 1
+        "1962": 0
     },
     "poles": {
         "1959": [],
@@ -33,9 +33,7 @@
         "1959": {
             "French Grand Prix": "Oil leak"
         },
-        "1962": {
-            "French Grand Prix": "Withdrew"
-        }
+        "1962": {}
     },
     "fastLaps": {
         "1959": {
@@ -182,10 +180,10 @@
     },
     "avgRacePositions": {
         "1959": 15.5,
-        "1962": 20.0
+        "1962": -1
     },
     "avgQualiPositions": {
-        "1959": -1,
+        "1959": 17.5,
         "1962": -1
     },
     "rates": {
@@ -203,19 +201,22 @@
         },
         "DNFs": {
             "1959": 0.5,
-            "1962": 1.0
+            "1962": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1959": -1,
         "1962": -1
     },
     "positionsGainLost": {
-        "1959": {},
+        "1959": {
+            "French Grand Prix": -3,
+            "Italian Grand Prix": 7
+        },
         "1962": {}
     },
     "driverCode": "",
@@ -230,6 +231,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -242,6 +245,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -256,6 +261,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -265,5 +272,10 @@
     "sprintResults": {
         "1959": {},
         "1962": {}
-    }
+    },
+    "seasonStarts": {
+        "1959": 2,
+        "1962": 0
+    },
+    "totalStarts": 2
 }

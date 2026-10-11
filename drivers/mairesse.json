@@ -1,10 +1,10 @@
 {
     "driverId": "mairesse",
-    "lastUpdate": "2026-10-02T11:47:20.498452",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 9,
+    "totalDNFs": 10,
     "seasonWins": {
         "1960": 0,
         "1961": 0,
@@ -26,7 +26,7 @@
     "seasonDNFs": {
         "1960": 2,
         "1961": 3,
-        "1962": 1,
+        "1962": 2,
         "1963": 3
     },
     "poles": {
@@ -54,6 +54,7 @@
             "German Grand Prix": "Accident"
         },
         "1962": {
+            "Monaco Grand Prix": "Oil pressure",
             "Belgian Grand Prix": "Accident"
         },
         "1963": {
@@ -345,10 +346,10 @@
         "1963": 16.333333333333332
     },
     "avgQualiPositions": {
-        "1960": -1,
-        "1961": -1,
-        "1962": -1,
-        "1963": -1
+        "1960": 9.0,
+        "1961": 17.333333333333332,
+        "1962": 6.666666666666667,
+        "1963": 5.666666666666667
     },
     "rates": {
         "wins": {
@@ -371,9 +372,9 @@
         },
         "DNFs": {
             "1960": 0.6666666666666666,
-            "1961": 0.6666666666666666,
+            "1961": 1.0,
             "1962": 0.6666666666666666,
-            "1963": 0.6666666666666666
+            "1963": 1.0
         }
     },
     "winRate": 0.0,
@@ -387,10 +388,26 @@
         "1963": -1
     },
     "positionsGainLost": {
-        "1960": {},
-        "1961": {},
-        "1962": {},
-        "1963": {}
+        "1960": {
+            "Belgian Grand Prix": 4,
+            "French Grand Prix": -6,
+            "Italian Grand Prix": 0
+        },
+        "1961": {
+            "Belgian Grand Prix": -2,
+            "French Grand Prix": 3,
+            "German Grand Prix": -4
+        },
+        "1962": {
+            "Monaco Grand Prix": -3,
+            "Belgian Grand Prix": -7,
+            "Italian Grand Prix": 6
+        },
+        "1963": {
+            "Monaco Grand Prix": -4,
+            "Belgian Grand Prix": -15,
+            "German Grand Prix": -13
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -404,6 +421,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -416,6 +435,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -428,6 +449,8 @@
                 "grid": 3,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -442,6 +465,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -454,6 +479,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -466,6 +493,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -480,6 +509,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -492,6 +523,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -504,6 +537,8 @@
                 "grid": 10,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -518,6 +553,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -530,6 +567,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Injection",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -542,6 +581,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -553,5 +594,12 @@
         "1961": {},
         "1962": {},
         "1963": {}
-    }
+    },
+    "seasonStarts": {
+        "1960": 3,
+        "1961": 3,
+        "1962": 3,
+        "1963": 3
+    },
+    "totalStarts": 12
 }

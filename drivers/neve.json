@@ -1,10 +1,10 @@
 {
     "driverId": "neve",
-    "lastUpdate": "2026-10-02T11:47:20.530447",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1976": 0,
         "1977": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1976": 1,
-        "1977": 2
+        "1977": 1
     },
     "poles": {
         "1976": [],
@@ -34,7 +34,6 @@
             "Belgian Grand Prix": "Halfshaft"
         },
         "1977": {
-            "German Grand Prix": "Did not qualify",
             "Canadian Grand Prix": "Engine"
         }
     },
@@ -246,11 +245,11 @@
     },
     "avgRacePositions": {
         "1976": 19.5,
-        "1977": 15.545454545454545
+        "1977": 11.875
     },
     "avgQualiPositions": {
-        "1976": -1,
-        "1977": -1
+        "1976": 22.5,
+        "1977": 22.875
     },
     "rates": {
         "wins": {
@@ -267,20 +266,32 @@
         },
         "DNFs": {
             "1976": 0.5,
-            "1977": 0.09090909090909091
+            "1977": 0.125
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.38461538461538464,
+    "dnfRate": 0.2,
     "ptwConRate": {
         "1976": -1,
         "1977": -1
     },
     "positionsGainLost": {
-        "1976": {},
-        "1977": {}
+        "1976": {
+            "Belgian Grand Prix": -2,
+            "French Grand Prix": 8
+        },
+        "1977": {
+            "Spanish Grand Prix": 10,
+            "Belgian Grand Prix": 14,
+            "Swedish Grand Prix": 5,
+            "British Grand Prix": 16,
+            "Austrian Grand Prix": 13,
+            "Italian Grand Prix": 17,
+            "United States Grand Prix": 6,
+            "Canadian Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -294,6 +305,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Halfshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -306,6 +319,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -320,6 +335,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -332,6 +349,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -344,6 +363,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -356,6 +377,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -368,6 +391,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -380,6 +405,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -392,6 +419,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -404,6 +433,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -416,6 +447,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -425,5 +458,10 @@
     "sprintResults": {
         "1976": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1976": 2,
+        "1977": 8
+    },
+    "totalStarts": 10
 }

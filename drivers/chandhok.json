@@ -1,11 +1,11 @@
 {
     "driverId": "chandhok",
     "driverCode": "CHA",
-    "lastUpdate": "2026-10-02T11:47:20.565339",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 4,
     "seasonWins": {
         "2010": 0,
         "2011": 0
@@ -19,7 +19,7 @@
         "2011": 0
     },
     "seasonDNFs": {
-        "2010": 2,
+        "2010": 4,
         "2011": 0
     },
     "poles": {
@@ -33,7 +33,9 @@
     "DNFs": {
         "2010": {
             "Bahrain Grand Prix": "Accident",
-            "Spanish Grand Prix": "Suspension"
+            "Spanish Grand Prix": "Suspension",
+            "Monaco Grand Prix": "Collision",
+            "Turkish Grand Prix": "Fuel pump"
         },
         "2011": {}
     },
@@ -317,8 +319,8 @@
         "2011": 20.0
     },
     "avgQualiPositions": {
-        "2010": 23.4,
-        "2011": 21.0
+        "2010": 23.3,
+        "2011": 20.0
     },
     "rates": {
         "wins": {
@@ -335,7 +337,7 @@
         },
         "DNFs": {
             "2010": 0.4,
-            "2011": 4.0
+            "2011": 0.0
         }
     },
     "winRate": 0.0,
@@ -349,10 +351,10 @@
     "positionsGainLost": {
         "2010": {
             "Bahrain Grand Prix": 0,
-            "Australian Grand Prix": 10,
+            "Australian Grand Prix": 8,
             "Malaysian Grand Prix": 7,
             "Chinese Grand Prix": 7,
-            "Spanish Grand Prix": 2,
+            "Spanish Grand Prix": 3,
             "Monaco Grand Prix": 9,
             "Turkish Grand Prix": 4,
             "Canadian Grand Prix": 6,
@@ -360,7 +362,7 @@
             "British Grand Prix": 4
         },
         "2011": {
-            "German Grand Prix": 1
+            "German Grand Prix": 0
         }
     },
     "driverNumber": "",
@@ -374,6 +376,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "hrt",
                 "fastestLapRank": null,
                 "shared": false
@@ -386,6 +390,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 16,
                 "shared": false
@@ -398,6 +404,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 21,
                 "shared": false
@@ -410,6 +418,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 18,
                 "shared": false
@@ -422,6 +432,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hrt",
                 "fastestLapRank": 22,
                 "shared": false
@@ -434,6 +446,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "hrt",
                 "fastestLapRank": 19,
                 "shared": false
@@ -446,6 +460,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hrt",
                 "fastestLapRank": 24,
                 "shared": false
@@ -458,6 +474,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 21,
                 "shared": false
@@ -470,6 +488,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 22,
                 "shared": false
@@ -482,6 +502,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 23,
                 "shared": false
@@ -496,6 +518,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus_racing",
                 "fastestLapRank": 22,
                 "shared": false
@@ -505,5 +529,10 @@
     "sprintResults": {
         "2010": {},
         "2011": {}
-    }
+    },
+    "seasonStarts": {
+        "2010": 10,
+        "2011": 1
+    },
+    "totalStarts": 11
 }

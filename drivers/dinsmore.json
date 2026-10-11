@@ -1,10 +1,10 @@
 {
     "driverId": "dinsmore",
-    "lastUpdate": "2026-10-02T11:47:20.458789",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 3,
     "seasonWins": {
         "1950": 0,
         "1951": 0,
@@ -26,7 +26,7 @@
     "seasonDNFs": {
         "1950": 1,
         "1951": 1,
-        "1953": 0,
+        "1953": 1,
         "1956": 0
     },
     "poles": {
@@ -48,7 +48,9 @@
         "1951": {
             "Indianapolis 500": "Overheating"
         },
-        "1953": {},
+        "1953": {
+            "Indianapolis 500": "Axle"
+        },
         "1956": {}
     },
     "fastLaps": {
@@ -298,10 +300,10 @@
         "1956": 17.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1953": -1,
-        "1956": -1
+        "1950": 7.0,
+        "1951": 32.0,
+        "1953": 10.0,
+        "1956": 33.0
     },
     "rates": {
         "wins": {
@@ -326,7 +328,7 @@
             "1950": 1.0,
             "1951": 1.0,
             "1953": 1.0,
-            "1956": 1.0
+            "1956": 0.0
         }
     },
     "winRate": 0.0,
@@ -340,10 +342,18 @@
         "1956": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1953": {},
-        "1956": {}
+        "1950": {
+            "Indianapolis 500": -26
+        },
+        "1951": {
+            "Indianapolis 500": 8
+        },
+        "1953": {
+            "Indianapolis 500": -6
+        },
+        "1956": {
+            "Indianapolis 500": 16
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -357,6 +367,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -371,6 +383,8 @@
                 "grid": 32,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "schroeder",
                 "fastestLapRank": null,
                 "shared": false
@@ -385,6 +399,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Axle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -399,6 +415,8 @@
                 "grid": 33,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -410,5 +428,12 @@
         "1951": {},
         "1953": {},
         "1956": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1,
+        "1953": 1,
+        "1956": 1
+    },
+    "totalStarts": 4
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "frere",
-    "lastUpdate": "2026-10-02T11:47:20.468423",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -372,11 +372,11 @@
         "1956": 2.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1
+        "1952": 10.666666666666666,
+        "1953": 13.5,
+        "1954": 11.0,
+        "1955": 11.5,
+        "1956": 8.0
     },
     "rates": {
         "wins": {
@@ -402,10 +402,10 @@
         },
         "DNFs": {
             "1952": 0.6666666666666666,
-            "1953": 1.0,
-            "1954": 0.6666666666666666,
-            "1955": 1.0,
-            "1956": 2.0
+            "1953": 0.5,
+            "1954": 1.0,
+            "1955": 0.0,
+            "1956": 0.0
         }
     },
     "winRate": 0.0,
@@ -420,11 +420,27 @@
         "1956": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {}
+        "1952": {
+            "Belgian Grand Prix": 3,
+            "German Grand Prix": -13,
+            "Dutch Grand Prix": -4
+        },
+        "1953": {
+            "Belgian Grand Prix": 1,
+            "Swiss Grand Prix": -2
+        },
+        "1954": {
+            "Belgian Grand Prix": 1,
+            "French Grand Prix": 12,
+            "German Grand Prix": -12
+        },
+        "1955": {
+            "Monaco Grand Prix": 7,
+            "Belgian Grand Prix": 4
+        },
+        "1956": {
+            "Belgian Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -438,6 +454,8 @@
                 "grid": 8,
                 "points": 2.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -450,6 +468,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -462,6 +482,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -476,6 +498,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -488,6 +512,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -502,6 +528,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -514,6 +542,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Axle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -526,6 +556,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Wheel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -540,6 +572,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+14 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": true
@@ -552,6 +586,8 @@
                 "grid": 8,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -566,6 +602,8 @@
                 "grid": 8,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -578,5 +616,13 @@
         "1954": {},
         "1955": {},
         "1956": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 3,
+        "1953": 2,
+        "1954": 3,
+        "1955": 2,
+        "1956": 1
+    },
+    "totalStarts": 11
 }

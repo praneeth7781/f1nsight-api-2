@@ -1,6 +1,6 @@
 {
     "driverId": "gibson",
-    "lastUpdate": "2026-10-02T11:47:20.489151",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -167,8 +167,8 @@
         "1958": 22.0
     },
     "avgQualiPositions": {
-        "1957": -1,
-        "1958": -1
+        "1957": 24.0,
+        "1958": 18.0
     },
     "rates": {
         "wins": {
@@ -197,8 +197,12 @@
         "1958": -1
     },
     "positionsGainLost": {
-        "1957": {},
-        "1958": {}
+        "1957": {
+            "German Grand Prix": 1
+        },
+        "1958": {
+            "German Grand Prix": -4
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -212,6 +216,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Steering",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -226,6 +232,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -235,5 +243,10 @@
     "sprintResults": {
         "1957": {},
         "1958": {}
-    }
+    },
+    "seasonStarts": {
+        "1957": 1,
+        "1958": 1
+    },
+    "totalStarts": 2
 }

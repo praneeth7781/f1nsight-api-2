@@ -1,10 +1,10 @@
 {
     "driverId": "bettenhausen",
-    "lastUpdate": "2026-10-02T11:47:20.454359",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 5,
     "seasonWins": {
         "1950": 0,
         "1951": 0,
@@ -48,14 +48,14 @@
         "1950": 0,
         "1951": 1,
         "1952": 1,
-        "1953": 0,
+        "1953": 1,
         "1954": 0,
         "1955": 0,
         "1956": 1,
         "1957": 0,
         "1958": 0,
         "1959": 0,
-        "1960": 0
+        "1960": 1
     },
     "poles": {
         "1950": [],
@@ -93,7 +93,9 @@
         "1952": {
             "Indianapolis 500": "Oil pressure"
         },
-        "1953": {},
+        "1953": {
+            "Indianapolis 500": "Accident"
+        },
         "1954": {},
         "1955": {},
         "1956": {
@@ -102,7 +104,9 @@
         "1957": {},
         "1958": {},
         "1959": {},
-        "1960": {}
+        "1960": {
+            "Indianapolis 500": "Engine"
+        }
     },
     "fastLaps": {
         "1950": {
@@ -711,17 +715,17 @@
         "1960": 23.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1,
-        "1960": -1
+        "1950": 9.0,
+        "1951": 9.0,
+        "1952": 30.0,
+        "1953": 6.0,
+        "1954": 8.0,
+        "1955": 2.0,
+        "1956": 5.0,
+        "1957": 22.0,
+        "1958": 9.0,
+        "1959": 15.0,
+        "1960": 18.0
     },
     "rates": {
         "wins": {
@@ -765,16 +769,16 @@
         },
         "DNFs": {
             "1950": 0.0,
-            "1951": 0.0,
-            "1952": 0.0,
-            "1953": 0.0,
+            "1951": 1.0,
+            "1952": 1.0,
+            "1953": 1.0,
             "1954": 0.0,
             "1955": 0.0,
-            "1956": 0.0,
+            "1956": 1.0,
             "1957": 0.0,
             "1958": 0.0,
             "1959": 0.0,
-            "1960": 0.0
+            "1960": 1.0
         }
     },
     "winRate": 0.0,
@@ -795,17 +799,39 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {}
+        "1950": {
+            "Indianapolis 500": 4
+        },
+        "1951": {
+            "Indianapolis 500": 0
+        },
+        "1952": {
+            "Indianapolis 500": 6
+        },
+        "1953": {
+            "Indianapolis 500": -3
+        },
+        "1954": {
+            "Indianapolis 500": -7
+        },
+        "1955": {
+            "Indianapolis 500": 0
+        },
+        "1956": {
+            "Indianapolis 500": -17
+        },
+        "1957": {
+            "Indianapolis 500": 7
+        },
+        "1958": {
+            "Indianapolis 500": 5
+        },
+        "1959": {
+            "Indianapolis 500": 11
+        },
+        "1960": {
+            "Indianapolis 500": -5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -819,6 +845,8 @@
                 "grid": 9,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -833,6 +861,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "deidt",
                 "fastestLapRank": null,
                 "shared": false
@@ -847,6 +877,8 @@
                 "grid": 30,
                 "points": 0.0,
                 "status": "Oil pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "deidt",
                 "fastestLapRank": null,
                 "shared": false
@@ -861,6 +893,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": true
@@ -875,6 +909,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -889,6 +925,8 @@
                 "grid": 2,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -903,6 +941,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -917,6 +957,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -931,6 +973,8 @@
                 "grid": 9,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "epperly",
                 "fastestLapRank": null,
                 "shared": false
@@ -945,6 +989,8 @@
                 "grid": 15,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "epperly",
                 "fastestLapRank": null,
                 "shared": false
@@ -959,6 +1005,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "watson",
                 "fastestLapRank": null,
                 "shared": false
@@ -977,5 +1025,19 @@
         "1958": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1,
+        "1952": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1,
+        "1956": 1,
+        "1957": 1,
+        "1958": 1,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 11
 }

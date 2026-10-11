@@ -1,10 +1,10 @@
 {
     "driverId": "linden",
-    "lastUpdate": "2026-10-02T11:47:20.461831",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 3,
     "seasonWins": {
         "1951": 0,
         "1952": 0,
@@ -35,7 +35,7 @@
     "seasonDNFs": {
         "1951": 0,
         "1952": 1,
-        "1953": 0,
+        "1953": 1,
         "1954": 0,
         "1955": 0,
         "1956": 1,
@@ -64,7 +64,9 @@
         "1952": {
             "Indianapolis 500": "Oil pump"
         },
-        "1953": {},
+        "1953": {
+            "Indianapolis 500": "Axle"
+        },
         "1954": {},
         "1955": {},
         "1956": {
@@ -472,13 +474,13 @@
         "1957": 5.0
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1
+        "1951": 31.0,
+        "1952": 2.0,
+        "1953": 10.0,
+        "1954": 27.0,
+        "1955": 8.0,
+        "1956": 9.0,
+        "1957": 12.0
     },
     "rates": {
         "wins": {
@@ -510,11 +512,11 @@
         },
         "DNFs": {
             "1951": 0.0,
-            "1952": 0.0,
-            "1953": 0.0,
+            "1952": 1.0,
+            "1953": 1.0,
             "1954": 0.0,
             "1955": 0.0,
-            "1956": 0.0,
+            "1956": 1.0,
             "1957": 0.0
         }
     },
@@ -532,13 +534,27 @@
         "1957": -1
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {},
-        "1957": {}
+        "1951": {
+            "Indianapolis 500": 27
+        },
+        "1952": {
+            "Indianapolis 500": -31
+        },
+        "1953": {
+            "Indianapolis 500": -6
+        },
+        "1954": {
+            "Indianapolis 500": 16
+        },
+        "1955": {
+            "Indianapolis 500": 2
+        },
+        "1956": {
+            "Indianapolis 500": -18
+        },
+        "1957": {
+            "Indianapolis 500": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -552,6 +568,8 @@
                 "grid": 31,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "sherman",
                 "fastestLapRank": null,
                 "shared": false
@@ -566,6 +584,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Oil pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -580,6 +600,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Axle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -594,6 +616,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -608,6 +632,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -622,6 +648,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -636,6 +664,8 @@
                 "grid": 12,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -650,5 +680,15 @@
         "1955": {},
         "1956": {},
         "1957": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1,
+        "1956": 1,
+        "1957": 1
+    },
+    "totalStarts": 7
 }

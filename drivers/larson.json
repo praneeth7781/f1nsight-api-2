@@ -1,6 +1,6 @@
 {
     "driverId": "larson",
-    "lastUpdate": "2026-10-02T11:47:20.489728",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -192,8 +192,8 @@
         "1959": 29.0
     },
     "avgQualiPositions": {
-        "1958": -1,
-        "1959": -1
+        "1958": 19.0,
+        "1959": 19.0
     },
     "rates": {
         "wins": {
@@ -210,7 +210,7 @@
         },
         "DNFs": {
             "1958": 0.0,
-            "1959": 0.0
+            "1959": 1.0
         }
     },
     "winRate": 0.0,
@@ -222,8 +222,12 @@
         "1959": -1
     },
     "positionsGainLost": {
-        "1958": {},
-        "1959": {}
+        "1958": {
+            "Indianapolis 500": 11
+        },
+        "1959": {
+            "Indianapolis 500": -10
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -237,6 +241,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "watson",
                 "fastestLapRank": null,
                 "shared": false
@@ -251,6 +257,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -260,5 +268,10 @@
     "sprintResults": {
         "1958": {},
         "1959": {}
-    }
+    },
+    "seasonStarts": {
+        "1958": 1,
+        "1959": 1
+    },
+    "totalStarts": 2
 }

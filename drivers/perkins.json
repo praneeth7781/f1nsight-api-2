@@ -1,10 +1,10 @@
 {
     "driverId": "perkins",
-    "lastUpdate": "2026-10-02T11:47:20.530159",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 7,
+    "totalDNFs": 6,
     "seasonWins": {
         "1976": 0,
         "1977": 0
@@ -18,7 +18,7 @@
         "1977": 0
     },
     "seasonDNFs": {
-        "1976": 6,
+        "1976": 5,
         "1977": 1
     },
     "poles": {
@@ -31,7 +31,6 @@
     },
     "DNFs": {
         "1976": {
-            "Monaco Grand Prix": "Did not qualify",
             "Swedish Grand Prix": "Engine",
             "Dutch Grand Prix": "Accident",
             "Italian Grand Prix": "Engine",
@@ -264,50 +263,55 @@
         }
     },
     "avgRacePositions": {
-        "1974": 30.0,
-        "1976": 18.88888888888889,
-        "1977": 20.6
+        "1976": 18.375,
+        "1977": 16.333333333333332
     },
     "avgQualiPositions": {
-        "1974": -1,
-        "1976": -1,
-        "1977": -1
+        "1976": 18.375,
+        "1977": 22.333333333333332
     },
     "rates": {
         "wins": {
-            "1974": 0.0,
             "1976": 0.0,
             "1977": 0.0
         },
         "podiums": {
-            "1974": 0.0,
             "1976": 0.0,
             "1977": 0.0
         },
         "poles": {
-            "1974": 0.0,
             "1976": 0.0,
             "1977": 0.0
         },
         "DNFs": {
-            "1974": 1.0,
-            "1976": 0.1111111111111111,
-            "1977": 0.2
+            "1976": 0.625,
+            "1977": 0.3333333333333333
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6666666666666666,
+    "dnfRate": 0.5454545454545454,
     "ptwConRate": {
-        "1974": -1,
         "1976": -1,
         "1977": -1
     },
     "positionsGainLost": {
-        "1974": {},
-        "1976": {},
-        "1977": {}
+        "1976": {
+            "Spanish Grand Prix": 11,
+            "Belgian Grand Prix": 12,
+            "Swedish Grand Prix": 1,
+            "Dutch Grand Prix": -1,
+            "Italian Grand Prix": -11,
+            "Canadian Grand Prix": 2,
+            "United States Grand Prix": -7,
+            "Japanese Grand Prix": -7
+        },
+        "1977": {
+            "Brazilian Grand Prix": 0,
+            "South African Grand Prix": 7,
+            "Belgian Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -321,6 +325,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "boro",
                 "fastestLapRank": null,
                 "shared": false
@@ -333,6 +339,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "boro",
                 "fastestLapRank": null,
                 "shared": false
@@ -345,6 +353,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "boro",
                 "fastestLapRank": null,
                 "shared": false
@@ -357,6 +367,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "boro",
                 "fastestLapRank": null,
                 "shared": false
@@ -369,6 +381,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "boro",
                 "fastestLapRank": null,
                 "shared": false
@@ -381,6 +395,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "boro",
                 "fastestLapRank": null,
                 "shared": false
@@ -393,6 +409,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-alfa_romeo",
                 "fastestLapRank": null,
                 "shared": false
@@ -405,6 +423,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-alfa_romeo",
                 "fastestLapRank": null,
                 "shared": false
@@ -417,6 +437,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "brabham-alfa_romeo",
                 "fastestLapRank": null,
                 "shared": false
@@ -431,6 +453,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -443,6 +467,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -455,6 +481,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -464,5 +492,10 @@
     "sprintResults": {
         "1976": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1976": 8,
+        "1977": 3
+    },
+    "totalStarts": 11
 }

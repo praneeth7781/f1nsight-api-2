@@ -1,6 +1,6 @@
 {
     "driverId": "sanesi",
-    "lastUpdate": "2026-10-02T11:47:20.460684",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -182,8 +182,8 @@
         "1951": 7.75
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
+        "1950": 4.0,
+        "1951": 5.25
     },
     "rates": {
         "wins": {
@@ -212,8 +212,15 @@
         "1951": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "Italian Grand Prix": -19
+        },
+        "1951": {
+            "Swiss Grand Prix": 0,
+            "Belgian Grand Prix": -5,
+            "French Grand Prix": -5,
+            "British Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -227,6 +234,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "alfa",
                 "fastestLapRank": null,
                 "shared": false
@@ -241,6 +250,8 @@
                 "grid": 4,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alfa",
                 "fastestLapRank": null,
                 "shared": false
@@ -253,6 +264,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Radiator",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "alfa",
                 "fastestLapRank": null,
                 "shared": false
@@ -265,6 +278,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "+19 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alfa",
                 "fastestLapRank": null,
                 "shared": false
@@ -277,6 +292,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alfa",
                 "fastestLapRank": null,
                 "shared": false
@@ -286,5 +303,10 @@
     "sprintResults": {
         "1950": {},
         "1951": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 4
+    },
+    "totalStarts": 5
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "birger",
-    "lastUpdate": "2026-10-02T11:47:20.473572",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -194,8 +194,8 @@
         "1955": 20.0
     },
     "avgQualiPositions": {
-        "1953": -1,
-        "1955": -1
+        "1953": 14.0,
+        "1955": 9.0
     },
     "rates": {
         "wins": {
@@ -224,8 +224,12 @@
         "1955": -1
     },
     "positionsGainLost": {
-        "1953": {},
-        "1955": {}
+        "1953": {
+            "Argentine Grand Prix": -1
+        },
+        "1955": {
+            "Argentine Grand Prix": -11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -239,6 +243,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Differential",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -253,6 +259,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -262,5 +270,10 @@
     "sprintResults": {
         "1953": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1953": 1,
+        "1955": 1
+    },
+    "totalStarts": 2
 }

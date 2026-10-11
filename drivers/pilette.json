@@ -1,10 +1,10 @@
 {
     "driverId": "pilette",
-    "lastUpdate": "2026-10-02T11:47:20.525408",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 0,
     "seasonWins": {
         "1974": 0,
         "1977": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1974": 0,
-        "1977": 1
+        "1977": 0
     },
     "poles": {
         "1974": [],
@@ -31,9 +31,7 @@
     },
     "DNFs": {
         "1974": {},
-        "1977": {
-            "German Grand Prix": "Did not qualify"
-        }
+        "1977": {}
     },
     "fastLaps": {
         "1974": {
@@ -173,10 +171,10 @@
     },
     "avgRacePositions": {
         "1974": 17.0,
-        "1977": 31.0
+        "1977": -1
     },
     "avgQualiPositions": {
-        "1974": -1,
+        "1974": 27.0,
         "1977": -1
     },
     "rates": {
@@ -200,13 +198,15 @@
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.75,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1974": -1,
         "1977": -1
     },
     "positionsGainLost": {
-        "1974": {},
+        "1974": {
+            "Belgian Grand Prix": 10
+        },
         "1977": {}
     },
     "driverCode": "",
@@ -221,6 +221,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -235,6 +237,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -244,5 +248,10 @@
     "sprintResults": {
         "1974": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1974": 1,
+        "1977": 0
+    },
+    "totalStarts": 1
 }

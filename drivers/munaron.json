@@ -1,6 +1,6 @@
 {
     "driverId": "munaron",
-    "lastUpdate": "2026-10-02T11:47:20.496535",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -147,7 +147,7 @@
         "1960": 14.25
     },
     "avgQualiPositions": {
-        "1960": -1
+        "1960": 17.75
     },
     "rates": {
         "wins": {
@@ -171,7 +171,12 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1960": {}
+        "1960": {
+            "Argentine Grand Prix": 6,
+            "French Grand Prix": 3,
+            "British Grand Prix": 10,
+            "Italian Grand Prix": -5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -185,6 +190,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -197,6 +204,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-castellotti",
                 "fastestLapRank": null,
                 "shared": false
@@ -209,6 +218,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-castellotti",
                 "fastestLapRank": null,
                 "shared": false
@@ -221,6 +232,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-castellotti",
                 "fastestLapRank": null,
                 "shared": false
@@ -229,5 +242,9 @@
     },
     "sprintResults": {
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1960": 4
+    },
+    "totalStarts": 4
 }

@@ -1,7 +1,7 @@
 {
     "driverId": "yamamoto",
     "driverCode": "YAM",
-    "lastUpdate": "2026-10-02T11:47:20.562623",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -409,9 +409,9 @@
         "2010": 18.714285714285715
     },
     "avgQualiPositions": {
-        "2006": 21.142857142857142,
+        "2006": 20.857142857142858,
         "2007": 21.571428571428573,
-        "2010": 23.285714285714285
+        "2010": 22.714285714285715
     },
     "rates": {
         "wins": {
@@ -431,8 +431,8 @@
         },
         "DNFs": {
             "2006": 0.5714285714285714,
-            "2007": 0.5714285714285714,
-            "2010": 0.5714285714285714
+            "2007": 0.2857142857142857,
+            "2010": 0.14285714285714285
         }
     },
     "winRate": 0.0,
@@ -446,13 +446,13 @@
     },
     "positionsGainLost": {
         "2006": {
-            "German Grand Prix": 2,
-            "Hungarian Grand Prix": 1,
-            "Turkish Grand Prix": 2,
+            "German Grand Prix": 3,
+            "Hungarian Grand Prix": 0,
+            "Turkish Grand Prix": 1,
             "Italian Grand Prix": 1,
             "Chinese Grand Prix": 3,
             "Japanese Grand Prix": 5,
-            "Brazilian Grand Prix": 5
+            "Brazilian Grand Prix": 4
         },
         "2007": {
             "Hungarian Grand Prix": 0,
@@ -465,10 +465,10 @@
         },
         "2010": {
             "British Grand Prix": 4,
-            "German Grand Prix": 1,
+            "German Grand Prix": 0,
             "Hungarian Grand Prix": 5,
-            "Belgian Grand Prix": 1,
-            "Italian Grand Prix": 5,
+            "Belgian Grand Prix": -1,
+            "Italian Grand Prix": 4,
             "Japanese Grand Prix": 8,
             "Korean Grand Prix": 8
         }
@@ -484,6 +484,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Driveshaft",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": null,
                 "shared": false
@@ -496,6 +498,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": null,
                 "shared": false
@@ -508,6 +512,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 20,
                 "shared": false
@@ -520,6 +526,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "super_aguri",
                 "fastestLapRank": 22,
                 "shared": false
@@ -532,6 +540,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 19,
                 "shared": false
@@ -544,6 +554,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 21,
                 "shared": false
@@ -556,6 +568,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "super_aguri",
                 "fastestLapRank": 7,
                 "shared": false
@@ -570,6 +584,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "spyker",
                 "fastestLapRank": 22,
                 "shared": false
@@ -582,6 +598,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 22,
                 "shared": false
@@ -594,6 +612,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 21,
                 "shared": false
@@ -606,6 +626,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 20,
                 "shared": false
@@ -618,6 +640,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 20,
                 "shared": false
@@ -630,6 +654,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 17,
                 "shared": false
@@ -642,6 +668,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "spyker",
                 "fastestLapRank": 21,
                 "shared": false
@@ -656,6 +684,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 22,
                 "shared": false
@@ -668,6 +698,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "hrt",
                 "fastestLapRank": 22,
                 "shared": false
@@ -680,6 +712,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 23,
                 "shared": false
@@ -692,6 +726,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 20,
                 "shared": false
@@ -704,6 +740,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 20,
                 "shared": false
@@ -716,6 +754,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 16,
                 "shared": false
@@ -728,6 +768,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hrt",
                 "fastestLapRank": 19,
                 "shared": false
@@ -738,5 +780,11 @@
         "2006": {},
         "2007": {},
         "2010": {}
-    }
+    },
+    "seasonStarts": {
+        "2006": 7,
+        "2007": 7,
+        "2010": 7
+    },
+    "totalStarts": 21
 }

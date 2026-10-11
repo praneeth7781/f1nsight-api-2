@@ -1,10 +1,10 @@
 {
     "driverId": "bucknum",
-    "lastUpdate": "2026-10-02T11:47:20.510317",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 7,
+    "totalDNFs": 8,
     "seasonWins": {
         "1964": 0,
         "1965": 0,
@@ -21,7 +21,7 @@
         "1966": 0
     },
     "seasonDNFs": {
-        "1964": 2,
+        "1964": 3,
         "1965": 4,
         "1966": 1
     },
@@ -37,6 +37,7 @@
     },
     "DNFs": {
         "1964": {
+            "German Grand Prix": "Accident",
             "Italian Grand Prix": "Brakes",
             "United States Grand Prix": "Overheating"
         },
@@ -261,9 +262,9 @@
         "1966": 9.0
     },
     "avgQualiPositions": {
-        "1964": -1,
-        "1965": -1,
-        "1966": -1
+        "1964": 15.333333333333334,
+        "1965": 11.666666666666666,
+        "1966": 15.5
     },
     "rates": {
         "wins": {
@@ -283,8 +284,8 @@
         },
         "DNFs": {
             "1964": 1.0,
-            "1965": 0.5,
-            "1966": 1.5
+            "1965": 0.6666666666666666,
+            "1966": 0.5
         }
     },
     "winRate": 0.0,
@@ -297,9 +298,23 @@
         "1966": -1
     },
     "positionsGainLost": {
-        "1964": {},
-        "1965": {},
-        "1966": {}
+        "1964": {
+            "German Grand Prix": 9,
+            "Italian Grand Prix": -8,
+            "United States Grand Prix": 1
+        },
+        "1965": {
+            "Monaco Grand Prix": 2,
+            "Belgian Grand Prix": -6,
+            "French Grand Prix": 0,
+            "Italian Grand Prix": -14,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": 5
+        },
+        "1966": {
+            "United States Grand Prix": 8,
+            "Mexican Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -313,6 +328,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -325,6 +342,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -337,6 +356,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -351,6 +372,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -363,6 +386,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -375,6 +400,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -387,6 +414,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -399,6 +428,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+18 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -411,6 +442,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -425,6 +458,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -437,6 +472,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "honda",
                 "fastestLapRank": null,
                 "shared": false
@@ -447,5 +484,11 @@
         "1964": {},
         "1965": {},
         "1966": {}
-    }
+    },
+    "seasonStarts": {
+        "1964": 3,
+        "1965": 6,
+        "1966": 2
+    },
+    "totalStarts": 11
 }

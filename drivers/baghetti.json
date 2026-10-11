@@ -1,10 +1,10 @@
 {
     "driverId": "baghetti",
-    "lastUpdate": "2026-10-02T11:47:20.500374",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 1,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 16,
+    "totalDNFs": 11,
     "seasonWins": {
         "1961": 1,
         "1962": 0,
@@ -35,8 +35,8 @@
     "seasonDNFs": {
         "1961": 2,
         "1962": 1,
-        "1963": 8,
-        "1964": 2,
+        "1963": 4,
+        "1964": 1,
         "1965": 1,
         "1966": 1,
         "1967": 1
@@ -70,17 +70,12 @@
             "Belgian Grand Prix": "Ignition"
         },
         "1963": {
-            "Monaco Grand Prix": "Withdrew",
             "Belgian Grand Prix": "Gearbox",
             "Dutch Grand Prix": "Ignition",
-            "French Grand Prix": "Withdrew",
-            "British Grand Prix": "Withdrew",
-            "German Grand Prix": "Withdrew",
             "United States Grand Prix": "Oil pump",
             "Mexican Grand Prix": "Engine"
         },
         "1964": {
-            "Monaco Grand Prix": "Withdrew",
             "German Grand Prix": "Throttle"
         },
         "1965": {
@@ -531,20 +526,20 @@
     "avgRacePositions": {
         "1961": 14.0,
         "1962": 9.5,
-        "1963": 20.333333333333332,
-        "1964": 12.285714285714286,
+        "1963": 17.8,
+        "1964": 10.666666666666666,
         "1965": 22.0,
         "1966": 10.0,
         "1967": 10.0
     },
     "avgQualiPositions": {
-        "1961": -1,
-        "1962": -1,
-        "1963": -1,
-        "1964": -1,
-        "1965": -1,
-        "1966": -1,
-        "1967": -1
+        "1961": 12.333333333333334,
+        "1962": 14.25,
+        "1963": 20.2,
+        "1964": 17.5,
+        "1965": 19.0,
+        "1966": 16.0,
+        "1967": 17.0
     },
     "rates": {
         "wins": {
@@ -576,18 +571,18 @@
         },
         "DNFs": {
             "1961": 0.6666666666666666,
-            "1962": 0.5,
-            "1963": 0.2222222222222222,
-            "1964": 0.2857142857142857,
-            "1965": 2.0,
-            "1966": 2.0,
-            "1967": 2.0
+            "1962": 0.25,
+            "1963": 0.8,
+            "1964": 0.16666666666666666,
+            "1965": 1.0,
+            "1966": 1.0,
+            "1967": 1.0
         }
     },
-    "winRate": 0.038461538461538464,
-    "podiumRate": 0.038461538461538464,
+    "winRate": 0.047619047619047616,
+    "podiumRate": 0.047619047619047616,
     "poleRate": 0.0,
-    "dnfRate": 0.6153846153846154,
+    "dnfRate": 0.5238095238095238,
     "ptwConRate": {
         "1961": -1,
         "1962": -1,
@@ -598,13 +593,41 @@
         "1967": -1
     },
     "positionsGainLost": {
-        "1961": {},
-        "1962": {},
-        "1963": {},
-        "1964": {},
-        "1965": {},
-        "1966": {},
-        "1967": {}
+        "1961": {
+            "French Grand Prix": 11,
+            "British Grand Prix": -4,
+            "Italian Grand Prix": -12
+        },
+        "1962": {
+            "Dutch Grand Prix": 8,
+            "Belgian Grand Prix": -5,
+            "German Grand Prix": 3,
+            "Italian Grand Prix": 13
+        },
+        "1963": {
+            "Belgian Grand Prix": 1,
+            "Dutch Grand Prix": 0,
+            "Italian Grand Prix": 10,
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": 2
+        },
+        "1964": {
+            "Dutch Grand Prix": 6,
+            "Belgian Grand Prix": 9,
+            "British Grand Prix": 9,
+            "German Grand Prix": 2,
+            "Austrian Grand Prix": 8,
+            "Italian Grand Prix": 7
+        },
+        "1965": {
+            "Italian Grand Prix": -3
+        },
+        "1966": {
+            "Italian Grand Prix": 6
+        },
+        "1967": {
+            "Italian Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -618,6 +641,8 @@
                 "grid": 12,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -630,6 +655,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -642,6 +669,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -656,6 +685,8 @@
                 "grid": 12,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -668,6 +699,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -680,6 +713,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -692,6 +727,8 @@
                 "grid": 18,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -706,6 +743,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -718,6 +757,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -730,6 +771,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -742,6 +785,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -754,6 +799,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -766,6 +813,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -778,6 +827,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+23 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -790,6 +841,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Oil pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -802,6 +855,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ats",
                 "fastestLapRank": null,
                 "shared": false
@@ -816,6 +871,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -828,6 +885,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -840,6 +899,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -852,6 +913,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -864,6 +927,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Throttle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -876,6 +941,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -888,6 +955,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -902,6 +971,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -916,6 +987,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -930,6 +1003,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -944,5 +1019,15 @@
         "1965": {},
         "1966": {},
         "1967": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 3,
+        "1962": 4,
+        "1963": 5,
+        "1964": 6,
+        "1965": 1,
+        "1966": 1,
+        "1967": 1
+    },
+    "totalStarts": 21
 }

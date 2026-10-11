@@ -1,10 +1,10 @@
 {
     "driverId": "halford",
-    "lastUpdate": "2026-10-02T11:47:20.485939",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 7,
+    "totalDNFs": 6,
     "seasonWins": {
         "1956": 0,
         "1957": 0,
@@ -24,7 +24,7 @@
         "1960": 0
     },
     "seasonDNFs": {
-        "1956": 3,
+        "1956": 2,
         "1957": 2,
         "1959": 1,
         "1960": 1
@@ -44,7 +44,6 @@
     "DNFs": {
         "1956": {
             "British Grand Prix": "Engine",
-            "German Grand Prix": "Disqualified",
             "Italian Grand Prix": "Engine"
         },
         "1957": {
@@ -55,7 +54,7 @@
             "Monaco Grand Prix": "Collision"
         },
         "1960": {
-            "Monaco Grand Prix": "Did not qualify"
+            "French Grand Prix": "Engine"
         }
     },
     "fastLaps": {
@@ -299,13 +298,13 @@
         "1956": 14.666666666666666,
         "1957": 12.0,
         "1959": 16.0,
-        "1960": 12.5
+        "1960": 8.0
     },
     "avgQualiPositions": {
-        "1956": -1,
-        "1957": -1,
-        "1959": -1,
-        "1960": -1
+        "1956": 17.666666666666668,
+        "1957": 14.666666666666666,
+        "1959": 16.0,
+        "1960": 15.0
     },
     "rates": {
         "wins": {
@@ -327,16 +326,16 @@
             "1960": 0.0
         },
         "DNFs": {
-            "1956": 1.0,
-            "1957": 1.0,
-            "1959": 3.0,
-            "1960": 1.5
+            "1956": 0.6666666666666666,
+            "1957": 0.6666666666666666,
+            "1959": 1.0,
+            "1960": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8888888888888888,
+    "dnfRate": 0.75,
     "ptwConRate": {
         "1956": -1,
         "1957": -1,
@@ -344,10 +343,22 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1956": {},
-        "1957": {},
-        "1959": {},
-        "1960": {}
+        "1956": {
+            "British Grand Prix": -2,
+            "German Grand Prix": 5,
+            "Italian Grand Prix": 6
+        },
+        "1957": {
+            "German Grand Prix": 5,
+            "Pescara Grand Prix": 4,
+            "Italian Grand Prix": -1
+        },
+        "1959": {
+            "Monaco Grand Prix": 0
+        },
+        "1960": {
+            "French Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -361,6 +372,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -373,6 +386,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -385,6 +400,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -399,6 +416,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -411,6 +430,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -423,6 +444,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -437,6 +460,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -451,6 +476,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -463,6 +490,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -474,5 +503,12 @@
         "1957": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1956": 3,
+        "1957": 3,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 8
 }

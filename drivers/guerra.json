@@ -1,10 +1,10 @@
 {
     "driverId": "guerra",
-    "lastUpdate": "2026-10-02T11:47:20.538331",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 1,
     "seasonWins": {
         "1981": 0
     },
@@ -15,7 +15,7 @@
         "1981": 0
     },
     "seasonDNFs": {
-        "1981": 3
+        "1981": 1
     },
     "poles": {
         "1981": []
@@ -25,8 +25,6 @@
     },
     "DNFs": {
         "1981": {
-            "United States Grand Prix West": "Did not qualify",
-            "Argentine Grand Prix": "Did not qualify",
             "San Marino Grand Prix": "Accident"
         }
     },
@@ -151,10 +149,10 @@
         }
     },
     "avgRacePositions": {
-        "1981": 25.75
+        "1981": 24.0
     },
     "avgQualiPositions": {
-        "1981": -1
+        "1981": 22.0
     },
     "rates": {
         "wins": {
@@ -178,7 +176,9 @@
         "1981": -1
     },
     "positionsGainLost": {
-        "1981": {}
+        "1981": {
+            "San Marino Grand Prix": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -192,6 +192,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -204,6 +206,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -216,6 +220,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -224,5 +230,9 @@
     },
     "sprintResults": {
         "1981": {}
-    }
+    },
+    "seasonStarts": {
+        "1981": 1
+    },
+    "totalStarts": 1
 }

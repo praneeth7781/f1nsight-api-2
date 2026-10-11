@@ -1,7 +1,7 @@
 {
     "driverId": "friesacher",
     "driverCode": "FRI",
-    "lastUpdate": "2026-10-02T11:47:20.561448",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -256,7 +256,7 @@
         "2005": 16.0
     },
     "avgQualiPositions": {
-        "2005": 17.90909090909091
+        "2005": 17.818181818181817
     },
     "rates": {
         "wins": {
@@ -282,10 +282,10 @@
     "positionsGainLost": {
         "2005": {
             "Australian Grand Prix": -1,
-            "Malaysian Grand Prix": -1,
-            "Bahrain Grand Prix": 8,
+            "Malaysian Grand Prix": 0,
+            "Bahrain Grand Prix": 7,
             "San Marino Grand Prix": 2,
-            "Spanish Grand Prix": -1,
+            "Spanish Grand Prix": -2,
             "Monaco Grand Prix": -3,
             "European Grand Prix": 0,
             "Canadian Grand Prix": 3,
@@ -305,6 +305,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": 19,
                 "shared": false
@@ -317,6 +319,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": 20,
                 "shared": false
@@ -329,6 +333,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": 16,
                 "shared": false
@@ -341,6 +347,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": 20,
                 "shared": false
@@ -353,6 +361,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": 18,
                 "shared": false
@@ -365,6 +375,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": 15,
                 "shared": false
@@ -377,6 +389,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": 19,
                 "shared": false
@@ -389,6 +403,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": 20,
                 "shared": false
@@ -401,6 +417,8 @@
                 "grid": 20,
                 "points": 3.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": 6,
                 "shared": false
@@ -413,6 +431,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Puncture",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "minardi",
                 "fastestLapRank": 19,
                 "shared": false
@@ -425,6 +445,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": 20,
                 "shared": false
@@ -433,5 +455,9 @@
     },
     "sprintResults": {
         "2005": {}
-    }
+    },
+    "seasonStarts": {
+        "2005": 11
+    },
+    "totalStarts": 11
 }

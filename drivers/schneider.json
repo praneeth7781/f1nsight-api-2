@@ -1,10 +1,10 @@
 {
     "driverId": "schneider",
-    "lastUpdate": "2026-10-02T11:47:20.546047",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 6,
+    "totalDNFs": 7,
     "seasonWins": {
         "1988": 0,
         "1989": 0,
@@ -21,7 +21,7 @@
         "1990": 0
     },
     "seasonDNFs": {
-        "1988": 4,
+        "1988": 5,
         "1989": 2,
         "1990": 0
     },
@@ -39,6 +39,7 @@
         "1988": {
             "Mexican Grand Prix": "Engine",
             "French Grand Prix": "Gearbox",
+            "Belgian Grand Prix": "Gearbox",
             "Italian Grand Prix": "Engine",
             "Japanese Grand Prix": "Driver unwell"
         },
@@ -335,14 +336,14 @@
         }
     },
     "avgRacePositions": {
-        "1988": 24.666666666666668,
-        "1989": 33.4,
-        "1990": 20.5
+        "1988": 18.0,
+        "1989": 20.5,
+        "1990": 12.0
     },
     "avgQualiPositions": {
-        "1988": -1,
-        "1989": -1,
-        "1990": -1
+        "1988": 20.5,
+        "1989": 23.0,
+        "1990": 20.0
     },
     "rates": {
         "wins": {
@@ -361,24 +362,36 @@
             "1990": 0.0
         },
         "DNFs": {
-            "1988": 0.9333333333333333,
-            "1989": 0.9333333333333333,
-            "1990": 7.0
+            "1988": 0.8333333333333334,
+            "1989": 1.0,
+            "1990": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.9375,
+    "dnfRate": 0.7777777777777778,
     "ptwConRate": {
         "1988": -1,
         "1989": -1,
         "1990": -1
     },
     "positionsGainLost": {
-        "1988": {},
-        "1989": {},
-        "1990": {}
+        "1988": {
+            "Mexican Grand Prix": -6,
+            "French Grand Prix": 2,
+            "German Grand Prix": 10,
+            "Belgian Grand Prix": 12,
+            "Italian Grand Prix": -2,
+            "Japanese Grand Prix": -1
+        },
+        "1989": {
+            "Brazilian Grand Prix": 8,
+            "Japanese Grand Prix": -3
+        },
+        "1990": {
+            "United States Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -392,6 +405,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -404,6 +419,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -416,6 +433,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -428,6 +447,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -440,6 +461,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -452,6 +475,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Driver unwell",
+                "outcome": "retired",
+                "cause": "driver",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -466,6 +491,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -478,6 +505,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -492,6 +521,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "arrows",
                 "fastestLapRank": null,
                 "shared": false
@@ -502,5 +533,11 @@
         "1988": {},
         "1989": {},
         "1990": {}
-    }
+    },
+    "seasonStarts": {
+        "1988": 6,
+        "1989": 2,
+        "1990": 1
+    },
+    "totalStarts": 9
 }

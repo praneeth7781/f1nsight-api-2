@@ -1,10 +1,10 @@
 {
     "driverId": "moss",
-    "lastUpdate": "2026-10-02T11:47:20.460987",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 16,
     "totalPodiums": 24,
     "totalPoles": 16,
-    "totalDNFs": 29,
+    "totalDNFs": 25,
     "seasonWins": {
         "1951": 0,
         "1952": 0,
@@ -46,15 +46,15 @@
     },
     "seasonDNFs": {
         "1951": 0,
-        "1952": 5,
+        "1952": 4,
         "1953": 1,
         "1954": 4,
         "1955": 1,
         "1956": 2,
         "1957": 1,
         "1958": 5,
-        "1959": 5,
-        "1960": 2,
+        "1959": 4,
+        "1960": 0,
         "1961": 3
     },
     "poles": {
@@ -141,7 +141,6 @@
     "DNFs": {
         "1951": {},
         "1952": {
-            "Swiss Grand Prix": "Withdrew",
             "Belgian Grand Prix": "Engine",
             "British Grand Prix": "Engine",
             "Dutch Grand Prix": "Engine",
@@ -176,14 +175,10 @@
         "1959": {
             "Monaco Grand Prix": "Transmission",
             "Dutch Grand Prix": "Gearbox",
-            "French Grand Prix": "Disqualified",
             "German Grand Prix": "Transmission",
             "United States Grand Prix": "Transmission"
         },
-        "1960": {
-            "Belgian Grand Prix": "Accident",
-            "Portuguese Grand Prix": "Disqualified"
-        },
+        "1960": {},
         "1961": {
             "French Grand Prix": "Brakes",
             "Italian Grand Prix": "Wheel bearing",
@@ -966,20 +961,20 @@
         "mean": {
             "wins": 1.4545454545454546,
             "podiums": 2.1818181818181817,
-            "poles": 1.5454545454545454,
-            "points": 16.863636363636363
+            "poles": 1.4545454545454546,
+            "points": 16.876623376623375
         },
         "std": {
             "wins": 1.3047909176733932,
-            "podiums": 1.6414063713879807,
-            "poles": 1.4373989364401725,
-            "points": 13.156558870856546
+            "podiums": 1.6414063713879805,
+            "poles": 1.4993111365882401,
+            "points": 13.14391903209799
         },
         "cv": {
             "wins": 0.8970437559004578,
-            "podiums": 0.7523112535528246,
-            "poles": 0.9300816647554058,
-            "points": 0.7801733023149434
+            "podiums": 0.7523112535528245,
+            "poles": 1.0307764064044151,
+            "points": 0.7788239826637517
         }
     },
     "peakSeason": {
@@ -998,7 +993,7 @@
     },
     "avgRacePositions": {
         "1951": 8.0,
-        "1952": 17.2,
+        "1952": 18.5,
         "1953": 11.25,
         "1954": 12.833333333333334,
         "1955": 5.333333333333333,
@@ -1006,21 +1001,21 @@
         "1957": 5.166666666666667,
         "1958": 8.5,
         "1959": 7.875,
-        "1960": 5.833333333333333,
+        "1960": 3.4,
         "1961": 9.625
     },
     "avgQualiPositions": {
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1,
-        "1957": -1,
-        "1958": -1,
-        "1959": -1,
-        "1960": -1,
-        "1961": -1
+        "1951": 14.0,
+        "1952": 11.25,
+        "1953": 11.0,
+        "1954": 4.666666666666667,
+        "1955": 3.5,
+        "1956": 6.0,
+        "1957": 3.0,
+        "1958": 4.0,
+        "1959": 2.5,
+        "1960": 3.0,
+        "1961": 6.75
     },
     "rates": {
         "wins": {
@@ -1033,7 +1028,7 @@
             "1957": 0.5,
             "1958": 0.4,
             "1959": 0.25,
-            "1960": 0.3333333333333333,
+            "1960": 0.4,
             "1961": 0.25
         },
         "podiums": {
@@ -1046,12 +1041,12 @@
             "1957": 0.5,
             "1958": 0.5,
             "1959": 0.375,
-            "1960": 0.5,
+            "1960": 0.6,
             "1961": 0.25
         },
         "poles": {
             "1951": 0.0,
-            "1952": 0.2,
+            "1952": 0.0,
             "1953": 0.0,
             "1954": 0.0,
             "1955": 0.16666666666666666,
@@ -1059,30 +1054,30 @@
             "1957": 0.3333333333333333,
             "1958": 0.3,
             "1959": 0.5,
-            "1960": 0.6666666666666666,
+            "1960": 0.8,
             "1961": 0.125
         },
         "DNFs": {
             "1951": 0.0,
-            "1952": 0.0,
-            "1953": 0.0,
-            "1954": 0.0,
-            "1955": 0.0,
-            "1956": 0.0,
-            "1957": 0.0,
-            "1958": 0.0,
-            "1959": 0.0,
+            "1952": 1.0,
+            "1953": 0.25,
+            "1954": 0.6666666666666666,
+            "1955": 0.16666666666666666,
+            "1956": 0.2857142857142857,
+            "1957": 0.16666666666666666,
+            "1958": 0.5,
+            "1959": 0.5,
             "1960": 0.0,
-            "1961": 0.0
+            "1961": 0.375
         }
     },
-    "winRate": 0.23880597014925373,
-    "podiumRate": 0.3582089552238806,
-    "poleRate": 0.2537313432835821,
-    "dnfRate": 0.44776119402985076,
+    "winRate": 0.24615384615384617,
+    "podiumRate": 0.36923076923076925,
+    "poleRate": 0.24615384615384617,
+    "dnfRate": 0.38461538461538464,
     "ptwConRate": {
         "1951": -1,
-        "1952": 0.0,
+        "1952": -1,
         "1953": -1,
         "1954": -1,
         "1955": 1.0,
@@ -1094,17 +1089,93 @@
         "1961": 1.0
     },
     "positionsGainLost": {
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {},
-        "1957": {},
-        "1958": {},
-        "1959": {},
-        "1960": {},
-        "1961": {}
+        "1951": {
+            "Swiss Grand Prix": 6
+        },
+        "1952": {
+            "Belgian Grand Prix": -12,
+            "British Grand Prix": -9,
+            "Dutch Grand Prix": 7,
+            "Italian Grand Prix": -15
+        },
+        "1953": {
+            "Dutch Grand Prix": 0,
+            "French Grand Prix": -4,
+            "German Grand Prix": 6,
+            "Italian Grand Prix": -3
+        },
+        "1954": {
+            "Belgian Grand Prix": 6,
+            "British Grand Prix": -12,
+            "German Grand Prix": -16,
+            "Swiss Grand Prix": -10,
+            "Italian Grand Prix": -7,
+            "Spanish Grand Prix": -10
+        },
+        "1955": {
+            "Argentine Grand Prix": 6,
+            "Monaco Grand Prix": -6,
+            "Belgian Grand Prix": 1,
+            "Dutch Grand Prix": 0,
+            "British Grand Prix": 0,
+            "Italian Grand Prix": -12
+        },
+        "1956": {
+            "Argentine Grand Prix": 0,
+            "Monaco Grand Prix": 1,
+            "Belgian Grand Prix": 6,
+            "French Grand Prix": 8,
+            "British Grand Prix": -11,
+            "German Grand Prix": 2,
+            "Italian Grand Prix": 5
+        },
+        "1957": {
+            "Argentine Grand Prix": -7,
+            "Monaco Grand Prix": -12,
+            "British Grand Prix": 2,
+            "German Grand Prix": 2,
+            "Pescara Grand Prix": 1,
+            "Italian Grand Prix": 1
+        },
+        "1958": {
+            "Argentine Grand Prix": 6,
+            "Monaco Grand Prix": -4,
+            "Dutch Grand Prix": 1,
+            "Belgian Grand Prix": -9,
+            "French Grand Prix": 4,
+            "British Grand Prix": -13,
+            "German Grand Prix": -18,
+            "Portuguese Grand Prix": 0,
+            "Italian Grand Prix": -13,
+            "Moroccan Grand Prix": 1
+        },
+        "1959": {
+            "Monaco Grand Prix": -6,
+            "Dutch Grand Prix": -8,
+            "French Grand Prix": -8,
+            "British Grand Prix": 5,
+            "German Grand Prix": -13,
+            "Portuguese Grand Prix": 0,
+            "Italian Grand Prix": 0,
+            "United States Grand Prix": -13
+        },
+        "1960": {
+            "Argentine Grand Prix": 5,
+            "Monaco Grand Prix": 0,
+            "Dutch Grand Prix": -3,
+            "Portuguese Grand Prix": -4,
+            "United States Grand Prix": 0
+        },
+        "1961": {
+            "Monaco Grand Prix": 0,
+            "Dutch Grand Prix": 0,
+            "Belgian Grand Prix": 0,
+            "French Grand Prix": -12,
+            "British Grand Prix": 1,
+            "German Grand Prix": 2,
+            "Italian Grand Prix": -2,
+            "United States Grand Prix": -12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -1118,6 +1189,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1132,6 +1205,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "hwm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1144,6 +1219,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "era",
                 "fastestLapRank": null,
                 "shared": false
@@ -1156,6 +1233,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "era",
                 "fastestLapRank": null,
                 "shared": false
@@ -1168,6 +1247,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "era",
                 "fastestLapRank": null,
                 "shared": false
@@ -1180,6 +1261,8 @@
                 "grid": 1,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": false
@@ -1194,6 +1277,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "connaught",
                 "fastestLapRank": null,
                 "shared": false
@@ -1206,6 +1291,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -1218,6 +1305,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -1230,6 +1319,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -1244,6 +1335,8 @@
                 "grid": 9,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1256,6 +1349,8 @@
                 "grid": 4,
                 "points": 0.14285714285714285,
                 "status": "Axle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1268,6 +1363,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1280,6 +1377,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Oil pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1292,6 +1391,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1304,6 +1405,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Oil pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1318,6 +1421,8 @@
                 "grid": 10,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": true
@@ -1330,6 +1435,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "+19 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -1342,6 +1449,8 @@
                 "grid": 3,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -1354,6 +1463,8 @@
                 "grid": 2,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -1366,6 +1477,8 @@
                 "grid": 1,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -1378,6 +1491,8 @@
                 "grid": 2,
                 "points": 1.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mercedes",
                 "fastestLapRank": null,
                 "shared": false
@@ -1392,6 +1507,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1404,6 +1521,8 @@
                 "grid": 2,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1416,6 +1535,8 @@
                 "grid": 9,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -1428,6 +1549,8 @@
                 "grid": 13,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": true
@@ -1440,6 +1563,8 @@
                 "grid": 1,
                 "points": 1.0,
                 "status": "Axle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1452,6 +1577,8 @@
                 "grid": 4,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1464,6 +1591,8 @@
                 "grid": 6,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1478,6 +1607,8 @@
                 "grid": 1,
                 "points": 1.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -1490,6 +1621,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1502,6 +1635,8 @@
                 "grid": 3,
                 "points": 5.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": true
@@ -1514,6 +1649,8 @@
                 "grid": 7,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1526,6 +1663,8 @@
                 "grid": 2,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1538,6 +1677,8 @@
                 "grid": 2,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1552,6 +1693,8 @@
                 "grid": 7,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -1564,6 +1707,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1576,6 +1721,8 @@
                 "grid": 2,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1588,6 +1735,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1600,6 +1749,8 @@
                 "grid": 6,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1612,6 +1763,8 @@
                 "grid": 1,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1624,6 +1777,8 @@
                 "grid": 3,
                 "points": 1.0,
                 "status": "Magneto",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1636,6 +1791,8 @@
                 "grid": 1,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1648,6 +1805,8 @@
                 "grid": 1,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1660,6 +1819,8 @@
                 "grid": 2,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "vanwall",
                 "fastestLapRank": null,
                 "shared": false
@@ -1674,6 +1835,8 @@
                 "grid": 1,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1686,6 +1849,8 @@
                 "grid": 3,
                 "points": 1.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1698,6 +1863,8 @@
                 "grid": 4,
                 "points": 1.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1710,6 +1877,8 @@
                 "grid": 7,
                 "points": 6.5,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -1722,6 +1891,8 @@
                 "grid": 2,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1734,6 +1905,8 @@
                 "grid": 1,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1746,6 +1919,8 @@
                 "grid": 1,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1758,6 +1933,8 @@
                 "grid": 1,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1772,6 +1949,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": true
@@ -1784,6 +1963,8 @@
                 "grid": 1,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -1796,6 +1977,8 @@
                 "grid": 1,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -1808,6 +1991,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "withdrew",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -1820,6 +2005,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -1832,6 +2019,8 @@
                 "grid": 1,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -1846,6 +2035,8 @@
                 "grid": 1,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1858,6 +2049,8 @@
                 "grid": 4,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1870,6 +2063,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1882,6 +2077,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1894,6 +2091,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Disqualified",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "ferguson",
                 "fastestLapRank": null,
                 "shared": true
@@ -1906,6 +2105,8 @@
                 "grid": 3,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1918,6 +2119,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Wheel bearing",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1930,6 +2133,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -1948,5 +2153,19 @@
         "1959": {},
         "1960": {},
         "1961": {}
-    }
+    },
+    "seasonStarts": {
+        "1951": 1,
+        "1952": 4,
+        "1953": 4,
+        "1954": 6,
+        "1955": 6,
+        "1956": 7,
+        "1957": 6,
+        "1958": 10,
+        "1959": 8,
+        "1960": 5,
+        "1961": 8
+    },
+    "totalStarts": 65
 }

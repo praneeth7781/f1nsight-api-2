@@ -2,11 +2,11 @@
     "driverId": "sutil",
     "driverCode": "SUT",
     "driverNumber": "99",
-    "lastUpdate": "2026-10-02T11:47:20.563235",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 39,
+    "totalDNFs": 43,
     "seasonWins": {
         "2007": 0,
         "2008": 0,
@@ -35,13 +35,13 @@
         "2014": 0
     },
     "seasonDNFs": {
-        "2007": 7,
+        "2007": 8,
         "2008": 11,
-        "2009": 4,
+        "2009": 5,
         "2010": 4,
         "2011": 2,
-        "2013": 4,
-        "2014": 7
+        "2013": 5,
+        "2014": 8
     },
     "poles": {
         "2007": [],
@@ -68,6 +68,7 @@
             "Canadian Grand Prix": "Accident",
             "British Grand Prix": "Engine",
             "European Grand Prix": "Spun off",
+            "Turkish Grand Prix": "Fuel pressure",
             "Chinese Grand Prix": "Accident",
             "Brazilian Grand Prix": "Brakes"
         },
@@ -85,6 +86,7 @@
             "Chinese Grand Prix": "Engine"
         },
         "2009": {
+            "Chinese Grand Prix": "Spun off",
             "Spanish Grand Prix": "Collision",
             "Hungarian Grand Prix": "Overheating",
             "Singapore Grand Prix": "Collision",
@@ -104,6 +106,7 @@
             "Malaysian Grand Prix": "Wheel nut",
             "Chinese Grand Prix": "Collision",
             "Hungarian Grand Prix": "Hydraulics",
+            "Korean Grand Prix": "Collision",
             "United States Grand Prix": "Accident"
         },
         "2014": {
@@ -113,6 +116,7 @@
             "Monaco Grand Prix": "Accident",
             "German Grand Prix": "Brakes",
             "Singapore Grand Prix": "Water pressure",
+            "Japanese Grand Prix": "Accident",
             "United States Grand Prix": "Collision"
         }
     },
@@ -1763,13 +1767,13 @@
         "2014": 16.42105263157895
     },
     "avgQualiPositions": {
-        "2007": 20.41176470588235,
-        "2008": 19.38888888888889,
-        "2009": 13.588235294117647,
-        "2010": 11.736842105263158,
-        "2011": 11.631578947368421,
-        "2013": 12.631578947368421,
-        "2014": 15.210526315789474
+        "2007": 20.294117647058822,
+        "2008": 19.166666666666668,
+        "2009": 13.705882352941176,
+        "2010": 12.157894736842104,
+        "2011": 11.578947368421053,
+        "2013": 12.68421052631579,
+        "2014": 14.68421052631579
     },
     "rates": {
         "wins": {
@@ -1801,11 +1805,11 @@
         },
         "DNFs": {
             "2007": 0.47058823529411764,
-            "2008": 0.4444444444444444,
-            "2009": 0.47058823529411764,
-            "2010": 0.42105263157894735,
-            "2011": 0.42105263157894735,
-            "2013": 0.42105263157894735,
+            "2008": 0.6111111111111112,
+            "2009": 0.29411764705882354,
+            "2010": 0.21052631578947367,
+            "2011": 0.10526315789473684,
+            "2013": 0.2631578947368421,
             "2014": 0.42105263157894735
         }
     },
@@ -1824,8 +1828,8 @@
     },
     "positionsGainLost": {
         "2007": {
-            "Australian Grand Prix": 4,
-            "Malaysian Grand Prix": 0,
+            "Australian Grand Prix": 3,
+            "Malaysian Grand Prix": -1,
             "Bahrain Grand Prix": 5,
             "Spanish Grand Prix": 7,
             "Monaco Grand Prix": -1,
@@ -1843,15 +1847,15 @@
             "Brazilian Grand Prix": 6
         },
         "2008": {
-            "Australian Grand Prix": 3,
-            "Malaysian Grand Prix": 1,
+            "Australian Grand Prix": 6,
+            "Malaysian Grand Prix": 0,
             "Bahrain Grand Prix": 1,
             "Spanish Grand Prix": -1,
-            "Turkish Grand Prix": 4,
-            "Monaco Grand Prix": 4,
-            "Canadian Grand Prix": -3,
-            "French Grand Prix": 1,
-            "British Grand Prix": 1,
+            "Turkish Grand Prix": 3,
+            "Monaco Grand Prix": 3,
+            "Canadian Grand Prix": -4,
+            "French Grand Prix": -1,
+            "British Grand Prix": 0,
             "German Grand Prix": 4,
             "Hungarian Grand Prix": 1,
             "European Grand Prix": 1,
@@ -1863,23 +1867,23 @@
             "Brazilian Grand Prix": 4
         },
         "2009": {
-            "Australian Grand Prix": 10,
+            "Australian Grand Prix": 7,
             "Malaysian Grand Prix": 2,
-            "Chinese Grand Prix": 2,
-            "Bahrain Grand Prix": 0,
+            "Chinese Grand Prix": 1,
+            "Bahrain Grand Prix": 3,
             "Spanish Grand Prix": -1,
             "Monaco Grand Prix": 1,
             "Turkish Grand Prix": -2,
-            "British Grand Prix": 1,
+            "British Grand Prix": 3,
             "German Grand Prix": -8,
-            "Hungarian Grand Prix": -1,
+            "Hungarian Grand Prix": -2,
             "European Grand Prix": 2,
             "Belgian Grand Prix": 0,
             "Italian Grand Prix": -2,
-            "Singapore Grand Prix": -2,
-            "Japanese Grand Prix": -9,
+            "Singapore Grand Prix": -3,
+            "Japanese Grand Prix": -5,
             "Brazilian Grand Prix": -15,
-            "Abu Dhabi Grand Prix": 1
+            "Abu Dhabi Grand Prix": 0
         },
         "2010": {
             "Bahrain Grand Prix": -2,
@@ -1892,14 +1896,14 @@
             "Canadian Grand Prix": -1,
             "European Grand Prix": 7,
             "British Grand Prix": 3,
-            "German Grand Prix": -3,
+            "German Grand Prix": 2,
             "Hungarian Grand Prix": -10,
             "Belgian Grand Prix": 3,
             "Italian Grand Prix": -5,
-            "Singapore Grand Prix": 7,
+            "Singapore Grand Prix": 6,
             "Japanese Grand Prix": -3,
             "Korean Grand Prix": -2,
-            "Brazilian Grand Prix": 6,
+            "Brazilian Grand Prix": 10,
             "Abu Dhabi Grand Prix": 0
         },
         "2011": {
@@ -1908,7 +1912,7 @@
             "Chinese Grand Prix": -4,
             "Turkish Grand Prix": -1,
             "Spanish Grand Prix": 4,
-            "Monaco Grand Prix": 8,
+            "Monaco Grand Prix": 7,
             "Canadian Grand Prix": -7,
             "European Grand Prix": 1,
             "British Grand Prix": 0,
@@ -1925,43 +1929,43 @@
         },
         "2013": {
             "Australian Grand Prix": 5,
-            "Malaysian Grand Prix": -11,
+            "Malaysian Grand Prix": -12,
             "Chinese Grand Prix": -8,
-            "Bahrain Grand Prix": -5,
+            "Bahrain Grand Prix": -7,
             "Spanish Grand Prix": 0,
             "Monaco Grand Prix": 3,
             "Canadian Grand Prix": -2,
-            "British Grand Prix": 0,
+            "British Grand Prix": -1,
             "German Grand Prix": 2,
             "Hungarian Grand Prix": -11,
             "Belgian Grand Prix": 3,
-            "Italian Grand Prix": -2,
+            "Italian Grand Prix": 1,
             "Singapore Grand Prix": 5,
             "Korean Grand Prix": -6,
-            "Japanese Grand Prix": 3,
+            "Japanese Grand Prix": 8,
             "Indian Grand Prix": 4,
-            "Abu Dhabi Grand Prix": 8,
-            "United States Grand Prix": -5,
-            "Brazilian Grand Prix": 3
+            "Abu Dhabi Grand Prix": 7,
+            "United States Grand Prix": -6,
+            "Brazilian Grand Prix": 2
         },
         "2014": {
-            "Australian Grand Prix": 3,
-            "Malaysian Grand Prix": 0,
-            "Bahrain Grand Prix": -4,
+            "Australian Grand Prix": 2,
+            "Malaysian Grand Prix": -1,
+            "Bahrain Grand Prix": 0,
             "Chinese Grand Prix": -8,
-            "Spanish Grand Prix": 0,
+            "Spanish Grand Prix": -1,
             "Monaco Grand Prix": 0,
             "Canadian Grand Prix": 3,
-            "Austrian Grand Prix": 4,
-            "British Grand Prix": 3,
-            "German Grand Prix": -2,
-            "Hungarian Grand Prix": 1,
+            "Austrian Grand Prix": 3,
+            "British Grand Prix": 0,
+            "German Grand Prix": -4,
+            "Hungarian Grand Prix": 0,
             "Belgian Grand Prix": 0,
-            "Italian Grand Prix": 0,
+            "Italian Grand Prix": -1,
             "Singapore Grand Prix": -2,
-            "Japanese Grand Prix": -6,
-            "Russian Grand Prix": -1,
-            "United States Grand Prix": -8,
+            "Japanese Grand Prix": -7,
+            "Russian Grand Prix": -2,
+            "United States Grand Prix": -9,
             "Brazilian Grand Prix": -3,
             "Abu Dhabi Grand Prix": -3
         }
@@ -1976,6 +1980,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 20,
                 "shared": false
@@ -1988,6 +1994,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "spyker",
                 "fastestLapRank": null,
                 "shared": false
@@ -2000,6 +2008,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 19,
                 "shared": false
@@ -2012,6 +2022,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 16,
                 "shared": false
@@ -2024,6 +2036,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "spyker",
                 "fastestLapRank": 19,
                 "shared": false
@@ -2036,6 +2050,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "spyker",
                 "fastestLapRank": 20,
                 "shared": false
@@ -2048,6 +2064,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 15,
                 "shared": false
@@ -2060,6 +2078,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2072,6 +2092,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "spyker",
                 "fastestLapRank": 22,
                 "shared": false
@@ -2084,6 +2106,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "spyker",
                 "fastestLapRank": 19,
                 "shared": false
@@ -2096,6 +2120,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 19,
                 "shared": false
@@ -2108,6 +2134,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Fuel pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "spyker",
                 "fastestLapRank": 20,
                 "shared": false
@@ -2120,6 +2148,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 20,
                 "shared": false
@@ -2132,6 +2162,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 15,
                 "shared": false
@@ -2144,6 +2176,8 @@
                 "grid": 20,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "spyker",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2156,6 +2190,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "spyker",
                 "fastestLapRank": 21,
                 "shared": false
@@ -2168,6 +2204,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "spyker",
                 "fastestLapRank": 20,
                 "shared": false
@@ -2182,6 +2220,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "force_india",
                 "fastestLapRank": 17,
                 "shared": false
@@ -2194,6 +2234,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "force_india",
                 "fastestLapRank": 20,
                 "shared": false
@@ -2206,6 +2248,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2218,6 +2262,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "force_india",
                 "fastestLapRank": null,
                 "shared": false
@@ -2230,6 +2276,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2242,6 +2290,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "force_india",
                 "fastestLapRank": 16,
                 "shared": false
@@ -2254,6 +2304,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "force_india",
                 "fastestLapRank": 20,
                 "shared": false
@@ -2266,6 +2318,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2278,6 +2332,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "force_india",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2290,6 +2346,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2302,6 +2360,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "force_india",
                 "fastestLapRank": 19,
                 "shared": false
@@ -2314,6 +2374,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "force_india",
                 "fastestLapRank": 17,
                 "shared": false
@@ -2326,6 +2388,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -2338,6 +2402,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2350,6 +2416,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "force_india",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2362,6 +2430,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Tyre",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "force_india",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2374,6 +2444,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "force_india",
                 "fastestLapRank": 19,
                 "shared": false
@@ -2386,6 +2458,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 17,
                 "shared": false
@@ -2400,6 +2474,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 11,
                 "shared": false
@@ -2412,6 +2488,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2424,6 +2502,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -2436,6 +2516,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 18,
                 "shared": false
@@ -2448,6 +2530,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "force_india",
                 "fastestLapRank": null,
                 "shared": false
@@ -2460,6 +2544,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 14,
                 "shared": false
@@ -2472,6 +2558,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 19,
                 "shared": false
@@ -2484,6 +2572,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 20,
                 "shared": false
@@ -2496,6 +2586,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 14,
                 "shared": false
@@ -2508,6 +2600,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "force_india",
                 "fastestLapRank": null,
                 "shared": false
@@ -2520,6 +2614,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 12,
                 "shared": false
@@ -2532,6 +2628,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 10,
                 "shared": false
@@ -2544,6 +2642,8 @@
                 "grid": 2,
                 "points": 5.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 1,
                 "shared": false
@@ -2556,6 +2656,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "force_india",
                 "fastestLapRank": 19,
                 "shared": false
@@ -2568,6 +2670,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 11,
                 "shared": false
@@ -2580,6 +2684,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "force_india",
                 "fastestLapRank": null,
                 "shared": false
@@ -2592,6 +2698,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -2606,6 +2714,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 2,
                 "shared": false
@@ -2618,6 +2728,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "force_india",
                 "fastestLapRank": 19,
                 "shared": false
@@ -2630,6 +2742,8 @@
                 "grid": 4,
                 "points": 10.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 9,
                 "shared": false
@@ -2642,6 +2756,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 11,
                 "shared": false
@@ -2654,6 +2770,8 @@
                 "grid": 11,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -2666,6 +2784,8 @@
                 "grid": 12,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 8,
                 "shared": false
@@ -2678,6 +2798,8 @@
                 "grid": 11,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 8,
                 "shared": false
@@ -2690,6 +2812,8 @@
                 "grid": 9,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -2702,6 +2826,8 @@
                 "grid": 13,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 8,
                 "shared": false
@@ -2714,6 +2840,8 @@
                 "grid": 11,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 16,
                 "shared": false
@@ -2726,6 +2854,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 10,
                 "shared": false
@@ -2738,6 +2868,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "force_india",
                 "fastestLapRank": 22,
                 "shared": false
@@ -2750,6 +2882,8 @@
                 "grid": 8,
                 "points": 10.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 5,
                 "shared": false
@@ -2762,6 +2896,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 10,
                 "shared": false
@@ -2774,6 +2910,8 @@
                 "grid": 15,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 15,
                 "shared": false
@@ -2786,6 +2924,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -2798,6 +2938,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "force_india",
                 "fastestLapRank": 12,
                 "shared": false
@@ -2810,6 +2952,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 9,
                 "shared": false
@@ -2822,6 +2966,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -2836,6 +2982,8 @@
                 "grid": 16,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -2848,6 +2996,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 14,
                 "shared": false
@@ -2860,6 +3010,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 4,
                 "shared": false
@@ -2872,6 +3024,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 16,
                 "shared": false
@@ -2884,6 +3038,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 10,
                 "shared": false
@@ -2896,6 +3052,8 @@
                 "grid": 14,
                 "points": 6.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -2908,6 +3066,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "force_india",
                 "fastestLapRank": 21,
                 "shared": false
@@ -2920,6 +3080,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 10,
                 "shared": false
@@ -2932,6 +3094,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 9,
                 "shared": false
@@ -2944,6 +3108,8 @@
                 "grid": 8,
                 "points": 8.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 10,
                 "shared": false
@@ -2956,6 +3122,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 12,
                 "shared": false
@@ -2968,6 +3136,8 @@
                 "grid": 15,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 10,
                 "shared": false
@@ -2980,6 +3150,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "force_india",
                 "fastestLapRank": 19,
                 "shared": false
@@ -2992,6 +3164,8 @@
                 "grid": 9,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 17,
                 "shared": false
@@ -3004,6 +3178,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 14,
                 "shared": false
@@ -3016,6 +3192,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 10,
                 "shared": false
@@ -3028,6 +3206,8 @@
                 "grid": 8,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 12,
                 "shared": false
@@ -3040,6 +3220,8 @@
                 "grid": 9,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 14,
                 "shared": false
@@ -3052,6 +3234,8 @@
                 "grid": 8,
                 "points": 8.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 8,
                 "shared": false
@@ -3066,6 +3250,8 @@
                 "grid": 12,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -3078,6 +3264,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Wheel nut",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "force_india",
                 "fastestLapRank": 16,
                 "shared": false
@@ -3090,6 +3278,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "force_india",
                 "fastestLapRank": 21,
                 "shared": false
@@ -3102,6 +3292,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 2,
                 "shared": false
@@ -3114,6 +3306,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 3,
                 "shared": false
@@ -3126,6 +3320,8 @@
                 "grid": 8,
                 "points": 10.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 5,
                 "shared": false
@@ -3138,6 +3334,8 @@
                 "grid": 8,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 10,
                 "shared": false
@@ -3150,6 +3348,8 @@
                 "grid": 6,
                 "points": 6.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 12,
                 "shared": false
@@ -3162,6 +3362,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -3174,6 +3376,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Hydraulics",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "force_india",
                 "fastestLapRank": 21,
                 "shared": false
@@ -3186,6 +3390,8 @@
                 "grid": 12,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 10,
                 "shared": false
@@ -3198,6 +3404,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 14,
                 "shared": false
@@ -3210,6 +3418,8 @@
                 "grid": 15,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 2,
                 "shared": false
@@ -3222,6 +3432,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "force_india",
                 "fastestLapRank": 16,
                 "shared": false
@@ -3234,6 +3446,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 14,
                 "shared": false
@@ -3246,6 +3460,8 @@
                 "grid": 13,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 3,
                 "shared": false
@@ -3258,6 +3474,8 @@
                 "grid": 17,
                 "points": 1.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 13,
                 "shared": false
@@ -3270,6 +3488,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "force_india",
                 "fastestLapRank": null,
                 "shared": false
@@ -3282,6 +3502,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "force_india",
                 "fastestLapRank": 4,
                 "shared": false
@@ -3296,6 +3518,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 9,
                 "shared": false
@@ -3308,6 +3532,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "sauber",
                 "fastestLapRank": 17,
                 "shared": false
@@ -3320,6 +3546,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "sauber",
                 "fastestLapRank": 20,
                 "shared": false
@@ -3332,6 +3560,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "sauber",
                 "fastestLapRank": 22,
                 "shared": false
@@ -3344,6 +3574,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 17,
                 "shared": false
@@ -3356,6 +3588,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "sauber",
                 "fastestLapRank": 17,
                 "shared": false
@@ -3368,6 +3602,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 17,
                 "shared": false
@@ -3380,6 +3616,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 14,
                 "shared": false
@@ -3392,6 +3630,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 15,
                 "shared": false
@@ -3404,6 +3644,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "sauber",
                 "fastestLapRank": 17,
                 "shared": false
@@ -3416,6 +3658,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 8,
                 "shared": false
@@ -3428,6 +3672,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 2,
                 "shared": false
@@ -3440,6 +3686,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 14,
                 "shared": false
@@ -3452,6 +3700,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Water pressure",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "sauber",
                 "fastestLapRank": 18,
                 "shared": false
@@ -3464,6 +3714,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "sauber",
                 "fastestLapRank": 19,
                 "shared": false
@@ -3476,6 +3728,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 15,
                 "shared": false
@@ -3488,6 +3742,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "sauber",
                 "fastestLapRank": null,
                 "shared": false
@@ -3500,6 +3756,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 15,
                 "shared": false
@@ -3512,6 +3770,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "sauber",
                 "fastestLapRank": 14,
                 "shared": false
@@ -3526,5 +3786,15 @@
         "2011": {},
         "2013": {},
         "2014": {}
-    }
+    },
+    "seasonStarts": {
+        "2007": 17,
+        "2008": 18,
+        "2009": 17,
+        "2010": 19,
+        "2011": 19,
+        "2013": 19,
+        "2014": 19
+    },
+    "totalStarts": 128
 }

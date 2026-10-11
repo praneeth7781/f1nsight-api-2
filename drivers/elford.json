@@ -1,6 +1,6 @@
 {
     "driverId": "elford",
-    "lastUpdate": "2026-10-02T11:47:20.516346",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -279,9 +279,9 @@
         "1971": 11.0
     },
     "avgQualiPositions": {
-        "1968": -1,
-        "1969": -1,
-        "1971": -1
+        "1968": 14.142857142857142,
+        "1969": 11.6,
+        "1971": 18.0
     },
     "rates": {
         "wins": {
@@ -301,8 +301,8 @@
         },
         "DNFs": {
             "1968": 0.5714285714285714,
-            "1969": 0.8,
-            "1971": 4.0
+            "1969": 0.2,
+            "1971": 0.0
         }
     },
     "winRate": 0.0,
@@ -315,9 +315,25 @@
         "1971": -1
     },
     "positionsGainLost": {
-        "1968": {},
-        "1969": {},
-        "1971": {}
+        "1968": {
+            "French Grand Prix": 13,
+            "British Grand Prix": -8,
+            "German Grand Prix": -15,
+            "Italian Grand Prix": 0,
+            "Canadian Grand Prix": 11,
+            "United States Grand Prix": 5,
+            "Mexican Grand Prix": 9
+        },
+        "1969": {
+            "Monaco Grand Prix": 9,
+            "Dutch Grand Prix": 5,
+            "French Grand Prix": 5,
+            "British Grand Prix": 5,
+            "German Grand Prix": -6
+        },
+        "1971": {
+            "German Grand Prix": 7
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -331,6 +347,8 @@
                 "grid": 17,
                 "points": 3.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -343,6 +361,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -355,6 +375,8 @@
                 "grid": 5,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -367,6 +389,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -379,6 +403,8 @@
                 "grid": 16,
                 "points": 2.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -391,6 +417,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -403,6 +431,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -417,6 +447,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -429,6 +461,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -441,6 +475,8 @@
                 "grid": 10,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -453,6 +489,8 @@
                 "grid": 11,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -465,6 +503,8 @@
                 "grid": 6,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -479,6 +519,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -489,5 +531,11 @@
         "1968": {},
         "1969": {},
         "1971": {}
-    }
+    },
+    "seasonStarts": {
+        "1968": 7,
+        "1969": 5,
+        "1971": 1
+    },
+    "totalStarts": 13
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "cantoni",
-    "lastUpdate": "2026-10-02T11:47:20.470722",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -126,7 +126,7 @@
         "1952": 20.333333333333332
     },
     "avgQualiPositions": {
-        "1952": -1
+        "1952": 25.333333333333332
     },
     "rates": {
         "wins": {
@@ -150,7 +150,11 @@
         "1952": -1
     },
     "positionsGainLost": {
-        "1952": {}
+        "1952": {
+            "British Grand Prix": -4,
+            "German Grand Prix": 7,
+            "Italian Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -164,6 +168,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -176,6 +182,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Axle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -188,6 +196,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -196,5 +206,9 @@
     },
     "sprintResults": {
         "1952": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 3
+    },
+    "totalStarts": 3
 }

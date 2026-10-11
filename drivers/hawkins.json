@@ -1,10 +1,10 @@
 {
     "driverId": "hawkins",
-    "lastUpdate": "2026-10-02T11:47:20.510915",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 2,
     "seasonWins": {
         "1965": 0
     },
@@ -15,7 +15,7 @@
         "1965": 0
     },
     "seasonDNFs": {
-        "1965": 1
+        "1965": 2
     },
     "poles": {
         "1965": []
@@ -25,6 +25,7 @@
     },
     "DNFs": {
         "1965": {
+            "Monaco Grand Prix": "Accident",
             "German Grand Prix": "Oil leak"
         }
     },
@@ -143,7 +144,7 @@
         "1965": 12.0
     },
     "avgQualiPositions": {
-        "1965": -1
+        "1965": 16.666666666666668
     },
     "rates": {
         "wins": {
@@ -167,7 +168,11 @@
         "1965": -1
     },
     "positionsGainLost": {
-        "1965": {}
+        "1965": {
+            "South African Grand Prix": 7,
+            "Monaco Grand Prix": 4,
+            "German Grand Prix": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -181,6 +186,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -193,6 +200,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -205,6 +214,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -213,5 +224,9 @@
     },
     "sprintResults": {
         "1965": {}
-    }
+    },
+    "seasonStarts": {
+        "1965": 3
+    },
+    "totalStarts": 3
 }

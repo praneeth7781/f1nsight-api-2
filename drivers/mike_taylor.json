@@ -1,10 +1,10 @@
 {
     "driverId": "mike_taylor",
-    "lastUpdate": "2026-10-02T11:47:20.495404",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 2,
+    "totalDNFs": 1,
     "seasonWins": {
         "1959": 0,
         "1960": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1959": 1,
-        "1960": 1
+        "1960": 0
     },
     "poles": {
         "1959": [],
@@ -33,9 +33,7 @@
         "1959": {
             "British Grand Prix": "Transmission"
         },
-        "1960": {
-            "Belgian Grand Prix": "Accident"
-        }
+        "1960": {}
     },
     "fastLaps": {
         "1959": {
@@ -176,10 +174,10 @@
     },
     "avgRacePositions": {
         "1959": 23.0,
-        "1960": 19.0
+        "1960": -1
     },
     "avgQualiPositions": {
-        "1959": -1,
+        "1959": 24.0,
         "1960": -1
     },
     "rates": {
@@ -197,7 +195,7 @@
         },
         "DNFs": {
             "1959": 1.0,
-            "1960": 1.0
+            "1960": 0.0
         }
     },
     "winRate": 0.0,
@@ -209,7 +207,9 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1959": {},
+        "1959": {
+            "British Grand Prix": 1
+        },
         "1960": {}
     },
     "driverCode": "",
@@ -224,6 +224,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -238,6 +240,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "withdrew",
+                "cause": "accident",
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -247,5 +251,10 @@
     "sprintResults": {
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1959": 1,
+        "1960": 0
+    },
+    "totalStarts": 1
 }

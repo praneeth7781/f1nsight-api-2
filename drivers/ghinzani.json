@@ -1,10 +1,10 @@
 {
     "driverId": "ghinzani",
-    "lastUpdate": "2026-10-02T11:47:20.539210",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 70,
+    "totalDNFs": 56,
     "seasonWins": {
         "1981": 0,
         "1983": 0,
@@ -37,11 +37,11 @@
     },
     "seasonDNFs": {
         "1981": 0,
-        "1983": 14,
-        "1984": 11,
-        "1985": 12,
-        "1986": 15,
-        "1987": 9,
+        "1983": 6,
+        "1984": 10,
+        "1985": 9,
+        "1986": 14,
+        "1987": 8,
         "1988": 6,
         "1989": 3
     },
@@ -68,43 +68,31 @@
     "DNFs": {
         "1981": {},
         "1983": {
-            "Brazilian Grand Prix": "Did not qualify",
-            "United States Grand Prix West": "Did not qualify",
-            "French Grand Prix": "Did not qualify",
-            "San Marino Grand Prix": "Did not qualify",
-            "Monaco Grand Prix": "Did not qualify",
-            "Belgian Grand Prix": "Did not qualify",
             "Detroit Grand Prix": "Overheating",
-            "Canadian Grand Prix": "Did not qualify",
             "British Grand Prix": "Fuel system",
             "German Grand Prix": "Oil leak",
-            "Dutch Grand Prix": "Did not qualify",
             "Italian Grand Prix": "Gearbox",
             "European Grand Prix": "Throttle",
             "South African Grand Prix": "Engine"
         },
         "1984": {
             "Brazilian Grand Prix": "Gearbox",
-            "South African Grand Prix": "Withdrew",
             "Belgian Grand Prix": "Transmission",
-            "San Marino Grand Prix": "Did not qualify",
             "Canadian Grand Prix": "Gearbox",
             "Detroit Grand Prix": "Accident",
             "German Grand Prix": "Electrical",
             "Austrian Grand Prix": "Gearbox",
             "Dutch Grand Prix": "Fuel pump",
+            "Italian Grand Prix": "Out of fuel",
             "European Grand Prix": "Accident",
             "Portuguese Grand Prix": "Engine"
         },
         "1985": {
             "San Marino Grand Prix": "Not classified",
-            "Monaco Grand Prix": "Did not qualify",
             "Canadian Grand Prix": "Engine",
             "Detroit Grand Prix": "Accident",
             "British Grand Prix": "Accident",
-            "Austrian Grand Prix": "Withdrew",
             "Dutch Grand Prix": "Engine",
-            "Italian Grand Prix": "Withdrew",
             "Belgian Grand Prix": "Accident",
             "European Grand Prix": "Engine",
             "South African Grand Prix": "Engine",
@@ -114,7 +102,6 @@
             "Brazilian Grand Prix": "Engine",
             "Spanish Grand Prix": "Engine",
             "San Marino Grand Prix": "Out of fuel",
-            "Monaco Grand Prix": "Did not qualify",
             "Belgian Grand Prix": "Engine",
             "Canadian Grand Prix": "Gearbox",
             "Detroit Grand Prix": "Turbo",
@@ -131,7 +118,6 @@
             "San Marino Grand Prix": "Handling",
             "Detroit Grand Prix": "Clutch",
             "French Grand Prix": "Engine",
-            "British Grand Prix": "Excluded",
             "German Grand Prix": "Engine",
             "Portuguese Grand Prix": "Ignition",
             "Spanish Grand Prix": "Ignition",
@@ -141,7 +127,7 @@
         "1988": {
             "San Marino Grand Prix": "Gearbox",
             "Monaco Grand Prix": "Gearbox",
-            "French Grand Prix": "Excluded",
+            "Canadian Grand Prix": "Engine",
             "Belgian Grand Prix": "Oil leak",
             "Italian Grand Prix": "Engine",
             "Australian Grand Prix": "Fuel system"
@@ -998,24 +984,24 @@
         }
     },
     "avgRacePositions": {
-        "1981": 19.0,
-        "1983": 23.866666666666667,
-        "1984": 18.1875,
-        "1985": 19.466666666666665,
-        "1986": 20.75,
+        "1981": 13.0,
+        "1983": 19.714285714285715,
+        "1984": 16.928571428571427,
+        "1985": 18.25,
+        "1986": 20.733333333333334,
         "1987": 15.6,
-        "1988": 22.875,
-        "1989": 30.5625
+        "1988": 18.11111111111111,
+        "1989": 19.666666666666668
     },
     "avgQualiPositions": {
-        "1981": -1,
-        "1983": -1,
-        "1984": -1,
-        "1985": -1,
-        "1986": -1,
-        "1987": -1,
-        "1988": -1,
-        "1989": -1
+        "1981": 24.0,
+        "1983": 24.857142857142858,
+        "1984": 21.285714285714285,
+        "1985": 20.166666666666668,
+        "1986": 24.066666666666666,
+        "1987": 20.4,
+        "1988": 22.125,
+        "1989": 22.666666666666668
     },
     "rates": {
         "wins": {
@@ -1049,20 +1035,20 @@
             "1989": 0.0
         },
         "DNFs": {
-            "1981": 0.5,
-            "1983": 0.06666666666666667,
-            "1984": 0.0625,
-            "1985": 0.06666666666666667,
-            "1986": 0.0625,
-            "1987": 0.06666666666666667,
-            "1988": 0.0625,
-            "1989": 0.0625
+            "1981": 0.0,
+            "1983": 0.8571428571428571,
+            "1984": 0.7142857142857143,
+            "1985": 0.75,
+            "1986": 0.9333333333333333,
+            "1987": 0.5333333333333333,
+            "1988": 0.6666666666666666,
+            "1989": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8378378378378378,
+    "dnfRate": 0.7368421052631579,
     "ptwConRate": {
         "1981": -1,
         "1983": -1,
@@ -1074,14 +1060,97 @@
         "1989": -1
     },
     "positionsGainLost": {
-        "1981": {},
-        "1983": {},
-        "1984": {},
-        "1985": {},
-        "1986": {},
-        "1987": {},
-        "1988": {},
-        "1989": {}
+        "1981": {
+            "Belgian Grand Prix": 11
+        },
+        "1983": {
+            "Detroit Grand Prix": -1,
+            "British Grand Prix": 6,
+            "German Grand Prix": 10,
+            "Austrian Grand Prix": 14,
+            "Italian Grand Prix": 1,
+            "European Grand Prix": 6,
+            "South African Grand Prix": 0
+        },
+        "1984": {
+            "Brazilian Grand Prix": 3,
+            "Belgian Grand Prix": -2,
+            "French Grand Prix": 13,
+            "Monaco Grand Prix": 12,
+            "Canadian Grand Prix": -5,
+            "Detroit Grand Prix": 4,
+            "Dallas Grand Prix": 13,
+            "British Grand Prix": 12,
+            "German Grand Prix": 5,
+            "Austrian Grand Prix": -2,
+            "Dutch Grand Prix": -5,
+            "Italian Grand Prix": 15,
+            "European Grand Prix": -6,
+            "Portuguese Grand Prix": 4
+        },
+        "1985": {
+            "Brazilian Grand Prix": 10,
+            "Portuguese Grand Prix": 17,
+            "San Marino Grand Prix": 9,
+            "Canadian Grand Prix": 2,
+            "Detroit Grand Prix": -3,
+            "French Grand Prix": 9,
+            "British Grand Prix": -1,
+            "Dutch Grand Prix": -7,
+            "Belgian Grand Prix": -7,
+            "European Grand Prix": -7,
+            "South African Grand Prix": -2,
+            "Australian Grand Prix": 3
+        },
+        "1986": {
+            "Brazilian Grand Prix": 1,
+            "Spanish Grand Prix": 1,
+            "San Marino Grand Prix": 15,
+            "Belgian Grand Prix": 1,
+            "Canadian Grand Prix": 9,
+            "Detroit Grand Prix": 0,
+            "French Grand Prix": 2,
+            "British Grand Prix": -1,
+            "German Grand Prix": 2,
+            "Hungarian Grand Prix": 2,
+            "Austrian Grand Prix": 14,
+            "Italian Grand Prix": 3,
+            "Portuguese Grand Prix": -2,
+            "Mexican Grand Prix": 3,
+            "Australian Grand Prix": 0
+        },
+        "1987": {
+            "San Marino Grand Prix": -7,
+            "Belgian Grand Prix": 10,
+            "Monaco Grand Prix": 8,
+            "Detroit Grand Prix": 9,
+            "French Grand Prix": -3,
+            "British Grand Prix": -7,
+            "German Grand Prix": 8,
+            "Hungarian Grand Prix": 13,
+            "Austrian Grand Prix": 10,
+            "Italian Grand Prix": 11,
+            "Portuguese Grand Prix": 1,
+            "Spanish Grand Prix": -1,
+            "Mexican Grand Prix": 8,
+            "Japanese Grand Prix": 11,
+            "Australian Grand Prix": 1
+        },
+        "1988": {
+            "San Marino Grand Prix": 1,
+            "Monaco Grand Prix": 9,
+            "Mexican Grand Prix": 3,
+            "Canadian Grand Prix": 8,
+            "German Grand Prix": 9,
+            "Belgian Grand Prix": 4,
+            "Italian Grand Prix": -3,
+            "Australian Grand Prix": 14
+        },
+        "1989": {
+            "Hungarian Grand Prix": -2,
+            "Spanish Grand Prix": 3,
+            "Australian Grand Prix": 8
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -1095,6 +1164,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1109,6 +1180,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1121,6 +1194,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1133,6 +1208,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1145,6 +1222,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1157,6 +1236,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1169,6 +1250,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1181,6 +1264,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1193,6 +1278,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1205,6 +1292,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1217,6 +1306,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1229,6 +1320,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1241,6 +1334,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1253,6 +1348,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1265,6 +1362,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Throttle",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1277,6 +1376,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1291,6 +1392,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1303,6 +1406,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1315,6 +1420,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1327,6 +1434,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1339,6 +1448,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1351,6 +1462,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1363,6 +1476,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1375,6 +1490,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1387,6 +1504,8 @@
                 "grid": 18,
                 "points": 2.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1399,6 +1518,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1411,6 +1532,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1423,6 +1546,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1435,6 +1560,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Fuel pump",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1447,6 +1574,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Out of fuel",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1459,6 +1588,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1471,6 +1602,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1485,6 +1618,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1497,6 +1632,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1509,6 +1646,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1521,6 +1660,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1533,6 +1674,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1545,6 +1688,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1557,6 +1702,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1569,6 +1716,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1581,6 +1730,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -1593,6 +1744,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -1605,6 +1758,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -1617,6 +1772,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -1629,6 +1786,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -1641,6 +1800,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -1653,6 +1814,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "toleman",
                 "fastestLapRank": null,
                 "shared": false
@@ -1667,6 +1830,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1679,6 +1844,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1691,6 +1858,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Out of fuel",
+                "outcome": "retired",
+                "cause": "operational",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1703,6 +1872,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1715,6 +1886,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1727,6 +1900,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1739,6 +1914,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1751,6 +1928,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1763,6 +1942,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1775,6 +1956,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1787,6 +1970,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1799,6 +1984,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1811,6 +1998,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1823,6 +2012,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1835,6 +2026,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Turbo",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1847,6 +2040,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -1861,6 +2056,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Handling",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1873,6 +2070,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1885,6 +2084,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1897,6 +2098,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1909,6 +2112,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1921,6 +2126,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Excluded",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1933,6 +2140,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1945,6 +2154,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1957,6 +2168,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1969,6 +2182,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1981,6 +2196,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -1993,6 +2210,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -2005,6 +2224,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Water leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -2017,6 +2238,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -2029,6 +2252,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Ignition",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ligier",
                 "fastestLapRank": null,
                 "shared": false
@@ -2043,6 +2268,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -2055,6 +2282,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -2067,6 +2296,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -2079,6 +2310,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -2091,6 +2324,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Excluded",
+                "outcome": "dsq",
+                "cause": null,
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -2103,6 +2338,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -2115,6 +2352,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -2127,6 +2366,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -2139,6 +2380,8 @@
                 "grid": 26,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "zakspeed",
                 "fastestLapRank": null,
                 "shared": false
@@ -2153,6 +2396,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -2165,6 +2410,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -2177,6 +2424,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -2192,5 +2441,16 @@
         "1987": {},
         "1988": {},
         "1989": {}
-    }
+    },
+    "seasonStarts": {
+        "1981": 1,
+        "1983": 7,
+        "1984": 14,
+        "1985": 12,
+        "1986": 15,
+        "1987": 15,
+        "1988": 9,
+        "1989": 3
+    },
+    "totalStarts": 76
 }

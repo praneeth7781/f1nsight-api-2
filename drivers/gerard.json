@@ -1,6 +1,6 @@
 {
     "driverId": "gerard",
-    "lastUpdate": "2026-10-02T11:47:20.449762",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -377,12 +377,12 @@
         "1957": 6.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1953": -1,
-        "1954": -1,
-        "1956": -1,
-        "1957": -1
+        "1950": 14.5,
+        "1951": 10.0,
+        "1953": 12.0,
+        "1954": 18.0,
+        "1956": 22.0,
+        "1957": 18.0
     },
     "rates": {
         "wins": {
@@ -431,12 +431,25 @@
         "1957": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1953": {},
-        "1954": {},
-        "1956": {},
-        "1957": {}
+        "1950": {
+            "British Grand Prix": 7,
+            "Monaco Grand Prix": 10
+        },
+        "1951": {
+            "British Grand Prix": -1
+        },
+        "1953": {
+            "French Grand Prix": 1
+        },
+        "1954": {
+            "British Grand Prix": 8
+        },
+        "1956": {
+            "British Grand Prix": 11
+        },
+        "1957": {
+            "British Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -450,6 +463,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "era",
                 "fastestLapRank": null,
                 "shared": false
@@ -462,6 +477,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+6 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "era",
                 "fastestLapRank": null,
                 "shared": false
@@ -476,6 +493,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "era",
                 "fastestLapRank": null,
                 "shared": false
@@ -490,6 +509,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -504,6 +525,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -518,6 +541,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+13 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -532,6 +557,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -545,5 +572,14 @@
         "1954": {},
         "1956": {},
         "1957": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 2,
+        "1951": 1,
+        "1953": 1,
+        "1954": 1,
+        "1956": 1,
+        "1957": 1
+    },
+    "totalStarts": 7
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "hoyt",
-    "lastUpdate": "2026-10-02T11:47:20.456920",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 1,
@@ -263,19 +263,19 @@
         "mean": {
             "wins": 0.0,
             "podiums": 0.0,
-            "poles": 0.0,
+            "poles": 0.25,
             "points": 0.0
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.0,
-            "poles": 0.0,
+            "poles": 0.4330127018922193,
             "points": 0.0
         },
         "cv": {
             "wins": 0,
             "podiums": 0,
-            "poles": 0,
+            "poles": 1.7320508075688772,
             "points": 0
         }
     },
@@ -289,8 +289,8 @@
             "podiums": 0
         },
         "poles": {
-            "season": "No peak season",
-            "poles": 0
+            "season": "1955",
+            "poles": 1
         }
     },
     "avgRacePositions": {
@@ -300,10 +300,10 @@
         "1955": 31.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1
+        "1950": 15.0,
+        "1953": 7.0,
+        "1954": 32.0,
+        "1955": 1.0
     },
     "rates": {
         "wins": {
@@ -322,30 +322,38 @@
             "1950": 0.0,
             "1953": 0.0,
             "1954": 0.0,
-            "1955": 0.0
+            "1955": 1.0
         },
         "DNFs": {
             "1950": 0.0,
-            "1953": 0.0,
+            "1953": 1.0,
             "1954": 0.0,
-            "1955": 0.0
+            "1955": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
-    "poleRate": 0.0,
+    "poleRate": 0.25,
     "dnfRate": 0.5,
     "ptwConRate": {
         "1950": -1,
         "1953": -1,
         "1954": -1,
-        "1955": -1
+        "1955": 0.0
     },
     "positionsGainLost": {
-        "1950": {},
-        "1953": {},
-        "1954": {},
-        "1955": {}
+        "1950": {
+            "Indianapolis 500": -6
+        },
+        "1953": {
+            "Indianapolis 500": -16
+        },
+        "1954": {
+            "Indianapolis 500": 24
+        },
+        "1955": {
+            "Indianapolis 500": -30
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -359,6 +367,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+13 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -373,6 +383,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "Overheating",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -387,6 +399,8 @@
                 "grid": 32,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -401,6 +415,8 @@
                 "grid": 1,
                 "points": 0.0,
                 "status": "Oil leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "stevens",
                 "fastestLapRank": null,
                 "shared": false
@@ -412,5 +428,12 @@
         "1953": {},
         "1954": {},
         "1955": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1
+    },
+    "totalStarts": 4
 }

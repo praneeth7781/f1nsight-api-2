@@ -1,6 +1,6 @@
 {
     "driverId": "rees",
-    "lastUpdate": "2026-10-02T11:47:20.513781",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -126,7 +126,7 @@
         "1967": 8.0
     },
     "avgQualiPositions": {
-        "1967": -1
+        "1967": 17.5
     },
     "rates": {
         "wins": {
@@ -150,7 +150,10 @@
         "1967": -1
     },
     "positionsGainLost": {
-        "1967": {}
+        "1967": {
+            "British Grand Prix": 6,
+            "German Grand Prix": 13
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -164,6 +167,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-maserati",
                 "fastestLapRank": null,
                 "shared": false
@@ -176,6 +181,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "brabham-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -184,5 +191,9 @@
     },
     "sprintResults": {
         "1967": {}
-    }
+    },
+    "seasonStarts": {
+        "1967": 2
+    },
+    "totalStarts": 2
 }

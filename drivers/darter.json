@@ -1,6 +1,6 @@
 {
     "driverId": "darter",
-    "lastUpdate": "2026-10-02T11:47:20.455592",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -534,14 +534,14 @@
         "1960": 12.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1959": -1,
-        "1960": -1
+        "1950": 13.0,
+        "1951": 4.0,
+        "1952": 6.0,
+        "1953": 9.0,
+        "1954": 11.0,
+        "1955": 18.0,
+        "1959": 12.0,
+        "1960": 27.0
     },
     "rates": {
         "wins": {
@@ -600,14 +600,30 @@
         "1960": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1959": {},
-        "1960": {}
+        "1950": {
+            "Indianapolis 500": 1
+        },
+        "1951": {
+            "Indianapolis 500": -4
+        },
+        "1952": {
+            "Indianapolis 500": 2
+        },
+        "1953": {
+            "Indianapolis 500": 6
+        },
+        "1954": {
+            "Indianapolis 500": 7
+        },
+        "1955": {
+            "Indianapolis 500": 7
+        },
+        "1959": {
+            "Indianapolis 500": 5
+        },
+        "1960": {
+            "Indianapolis 500": 15
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -621,6 +637,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "stevens",
                 "fastestLapRank": null,
                 "shared": false
@@ -635,6 +653,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "+20 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "deidt",
                 "fastestLapRank": null,
                 "shared": false
@@ -649,6 +669,8 @@
                 "grid": 6,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "lesovsky",
                 "fastestLapRank": null,
                 "shared": false
@@ -663,6 +685,8 @@
                 "grid": 9,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -677,6 +701,8 @@
                 "grid": 11,
                 "points": 1.5,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": true
@@ -691,6 +717,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -705,6 +733,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kurtis_kraft",
                 "fastestLapRank": null,
                 "shared": false
@@ -719,6 +749,8 @@
                 "grid": 27,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "kuzma",
                 "fastestLapRank": null,
                 "shared": false
@@ -734,5 +766,16 @@
         "1955": {},
         "1959": {},
         "1960": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1,
+        "1952": 1,
+        "1953": 1,
+        "1954": 1,
+        "1955": 1,
+        "1959": 1,
+        "1960": 1
+    },
+    "totalStarts": 8
 }

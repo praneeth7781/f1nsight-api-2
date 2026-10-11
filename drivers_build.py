@@ -2,10 +2,12 @@
 
 from __future__ import annotations
 
+import math
 import os
 from collections import defaultdict
 
 import api_update
+from outcomes import classify, did_not_finish, is_dnf  # noqa: F401 (re-exported)
 from poles import is_sprint_weekend, pole_sitter, qualifying_p1
 from scoring import is_classified, parse_points, fastest_lap_rank
 
@@ -51,12 +53,6 @@ def _empty(value):
 
 def _name(driver):
     return f"{driver.get('givenName', '')} {driver.get('familyName', '')}".strip()
-
-
-def did_not_finish(status):
-    """True when the car did not finish. Classified retirements still count."""
-    text = str(status or '')
-    return text != 'Finished' and '+' not in text
 
 
 def _ensure_season(data, season):
@@ -200,7 +196,8 @@ def build_driver_maps():
                 if previous is None or new_rank < previous_rank:
                     data['racePosition'][season_key]['positions'][race_name] = position
                 status = result.get('status', '')
-                if did_not_finish(status):
+                labels = classify(result, season_key, round_number)
+                if labels['dnf']:
                     dnf_status.setdefault(driver_id, status)
                 else:
                     finished_weekend[driver_id] = True
@@ -224,6 +221,8 @@ def build_driver_maps():
                     'grid': int(result['grid']) if str(result.get('grid', '')).isdigit() else None,
                     'points': parse_points(result.get('points')),
                     'status': status,
+                    'outcome': labels['outcome'],
+                    'cause': labels['cause'],
                     'constructorId': (result.get('Constructor') or {}).get('constructorId'),
                     'fastestLapRank': fastest_lap_rank(result),
                     'shared': counts.get(str(position), 0) > 1,
@@ -315,8 +314,137 @@ def build_driver_maps():
         data['totalPodiums'] = sum(data.get('seasonPodiums', {}).values())
         data['totalPoles'] = sum(data.get('seasonPoles', {}).values())
         data['totalDNFs'] = sum(data.get('seasonDNFs', {}).values())
-        data['lastUpdate'] = api_update.dt.now().isoformat()
     return drivers
+
+
+def _mean(values):
+    return sum(values) / len(values) if values else None
+
+
+def _consistency(values):
+    mean = _mean(values) or 0.0
+    std = math.sqrt(sum((value - mean) ** 2 for value in values) / len(values)) if values else 0.0
+    return mean, std, (std / mean if mean else 0)
+
+
+def _peak(values, seasons):
+    if not values or max(values) == 0:
+        return 'No peak season', 0
+    index = values.index(max(values))
+    return seasons[index], values[index]
+
+
+def _season_labels(data, season):
+    """raceName -> outcome labels for every stored round of a season."""
+    labels = {}
+    for payload in ((data.get('raceResults') or {}).get(season) or {}).values():
+        labels[payload.get('raceName')] = classify({
+            'positionText': payload.get('positionText'),
+            'status': payload.get('status'),
+        })
+    return labels
+
+
+def analyse_driver(data):
+    """Derive the summary fields (rates, averages, consistency) in place.
+
+    Rates divide by starts: DNQs, withdrawals and non-starts are not races.
+    Grid 0 (pit lane, or simply unrecorded) stays out of qualifying averages
+    and positions gained. A season with no usable values reports -1, as the
+    old NaN replacement did.
+    """
+    seasons = sorted(
+        set(data.get('seasonWins') or {}) | set(data.get('racePosition') or {})
+    )
+    wins = [int((data.get('seasonWins') or {}).get(season, 0)) for season in seasons]
+    podiums = [int((data.get('seasonPodiums') or {}).get(season, 0)) for season in seasons]
+    poles = [int((data.get('seasonPoles') or {}).get(season, 0)) for season in seasons]
+    dnfs = [int((data.get('seasonDNFs') or {}).get(season, 0)) for season in seasons]
+    points = [
+        parse_points(((data.get('finalStandings') or {}).get(season) or {}).get('points'))
+        for season in seasons
+    ]
+
+    starts = {}
+    avg_race = {}
+    avg_quali = {}
+    gained = {}
+    pole_conversion = {}
+    for season in seasons:
+        race_positions = ((data.get('racePosition') or {}).get(season) or {}).get('positions') or {}
+        quali_positions = ((data.get('qualiPosition') or {}).get(season) or {}).get('positions') or {}
+        labels = _season_labels(data, season)
+        if labels:
+            started = {name for name, label in labels.items() if label['started']}
+        else:
+            started = set(race_positions)
+        starts[season] = len(started)
+        race_values = [
+            int(position) for name, position in race_positions.items()
+            if name in started and str(position).isdigit()
+        ]
+        quali_values = [
+            int(grid) for name, grid in quali_positions.items()
+            if name in started and str(grid).isdigit() and int(grid) > 0
+        ]
+        avg_race[season] = _mean(race_values) if race_values else -1
+        avg_quali[season] = _mean(quali_values) if quali_values else -1
+        gained[season] = {
+            name: int(quali_positions[name]) - int(position)
+            for name, position in race_positions.items()
+            if name in started
+            and str(position).isdigit()
+            and str(quali_positions.get(name)).isdigit()
+            and int(quali_positions[name]) > 0
+        }
+        pole_races = (data.get('poles') or {}).get(season) or []
+        if pole_races:
+            converted = sum(
+                1 for name in pole_races if str(race_positions.get(name)) == '1'
+            )
+            pole_conversion[season] = converted / len(pole_races)
+        else:
+            pole_conversion[season] = -1
+
+    def rate(count, season):
+        return count / starts[season] if starts[season] else 0.0
+
+    total_starts = sum(starts.values())
+    mean_wins, std_wins, cv_wins = _consistency(wins)
+    mean_podiums, std_podiums, cv_podiums = _consistency(podiums)
+    mean_poles, std_poles, cv_poles = _consistency(poles)
+    mean_points, std_points, cv_points = _consistency(points)
+    peak_wins = _peak(wins, seasons)
+    peak_podiums = _peak(podiums, seasons)
+    peak_poles = _peak(poles, seasons)
+
+    data['consistency'] = {
+        'mean': {'wins': mean_wins, 'podiums': mean_podiums, 'poles': mean_poles, 'points': mean_points},
+        'std': {'wins': std_wins, 'podiums': std_podiums, 'poles': std_poles, 'points': std_points},
+        'cv': {'wins': cv_wins, 'podiums': cv_podiums, 'poles': cv_poles, 'points': cv_points},
+    }
+    data['peakSeason'] = {
+        'wins': {'season': peak_wins[0], 'wins': peak_wins[1]},
+        'podiums': {'season': peak_podiums[0], 'podiums': peak_podiums[1]},
+        'poles': {'season': peak_poles[0], 'poles': peak_poles[1]},
+    }
+    data['avgRacePositions'] = avg_race
+    data['avgQualiPositions'] = avg_quali
+    data['rates'] = {
+        'wins': {season: rate(wins[index], season) for index, season in enumerate(seasons)},
+        'podiums': {season: rate(podiums[index], season) for index, season in enumerate(seasons)},
+        'poles': {season: rate(poles[index], season) for index, season in enumerate(seasons)},
+        'DNFs': {season: rate(dnfs[index], season) for index, season in enumerate(seasons)},
+    }
+    data['seasonStarts'] = starts
+    data['totalStarts'] = total_starts
+    data['winRate'] = data.get('totalWins', 0) / total_starts if total_starts else 0.0
+    data['podiumRate'] = data.get('totalPodiums', 0) / total_starts if total_starts else 0.0
+    data['poleRate'] = data.get('totalPoles', 0) / total_starts if total_starts else 0.0
+    data['dnfRate'] = data.get('totalDNFs', 0) / total_starts if total_starts else 0.0
+    data['ptwConRate'] = pole_conversion
+    data['positionsGainLost'] = gained
+    return data
 
 
 def _list_len(value):
@@ -372,31 +500,23 @@ def shrinking_changes(old, new, pole_diff_races):
     return explained, unexplained
 
 
-def preserve_nonempty(old, new):
-    """Never replace an existing value with an empty/missing one."""
-    if not isinstance(old, dict) or not isinstance(new, dict):
-        if _empty(new) and not _empty(old):
-            return old
-        return new
-    merged = dict(new)
-    for key, old_value in old.items():
-        if key not in merged:
-            merged[key] = old_value
-            continue
-        new_value = merged[key]
-        if isinstance(old_value, dict) and isinstance(new_value, dict):
-            merged[key] = preserve_nonempty(old_value, new_value)
-        elif _empty(new_value) and not _empty(old_value):
-            merged[key] = old_value
-    return merged
+def _without_timestamp(data):
+    return {key: value for key, value in data.items() if key != 'lastUpdate'}
 
 
 def rebuild_driver_files(write=True):
+    """Rebuild every driver file from the stored race files.
+
+    This is the daily path: the race files are the source of truth, so each
+    run recomputes everything and only rewrites files whose content changed.
+    Nothing is written when a count shrinks for no known reason.
+    """
     pole_diffs = collect_pole_diffs()
     rebuilt = build_driver_maps()
     explained_all = []
     unexplained_all = []
     written = 0
+    unchanged = 0
     existing_files = {
         name[:-5]
         for name in os.listdir('drivers')
@@ -405,21 +525,15 @@ def rebuild_driver_files(write=True):
     pending = []
     for driver_id, payload in rebuilt.items():
         path = f'drivers/{driver_id}.json'
+        analyse_driver(payload)
         existing = api_update.load_json(path, None)
         if existing:
-            merged = preserve_nonempty(existing, {**existing, **payload})
-            # Additive new keys always come from the rebuild.
-            merged['raceResults'] = payload.get('raceResults', {})
-            merged['sprintResults'] = payload.get('sprintResults', {})
-            for key in (
-                'poles', 'seasonPoles', 'totalPoles',
-                'seasonWins', 'totalWins', 'seasonPodiums', 'totalPodiums',
-                'seasonDNFs', 'totalDNFs', 'podiums', 'DNFs', 'fastLaps',
-                'racePosition', 'qualiPosition', 'posAfterRace',
-                'finalStandings', 'driverQualifyingTimes',
-            ):
-                if key in payload:
-                    merged[key] = payload[key]
+            merged = {**existing, **payload}
+            # Jolpica's Driver object only carries a code and number for
+            # modern drivers; keep the identity fields we already had.
+            for key in ('driverCode', 'driverNumber'):
+                if _empty(payload.get(key)) and not _empty(existing.get(key)):
+                    merged[key] = existing[key]
             explained, unexplained = shrinking_changes(
                 existing, merged, pole_diffs
             )
@@ -435,15 +549,23 @@ def rebuild_driver_files(write=True):
                     'changes': explained,
                 })
             payload = merged
+            if _without_timestamp(payload) == _without_timestamp(existing):
+                unchanged += 1
+                continue
         pending.append((path, payload))
     if write and not unexplained_all:
+        stamp = api_update.dt.now().isoformat()
         for path, payload in pending:
+            payload['lastUpdate'] = stamp
             api_update.write_json_atomic(path, payload)
             written += 1
-    list_rows = rebuild_drivers_list(write=write and not unexplained_all)
+    list_rows = rebuild_drivers_list(
+        write=write and not unexplained_all, keep_ids=set(rebuilt)
+    )
     list_ids = {row.get('driverId') for row in list_rows}
     return {
         'written': written,
+        'unchanged': unchanged,
         'explained': explained_all,
         'unexplained': unexplained_all,
         'poleDiffs': pole_diffs,
@@ -452,6 +574,9 @@ def rebuild_driver_files(write=True):
         'filesNotInList': sorted(existing_files - list_ids),
         'listNotInFiles': sorted(list_ids - existing_files),
         'rebuiltCount': len(rebuilt),
+        # Files no race, sprint, qualifying or standings row produces. They
+        # are stale leftovers and are never rewritten.
+        'orphanFiles': sorted(existing_files - set(rebuilt)),
     }
 
 
@@ -460,13 +585,18 @@ LIST_FIELDS = (
 )
 
 
-def rebuild_drivers_list(write=True):
-    """Rebuild driversList.json from existing entries plus Driver objects in race files."""
+def rebuild_drivers_list(write=True, keep_ids=None):
+    """Rebuild driversList.json from existing entries plus Driver objects in race files.
+
+    With keep_ids (the drivers the rebuild produced), existing entries for
+    anyone else are dropped so the list never points at a driver file that
+    no longer exists.
+    """
     existing = api_update.load_json('driversList.json', [])
     by_id = {}
     for row in existing:
         driver_id = row.get('driverId')
-        if driver_id:
+        if driver_id and (keep_ids is None or driver_id in keep_ids):
             by_id[driver_id] = dict(row)
     for season in api_update.listed_seasons():
         races = api_update.load_json(f'races/{season}/results.json', [])

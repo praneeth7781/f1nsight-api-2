@@ -1,6 +1,6 @@
 {
     "driverId": "purley",
-    "lastUpdate": "2026-10-02T11:47:20.523375",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -226,49 +226,51 @@
     },
     "avgRacePositions": {
         "1973": 18.4,
-        "1974": 26.0,
-        "1977": 21.8
+        "1977": 16.0
     },
     "avgQualiPositions": {
-        "1973": -1,
-        "1974": -1,
-        "1977": -1
+        "1973": 21.2,
+        "1977": 20.0
     },
     "rates": {
         "wins": {
             "1973": 0.0,
-            "1974": 0.0,
             "1977": 0.0
         },
         "podiums": {
             "1973": 0.0,
-            "1974": 0.0,
             "1977": 0.0
         },
         "poles": {
             "1973": 0.0,
-            "1974": 0.0,
             "1977": 0.0
         },
         "DNFs": {
             "1973": 0.6,
-            "1974": 3.0,
-            "1977": 0.6
+            "1977": 0.3333333333333333
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6363636363636364,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1973": -1,
-        "1974": -1,
         "1977": -1
     },
     "positionsGainLost": {
-        "1973": {},
-        "1974": {},
-        "1977": {}
+        "1973": {
+            "Monaco Grand Prix": 3,
+            "British Grand Prix": -13,
+            "Dutch Grand Prix": 2,
+            "German Grand Prix": 7,
+            "Italian Grand Prix": 15
+        },
+        "1977": {
+            "Belgian Grand Prix": 7,
+            "Swedish Grand Prix": 5,
+            "French Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -282,6 +284,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Fuel leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -294,6 +298,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -306,6 +312,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -318,6 +326,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -330,6 +340,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "march",
                 "fastestLapRank": null,
                 "shared": false
@@ -344,6 +356,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lec",
                 "fastestLapRank": null,
                 "shared": false
@@ -356,6 +370,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lec",
                 "fastestLapRank": null,
                 "shared": false
@@ -368,6 +384,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "lec",
                 "fastestLapRank": null,
                 "shared": false
@@ -377,5 +395,10 @@
     "sprintResults": {
         "1973": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1973": 5,
+        "1977": 3
+    },
+    "totalStarts": 8
 }

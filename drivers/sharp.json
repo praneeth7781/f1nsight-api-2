@@ -1,6 +1,6 @@
 {
     "driverId": "sharp",
-    "lastUpdate": "2026-10-02T11:47:20.503282",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -250,10 +250,10 @@
         "1964": 11.5
     },
     "avgQualiPositions": {
-        "1961": -1,
-        "1962": -1,
-        "1963": -1,
-        "1964": -1
+        "1961": 17.0,
+        "1962": 15.0,
+        "1963": 17.0,
+        "1964": 18.5
     },
     "rates": {
         "wins": {
@@ -277,8 +277,8 @@
         "DNFs": {
             "1961": 0.0,
             "1962": 0.0,
-            "1963": 0.0,
-            "1964": 0.0
+            "1963": 0.5,
+            "1964": 0.5
         }
     },
     "winRate": 0.0,
@@ -292,10 +292,20 @@
         "1964": -1
     },
     "positionsGainLost": {
-        "1961": {},
-        "1962": {},
-        "1963": {},
-        "1964": {}
+        "1961": {
+            "United States Grand Prix": 7
+        },
+        "1962": {
+            "United States Grand Prix": 4
+        },
+        "1963": {
+            "United States Grand Prix": -1,
+            "Mexican Grand Prix": 9
+        },
+        "1964": {
+            "United States Grand Prix": 8,
+            "Mexican Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -309,6 +319,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -323,6 +335,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -337,6 +351,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -349,6 +365,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -363,6 +381,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -375,6 +395,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "brabham-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -386,5 +408,12 @@
         "1962": {},
         "1963": {},
         "1964": {}
-    }
+    },
+    "seasonStarts": {
+        "1961": 1,
+        "1962": 1,
+        "1963": 2,
+        "1964": 2
+    },
+    "totalStarts": 6
 }

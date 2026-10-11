@@ -1,6 +1,6 @@
 {
     "driverId": "takahara",
-    "lastUpdate": "2026-10-02T11:47:20.531807",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -150,8 +150,8 @@
         "1977": 22.0
     },
     "avgQualiPositions": {
-        "1976": -1,
-        "1977": -1
+        "1976": 24.0,
+        "1977": 19.0
     },
     "rates": {
         "wins": {
@@ -168,7 +168,7 @@
         },
         "DNFs": {
             "1976": 0.0,
-            "1977": 0.0
+            "1977": 1.0
         }
     },
     "winRate": 0.0,
@@ -180,8 +180,12 @@
         "1977": -1
     },
     "positionsGainLost": {
-        "1976": {},
-        "1977": {}
+        "1976": {
+            "Japanese Grand Prix": 15
+        },
+        "1977": {
+            "Japanese Grand Prix": -3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -195,6 +199,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -209,6 +215,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "kojima",
                 "fastestLapRank": null,
                 "shared": false
@@ -218,5 +226,10 @@
     "sprintResults": {
         "1976": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1976": 1,
+        "1977": 1
+    },
+    "totalStarts": 2
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "enge",
-    "lastUpdate": "2026-10-02T11:47:20.558666",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -128,7 +128,7 @@
         "2001": 15.0
     },
     "avgQualiPositions": {
-        "2001": 21.0
+        "2001": 20.0
     },
     "rates": {
         "wins": {
@@ -153,7 +153,9 @@
     },
     "positionsGainLost": {
         "2001": {
-            "United States Grand Prix": 7
+            "Italian Grand Prix": 8,
+            "United States Grand Prix": 7,
+            "Japanese Grand Prix": 0
         }
     },
     "driverCode": "",
@@ -168,6 +170,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "prost",
                 "fastestLapRank": null,
                 "shared": false
@@ -180,6 +184,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "prost",
                 "fastestLapRank": null,
                 "shared": false
@@ -192,6 +198,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "prost",
                 "fastestLapRank": null,
                 "shared": false
@@ -200,5 +208,9 @@
     },
     "sprintResults": {
         "2001": {}
-    }
+    },
+    "seasonStarts": {
+        "2001": 3
+    },
+    "totalStarts": 3
 }

@@ -2,7 +2,7 @@
     "driverId": "pietro_fittipaldi",
     "driverCode": "FIT",
     "driverNumber": "51",
-    "lastUpdate": "2026-10-02T11:47:20.571214",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -127,7 +127,7 @@
         "2020": 18.0
     },
     "avgQualiPositions": {
-        "2020": 19.5
+        "2020": 18.5
     },
     "rates": {
         "wins": {
@@ -153,7 +153,7 @@
     "positionsGainLost": {
         "2020": {
             "Sakhir Grand Prix": 3,
-            "Abu Dhabi Grand Prix": 0
+            "Abu Dhabi Grand Prix": -2
         }
     },
     "raceResults": {
@@ -166,6 +166,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 17,
                 "shared": false
@@ -178,6 +180,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "haas",
                 "fastestLapRank": 8,
                 "shared": false
@@ -186,5 +190,9 @@
     },
     "sprintResults": {
         "2020": {}
-    }
+    },
+    "seasonStarts": {
+        "2020": 2
+    },
+    "totalStarts": 2
 }

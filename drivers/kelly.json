@@ -1,6 +1,6 @@
 {
     "driverId": "kelly",
-    "lastUpdate": "2026-10-02T11:47:20.450946",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -179,8 +179,8 @@
         "1951": 15.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
+        "1950": 19.0,
+        "1951": 18.0
     },
     "rates": {
         "wins": {
@@ -209,8 +209,12 @@
         "1951": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "British Grand Prix": 6
+        },
+        "1951": {
+            "British Grand Prix": 3
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -224,6 +228,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "alta",
                 "fastestLapRank": null,
                 "shared": false
@@ -238,6 +244,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "alta",
                 "fastestLapRank": null,
                 "shared": false
@@ -247,5 +255,10 @@
     "sprintResults": {
         "1950": {},
         "1951": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 1,
+        "1951": 1
+    },
+    "totalStarts": 2
 }

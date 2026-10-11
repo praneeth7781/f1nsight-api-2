@@ -1,10 +1,10 @@
 {
     "driverId": "manzon",
-    "lastUpdate": "2026-10-02T11:47:20.452933",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 2,
     "totalPoles": 0,
-    "totalDNFs": 18,
+    "totalDNFs": 17,
     "seasonWins": {
         "1950": 0,
         "1951": 0,
@@ -37,7 +37,7 @@
         "1951": 2,
         "1952": 3,
         "1953": 1,
-        "1954": 4,
+        "1954": 3,
         "1955": 3,
         "1956": 3
     },
@@ -82,7 +82,6 @@
         },
         "1954": {
             "British Grand Prix": "Engine",
-            "Swiss Grand Prix": "Accident",
             "Italian Grand Prix": "Engine",
             "Spanish Grand Prix": "Engine"
         },
@@ -558,18 +557,18 @@
         "1951": 12.0,
         "1952": 11.714285714285714,
         "1953": 10.0,
-        "1954": 15.833333333333334,
+        "1954": 15.6,
         "1955": 17.666666666666668,
         "1956": 13.2
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1,
-        "1952": -1,
-        "1953": -1,
-        "1954": -1,
-        "1955": -1,
-        "1956": -1
+        "1950": 11.0,
+        "1951": 13.5,
+        "1952": 4.714285714285714,
+        "1953": 8.0,
+        "1954": 14.2,
+        "1955": 11.666666666666666,
+        "1956": 16.6
     },
     "rates": {
         "wins": {
@@ -586,7 +585,7 @@
             "1951": 0.0,
             "1952": 0.14285714285714285,
             "1953": 0.0,
-            "1954": 0.16666666666666666,
+            "1954": 0.2,
             "1955": 0.0,
             "1956": 0.0
         },
@@ -602,17 +601,17 @@
         "DNFs": {
             "1950": 0.6666666666666666,
             "1951": 0.5,
-            "1952": 0.2857142857142857,
-            "1953": 2.0,
-            "1954": 0.3333333333333333,
-            "1955": 0.6666666666666666,
-            "1956": 0.4
+            "1952": 0.42857142857142855,
+            "1953": 1.0,
+            "1954": 0.6,
+            "1955": 1.0,
+            "1956": 0.6
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.06896551724137931,
+    "podiumRate": 0.07142857142857142,
     "poleRate": 0.0,
-    "dnfRate": 0.6206896551724138,
+    "dnfRate": 0.6071428571428571,
     "ptwConRate": {
         "1950": -1,
         "1951": -1,
@@ -623,13 +622,48 @@
         "1956": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {},
-        "1952": {},
-        "1953": {},
-        "1954": {},
-        "1955": {},
-        "1956": {}
+        "1950": {
+            "Monaco Grand Prix": -3,
+            "French Grand Prix": 8,
+            "Italian Grand Prix": -14
+        },
+        "1951": {
+            "French Grand Prix": 3,
+            "German Grand Prix": 2,
+            "Italian Grand Prix": 1,
+            "Spanish Grand Prix": 0
+        },
+        "1952": {
+            "Swiss Grand Prix": -11,
+            "Belgian Grand Prix": 1,
+            "French Grand Prix": 1,
+            "British Grand Prix": -25,
+            "German Grand Prix": -9,
+            "Dutch Grand Prix": 1,
+            "Italian Grand Prix": -7
+        },
+        "1953": {
+            "Argentine Grand Prix": -2
+        },
+        "1954": {
+            "French Grand Prix": 9,
+            "British Grand Prix": -12,
+            "German Grand Prix": 3,
+            "Italian Grand Prix": -3,
+            "Spanish Grand Prix": -4
+        },
+        "1955": {
+            "Monaco Grand Prix": -3,
+            "Dutch Grand Prix": -2,
+            "British Grand Prix": -13
+        },
+        "1956": {
+            "Monaco Grand Prix": 3,
+            "French Grand Prix": 6,
+            "British Grand Prix": 9,
+            "German Grand Prix": -3,
+            "Italian Grand Prix": 2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -643,6 +677,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -655,6 +691,8 @@
                 "grid": 12,
                 "points": 3.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -667,6 +705,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -681,6 +721,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -693,6 +735,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -705,6 +749,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -717,6 +763,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "simca",
                 "fastestLapRank": null,
                 "shared": false
@@ -731,6 +779,8 @@
                 "grid": 3,
                 "points": 0.0,
                 "status": "Radiator",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -743,6 +793,8 @@
                 "grid": 4,
                 "points": 4.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -755,6 +807,8 @@
                 "grid": 5,
                 "points": 3.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -767,6 +821,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -779,6 +835,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -791,6 +849,8 @@
                 "grid": 6,
                 "points": 2.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -803,6 +863,8 @@
                 "grid": 7,
                 "points": 0.0,
                 "status": "+9 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -817,6 +879,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Wheel",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -831,6 +895,8 @@
                 "grid": 12,
                 "points": 4.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -843,6 +909,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -855,6 +923,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -867,6 +937,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "withdrew",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -879,6 +951,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -891,6 +965,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -905,6 +981,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -917,6 +995,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -929,6 +1009,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "Transmission",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -943,6 +1025,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -955,6 +1039,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -967,6 +1053,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+7 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -979,6 +1067,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -991,6 +1081,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Chassis",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "gordini",
                 "fastestLapRank": null,
                 "shared": false
@@ -1005,5 +1097,15 @@
         "1954": {},
         "1955": {},
         "1956": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 3,
+        "1951": 4,
+        "1952": 7,
+        "1953": 1,
+        "1954": 5,
+        "1955": 3,
+        "1956": 5
+    },
+    "totalStarts": 28
 }

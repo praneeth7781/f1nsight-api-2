@@ -1,10 +1,10 @@
 {
     "driverId": "lavaggi",
-    "lastUpdate": "2026-10-02T11:47:20.554420",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 6,
     "seasonWins": {
         "1995": 0,
         "1996": 0
@@ -19,7 +19,7 @@
     },
     "seasonDNFs": {
         "1995": 4,
-        "1996": 4
+        "1996": 2
     },
     "poles": {
         "1995": [],
@@ -37,10 +37,8 @@
             "Italian Grand Prix": "Spun off"
         },
         "1996": {
-            "German Grand Prix": "Did not qualify",
-            "Belgian Grand Prix": "Did not qualify",
-            "Italian Grand Prix": "Engine",
-            "Japanese Grand Prix": "Did not qualify"
+            "Hungarian Grand Prix": "Spun off",
+            "Italian Grand Prix": "Engine"
         }
     },
     "fastLaps": {
@@ -232,34 +230,51 @@
         }
     },
     "avgRacePositions": {
-        "1952": 9.0
+        "1995": 18.25,
+        "1996": 14.0
     },
     "avgQualiPositions": {
-        "1952": -1
+        "1995": 23.75,
+        "1996": 20.0
     },
     "rates": {
         "wins": {
-            "1952": 0.0
+            "1995": 0.0,
+            "1996": 0.0
         },
         "podiums": {
-            "1952": 0.0
+            "1995": 0.0,
+            "1996": 0.0
         },
         "poles": {
-            "1952": 0.0
+            "1995": 0.0,
+            "1996": 0.0
         },
         "DNFs": {
-            "1952": 0.0
+            "1995": 1.0,
+            "1996": 0.6666666666666666
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.0,
+    "dnfRate": 0.8571428571428571,
     "ptwConRate": {
-        "1952": -1
+        "1995": -1,
+        "1996": -1
     },
     "positionsGainLost": {
-        "1952": {}
+        "1995": {
+            "German Grand Prix": 11,
+            "Hungarian Grand Prix": 1,
+            "Belgian Grand Prix": 7,
+            "Italian Grand Prix": 3
+        },
+        "1996": {
+            "Hungarian Grand Prix": 10,
+            "Italian Grand Prix": 3,
+            "Portuguese Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -273,6 +288,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -285,6 +302,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -297,6 +316,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -309,6 +330,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "pacific",
                 "fastestLapRank": null,
                 "shared": false
@@ -323,6 +346,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -335,6 +360,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -347,6 +374,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -359,6 +388,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -371,6 +402,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -383,6 +416,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "minardi",
                 "fastestLapRank": null,
                 "shared": false
@@ -392,5 +427,10 @@
     "sprintResults": {
         "1995": {},
         "1996": {}
-    }
+    },
+    "seasonStarts": {
+        "1995": 4,
+        "1996": 3
+    },
+    "totalStarts": 7
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "portago",
-    "lastUpdate": "2026-10-02T11:47:20.485482",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 0,
@@ -193,8 +193,8 @@
         "1957": 5.0
     },
     "avgQualiPositions": {
-        "1956": -1,
-        "1957": -1
+        "1956": 10.0,
+        "1957": 10.0
     },
     "rates": {
         "wins": {
@@ -211,7 +211,7 @@
         },
         "DNFs": {
             "1956": 0.75,
-            "1957": 3.0
+            "1957": 0.0
         }
     },
     "winRate": 0.0,
@@ -223,8 +223,15 @@
         "1957": -1
     },
     "positionsGainLost": {
-        "1956": {},
-        "1957": {}
+        "1956": {
+            "French Grand Prix": -7,
+            "British Grand Prix": 10,
+            "German Grand Prix": 1,
+            "Italian Grand Prix": -13
+        },
+        "1957": {
+            "Argentine Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -238,6 +245,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -250,6 +259,8 @@
                 "grid": 12,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": true
@@ -262,6 +273,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -274,6 +287,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Tyre",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -288,6 +303,8 @@
                 "grid": 10,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": true
@@ -297,5 +314,10 @@
     "sprintResults": {
         "1956": {},
         "1957": {}
-    }
+    },
+    "seasonStarts": {
+        "1956": 4,
+        "1957": 1
+    },
+    "totalStarts": 5
 }

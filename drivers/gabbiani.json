@@ -1,10 +1,10 @@
 {
     "driverId": "gabbiani",
-    "lastUpdate": "2026-10-02T11:47:20.535407",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 3,
     "seasonWins": {
         "1978": 0,
         "1981": 0
@@ -18,8 +18,8 @@
         "1981": 0
     },
     "seasonDNFs": {
-        "1978": 2,
-        "1981": 6
+        "1978": 0,
+        "1981": 3
     },
     "poles": {
         "1978": [],
@@ -30,17 +30,11 @@
         "1981": {}
     },
     "DNFs": {
-        "1978": {
-            "United States Grand Prix": "Did not qualify",
-            "Canadian Grand Prix": "Did not qualify"
-        },
+        "1978": {},
         "1981": {
             "United States Grand Prix West": "Accident",
-            "Argentine Grand Prix": "Did not qualify",
             "San Marino Grand Prix": "Collision",
-            "Belgian Grand Prix": "Engine",
-            "French Grand Prix": "Did not qualify",
-            "Austrian Grand Prix": "Did not qualify"
+            "Belgian Grand Prix": "Engine"
         }
     },
     "fastLaps": {
@@ -210,12 +204,12 @@
         }
     },
     "avgRacePositions": {
-        "1978": 25.5,
-        "1981": 25.6
+        "1978": -1,
+        "1981": 17.333333333333332
     },
     "avgQualiPositions": {
         "1978": -1,
-        "1981": -1
+        "1981": 22.0
     },
     "rates": {
         "wins": {
@@ -231,8 +225,8 @@
             "1981": 0.0
         },
         "DNFs": {
-            "1978": 1.0,
-            "1981": 0.13333333333333333
+            "1978": 0.0,
+            "1981": 1.0
         }
     },
     "winRate": 0.0,
@@ -245,7 +239,11 @@
     },
     "positionsGainLost": {
         "1978": {},
-        "1981": {}
+        "1981": {
+            "United States Grand Prix West": 6,
+            "San Marino Grand Prix": 3,
+            "Belgian Grand Prix": 5
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -259,6 +257,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -271,6 +271,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -285,6 +287,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -297,6 +301,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -309,6 +315,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -321,6 +329,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -333,6 +343,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -345,6 +357,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "osella",
                 "fastestLapRank": null,
                 "shared": false
@@ -354,5 +368,10 @@
     "sprintResults": {
         "1978": {},
         "1981": {}
-    }
+    },
+    "seasonStarts": {
+        "1978": 0,
+        "1981": 3
+    },
+    "totalStarts": 3
 }

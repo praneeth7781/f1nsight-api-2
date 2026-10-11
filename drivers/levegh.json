@@ -1,6 +1,6 @@
 {
     "driverId": "levegh",
-    "lastUpdate": "2026-10-02T11:47:20.459376",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -186,8 +186,8 @@
         "1951": 10.333333333333334
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
+        "1950": 13.0,
+        "1951": 17.333333333333332
     },
     "rates": {
         "wins": {
@@ -204,7 +204,7 @@
         },
         "DNFs": {
             "1950": 0.6666666666666666,
-            "1951": 0.6666666666666666
+            "1951": 0.3333333333333333
         }
     },
     "winRate": 0.0,
@@ -216,8 +216,16 @@
         "1951": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "Belgian Grand Prix": 3,
+            "French Grand Prix": 0,
+            "Italian Grand Prix": 6
+        },
+        "1951": {
+            "Belgian Grand Prix": 5,
+            "German Grand Prix": 10,
+            "Italian Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -231,6 +239,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -243,6 +253,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -255,6 +267,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -269,6 +283,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -281,6 +297,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -293,6 +311,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -302,5 +322,10 @@
     "sprintResults": {
         "1950": {},
         "1951": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 3,
+        "1951": 3
+    },
+    "totalStarts": 6
 }

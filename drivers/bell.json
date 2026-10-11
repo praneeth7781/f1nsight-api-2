@@ -1,10 +1,10 @@
 {
     "driverId": "bell",
-    "lastUpdate": "2026-10-02T11:47:20.516638",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 7,
     "seasonWins": {
         "1968": 0,
         "1969": 0,
@@ -34,7 +34,7 @@
         "1969": 1,
         "1970": 1,
         "1971": 1,
-        "1972": 3,
+        "1972": 2,
         "1974": 0
     },
     "poles": {
@@ -69,7 +69,6 @@
         },
         "1972": {
             "German Grand Prix": "Engine",
-            "Italian Grand Prix": "Did not qualify",
             "United States Grand Prix": "Engine"
         },
         "1974": {}
@@ -419,16 +418,16 @@
         "1969": 16.0,
         "1970": 11.5,
         "1971": 20.0,
-        "1972": 27.666666666666668,
-        "1974": 24.2
+        "1972": 28.0,
+        "1974": 11.0
     },
     "avgQualiPositions": {
-        "1968": -1,
-        "1969": -1,
-        "1970": -1,
-        "1971": -1,
-        "1972": -1,
-        "1974": -1
+        "1968": 11.5,
+        "1969": 15.0,
+        "1970": 14.0,
+        "1971": 23.0,
+        "1972": 27.0,
+        "1974": 25.0
     },
     "rates": {
         "wins": {
@@ -457,17 +456,17 @@
         },
         "DNFs": {
             "1968": 1.0,
-            "1969": 2.0,
-            "1970": 1.0,
-            "1971": 2.0,
-            "1972": 0.6666666666666666,
-            "1974": 0.4
+            "1969": 1.0,
+            "1970": 0.5,
+            "1971": 1.0,
+            "1972": 1.0,
+            "1974": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8571428571428571,
+    "dnfRate": 0.7777777777777778,
     "ptwConRate": {
         "1968": -1,
         "1969": -1,
@@ -477,12 +476,27 @@
         "1974": -1
     },
     "positionsGainLost": {
-        "1968": {},
-        "1969": {},
-        "1970": {},
-        "1971": {},
-        "1972": {},
-        "1974": {}
+        "1968": {
+            "Italian Grand Prix": -11,
+            "United States Grand Prix": -4
+        },
+        "1969": {
+            "British Grand Prix": -1
+        },
+        "1970": {
+            "Belgian Grand Prix": -2,
+            "United States Grand Prix": 7
+        },
+        "1971": {
+            "British Grand Prix": 3
+        },
+        "1972": {
+            "German Grand Prix": 0,
+            "United States Grand Prix": -2
+        },
+        "1974": {
+            "German Grand Prix": 14
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -496,6 +510,8 @@
                 "grid": 8,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -508,6 +524,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -522,6 +540,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "mclaren-ford",
                 "fastestLapRank": null,
                 "shared": false
@@ -536,6 +556,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "brabham",
                 "fastestLapRank": null,
                 "shared": false
@@ -548,6 +570,8 @@
                 "grid": 13,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -562,6 +586,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -576,6 +602,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tecno",
                 "fastestLapRank": null,
                 "shared": false
@@ -588,6 +616,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "tecno",
                 "fastestLapRank": null,
                 "shared": false
@@ -600,6 +630,8 @@
                 "grid": 29,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "tecno",
                 "fastestLapRank": null,
                 "shared": false
@@ -614,6 +646,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "surtees",
                 "fastestLapRank": null,
                 "shared": false
@@ -627,5 +661,14 @@
         "1971": {},
         "1972": {},
         "1974": {}
-    }
+    },
+    "seasonStarts": {
+        "1968": 2,
+        "1969": 1,
+        "1970": 2,
+        "1971": 1,
+        "1972": 2,
+        "1974": 1
+    },
+    "totalStarts": 9
 }

@@ -1,10 +1,10 @@
 {
     "driverId": "scarfiotti",
-    "lastUpdate": "2026-10-02T11:47:20.507082",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 1,
     "totalPodiums": 1,
     "totalPoles": 0,
-    "totalDNFs": 7,
+    "totalDNFs": 4,
     "seasonWins": {
         "1963": 0,
         "1964": 0,
@@ -30,9 +30,9 @@
         "1968": 0
     },
     "seasonDNFs": {
-        "1963": 2,
+        "1963": 0,
         "1964": 0,
-        "1965": 1,
+        "1965": 0,
         "1966": 1,
         "1967": 2,
         "1968": 1
@@ -56,14 +56,9 @@
         "1968": {}
     },
     "DNFs": {
-        "1963": {
-            "Belgian Grand Prix": "Withdrew",
-            "French Grand Prix": "Withdrew"
-        },
+        "1963": {},
         "1964": {},
-        "1965": {
-            "Mexican Grand Prix": "Withdrew"
-        },
+        "1965": {},
         "1966": {
             "German Grand Prix": "Electrical"
         },
@@ -431,20 +426,20 @@
         }
     },
     "avgRacePositions": {
-        "1963": 16.0,
+        "1963": 6.0,
         "1964": 9.0,
-        "1965": 19.0,
+        "1965": -1,
         "1966": 6.5,
         "1967": 11.333333333333334,
         "1968": 10.333333333333334
     },
     "avgQualiPositions": {
-        "1963": -1,
-        "1964": -1,
+        "1963": 11.0,
+        "1964": 16.0,
         "1965": -1,
-        "1966": -1,
-        "1967": -1,
-        "1968": -1
+        "1966": 3.0,
+        "1967": 11.333333333333334,
+        "1968": 14.0
     },
     "rates": {
         "wins": {
@@ -472,18 +467,18 @@
             "1968": 0.0
         },
         "DNFs": {
-            "1963": 0.6666666666666666,
-            "1964": 2.0,
-            "1965": 2.0,
-            "1966": 1.0,
+            "1963": 0.0,
+            "1964": 0.0,
+            "1965": 0.0,
+            "1966": 0.5,
             "1967": 0.6666666666666666,
-            "1968": 0.6666666666666666
+            "1968": 0.3333333333333333
         }
     },
-    "winRate": 0.07692307692307693,
-    "podiumRate": 0.07692307692307693,
+    "winRate": 0.1,
+    "podiumRate": 0.1,
     "poleRate": 0.0,
-    "dnfRate": 0.5384615384615384,
+    "dnfRate": 0.4,
     "ptwConRate": {
         "1963": -1,
         "1964": -1,
@@ -493,12 +488,27 @@
         "1968": -1
     },
     "positionsGainLost": {
-        "1963": {},
-        "1964": {},
+        "1963": {
+            "Dutch Grand Prix": 5
+        },
+        "1964": {
+            "Italian Grand Prix": 7
+        },
         "1965": {},
-        "1966": {},
-        "1967": {},
-        "1968": {}
+        "1966": {
+            "German Grand Prix": -8,
+            "Italian Grand Prix": 1
+        },
+        "1967": {
+            "Dutch Grand Prix": 9,
+            "Belgian Grand Prix": -2,
+            "Italian Grand Prix": -7
+        },
+        "1968": {
+            "South African Grand Prix": -8,
+            "Spanish Grand Prix": 8,
+            "Monaco Grand Prix": 11
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -512,6 +522,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -524,6 +536,8 @@
                 "grid": 11,
                 "points": 1.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -536,6 +550,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -550,6 +566,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -564,6 +582,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -578,6 +598,8 @@
                 "grid": 4,
                 "points": 0.0,
                 "status": "Electrical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -590,6 +612,8 @@
                 "grid": 2,
                 "points": 9.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -604,6 +628,8 @@
                 "grid": 15,
                 "points": 1.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -616,6 +642,8 @@
                 "grid": 9,
                 "points": 0.0,
                 "status": "Not classified",
+                "outcome": "retired",
+                "cause": "unknown",
                 "constructorId": "ferrari",
                 "fastestLapRank": null,
                 "shared": false
@@ -628,6 +656,8 @@
                 "grid": 10,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "eagle-weslake",
                 "fastestLapRank": null,
                 "shared": false
@@ -642,6 +672,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Water pipe",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -654,6 +686,8 @@
                 "grid": 12,
                 "points": 3.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -666,6 +700,8 @@
                 "grid": 15,
                 "points": 3.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "cooper-brm",
                 "fastestLapRank": null,
                 "shared": false
@@ -679,5 +715,14 @@
         "1966": {},
         "1967": {},
         "1968": {}
-    }
+    },
+    "seasonStarts": {
+        "1963": 1,
+        "1964": 1,
+        "1965": 0,
+        "1966": 2,
+        "1967": 3,
+        "1968": 3
+    },
+    "totalStarts": 10
 }

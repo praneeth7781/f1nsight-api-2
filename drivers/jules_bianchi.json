@@ -2,11 +2,11 @@
     "driverId": "jules_bianchi",
     "driverCode": "BIA",
     "driverNumber": "17",
-    "lastUpdate": "2026-10-02T11:47:20.566972",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 7,
     "seasonWins": {
         "2013": 0,
         "2014": 0
@@ -21,7 +21,7 @@
     },
     "seasonDNFs": {
         "2013": 3,
-        "2014": 2
+        "2014": 4
     },
     "poles": {
         "2013": [],
@@ -39,7 +39,9 @@
         },
         "2014": {
             "Malaysian Grand Prix": "Brakes",
-            "Canadian Grand Prix": "Collision"
+            "Canadian Grand Prix": "Collision",
+            "Belgian Grand Prix": "Gearbox",
+            "Japanese Grand Prix": "Accident"
         }
     },
     "fastLaps": {
@@ -533,8 +535,8 @@
         "2014": 16.466666666666665
     },
     "avgQualiPositions": {
-        "2013": 19.94736842105263,
-        "2014": 18.2
+        "2013": 19.63157894736842,
+        "2014": 17.8
     },
     "rates": {
         "wins": {
@@ -551,7 +553,7 @@
         },
         "DNFs": {
             "2013": 0.15789473684210525,
-            "2014": 0.2
+            "2014": 0.26666666666666666
         }
     },
     "winRate": 0.0,
@@ -566,40 +568,40 @@
         "2013": {
             "Australian Grand Prix": 4,
             "Malaysian Grand Prix": 6,
-            "Chinese Grand Prix": 4,
-            "Bahrain Grand Prix": 1,
+            "Chinese Grand Prix": 3,
+            "Bahrain Grand Prix": 0,
             "Spanish Grand Prix": 2,
-            "Monaco Grand Prix": 2,
-            "Canadian Grand Prix": 3,
-            "British Grand Prix": 4,
-            "German Grand Prix": -1,
+            "Monaco Grand Prix": 1,
+            "Canadian Grand Prix": 2,
+            "British Grand Prix": 3,
+            "German Grand Prix": -2,
             "Hungarian Grand Prix": 5,
             "Belgian Grand Prix": -3,
             "Italian Grand Prix": 2,
             "Singapore Grand Prix": 3,
-            "Korean Grand Prix": 5,
-            "Japanese Grand Prix": 0,
+            "Korean Grand Prix": 6,
+            "Japanese Grand Prix": -1,
             "Indian Grand Prix": 1,
-            "Abu Dhabi Grand Prix": 0,
-            "United States Grand Prix": 2,
+            "Abu Dhabi Grand Prix": 1,
+            "United States Grand Prix": 1,
             "Brazilian Grand Prix": 4
         },
         "2014": {
             "Australian Grand Prix": 4,
             "Malaysian Grand Prix": -1,
-            "Bahrain Grand Prix": 4,
+            "Bahrain Grand Prix": 3,
             "Chinese Grand Prix": 2,
-            "Spanish Grand Prix": 1,
-            "Monaco Grand Prix": 10,
+            "Spanish Grand Prix": 0,
+            "Monaco Grand Prix": 12,
             "Canadian Grand Prix": -3,
-            "Austrian Grand Prix": 4,
+            "Austrian Grand Prix": 3,
             "British Grand Prix": -2,
-            "German Grand Prix": 3,
-            "Hungarian Grand Prix": 1,
+            "German Grand Prix": 2,
+            "Hungarian Grand Prix": 0,
             "Belgian Grand Prix": -2,
-            "Italian Grand Prix": 2,
+            "Italian Grand Prix": 1,
             "Singapore Grand Prix": 3,
-            "Japanese Grand Prix": 0
+            "Japanese Grand Prix": -2
         }
     },
     "raceResults": {
@@ -612,6 +614,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 11,
                 "shared": false
@@ -624,6 +628,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 14,
                 "shared": false
@@ -636,6 +642,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 15,
                 "shared": false
@@ -648,6 +656,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 14,
                 "shared": false
@@ -660,6 +670,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 18,
                 "shared": false
@@ -672,6 +684,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "marussia",
                 "fastestLapRank": 18,
                 "shared": false
@@ -684,6 +698,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 17,
                 "shared": false
@@ -696,6 +712,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 19,
                 "shared": false
@@ -708,6 +726,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Engine",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "marussia",
                 "fastestLapRank": 22,
                 "shared": false
@@ -720,6 +740,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -732,6 +754,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -744,6 +768,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -756,6 +782,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -768,6 +796,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -780,6 +810,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "marussia",
                 "fastestLapRank": null,
                 "shared": false
@@ -792,6 +824,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 19,
                 "shared": false
@@ -804,6 +838,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -816,6 +852,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 18,
                 "shared": false
@@ -828,6 +866,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -842,6 +882,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 16,
                 "shared": false
@@ -854,6 +896,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Brakes",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "marussia",
                 "fastestLapRank": 21,
                 "shared": false
@@ -866,6 +910,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 22,
                 "shared": false
@@ -878,6 +924,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 21,
                 "shared": false
@@ -890,6 +938,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -902,6 +952,8 @@
                 "grid": 21,
                 "points": 2.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 16,
                 "shared": false
@@ -914,6 +966,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "marussia",
                 "fastestLapRank": null,
                 "shared": false
@@ -926,6 +980,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 19,
                 "shared": false
@@ -938,6 +994,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 14,
                 "shared": false
@@ -950,6 +1008,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 16,
                 "shared": false
@@ -962,6 +1022,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 16,
                 "shared": false
@@ -974,6 +1036,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Gearbox",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -986,6 +1050,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -998,6 +1064,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "marussia",
                 "fastestLapRank": 14,
                 "shared": false
@@ -1010,6 +1078,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "marussia",
                 "fastestLapRank": 20,
                 "shared": false
@@ -1019,5 +1089,10 @@
     "sprintResults": {
         "2013": {},
         "2014": {}
-    }
+    },
+    "seasonStarts": {
+        "2013": 19,
+        "2014": 15
+    },
+    "totalStarts": 34
 }

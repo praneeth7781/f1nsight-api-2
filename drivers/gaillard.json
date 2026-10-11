@@ -1,10 +1,10 @@
 {
     "driverId": "gaillard",
-    "lastUpdate": "2026-10-02T11:47:20.535994",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 4,
+    "totalDNFs": 1,
     "seasonWins": {
         "1979": 0
     },
@@ -15,7 +15,7 @@
         "1979": 0
     },
     "seasonDNFs": {
-        "1979": 4
+        "1979": 1
     },
     "poles": {
         "1979": []
@@ -25,10 +25,7 @@
     },
     "DNFs": {
         "1979": {
-            "French Grand Prix": "Did not qualify",
-            "German Grand Prix": "Did not qualify",
-            "Austrian Grand Prix": "Suspension",
-            "Dutch Grand Prix": "Did not qualify"
+            "Austrian Grand Prix": "Suspension"
         }
     },
     "fastLaps": {
@@ -140,10 +137,10 @@
         }
     },
     "avgRacePositions": {
-        "1979": 20.2
+        "1979": 12.5
     },
     "avgQualiPositions": {
-        "1979": -1
+        "1979": 23.5
     },
     "rates": {
         "wins": {
@@ -156,18 +153,21 @@
             "1979": 0.0
         },
         "DNFs": {
-            "1979": 0.8
+            "1979": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1979": -1
     },
     "positionsGainLost": {
-        "1979": {}
+        "1979": {
+            "British Grand Prix": 10,
+            "Austrian Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -181,6 +181,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -193,6 +195,8 @@
                 "grid": 23,
                 "points": 0.0,
                 "status": "+3 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -205,6 +209,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -217,6 +223,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -229,6 +237,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -237,5 +247,9 @@
     },
     "sprintResults": {
         "1979": {}
-    }
+    },
+    "seasonStarts": {
+        "1979": 2
+    },
+    "totalStarts": 2
 }

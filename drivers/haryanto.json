@@ -2,7 +2,7 @@
     "driverId": "haryanto",
     "driverCode": "HAR",
     "driverNumber": "88",
-    "lastUpdate": "2026-10-02T11:47:20.569193",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -268,7 +268,7 @@
         "2016": 18.666666666666668
     },
     "avgQualiPositions": {
-        "2016": 20.166666666666668
+        "2016": 19.833333333333332
     },
     "rates": {
         "wins": {
@@ -293,18 +293,18 @@
     },
     "positionsGainLost": {
         "2016": {
-            "Australian Grand Prix": 2,
-            "Bahrain Grand Prix": 4,
+            "Australian Grand Prix": 3,
+            "Bahrain Grand Prix": 3,
             "Chinese Grand Prix": -1,
             "Russian Grand Prix": -1,
             "Spanish Grand Prix": 5,
             "Monaco Grand Prix": 4,
-            "Canadian Grand Prix": 2,
-            "European Grand Prix": -1,
-            "Austrian Grand Prix": 3,
+            "Canadian Grand Prix": 0,
+            "European Grand Prix": -2,
+            "Austrian Grand Prix": 4,
             "British Grand Prix": 0,
-            "Hungarian Grand Prix": 1,
-            "German Grand Prix": 0
+            "Hungarian Grand Prix": 0,
+            "German Grand Prix": -1
         }
     },
     "raceResults": {
@@ -317,6 +317,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "Mechanical",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "manor",
                 "fastestLapRank": 20,
                 "shared": false
@@ -329,6 +331,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 13,
                 "shared": false
@@ -341,6 +345,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 18,
                 "shared": false
@@ -353,6 +359,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "manor",
                 "fastestLapRank": null,
                 "shared": false
@@ -365,6 +373,8 @@
                 "grid": 22,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 10,
                 "shared": false
@@ -377,6 +387,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+4 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 13,
                 "shared": false
@@ -389,6 +401,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 20,
                 "shared": false
@@ -401,6 +415,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 21,
                 "shared": false
@@ -413,6 +429,8 @@
                 "grid": 20,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 15,
                 "shared": false
@@ -425,6 +443,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "Spun off",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "manor",
                 "fastestLapRank": 19,
                 "shared": false
@@ -437,6 +457,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 22,
                 "shared": false
@@ -449,6 +471,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "manor",
                 "fastestLapRank": 22,
                 "shared": false
@@ -457,5 +481,9 @@
     },
     "sprintResults": {
         "2016": {}
-    }
+    },
+    "seasonStarts": {
+        "2016": 12
+    },
+    "totalStarts": 12
 }

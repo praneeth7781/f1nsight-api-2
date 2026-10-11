@@ -1,6 +1,6 @@
 {
     "driverId": "crook",
-    "lastUpdate": "2026-10-02T11:47:20.470563",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -168,8 +168,8 @@
         "1953": 27.0
     },
     "avgQualiPositions": {
-        "1952": -1,
-        "1953": -1
+        "1952": 25.0,
+        "1953": 25.0
     },
     "rates": {
         "wins": {
@@ -186,7 +186,7 @@
         },
         "DNFs": {
             "1952": 0.0,
-            "1953": 0.0
+            "1953": 1.0
         }
     },
     "winRate": 0.0,
@@ -198,8 +198,12 @@
         "1953": -1
     },
     "positionsGainLost": {
-        "1952": {},
-        "1953": {}
+        "1952": {
+            "British Grand Prix": 4
+        },
+        "1953": {
+            "British Grand Prix": -2
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -213,6 +217,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "+10 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "frazer_nash",
                 "fastestLapRank": null,
                 "shared": false
@@ -227,6 +233,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Fuel system",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "cooper",
                 "fastestLapRank": null,
                 "shared": false
@@ -236,5 +244,10 @@
     "sprintResults": {
         "1952": {},
         "1953": {}
-    }
+    },
+    "seasonStarts": {
+        "1952": 1,
+        "1953": 1
+    },
+    "totalStarts": 2
 }

@@ -1,6 +1,6 @@
 {
     "driverId": "hoshino",
-    "lastUpdate": "2026-10-02T11:47:20.532097",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -150,8 +150,8 @@
         "1977": 11.0
     },
     "avgQualiPositions": {
-        "1976": -1,
-        "1977": -1
+        "1976": 21.0,
+        "1977": 11.0
     },
     "rates": {
         "wins": {
@@ -168,7 +168,7 @@
         },
         "DNFs": {
             "1976": 1.0,
-            "1977": 1.0
+            "1977": 0.0
         }
     },
     "winRate": 0.0,
@@ -180,8 +180,12 @@
         "1977": -1
     },
     "positionsGainLost": {
-        "1976": {},
-        "1977": {}
+        "1976": {
+            "Japanese Grand Prix": 2
+        },
+        "1977": {
+            "Japanese Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -195,6 +199,8 @@
                 "grid": 21,
                 "points": 0.0,
                 "status": "Tyre",
+                "outcome": "retired",
+                "cause": "tyre",
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -209,6 +215,8 @@
                 "grid": 11,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "kojima",
                 "fastestLapRank": null,
                 "shared": false
@@ -218,5 +226,10 @@
     "sprintResults": {
         "1976": {},
         "1977": {}
-    }
+    },
+    "seasonStarts": {
+        "1976": 1,
+        "1977": 1
+    },
+    "totalStarts": 2
 }

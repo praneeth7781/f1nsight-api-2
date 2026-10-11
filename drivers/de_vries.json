@@ -2,11 +2,11 @@
     "driverId": "de_vries",
     "driverCode": "DEV",
     "driverNumber": "21",
-    "lastUpdate": "2026-10-02T11:47:20.571974",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 1,
+    "totalDNFs": 2,
     "seasonWins": {
         "2022": 0,
         "2023": 0
@@ -21,7 +21,7 @@
     },
     "seasonDNFs": {
         "2022": 0,
-        "2023": 1
+        "2023": 2
     },
     "poles": {
         "2022": [],
@@ -34,6 +34,7 @@
     "DNFs": {
         "2022": {},
         "2023": {
+            "Australian Grand Prix": "Collision",
             "Azerbaijan Grand Prix": "Accident"
         }
     },
@@ -317,8 +318,8 @@
         "2023": 15.9
     },
     "avgQualiPositions": {
-        "2022": 13.0,
-        "2023": 17.0
+        "2022": 8.0,
+        "2023": 16.22222222222222
     },
     "rates": {
         "wins": {
@@ -335,7 +336,7 @@
         },
         "DNFs": {
             "2022": 0.0,
-            "2023": 0.0
+            "2023": 0.2
         }
     },
     "winRate": 0.0,
@@ -348,19 +349,18 @@
     },
     "positionsGainLost": {
         "2022": {
-            "Italian Grand Prix": 4
+            "Italian Grand Prix": -1
         },
         "2023": {
             "Bahrain Grand Prix": 5,
             "Saudi Arabian Grand Prix": 4,
             "Australian Grand Prix": 0,
-            "Azerbaijan Grand Prix": 0,
+            "Azerbaijan Grand Prix": -2,
             "Miami Grand Prix": -3,
             "Monaco Grand Prix": 0,
             "Spanish Grand Prix": 0,
-            "Canadian Grand Prix": 0,
-            "Austrian Grand Prix": 3,
-            "British Grand Prix": 2
+            "Canadian Grand Prix": -1,
+            "British Grand Prix": 1
         }
     },
     "raceResults": {
@@ -373,6 +373,8 @@
                 "grid": 8,
                 "points": 2.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": 13,
                 "shared": false
@@ -387,6 +389,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alphatauri",
                 "fastestLapRank": 19,
                 "shared": false
@@ -399,6 +403,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "alphatauri",
                 "fastestLapRank": 11,
                 "shared": false
@@ -411,6 +417,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "alphatauri",
                 "fastestLapRank": 10,
                 "shared": false
@@ -423,6 +431,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "alphatauri",
                 "fastestLapRank": 20,
                 "shared": false
@@ -435,6 +445,8 @@
                 "grid": 15,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "alphatauri",
                 "fastestLapRank": 12,
                 "shared": false
@@ -447,6 +459,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alphatauri",
                 "fastestLapRank": 15,
                 "shared": false
@@ -459,6 +473,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alphatauri",
                 "fastestLapRank": 12,
                 "shared": false
@@ -471,6 +487,8 @@
                 "grid": 17,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alphatauri",
                 "fastestLapRank": 13,
                 "shared": false
@@ -483,6 +501,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "alphatauri",
                 "fastestLapRank": 16,
                 "shared": false
@@ -495,6 +515,8 @@
                 "grid": 18,
                 "points": 0.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "alphatauri",
                 "fastestLapRank": 18,
                 "shared": false
@@ -519,5 +541,10 @@
                 "constructorId": "alphatauri"
             }
         }
-    }
+    },
+    "seasonStarts": {
+        "2022": 1,
+        "2023": 10
+    },
+    "totalStarts": 11
 }

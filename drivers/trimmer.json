@@ -1,10 +1,10 @@
 {
     "driverId": "trimmer",
-    "lastUpdate": "2026-10-02T11:47:20.529117",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 0,
     "seasonWins": {
         "1975": 0,
         "1976": 0
@@ -18,8 +18,8 @@
         "1976": 0
     },
     "seasonDNFs": {
-        "1975": 2,
-        "1976": 1
+        "1975": 0,
+        "1976": 0
     },
     "poles": {
         "1975": [],
@@ -30,13 +30,8 @@
         "1976": {}
     },
     "DNFs": {
-        "1975": {
-            "German Grand Prix": "Did not qualify",
-            "Italian Grand Prix": "Did not qualify"
-        },
-        "1976": {
-            "Japanese Grand Prix": "Did not qualify"
-        }
+        "1975": {},
+        "1976": {}
     },
     "fastLaps": {
         "1975": {
@@ -144,58 +139,42 @@
         }
     },
     "avgRacePositions": {
-        "1975": 27.666666666666668,
-        "1976": 26.0,
-        "1977": 34.0,
-        "1978": 30.0
+        "1975": -1,
+        "1976": -1
     },
     "avgQualiPositions": {
         "1975": -1,
-        "1976": -1,
-        "1977": -1,
-        "1978": -1
+        "1976": -1
     },
     "rates": {
         "wins": {
             "1975": 0.0,
-            "1976": 0.0,
-            "1977": 0.0,
-            "1978": 0.0
+            "1976": 0.0
         },
         "podiums": {
             "1975": 0.0,
-            "1976": 0.0,
-            "1977": 0.0,
-            "1978": 0.0
+            "1976": 0.0
         },
         "poles": {
             "1975": 0.0,
-            "1976": 0.0,
-            "1977": 0.0,
-            "1978": 0.0
+            "1976": 0.0
         },
         "DNFs": {
-            "1975": 1.0,
-            "1976": 3.0,
-            "1977": 3.0,
-            "1978": 3.0
+            "1975": 0.0,
+            "1976": 0.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 1.0,
+    "dnfRate": 0.0,
     "ptwConRate": {
         "1975": -1,
-        "1976": -1,
-        "1977": -1,
-        "1978": -1
+        "1976": -1
     },
     "positionsGainLost": {
         "1975": {},
-        "1976": {},
-        "1977": {},
-        "1978": {}
+        "1976": {}
     },
     "driverCode": "",
     "driverNumber": "",
@@ -209,6 +188,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "maki",
                 "fastestLapRank": null,
                 "shared": false
@@ -221,6 +202,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "maki",
                 "fastestLapRank": null,
                 "shared": false
@@ -235,6 +218,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "maki",
                 "fastestLapRank": null,
                 "shared": false
@@ -244,5 +229,10 @@
     "sprintResults": {
         "1975": {},
         "1976": {}
-    }
+    },
+    "seasonStarts": {
+        "1975": 0,
+        "1976": 0
+    },
+    "totalStarts": 0
 }

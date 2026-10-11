@@ -1,10 +1,10 @@
 {
     "driverId": "mitter",
-    "lastUpdate": "2026-10-02T11:47:20.507242",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 3,
+    "totalDNFs": 2,
     "seasonWins": {
         "1963": 0,
         "1964": 0,
@@ -21,7 +21,7 @@
         "1965": 0
     },
     "seasonDNFs": {
-        "1963": 2,
+        "1963": 1,
         "1964": 0,
         "1965": 1
     },
@@ -37,8 +37,7 @@
     },
     "DNFs": {
         "1963": {
-            "Dutch Grand Prix": "Clutch",
-            "Italian Grand Prix": "Withdrew"
+            "Dutch Grand Prix": "Clutch"
         },
         "1964": {},
         "1965": {
@@ -236,14 +235,14 @@
         }
     },
     "avgRacePositions": {
-        "1963": 17.333333333333332,
+        "1963": 11.5,
         "1964": 9.0,
         "1965": 12.0
     },
     "avgQualiPositions": {
-        "1963": -1,
-        "1964": -1,
-        "1965": -1
+        "1963": 15.5,
+        "1964": 19.0,
+        "1965": 12.0
     },
     "rates": {
         "wins": {
@@ -262,24 +261,31 @@
             "1965": 0.0
         },
         "DNFs": {
-            "1963": 0.6666666666666666,
-            "1964": 2.0,
-            "1965": 2.0
+            "1963": 0.5,
+            "1964": 0.0,
+            "1965": 1.0
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.6,
+    "dnfRate": 0.5,
     "ptwConRate": {
         "1963": -1,
         "1964": -1,
         "1965": -1
     },
     "positionsGainLost": {
-        "1963": {},
-        "1964": {},
-        "1965": {}
+        "1963": {
+            "Dutch Grand Prix": -3,
+            "German Grand Prix": 11
+        },
+        "1964": {
+            "German Grand Prix": 10
+        },
+        "1965": {
+            "German Grand Prix": 0
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -293,6 +299,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "Clutch",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -305,6 +313,8 @@
                 "grid": 15,
                 "points": 3.0,
                 "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -317,6 +327,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Withdrew",
+                "outcome": "withdrew",
+                "cause": null,
                 "constructorId": "porsche",
                 "fastestLapRank": null,
                 "shared": false
@@ -331,6 +343,8 @@
                 "grid": 19,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -345,6 +359,8 @@
                 "grid": 12,
                 "points": 0.0,
                 "status": "Water leak",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lotus-climax",
                 "fastestLapRank": null,
                 "shared": false
@@ -355,5 +371,11 @@
         "1963": {},
         "1964": {},
         "1965": {}
-    }
+    },
+    "seasonStarts": {
+        "1963": 2,
+        "1964": 1,
+        "1965": 1
+    },
+    "totalStarts": 4
 }

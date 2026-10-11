@@ -1,10 +1,10 @@
 {
     "driverId": "lees",
-    "lastUpdate": "2026-10-02T11:47:20.536133",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 8,
+    "totalDNFs": 3,
     "seasonWins": {
         "1979": 0,
         "1980": 0,
@@ -22,7 +22,7 @@
     },
     "seasonDNFs": {
         "1979": 0,
-        "1980": 7,
+        "1980": 2,
         "1982": 1
     },
     "poles": {
@@ -38,13 +38,8 @@
     "DNFs": {
         "1979": {},
         "1980": {
-            "United States Grand Prix West": "Did not qualify",
-            "Belgian Grand Prix": "Did not qualify",
-            "Monaco Grand Prix": "Did not qualify",
-            "French Grand Prix": "Did not qualify",
-            "Dutch Grand Prix": "Accident",
-            "Italian Grand Prix": "Did not qualify",
-            "United States Grand Prix": "Did not qualify"
+            "South African Grand Prix": "Suspension",
+            "Dutch Grand Prix": "Accident"
         },
         "1982": {
             "Canadian Grand Prix": "Collision"
@@ -289,58 +284,58 @@
         }
     },
     "avgRacePositions": {
-        "1978": 29.0,
         "1979": 7.0,
-        "1980": 23.125,
+        "1980": 15.5,
         "1982": 19.0
     },
     "avgQualiPositions": {
-        "1978": -1,
-        "1979": -1,
-        "1980": -1,
-        "1982": -1
+        "1979": 16.0,
+        "1980": 24.0,
+        "1982": 24.5
     },
     "rates": {
         "wins": {
-            "1978": 0.0,
             "1979": 0.0,
             "1980": 0.0,
             "1982": 0.0
         },
         "podiums": {
-            "1978": 0.0,
             "1979": 0.0,
             "1980": 0.0,
             "1982": 0.0
         },
         "poles": {
-            "1978": 0.0,
             "1979": 0.0,
             "1980": 0.0,
             "1982": 0.0
         },
         "DNFs": {
-            "1978": 1.0,
-            "1979": 1.0,
-            "1980": 0.125,
+            "1979": 0.0,
+            "1980": 1.0,
             "1982": 0.5
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.8333333333333334,
+    "dnfRate": 0.6,
     "ptwConRate": {
-        "1978": -1,
         "1979": -1,
         "1980": -1,
         "1982": -1
     },
     "positionsGainLost": {
-        "1978": {},
-        "1979": {},
-        "1980": {},
-        "1982": {}
+        "1979": {
+            "German Grand Prix": 9
+        },
+        "1980": {
+            "South African Grand Prix": 11,
+            "Dutch Grand Prix": 6
+        },
+        "1982": {
+            "Canadian Grand Prix": -1,
+            "French Grand Prix": 12
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -354,6 +349,8 @@
                 "grid": 16,
                 "points": 0.0,
                 "status": "+1 Lap",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "tyrrell",
                 "fastestLapRank": null,
                 "shared": false
@@ -368,6 +365,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Suspension",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -380,6 +379,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -392,6 +393,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -404,6 +407,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -416,6 +421,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "shadow",
                 "fastestLapRank": null,
                 "shared": false
@@ -428,6 +435,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "Accident",
+                "outcome": "retired",
+                "cause": "accident",
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -440,6 +449,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "ensign",
                 "fastestLapRank": null,
                 "shared": false
@@ -452,6 +463,8 @@
                 "grid": 0,
                 "points": 0.0,
                 "status": "Did not qualify",
+                "outcome": "dnq",
+                "cause": null,
                 "constructorId": "williams",
                 "fastestLapRank": null,
                 "shared": false
@@ -466,6 +479,8 @@
                 "grid": 25,
                 "points": 0.0,
                 "status": "Collision",
+                "outcome": "retired",
+                "cause": "contact",
                 "constructorId": "theodore",
                 "fastestLapRank": null,
                 "shared": false
@@ -478,6 +493,8 @@
                 "grid": 24,
                 "points": 0.0,
                 "status": "+2 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "team_lotus",
                 "fastestLapRank": null,
                 "shared": false
@@ -488,5 +505,11 @@
         "1979": {},
         "1980": {},
         "1982": {}
-    }
+    },
+    "seasonStarts": {
+        "1979": 1,
+        "1980": 2,
+        "1982": 2
+    },
+    "totalStarts": 5
 }

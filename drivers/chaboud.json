@@ -1,6 +1,6 @@
 {
     "driverId": "chaboud",
-    "lastUpdate": "2026-10-02T11:47:20.459514",
+    "lastUpdate": "2026-10-11T12:15:09.677404",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -171,8 +171,8 @@
         "1951": 8.0
     },
     "avgQualiPositions": {
-        "1950": -1,
-        "1951": -1
+        "1950": 8.5,
+        "1951": 14.0
     },
     "rates": {
         "wins": {
@@ -189,7 +189,7 @@
         },
         "DNFs": {
             "1950": 0.5,
-            "1951": 1.0
+            "1951": 0.0
         }
     },
     "winRate": 0.0,
@@ -201,8 +201,13 @@
         "1951": -1
     },
     "positionsGainLost": {
-        "1950": {},
-        "1951": {}
+        "1950": {
+            "Belgian Grand Prix": 2,
+            "French Grand Prix": -1
+        },
+        "1951": {
+            "French Grand Prix": 6
+        }
     },
     "driverCode": "",
     "driverNumber": "",
@@ -216,6 +221,8 @@
                 "grid": 13,
                 "points": 0.0,
                 "status": "Oil pipe",
+                "outcome": "retired",
+                "cause": "mechanical",
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -228,6 +235,8 @@
                 "grid": 4,
                 "points": 1.0,
                 "status": "+5 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": true
@@ -242,6 +251,8 @@
                 "grid": 14,
                 "points": 0.0,
                 "status": "+8 Laps",
+                "outcome": "lapped",
+                "cause": null,
                 "constructorId": "lago",
                 "fastestLapRank": null,
                 "shared": false
@@ -251,5 +262,10 @@
     "sprintResults": {
         "1950": {},
         "1951": {}
-    }
+    },
+    "seasonStarts": {
+        "1950": 2,
+        "1951": 1
+    },
+    "totalStarts": 3
 }
