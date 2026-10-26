@@ -2,7 +2,7 @@
     "driverId": "gasly",
     "driverCode": "GAS",
     "driverNumber": "10",
-    "lastUpdate": "2026-10-11T12:15:09.677404",
+    "lastUpdate": "2026-10-26T16:49:37.092346",
     "totalWins": 1,
     "totalPodiums": 6,
     "totalPoles": 1,
@@ -356,7 +356,8 @@
             "Spanish Grand Prix": "1:38.141",
             "Azerbaijan Grand Prix": "1:47.822",
             "Bahrain Grand Prix in Malaysia": "1:41.514",
-            "Singapore Grand Prix": "1:37.390"
+            "Singapore Grand Prix": "1:37.390",
+            "United States Grand Prix": "1:40.193"
         }
     },
     "finalStandings": {
@@ -408,7 +409,7 @@
         "2026": {
             "year": "2026",
             "position": "10",
-            "points": "41"
+            "points": "42"
         }
     },
     "posAfterRace": {
@@ -1047,6 +1048,9 @@
                 },
                 "Singapore Grand Prix": {
                     "points": 41.0
+                },
+                "United States Grand Prix": {
+                    "points": 42.0
                 }
             }
         }
@@ -1294,7 +1298,8 @@
                 "Spanish Grand Prix": "12",
                 "Azerbaijan Grand Prix": "18",
                 "Bahrain Grand Prix in Malaysia": "16",
-                "Singapore Grand Prix": "11"
+                "Singapore Grand Prix": "11",
+                "United States Grand Prix": "10"
             }
         }
     },
@@ -1541,7 +1546,8 @@
                 "Spanish Grand Prix": "14",
                 "Azerbaijan Grand Prix": "7",
                 "Bahrain Grand Prix in Malaysia": "9",
-                "Singapore Grand Prix": "7"
+                "Singapore Grand Prix": "7",
+                "United States Grand Prix": "10"
             }
         }
     },
@@ -2563,6 +2569,11 @@
                     "1:33.182",
                     "1:32.602",
                     "1:32.225"
+                ],
+                "United States Grand Prix": [
+                    "1:35.969",
+                    "1:35.080",
+                    "N/A"
                 ]
             }
         }
@@ -2572,19 +2583,19 @@
             "wins": 0.1,
             "podiums": 0.6,
             "poles": 0.1,
-            "points": 49.9
+            "points": 50.0
         },
         "std": {
             "wins": 0.30000000000000004,
             "podiums": 0.48989794855663565,
             "poles": 0.30000000000000004,
-            "points": 33.155542523083525
+            "points": 33.13004678535785
         },
         "cv": {
             "wins": 3.0000000000000004,
             "podiums": 0.8164965809277261,
             "poles": 3.0000000000000004,
-            "points": 0.6644397299215136
+            "points": 0.662600935707157
         }
     },
     "peakSeason": {
@@ -2611,7 +2622,7 @@
         "2023": 10.681818181818182,
         "2024": 12.565217391304348,
         "2025": 14.583333333333334,
-        "2026": 10.705882352941176
+        "2026": 10.666666666666666
     },
     "avgQualiPositions": {
         "2017": 17.0,
@@ -2623,7 +2634,7 @@
         "2023": 11.136363636363637,
         "2024": 12.545454545454545,
         "2025": 13.375,
-        "2026": 10.058823529411764
+        "2026": 10.055555555555555
     },
     "rates": {
         "wins": {
@@ -2648,7 +2659,7 @@
             "2023": 0.045454545454545456,
             "2024": 0.043478260869565216,
             "2025": 0.0,
-            "2026": 0.058823529411764705
+            "2026": 0.05555555555555555
         },
         "poles": {
             "2017": 0.0,
@@ -2660,7 +2671,7 @@
             "2023": 0.0,
             "2024": 0.0,
             "2025": 0.0,
-            "2026": 0.058823529411764705
+            "2026": 0.05555555555555555
         },
         "DNFs": {
             "2017": 0.0,
@@ -2672,13 +2683,13 @@
             "2023": 0.13636363636363635,
             "2024": 0.13043478260869565,
             "2025": 0.08333333333333333,
-            "2026": 0.11764705882352941
+            "2026": 0.1111111111111111
         }
     },
-    "winRate": 0.005154639175257732,
-    "podiumRate": 0.030927835051546393,
-    "poleRate": 0.005154639175257732,
-    "dnfRate": 0.14432989690721648,
+    "winRate": 0.005128205128205128,
+    "podiumRate": 0.03076923076923077,
+    "poleRate": 0.005128205128205128,
+    "dnfRate": 0.14358974358974358,
     "ptwConRate": {
         "2017": -1,
         "2018": -1,
@@ -2899,7 +2910,8 @@
             "Spanish Grand Prix": 2,
             "Azerbaijan Grand Prix": -11,
             "Bahrain Grand Prix in Malaysia": -7,
-            "Singapore Grand Prix": -4
+            "Singapore Grand Prix": -4,
+            "United States Grand Prix": 0
         }
     },
     "raceResults": {
@@ -5651,6 +5663,20 @@
                 "constructorId": "alpine",
                 "fastestLapRank": 11,
                 "shared": false
+            },
+            "18": {
+                "raceName": "United States Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 10,
+                "points": 1.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "alpine",
+                "fastestLapRank": 13,
+                "shared": false
             }
         }
     },
@@ -5892,7 +5918,7 @@
         "2023": 22,
         "2024": 23,
         "2025": 24,
-        "2026": 17
+        "2026": 18
     },
-    "totalStarts": 194
+    "totalStarts": 195
 }

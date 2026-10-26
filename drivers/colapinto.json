@@ -2,11 +2,11 @@
     "driverId": "colapinto",
     "driverCode": "COL",
     "driverNumber": "43",
-    "lastUpdate": "2026-10-11T12:15:09.677404",
+    "lastUpdate": "2026-10-26T16:49:37.092346",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 5,
+    "totalDNFs": 6,
     "seasonWins": {
         "2024": 0,
         "2025": 0,
@@ -25,7 +25,7 @@
     "seasonDNFs": {
         "2024": 3,
         "2025": 0,
-        "2026": 2
+        "2026": 3
     },
     "poles": {
         "2024": [],
@@ -46,7 +46,8 @@
         "2025": {},
         "2026": {
             "Azerbaijan Grand Prix": "Retired",
-            "Singapore Grand Prix": "Retired"
+            "Singapore Grand Prix": "Retired",
+            "United States Grand Prix": "Retired"
         }
     },
     "fastLaps": {
@@ -98,7 +99,8 @@
             "Spanish Grand Prix": "1:37.321",
             "Azerbaijan Grand Prix": "1:48.484",
             "Bahrain Grand Prix in Malaysia": "1:40.988",
-            "Singapore Grand Prix": "1:39.265"
+            "Singapore Grand Prix": "1:39.265",
+            "United States Grand Prix": "1:41.087"
         }
     },
     "finalStandings": {
@@ -263,6 +265,9 @@
                 },
                 "Singapore Grand Prix": {
                     "points": 27.0
+                },
+                "United States Grand Prix": {
+                    "points": 27.0
                 }
             }
         }
@@ -324,7 +329,8 @@
                 "Spanish Grand Prix": "7",
                 "Azerbaijan Grand Prix": "17",
                 "Bahrain Grand Prix in Malaysia": "13",
-                "Singapore Grand Prix": "21"
+                "Singapore Grand Prix": "21",
+                "United States Grand Prix": "21"
             }
         }
     },
@@ -385,7 +391,8 @@
                 "Spanish Grand Prix": "9",
                 "Azerbaijan Grand Prix": "9",
                 "Bahrain Grand Prix in Malaysia": "21",
-                "Singapore Grand Prix": "15"
+                "Singapore Grand Prix": "15",
+                "United States Grand Prix": "20"
             }
         }
     },
@@ -622,6 +629,11 @@
                     "1:33.261",
                     "1:33.787",
                     "N/A"
+                ],
+                "United States Grand Prix": [
+                    "1:35.898",
+                    "1:35.722",
+                    "N/A"
                 ]
             }
         }
@@ -663,12 +675,12 @@
     "avgRacePositions": {
         "2024": 13.555555555555555,
         "2025": 15.823529411764707,
-        "2026": 12.176470588235293
+        "2026": 12.666666666666666
     },
     "avgQualiPositions": {
         "2024": 15.5,
         "2025": 16.235294117647058,
-        "2026": 13.058823529411764
+        "2026": 13.444444444444445
     },
     "rates": {
         "wins": {
@@ -689,13 +701,13 @@
         "DNFs": {
             "2024": 0.3333333333333333,
             "2025": 0.0,
-            "2026": 0.11764705882352941
+            "2026": 0.16666666666666666
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.11627906976744186,
+    "dnfRate": 0.13636363636363635,
     "ptwConRate": {
         "2024": -1,
         "2025": -1,
@@ -748,7 +760,8 @@
             "Spanish Grand Prix": 2,
             "Azerbaijan Grand Prix": -8,
             "Bahrain Grand Prix in Malaysia": 8,
-            "Singapore Grand Prix": -6
+            "Singapore Grand Prix": -6,
+            "United States Grand Prix": -1
         }
     },
     "raceResults": {
@@ -1372,6 +1385,20 @@
                 "constructorId": "alpine",
                 "fastestLapRank": 20,
                 "shared": false
+            },
+            "18": {
+                "raceName": "United States Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 20,
+                "points": 0.0,
+                "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
+                "constructorId": "alpine",
+                "fastestLapRank": 17,
+                "shared": false
             }
         }
     },
@@ -1477,7 +1504,7 @@
     "seasonStarts": {
         "2024": 9,
         "2025": 17,
-        "2026": 17
+        "2026": 18
     },
-    "totalStarts": 43
+    "totalStarts": 44
 }

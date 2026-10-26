@@ -2,7 +2,7 @@
     "driverId": "hadjar",
     "driverCode": "HAD",
     "driverNumber": "6",
-    "lastUpdate": "2026-10-11T12:15:09.677404",
+    "lastUpdate": "2026-10-26T16:49:37.092346",
     "totalWins": 0,
     "totalPodiums": 2,
     "totalPoles": 0,
@@ -87,7 +87,8 @@
             "Hungarian Grand Prix": "1:23.218",
             "Azerbaijan Grand Prix": "1:45.618",
             "Bahrain Grand Prix in Malaysia": "1:39.792",
-            "Singapore Grand Prix": "1:35.917"
+            "Singapore Grand Prix": "1:35.917",
+            "United States Grand Prix": "1:39.399"
         }
     },
     "finalStandings": {
@@ -99,7 +100,7 @@
         "2026": {
             "year": "2026",
             "position": "8",
-            "points": "97"
+            "points": "105"
         }
     },
     "posAfterRace": {
@@ -233,6 +234,9 @@
                 },
                 "Singapore Grand Prix": {
                     "points": 97.0
+                },
+                "United States Grand Prix": {
+                    "points": 105.0
                 }
             }
         }
@@ -283,7 +287,8 @@
                 "Hungarian Grand Prix": "6",
                 "Azerbaijan Grand Prix": "3",
                 "Bahrain Grand Prix in Malaysia": "5",
-                "Singapore Grand Prix": "10"
+                "Singapore Grand Prix": "10",
+                "United States Grand Prix": "6"
             }
         }
     },
@@ -333,7 +338,8 @@
                 "Hungarian Grand Prix": "8",
                 "Azerbaijan Grand Prix": "4",
                 "Bahrain Grand Prix in Malaysia": "8",
-                "Singapore Grand Prix": "22"
+                "Singapore Grand Prix": "22",
+                "United States Grand Prix": "3"
             }
         }
     },
@@ -535,6 +541,11 @@
                     "",
                     "N/A",
                     "N/A"
+                ],
+                "United States Grand Prix": [
+                    "1:35.286",
+                    "1:34.887",
+                    "1:34.250"
                 ]
             }
         }
@@ -544,19 +555,19 @@
             "wins": 0.0,
             "podiums": 1.0,
             "poles": 0.0,
-            "points": 74.0
+            "points": 78.0
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 23.0
+            "points": 27.0
         },
         "cv": {
             "wins": 0,
             "podiums": 0.0,
             "poles": 0,
-            "points": 0.3108108108108108
+            "points": 0.34615384615384615
         }
     },
     "peakSeason": {
@@ -575,11 +586,11 @@
     },
     "avgRacePositions": {
         "2025": 11.791666666666666,
-        "2026": 8.428571428571429
+        "2026": 8.266666666666667
     },
     "avgQualiPositions": {
         "2025": 9.791666666666666,
-        "2026": 9.714285714285714
+        "2026": 9.266666666666667
     },
     "rates": {
         "wins": {
@@ -588,7 +599,7 @@
         },
         "podiums": {
             "2025": 0.041666666666666664,
-            "2026": 0.07142857142857142
+            "2026": 0.06666666666666667
         },
         "poles": {
             "2025": 0.0,
@@ -596,13 +607,13 @@
         },
         "DNFs": {
             "2025": 0.125,
-            "2026": 0.14285714285714285
+            "2026": 0.13333333333333333
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.05263157894736842,
+    "podiumRate": 0.05128205128205128,
     "poleRate": 0.0,
-    "dnfRate": 0.13157894736842105,
+    "dnfRate": 0.1282051282051282,
     "ptwConRate": {
         "2025": -1,
         "2026": -1
@@ -648,7 +659,8 @@
             "Hungarian Grand Prix": 2,
             "Azerbaijan Grand Prix": 1,
             "Bahrain Grand Prix in Malaysia": 3,
-            "Singapore Grand Prix": 12
+            "Singapore Grand Prix": 12,
+            "United States Grand Prix": -3
         }
     },
     "raceResults": {
@@ -1186,6 +1198,20 @@
                 "constructorId": "red_bull",
                 "fastestLapRank": 4,
                 "shared": false
+            },
+            "18": {
+                "raceName": "United States Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 3,
+                "points": 8.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "red_bull",
+                "fastestLapRank": 6,
+                "shared": false
             }
         }
     },
@@ -1274,7 +1300,7 @@
     },
     "seasonStarts": {
         "2025": 24,
-        "2026": 14
+        "2026": 15
     },
-    "totalStarts": 38
+    "totalStarts": 39
 }

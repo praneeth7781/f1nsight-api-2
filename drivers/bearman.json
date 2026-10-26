@@ -2,11 +2,11 @@
     "driverId": "bearman",
     "driverCode": "BEA",
     "driverNumber": "38",
-    "lastUpdate": "2026-10-11T12:15:09.677404",
+    "lastUpdate": "2026-10-26T16:49:37.092346",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
-    "totalDNFs": 7,
+    "totalDNFs": 8,
     "seasonWins": {
         "2024": 0,
         "2025": 0,
@@ -25,7 +25,7 @@
     "seasonDNFs": {
         "2024": 0,
         "2025": 3,
-        "2026": 4
+        "2026": 5
     },
     "poles": {
         "2024": [],
@@ -48,7 +48,8 @@
             "Japanese Grand Prix": "Retired",
             "Monaco Grand Prix": "Retired",
             "Barcelona Grand Prix": "Retired",
-            "Dutch Grand Prix": "Retired"
+            "Dutch Grand Prix": "Retired",
+            "United States Grand Prix": "Retired"
         }
     },
     "fastLaps": {
@@ -100,7 +101,8 @@
             "Spanish Grand Prix": "1:37.308",
             "Azerbaijan Grand Prix": "1:46.978",
             "Bahrain Grand Prix in Malaysia": "1:40.366",
-            "Singapore Grand Prix": "1:37.556"
+            "Singapore Grand Prix": "1:37.556",
+            "United States Grand Prix": "1:42.107"
         }
     },
     "finalStandings": {
@@ -325,6 +327,9 @@
                 },
                 "Singapore Grand Prix": {
                     "points": 23.0
+                },
+                "United States Grand Prix": {
+                    "points": 23.0
                 }
             }
         }
@@ -386,7 +391,8 @@
                 "Spanish Grand Prix": "16",
                 "Azerbaijan Grand Prix": "9",
                 "Bahrain Grand Prix in Malaysia": "14",
-                "Singapore Grand Prix": "12"
+                "Singapore Grand Prix": "12",
+                "United States Grand Prix": "22"
             }
         }
     },
@@ -447,7 +453,8 @@
                 "Spanish Grand Prix": "22",
                 "Azerbaijan Grand Prix": "10",
                 "Bahrain Grand Prix in Malaysia": "16",
-                "Singapore Grand Prix": "11"
+                "Singapore Grand Prix": "11",
+                "United States Grand Prix": "13"
             }
         }
     },
@@ -679,6 +686,11 @@
                     "1:33.356",
                     "1:32.908",
                     "N/A"
+                ],
+                "United States Grand Prix": [
+                    "1:36.175",
+                    "1:36.031",
+                    "N/A"
                 ]
             }
         }
@@ -720,12 +732,12 @@
     "avgRacePositions": {
         "2024": 9.666666666666666,
         "2025": 11.791666666666666,
-        "2026": 14.0
+        "2026": 14.444444444444445
     },
     "avgQualiPositions": {
         "2024": 12.0,
         "2025": 14.208333333333334,
-        "2026": 14.647058823529411
+        "2026": 14.555555555555555
     },
     "rates": {
         "wins": {
@@ -746,13 +758,13 @@
         "DNFs": {
             "2024": 0.0,
             "2025": 0.125,
-            "2026": 0.23529411764705882
+            "2026": 0.2777777777777778
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.1590909090909091,
+    "dnfRate": 0.17777777777777778,
     "ptwConRate": {
         "2024": -1,
         "2025": -1,
@@ -807,7 +819,8 @@
             "Spanish Grand Prix": 6,
             "Azerbaijan Grand Prix": 1,
             "Bahrain Grand Prix in Malaysia": 2,
-            "Singapore Grand Prix": -1
+            "Singapore Grand Prix": -1,
+            "United States Grand Prix": -9
         }
     },
     "raceResults": {
@@ -1431,6 +1444,20 @@
                 "constructorId": "haas",
                 "fastestLapRank": 13,
                 "shared": false
+            },
+            "18": {
+                "raceName": "United States Grand Prix",
+                "position": 22,
+                "positionText": "R",
+                "classified": false,
+                "grid": 13,
+                "points": 0.0,
+                "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
+                "constructorId": "haas",
+                "fastestLapRank": 22,
+                "shared": false
             }
         }
     },
@@ -1536,7 +1563,7 @@
     "seasonStarts": {
         "2024": 3,
         "2025": 24,
-        "2026": 17
+        "2026": 18
     },
-    "totalStarts": 44
+    "totalStarts": 45
 }
