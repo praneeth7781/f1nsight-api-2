@@ -1,0 +1,365 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "adelaide",
+    "name": "Adelaide Street Circuit",
+    "shortName": null,
+    "officialName": "Adelaide Street Circuit",
+    "location": {
+        "locality": "Adelaide",
+        "country": "Australia",
+        "lat": -34.9272,
+        "long": 138.617
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Adelaide_Street_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1985,
+        "lastSeason": 1995,
+        "seasons": [
+            [
+                1985,
+                1995
+            ]
+        ],
+        "raceCount": 11,
+        "lastWinner": {
+            "driverId": "damon_hill",
+            "name": "Damon Hill",
+            "constructorId": "williams",
+            "constructor": "Williams",
+            "season": 1995
+        },
+        "mostWins": [
+            {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "count": 2
+            },
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 2
+            },
+            {
+                "driverId": "berger",
+                "name": "Gerhard Berger",
+                "count": 2
+            },
+            {
+                "driverId": "damon_hill",
+                "name": "Damon Hill",
+                "count": 1
+            },
+            {
+                "driverId": "keke_rosberg",
+                "name": "Keke Rosberg",
+                "count": 1
+            },
+            {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "count": 1
+            },
+            {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "count": 1
+            },
+            {
+                "driverId": "boutsen",
+                "name": "Thierry Boutsen",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 5
+            },
+            {
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "count": 4
+            },
+            {
+                "constructorId": "benetton",
+                "constructor": "Benetton",
+                "count": 1
+            },
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 6
+            },
+            {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "count": 3
+            },
+            {
+                "driverId": "damon_hill",
+                "name": "Damon Hill",
+                "count": 1
+            },
+            {
+                "driverId": "berger",
+                "name": "Gerhard Berger",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1985,
+                    1995
+                ]
+            ],
+            "raceCount": 11,
+            "raceLaps": 81,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1985,
+            "round": 16,
+            "raceName": "Australian Grand Prix",
+            "date": "1985-11-03",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "keke_rosberg",
+                "name": "Keke Rosberg",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1986,
+            "round": 16,
+            "raceName": "Australian Grand Prix",
+            "date": "1986-10-26",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1987,
+            "round": 16,
+            "raceName": "Australian Grand Prix",
+            "date": "1987-11-15",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "berger",
+                "name": "Gerhard Berger",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "berger",
+                "name": "Gerhard Berger",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1988,
+            "round": 16,
+            "raceName": "Australian Grand Prix",
+            "date": "1988-11-13",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1989,
+            "round": 16,
+            "raceName": "Australian Grand Prix",
+            "date": "1989-11-05",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "boutsen",
+                "name": "Thierry Boutsen",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1990,
+            "round": 16,
+            "raceName": "Australian Grand Prix",
+            "date": "1990-11-04",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "constructorId": "benetton",
+                "constructor": "Benetton"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1991,
+            "round": 16,
+            "raceName": "Australian Grand Prix",
+            "date": "1991-11-03",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1992,
+            "round": 16,
+            "raceName": "Australian Grand Prix",
+            "date": "1992-11-08",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "berger",
+                "name": "Gerhard Berger",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1993,
+            "round": 16,
+            "raceName": "Australian Grand Prix",
+            "date": "1993-11-07",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1994,
+            "round": 16,
+            "raceName": "Australian Grand Prix",
+            "date": "1994-11-13",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1995,
+            "round": 17,
+            "raceName": "Australian Grand Prix",
+            "date": "1995-11-12",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "damon_hill",
+                "name": "Damon Hill",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "damon_hill",
+                "name": "Damon Hill",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        }
+    ]
+}

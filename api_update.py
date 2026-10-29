@@ -1494,6 +1494,11 @@ def parse_args(argv=None):
         action='store_true',
         help='Build the v2 rows in memory and check them without writing.',
     )
+    parser.add_argument(
+        '--circuits',
+        action='store_true',
+        help='Rebuild circuits/ guides and records from stored race data only.',
+    )
     return parser.parse_args(argv)
 
 
@@ -1553,6 +1558,12 @@ def main(argv=None):
     if args.team_records:
         update_team_records()
         return
+    if args.circuits:
+        from circuits_build import print_warnings, publish_circuits
+        result = publish_circuits(write=True)
+        print(json.dumps(result, indent=2))
+        print_warnings(result)
+        return
     update()
 
 
@@ -1595,6 +1606,13 @@ def update():
     print(json.dumps(publish_v2(write=True), indent=2))
     print("==========Updating Team Records==========")
     update_team_records()
+    print("==========Publishing Circuits==========")
+    # Pure rebuild from the race files above: records, wins and the next race
+    # follow every results update without touching the hand-written content.
+    from circuits_build import print_warnings, publish_circuits
+    circuits_result = publish_circuits(write=True)
+    print(json.dumps(circuits_result, indent=2))
+    print_warnings(circuits_result)
     print("==========Rescoring championships==========")
     from scoring import apply_scoring_overrides, write_rescored_files
     apply_scoring_overrides()

@@ -1,0 +1,134 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "okayama",
+    "name": "Okayama International Circuit",
+    "shortName": null,
+    "officialName": "Okayama International Circuit",
+    "location": {
+        "locality": "Okayama",
+        "country": "Japan",
+        "lat": 34.915,
+        "long": 134.221
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/TI_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1994,
+        "lastSeason": 1995,
+        "seasons": [
+            [
+                1994,
+                1995
+            ]
+        ],
+        "raceCount": 2,
+        "lastWinner": {
+            "driverId": "michael_schumacher",
+            "name": "Michael Schumacher",
+            "constructorId": "benetton",
+            "constructor": "Benetton",
+            "season": 1995
+        },
+        "mostWins": [
+            {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "count": 2
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "benetton",
+                "constructor": "Benetton",
+                "count": 2
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 1
+            },
+            {
+                "driverId": "coulthard",
+                "name": "David Coulthard",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1994,
+                    1995
+                ]
+            ],
+            "raceCount": 2,
+            "raceLaps": 83,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1994,
+            "round": 2,
+            "raceName": "Pacific Grand Prix",
+            "date": "1994-04-17",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "benetton",
+                "constructor": "Benetton"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1995,
+            "round": 15,
+            "raceName": "Pacific Grand Prix",
+            "date": "1995-10-22",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "benetton",
+                "constructor": "Benetton"
+            },
+            "pole": {
+                "driverId": "coulthard",
+                "name": "David Coulthard",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        }
+    ]
+}

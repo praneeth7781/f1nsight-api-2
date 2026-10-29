@@ -1,0 +1,263 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "essarts",
+    "name": "Rouen-Les-Essarts",
+    "shortName": null,
+    "officialName": "Rouen-Les-Essarts",
+    "location": {
+        "locality": "Rouen",
+        "country": "France",
+        "lat": 49.3306,
+        "long": 1.00458
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Rouen-Les-Essarts",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1952,
+        "lastSeason": 1968,
+        "seasons": [
+            [
+                1952,
+                1952
+            ],
+            [
+                1957,
+                1957
+            ],
+            [
+                1962,
+                1962
+            ],
+            [
+                1964,
+                1964
+            ],
+            [
+                1968,
+                1968
+            ]
+        ],
+        "raceCount": 5,
+        "lastWinner": {
+            "driverId": "ickx",
+            "name": "Jacky Ickx",
+            "constructorId": "ferrari",
+            "constructor": "Ferrari",
+            "season": 1968
+        },
+        "mostWins": [
+            {
+                "driverId": "gurney",
+                "name": "Dan Gurney",
+                "count": 2
+            },
+            {
+                "driverId": "ascari",
+                "name": "Alberto Ascari",
+                "count": 1
+            },
+            {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "count": 1
+            },
+            {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 2
+            },
+            {
+                "constructorId": "brabham-climax",
+                "constructor": "Brabham-Climax",
+                "count": 1
+            },
+            {
+                "constructorId": "maserati",
+                "constructor": "Maserati",
+                "count": 1
+            },
+            {
+                "constructorId": "porsche",
+                "constructor": "Porsche",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "count": 2
+            },
+            {
+                "driverId": "ascari",
+                "name": "Alberto Ascari",
+                "count": 1
+            },
+            {
+                "driverId": "rindt",
+                "name": "Jochen Rindt",
+                "count": 1
+            },
+            {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1952,
+                    1952
+                ],
+                [
+                    1957,
+                    1957
+                ],
+                [
+                    1962,
+                    1962
+                ],
+                [
+                    1964,
+                    1964
+                ],
+                [
+                    1968,
+                    1968
+                ]
+            ],
+            "raceCount": 5,
+            "raceLaps": 77,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1952,
+            "round": 4,
+            "raceName": "French Grand Prix",
+            "date": "1952-07-06",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "ascari",
+                "name": "Alberto Ascari",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "ascari",
+                "name": "Alberto Ascari",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1957,
+            "round": 4,
+            "raceName": "French Grand Prix",
+            "date": "1957-07-07",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "constructorId": "maserati",
+                "constructor": "Maserati"
+            },
+            "pole": {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "constructorId": "maserati"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1962,
+            "round": 4,
+            "raceName": "French Grand Prix",
+            "date": "1962-07-08",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "gurney",
+                "name": "Dan Gurney",
+                "constructorId": "porsche",
+                "constructor": "Porsche"
+            },
+            "pole": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1964,
+            "round": 4,
+            "raceName": "French Grand Prix",
+            "date": "1964-06-28",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "gurney",
+                "name": "Dan Gurney",
+                "constructorId": "brabham-climax",
+                "constructor": "Brabham-Climax"
+            },
+            "pole": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1968,
+            "round": 6,
+            "raceName": "French Grand Prix",
+            "date": "1968-07-07",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "rindt",
+                "name": "Jochen Rindt",
+                "constructorId": "brabham-repco"
+            },
+            "indy500": false
+        }
+    ]
+}

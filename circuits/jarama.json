@@ -1,0 +1,392 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "jarama",
+    "name": "Jarama",
+    "shortName": null,
+    "officialName": "Jarama",
+    "location": {
+        "locality": "Madrid",
+        "country": "Spain",
+        "lat": 40.6171,
+        "long": -3.58558
+    },
+    "wikipedia": "https://en.wikipedia.org/wiki/Circuito_del_Jarama",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1968,
+        "lastSeason": 1981,
+        "seasons": [
+            [
+                1968,
+                1968
+            ],
+            [
+                1970,
+                1970
+            ],
+            [
+                1972,
+                1972
+            ],
+            [
+                1974,
+                1974
+            ],
+            [
+                1976,
+                1979
+            ],
+            [
+                1981,
+                1981
+            ]
+        ],
+        "raceCount": 9,
+        "lastWinner": {
+            "driverId": "gilles_villeneuve",
+            "name": "Gilles Villeneuve",
+            "constructorId": "ferrari",
+            "constructor": "Ferrari",
+            "season": 1981
+        },
+        "mostWins": [
+            {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "count": 2
+            },
+            {
+                "driverId": "emerson_fittipaldi",
+                "name": "Emerson Fittipaldi",
+                "count": 1
+            },
+            {
+                "driverId": "gilles_villeneuve",
+                "name": "Gilles Villeneuve",
+                "count": 1
+            },
+            {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "count": 1
+            },
+            {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "count": 1
+            },
+            {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "count": 1
+            },
+            {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "count": 1
+            },
+            {
+                "driverId": "depailler",
+                "name": "Patrick Depailler",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus",
+                "count": 3
+            },
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 2
+            },
+            {
+                "constructorId": "ligier",
+                "constructor": "Ligier",
+                "count": 1
+            },
+            {
+                "constructorId": "lotus-ford",
+                "constructor": "Lotus-Ford",
+                "count": 1
+            },
+            {
+                "constructorId": "march",
+                "constructor": "March",
+                "count": 1
+            },
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "laffite",
+                "name": "Jacques Laffite",
+                "count": 2
+            },
+            {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "count": 2
+            },
+            {
+                "driverId": "amon",
+                "name": "Chris Amon",
+                "count": 1
+            },
+            {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "count": 1
+            },
+            {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "count": 1
+            },
+            {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "count": 1
+            },
+            {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1968,
+                    1968
+                ],
+                [
+                    1970,
+                    1970
+                ],
+                [
+                    1972,
+                    1972
+                ],
+                [
+                    1974,
+                    1974
+                ],
+                [
+                    1976,
+                    1979
+                ],
+                [
+                    1981,
+                    1981
+                ]
+            ],
+            "raceCount": 9,
+            "raceLaps": 75,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1968,
+            "round": 2,
+            "raceName": "Spanish Grand Prix",
+            "date": "1968-05-12",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "constructorId": "lotus-ford",
+                "constructor": "Lotus-Ford"
+            },
+            "pole": {
+                "driverId": "amon",
+                "name": "Chris Amon",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1970,
+            "round": 2,
+            "raceName": "Spanish Grand Prix",
+            "date": "1970-04-19",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "constructorId": "march",
+                "constructor": "March"
+            },
+            "pole": {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "constructorId": "brabham"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1972,
+            "round": 3,
+            "raceName": "Spanish Grand Prix",
+            "date": "1972-05-01",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "emerson_fittipaldi",
+                "name": "Emerson Fittipaldi",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1974,
+            "round": 4,
+            "raceName": "Spanish Grand Prix",
+            "date": "1974-04-28",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1976,
+            "round": 4,
+            "raceName": "Spanish Grand Prix",
+            "date": "1976-05-02",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1977,
+            "round": 5,
+            "raceName": "Spanish Grand Prix",
+            "date": "1977-05-08",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1978,
+            "round": 7,
+            "raceName": "Spanish Grand Prix",
+            "date": "1978-06-04",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1979,
+            "round": 5,
+            "raceName": "Spanish Grand Prix",
+            "date": "1979-04-29",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "depailler",
+                "name": "Patrick Depailler",
+                "constructorId": "ligier",
+                "constructor": "Ligier"
+            },
+            "pole": {
+                "driverId": "laffite",
+                "name": "Jacques Laffite",
+                "constructorId": "ligier"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1981,
+            "round": 7,
+            "raceName": "Spanish Grand Prix",
+            "date": "1981-06-21",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "gilles_villeneuve",
+                "name": "Gilles Villeneuve",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "laffite",
+                "name": "Jacques Laffite",
+                "constructorId": "ligier"
+            },
+            "indy500": false
+        }
+    ]
+}

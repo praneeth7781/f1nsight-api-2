@@ -1,0 +1,110 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "avus",
+    "name": "AVUS",
+    "shortName": null,
+    "officialName": "AVUS",
+    "location": {
+        "locality": "Berlin",
+        "country": "Germany",
+        "lat": 52.4806,
+        "long": 13.2514
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/AVUS",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1959,
+        "lastSeason": 1959,
+        "seasons": [
+            [
+                1959,
+                1959
+            ]
+        ],
+        "raceCount": 1,
+        "lastWinner": {
+            "driverId": "brooks",
+            "name": "Tony Brooks",
+            "constructorId": "ferrari",
+            "constructor": "Ferrari",
+            "season": 1959
+        },
+        "mostWins": [
+            {
+                "driverId": "brooks",
+                "name": "Tony Brooks",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "brooks",
+                "name": "Tony Brooks",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1959,
+                    1959
+                ]
+            ],
+            "raceCount": 1,
+            "raceLaps": 60,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1959,
+            "round": 6,
+            "raceName": "German Grand Prix",
+            "date": "1959-08-02",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "brooks",
+                "name": "Tony Brooks",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "brooks",
+                "name": "Tony Brooks",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        }
+    ]
+}

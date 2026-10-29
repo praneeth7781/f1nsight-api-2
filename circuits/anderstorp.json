@@ -1,0 +1,260 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "anderstorp",
+    "name": "Scandinavian Raceway",
+    "shortName": null,
+    "officialName": "Scandinavian Raceway",
+    "location": {
+        "locality": "Anderstorp",
+        "country": "Sweden",
+        "lat": 57.2653,
+        "long": 13.6042
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Scandinavian_Raceway",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1973,
+        "lastSeason": 1978,
+        "seasons": [
+            [
+                1973,
+                1978
+            ]
+        ],
+        "raceCount": 6,
+        "lastWinner": {
+            "driverId": "lauda",
+            "name": "Niki Lauda",
+            "constructorId": "brabham",
+            "constructor": "Brabham",
+            "season": 1978
+        },
+        "mostWins": [
+            {
+                "driverId": "scheckter",
+                "name": "Jody Scheckter",
+                "count": 2
+            },
+            {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "count": 2
+            },
+            {
+                "driverId": "hulme",
+                "name": "Denny Hulme",
+                "count": 1
+            },
+            {
+                "driverId": "laffite",
+                "name": "Jacques Laffite",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell",
+                "count": 2
+            },
+            {
+                "constructorId": "brabham",
+                "constructor": "Brabham",
+                "count": 1
+            },
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 1
+            },
+            {
+                "constructorId": "ligier",
+                "constructor": "Ligier",
+                "count": 1
+            },
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "count": 2
+            },
+            {
+                "driverId": "scheckter",
+                "name": "Jody Scheckter",
+                "count": 1
+            },
+            {
+                "driverId": "depailler",
+                "name": "Patrick Depailler",
+                "count": 1
+            },
+            {
+                "driverId": "peterson",
+                "name": "Ronnie Peterson",
+                "count": 1
+            },
+            {
+                "driverId": "brambilla",
+                "name": "Vittorio Brambilla",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1973,
+                    1978
+                ]
+            ],
+            "raceCount": 6,
+            "raceLaps": 80,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1973,
+            "round": 7,
+            "raceName": "Swedish Grand Prix",
+            "date": "1973-06-17",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hulme",
+                "name": "Denny Hulme",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "peterson",
+                "name": "Ronnie Peterson",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1974,
+            "round": 7,
+            "raceName": "Swedish Grand Prix",
+            "date": "1974-06-09",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "scheckter",
+                "name": "Jody Scheckter",
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell"
+            },
+            "pole": {
+                "driverId": "depailler",
+                "name": "Patrick Depailler",
+                "constructorId": "tyrrell"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1975,
+            "round": 7,
+            "raceName": "Swedish Grand Prix",
+            "date": "1975-06-08",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "brambilla",
+                "name": "Vittorio Brambilla",
+                "constructorId": "march"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1976,
+            "round": 7,
+            "raceName": "Swedish Grand Prix",
+            "date": "1976-06-13",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "scheckter",
+                "name": "Jody Scheckter",
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell"
+            },
+            "pole": {
+                "driverId": "scheckter",
+                "name": "Jody Scheckter",
+                "constructorId": "tyrrell"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1977,
+            "round": 8,
+            "raceName": "Swedish Grand Prix",
+            "date": "1977-06-19",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "laffite",
+                "name": "Jacques Laffite",
+                "constructorId": "ligier",
+                "constructor": "Ligier"
+            },
+            "pole": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1978,
+            "round": 8,
+            "raceName": "Swedish Grand Prix",
+            "date": "1978-06-17",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "constructorId": "brabham",
+                "constructor": "Brabham"
+            },
+            "pole": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        }
+    ]
+}

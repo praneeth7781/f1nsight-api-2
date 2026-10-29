@@ -1,0 +1,857 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "albert_park",
+    "name": "Albert Park Circuit",
+    "shortName": "Albert Park",
+    "officialName": "Albert Park Grand Prix Circuit",
+    "location": {
+        "locality": "Melbourne",
+        "country": "Australia",
+        "lat": -37.8497,
+        "long": 144.968
+    },
+    "wikipedia": "https://en.wikipedia.org/wiki/Albert_Park_Circuit",
+    "status": "current",
+    "hasGuide": true,
+    "currentLayoutId": "2022",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1996,
+        "lastSeason": 2026,
+        "seasons": [
+            [
+                1996,
+                2019
+            ],
+            [
+                2022,
+                2026
+            ]
+        ],
+        "raceCount": 29,
+        "lastWinner": {
+            "driverId": "russell",
+            "name": "George Russell",
+            "constructorId": "mercedes",
+            "constructor": "Mercedes",
+            "season": 2026
+        },
+        "mostWins": [
+            {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "count": 4
+            },
+            {
+                "driverId": "button",
+                "name": "Jenson Button",
+                "count": 3
+            },
+            {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "count": 3
+            },
+            {
+                "driverId": "coulthard",
+                "name": "David Coulthard",
+                "count": 2
+            },
+            {
+                "driverId": "raikkonen",
+                "name": "Kimi Räikkönen",
+                "count": 2
+            },
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 2
+            },
+            {
+                "driverId": "rosberg",
+                "name": "Nico Rosberg",
+                "count": 2
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 10
+            },
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 7
+            },
+            {
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "count": 5
+            },
+            {
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "count": 2
+            },
+            {
+                "constructorId": "renault",
+                "constructor": "Renault",
+                "count": 2
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 8
+            },
+            {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "count": 3
+            },
+            {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "count": 3
+            },
+            {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "count": 3
+            },
+            {
+                "driverId": "villeneuve",
+                "name": "Jacques Villeneuve",
+                "count": 2
+            },
+            {
+                "driverId": "button",
+                "name": "Jenson Button",
+                "count": 2
+            },
+            {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "count": 2
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "2022",
+            "name": "Current layout",
+            "from": 2022,
+            "to": null,
+            "lengthKm": 5.278,
+            "turns": 14,
+            "elevationM": 8,
+            "factSources": [
+                "The Apex Guide (f1-circuits.com)",
+                "Sportmonks",
+                "Formula One History"
+            ],
+            "seasons": [
+                [
+                    2022,
+                    2026
+                ]
+            ],
+            "raceCount": 5,
+            "raceLaps": 58,
+            "lapRecord": {
+                "time": "1:19.813",
+                "lap": 56,
+                "driverId": "leclerc",
+                "name": "Charles Leclerc",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 2024,
+                "round": 3,
+                "raceName": "Australian Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:15.096",
+                "session": "Q3",
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 2025,
+                "round": 1,
+                "raceName": "Australian Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": []
+        },
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1996,
+                    2019
+                ]
+            ],
+            "raceCount": 24,
+            "raceLaps": 58,
+            "lapRecord": {
+                "time": "1:24.125",
+                "lap": 29,
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 2004,
+                "round": 1,
+                "raceName": "Australian Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:20.486",
+                "session": "Q3",
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2019,
+                "round": 1,
+                "raceName": "Australian Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {
+        "summary": "A park in Melbourne that becomes a race track once a year and then goes back to being a park.",
+        "character": "Public roads round Albert Park Lake, made smoother and faster by the 2022 rework that removed the old Turn 9-10 chicane. Grip is low on Friday and builds all weekend. Lap one tends to be eventful.",
+        "corners": [
+            {
+                "name": "Turns 9-10",
+                "famous": true,
+                "note": "The old chicane is gone. Now it's a flat-out left-right that needs a car that doesn't wriggle."
+            },
+            {
+                "name": "Turn 1",
+                "famous": true,
+                "note": "Heavy braking at the end of the start straight. A popular place to lose a front wing on lap one."
+            }
+        ],
+        "moments": [
+            {
+                "season": 2002,
+                "title": "Webber scores on debut",
+                "body": "Mark Webber finished fifth for Minardi in his first Grand Prix, at home. Points were so rare for Minardi that he and team boss Paul Stoddart celebrated on the podium after the race.",
+                "video": "https://www.youtube.com/watch?v=E7-g_NkXNBI"
+            }
+        ],
+        "history": [
+            {
+                "period": "1953 and 1956",
+                "body": "Albert Park hosted the Australian Grand Prix decades before it became a championship round."
+            },
+            {
+                "period": "1996",
+                "body": "The Australian GP moved from Adelaide to Melbourne and took over as the usual season opener."
+            },
+            {
+                "period": "2020",
+                "body": "Cancelled on the morning of first practice as the pandemic arrived."
+            },
+            {
+                "period": "2022",
+                "body": "Reworked for better racing: wider corners, the Turn 9-10 chicane removed, 5.278 km."
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "Albert Park Circuit circuit guide",
+            "url": "https://f1-circuits.com/circuits/albert-park-circuit",
+            "publisher": "The Apex Guide (f1-circuits.com)"
+        },
+        {
+            "title": "F1 tracks: circuit table",
+            "url": "https://www.sportmonks.com/formula-one-api/f1-tracks/",
+            "publisher": "Sportmonks"
+        },
+        {
+            "title": "Albert Park Circuit track profile",
+            "url": "https://www.planetf1.com/tracks/melbourne-grand-prix-circuit",
+            "publisher": "PlanetF1"
+        },
+        {
+            "title": "Albert Park Circuit circuit page",
+            "url": "https://www.formulaonehistory.com/circuits/albert-park-circuit/",
+            "publisher": "Formula One History"
+        }
+    ],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1996,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "1996-03-10",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "damon_hill",
+                "name": "Damon Hill",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "villeneuve",
+                "name": "Jacques Villeneuve",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1997,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "1997-03-09",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "coulthard",
+                "name": "David Coulthard",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "villeneuve",
+                "name": "Jacques Villeneuve",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1998,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "1998-03-08",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1999,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "1999-03-07",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "irvine",
+                "name": "Eddie Irvine",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2000,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2000-03-12",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2001,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2001-03-04",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2002,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2002-03-03",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "barrichello",
+                "name": "Rubens Barrichello",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2003,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2003-03-09",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "coulthard",
+                "name": "David Coulthard",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2004,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2004-03-07",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2005,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2005-03-06",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "fisichella",
+                "name": "Giancarlo Fisichella",
+                "constructorId": "renault",
+                "constructor": "Renault"
+            },
+            "pole": {
+                "driverId": "fisichella",
+                "name": "Giancarlo Fisichella",
+                "constructorId": "renault"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2006,
+            "round": 3,
+            "raceName": "Australian Grand Prix",
+            "date": "2006-04-02",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "alonso",
+                "name": "Fernando Alonso",
+                "constructorId": "renault",
+                "constructor": "Renault"
+            },
+            "pole": {
+                "driverId": "button",
+                "name": "Jenson Button",
+                "constructorId": "honda"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2007,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2007-03-18",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "raikkonen",
+                "name": "Kimi Räikkönen",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "raikkonen",
+                "name": "Kimi Räikkönen",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2008,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2008-03-16",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2009,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2009-03-29",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "button",
+                "name": "Jenson Button",
+                "constructorId": "brawn",
+                "constructor": "Brawn"
+            },
+            "pole": {
+                "driverId": "button",
+                "name": "Jenson Button",
+                "constructorId": "brawn"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2010,
+            "round": 2,
+            "raceName": "Australian Grand Prix",
+            "date": "2010-03-28",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "button",
+                "name": "Jenson Button",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2011,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2011-03-27",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2012,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2012-03-18",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "button",
+                "name": "Jenson Button",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2013,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2013-03-17",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "raikkonen",
+                "name": "Kimi Räikkönen",
+                "constructorId": "lotus_f1",
+                "constructor": "Lotus F1"
+            },
+            "pole": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2014,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2014-03-16",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "rosberg",
+                "name": "Nico Rosberg",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2015,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2015-03-15",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2016,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2016-03-20",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "rosberg",
+                "name": "Nico Rosberg",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2017,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2017-03-26",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2018,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2018-03-25",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2019,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2019-03-17",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "bottas",
+                "name": "Valtteri Bottas",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2022,
+            "round": 3,
+            "raceName": "Australian Grand Prix",
+            "date": "2022-04-10",
+            "layoutId": "2022",
+            "winner": {
+                "driverId": "leclerc",
+                "name": "Charles Leclerc",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "leclerc",
+                "name": "Charles Leclerc",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2023,
+            "round": 3,
+            "raceName": "Australian Grand Prix",
+            "date": "2023-04-02",
+            "layoutId": "2022",
+            "winner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2024,
+            "round": 3,
+            "raceName": "Australian Grand Prix",
+            "date": "2024-03-24",
+            "layoutId": "2022",
+            "winner": {
+                "driverId": "sainz",
+                "name": "Carlos Sainz",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2025,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2025-03-16",
+            "layoutId": "2022",
+            "winner": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2026,
+            "round": 1,
+            "raceName": "Australian Grand Prix",
+            "date": "2026-03-08",
+            "layoutId": "2022",
+            "winner": {
+                "driverId": "russell",
+                "name": "George Russell",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "russell",
+                "name": "George Russell",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        }
+    ]
+}

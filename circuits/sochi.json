@@ -1,0 +1,293 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "sochi",
+    "name": "Sochi Autodrom",
+    "shortName": null,
+    "officialName": "Sochi Autodrom",
+    "location": {
+        "locality": "Sochi",
+        "country": "Russia",
+        "lat": 43.4057,
+        "long": 39.9578
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Sochi_Autodrom",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 2014,
+        "lastSeason": 2021,
+        "seasons": [
+            [
+                2014,
+                2021
+            ]
+        ],
+        "raceCount": 8,
+        "lastWinner": {
+            "driverId": "hamilton",
+            "name": "Lewis Hamilton",
+            "constructorId": "mercedes",
+            "constructor": "Mercedes",
+            "season": 2021
+        },
+        "mostWins": [
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 5
+            },
+            {
+                "driverId": "bottas",
+                "name": "Valtteri Bottas",
+                "count": 2
+            },
+            {
+                "driverId": "rosberg",
+                "name": "Nico Rosberg",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "count": 8
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 2
+            },
+            {
+                "driverId": "rosberg",
+                "name": "Nico Rosberg",
+                "count": 2
+            },
+            {
+                "driverId": "leclerc",
+                "name": "Charles Leclerc",
+                "count": 1
+            },
+            {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "count": 1
+            },
+            {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "count": 1
+            },
+            {
+                "driverId": "bottas",
+                "name": "Valtteri Bottas",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    2014,
+                    2021
+                ]
+            ],
+            "raceCount": 8,
+            "raceLaps": 53,
+            "lapRecord": {
+                "time": "1:35.761",
+                "lap": 51,
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2019,
+                "round": 16,
+                "raceName": "Russian Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:31.304",
+                "session": "Q3",
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2020,
+                "round": 10,
+                "raceName": "Russian Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": []
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 2014,
+            "round": 16,
+            "raceName": "Russian Grand Prix",
+            "date": "2014-10-12",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2015,
+            "round": 15,
+            "raceName": "Russian Grand Prix",
+            "date": "2015-10-11",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "rosberg",
+                "name": "Nico Rosberg",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2016,
+            "round": 4,
+            "raceName": "Russian Grand Prix",
+            "date": "2016-05-01",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "rosberg",
+                "name": "Nico Rosberg",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "rosberg",
+                "name": "Nico Rosberg",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2017,
+            "round": 4,
+            "raceName": "Russian Grand Prix",
+            "date": "2017-04-30",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "bottas",
+                "name": "Valtteri Bottas",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2018,
+            "round": 16,
+            "raceName": "Russian Grand Prix",
+            "date": "2018-09-30",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "bottas",
+                "name": "Valtteri Bottas",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2019,
+            "round": 16,
+            "raceName": "Russian Grand Prix",
+            "date": "2019-09-29",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "leclerc",
+                "name": "Charles Leclerc",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2020,
+            "round": 10,
+            "raceName": "Russian Grand Prix",
+            "date": "2020-09-27",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "bottas",
+                "name": "Valtteri Bottas",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2021,
+            "round": 15,
+            "raceName": "Russian Grand Prix",
+            "date": "2021-09-26",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        }
+    ]
+}

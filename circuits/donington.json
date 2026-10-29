@@ -1,0 +1,110 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "donington",
+    "name": "Donington Park",
+    "shortName": null,
+    "officialName": "Donington Park",
+    "location": {
+        "locality": "Castle Donington",
+        "country": "UK",
+        "lat": 52.8306,
+        "long": -1.37528
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Donington_Park",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1993,
+        "lastSeason": 1993,
+        "seasons": [
+            [
+                1993,
+                1993
+            ]
+        ],
+        "raceCount": 1,
+        "lastWinner": {
+            "driverId": "senna",
+            "name": "Ayrton Senna",
+            "constructorId": "mclaren",
+            "constructor": "McLaren",
+            "season": 1993
+        },
+        "mostWins": [
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1993,
+                    1993
+                ]
+            ],
+            "raceCount": 1,
+            "raceLaps": 76,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1993,
+            "round": 3,
+            "raceName": "European Grand Prix",
+            "date": "1993-04-11",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        }
+    ]
+}

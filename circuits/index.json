@@ -1,0 +1,2079 @@
+{
+    "schemaVersion": 1,
+    "dataThrough": {
+        "season": 2026,
+        "round": 18,
+        "raceName": "United States Grand Prix"
+    },
+    "files": {
+        "circuit": "circuits/{circuitId}.json",
+        "sources": "circuits/sources.json"
+    },
+    "notes": {
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it.",
+        "missingTimes": "missingTimes lists races on a layout whose lap or pole time is missing from the race data; a record may be faster than shown until they are filled."
+    },
+    "circuits": [
+        {
+            "circuitId": "rodriguez",
+            "name": "Autodromo Hermanos Rodriguez",
+            "shortName": "Mexico City",
+            "location": {
+                "locality": "Mexico City",
+                "country": "Mexico",
+                "lat": 19.4042,
+                "long": -99.0907
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 4.304,
+            "turns": 17,
+            "firstSeason": 1963,
+            "lastSeason": 2025,
+            "raceCount": 25,
+            "lastWinner": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 2025
+            },
+            "nextRace": {
+                "season": 2026,
+                "round": 19,
+                "raceName": "Mexico City Grand Prix",
+                "date": "2026-11-01",
+                "time": "20:00:00Z"
+            }
+        },
+        {
+            "circuitId": "interlagos",
+            "name": "Interlagos Circuit",
+            "shortName": "Interlagos",
+            "location": {
+                "locality": "São Paulo",
+                "country": "Brazil",
+                "lat": -23.7036,
+                "long": -46.6997
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 4.309,
+            "turns": 15,
+            "firstSeason": 1973,
+            "lastSeason": 2025,
+            "raceCount": 42,
+            "lastWinner": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 2025
+            },
+            "nextRace": {
+                "season": 2026,
+                "round": 20,
+                "raceName": "Brazilian Grand Prix",
+                "date": "2026-11-08",
+                "time": "17:00:00Z"
+            }
+        },
+        {
+            "circuitId": "vegas",
+            "name": "Las Vegas Strip Circuit",
+            "shortName": "Las Vegas",
+            "location": {
+                "locality": "Las Vegas",
+                "country": "USA",
+                "lat": 36.1147,
+                "long": -115.173
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 6.201,
+            "turns": 17,
+            "firstSeason": 2023,
+            "lastSeason": 2025,
+            "raceCount": 3,
+            "lastWinner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2025
+            },
+            "nextRace": {
+                "season": 2026,
+                "round": 21,
+                "raceName": "Las Vegas Grand Prix",
+                "date": "2026-11-22",
+                "time": "04:00:00Z"
+            }
+        },
+        {
+            "circuitId": "losail",
+            "name": "Lusail International Circuit",
+            "shortName": "Lusail",
+            "location": {
+                "locality": "Lusail",
+                "country": "Qatar",
+                "lat": 25.49,
+                "long": 51.4542
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.419,
+            "turns": 16,
+            "firstSeason": 2021,
+            "lastSeason": 2025,
+            "raceCount": 4,
+            "lastWinner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2025
+            },
+            "nextRace": {
+                "season": 2026,
+                "round": 22,
+                "raceName": "Qatar Grand Prix",
+                "date": "2026-11-29",
+                "time": "16:00:00Z"
+            }
+        },
+        {
+            "circuitId": "yas_marina",
+            "name": "Yas Marina Circuit",
+            "shortName": "Yas Marina",
+            "location": {
+                "locality": "Abu Dhabi",
+                "country": "UAE",
+                "lat": 24.4672,
+                "long": 54.6031
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.281,
+            "turns": 16,
+            "firstSeason": 2009,
+            "lastSeason": 2025,
+            "raceCount": 17,
+            "lastWinner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2025
+            },
+            "nextRace": {
+                "season": 2026,
+                "round": 23,
+                "raceName": "Abu Dhabi Grand Prix",
+                "date": "2026-12-06",
+                "time": "13:00:00Z"
+            }
+        },
+        {
+            "circuitId": "albert_park",
+            "name": "Albert Park Circuit",
+            "shortName": "Albert Park",
+            "location": {
+                "locality": "Melbourne",
+                "country": "Australia",
+                "lat": -37.8497,
+                "long": 144.968
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.278,
+            "turns": 14,
+            "firstSeason": 1996,
+            "lastSeason": 2026,
+            "raceCount": 29,
+            "lastWinner": {
+                "driverId": "russell",
+                "name": "George Russell",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "bahrain",
+            "name": "Bahrain International Circuit",
+            "shortName": "Bahrain",
+            "location": {
+                "locality": "Sakhir",
+                "country": "Bahrain",
+                "lat": 26.0325,
+                "long": 50.5106
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.412,
+            "turns": 15,
+            "firstSeason": 2004,
+            "lastSeason": 2025,
+            "raceCount": 22,
+            "lastWinner": {
+                "driverId": "piastri",
+                "name": "Oscar Piastri",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 2025
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "baku",
+            "name": "Baku City Circuit",
+            "shortName": "Baku",
+            "location": {
+                "locality": "Baku",
+                "country": "Azerbaijan",
+                "lat": 40.3725,
+                "long": 49.8533
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 6.003,
+            "turns": 20,
+            "firstSeason": 2016,
+            "lastSeason": 2026,
+            "raceCount": 10,
+            "lastWinner": {
+                "driverId": "russell",
+                "name": "George Russell",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "villeneuve",
+            "name": "Circuit Gilles Villeneuve",
+            "shortName": "Montreal",
+            "location": {
+                "locality": "Montreal",
+                "country": "Canada",
+                "lat": 45.5,
+                "long": -73.5228
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 4.361,
+            "turns": 14,
+            "firstSeason": 1978,
+            "lastSeason": 2026,
+            "raceCount": 45,
+            "lastWinner": {
+                "driverId": "antonelli",
+                "name": "Andrea Kimi Antonelli",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "zandvoort",
+            "name": "Circuit Zandvoort",
+            "shortName": "Zandvoort",
+            "location": {
+                "locality": "Zandvoort",
+                "country": "Netherlands",
+                "lat": 52.3888,
+                "long": 4.54092
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 4.259,
+            "turns": 14,
+            "firstSeason": 1952,
+            "lastSeason": 2026,
+            "raceCount": 36,
+            "lastWinner": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "catalunya",
+            "name": "Circuit de Barcelona-Catalunya",
+            "shortName": "Barcelona",
+            "location": {
+                "locality": "Barcelona",
+                "country": "Spain",
+                "lat": 41.57,
+                "long": 2.26111
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 4.657,
+            "turns": 14,
+            "firstSeason": 1991,
+            "lastSeason": 2026,
+            "raceCount": 36,
+            "lastWinner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "monaco",
+            "name": "Circuit de Monaco",
+            "shortName": "Monaco",
+            "location": {
+                "locality": "Monte Carlo",
+                "country": "Monaco",
+                "lat": 43.7347,
+                "long": 7.42056
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 3.337,
+            "turns": 19,
+            "firstSeason": 1950,
+            "lastSeason": 2026,
+            "raceCount": 72,
+            "lastWinner": {
+                "driverId": "antonelli",
+                "name": "Andrea Kimi Antonelli",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "spa",
+            "name": "Circuit de Spa-Francorchamps",
+            "shortName": "Spa",
+            "location": {
+                "locality": "Spa",
+                "country": "Belgium",
+                "lat": 50.4372,
+                "long": 5.97139
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 7.004,
+            "turns": 19,
+            "firstSeason": 1950,
+            "lastSeason": 2026,
+            "raceCount": 59,
+            "lastWinner": {
+                "driverId": "antonelli",
+                "name": "Andrea Kimi Antonelli",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "americas",
+            "name": "Circuit of the Americas",
+            "shortName": "COTA",
+            "location": {
+                "locality": "Austin",
+                "country": "USA",
+                "lat": 30.1328,
+                "long": -97.6411
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.513,
+            "turns": 20,
+            "firstSeason": 2012,
+            "lastSeason": 2026,
+            "raceCount": 14,
+            "lastWinner": {
+                "driverId": "antonelli",
+                "name": "Andrea Kimi Antonelli",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "hungaroring",
+            "name": "Hungaroring",
+            "shortName": "Hungaroring",
+            "location": {
+                "locality": "Budapest",
+                "country": "Hungary",
+                "lat": 47.5789,
+                "long": 19.2486
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 4.381,
+            "turns": 14,
+            "firstSeason": 1986,
+            "lastSeason": 2026,
+            "raceCount": 41,
+            "lastWinner": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "jeddah",
+            "name": "Jeddah Corniche Circuit",
+            "shortName": "Jeddah",
+            "location": {
+                "locality": "Jeddah",
+                "country": "Saudi Arabia",
+                "lat": 21.6319,
+                "long": 39.1044
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 6.174,
+            "turns": 27,
+            "firstSeason": 2021,
+            "lastSeason": 2025,
+            "raceCount": 5,
+            "lastWinner": {
+                "driverId": "piastri",
+                "name": "Oscar Piastri",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 2025
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "madring",
+            "name": "Madring",
+            "shortName": "Madring",
+            "location": {
+                "locality": "Madrid",
+                "country": "Spain",
+                "lat": 40.46528,
+                "long": -3.61528
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.414,
+            "turns": 22,
+            "firstSeason": 2026,
+            "lastSeason": 2026,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "antonelli",
+                "name": "Andrea Kimi Antonelli",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "marina_bay",
+            "name": "Marina Bay Street Circuit",
+            "shortName": "Marina Bay",
+            "location": {
+                "locality": "Marina Bay",
+                "country": "Singapore",
+                "lat": 1.2914,
+                "long": 103.864
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 4.927,
+            "turns": 19,
+            "firstSeason": 2008,
+            "lastSeason": 2026,
+            "raceCount": 17,
+            "lastWinner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "miami",
+            "name": "Miami International Autodrome",
+            "shortName": "Miami",
+            "location": {
+                "locality": "Miami",
+                "country": "USA",
+                "lat": 25.9581,
+                "long": -80.2389
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.412,
+            "turns": 19,
+            "firstSeason": 2022,
+            "lastSeason": 2026,
+            "raceCount": 5,
+            "lastWinner": {
+                "driverId": "antonelli",
+                "name": "Andrea Kimi Antonelli",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "monza",
+            "name": "Monza Circuit",
+            "shortName": "Monza",
+            "location": {
+                "locality": "Monza",
+                "country": "Italy",
+                "lat": 45.6156,
+                "long": 9.28111
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.793,
+            "turns": 11,
+            "firstSeason": 1950,
+            "lastSeason": 2026,
+            "raceCount": 76,
+            "lastWinner": {
+                "driverId": "antonelli",
+                "name": "Andrea Kimi Antonelli",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "red_bull_ring",
+            "name": "Red Bull Ring",
+            "shortName": "Red Bull Ring",
+            "location": {
+                "locality": "Spielberg",
+                "country": "Austria",
+                "lat": 47.2197,
+                "long": 14.7647
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 4.326,
+            "turns": 10,
+            "firstSeason": 1970,
+            "lastSeason": 2026,
+            "raceCount": 40,
+            "lastWinner": {
+                "driverId": "russell",
+                "name": "George Russell",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "sepang",
+            "name": "Sepang International Circuit",
+            "shortName": "Sepang",
+            "location": {
+                "locality": "Kuala Lumpur",
+                "country": "Malaysia",
+                "lat": 2.76083,
+                "long": 101.738
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.543,
+            "turns": 15,
+            "firstSeason": 1999,
+            "lastSeason": 2026,
+            "raceCount": 20,
+            "lastWinner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "shanghai",
+            "name": "Shanghai International Circuit",
+            "shortName": "Shanghai",
+            "location": {
+                "locality": "Shanghai",
+                "country": "China",
+                "lat": 31.3389,
+                "long": 121.22
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.451,
+            "turns": 16,
+            "firstSeason": 2004,
+            "lastSeason": 2026,
+            "raceCount": 19,
+            "lastWinner": {
+                "driverId": "antonelli",
+                "name": "Andrea Kimi Antonelli",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "silverstone",
+            "name": "Silverstone Circuit",
+            "shortName": "Silverstone",
+            "location": {
+                "locality": "Silverstone",
+                "country": "UK",
+                "lat": 52.0786,
+                "long": -1.01694
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.891,
+            "turns": 18,
+            "firstSeason": 1950,
+            "lastSeason": 2026,
+            "raceCount": 61,
+            "lastWinner": {
+                "driverId": "leclerc",
+                "name": "Charles Leclerc",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "suzuka",
+            "name": "Suzuka International Racing Course",
+            "shortName": "Suzuka",
+            "location": {
+                "locality": "Suzuka",
+                "country": "Japan",
+                "lat": 34.8431,
+                "long": 136.541
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 5.807,
+            "turns": 18,
+            "firstSeason": 1987,
+            "lastSeason": 2026,
+            "raceCount": 36,
+            "lastWinner": {
+                "driverId": "antonelli",
+                "name": "Andrea Kimi Antonelli",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "avus",
+            "name": "AVUS",
+            "shortName": null,
+            "location": {
+                "locality": "Berlin",
+                "country": "Germany",
+                "lat": 52.4806,
+                "long": 13.2514
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1959,
+            "lastSeason": 1959,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "brooks",
+                "name": "Tony Brooks",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 1959
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "adelaide",
+            "name": "Adelaide Street Circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Adelaide",
+                "country": "Australia",
+                "lat": -34.9272,
+                "long": 138.617
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1985,
+            "lastSeason": 1995,
+            "raceCount": 11,
+            "lastWinner": {
+                "driverId": "damon_hill",
+                "name": "Damon Hill",
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "season": 1995
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "ain-diab",
+            "name": "Ain Diab",
+            "shortName": null,
+            "location": {
+                "locality": "Casablanca",
+                "country": "Morocco",
+                "lat": 33.5786,
+                "long": -7.6875
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1958,
+            "lastSeason": 1958,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "vanwall",
+                "constructor": "Vanwall",
+                "season": 1958
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "aintree",
+            "name": "Aintree",
+            "shortName": null,
+            "location": {
+                "locality": "Liverpool",
+                "country": "UK",
+                "lat": 53.4769,
+                "long": -2.94056
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1955,
+            "lastSeason": 1962,
+            "raceCount": 5,
+            "lastWinner": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax",
+                "season": 1962
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "mugello",
+            "name": "Autodromo Internazionale del Mugello",
+            "shortName": null,
+            "location": {
+                "locality": "Mugello",
+                "country": "Italy",
+                "lat": 43.9975,
+                "long": 11.3719
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 2020,
+            "lastSeason": 2020,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2020
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "jacarepagua",
+            "name": "Autódromo Internacional Nelson Piquet",
+            "shortName": null,
+            "location": {
+                "locality": "Rio de Janeiro",
+                "country": "Brazil",
+                "lat": -22.9756,
+                "long": -43.395
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1978,
+            "lastSeason": 1989,
+            "raceCount": 10,
+            "lastWinner": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 1989
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "portimao",
+            "name": "Autódromo Internacional do Algarve",
+            "shortName": null,
+            "location": {
+                "locality": "Portimão",
+                "country": "Portugal",
+                "lat": 37.227,
+                "long": -8.6267
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 2020,
+            "lastSeason": 2021,
+            "raceCount": 2,
+            "lastWinner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2021
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "galvez",
+            "name": "Autódromo Juan y Oscar Gálvez",
+            "shortName": null,
+            "location": {
+                "locality": "Buenos Aires",
+                "country": "Argentina",
+                "lat": -34.6943,
+                "long": -58.4593
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1953,
+            "lastSeason": 1998,
+            "raceCount": 20,
+            "lastWinner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 1998
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "brands_hatch",
+            "name": "Brands Hatch",
+            "shortName": null,
+            "location": {
+                "locality": "Kent",
+                "country": "UK",
+                "lat": 51.3569,
+                "long": 0.263056
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1964,
+            "lastSeason": 1986,
+            "raceCount": 14,
+            "lastWinner": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "season": 1986
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "buddh",
+            "name": "Buddh International Circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Uttar Pradesh",
+                "country": "India",
+                "lat": 28.3487,
+                "long": 77.5331
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 2011,
+            "lastSeason": 2013,
+            "raceCount": 3,
+            "lastWinner": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2013
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "charade",
+            "name": "Charade Circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Clermont-Ferrand",
+                "country": "France",
+                "lat": 45.7472,
+                "long": 3.03889
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1965,
+            "lastSeason": 1972,
+            "raceCount": 4,
+            "lastWinner": {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell",
+                "season": 1972
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "bremgarten",
+            "name": "Circuit Bremgarten",
+            "shortName": null,
+            "location": {
+                "locality": "Bern",
+                "country": "Switzerland",
+                "lat": 46.9589,
+                "long": 7.40194
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1950,
+            "lastSeason": 1954,
+            "raceCount": 5,
+            "lastWinner": {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 1954
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "tremblant",
+            "name": "Circuit Mont-Tremblant",
+            "shortName": null,
+            "location": {
+                "locality": "Quebec",
+                "country": "Canada",
+                "lat": 46.1877,
+                "long": -74.6099
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1968,
+            "lastSeason": 1970,
+            "raceCount": 2,
+            "lastWinner": {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 1970
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "ricard",
+            "name": "Circuit Paul Ricard",
+            "shortName": null,
+            "location": {
+                "locality": "Le Castellet",
+                "country": "France",
+                "lat": 43.2506,
+                "long": 5.79167
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1971,
+            "lastSeason": 2022,
+            "raceCount": 18,
+            "lastWinner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2022
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "pedralbes",
+            "name": "Circuit de Pedralbes",
+            "shortName": null,
+            "location": {
+                "locality": "Barcelona",
+                "country": "Spain",
+                "lat": 41.3903,
+                "long": 2.11667
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1951,
+            "lastSeason": 1954,
+            "raceCount": 2,
+            "lastWinner": {
+                "driverId": "hawthorn",
+                "name": "Mike Hawthorn",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 1954
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "boavista",
+            "name": "Circuito da Boavista",
+            "shortName": null,
+            "location": {
+                "locality": "Oporto",
+                "country": "Portugal",
+                "lat": 41.1705,
+                "long": -8.67325
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1958,
+            "lastSeason": 1960,
+            "raceCount": 2,
+            "lastWinner": {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "constructorId": "cooper-climax",
+                "constructor": "Cooper-Climax",
+                "season": 1960
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "jerez",
+            "name": "Circuito de Jerez",
+            "shortName": null,
+            "location": {
+                "locality": "Jerez de la Frontera",
+                "country": "Spain",
+                "lat": 36.7083,
+                "long": -6.03417
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1986,
+            "lastSeason": 1997,
+            "raceCount": 7,
+            "lastWinner": {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 1997
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "detroit",
+            "name": "Detroit Street Circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Detroit",
+                "country": "USA",
+                "lat": 42.3298,
+                "long": -83.0401
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1982,
+            "lastSeason": 1988,
+            "raceCount": 7,
+            "lastWinner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 1988
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "dijon",
+            "name": "Dijon-Prenois",
+            "shortName": null,
+            "location": {
+                "locality": "Dijon",
+                "country": "France",
+                "lat": 47.3625,
+                "long": 4.89913
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1974,
+            "lastSeason": 1984,
+            "raceCount": 6,
+            "lastWinner": {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 1984
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "donington",
+            "name": "Donington Park",
+            "shortName": null,
+            "location": {
+                "locality": "Castle Donington",
+                "country": "UK",
+                "lat": 52.8306,
+                "long": -1.37528
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1993,
+            "lastSeason": 1993,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 1993
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "estoril",
+            "name": "Estoril",
+            "shortName": "Estoril",
+            "location": {
+                "locality": "Estoril",
+                "country": "Portugal",
+                "lat": 38.7506,
+                "long": -9.39417
+            },
+            "status": "historical",
+            "hasGuide": true,
+            "lengthKm": 4.36,
+            "turns": 13,
+            "firstSeason": 1984,
+            "lastSeason": 1996,
+            "raceCount": 13,
+            "lastWinner": {
+                "driverId": "villeneuve",
+                "name": "Jacques Villeneuve",
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "season": 1996
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "dallas",
+            "name": "Fair Park",
+            "shortName": null,
+            "location": {
+                "locality": "Dallas",
+                "country": "USA",
+                "lat": 32.7774,
+                "long": -96.7587
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1984,
+            "lastSeason": 1984,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "keke_rosberg",
+                "name": "Keke Rosberg",
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "season": 1984
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "fuji",
+            "name": "Fuji Speedway",
+            "shortName": "Fuji",
+            "location": {
+                "locality": "Oyama",
+                "country": "Japan",
+                "lat": 35.3717,
+                "long": 138.927
+            },
+            "status": "historical",
+            "hasGuide": true,
+            "lengthKm": 4.563,
+            "turns": 16,
+            "firstSeason": 1976,
+            "lastSeason": 2008,
+            "raceCount": 4,
+            "lastWinner": {
+                "driverId": "alonso",
+                "name": "Fernando Alonso",
+                "constructorId": "renault",
+                "constructor": "Renault",
+                "season": 2008
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "hockenheimring",
+            "name": "Hockenheimring (Original Layout)",
+            "shortName": "Hockenheim",
+            "location": {
+                "locality": "Hockenheim",
+                "country": "Germany",
+                "lat": 49.3278,
+                "long": 8.56583
+            },
+            "status": "historical",
+            "hasGuide": true,
+            "lengthKm": 4.574,
+            "turns": 17,
+            "firstSeason": 1970,
+            "lastSeason": 2019,
+            "raceCount": 37,
+            "lastWinner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2019
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "imola",
+            "name": "Imola (San Marino GP)",
+            "shortName": "Imola",
+            "location": {
+                "locality": "Imola",
+                "country": "Italy",
+                "lat": 44.3439,
+                "long": 11.7167
+            },
+            "status": "historical",
+            "hasGuide": true,
+            "lengthKm": 4.909,
+            "turns": 19,
+            "firstSeason": 1980,
+            "lastSeason": 2025,
+            "raceCount": 32,
+            "lastWinner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2025
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "indianapolis",
+            "name": "Indianapolis Motor Speedway (Road Course)",
+            "shortName": "Indianapolis",
+            "location": {
+                "locality": "Indianapolis",
+                "country": "USA",
+                "lat": 39.795,
+                "long": -86.2347
+            },
+            "status": "historical",
+            "hasGuide": true,
+            "lengthKm": 4.192,
+            "turns": 13,
+            "firstSeason": 2000,
+            "lastSeason": 2007,
+            "raceCount": 8,
+            "lastWinner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 2007
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "istanbul",
+            "name": "Istanbul Park",
+            "shortName": null,
+            "location": {
+                "locality": "Istanbul",
+                "country": "Turkey",
+                "lat": 40.9517,
+                "long": 29.405
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 2005,
+            "lastSeason": 2021,
+            "raceCount": 9,
+            "lastWinner": {
+                "driverId": "bottas",
+                "name": "Valtteri Bottas",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2021
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "jarama",
+            "name": "Jarama",
+            "shortName": null,
+            "location": {
+                "locality": "Madrid",
+                "country": "Spain",
+                "lat": 40.6171,
+                "long": -3.58558
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1968,
+            "lastSeason": 1981,
+            "raceCount": 9,
+            "lastWinner": {
+                "driverId": "gilles_villeneuve",
+                "name": "Gilles Villeneuve",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 1981
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "yeongam",
+            "name": "Korea International Circuit",
+            "shortName": "Yeongam",
+            "location": {
+                "locality": "Yeongam County",
+                "country": "Korea",
+                "lat": 34.7333,
+                "long": 126.417
+            },
+            "status": "historical",
+            "hasGuide": true,
+            "lengthKm": 5.615,
+            "turns": 18,
+            "firstSeason": 2010,
+            "lastSeason": 2013,
+            "raceCount": 4,
+            "lastWinner": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2013
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "kyalami",
+            "name": "Kyalami",
+            "shortName": "Kyalami",
+            "location": {
+                "locality": "Midrand",
+                "country": "South Africa",
+                "lat": -25.9894,
+                "long": 28.0767
+            },
+            "status": "historical",
+            "hasGuide": true,
+            "lengthKm": 4.261,
+            "turns": null,
+            "firstSeason": 1967,
+            "lastSeason": 1993,
+            "raceCount": 20,
+            "lastWinner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "season": 1993
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "las_vegas",
+            "name": "Las Vegas Street Circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Nevada",
+                "country": "USA",
+                "lat": 36.1162,
+                "long": -115.174
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1981,
+            "lastSeason": 1982,
+            "raceCount": 2,
+            "lastWinner": {
+                "driverId": "alboreto",
+                "name": "Michele Alboreto",
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell",
+                "season": 1982
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "lemans",
+            "name": "Le Mans",
+            "shortName": null,
+            "location": {
+                "locality": "Le Mans",
+                "country": "France",
+                "lat": 47.95,
+                "long": 0.224231
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1967,
+            "lastSeason": 1967,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "constructorId": "brabham-repco",
+                "constructor": "Brabham-Repco",
+                "season": 1967
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "long_beach",
+            "name": "Long Beach",
+            "shortName": null,
+            "location": {
+                "locality": "California",
+                "country": "USA",
+                "lat": 33.7651,
+                "long": -118.189
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1976,
+            "lastSeason": 1983,
+            "raceCount": 8,
+            "lastWinner": {
+                "driverId": "watson",
+                "name": "John Watson",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 1983
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "magny_cours",
+            "name": "Magny-Cours",
+            "shortName": "Magny-Cours",
+            "location": {
+                "locality": "Magny Cours",
+                "country": "France",
+                "lat": 46.8642,
+                "long": 3.16361
+            },
+            "status": "historical",
+            "hasGuide": true,
+            "lengthKm": 4.411,
+            "turns": 17,
+            "firstSeason": 1991,
+            "lastSeason": 2008,
+            "raceCount": 18,
+            "lastWinner": {
+                "driverId": "massa",
+                "name": "Felipe Massa",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 2008
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "monsanto",
+            "name": "Monsanto Park Circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Lisbon",
+                "country": "Portugal",
+                "lat": 38.7197,
+                "long": -9.20306
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1959,
+            "lastSeason": 1959,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "cooper-climax",
+                "constructor": "Cooper-Climax",
+                "season": 1959
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "montjuic",
+            "name": "Montjuïc",
+            "shortName": null,
+            "location": {
+                "locality": "Barcelona",
+                "country": "Spain",
+                "lat": 41.3664,
+                "long": 2.15167
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1969,
+            "lastSeason": 1975,
+            "raceCount": 4,
+            "lastWinner": {
+                "driverId": "mass",
+                "name": "Jochen Mass",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 1975
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "mosport",
+            "name": "Mosport International Raceway",
+            "shortName": null,
+            "location": {
+                "locality": "Ontario",
+                "country": "Canada",
+                "lat": 44.0481,
+                "long": -78.6756
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1967,
+            "lastSeason": 1977,
+            "raceCount": 8,
+            "lastWinner": {
+                "driverId": "scheckter",
+                "name": "Jody Scheckter",
+                "constructorId": "wolf",
+                "constructor": "Wolf",
+                "season": 1977
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "nivelles",
+            "name": "Nivelles-Baulers",
+            "shortName": null,
+            "location": {
+                "locality": "Brussels",
+                "country": "Belgium",
+                "lat": 50.6211,
+                "long": 4.32694
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1972,
+            "lastSeason": 1974,
+            "raceCount": 2,
+            "lastWinner": {
+                "driverId": "emerson_fittipaldi",
+                "name": "Emerson Fittipaldi",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 1974
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "nurburgring",
+            "name": "Nürburgring Nordschleife",
+            "shortName": "Nürburgring",
+            "location": {
+                "locality": "Nürburg",
+                "country": "Germany",
+                "lat": 50.3356,
+                "long": 6.9475
+            },
+            "status": "historical",
+            "hasGuide": true,
+            "lengthKm": 5.148,
+            "turns": 15,
+            "firstSeason": 1951,
+            "lastSeason": 2020,
+            "raceCount": 41,
+            "lastWinner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2020
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "okayama",
+            "name": "Okayama International Circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Okayama",
+                "country": "Japan",
+                "lat": 34.915,
+                "long": 134.221
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1994,
+            "lastSeason": 1995,
+            "raceCount": 2,
+            "lastWinner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "benetton",
+                "constructor": "Benetton",
+                "season": 1995
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "pescara",
+            "name": "Pescara Circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Pescara",
+                "country": "Italy",
+                "lat": 42.475,
+                "long": 14.1508
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1957,
+            "lastSeason": 1957,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "vanwall",
+                "constructor": "Vanwall",
+                "season": 1957
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "phoenix",
+            "name": "Phoenix street circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Phoenix",
+                "country": "USA",
+                "lat": 33.4479,
+                "long": -112.075
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1989,
+            "lastSeason": 1991,
+            "raceCount": 3,
+            "lastWinner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 1991
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "george",
+            "name": "Prince George Circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Eastern Cape Province",
+                "country": "South Africa",
+                "lat": -33.0486,
+                "long": 27.8736
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1962,
+            "lastSeason": 1965,
+            "raceCount": 3,
+            "lastWinner": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax",
+                "season": 1965
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "reims",
+            "name": "Reims-Gueux",
+            "shortName": null,
+            "location": {
+                "locality": "Reims",
+                "country": "France",
+                "lat": 49.2542,
+                "long": 3.93083
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1950,
+            "lastSeason": 1966,
+            "raceCount": 11,
+            "lastWinner": {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "constructorId": "brabham-repco",
+                "constructor": "Brabham-Repco",
+                "season": 1966
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "riverside",
+            "name": "Riverside International Raceway",
+            "shortName": null,
+            "location": {
+                "locality": "California",
+                "country": "USA",
+                "lat": 33.937,
+                "long": -117.273
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1960,
+            "lastSeason": 1960,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus",
+                "season": 1960
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "essarts",
+            "name": "Rouen-Les-Essarts",
+            "shortName": null,
+            "location": {
+                "locality": "Rouen",
+                "country": "France",
+                "lat": 49.3306,
+                "long": 1.00458
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1952,
+            "lastSeason": 1968,
+            "raceCount": 5,
+            "lastWinner": {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 1968
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "anderstorp",
+            "name": "Scandinavian Raceway",
+            "shortName": null,
+            "location": {
+                "locality": "Anderstorp",
+                "country": "Sweden",
+                "lat": 57.2653,
+                "long": 13.6042
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1973,
+            "lastSeason": 1978,
+            "raceCount": 6,
+            "lastWinner": {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "constructorId": "brabham",
+                "constructor": "Brabham",
+                "season": 1978
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "sebring",
+            "name": "Sebring International Raceway",
+            "shortName": null,
+            "location": {
+                "locality": "Florida",
+                "country": "USA",
+                "lat": 27.4547,
+                "long": -81.3483
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1959,
+            "lastSeason": 1959,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "mclaren",
+                "name": "Bruce McLaren",
+                "constructorId": "cooper-climax",
+                "constructor": "Cooper-Climax",
+                "season": 1959
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "sochi",
+            "name": "Sochi Autodrom",
+            "shortName": null,
+            "location": {
+                "locality": "Sochi",
+                "country": "Russia",
+                "lat": 43.4057,
+                "long": 39.9578
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 2014,
+            "lastSeason": 2021,
+            "raceCount": 8,
+            "lastWinner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2021
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "valencia",
+            "name": "Valencia Street Circuit",
+            "shortName": null,
+            "location": {
+                "locality": "Valencia",
+                "country": "Spain",
+                "lat": 39.4589,
+                "long": -0.331667
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 2008,
+            "lastSeason": 2012,
+            "raceCount": 5,
+            "lastWinner": {
+                "driverId": "alonso",
+                "name": "Fernando Alonso",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 2012
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "watkins_glen",
+            "name": "Watkins Glen",
+            "shortName": null,
+            "location": {
+                "locality": "New York State",
+                "country": "USA",
+                "lat": 42.3369,
+                "long": -76.9272
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1961,
+            "lastSeason": 1980,
+            "raceCount": 20,
+            "lastWinner": {
+                "driverId": "jones",
+                "name": "Alan Jones",
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "season": 1980
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "zeltweg",
+            "name": "Zeltweg",
+            "shortName": null,
+            "location": {
+                "locality": "Styria",
+                "country": "Austria",
+                "lat": 47.2039,
+                "long": 14.7478
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1964,
+            "lastSeason": 1964,
+            "raceCount": 1,
+            "lastWinner": {
+                "driverId": "bandini",
+                "name": "Lorenzo Bandini",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 1964
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "zolder",
+            "name": "Zolder",
+            "shortName": null,
+            "location": {
+                "locality": "Heusden-Zolder",
+                "country": "Belgium",
+                "lat": 50.9894,
+                "long": 5.25694
+            },
+            "status": "historical",
+            "hasGuide": false,
+            "lengthKm": null,
+            "turns": null,
+            "firstSeason": 1973,
+            "lastSeason": 1984,
+            "raceCount": 10,
+            "lastWinner": {
+                "driverId": "alboreto",
+                "name": "Michele Alboreto",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 1984
+            },
+            "nextRace": null
+        }
+    ]
+}

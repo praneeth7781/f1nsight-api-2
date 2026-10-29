@@ -1,0 +1,110 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "zeltweg",
+    "name": "Zeltweg",
+    "shortName": null,
+    "officialName": "Zeltweg",
+    "location": {
+        "locality": "Styria",
+        "country": "Austria",
+        "lat": 47.2039,
+        "long": 14.7478
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Zeltweg_Airfield",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1964,
+        "lastSeason": 1964,
+        "seasons": [
+            [
+                1964,
+                1964
+            ]
+        ],
+        "raceCount": 1,
+        "lastWinner": {
+            "driverId": "bandini",
+            "name": "Lorenzo Bandini",
+            "constructorId": "ferrari",
+            "constructor": "Ferrari",
+            "season": 1964
+        },
+        "mostWins": [
+            {
+                "driverId": "bandini",
+                "name": "Lorenzo Bandini",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1964,
+                    1964
+                ]
+            ],
+            "raceCount": 1,
+            "raceLaps": 105,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1964,
+            "round": 7,
+            "raceName": "Austrian Grand Prix",
+            "date": "1964-08-23",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "bandini",
+                "name": "Lorenzo Bandini",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "constructorId": "brm"
+            },
+            "indy500": false
+        }
+    ]
+}

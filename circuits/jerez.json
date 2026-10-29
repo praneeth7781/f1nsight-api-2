@@ -1,0 +1,295 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "jerez",
+    "name": "Circuito de Jerez",
+    "shortName": null,
+    "officialName": "Circuito de Jerez",
+    "location": {
+        "locality": "Jerez de la Frontera",
+        "country": "Spain",
+        "lat": 36.7083,
+        "long": -6.03417
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Circuito_Permanente_de_Jerez",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1986,
+        "lastSeason": 1997,
+        "seasons": [
+            [
+                1986,
+                1990
+            ],
+            [
+                1994,
+                1994
+            ],
+            [
+                1997,
+                1997
+            ]
+        ],
+        "raceCount": 7,
+        "lastWinner": {
+            "driverId": "hakkinen",
+            "name": "Mika Häkkinen",
+            "constructorId": "mclaren",
+            "constructor": "McLaren",
+            "season": 1997
+        },
+        "mostWins": [
+            {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "count": 2
+            },
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 2
+            },
+            {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "count": 1
+            },
+            {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "count": 1
+            },
+            {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 3
+            },
+            {
+                "constructorId": "benetton",
+                "constructor": "Benetton",
+                "count": 1
+            },
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 1
+            },
+            {
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus",
+                "count": 1
+            },
+            {
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 4
+            },
+            {
+                "driverId": "villeneuve",
+                "name": "Jacques Villeneuve",
+                "count": 1
+            },
+            {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "count": 1
+            },
+            {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1986,
+                    1990
+                ],
+                [
+                    1994,
+                    1994
+                ],
+                [
+                    1997,
+                    1997
+                ]
+            ],
+            "raceCount": 7,
+            "raceLaps": 72,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1986,
+            "round": 2,
+            "raceName": "Spanish Grand Prix",
+            "date": "1986-04-13",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1987,
+            "round": 13,
+            "raceName": "Spanish Grand Prix",
+            "date": "1987-09-27",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1988,
+            "round": 14,
+            "raceName": "Spanish Grand Prix",
+            "date": "1988-10-02",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1989,
+            "round": 14,
+            "raceName": "Spanish Grand Prix",
+            "date": "1989-10-01",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1990,
+            "round": 14,
+            "raceName": "Spanish Grand Prix",
+            "date": "1990-09-30",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1994,
+            "round": 14,
+            "raceName": "European Grand Prix",
+            "date": "1994-10-16",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "benetton",
+                "constructor": "Benetton"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "benetton"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1997,
+            "round": 17,
+            "raceName": "European Grand Prix",
+            "date": "1997-10-26",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "villeneuve",
+                "name": "Jacques Villeneuve",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        }
+    ]
+}

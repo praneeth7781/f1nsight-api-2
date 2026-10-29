@@ -1,0 +1,147 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "nivelles",
+    "name": "Nivelles-Baulers",
+    "shortName": null,
+    "officialName": "Nivelles-Baulers",
+    "location": {
+        "locality": "Brussels",
+        "country": "Belgium",
+        "lat": 50.6211,
+        "long": 4.32694
+    },
+    "wikipedia": "https://en.wikipedia.org/wiki/Nivelles-Baulers",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1972,
+        "lastSeason": 1974,
+        "seasons": [
+            [
+                1972,
+                1972
+            ],
+            [
+                1974,
+                1974
+            ]
+        ],
+        "raceCount": 2,
+        "lastWinner": {
+            "driverId": "emerson_fittipaldi",
+            "name": "Emerson Fittipaldi",
+            "constructorId": "mclaren",
+            "constructor": "McLaren",
+            "season": 1974
+        },
+        "mostWins": [
+            {
+                "driverId": "emerson_fittipaldi",
+                "name": "Emerson Fittipaldi",
+                "count": 2
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 1
+            },
+            {
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "regazzoni",
+                "name": "Clay Regazzoni",
+                "count": 1
+            },
+            {
+                "driverId": "emerson_fittipaldi",
+                "name": "Emerson Fittipaldi",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1972,
+                    1972
+                ],
+                [
+                    1974,
+                    1974
+                ]
+            ],
+            "raceCount": 2,
+            "raceLaps": 85,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1972,
+            "round": 5,
+            "raceName": "Belgian Grand Prix",
+            "date": "1972-06-04",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "emerson_fittipaldi",
+                "name": "Emerson Fittipaldi",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "emerson_fittipaldi",
+                "name": "Emerson Fittipaldi",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1974,
+            "round": 5,
+            "raceName": "Belgian Grand Prix",
+            "date": "1974-05-12",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "emerson_fittipaldi",
+                "name": "Emerson Fittipaldi",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "regazzoni",
+                "name": "Clay Regazzoni",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        }
+    ]
+}

@@ -1,0 +1,302 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "dijon",
+    "name": "Dijon-Prenois",
+    "shortName": null,
+    "officialName": "Dijon-Prenois",
+    "location": {
+        "locality": "Dijon",
+        "country": "France",
+        "lat": 47.3625,
+        "long": 4.89913
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Dijon-Prenois",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1974,
+        "lastSeason": 1984,
+        "seasons": [
+            [
+                1974,
+                1974
+            ],
+            [
+                1977,
+                1977
+            ],
+            [
+                1979,
+                1979
+            ],
+            [
+                1981,
+                1982
+            ],
+            [
+                1984,
+                1984
+            ]
+        ],
+        "raceCount": 6,
+        "lastWinner": {
+            "driverId": "lauda",
+            "name": "Niki Lauda",
+            "constructorId": "mclaren",
+            "constructor": "McLaren",
+            "season": 1984
+        },
+        "mostWins": [
+            {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "count": 1
+            },
+            {
+                "driverId": "jabouille",
+                "name": "Jean-Pierre Jabouille",
+                "count": 1
+            },
+            {
+                "driverId": "keke_rosberg",
+                "name": "Keke Rosberg",
+                "count": 1
+            },
+            {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "count": 1
+            },
+            {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "count": 1
+            },
+            {
+                "driverId": "peterson",
+                "name": "Ronnie Peterson",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "renault",
+                "constructor": "Renault",
+                "count": 2
+            },
+            {
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus",
+                "count": 2
+            },
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 1
+            },
+            {
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "count": 1
+            },
+            {
+                "driverId": "jabouille",
+                "name": "Jean-Pierre Jabouille",
+                "count": 1
+            },
+            {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "count": 1
+            },
+            {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "count": 1
+            },
+            {
+                "driverId": "tambay",
+                "name": "Patrick Tambay",
+                "count": 1
+            },
+            {
+                "driverId": "arnoux",
+                "name": "René Arnoux",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1974,
+                    1974
+                ],
+                [
+                    1977,
+                    1977
+                ],
+                [
+                    1979,
+                    1979
+                ],
+                [
+                    1981,
+                    1982
+                ],
+                [
+                    1984,
+                    1984
+                ]
+            ],
+            "raceCount": 6,
+            "raceLaps": 80,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1974,
+            "round": 9,
+            "raceName": "French Grand Prix",
+            "date": "1974-07-07",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "peterson",
+                "name": "Ronnie Peterson",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1977,
+            "round": 9,
+            "raceName": "French Grand Prix",
+            "date": "1977-07-03",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1979,
+            "round": 8,
+            "raceName": "French Grand Prix",
+            "date": "1979-07-01",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "jabouille",
+                "name": "Jean-Pierre Jabouille",
+                "constructorId": "renault",
+                "constructor": "Renault"
+            },
+            "pole": {
+                "driverId": "jabouille",
+                "name": "Jean-Pierre Jabouille",
+                "constructorId": "renault"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1981,
+            "round": 8,
+            "raceName": "French Grand Prix",
+            "date": "1981-07-05",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "renault",
+                "constructor": "Renault"
+            },
+            "pole": {
+                "driverId": "arnoux",
+                "name": "René Arnoux",
+                "constructorId": "renault"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1982,
+            "round": 14,
+            "raceName": "Swiss Grand Prix",
+            "date": "1982-08-29",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "keke_rosberg",
+                "name": "Keke Rosberg",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "renault"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1984,
+            "round": 5,
+            "raceName": "French Grand Prix",
+            "date": "1984-05-20",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "tambay",
+                "name": "Patrick Tambay",
+                "constructorId": "renault"
+            },
+            "indy500": false
+        }
+    ]
+}

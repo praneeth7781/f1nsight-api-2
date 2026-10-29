@@ -1,0 +1,223 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "charade",
+    "name": "Charade Circuit",
+    "shortName": null,
+    "officialName": "Charade Circuit",
+    "location": {
+        "locality": "Clermont-Ferrand",
+        "country": "France",
+        "lat": 45.7472,
+        "long": 3.03889
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Charade_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1965,
+        "lastSeason": 1972,
+        "seasons": [
+            [
+                1965,
+                1965
+            ],
+            [
+                1969,
+                1970
+            ],
+            [
+                1972,
+                1972
+            ]
+        ],
+        "raceCount": 4,
+        "lastWinner": {
+            "driverId": "stewart",
+            "name": "Jackie Stewart",
+            "constructorId": "tyrrell",
+            "constructor": "Tyrrell",
+            "season": 1972
+        },
+        "mostWins": [
+            {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "count": 2
+            },
+            {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "count": 1
+            },
+            {
+                "driverId": "rindt",
+                "name": "Jochen Rindt",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax",
+                "count": 1
+            },
+            {
+                "constructorId": "matra-ford",
+                "constructor": "Matra-Ford",
+                "count": 1
+            },
+            {
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus",
+                "count": 1
+            },
+            {
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "amon",
+                "name": "Chris Amon",
+                "count": 1
+            },
+            {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "count": 1
+            },
+            {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "count": 1
+            },
+            {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1965,
+                    1965
+                ],
+                [
+                    1969,
+                    1970
+                ],
+                [
+                    1972,
+                    1972
+                ]
+            ],
+            "raceCount": 4,
+            "raceLaps": 38,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1965,
+            "round": 4,
+            "raceName": "French Grand Prix",
+            "date": "1965-06-27",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax"
+            },
+            "pole": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1969,
+            "round": 5,
+            "raceName": "French Grand Prix",
+            "date": "1969-07-06",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "constructorId": "matra-ford",
+                "constructor": "Matra-Ford"
+            },
+            "pole": {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "constructorId": "matra-ford"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1970,
+            "round": 6,
+            "raceName": "French Grand Prix",
+            "date": "1970-07-05",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "rindt",
+                "name": "Jochen Rindt",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1972,
+            "round": 6,
+            "raceName": "French Grand Prix",
+            "date": "1972-07-02",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell"
+            },
+            "pole": {
+                "driverId": "amon",
+                "name": "Chris Amon",
+                "constructorId": "matra"
+            },
+            "indy500": false
+        }
+    ]
+}

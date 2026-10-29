@@ -1,0 +1,166 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "george",
+    "name": "Prince George Circuit",
+    "shortName": null,
+    "officialName": "Prince George Circuit",
+    "location": {
+        "locality": "Eastern Cape Province",
+        "country": "South Africa",
+        "lat": -33.0486,
+        "long": 27.8736
+    },
+    "wikipedia": "https://en.wikipedia.org/wiki/Prince_George_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1962,
+        "lastSeason": 1965,
+        "seasons": [
+            [
+                1962,
+                1963
+            ],
+            [
+                1965,
+                1965
+            ]
+        ],
+        "raceCount": 3,
+        "lastWinner": {
+            "driverId": "clark",
+            "name": "Jim Clark",
+            "constructorId": "lotus-climax",
+            "constructor": "Lotus-Climax",
+            "season": 1965
+        },
+        "mostWins": [
+            {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "count": 2
+            },
+            {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax",
+                "count": 2
+            },
+            {
+                "constructorId": "brm",
+                "constructor": "BRM",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "count": 3
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1962,
+                    1963
+                ],
+                [
+                    1965,
+                    1965
+                ]
+            ],
+            "raceCount": 3,
+            "raceLaps": 85,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1962,
+            "round": 9,
+            "raceName": "South African Grand Prix",
+            "date": "1962-12-29",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "constructorId": "brm",
+                "constructor": "BRM"
+            },
+            "pole": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1963,
+            "round": 10,
+            "raceName": "South African Grand Prix",
+            "date": "1963-12-28",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax"
+            },
+            "pole": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1965,
+            "round": 1,
+            "raceName": "South African Grand Prix",
+            "date": "1965-01-01",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax"
+            },
+            "pole": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax"
+            },
+            "indy500": false
+        }
+    ]
+}

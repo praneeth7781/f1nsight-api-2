@@ -1,0 +1,917 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "imola",
+    "name": "Imola (San Marino GP)",
+    "shortName": "Imola",
+    "officialName": "Autodromo Enzo e Dino Ferrari",
+    "location": {
+        "locality": "Imola",
+        "country": "Italy",
+        "lat": 44.3439,
+        "long": 11.7167
+    },
+    "wikipedia": "https://en.wikipedia.org/wiki/Imola_Circuit",
+    "status": "historical",
+    "hasGuide": true,
+    "currentLayoutId": "2008",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1980,
+        "lastSeason": 2025,
+        "seasons": [
+            [
+                1980,
+                2006
+            ],
+            [
+                2020,
+                2022
+            ],
+            [
+                2024,
+                2025
+            ]
+        ],
+        "raceCount": 32,
+        "lastWinner": {
+            "driverId": "max_verstappen",
+            "name": "Max Verstappen",
+            "constructorId": "red_bull",
+            "constructor": "Red Bull",
+            "season": 2025
+        },
+        "mostWins": [
+            {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "count": 7
+            },
+            {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "count": 4
+            },
+            {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "count": 3
+            },
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 3
+            },
+            {
+                "driverId": "damon_hill",
+                "name": "Damon Hill",
+                "count": 2
+            },
+            {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "count": 2
+            },
+            {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "count": 2
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 8
+            },
+            {
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "count": 8
+            },
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 6
+            },
+            {
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "count": 4
+            },
+            {
+                "constructorId": "brabham",
+                "constructor": "Brabham",
+                "count": 2
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 8
+            },
+            {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "count": 5
+            },
+            {
+                "driverId": "arnoux",
+                "name": "René Arnoux",
+                "count": 3
+            },
+            {
+                "driverId": "coulthard",
+                "name": "David Coulthard",
+                "count": 2
+            },
+            {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "count": 2
+            },
+            {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "count": 2
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "1995",
+            "name": "Post-1994 layout",
+            "from": 1995,
+            "to": 2006,
+            "lengthKm": 4.933,
+            "turns": 17,
+            "factSources": [
+                "The Apex Guide (f1-circuits.com)"
+            ],
+            "factNotes": [
+                "One layout from 1995 to 2006. Races dropped from 63 to 62 laps in 1997 because the grid moved, not the track."
+            ],
+            "seasons": [
+                [
+                    1995,
+                    2006
+                ]
+            ],
+            "raceCount": 12,
+            "raceLaps": 62,
+            "lapRecord": {
+                "time": "1:20.411",
+                "lap": 10,
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 2004,
+                "round": 4,
+                "raceName": "San Marino Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:19.753",
+                "session": "Q1",
+                "driverId": "button",
+                "name": "Jenson Button",
+                "constructorId": "bar",
+                "constructor": "BAR",
+                "season": 2004,
+                "round": 4,
+                "raceName": "San Marino Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        },
+        {
+            "id": "2008",
+            "name": "Final layout",
+            "from": 2008,
+            "to": null,
+            "lengthKm": 4.909,
+            "turns": 19,
+            "seasons": [
+                [
+                    2020,
+                    2022
+                ],
+                [
+                    2024,
+                    2025
+                ]
+            ],
+            "raceCount": 5,
+            "raceLaps": 63,
+            "lapRecord": {
+                "time": "1:15.484",
+                "lap": 63,
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2020,
+                "round": 13,
+                "raceName": "Emilia Romagna Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:13.609",
+                "session": "Q3",
+                "driverId": "bottas",
+                "name": "Valtteri Bottas",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2020,
+                "round": 13,
+                "raceName": "Emilia Romagna Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": []
+        },
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1980,
+                    1994
+                ]
+            ],
+            "raceCount": 15,
+            "raceLaps": 60,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {
+        "summary": "Ferrari country: an anticlockwise circuit named after Enzo and Dino Ferrari.",
+        "character": "Old-school: narrow and fast, with gravel close to the track and little room to pass. After 1994 chicanes slowed the fastest corners.",
+        "corners": [],
+        "moments": [
+            {
+                "season": 2005,
+                "title": "Alonso holds off Schumacher",
+                "body": "In 2005 Fernando Alonso kept a much faster Michael Schumacher behind him for the closing laps to win."
+            }
+        ],
+        "history": [
+            {
+                "period": "1980",
+                "body": "Hosted the Italian Grand Prix while Monza was being upgraded."
+            },
+            {
+                "period": "1981-2006",
+                "body": "Home of the San Marino Grand Prix."
+            },
+            {
+                "period": "1994",
+                "body": "Roland Ratzenberger and Ayrton Senna were killed in the same weekend. Chicanes followed in 1995."
+            },
+            {
+                "period": "2020-2025",
+                "body": "Back as the Emilia Romagna Grand Prix. The 2023 race was cancelled after floods."
+            }
+        ],
+        "leftCalendar": "The San Marino GP was dropped after 2006. Imola came back for 2020-2025 and then left the calendar again from 2026."
+    },
+    "sources": [
+        {
+            "title": "Imola (San Marino GP) circuit guide",
+            "url": "https://f1-circuits.com/historical-circuits/imola-old",
+            "publisher": "The Apex Guide (f1-circuits.com)"
+        }
+    ],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1980,
+            "round": 12,
+            "raceName": "Italian Grand Prix",
+            "date": "1980-09-14",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "constructorId": "brabham",
+                "constructor": "Brabham"
+            },
+            "pole": {
+                "driverId": "arnoux",
+                "name": "René Arnoux",
+                "constructorId": "renault"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1981,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "1981-05-03",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "constructorId": "brabham",
+                "constructor": "Brabham"
+            },
+            "pole": {
+                "driverId": "gilles_villeneuve",
+                "name": "Gilles Villeneuve",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1982,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "1982-04-25",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "pironi",
+                "name": "Didier Pironi",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "arnoux",
+                "name": "René Arnoux",
+                "constructorId": "renault"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1983,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "1983-05-01",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "tambay",
+                "name": "Patrick Tambay",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "arnoux",
+                "name": "René Arnoux",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1984,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "1984-05-06",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "constructorId": "brabham"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1985,
+            "round": 3,
+            "raceName": "San Marino Grand Prix",
+            "date": "1985-05-05",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "angelis",
+                "name": "Elio de Angelis",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1986,
+            "round": 3,
+            "raceName": "San Marino Grand Prix",
+            "date": "1986-04-27",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1987,
+            "round": 2,
+            "raceName": "San Marino Grand Prix",
+            "date": "1987-05-03",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1988,
+            "round": 2,
+            "raceName": "San Marino Grand Prix",
+            "date": "1988-05-01",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1989,
+            "round": 2,
+            "raceName": "San Marino Grand Prix",
+            "date": "1989-04-23",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1990,
+            "round": 3,
+            "raceName": "San Marino Grand Prix",
+            "date": "1990-05-13",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "patrese",
+                "name": "Riccardo Patrese",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1991,
+            "round": 3,
+            "raceName": "San Marino Grand Prix",
+            "date": "1991-04-28",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1992,
+            "round": 5,
+            "raceName": "San Marino Grand Prix",
+            "date": "1992-05-17",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1993,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "1993-04-25",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1994,
+            "round": 3,
+            "raceName": "San Marino Grand Prix",
+            "date": "1994-05-01",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "benetton",
+                "constructor": "Benetton"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1995,
+            "round": 3,
+            "raceName": "San Marino Grand Prix",
+            "date": "1995-04-30",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "damon_hill",
+                "name": "Damon Hill",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "benetton"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1996,
+            "round": 5,
+            "raceName": "San Marino Grand Prix",
+            "date": "1996-05-05",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "damon_hill",
+                "name": "Damon Hill",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1997,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "1997-04-27",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "frentzen",
+                "name": "Heinz-Harald Frentzen",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "villeneuve",
+                "name": "Jacques Villeneuve",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1998,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "1998-04-26",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "coulthard",
+                "name": "David Coulthard",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "coulthard",
+                "name": "David Coulthard",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1999,
+            "round": 3,
+            "raceName": "San Marino Grand Prix",
+            "date": "1999-05-02",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2000,
+            "round": 3,
+            "raceName": "San Marino Grand Prix",
+            "date": "2000-04-09",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2001,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "2001-04-15",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "ralf_schumacher",
+                "name": "Ralf Schumacher",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "coulthard",
+                "name": "David Coulthard",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2002,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "2002-04-14",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2003,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "2003-04-20",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2004,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "2004-04-25",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "button",
+                "name": "Jenson Button",
+                "constructorId": "bar"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2005,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "2005-04-24",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "alonso",
+                "name": "Fernando Alonso",
+                "constructorId": "renault",
+                "constructor": "Renault"
+            },
+            "pole": {
+                "driverId": "raikkonen",
+                "name": "Kimi Räikkönen",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2006,
+            "round": 4,
+            "raceName": "San Marino Grand Prix",
+            "date": "2006-04-23",
+            "layoutId": "1995",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2020,
+            "round": 13,
+            "raceName": "Emilia Romagna Grand Prix",
+            "date": "2020-11-01",
+            "layoutId": "2008",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "bottas",
+                "name": "Valtteri Bottas",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2021,
+            "round": 2,
+            "raceName": "Emilia Romagna Grand Prix",
+            "date": "2021-04-18",
+            "layoutId": "2008",
+            "winner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2022,
+            "round": 4,
+            "raceName": "Emilia Romagna Grand Prix",
+            "date": "2022-04-24",
+            "layoutId": "2008",
+            "winner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2024,
+            "round": 7,
+            "raceName": "Emilia Romagna Grand Prix",
+            "date": "2024-05-19",
+            "layoutId": "2008",
+            "winner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2025,
+            "round": 7,
+            "raceName": "Emilia Romagna Grand Prix",
+            "date": "2025-05-18",
+            "layoutId": "2008",
+            "winner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "piastri",
+                "name": "Oscar Piastri",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        }
+    ]
+}
