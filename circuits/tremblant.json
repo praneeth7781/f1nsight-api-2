@@ -1,0 +1,152 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "tremblant",
+    "name": "Circuit Mont-Tremblant",
+    "shortName": null,
+    "officialName": "Circuit Mont-Tremblant",
+    "location": {
+        "locality": "Quebec",
+        "country": "Canada",
+        "lat": 46.1877,
+        "long": -74.6099
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Circuit_Mont-Tremblant",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1968,
+        "lastSeason": 1970,
+        "seasons": [
+            [
+                1968,
+                1968
+            ],
+            [
+                1970,
+                1970
+            ]
+        ],
+        "raceCount": 2,
+        "lastWinner": {
+            "driverId": "ickx",
+            "name": "Jacky Ickx",
+            "constructorId": "ferrari",
+            "constructor": "Ferrari",
+            "season": 1970
+        },
+        "mostWins": [
+            {
+                "driverId": "hulme",
+                "name": "Denny Hulme",
+                "count": 1
+            },
+            {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 1
+            },
+            {
+                "constructorId": "mclaren-ford",
+                "constructor": "McLaren-Ford",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "count": 1
+            },
+            {
+                "driverId": "rindt",
+                "name": "Jochen Rindt",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1968,
+                    1968
+                ],
+                [
+                    1970,
+                    1970
+                ]
+            ],
+            "raceCount": 2,
+            "raceLaps": 90,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1968,
+            "round": 10,
+            "raceName": "Canadian Grand Prix",
+            "date": "1968-09-22",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hulme",
+                "name": "Denny Hulme",
+                "constructorId": "mclaren-ford",
+                "constructor": "McLaren-Ford"
+            },
+            "pole": {
+                "driverId": "rindt",
+                "name": "Jochen Rindt",
+                "constructorId": "brabham-repco"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1970,
+            "round": 11,
+            "raceName": "Canadian Grand Prix",
+            "date": "1970-09-20",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "constructorId": "tyrrell"
+            },
+            "indy500": false
+        }
+    ]
+}

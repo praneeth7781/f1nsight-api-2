@@ -1,0 +1,254 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "vegas",
+    "name": "Las Vegas Strip Circuit",
+    "shortName": "Las Vegas",
+    "officialName": "Las Vegas Strip Street Circuit",
+    "location": {
+        "locality": "Las Vegas",
+        "country": "USA",
+        "lat": 36.1147,
+        "long": -115.173
+    },
+    "wikipedia": "https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit",
+    "status": "current",
+    "hasGuide": true,
+    "currentLayoutId": "2023",
+    "nextRace": {
+        "season": 2026,
+        "round": 21,
+        "raceName": "Las Vegas Grand Prix",
+        "date": "2026-11-22",
+        "time": "04:00:00Z"
+    },
+    "championship": {
+        "firstSeason": 2023,
+        "lastSeason": 2025,
+        "seasons": [
+            [
+                2023,
+                2025
+            ]
+        ],
+        "raceCount": 3,
+        "lastWinner": {
+            "driverId": "max_verstappen",
+            "name": "Max Verstappen",
+            "constructorId": "red_bull",
+            "constructor": "Red Bull",
+            "season": 2025
+        },
+        "mostWins": [
+            {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "count": 2
+            },
+            {
+                "driverId": "russell",
+                "name": "George Russell",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "count": 2
+            },
+            {
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "leclerc",
+                "name": "Charles Leclerc",
+                "count": 1
+            },
+            {
+                "driverId": "russell",
+                "name": "George Russell",
+                "count": 1
+            },
+            {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "2023",
+            "name": "Current layout",
+            "from": 2023,
+            "to": null,
+            "lengthKm": 6.201,
+            "turns": 17,
+            "elevationM": 20,
+            "factSources": [
+                "The Apex Guide (f1-circuits.com)",
+                "Sportmonks",
+                "PlanetF1",
+                "Formula One History"
+            ],
+            "seasons": [
+                [
+                    2023,
+                    2025
+                ]
+            ],
+            "raceCount": 3,
+            "raceLaps": 50,
+            "lapRecord": {
+                "time": "1:33.365",
+                "lap": 50,
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2025,
+                "round": 22,
+                "raceName": "Las Vegas Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:32.312",
+                "session": "Q3",
+                "driverId": "russell",
+                "name": "George Russell",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2024,
+                "round": 22,
+                "raceName": "Las Vegas Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": []
+        }
+    ],
+    "guide": {
+        "summary": "A Saturday-night race down the Las Vegas Strip, past the casinos and the Sphere.",
+        "character": "Long straights, including almost 2 km on the Strip itself, and cold night air that makes it hard to get heat into the tyres. Low grip and high top speeds mean lots of overtaking.",
+        "corners": [
+            {
+                "name": "The Strip",
+                "famous": true,
+                "note": "A flat-out run past the casinos at over 340 km/h."
+            },
+            {
+                "name": "Sphere section",
+                "famous": true,
+                "note": "A string of corners that wraps around the Sphere arena."
+            }
+        ],
+        "moments": [
+            {
+                "season": 2023,
+                "title": "The drain cover",
+                "body": "A loose water valve cover wrecked Carlos Sainz's Ferrari minutes into the first practice session. Second practice ran from 2:30 to 4 a.m. after fans had been sent home. The race turned out to be good.",
+                "video": "https://www.youtube.com/watch?v=Q9qSwDxF6YI"
+            }
+        ],
+        "history": [
+            {
+                "period": "1981-1982",
+                "body": "Las Vegas first hosted F1 on a track laid out in the Caesars Palace car park."
+            },
+            {
+                "period": "2023",
+                "body": "First race on the Strip circuit."
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "Las Vegas Strip Circuit circuit guide",
+            "url": "https://f1-circuits.com/circuits/las-vegas-strip-circuit",
+            "publisher": "The Apex Guide (f1-circuits.com)"
+        },
+        {
+            "title": "F1 tracks: circuit table",
+            "url": "https://www.sportmonks.com/formula-one-api/f1-tracks/",
+            "publisher": "Sportmonks"
+        },
+        {
+            "title": "Las Vegas Strip Circuit track profile",
+            "url": "https://www.planetf1.com/tracks/las-vegas-strip-circuit",
+            "publisher": "PlanetF1"
+        },
+        {
+            "title": "Las Vegas Strip Circuit circuit page",
+            "url": "https://www.formulaonehistory.com/circuits/las-vegas-strip-circuit/",
+            "publisher": "Formula One History"
+        }
+    ],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 2023,
+            "round": 21,
+            "raceName": "Las Vegas Grand Prix",
+            "date": "2023-11-19",
+            "layoutId": "2023",
+            "winner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "leclerc",
+                "name": "Charles Leclerc",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2024,
+            "round": 22,
+            "raceName": "Las Vegas Grand Prix",
+            "date": "2024-11-23",
+            "layoutId": "2023",
+            "winner": {
+                "driverId": "russell",
+                "name": "George Russell",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "russell",
+                "name": "George Russell",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2025,
+            "round": 22,
+            "raceName": "Las Vegas Grand Prix",
+            "date": "2025-11-23",
+            "layoutId": "2023",
+            "winner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "ain-diab",
+    "name": "Ain Diab",
+    "shortName": null,
+    "officialName": "Ain Diab",
+    "location": {
+        "locality": "Casablanca",
+        "country": "Morocco",
+        "lat": 33.5786,
+        "long": -7.6875
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Ain-Diab_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1958,
+        "lastSeason": 1958,
+        "seasons": [
+            [
+                1958,
+                1958
+            ]
+        ],
+        "raceCount": 1,
+        "lastWinner": {
+            "driverId": "moss",
+            "name": "Stirling Moss",
+            "constructorId": "vanwall",
+            "constructor": "Vanwall",
+            "season": 1958
+        },
+        "mostWins": [
+            {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "vanwall",
+                "constructor": "Vanwall",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "hawthorn",
+                "name": "Mike Hawthorn",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1958,
+                    1958
+                ]
+            ],
+            "raceCount": 1,
+            "raceLaps": 53,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1958,
+            "round": 11,
+            "raceName": "Moroccan Grand Prix",
+            "date": "1958-10-19",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "vanwall",
+                "constructor": "Vanwall"
+            },
+            "pole": {
+                "driverId": "hawthorn",
+                "name": "Mike Hawthorn",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        }
+    ]
+}

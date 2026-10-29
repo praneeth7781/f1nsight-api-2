@@ -1,0 +1,110 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "riverside",
+    "name": "Riverside International Raceway",
+    "shortName": null,
+    "officialName": "Riverside International Raceway",
+    "location": {
+        "locality": "California",
+        "country": "USA",
+        "lat": 33.937,
+        "long": -117.273
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Riverside_International_Raceway",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1960,
+        "lastSeason": 1960,
+        "seasons": [
+            [
+                1960,
+                1960
+            ]
+        ],
+        "raceCount": 1,
+        "lastWinner": {
+            "driverId": "moss",
+            "name": "Stirling Moss",
+            "constructorId": "team_lotus",
+            "constructor": "Team Lotus",
+            "season": 1960
+        },
+        "mostWins": [
+            {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1960,
+                    1960
+                ]
+            ],
+            "raceCount": 1,
+            "raceLaps": 75,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1960,
+            "round": 10,
+            "raceName": "United States Grand Prix",
+            "date": "1960-11-20",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        }
+    ]
+}

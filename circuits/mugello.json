@@ -1,0 +1,125 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "mugello",
+    "name": "Autodromo Internazionale del Mugello",
+    "shortName": null,
+    "officialName": "Autodromo Internazionale del Mugello",
+    "location": {
+        "locality": "Mugello",
+        "country": "Italy",
+        "lat": 43.9975,
+        "long": 11.3719
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Mugello_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 2020,
+        "lastSeason": 2020,
+        "seasons": [
+            [
+                2020,
+                2020
+            ]
+        ],
+        "raceCount": 1,
+        "lastWinner": {
+            "driverId": "hamilton",
+            "name": "Lewis Hamilton",
+            "constructorId": "mercedes",
+            "constructor": "Mercedes",
+            "season": 2020
+        },
+        "mostWins": [
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    2020,
+                    2020
+                ]
+            ],
+            "raceCount": 1,
+            "raceLaps": 59,
+            "lapRecord": {
+                "time": "1:18.833",
+                "lap": 58,
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2020,
+                "round": 9,
+                "raceName": "Tuscan Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:15.144",
+                "session": "Q3",
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "season": 2020,
+                "round": 9,
+                "raceName": "Tuscan Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": []
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 2020,
+            "round": 9,
+            "raceName": "Tuscan Grand Prix",
+            "date": "2020-09-13",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        }
+    ]
+}

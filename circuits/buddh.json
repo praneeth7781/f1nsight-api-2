@@ -1,0 +1,163 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "buddh",
+    "name": "Buddh International Circuit",
+    "shortName": null,
+    "officialName": "Buddh International Circuit",
+    "location": {
+        "locality": "Uttar Pradesh",
+        "country": "India",
+        "lat": 28.3487,
+        "long": 77.5331
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Buddh_International_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 2011,
+        "lastSeason": 2013,
+        "seasons": [
+            [
+                2011,
+                2013
+            ]
+        ],
+        "raceCount": 3,
+        "lastWinner": {
+            "driverId": "vettel",
+            "name": "Sebastian Vettel",
+            "constructorId": "red_bull",
+            "constructor": "Red Bull",
+            "season": 2013
+        },
+        "mostWins": [
+            {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "count": 3
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "count": 3
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "count": 3
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    2011,
+                    2013
+                ]
+            ],
+            "raceCount": 3,
+            "raceLaps": 60,
+            "lapRecord": {
+                "time": "1:27.249",
+                "lap": 60,
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2011,
+                "round": 17,
+                "raceName": "Indian Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:24.119",
+                "session": "Q3",
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2013,
+                "round": 16,
+                "raceName": "Indian Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": []
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 2011,
+            "round": 17,
+            "raceName": "Indian Grand Prix",
+            "date": "2011-10-30",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2012,
+            "round": 17,
+            "raceName": "Indian Grand Prix",
+            "date": "2012-10-28",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2013,
+            "round": 16,
+            "raceName": "Indian Grand Prix",
+            "date": "2013-10-27",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        }
+    ]
+}

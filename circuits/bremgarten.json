@@ -1,0 +1,221 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "bremgarten",
+    "name": "Circuit Bremgarten",
+    "shortName": null,
+    "officialName": "Circuit Bremgarten",
+    "location": {
+        "locality": "Bern",
+        "country": "Switzerland",
+        "lat": 46.9589,
+        "long": 7.40194
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Circuit_Bremgarten",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1950,
+        "lastSeason": 1954,
+        "seasons": [
+            [
+                1950,
+                1954
+            ]
+        ],
+        "raceCount": 5,
+        "lastWinner": {
+            "driverId": "fangio",
+            "name": "Juan Fangio",
+            "constructorId": "mercedes",
+            "constructor": "Mercedes",
+            "season": 1954
+        },
+        "mostWins": [
+            {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "count": 2
+            },
+            {
+                "driverId": "ascari",
+                "name": "Alberto Ascari",
+                "count": 1
+            },
+            {
+                "driverId": "farina",
+                "name": "Nino Farina",
+                "count": 1
+            },
+            {
+                "driverId": "taruffi",
+                "name": "Piero Taruffi",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "alfa",
+                "constructor": "Alfa Romeo",
+                "count": 2
+            },
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 2
+            },
+            {
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "count": 3
+            },
+            {
+                "driverId": "gonzalez",
+                "name": "José Froilán González",
+                "count": 1
+            },
+            {
+                "driverId": "farina",
+                "name": "Nino Farina",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1950,
+                    1954
+                ]
+            ],
+            "raceCount": 5,
+            "raceLaps": 42,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1950,
+            "round": 4,
+            "raceName": "Swiss Grand Prix",
+            "date": "1950-06-04",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "farina",
+                "name": "Nino Farina",
+                "constructorId": "alfa",
+                "constructor": "Alfa Romeo"
+            },
+            "pole": {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "constructorId": "alfa"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1951,
+            "round": 1,
+            "raceName": "Swiss Grand Prix",
+            "date": "1951-05-27",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "constructorId": "alfa",
+                "constructor": "Alfa Romeo"
+            },
+            "pole": {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "constructorId": "alfa"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1952,
+            "round": 1,
+            "raceName": "Swiss Grand Prix",
+            "date": "1952-05-18",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "taruffi",
+                "name": "Piero Taruffi",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "farina",
+                "name": "Nino Farina",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1953,
+            "round": 8,
+            "raceName": "Swiss Grand Prix",
+            "date": "1953-08-23",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "ascari",
+                "name": "Alberto Ascari",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "constructorId": "maserati"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1954,
+            "round": 7,
+            "raceName": "Swiss Grand Prix",
+            "date": "1954-08-22",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "gonzalez",
+                "name": "José Froilán González",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        }
+    ]
+}

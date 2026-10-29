@@ -1,0 +1,110 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "sebring",
+    "name": "Sebring International Raceway",
+    "shortName": null,
+    "officialName": "Sebring International Raceway",
+    "location": {
+        "locality": "Florida",
+        "country": "USA",
+        "lat": 27.4547,
+        "long": -81.3483
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Sebring_Raceway",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1959,
+        "lastSeason": 1959,
+        "seasons": [
+            [
+                1959,
+                1959
+            ]
+        ],
+        "raceCount": 1,
+        "lastWinner": {
+            "driverId": "mclaren",
+            "name": "Bruce McLaren",
+            "constructorId": "cooper-climax",
+            "constructor": "Cooper-Climax",
+            "season": 1959
+        },
+        "mostWins": [
+            {
+                "driverId": "mclaren",
+                "name": "Bruce McLaren",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "cooper-climax",
+                "constructor": "Cooper-Climax",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1959,
+                    1959
+                ]
+            ],
+            "raceCount": 1,
+            "raceLaps": 42,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1959,
+            "round": 9,
+            "raceName": "United States Grand Prix",
+            "date": "1959-12-12",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "mclaren",
+                "name": "Bruce McLaren",
+                "constructorId": "cooper-climax",
+                "constructor": "Cooper-Climax"
+            },
+            "pole": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "cooper-climax"
+            },
+            "indy500": false
+        }
+    ]
+}

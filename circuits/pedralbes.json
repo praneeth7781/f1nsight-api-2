@@ -1,0 +1,147 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "pedralbes",
+    "name": "Circuit de Pedralbes",
+    "shortName": null,
+    "officialName": "Circuit de Pedralbes",
+    "location": {
+        "locality": "Barcelona",
+        "country": "Spain",
+        "lat": 41.3903,
+        "long": 2.11667
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Pedralbes_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1951,
+        "lastSeason": 1954,
+        "seasons": [
+            [
+                1951,
+                1951
+            ],
+            [
+                1954,
+                1954
+            ]
+        ],
+        "raceCount": 2,
+        "lastWinner": {
+            "driverId": "hawthorn",
+            "name": "Mike Hawthorn",
+            "constructorId": "ferrari",
+            "constructor": "Ferrari",
+            "season": 1954
+        },
+        "mostWins": [
+            {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "count": 1
+            },
+            {
+                "driverId": "hawthorn",
+                "name": "Mike Hawthorn",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "alfa",
+                "constructor": "Alfa Romeo",
+                "count": 1
+            },
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "ascari",
+                "name": "Alberto Ascari",
+                "count": 2
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1951,
+                    1951
+                ],
+                [
+                    1954,
+                    1954
+                ]
+            ],
+            "raceCount": 2,
+            "raceLaps": 80,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1951,
+            "round": 8,
+            "raceName": "Spanish Grand Prix",
+            "date": "1951-10-28",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "constructorId": "alfa",
+                "constructor": "Alfa Romeo"
+            },
+            "pole": {
+                "driverId": "ascari",
+                "name": "Alberto Ascari",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1954,
+            "round": 9,
+            "raceName": "Spanish Grand Prix",
+            "date": "1954-10-24",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hawthorn",
+                "name": "Mike Hawthorn",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "ascari",
+                "name": "Alberto Ascari",
+                "constructorId": "lancia"
+            },
+            "indy500": false
+        }
+    ]
+}

@@ -1,0 +1,275 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "fuji",
+    "name": "Fuji Speedway",
+    "shortName": "Fuji",
+    "officialName": "Fuji Speedway",
+    "location": {
+        "locality": "Oyama",
+        "country": "Japan",
+        "lat": 35.3717,
+        "long": 138.927
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Fuji_Speedway",
+    "status": "historical",
+    "hasGuide": true,
+    "currentLayoutId": "2007",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1976,
+        "lastSeason": 2008,
+        "seasons": [
+            [
+                1976,
+                1977
+            ],
+            [
+                2007,
+                2008
+            ]
+        ],
+        "raceCount": 4,
+        "lastWinner": {
+            "driverId": "alonso",
+            "name": "Fernando Alonso",
+            "constructorId": "renault",
+            "constructor": "Renault",
+            "season": 2008
+        },
+        "mostWins": [
+            {
+                "driverId": "alonso",
+                "name": "Fernando Alonso",
+                "count": 1
+            },
+            {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "count": 1
+            },
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 1
+            },
+            {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 2
+            },
+            {
+                "constructorId": "renault",
+                "constructor": "Renault",
+                "count": 1
+            },
+            {
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 2
+            },
+            {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "count": 2
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "2007",
+            "name": "Rebuilt layout",
+            "from": 2007,
+            "to": 2008,
+            "lengthKm": 4.563,
+            "turns": 16,
+            "factSources": [
+                "The Apex Guide (f1-circuits.com)"
+            ],
+            "seasons": [
+                [
+                    2007,
+                    2008
+                ]
+            ],
+            "raceCount": 2,
+            "raceLaps": 67,
+            "lapRecord": {
+                "time": "1:18.426",
+                "lap": 55,
+                "driverId": "massa",
+                "name": "Felipe Massa",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 2008,
+                "round": 16,
+                "raceName": "Japanese Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:18.404",
+                "session": "Q3",
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 2008,
+                "round": 16,
+                "raceName": "Japanese Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": []
+        },
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1976,
+                    1977
+                ]
+            ],
+            "raceCount": 2,
+            "raceLaps": 73,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {
+        "summary": "Mount Fuji in the background and, usually, rain in the foreground.",
+        "character": "A very long main straight in the shadow of Mount Fuji. Rebuilt by Toyota for F1's return in 2007, when the race ran in heavy rain and fog.",
+        "corners": [],
+        "moments": [
+            {
+                "season": 1976,
+                "title": "Hunt takes the title in the rain",
+                "body": "In torrential rain in 1976, Niki Lauda withdrew after two laps. James Hunt finished third and won the championship by one point."
+            }
+        ],
+        "history": [
+            {
+                "period": "1976-1977",
+                "body": "First Japanese Grands Prix."
+            },
+            {
+                "period": "2007-2008",
+                "body": "Back on a rebuilt layout."
+            }
+        ],
+        "leftCalendar": "The Japanese Grand Prix went back to Suzuka from 2009."
+    },
+    "sources": [
+        {
+            "title": "Fuji Speedway circuit guide",
+            "url": "https://f1-circuits.com/historical-circuits/fuji-speedway",
+            "publisher": "The Apex Guide (f1-circuits.com)"
+        }
+    ],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1976,
+            "round": 16,
+            "raceName": "Japanese Grand Prix",
+            "date": "1976-10-24",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1977,
+            "round": 17,
+            "raceName": "Japanese Grand Prix",
+            "date": "1977-10-23",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2007,
+            "round": 15,
+            "raceName": "Japanese Grand Prix",
+            "date": "2007-09-30",
+            "layoutId": "2007",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2008,
+            "round": 16,
+            "raceName": "Japanese Grand Prix",
+            "date": "2008-10-12",
+            "layoutId": "2007",
+            "winner": {
+                "driverId": "alonso",
+                "name": "Fernando Alonso",
+                "constructorId": "renault",
+                "constructor": "Renault"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        }
+    ]
+}

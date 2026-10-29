@@ -1,0 +1,236 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "valencia",
+    "name": "Valencia Street Circuit",
+    "shortName": null,
+    "officialName": "Valencia Street Circuit",
+    "location": {
+        "locality": "Valencia",
+        "country": "Spain",
+        "lat": 39.4589,
+        "long": -0.331667
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Valencia_Street_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 2008,
+        "lastSeason": 2012,
+        "seasons": [
+            [
+                2008,
+                2012
+            ]
+        ],
+        "raceCount": 5,
+        "lastWinner": {
+            "driverId": "alonso",
+            "name": "Fernando Alonso",
+            "constructorId": "ferrari",
+            "constructor": "Ferrari",
+            "season": 2012
+        },
+        "mostWins": [
+            {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "count": 2
+            },
+            {
+                "driverId": "massa",
+                "name": "Felipe Massa",
+                "count": 1
+            },
+            {
+                "driverId": "alonso",
+                "name": "Fernando Alonso",
+                "count": 1
+            },
+            {
+                "driverId": "barrichello",
+                "name": "Rubens Barrichello",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 2
+            },
+            {
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "count": 2
+            },
+            {
+                "constructorId": "brawn",
+                "constructor": "Brawn",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "count": 3
+            },
+            {
+                "driverId": "massa",
+                "name": "Felipe Massa",
+                "count": 1
+            },
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    2008,
+                    2012
+                ]
+            ],
+            "raceCount": 5,
+            "raceLaps": 57,
+            "lapRecord": {
+                "time": "1:38.683",
+                "lap": 55,
+                "driverId": "glock",
+                "name": "Timo Glock",
+                "constructorId": "toyota",
+                "constructor": "Toyota",
+                "season": 2009,
+                "round": 11,
+                "raceName": "European Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:36.975",
+                "session": "Q3",
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2011,
+                "round": 8,
+                "raceName": "European Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": []
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 2008,
+            "round": 12,
+            "raceName": "European Grand Prix",
+            "date": "2008-08-24",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "massa",
+                "name": "Felipe Massa",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "massa",
+                "name": "Felipe Massa",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2009,
+            "round": 11,
+            "raceName": "European Grand Prix",
+            "date": "2009-08-23",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "barrichello",
+                "name": "Rubens Barrichello",
+                "constructorId": "brawn",
+                "constructor": "Brawn"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2010,
+            "round": 9,
+            "raceName": "European Grand Prix",
+            "date": "2010-06-27",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2011,
+            "round": 8,
+            "raceName": "European Grand Prix",
+            "date": "2011-06-26",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2012,
+            "round": 8,
+            "raceName": "European Grand Prix",
+            "date": "2012-06-24",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "alonso",
+                "name": "Fernando Alonso",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "vettel",
+                "name": "Sebastian Vettel",
+                "constructorId": "red_bull"
+            },
+            "indy500": false
+        }
+    ]
+}

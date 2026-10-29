@@ -1,0 +1,546 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "watkins_glen",
+    "name": "Watkins Glen",
+    "shortName": null,
+    "officialName": "Watkins Glen",
+    "location": {
+        "locality": "New York State",
+        "country": "USA",
+        "lat": 42.3369,
+        "long": -76.9272
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Watkins_Glen_International",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1961,
+        "lastSeason": 1980,
+        "seasons": [
+            [
+                1961,
+                1980
+            ]
+        ],
+        "raceCount": 20,
+        "lastWinner": {
+            "driverId": "jones",
+            "name": "Alan Jones",
+            "constructorId": "williams",
+            "constructor": "Williams",
+            "season": 1980
+        },
+        "mostWins": [
+            {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "count": 3
+            },
+            {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "count": 3
+            },
+            {
+                "driverId": "reutemann",
+                "name": "Carlos Reutemann",
+                "count": 2
+            },
+            {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "count": 2
+            },
+            {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "count": 2
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "brm",
+                "constructor": "BRM",
+                "count": 3
+            },
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 3
+            },
+            {
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax",
+                "count": 2
+            },
+            {
+                "constructorId": "lotus-ford",
+                "constructor": "Lotus-Ford",
+                "count": 2
+            },
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 2
+            },
+            {
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus",
+                "count": 2
+            },
+            {
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell",
+                "count": 2
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "count": 3
+            },
+            {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "count": 2
+            },
+            {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "count": 2
+            },
+            {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "count": 2
+            },
+            {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "count": 2
+            },
+            {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "count": 2
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1961,
+                    1980
+                ]
+            ],
+            "raceCount": 20,
+            "raceLaps": 59,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1961,
+            "round": 8,
+            "raceName": "United States Grand Prix",
+            "date": "1961-10-08",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "ireland",
+                "name": "Innes Ireland",
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax"
+            },
+            "pole": {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "constructorId": "cooper-climax"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1962,
+            "round": 8,
+            "raceName": "United States Grand Prix",
+            "date": "1962-10-07",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax"
+            },
+            "pole": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1963,
+            "round": 8,
+            "raceName": "United States Grand Prix",
+            "date": "1963-10-06",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "constructorId": "brm",
+                "constructor": "BRM"
+            },
+            "pole": {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "constructorId": "brm"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1964,
+            "round": 9,
+            "raceName": "United States Grand Prix",
+            "date": "1964-10-04",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "constructorId": "brm",
+                "constructor": "BRM"
+            },
+            "pole": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1965,
+            "round": 9,
+            "raceName": "United States Grand Prix",
+            "date": "1965-10-03",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "constructorId": "brm",
+                "constructor": "BRM"
+            },
+            "pole": {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "constructorId": "brm"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1966,
+            "round": 8,
+            "raceName": "United States Grand Prix",
+            "date": "1966-10-02",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-brm",
+                "constructor": "Lotus-BRM"
+            },
+            "pole": {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "constructorId": "brabham-repco"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1967,
+            "round": 10,
+            "raceName": "United States Grand Prix",
+            "date": "1967-10-01",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-ford",
+                "constructor": "Lotus-Ford"
+            },
+            "pole": {
+                "driverId": "hill",
+                "name": "Graham Hill",
+                "constructorId": "lotus-ford"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1968,
+            "round": 11,
+            "raceName": "United States Grand Prix",
+            "date": "1968-10-06",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "constructorId": "matra-ford",
+                "constructor": "Matra-Ford"
+            },
+            "pole": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "lotus-ford"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1969,
+            "round": 10,
+            "raceName": "United States Grand Prix",
+            "date": "1969-10-05",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "rindt",
+                "name": "Jochen Rindt",
+                "constructorId": "lotus-ford",
+                "constructor": "Lotus-Ford"
+            },
+            "pole": {
+                "driverId": "rindt",
+                "name": "Jochen Rindt",
+                "constructorId": "lotus-ford"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1970,
+            "round": 12,
+            "raceName": "United States Grand Prix",
+            "date": "1970-10-04",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "emerson_fittipaldi",
+                "name": "Emerson Fittipaldi",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "ickx",
+                "name": "Jacky Ickx",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1971,
+            "round": 11,
+            "raceName": "United States Grand Prix",
+            "date": "1971-10-03",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "cevert",
+                "name": "François Cevert",
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell"
+            },
+            "pole": {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "constructorId": "tyrrell"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1972,
+            "round": 12,
+            "raceName": "United States Grand Prix",
+            "date": "1972-10-08",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell"
+            },
+            "pole": {
+                "driverId": "stewart",
+                "name": "Jackie Stewart",
+                "constructorId": "tyrrell"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1973,
+            "round": 15,
+            "raceName": "United States Grand Prix",
+            "date": "1973-10-07",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "peterson",
+                "name": "Ronnie Peterson",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "peterson",
+                "name": "Ronnie Peterson",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1974,
+            "round": 15,
+            "raceName": "United States Grand Prix",
+            "date": "1974-10-06",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "reutemann",
+                "name": "Carlos Reutemann",
+                "constructorId": "brabham",
+                "constructor": "Brabham"
+            },
+            "pole": {
+                "driverId": "reutemann",
+                "name": "Carlos Reutemann",
+                "constructorId": "brabham"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1975,
+            "round": 14,
+            "raceName": "United States Grand Prix",
+            "date": "1975-10-05",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "lauda",
+                "name": "Niki Lauda",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1976,
+            "round": 15,
+            "raceName": "United States Grand Prix",
+            "date": "1976-10-10",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1977,
+            "round": 15,
+            "raceName": "United States Grand Prix",
+            "date": "1977-10-02",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "hunt",
+                "name": "James Hunt",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1978,
+            "round": 15,
+            "raceName": "United States Grand Prix",
+            "date": "1978-10-01",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "reutemann",
+                "name": "Carlos Reutemann",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "mario_andretti",
+                "name": "Mario Andretti",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1979,
+            "round": 15,
+            "raceName": "United States Grand Prix",
+            "date": "1979-10-07",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "gilles_villeneuve",
+                "name": "Gilles Villeneuve",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "jones",
+                "name": "Alan Jones",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1980,
+            "round": 14,
+            "raceName": "United States Grand Prix",
+            "date": "1980-10-05",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "jones",
+                "name": "Alan Jones",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "giacomelli",
+                "name": "Bruno Giacomelli",
+                "constructorId": "alfa"
+            },
+            "indy500": false
+        }
+    ]
+}

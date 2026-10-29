@@ -1,0 +1,260 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "aintree",
+    "name": "Aintree",
+    "shortName": null,
+    "officialName": "Aintree",
+    "location": {
+        "locality": "Liverpool",
+        "country": "UK",
+        "lat": 53.4769,
+        "long": -2.94056
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Aintree_Motor_Racing_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1955,
+        "lastSeason": 1962,
+        "seasons": [
+            [
+                1955,
+                1955
+            ],
+            [
+                1957,
+                1957
+            ],
+            [
+                1959,
+                1959
+            ],
+            [
+                1961,
+                1962
+            ]
+        ],
+        "raceCount": 5,
+        "lastWinner": {
+            "driverId": "clark",
+            "name": "Jim Clark",
+            "constructorId": "lotus-climax",
+            "constructor": "Lotus-Climax",
+            "season": 1962
+        },
+        "mostWins": [
+            {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "count": 2
+            },
+            {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "count": 1
+            },
+            {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "count": 1
+            },
+            {
+                "driverId": "trips",
+                "name": "Wolfgang von Trips",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "cooper-climax",
+                "constructor": "Cooper-Climax",
+                "count": 1
+            },
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 1
+            },
+            {
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax",
+                "count": 1
+            },
+            {
+                "constructorId": "mercedes",
+                "constructor": "Mercedes",
+                "count": 1
+            },
+            {
+                "constructorId": "vanwall",
+                "constructor": "Vanwall",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "count": 2
+            },
+            {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "count": 1
+            },
+            {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "count": 1
+            },
+            {
+                "driverId": "phil_hill",
+                "name": "Phil Hill",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1955,
+                    1955
+                ],
+                [
+                    1957,
+                    1957
+                ],
+                [
+                    1959,
+                    1959
+                ],
+                [
+                    1961,
+                    1962
+                ]
+            ],
+            "raceCount": 5,
+            "raceLaps": 75,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1955,
+            "round": 6,
+            "raceName": "British Grand Prix",
+            "date": "1955-07-16",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "mercedes",
+                "constructor": "Mercedes"
+            },
+            "pole": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "mercedes"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1957,
+            "round": 5,
+            "raceName": "British Grand Prix",
+            "date": "1957-07-20",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "vanwall",
+                "constructor": "Vanwall"
+            },
+            "pole": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "vanwall"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1959,
+            "round": 5,
+            "raceName": "British Grand Prix",
+            "date": "1959-07-18",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "constructorId": "cooper-climax",
+                "constructor": "Cooper-Climax"
+            },
+            "pole": {
+                "driverId": "jack_brabham",
+                "name": "Jack Brabham",
+                "constructorId": "cooper-climax"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1961,
+            "round": 5,
+            "raceName": "British Grand Prix",
+            "date": "1961-07-15",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "trips",
+                "name": "Wolfgang von Trips",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "phil_hill",
+                "name": "Phil Hill",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1962,
+            "round": 5,
+            "raceName": "British Grand Prix",
+            "date": "1962-07-21",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax",
+                "constructor": "Lotus-Climax"
+            },
+            "pole": {
+                "driverId": "clark",
+                "name": "Jim Clark",
+                "constructorId": "lotus-climax"
+            },
+            "indy500": false
+        }
+    ]
+}

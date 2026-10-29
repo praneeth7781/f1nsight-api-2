@@ -1,0 +1,284 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "detroit",
+    "name": "Detroit Street Circuit",
+    "shortName": null,
+    "officialName": "Detroit Street Circuit",
+    "location": {
+        "locality": "Detroit",
+        "country": "USA",
+        "lat": 42.3298,
+        "long": -83.0401
+    },
+    "wikipedia": "https://en.wikipedia.org/wiki/Detroit_street_circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1982,
+        "lastSeason": 1988,
+        "seasons": [
+            [
+                1982,
+                1988
+            ]
+        ],
+        "raceCount": 7,
+        "lastWinner": {
+            "driverId": "senna",
+            "name": "Ayrton Senna",
+            "constructorId": "mclaren",
+            "constructor": "McLaren",
+            "season": 1988
+        },
+        "mostWins": [
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 3
+            },
+            {
+                "driverId": "watson",
+                "name": "John Watson",
+                "count": 1
+            },
+            {
+                "driverId": "keke_rosberg",
+                "name": "Keke Rosberg",
+                "count": 1
+            },
+            {
+                "driverId": "alboreto",
+                "name": "Michele Alboreto",
+                "count": 1
+            },
+            {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 2
+            },
+            {
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus",
+                "count": 2
+            },
+            {
+                "constructorId": "brabham",
+                "constructor": "Brabham",
+                "count": 1
+            },
+            {
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell",
+                "count": 1
+            },
+            {
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 3
+            },
+            {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "count": 1
+            },
+            {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "count": 1
+            },
+            {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "count": 1
+            },
+            {
+                "driverId": "arnoux",
+                "name": "René Arnoux",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1982,
+                    1988
+                ]
+            ],
+            "raceCount": 7,
+            "raceLaps": 63,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1982,
+            "round": 7,
+            "raceName": "Detroit Grand Prix",
+            "date": "1982-06-06",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "watson",
+                "name": "John Watson",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "renault"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1983,
+            "round": 7,
+            "raceName": "Detroit Grand Prix",
+            "date": "1983-06-05",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "alboreto",
+                "name": "Michele Alboreto",
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell"
+            },
+            "pole": {
+                "driverId": "arnoux",
+                "name": "René Arnoux",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1984,
+            "round": 8,
+            "raceName": "Detroit Grand Prix",
+            "date": "1984-06-24",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "constructorId": "brabham",
+                "constructor": "Brabham"
+            },
+            "pole": {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "constructorId": "brabham"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1985,
+            "round": 6,
+            "raceName": "Detroit Grand Prix",
+            "date": "1985-06-23",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "keke_rosberg",
+                "name": "Keke Rosberg",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1986,
+            "round": 7,
+            "raceName": "Detroit Grand Prix",
+            "date": "1986-06-22",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1987,
+            "round": 5,
+            "raceName": "Detroit Grand Prix",
+            "date": "1987-06-21",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus",
+                "constructor": "Team Lotus"
+            },
+            "pole": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1988,
+            "round": 6,
+            "raceName": "Detroit Grand Prix",
+            "date": "1988-06-19",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        }
+    ]
+}

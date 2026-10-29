@@ -1,0 +1,359 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "jacarepagua",
+    "name": "Autódromo Internacional Nelson Piquet",
+    "shortName": null,
+    "officialName": "Autódromo Internacional Nelson Piquet",
+    "location": {
+        "locality": "Rio de Janeiro",
+        "country": "Brazil",
+        "lat": -22.9756,
+        "long": -43.395
+    },
+    "wikipedia": "https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_Nelson_Piquet",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1978,
+        "lastSeason": 1989,
+        "seasons": [
+            [
+                1978,
+                1978
+            ],
+            [
+                1981,
+                1989
+            ]
+        ],
+        "raceCount": 10,
+        "lastWinner": {
+            "driverId": "mansell",
+            "name": "Nigel Mansell",
+            "constructorId": "ferrari",
+            "constructor": "Ferrari",
+            "season": 1989
+        },
+        "mostWins": [
+            {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "count": 5
+            },
+            {
+                "driverId": "reutemann",
+                "name": "Carlos Reutemann",
+                "count": 2
+            },
+            {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "count": 2
+            },
+            {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 4
+            },
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 2
+            },
+            {
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "count": 2
+            },
+            {
+                "constructorId": "brabham",
+                "constructor": "Brabham",
+                "count": 1
+            },
+            {
+                "constructorId": "renault",
+                "constructor": "Renault",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "count": 3
+            },
+            {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "count": 1
+            },
+            {
+                "driverId": "angelis",
+                "name": "Elio de Angelis",
+                "count": 1
+            },
+            {
+                "driverId": "keke_rosberg",
+                "name": "Keke Rosberg",
+                "count": 1
+            },
+            {
+                "driverId": "alboreto",
+                "name": "Michele Alboreto",
+                "count": 1
+            },
+            {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "count": 1
+            },
+            {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "count": 1
+            },
+            {
+                "driverId": "peterson",
+                "name": "Ronnie Peterson",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1978,
+                    1978
+                ],
+                [
+                    1981,
+                    1989
+                ]
+            ],
+            "raceCount": 10,
+            "raceLaps": 61,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1978,
+            "round": 2,
+            "raceName": "Brazilian Grand Prix",
+            "date": "1978-01-29",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "reutemann",
+                "name": "Carlos Reutemann",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "peterson",
+                "name": "Ronnie Peterson",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1981,
+            "round": 2,
+            "raceName": "Brazilian Grand Prix",
+            "date": "1981-03-29",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "reutemann",
+                "name": "Carlos Reutemann",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "constructorId": "brabham"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1982,
+            "round": 2,
+            "raceName": "Brazilian Grand Prix",
+            "date": "1982-03-21",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "renault",
+                "constructor": "Renault"
+            },
+            "pole": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "renault"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1983,
+            "round": 1,
+            "raceName": "Brazilian Grand Prix",
+            "date": "1983-03-13",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "constructorId": "brabham",
+                "constructor": "Brabham"
+            },
+            "pole": {
+                "driverId": "keke_rosberg",
+                "name": "Keke Rosberg",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1984,
+            "round": 1,
+            "raceName": "Brazilian Grand Prix",
+            "date": "1984-03-25",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "angelis",
+                "name": "Elio de Angelis",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1985,
+            "round": 1,
+            "raceName": "Brazilian Grand Prix",
+            "date": "1985-04-07",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "alboreto",
+                "name": "Michele Alboreto",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1986,
+            "round": 1,
+            "raceName": "Brazilian Grand Prix",
+            "date": "1986-03-23",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "piquet",
+                "name": "Nelson Piquet",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "team_lotus"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1987,
+            "round": 1,
+            "raceName": "Brazilian Grand Prix",
+            "date": "1987-04-12",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1988,
+            "round": 1,
+            "raceName": "Brazilian Grand Prix",
+            "date": "1988-04-03",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1989,
+            "round": 1,
+            "raceName": "Brazilian Grand Prix",
+            "date": "1989-03-26",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "mansell",
+                "name": "Nigel Mansell",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "senna",
+                "name": "Ayrton Senna",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        }
+    ]
+}

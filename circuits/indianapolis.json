@@ -1,0 +1,530 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "indianapolis",
+    "name": "Indianapolis Motor Speedway (Road Course)",
+    "shortName": "Indianapolis",
+    "officialName": "Indianapolis Motor Speedway",
+    "location": {
+        "locality": "Indianapolis",
+        "country": "USA",
+        "lat": 39.795,
+        "long": -86.2347
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway",
+    "status": "historical",
+    "hasGuide": true,
+    "currentLayoutId": "road-course",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 2000,
+        "lastSeason": 2007,
+        "seasons": [
+            [
+                2000,
+                2007
+            ]
+        ],
+        "raceCount": 8,
+        "lastWinner": {
+            "driverId": "hamilton",
+            "name": "Lewis Hamilton",
+            "constructorId": "mclaren",
+            "constructor": "McLaren",
+            "season": 2007
+        },
+        "mostWins": [
+            {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "count": 5
+            },
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 1
+            },
+            {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "count": 1
+            },
+            {
+                "driverId": "barrichello",
+                "name": "Rubens Barrichello",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "count": 6
+            },
+            {
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "count": 2
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "count": 4
+            },
+            {
+                "driverId": "trulli",
+                "name": "Jarno Trulli",
+                "count": 1
+            },
+            {
+                "driverId": "raikkonen",
+                "name": "Kimi Räikkönen",
+                "count": 1
+            },
+            {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "count": 1
+            },
+            {
+                "driverId": "barrichello",
+                "name": "Rubens Barrichello",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "oval",
+            "name": "Oval (Indianapolis 500)",
+            "from": 1950,
+            "to": 1960,
+            "lengthKm": 4.023,
+            "turns": 4,
+            "seasons": [
+                [
+                    1950,
+                    1960
+                ]
+            ],
+            "raceCount": 11,
+            "raceLaps": null,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": []
+        },
+        {
+            "id": "road-course",
+            "name": "Road course",
+            "from": 2000,
+            "to": 2007,
+            "lengthKm": 4.192,
+            "turns": 13,
+            "factSources": [
+                "The Apex Guide (f1-circuits.com)"
+            ],
+            "seasons": [
+                [
+                    2000,
+                    2007
+                ]
+            ],
+            "raceCount": 8,
+            "raceLaps": 73,
+            "lapRecord": {
+                "time": "1:10.399",
+                "lap": 7,
+                "driverId": "barrichello",
+                "name": "Rubens Barrichello",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 2004,
+                "round": 9,
+                "raceName": "United States Grand Prix"
+            },
+            "poleRecord": {
+                "time": "1:10.223",
+                "session": "Q1",
+                "driverId": "barrichello",
+                "name": "Rubens Barrichello",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
+                "season": 2004,
+                "round": 9,
+                "raceName": "United States Grand Prix"
+            },
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {
+        "summary": "Home of the Indy 500, with a road course laid inside the oval for Formula 1.",
+        "character": "An infield road course joined to part of the oval, so the lap ended with a flat-out run through the banked last corner and down the long front straight.",
+        "corners": [],
+        "moments": [
+            {
+                "season": 2005,
+                "title": "Six cars on the grid",
+                "body": "In 2005, Michelin's tyres weren't safe on the banking, so all 14 Michelin cars pulled into the pits after the formation lap. Six cars raced, and Michael Schumacher won."
+            }
+        ],
+        "history": [
+            {
+                "period": "1950-1960",
+                "body": "The Indy 500 counted for the World Championship, though almost no F1 regulars entered."
+            },
+            {
+                "period": "2000",
+                "body": "First United States Grand Prix on the road course."
+            },
+            {
+                "period": "2007",
+                "body": "Last race."
+            }
+        ],
+        "leftCalendar": "The track and F1 couldn't agree terms after 2007. The US Grand Prix came back in 2012 at the Circuit of the Americas."
+    },
+    "sources": [
+        {
+            "title": "Indianapolis Motor Speedway (Road Course) circuit guide",
+            "url": "https://f1-circuits.com/historical-circuits/indianapolis-road-course",
+            "publisher": "The Apex Guide (f1-circuits.com)"
+        }
+    ],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1950,
+            "round": 3,
+            "raceName": "Indianapolis 500",
+            "date": "1950-05-30",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "parsons",
+                "name": "Johnnie Parsons",
+                "constructorId": "kurtis_kraft",
+                "constructor": "Kurtis Kraft"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 1951,
+            "round": 2,
+            "raceName": "Indianapolis 500",
+            "date": "1951-05-30",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "wallard",
+                "name": "Lee Wallard",
+                "constructorId": "kurtis_kraft",
+                "constructor": "Kurtis Kraft"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 1952,
+            "round": 2,
+            "raceName": "Indianapolis 500",
+            "date": "1952-05-30",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "ruttman",
+                "name": "Troy Ruttman",
+                "constructorId": "kuzma",
+                "constructor": "Kuzma"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 1953,
+            "round": 2,
+            "raceName": "Indianapolis 500",
+            "date": "1953-05-30",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "vukovich",
+                "name": "Bill Vukovich",
+                "constructorId": "kurtis_kraft",
+                "constructor": "Kurtis Kraft"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 1954,
+            "round": 2,
+            "raceName": "Indianapolis 500",
+            "date": "1954-05-31",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "vukovich",
+                "name": "Bill Vukovich",
+                "constructorId": "kurtis_kraft",
+                "constructor": "Kurtis Kraft"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 1955,
+            "round": 3,
+            "raceName": "Indianapolis 500",
+            "date": "1955-05-30",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "sweikert",
+                "name": "Bob Sweikert",
+                "constructorId": "kurtis_kraft",
+                "constructor": "Kurtis Kraft"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 1956,
+            "round": 3,
+            "raceName": "Indianapolis 500",
+            "date": "1956-05-30",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "flaherty",
+                "name": "Pat Flaherty",
+                "constructorId": "watson",
+                "constructor": "Watson"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 1957,
+            "round": 3,
+            "raceName": "Indianapolis 500",
+            "date": "1957-05-30",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "hanks",
+                "name": "Sam Hanks",
+                "constructorId": "epperly",
+                "constructor": "Epperly"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 1958,
+            "round": 4,
+            "raceName": "Indianapolis 500",
+            "date": "1958-05-30",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "bryan",
+                "name": "Jimmy Bryan",
+                "constructorId": "epperly",
+                "constructor": "Epperly"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 1959,
+            "round": 2,
+            "raceName": "Indianapolis 500",
+            "date": "1959-05-30",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "ward",
+                "name": "Rodger Ward",
+                "constructorId": "watson",
+                "constructor": "Watson"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 1960,
+            "round": 3,
+            "raceName": "Indianapolis 500",
+            "date": "1960-05-30",
+            "layoutId": "oval",
+            "winner": {
+                "driverId": "rathmann",
+                "name": "Jim Rathmann",
+                "constructorId": "watson",
+                "constructor": "Watson"
+            },
+            "pole": null,
+            "indy500": true
+        },
+        {
+            "season": 2000,
+            "round": 15,
+            "raceName": "United States Grand Prix",
+            "date": "2000-09-24",
+            "layoutId": "road-course",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2001,
+            "round": 16,
+            "raceName": "United States Grand Prix",
+            "date": "2001-09-30",
+            "layoutId": "road-course",
+            "winner": {
+                "driverId": "hakkinen",
+                "name": "Mika Häkkinen",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2002,
+            "round": 16,
+            "raceName": "United States Grand Prix",
+            "date": "2002-09-29",
+            "layoutId": "road-course",
+            "winner": {
+                "driverId": "barrichello",
+                "name": "Rubens Barrichello",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2003,
+            "round": 15,
+            "raceName": "United States Grand Prix",
+            "date": "2003-09-28",
+            "layoutId": "road-course",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "raikkonen",
+                "name": "Kimi Räikkönen",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2004,
+            "round": 9,
+            "raceName": "United States Grand Prix",
+            "date": "2004-06-20",
+            "layoutId": "road-course",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "barrichello",
+                "name": "Rubens Barrichello",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2005,
+            "round": 9,
+            "raceName": "United States Grand Prix",
+            "date": "2005-06-19",
+            "layoutId": "road-course",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "trulli",
+                "name": "Jarno Trulli",
+                "constructorId": "toyota"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2006,
+            "round": 10,
+            "raceName": "United States Grand Prix",
+            "date": "2006-07-02",
+            "layoutId": "road-course",
+            "winner": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari",
+                "constructor": "Ferrari"
+            },
+            "pole": {
+                "driverId": "michael_schumacher",
+                "name": "Michael Schumacher",
+                "constructorId": "ferrari"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2007,
+            "round": 7,
+            "raceName": "United States Grand Prix",
+            "date": "2007-06-17",
+            "layoutId": "road-course",
+            "winner": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "hamilton",
+                "name": "Lewis Hamilton",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        }
+    ]
+}

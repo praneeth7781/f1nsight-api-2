@@ -1,0 +1,144 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "las_vegas",
+    "name": "Las Vegas Street Circuit",
+    "shortName": null,
+    "officialName": "Las Vegas Street Circuit",
+    "location": {
+        "locality": "Nevada",
+        "country": "USA",
+        "lat": 36.1162,
+        "long": -115.174
+    },
+    "wikipedia": "https://en.wikipedia.org/wiki/Las_Vegas_Strip_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1981,
+        "lastSeason": 1982,
+        "seasons": [
+            [
+                1981,
+                1982
+            ]
+        ],
+        "raceCount": 2,
+        "lastWinner": {
+            "driverId": "alboreto",
+            "name": "Michele Alboreto",
+            "constructorId": "tyrrell",
+            "constructor": "Tyrrell",
+            "season": 1982
+        },
+        "mostWins": [
+            {
+                "driverId": "jones",
+                "name": "Alan Jones",
+                "count": 1
+            },
+            {
+                "driverId": "alboreto",
+                "name": "Michele Alboreto",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell",
+                "count": 1
+            },
+            {
+                "constructorId": "williams",
+                "constructor": "Williams",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "count": 1
+            },
+            {
+                "driverId": "reutemann",
+                "name": "Carlos Reutemann",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1981,
+                    1982
+                ]
+            ],
+            "raceCount": 2,
+            "raceLaps": 75,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1981,
+            "round": 15,
+            "raceName": "Caesars Palace Grand Prix",
+            "date": "1981-10-17",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "jones",
+                "name": "Alan Jones",
+                "constructorId": "williams",
+                "constructor": "Williams"
+            },
+            "pole": {
+                "driverId": "reutemann",
+                "name": "Carlos Reutemann",
+                "constructorId": "williams"
+            },
+            "indy500": false
+        },
+        {
+            "season": 1982,
+            "round": 16,
+            "raceName": "Caesars Palace Grand Prix",
+            "date": "1982-09-25",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "alboreto",
+                "name": "Michele Alboreto",
+                "constructorId": "tyrrell",
+                "constructor": "Tyrrell"
+            },
+            "pole": {
+                "driverId": "prost",
+                "name": "Alain Prost",
+                "constructorId": "renault"
+            },
+            "indy500": false
+        }
+    ]
+}

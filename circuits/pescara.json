@@ -1,0 +1,110 @@
+{
+    "schemaVersion": 1,
+    "circuitId": "pescara",
+    "name": "Pescara Circuit",
+    "shortName": null,
+    "officialName": "Pescara Circuit",
+    "location": {
+        "locality": "Pescara",
+        "country": "Italy",
+        "lat": 42.475,
+        "long": 14.1508
+    },
+    "wikipedia": "http://en.wikipedia.org/wiki/Pescara_Circuit",
+    "status": "historical",
+    "hasGuide": false,
+    "currentLayoutId": "earlier",
+    "nextRace": null,
+    "championship": {
+        "firstSeason": 1957,
+        "lastSeason": 1957,
+        "seasons": [
+            [
+                1957,
+                1957
+            ]
+        ],
+        "raceCount": 1,
+        "lastWinner": {
+            "driverId": "moss",
+            "name": "Stirling Moss",
+            "constructorId": "vanwall",
+            "constructor": "Vanwall",
+            "season": 1957
+        },
+        "mostWins": [
+            {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "count": 1
+            }
+        ],
+        "mostConstructorWins": [
+            {
+                "constructorId": "vanwall",
+                "constructor": "Vanwall",
+                "count": 1
+            }
+        ],
+        "mostPoles": [
+            {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "count": 1
+            }
+        ]
+    },
+    "layouts": [
+        {
+            "id": "earlier",
+            "name": "Earlier layouts",
+            "seasons": [
+                [
+                    1957,
+                    1957
+                ]
+            ],
+            "raceCount": 1,
+            "raceLaps": 18,
+            "lapRecord": null,
+            "poleRecord": null,
+            "missingTimes": {
+                "lapRecord": [],
+                "poleRecord": []
+            },
+            "notes": [
+                "lapRecord",
+                "poleRecord"
+            ]
+        }
+    ],
+    "guide": {},
+    "sources": [],
+    "notes": {
+        "championship": "Race counts, wins and poles cover World Championship Grands Prix only, not non-championship races. The Indianapolis 500 (1950-1960) is left out of wins and poles.",
+        "lapRecord": "Race lap records count races from 2004 on: the race data has no fastest-lap times before 2004.",
+        "poleRecord": "Pole records use the pole-winning qualifying lap. Qualifying times are complete from 2003; 1994-2002 has some rounds only.",
+        "raceLaps": "Race laps is the scheduled distance: the lap count most winners on the layout completed, so shortened races don't change it."
+    },
+    "races": [
+        {
+            "season": 1957,
+            "round": 7,
+            "raceName": "Pescara Grand Prix",
+            "date": "1957-08-18",
+            "layoutId": "earlier",
+            "winner": {
+                "driverId": "moss",
+                "name": "Stirling Moss",
+                "constructorId": "vanwall",
+                "constructor": "Vanwall"
+            },
+            "pole": {
+                "driverId": "fangio",
+                "name": "Juan Fangio",
+                "constructorId": "maserati"
+            },
+            "indy500": false
+        }
+    ]
+}
