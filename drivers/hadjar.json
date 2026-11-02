@@ -2,7 +2,7 @@
     "driverId": "hadjar",
     "driverCode": "HAD",
     "driverNumber": "6",
-    "lastUpdate": "2026-10-29T16:58:31.098593",
+    "lastUpdate": "2026-11-02T20:23:53.015121",
     "totalWins": 0,
     "totalPodiums": 2,
     "totalPoles": 0,
@@ -88,7 +88,8 @@
             "Azerbaijan Grand Prix": "1:45.618",
             "Bahrain Grand Prix in Malaysia": "1:39.792",
             "Singapore Grand Prix": "1:35.917",
-            "United States Grand Prix": "1:39.399"
+            "United States Grand Prix": "1:39.399",
+            "Mexico City Grand Prix": "1:20.244"
         }
     },
     "finalStandings": {
@@ -100,7 +101,7 @@
         "2026": {
             "year": "2026",
             "position": "8",
-            "points": "105"
+            "points": "107"
         }
     },
     "posAfterRace": {
@@ -237,6 +238,9 @@
                 },
                 "United States Grand Prix": {
                     "points": 105.0
+                },
+                "Mexico City Grand Prix": {
+                    "points": 107.0
                 }
             }
         }
@@ -288,7 +292,8 @@
                 "Azerbaijan Grand Prix": "3",
                 "Bahrain Grand Prix in Malaysia": "5",
                 "Singapore Grand Prix": "10",
-                "United States Grand Prix": "6"
+                "United States Grand Prix": "6",
+                "Mexico City Grand Prix": "9"
             }
         }
     },
@@ -339,7 +344,8 @@
                 "Azerbaijan Grand Prix": "4",
                 "Bahrain Grand Prix in Malaysia": "8",
                 "Singapore Grand Prix": "22",
-                "United States Grand Prix": "3"
+                "United States Grand Prix": "3",
+                "Mexico City Grand Prix": "7"
             }
         }
     },
@@ -546,6 +552,11 @@
                     "1:35.286",
                     "1:34.887",
                     "1:34.250"
+                ],
+                "Mexico City Grand Prix": [
+                    "1:17.385",
+                    "1:17.047",
+                    "1:16.900"
                 ]
             }
         }
@@ -555,19 +566,19 @@
             "wins": 0.0,
             "podiums": 1.0,
             "poles": 0.0,
-            "points": 78.0
+            "points": 79.0
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 27.0
+            "points": 28.0
         },
         "cv": {
             "wins": 0,
             "podiums": 0.0,
             "poles": 0,
-            "points": 0.34615384615384615
+            "points": 0.35443037974683544
         }
     },
     "peakSeason": {
@@ -586,11 +597,11 @@
     },
     "avgRacePositions": {
         "2025": 11.791666666666666,
-        "2026": 8.266666666666667
+        "2026": 8.3125
     },
     "avgQualiPositions": {
         "2025": 9.791666666666666,
-        "2026": 9.266666666666667
+        "2026": 9.125
     },
     "rates": {
         "wins": {
@@ -599,7 +610,7 @@
         },
         "podiums": {
             "2025": 0.041666666666666664,
-            "2026": 0.06666666666666667
+            "2026": 0.0625
         },
         "poles": {
             "2025": 0.0,
@@ -607,13 +618,13 @@
         },
         "DNFs": {
             "2025": 0.125,
-            "2026": 0.13333333333333333
+            "2026": 0.125
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.05128205128205128,
+    "podiumRate": 0.05,
     "poleRate": 0.0,
-    "dnfRate": 0.1282051282051282,
+    "dnfRate": 0.125,
     "ptwConRate": {
         "2025": -1,
         "2026": -1
@@ -660,7 +671,8 @@
             "Azerbaijan Grand Prix": 1,
             "Bahrain Grand Prix in Malaysia": 3,
             "Singapore Grand Prix": 12,
-            "United States Grand Prix": -3
+            "United States Grand Prix": -3,
+            "Mexico City Grand Prix": -2
         }
     },
     "raceResults": {
@@ -1212,6 +1224,20 @@
                 "constructorId": "red_bull",
                 "fastestLapRank": 6,
                 "shared": false
+            },
+            "19": {
+                "raceName": "Mexico City Grand Prix",
+                "position": 9,
+                "positionText": "9",
+                "classified": true,
+                "grid": 7,
+                "points": 2.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "red_bull",
+                "fastestLapRank": 7,
+                "shared": false
             }
         }
     },
@@ -1300,7 +1326,7 @@
     },
     "seasonStarts": {
         "2025": 24,
-        "2026": 15
+        "2026": 16
     },
-    "totalStarts": 39
+    "totalStarts": 40
 }

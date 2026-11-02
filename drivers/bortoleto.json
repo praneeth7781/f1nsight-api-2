@@ -2,7 +2,7 @@
     "driverId": "bortoleto",
     "driverCode": "BOR",
     "driverNumber": "5",
-    "lastUpdate": "2026-10-29T16:58:31.098593",
+    "lastUpdate": "2026-11-02T20:23:53.015121",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -88,7 +88,8 @@
             "Azerbaijan Grand Prix": "1:46.336",
             "Bahrain Grand Prix in Malaysia": "1:41.382",
             "Singapore Grand Prix": "1:40.486",
-            "United States Grand Prix": "1:38.393"
+            "United States Grand Prix": "1:38.393",
+            "Mexico City Grand Prix": "1:20.872"
         }
     },
     "finalStandings": {
@@ -99,8 +100,8 @@
         },
         "2026": {
             "year": "2026",
-            "position": "15",
-            "points": "10"
+            "position": "14",
+            "points": "14"
         }
     },
     "posAfterRace": {
@@ -237,6 +238,9 @@
                 },
                 "United States Grand Prix": {
                     "points": 10.0
+                },
+                "Mexico City Grand Prix": {
+                    "points": 14.0
                 }
             }
         }
@@ -291,7 +295,8 @@
                 "Azerbaijan Grand Prix": "15",
                 "Bahrain Grand Prix in Malaysia": "18",
                 "Singapore Grand Prix": "22",
-                "United States Grand Prix": "13"
+                "United States Grand Prix": "13",
+                "Mexico City Grand Prix": "8"
             }
         }
     },
@@ -345,7 +350,8 @@
                 "Azerbaijan Grand Prix": "17",
                 "Bahrain Grand Prix in Malaysia": "10",
                 "Singapore Grand Prix": "14",
-                "United States Grand Prix": "21"
+                "United States Grand Prix": "21",
+                "Mexico City Grand Prix": "13"
             }
         }
     },
@@ -562,6 +568,11 @@
                     "1:35.632",
                     "1:35.691",
                     "N/A"
+                ],
+                "Mexico City Grand Prix": [
+                    "1:17.727",
+                    "1:17.680",
+                    "N/A"
                 ]
             }
         }
@@ -571,19 +582,19 @@
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 14.5
+            "points": 16.5
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 4.5
+            "points": 2.5
         },
         "cv": {
             "wins": 0,
             "podiums": 0,
             "poles": 0,
-            "points": 0.3103448275862069
+            "points": 0.15151515151515152
         }
     },
     "peakSeason": {
@@ -602,11 +613,11 @@
     },
     "avgRacePositions": {
         "2025": 14.25,
-        "2026": 12.470588235294118
+        "2026": 12.222222222222221
     },
     "avgQualiPositions": {
         "2025": 14.208333333333334,
-        "2026": 12.882352941176471
+        "2026": 12.88888888888889
     },
     "rates": {
         "wins": {
@@ -623,13 +634,13 @@
         },
         "DNFs": {
             "2025": 0.20833333333333334,
-            "2026": 0.058823529411764705
+            "2026": 0.05555555555555555
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.14634146341463414,
+    "dnfRate": 0.14285714285714285,
     "ptwConRate": {
         "2025": -1,
         "2026": -1
@@ -678,7 +689,8 @@
             "Azerbaijan Grand Prix": 2,
             "Bahrain Grand Prix in Malaysia": -8,
             "Singapore Grand Prix": -8,
-            "United States Grand Prix": 8
+            "United States Grand Prix": 8,
+            "Mexico City Grand Prix": 5
         }
     },
     "raceResults": {
@@ -1272,6 +1284,20 @@
                 "constructorId": "audi",
                 "fastestLapRank": 2,
                 "shared": false
+            },
+            "19": {
+                "raceName": "Mexico City Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 13,
+                "points": 4.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "audi",
+                "fastestLapRank": 14,
+                "shared": false
             }
         }
     },
@@ -1367,7 +1393,7 @@
     },
     "seasonStarts": {
         "2025": 24,
-        "2026": 17
+        "2026": 18
     },
-    "totalStarts": 41
+    "totalStarts": 42
 }

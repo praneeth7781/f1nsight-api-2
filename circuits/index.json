@@ -2,8 +2,8 @@
     "schemaVersion": 1,
     "dataThrough": {
         "season": 2026,
-        "round": 18,
-        "raceName": "United States Grand Prix"
+        "round": 19,
+        "raceName": "Mexico City Grand Prix"
     },
     "files": {
         "circuit": "circuits/{circuitId}.json",
@@ -17,38 +17,6 @@
         "missingTimes": "missingTimes lists races on a layout whose lap or pole time is missing from the race data; a record may be faster than shown until they are filled."
     },
     "circuits": [
-        {
-            "circuitId": "rodriguez",
-            "name": "Autodromo Hermanos Rodriguez",
-            "shortName": "Mexico City",
-            "location": {
-                "locality": "Mexico City",
-                "country": "Mexico",
-                "lat": 19.4042,
-                "long": -99.0907
-            },
-            "status": "current",
-            "hasGuide": true,
-            "lengthKm": 4.304,
-            "turns": 17,
-            "firstSeason": 1963,
-            "lastSeason": 2025,
-            "raceCount": 25,
-            "lastWinner": {
-                "driverId": "norris",
-                "name": "Lando Norris",
-                "constructorId": "mclaren",
-                "constructor": "McLaren",
-                "season": 2025
-            },
-            "nextRace": {
-                "season": 2026,
-                "round": 19,
-                "raceName": "Mexico City Grand Prix",
-                "date": "2026-11-01",
-                "time": "20:00:00Z"
-            }
-        },
         {
             "circuitId": "interlagos",
             "name": "Interlagos Circuit",
@@ -199,6 +167,32 @@
                 "name": "George Russell",
                 "constructorId": "mercedes",
                 "constructor": "Mercedes",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "rodriguez",
+            "name": "Autodromo Hermanos Rodriguez",
+            "shortName": "Mexico City",
+            "location": {
+                "locality": "Mexico City",
+                "country": "Mexico",
+                "lat": 19.4042,
+                "long": -99.0907
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 4.304,
+            "turns": 17,
+            "firstSeason": 1963,
+            "lastSeason": 2026,
+            "raceCount": 26,
+            "lastWinner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
                 "season": 2026
             },
             "nextRace": null
