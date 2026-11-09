@@ -2,8 +2,8 @@
     "schemaVersion": 1,
     "dataThrough": {
         "season": 2026,
-        "round": 19,
-        "raceName": "Mexico City Grand Prix"
+        "round": 20,
+        "raceName": "Brazilian Grand Prix"
     },
     "files": {
         "circuit": "circuits/{circuitId}.json",
@@ -17,38 +17,6 @@
         "missingTimes": "missingTimes lists races on a layout whose lap or pole time is missing from the race data; a record may be faster than shown until they are filled."
     },
     "circuits": [
-        {
-            "circuitId": "interlagos",
-            "name": "Interlagos Circuit",
-            "shortName": "Interlagos",
-            "location": {
-                "locality": "São Paulo",
-                "country": "Brazil",
-                "lat": -23.7036,
-                "long": -46.6997
-            },
-            "status": "current",
-            "hasGuide": true,
-            "lengthKm": 4.309,
-            "turns": 15,
-            "firstSeason": 1973,
-            "lastSeason": 2025,
-            "raceCount": 42,
-            "lastWinner": {
-                "driverId": "norris",
-                "name": "Lando Norris",
-                "constructorId": "mclaren",
-                "constructor": "McLaren",
-                "season": 2025
-            },
-            "nextRace": {
-                "season": 2026,
-                "round": 20,
-                "raceName": "Brazilian Grand Prix",
-                "date": "2026-11-08",
-                "time": "17:00:00Z"
-            }
-        },
         {
             "circuitId": "vegas",
             "name": "Las Vegas Strip Circuit",
@@ -422,6 +390,32 @@
             "firstSeason": 1986,
             "lastSeason": 2026,
             "raceCount": 41,
+            "lastWinner": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren",
+                "constructor": "McLaren",
+                "season": 2026
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "interlagos",
+            "name": "Interlagos Circuit",
+            "shortName": "Interlagos",
+            "location": {
+                "locality": "São Paulo",
+                "country": "Brazil",
+                "lat": -23.7036,
+                "long": -46.6997
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 4.309,
+            "turns": 15,
+            "firstSeason": 1973,
+            "lastSeason": 2026,
+            "raceCount": 43,
             "lastWinner": {
                 "driverId": "norris",
                 "name": "Lando Norris",

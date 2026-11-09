@@ -2,7 +2,7 @@
     "driverId": "gasly",
     "driverCode": "GAS",
     "driverNumber": "10",
-    "lastUpdate": "2026-11-02T20:23:53.015121",
+    "lastUpdate": "2026-11-09T20:49:19.938001",
     "totalWins": 1,
     "totalPodiums": 6,
     "totalPoles": 1,
@@ -358,7 +358,8 @@
             "Bahrain Grand Prix in Malaysia": "1:41.514",
             "Singapore Grand Prix": "1:37.390",
             "United States Grand Prix": "1:40.193",
-            "Mexico City Grand Prix": "1:20.754"
+            "Mexico City Grand Prix": "1:20.754",
+            "Brazilian Grand Prix": "1:14.462"
         }
     },
     "finalStandings": {
@@ -1055,6 +1056,9 @@
                 },
                 "Mexico City Grand Prix": {
                     "points": 42.0
+                },
+                "Brazilian Grand Prix": {
+                    "points": 42.0
                 }
             }
         }
@@ -1304,7 +1308,8 @@
                 "Bahrain Grand Prix in Malaysia": "16",
                 "Singapore Grand Prix": "11",
                 "United States Grand Prix": "10",
-                "Mexico City Grand Prix": "17"
+                "Mexico City Grand Prix": "17",
+                "Brazilian Grand Prix": "14"
             }
         }
     },
@@ -1553,7 +1558,8 @@
                 "Bahrain Grand Prix in Malaysia": "9",
                 "Singapore Grand Prix": "7",
                 "United States Grand Prix": "10",
-                "Mexico City Grand Prix": "9"
+                "Mexico City Grand Prix": "9",
+                "Brazilian Grand Prix": "15"
             }
         }
     },
@@ -2585,6 +2591,11 @@
                     "1:18.194",
                     "1:17.278",
                     "1:17.153"
+                ],
+                "Brazilian Grand Prix": [
+                    "1:33.449",
+                    "N/A",
+                    "N/A"
                 ]
             }
         }
@@ -2633,7 +2644,7 @@
         "2023": 10.681818181818182,
         "2024": 12.565217391304348,
         "2025": 14.583333333333334,
-        "2026": 11.0
+        "2026": 11.15
     },
     "avgQualiPositions": {
         "2017": 17.0,
@@ -2645,7 +2656,7 @@
         "2023": 11.136363636363637,
         "2024": 12.545454545454545,
         "2025": 13.375,
-        "2026": 10.0
+        "2026": 10.25
     },
     "rates": {
         "wins": {
@@ -2670,7 +2681,7 @@
             "2023": 0.045454545454545456,
             "2024": 0.043478260869565216,
             "2025": 0.0,
-            "2026": 0.05263157894736842
+            "2026": 0.05
         },
         "poles": {
             "2017": 0.0,
@@ -2682,7 +2693,7 @@
             "2023": 0.0,
             "2024": 0.0,
             "2025": 0.0,
-            "2026": 0.05263157894736842
+            "2026": 0.05
         },
         "DNFs": {
             "2017": 0.0,
@@ -2694,13 +2705,13 @@
             "2023": 0.13636363636363635,
             "2024": 0.13043478260869565,
             "2025": 0.08333333333333333,
-            "2026": 0.10526315789473684
+            "2026": 0.1
         }
     },
-    "winRate": 0.00510204081632653,
-    "podiumRate": 0.030612244897959183,
-    "poleRate": 0.00510204081632653,
-    "dnfRate": 0.14285714285714285,
+    "winRate": 0.005076142131979695,
+    "podiumRate": 0.030456852791878174,
+    "poleRate": 0.005076142131979695,
+    "dnfRate": 0.14213197969543148,
     "ptwConRate": {
         "2017": -1,
         "2018": -1,
@@ -2923,7 +2934,8 @@
             "Bahrain Grand Prix in Malaysia": -7,
             "Singapore Grand Prix": -4,
             "United States Grand Prix": 0,
-            "Mexico City Grand Prix": -8
+            "Mexico City Grand Prix": -8,
+            "Brazilian Grand Prix": 1
         }
     },
     "raceResults": {
@@ -5703,6 +5715,20 @@
                 "constructorId": "alpine",
                 "fastestLapRank": 13,
                 "shared": false
+            },
+            "20": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 14,
+                "positionText": "14",
+                "classified": true,
+                "grid": 15,
+                "points": 0.0,
+                "status": "Lapped",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "alpine",
+                "fastestLapRank": 15,
+                "shared": false
             }
         }
     },
@@ -5944,7 +5970,7 @@
         "2023": 22,
         "2024": 23,
         "2025": 24,
-        "2026": 19
+        "2026": 20
     },
-    "totalStarts": 196
+    "totalStarts": 197
 }

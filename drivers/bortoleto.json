@@ -2,7 +2,7 @@
     "driverId": "bortoleto",
     "driverCode": "BOR",
     "driverNumber": "5",
-    "lastUpdate": "2026-11-02T20:23:53.015121",
+    "lastUpdate": "2026-11-09T20:49:19.938001",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -89,7 +89,8 @@
             "Bahrain Grand Prix in Malaysia": "1:41.382",
             "Singapore Grand Prix": "1:40.486",
             "United States Grand Prix": "1:38.393",
-            "Mexico City Grand Prix": "1:20.872"
+            "Mexico City Grand Prix": "1:20.872",
+            "Brazilian Grand Prix": "1:14.940"
         }
     },
     "finalStandings": {
@@ -241,6 +242,9 @@
                 },
                 "Mexico City Grand Prix": {
                     "points": 14.0
+                },
+                "Brazilian Grand Prix": {
+                    "points": 14.0
                 }
             }
         }
@@ -296,7 +300,8 @@
                 "Bahrain Grand Prix in Malaysia": "18",
                 "Singapore Grand Prix": "22",
                 "United States Grand Prix": "13",
-                "Mexico City Grand Prix": "8"
+                "Mexico City Grand Prix": "8",
+                "Brazilian Grand Prix": "16"
             }
         }
     },
@@ -351,7 +356,8 @@
                 "Bahrain Grand Prix in Malaysia": "10",
                 "Singapore Grand Prix": "14",
                 "United States Grand Prix": "21",
-                "Mexico City Grand Prix": "13"
+                "Mexico City Grand Prix": "13",
+                "Brazilian Grand Prix": "19"
             }
         }
     },
@@ -573,6 +579,11 @@
                     "1:17.727",
                     "1:17.680",
                     "N/A"
+                ],
+                "Brazilian Grand Prix": [
+                    "1:41.564",
+                    "N/A",
+                    "N/A"
                 ]
             }
         }
@@ -613,11 +624,11 @@
     },
     "avgRacePositions": {
         "2025": 14.25,
-        "2026": 12.222222222222221
+        "2026": 12.421052631578947
     },
     "avgQualiPositions": {
         "2025": 14.208333333333334,
-        "2026": 12.88888888888889
+        "2026": 13.210526315789474
     },
     "rates": {
         "wins": {
@@ -634,13 +645,13 @@
         },
         "DNFs": {
             "2025": 0.20833333333333334,
-            "2026": 0.05555555555555555
+            "2026": 0.05263157894736842
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.14285714285714285,
+    "dnfRate": 0.13953488372093023,
     "ptwConRate": {
         "2025": -1,
         "2026": -1
@@ -690,7 +701,8 @@
             "Bahrain Grand Prix in Malaysia": -8,
             "Singapore Grand Prix": -8,
             "United States Grand Prix": 8,
-            "Mexico City Grand Prix": 5
+            "Mexico City Grand Prix": 5,
+            "Brazilian Grand Prix": 3
         }
     },
     "raceResults": {
@@ -1298,6 +1310,20 @@
                 "constructorId": "audi",
                 "fastestLapRank": 14,
                 "shared": false
+            },
+            "20": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 16,
+                "positionText": "16",
+                "classified": true,
+                "grid": 19,
+                "points": 0.0,
+                "status": "Lapped",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "audi",
+                "fastestLapRank": 19,
+                "shared": false
             }
         }
     },
@@ -1393,7 +1419,7 @@
     },
     "seasonStarts": {
         "2025": 24,
-        "2026": 18
+        "2026": 19
     },
-    "totalStarts": 42
+    "totalStarts": 43
 }

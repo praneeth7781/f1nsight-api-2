@@ -2,7 +2,7 @@
     "driverId": "antonelli",
     "driverCode": "ANT",
     "driverNumber": "12",
-    "lastUpdate": "2026-11-02T20:23:53.015121",
+    "lastUpdate": "2026-11-09T20:49:19.938001",
     "totalWins": 9,
     "totalPodiums": 19,
     "totalPoles": 7,
@@ -117,7 +117,8 @@
             "Bahrain Grand Prix in Malaysia": "1:38.589",
             "Singapore Grand Prix": "1:35.589",
             "United States Grand Prix": "1:39.086",
-            "Mexico City Grand Prix": "1:19.427"
+            "Mexico City Grand Prix": "1:19.427",
+            "Brazilian Grand Prix": "1:12.689"
         }
     },
     "finalStandings": {
@@ -129,7 +130,7 @@
         "2026": {
             "year": "2026",
             "position": "1",
-            "points": "380"
+            "points": "390"
         }
     },
     "posAfterRace": {
@@ -269,6 +270,9 @@
                 },
                 "Mexico City Grand Prix": {
                     "points": 380.0
+                },
+                "Brazilian Grand Prix": {
+                    "points": 390.0
                 }
             }
         }
@@ -324,7 +328,8 @@
                 "Bahrain Grand Prix in Malaysia": "2",
                 "Singapore Grand Prix": "3",
                 "United States Grand Prix": "1",
-                "Mexico City Grand Prix": "3"
+                "Mexico City Grand Prix": "3",
+                "Brazilian Grand Prix": "5"
             }
         }
     },
@@ -379,7 +384,8 @@
                 "Bahrain Grand Prix in Malaysia": "3",
                 "Singapore Grand Prix": "4",
                 "United States Grand Prix": "1",
-                "Mexico City Grand Prix": "4"
+                "Mexico City Grand Prix": "4",
+                "Brazilian Grand Prix": "2"
             }
         }
     },
@@ -606,6 +612,11 @@
                     "1:17.918",
                     "1:17.133",
                     "1:16.707"
+                ],
+                "Brazilian Grand Prix": [
+                    "1:32.229",
+                    "1:29.302",
+                    "1:28.095"
                 ]
             }
         }
@@ -615,19 +626,19 @@
             "wins": 4.5,
             "podiums": 9.5,
             "poles": 3.5,
-            "points": 265.0
+            "points": 270.0
         },
         "std": {
             "wins": 4.5,
             "podiums": 6.5,
             "poles": 3.5,
-            "points": 115.0
+            "points": 120.0
         },
         "cv": {
             "wins": 1.0,
             "podiums": 0.6842105263157895,
             "poles": 1.0,
-            "points": 0.4339622641509434
+            "points": 0.4444444444444444
         }
     },
     "peakSeason": {
@@ -646,34 +657,34 @@
     },
     "avgRacePositions": {
         "2025": 9.833333333333334,
-        "2026": 3.3157894736842106
+        "2026": 3.4
     },
     "avgQualiPositions": {
         "2025": 8.75,
-        "2026": 4.0
+        "2026": 3.9
     },
     "rates": {
         "wins": {
             "2025": 0.0,
-            "2026": 0.47368421052631576
+            "2026": 0.45
         },
         "podiums": {
             "2025": 0.125,
-            "2026": 0.8421052631578947
+            "2026": 0.8
         },
         "poles": {
             "2025": 0.0,
-            "2026": 0.3684210526315789
+            "2026": 0.35
         },
         "DNFs": {
             "2025": 0.16666666666666666,
-            "2026": 0.05263157894736842
+            "2026": 0.05
         }
     },
-    "winRate": 0.20930232558139536,
-    "podiumRate": 0.4418604651162791,
-    "poleRate": 0.16279069767441862,
-    "dnfRate": 0.11627906976744186,
+    "winRate": 0.20454545454545456,
+    "podiumRate": 0.4318181818181818,
+    "poleRate": 0.1590909090909091,
+    "dnfRate": 0.11363636363636363,
     "ptwConRate": {
         "2025": -1,
         "2026": 0.8571428571428571
@@ -724,7 +735,8 @@
             "Bahrain Grand Prix in Malaysia": 1,
             "Singapore Grand Prix": 1,
             "United States Grand Prix": 0,
-            "Mexico City Grand Prix": 1
+            "Mexico City Grand Prix": 1,
+            "Brazilian Grand Prix": -3
         }
     },
     "raceResults": {
@@ -1332,6 +1344,20 @@
                 "constructorId": "mercedes",
                 "fastestLapRank": 3,
                 "shared": false
+            },
+            "20": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 5,
+                "positionText": "5",
+                "classified": true,
+                "grid": 2,
+                "points": 10.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "mercedes",
+                "fastestLapRank": 1,
+                "shared": false
             }
         }
     },
@@ -1427,7 +1453,7 @@
     },
     "seasonStarts": {
         "2025": 24,
-        "2026": 19
+        "2026": 20
     },
-    "totalStarts": 43
+    "totalStarts": 44
 }

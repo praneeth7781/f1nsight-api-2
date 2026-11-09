@@ -14,16 +14,10 @@
     "status": "current",
     "hasGuide": true,
     "currentLayoutId": "2000",
-    "nextRace": {
-        "season": 2026,
-        "round": 20,
-        "raceName": "Brazilian Grand Prix",
-        "date": "2026-11-08",
-        "time": "17:00:00Z"
-    },
+    "nextRace": null,
     "championship": {
         "firstSeason": 1973,
-        "lastSeason": 2025,
+        "lastSeason": 2026,
         "seasons": [
             [
                 1973,
@@ -39,16 +33,16 @@
             ],
             [
                 2021,
-                2025
+                2026
             ]
         ],
-        "raceCount": 42,
+        "raceCount": 43,
         "lastWinner": {
             "driverId": "norris",
             "name": "Lando Norris",
             "constructorId": "mclaren",
             "constructor": "McLaren",
-            "season": 2025
+            "season": 2026
         },
         "mostWins": [
             {
@@ -92,6 +86,11 @@
                 "count": 2
             },
             {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "count": 2
+            },
+            {
                 "driverId": "webber",
                 "name": "Mark Webber",
                 "count": 2
@@ -109,13 +108,13 @@
         ],
         "mostConstructorWins": [
             {
-                "constructorId": "ferrari",
-                "constructor": "Ferrari",
-                "count": 9
-            },
-            {
                 "constructorId": "mclaren",
                 "constructor": "McLaren",
+                "count": 10
+            },
+            {
+                "constructorId": "ferrari",
+                "constructor": "Ferrari",
                 "count": 9
             },
             {
@@ -143,6 +142,11 @@
             {
                 "driverId": "massa",
                 "name": "Felipe Massa",
+                "count": 3
+            },
+            {
+                "driverId": "norris",
+                "name": "Lando Norris",
                 "count": 3
             },
             {
@@ -184,10 +188,10 @@
                 ],
                 [
                     2021,
-                    2025
+                    2026
                 ]
             ],
-            "raceCount": 25,
+            "raceCount": 26,
             "raceLaps": 71,
             "lapRecord": {
                 "time": "1:10.540",
@@ -1106,6 +1110,25 @@
             "round": 21,
             "raceName": "São Paulo Grand Prix",
             "date": "2025-11-09",
+            "layoutId": "2000",
+            "winner": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren",
+                "constructor": "McLaren"
+            },
+            "pole": {
+                "driverId": "norris",
+                "name": "Lando Norris",
+                "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2026,
+            "round": 20,
+            "raceName": "Brazilian Grand Prix",
+            "date": "2026-11-08",
             "layoutId": "2000",
             "winner": {
                 "driverId": "norris",

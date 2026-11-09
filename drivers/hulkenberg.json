@@ -2,7 +2,7 @@
     "driverId": "hulkenberg",
     "driverCode": "HUL",
     "driverNumber": "27",
-    "lastUpdate": "2026-11-02T20:23:53.015121",
+    "lastUpdate": "2026-11-09T20:49:19.938001",
     "totalWins": 0,
     "totalPodiums": 1,
     "totalPoles": 1,
@@ -492,7 +492,8 @@
             "Bahrain Grand Prix in Malaysia": "1:41.394",
             "Singapore Grand Prix": "1:37.055",
             "United States Grand Prix": "1:40.323",
-            "Mexico City Grand Prix": "1:20.732"
+            "Mexico City Grand Prix": "1:20.732",
+            "Brazilian Grand Prix": "1:14.000"
         }
     },
     "finalStandings": {
@@ -569,7 +570,7 @@
         "2026": {
             "year": "2026",
             "position": "15",
-            "points": "13"
+            "points": "14"
         }
     },
     "posAfterRace": {
@@ -1557,6 +1558,9 @@
                 },
                 "Mexico City Grand Prix": {
                     "points": 13.0
+                },
+                "Brazilian Grand Prix": {
+                    "points": 14.0
                 }
             }
         }
@@ -1907,7 +1911,8 @@
                 "Bahrain Grand Prix in Malaysia": "11",
                 "Singapore Grand Prix": "8",
                 "United States Grand Prix": "11",
-                "Mexico City Grand Prix": "14"
+                "Mexico City Grand Prix": "14",
+                "Brazilian Grand Prix": "10"
             }
         }
     },
@@ -2257,7 +2262,8 @@
                 "Bahrain Grand Prix in Malaysia": "15",
                 "Singapore Grand Prix": "10",
                 "United States Grand Prix": "11",
-                "Mexico City Grand Prix": "10"
+                "Mexico City Grand Prix": "10",
+                "Brazilian Grand Prix": "4"
             }
         }
     },
@@ -3694,6 +3700,11 @@
                     "1:17.868",
                     "1:17.306",
                     ""
+                ],
+                "Brazilian Grand Prix": [
+                    "1:31.693",
+                    "1:28.361",
+                    "1:28.668"
                 ]
             }
         }
@@ -3703,19 +3714,19 @@
             "wins": 0.0,
             "podiums": 0.06666666666666667,
             "poles": 0.06666666666666667,
-            "points": 42.333333333333336
+            "points": 42.4
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.24944382578492943,
             "poles": 0.2494438257849295,
-            "points": 26.517080449317106
+            "points": 26.444407096145426
         },
         "cv": {
             "wins": 0,
             "podiums": 3.7416573867739418,
             "poles": 3.741657386773942,
-            "points": 0.626387727149223
+            "points": 0.6236888466072035
         }
     },
     "peakSeason": {
@@ -3747,7 +3758,7 @@
         "2023": 14.545454545454545,
         "2024": 11.625,
         "2025": 12.478260869565217,
-        "2026": 12.61111111111111
+        "2026": 12.473684210526315
     },
     "avgQualiPositions": {
         "2010": 11.210526315789474,
@@ -3764,7 +3775,7 @@
         "2023": 11.210526315789474,
         "2024": 11.833333333333334,
         "2025": 14.826086956521738,
-        "2026": 11.944444444444445
+        "2026": 11.526315789473685
     },
     "rates": {
         "wins": {
@@ -3833,13 +3844,13 @@
             "2023": 0.09090909090909091,
             "2024": 0.08333333333333333,
             "2025": 0.08695652173913043,
-            "2026": 0.16666666666666666
+            "2026": 0.15789473684210525
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.0037313432835820895,
-    "poleRate": 0.0037313432835820895,
-    "dnfRate": 0.17537313432835822,
+    "podiumRate": 0.0037174721189591076,
+    "poleRate": 0.0037174721189591076,
+    "dnfRate": 0.17472118959107807,
     "ptwConRate": {
         "2010": 0.0,
         "2012": -1,
@@ -4150,7 +4161,8 @@
             "Bahrain Grand Prix in Malaysia": 4,
             "Singapore Grand Prix": 2,
             "United States Grand Prix": 0,
-            "Mexico City Grand Prix": -4
+            "Mexico City Grand Prix": -4,
+            "Brazilian Grand Prix": -6
         }
     },
     "raceResults": {
@@ -8004,6 +8016,20 @@
                 "constructorId": "audi",
                 "fastestLapRank": 11,
                 "shared": false
+            },
+            "20": {
+                "raceName": "Brazilian Grand Prix",
+                "position": 10,
+                "positionText": "10",
+                "classified": true,
+                "grid": 4,
+                "points": 1.0,
+                "status": "Lapped",
+                "outcome": "lapped",
+                "cause": null,
+                "constructorId": "audi",
+                "fastestLapRank": 9,
+                "shared": false
             }
         }
     },
@@ -8211,7 +8237,7 @@
         "2023": 22,
         "2024": 24,
         "2025": 23,
-        "2026": 18
+        "2026": 19
     },
-    "totalStarts": 268
+    "totalStarts": 269
 }
