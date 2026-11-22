@@ -2,7 +2,7 @@
     "driverId": "hadjar",
     "driverCode": "HAD",
     "driverNumber": "6",
-    "lastUpdate": "2026-11-09T20:49:19.938001",
+    "lastUpdate": "2026-11-22T17:52:44.694869",
     "totalWins": 0,
     "totalPodiums": 3,
     "totalPoles": 0,
@@ -91,7 +91,8 @@
             "Singapore Grand Prix": "1:35.917",
             "United States Grand Prix": "1:39.399",
             "Mexico City Grand Prix": "1:20.244",
-            "Brazilian Grand Prix": "1:12.877"
+            "Brazilian Grand Prix": "1:12.877",
+            "Las Vegas Grand Prix": "1:35.944"
         }
     },
     "finalStandings": {
@@ -246,6 +247,9 @@
                 },
                 "Brazilian Grand Prix": {
                     "points": 122.0
+                },
+                "Las Vegas Grand Prix": {
+                    "points": 122.0
                 }
             }
         }
@@ -299,7 +303,8 @@
                 "Singapore Grand Prix": "10",
                 "United States Grand Prix": "6",
                 "Mexico City Grand Prix": "9",
-                "Brazilian Grand Prix": "3"
+                "Brazilian Grand Prix": "3",
+                "Las Vegas Grand Prix": "15"
             }
         }
     },
@@ -352,7 +357,8 @@
                 "Singapore Grand Prix": "22",
                 "United States Grand Prix": "3",
                 "Mexico City Grand Prix": "7",
-                "Brazilian Grand Prix": "5"
+                "Brazilian Grand Prix": "5",
+                "Las Vegas Grand Prix": "4"
             }
         }
     },
@@ -569,6 +575,11 @@
                     "1:32.059",
                     "1:27.218",
                     "1:28.763"
+                ],
+                "Las Vegas Grand Prix": [
+                    "1:35.413",
+                    "1:35.064",
+                    "1:34.592"
                 ]
             }
         }
@@ -609,11 +620,11 @@
     },
     "avgRacePositions": {
         "2025": 11.791666666666666,
-        "2026": 8.0
+        "2026": 8.38888888888889
     },
     "avgQualiPositions": {
         "2025": 9.791666666666666,
-        "2026": 8.882352941176471
+        "2026": 8.61111111111111
     },
     "rates": {
         "wins": {
@@ -622,7 +633,7 @@
         },
         "podiums": {
             "2025": 0.041666666666666664,
-            "2026": 0.11764705882352941
+            "2026": 0.1111111111111111
         },
         "poles": {
             "2025": 0.0,
@@ -630,13 +641,13 @@
         },
         "DNFs": {
             "2025": 0.125,
-            "2026": 0.11764705882352941
+            "2026": 0.1111111111111111
         }
     },
     "winRate": 0.0,
-    "podiumRate": 0.07317073170731707,
+    "podiumRate": 0.07142857142857142,
     "poleRate": 0.0,
-    "dnfRate": 0.12195121951219512,
+    "dnfRate": 0.11904761904761904,
     "ptwConRate": {
         "2025": -1,
         "2026": -1
@@ -685,7 +696,8 @@
             "Singapore Grand Prix": 12,
             "United States Grand Prix": -3,
             "Mexico City Grand Prix": -2,
-            "Brazilian Grand Prix": 2
+            "Brazilian Grand Prix": 2,
+            "Las Vegas Grand Prix": -11
         }
     },
     "raceResults": {
@@ -1265,6 +1277,20 @@
                 "constructorId": "red_bull",
                 "fastestLapRank": 2,
                 "shared": false
+            },
+            "21": {
+                "raceName": "Las Vegas Grand Prix",
+                "position": 15,
+                "positionText": "15",
+                "classified": true,
+                "grid": 4,
+                "points": 0.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "red_bull",
+                "fastestLapRank": 2,
+                "shared": false
             }
         }
     },
@@ -1353,7 +1379,7 @@
     },
     "seasonStarts": {
         "2025": 24,
-        "2026": 17
+        "2026": 18
     },
-    "totalStarts": 41
+    "totalStarts": 42
 }

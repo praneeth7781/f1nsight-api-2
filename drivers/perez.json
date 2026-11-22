@@ -2,11 +2,11 @@
     "driverId": "perez",
     "driverCode": "PER",
     "driverNumber": "11",
-    "lastUpdate": "2026-11-09T20:49:19.938001",
+    "lastUpdate": "2026-11-22T17:52:44.694869",
     "totalWins": 6,
     "totalPodiums": 39,
     "totalPoles": 3,
-    "totalDNFs": 43,
+    "totalDNFs": 44,
     "seasonWins": {
         "2011": 0,
         "2012": 0,
@@ -73,7 +73,7 @@
         "2022": 3,
         "2023": 2,
         "2024": 5,
-        "2026": 5
+        "2026": 6
     },
     "poles": {
         "2011": [],
@@ -235,7 +235,8 @@
             "Austrian Grand Prix": "Retired",
             "Belgian Grand Prix": "Retired",
             "Hungarian Grand Prix": "Retired",
-            "Spanish Grand Prix": "Retired"
+            "Spanish Grand Prix": "Retired",
+            "Las Vegas Grand Prix": "Retired"
         }
     },
     "fastLaps": {
@@ -570,7 +571,8 @@
             "Singapore Grand Prix": "1:38.574",
             "United States Grand Prix": "1:41.680",
             "Mexico City Grand Prix": "1:21.256",
-            "Brazilian Grand Prix": "1:16.123"
+            "Brazilian Grand Prix": "1:16.123",
+            "Las Vegas Grand Prix": "1:39.296"
         }
     },
     "finalStandings": {
@@ -1638,6 +1640,9 @@
                 },
                 "Brazilian Grand Prix": {
                     "points": 0.0
+                },
+                "Las Vegas Grand Prix": {
+                    "points": 0.0
                 }
             }
         }
@@ -2018,7 +2023,8 @@
                 "Singapore Grand Prix": "17",
                 "United States Grand Prix": "19",
                 "Mexico City Grand Prix": "16",
-                "Brazilian Grand Prix": "18"
+                "Brazilian Grand Prix": "18",
+                "Las Vegas Grand Prix": "21"
             }
         }
     },
@@ -2398,7 +2404,8 @@
                 "Singapore Grand Prix": "17",
                 "United States Grand Prix": "18",
                 "Mexico City Grand Prix": "20",
-                "Brazilian Grand Prix": "22"
+                "Brazilian Grand Prix": "22",
+                "Las Vegas Grand Prix": "16"
             }
         }
     },
@@ -3985,6 +3992,11 @@
                     "1:34.509",
                     "N/A",
                     "N/A"
+                ],
+                "Las Vegas Grand Prix": [
+                    "1:37.383",
+                    "N/A",
+                    "N/A"
                 ]
             }
         }
@@ -4038,7 +4050,7 @@
         "2022": 5.409090909090909,
         "2023": 5.863636363636363,
         "2024": 9.625,
-        "2026": 17.15
+        "2026": 17.333333333333332
     },
     "avgQualiPositions": {
         "2011": 14.0,
@@ -4055,7 +4067,7 @@
         "2022": 4.818181818181818,
         "2023": 8.2,
         "2024": 8.91304347826087,
-        "2026": 19.4
+        "2026": 19.238095238095237
     },
     "rates": {
         "wins": {
@@ -4124,13 +4136,13 @@
             "2022": 0.13636363636363635,
             "2023": 0.09090909090909091,
             "2024": 0.20833333333333334,
-            "2026": 0.25
+            "2026": 0.2857142857142857
         }
     },
-    "winRate": 0.019933554817275746,
-    "podiumRate": 0.12956810631229235,
-    "poleRate": 0.009966777408637873,
-    "dnfRate": 0.14285714285714285,
+    "winRate": 0.019867549668874173,
+    "podiumRate": 0.1291390728476821,
+    "poleRate": 0.009933774834437087,
+    "dnfRate": 0.1456953642384106,
     "ptwConRate": {
         "2011": -1,
         "2012": -1,
@@ -4470,7 +4482,8 @@
             "Singapore Grand Prix": 0,
             "United States Grand Prix": -1,
             "Mexico City Grand Prix": 4,
-            "Brazilian Grand Prix": 4
+            "Brazilian Grand Prix": 4,
+            "Las Vegas Grand Prix": -5
         }
     },
     "raceResults": {
@@ -8744,6 +8757,20 @@
                 "constructorId": "cadillac",
                 "fastestLapRank": 20,
                 "shared": false
+            },
+            "21": {
+                "raceName": "Las Vegas Grand Prix",
+                "position": 21,
+                "positionText": "R",
+                "classified": false,
+                "grid": 16,
+                "points": 0.0,
+                "status": "Retired",
+                "outcome": "retired",
+                "cause": "unknown",
+                "constructorId": "cadillac",
+                "fastestLapRank": 21,
+                "shared": false
             }
         }
     },
@@ -8952,7 +8979,7 @@
         "2022": 22,
         "2023": 22,
         "2024": 24,
-        "2026": 20
+        "2026": 21
     },
-    "totalStarts": 301
+    "totalStarts": 302
 }

@@ -2,7 +2,7 @@
     "driverId": "colapinto",
     "driverCode": "COL",
     "driverNumber": "43",
-    "lastUpdate": "2026-11-09T20:49:19.938001",
+    "lastUpdate": "2026-11-22T17:52:44.694869",
     "totalWins": 0,
     "totalPodiums": 0,
     "totalPoles": 0,
@@ -102,7 +102,8 @@
             "Singapore Grand Prix": "1:39.265",
             "United States Grand Prix": "1:41.087",
             "Mexico City Grand Prix": "1:20.750",
-            "Brazilian Grand Prix": "1:13.710"
+            "Brazilian Grand Prix": "1:13.710",
+            "Las Vegas Grand Prix": "1:36.207"
         }
     },
     "finalStandings": {
@@ -119,7 +120,7 @@
         "2026": {
             "year": "2026",
             "position": "12",
-            "points": "27"
+            "points": "35"
         }
     },
     "posAfterRace": {
@@ -276,6 +277,9 @@
                 },
                 "Brazilian Grand Prix": {
                     "points": 27.0
+                },
+                "Las Vegas Grand Prix": {
+                    "points": 35.0
                 }
             }
         }
@@ -340,7 +344,8 @@
                 "Singapore Grand Prix": "21",
                 "United States Grand Prix": "21",
                 "Mexico City Grand Prix": "15",
-                "Brazilian Grand Prix": "13"
+                "Brazilian Grand Prix": "13",
+                "Las Vegas Grand Prix": "6"
             }
         }
     },
@@ -404,7 +409,8 @@
                 "Singapore Grand Prix": "15",
                 "United States Grand Prix": "20",
                 "Mexico City Grand Prix": "11",
-                "Brazilian Grand Prix": "13"
+                "Brazilian Grand Prix": "13",
+                "Las Vegas Grand Prix": "9"
             }
         }
     },
@@ -656,6 +662,11 @@
                     "1:33.327",
                     "N/A",
                     "N/A"
+                ],
+                "Las Vegas Grand Prix": [
+                    "1:35.930",
+                    "1:34.982",
+                    "1:35.314"
                 ]
             }
         }
@@ -665,19 +676,19 @@
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 10.666666666666666
+            "points": 13.333333333333334
         },
         "std": {
             "wins": 0.0,
             "podiums": 0.0,
             "poles": 0.0,
-            "points": 11.728408057172787
+            "points": 15.456030825826172
         },
         "cv": {
             "wins": 0,
             "podiums": 0,
             "poles": 0,
-            "points": 1.0995382553599489
+            "points": 1.1592023119369628
         }
     },
     "peakSeason": {
@@ -697,12 +708,12 @@
     "avgRacePositions": {
         "2024": 13.555555555555555,
         "2025": 15.823529411764707,
-        "2026": 12.8
+        "2026": 12.476190476190476
     },
     "avgQualiPositions": {
         "2024": 15.5,
         "2025": 16.235294117647058,
-        "2026": 13.3
+        "2026": 13.095238095238095
     },
     "rates": {
         "wins": {
@@ -723,13 +734,13 @@
         "DNFs": {
             "2024": 0.3333333333333333,
             "2025": 0.0,
-            "2026": 0.15
+            "2026": 0.14285714285714285
         }
     },
     "winRate": 0.0,
     "podiumRate": 0.0,
     "poleRate": 0.0,
-    "dnfRate": 0.13043478260869565,
+    "dnfRate": 0.1276595744680851,
     "ptwConRate": {
         "2024": -1,
         "2025": -1,
@@ -785,7 +796,8 @@
             "Singapore Grand Prix": -6,
             "United States Grand Prix": -1,
             "Mexico City Grand Prix": -4,
-            "Brazilian Grand Prix": 0
+            "Brazilian Grand Prix": 0,
+            "Las Vegas Grand Prix": 3
         }
     },
     "raceResults": {
@@ -1451,6 +1463,20 @@
                 "constructorId": "alpine",
                 "fastestLapRank": 7,
                 "shared": false
+            },
+            "21": {
+                "raceName": "Las Vegas Grand Prix",
+                "position": 6,
+                "positionText": "6",
+                "classified": true,
+                "grid": 9,
+                "points": 8.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "alpine",
+                "fastestLapRank": 5,
+                "shared": false
             }
         }
     },
@@ -1556,7 +1582,7 @@
     "seasonStarts": {
         "2024": 9,
         "2025": 17,
-        "2026": 20
+        "2026": 21
     },
-    "totalStarts": 46
+    "totalStarts": 47
 }

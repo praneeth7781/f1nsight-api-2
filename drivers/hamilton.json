@@ -2,7 +2,7 @@
     "driverId": "hamilton",
     "driverCode": "HAM",
     "driverNumber": "44",
-    "lastUpdate": "2026-11-09T20:49:19.938001",
+    "lastUpdate": "2026-11-22T17:52:44.694869",
     "totalWins": 106,
     "totalPodiums": 209,
     "totalPoles": 105,
@@ -1002,7 +1002,8 @@
             "Singapore Grand Prix": "1:36.922",
             "United States Grand Prix": "1:38.457",
             "Mexico City Grand Prix": "1:19.268",
-            "Brazilian Grand Prix": "1:13.724"
+            "Brazilian Grand Prix": "1:13.724",
+            "Las Vegas Grand Prix": "1:36.452"
         }
     },
     "finalStandings": {
@@ -1103,8 +1104,8 @@
         },
         "2026": {
             "year": "2026",
-            "position": "4",
-            "points": "261"
+            "position": "3",
+            "points": "267"
         }
     },
     "posAfterRace": {
@@ -2405,6 +2406,9 @@
                 },
                 "Brazilian Grand Prix": {
                     "points": 261.0
+                },
+                "Las Vegas Grand Prix": {
+                    "points": 267.0
                 }
             }
         }
@@ -2907,7 +2911,8 @@
                 "Singapore Grand Prix": "6",
                 "United States Grand Prix": "4",
                 "Mexico City Grand Prix": "2",
-                "Brazilian Grand Prix": "9"
+                "Brazilian Grand Prix": "9",
+                "Las Vegas Grand Prix": "7"
             }
         }
     },
@@ -3409,7 +3414,8 @@
                 "Singapore Grand Prix": "3",
                 "United States Grand Prix": "5",
                 "Mexico City Grand Prix": "1",
-                "Brazilian Grand Prix": "20"
+                "Brazilian Grand Prix": "20",
+                "Las Vegas Grand Prix": "11"
             }
         }
     },
@@ -5511,6 +5517,11 @@
                     "1:31.666",
                     "1:30.001",
                     "N/A"
+                ],
+                "Las Vegas Grand Prix": [
+                    "1:35.743",
+                    "1:35.253",
+                    "N/A"
                 ]
             }
         }
@@ -5520,19 +5531,19 @@
             "wins": 5.3,
             "podiums": 10.45,
             "poles": 5.25,
-            "points": 263.975
+            "points": 264.275
         },
         "std": {
             "wins": 4.196427051671457,
             "podiums": 5.162121656838398,
             "poles": 4.085033659592048,
-            "points": 110.02414223705634
+            "points": 110.02380140224206
         },
         "cv": {
             "wins": 0.7917786889946146,
             "podiums": 0.49398293366874624,
             "poles": 0.7781016494461044,
-            "points": 0.41679758400248634
+            "points": 0.4163231535417352
         }
     },
     "peakSeason": {
@@ -5569,7 +5580,7 @@
         "2023": 6.181818181818182,
         "2024": 6.958333333333333,
         "2025": 8.5,
-        "2026": 5.15
+        "2026": 5.238095238095238
     },
     "avgQualiPositions": {
         "2007": 2.588235294117647,
@@ -5591,7 +5602,7 @@
         "2023": 6.090909090909091,
         "2024": 8.391304347826088,
         "2025": 9.375,
-        "2026": 4.9
+        "2026": 5.190476190476191
     },
     "rates": {
         "wins": {
@@ -5614,7 +5625,7 @@
             "2023": 0.0,
             "2024": 0.08333333333333333,
             "2025": 0.0,
-            "2026": 0.05
+            "2026": 0.047619047619047616
         },
         "podiums": {
             "2007": 0.7058823529411765,
@@ -5636,7 +5647,7 @@
             "2023": 0.2727272727272727,
             "2024": 0.20833333333333334,
             "2025": 0.0,
-            "2026": 0.35
+            "2026": 0.3333333333333333
         },
         "poles": {
             "2007": 0.35294117647058826,
@@ -5658,7 +5669,7 @@
             "2023": 0.045454545454545456,
             "2024": 0.0,
             "2025": 0.0,
-            "2026": 0.05
+            "2026": 0.047619047619047616
         },
         "DNFs": {
             "2007": 0.058823529411764705,
@@ -5680,13 +5691,13 @@
             "2023": 0.045454545454545456,
             "2024": 0.08333333333333333,
             "2025": 0.08333333333333333,
-            "2026": 0.05
+            "2026": 0.047619047619047616
         }
     },
-    "winRate": 0.265,
-    "podiumRate": 0.5225,
-    "poleRate": 0.2625,
-    "dnfRate": 0.0875,
+    "winRate": 0.26433915211970077,
+    "podiumRate": 0.5211970074812967,
+    "poleRate": 0.26184538653366585,
+    "dnfRate": 0.08728179551122195,
     "ptwConRate": {
         "2007": 0.6666666666666666,
         "2008": 0.42857142857142855,
@@ -6147,7 +6158,8 @@
             "Singapore Grand Prix": -3,
             "United States Grand Prix": 1,
             "Mexico City Grand Prix": -1,
-            "Brazilian Grand Prix": 11
+            "Brazilian Grand Prix": 11,
+            "Las Vegas Grand Prix": 4
         }
     },
     "raceResults": {
@@ -11789,6 +11801,20 @@
                 "constructorId": "ferrari",
                 "fastestLapRank": 8,
                 "shared": false
+            },
+            "21": {
+                "raceName": "Las Vegas Grand Prix",
+                "position": 7,
+                "positionText": "7",
+                "classified": true,
+                "grid": 11,
+                "points": 6.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "ferrari",
+                "fastestLapRank": 10,
+                "shared": false
             }
         }
     },
@@ -12050,7 +12076,7 @@
         "2023": 22,
         "2024": 24,
         "2025": 24,
-        "2026": 20
+        "2026": 21
     },
-    "totalStarts": 400
+    "totalStarts": 401
 }

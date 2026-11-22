@@ -2,8 +2,8 @@
     "schemaVersion": 1,
     "dataThrough": {
         "season": 2026,
-        "round": 20,
-        "raceName": "Brazilian Grand Prix"
+        "round": 21,
+        "raceName": "Las Vegas Grand Prix"
     },
     "files": {
         "circuit": "circuits/{circuitId}.json",
@@ -17,38 +17,6 @@
         "missingTimes": "missingTimes lists races on a layout whose lap or pole time is missing from the race data; a record may be faster than shown until they are filled."
     },
     "circuits": [
-        {
-            "circuitId": "vegas",
-            "name": "Las Vegas Strip Circuit",
-            "shortName": "Las Vegas",
-            "location": {
-                "locality": "Las Vegas",
-                "country": "USA",
-                "lat": 36.1147,
-                "long": -115.173
-            },
-            "status": "current",
-            "hasGuide": true,
-            "lengthKm": 6.201,
-            "turns": 17,
-            "firstSeason": 2023,
-            "lastSeason": 2025,
-            "raceCount": 3,
-            "lastWinner": {
-                "driverId": "max_verstappen",
-                "name": "Max Verstappen",
-                "constructorId": "red_bull",
-                "constructor": "Red Bull",
-                "season": 2025
-            },
-            "nextRace": {
-                "season": 2026,
-                "round": 21,
-                "raceName": "Las Vegas Grand Prix",
-                "date": "2026-11-22",
-                "time": "04:00:00Z"
-            }
-        },
         {
             "circuitId": "losail",
             "name": "Lusail International Circuit",
@@ -448,6 +416,32 @@
                 "constructorId": "mclaren",
                 "constructor": "McLaren",
                 "season": 2025
+            },
+            "nextRace": null
+        },
+        {
+            "circuitId": "vegas",
+            "name": "Las Vegas Strip Circuit",
+            "shortName": "Las Vegas",
+            "location": {
+                "locality": "Las Vegas",
+                "country": "USA",
+                "lat": 36.1147,
+                "long": -115.173
+            },
+            "status": "current",
+            "hasGuide": true,
+            "lengthKm": 6.201,
+            "turns": 17,
+            "firstSeason": 2023,
+            "lastSeason": 2026,
+            "raceCount": 4,
+            "lastWinner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull",
+                "season": 2026
             },
             "nextRace": null
         },

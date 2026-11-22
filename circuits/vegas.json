@@ -14,35 +14,29 @@
     "status": "current",
     "hasGuide": true,
     "currentLayoutId": "2023",
-    "nextRace": {
-        "season": 2026,
-        "round": 21,
-        "raceName": "Las Vegas Grand Prix",
-        "date": "2026-11-22",
-        "time": "04:00:00Z"
-    },
+    "nextRace": null,
     "championship": {
         "firstSeason": 2023,
-        "lastSeason": 2025,
+        "lastSeason": 2026,
         "seasons": [
             [
                 2023,
-                2025
+                2026
             ]
         ],
-        "raceCount": 3,
+        "raceCount": 4,
         "lastWinner": {
             "driverId": "max_verstappen",
             "name": "Max Verstappen",
             "constructorId": "red_bull",
             "constructor": "Red Bull",
-            "season": 2025
+            "season": 2026
         },
         "mostWins": [
             {
                 "driverId": "max_verstappen",
                 "name": "Max Verstappen",
-                "count": 2
+                "count": 3
             },
             {
                 "driverId": "russell",
@@ -54,7 +48,7 @@
             {
                 "constructorId": "red_bull",
                 "constructor": "Red Bull",
-                "count": 2
+                "count": 3
             },
             {
                 "constructorId": "mercedes",
@@ -77,6 +71,11 @@
                 "driverId": "norris",
                 "name": "Lando Norris",
                 "count": 1
+            },
+            {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "count": 1
             }
         ]
     },
@@ -98,10 +97,10 @@
             "seasons": [
                 [
                     2023,
-                    2025
+                    2026
                 ]
             ],
-            "raceCount": 3,
+            "raceCount": 4,
             "raceLaps": 50,
             "lapRecord": {
                 "time": "1:33.365",
@@ -247,6 +246,25 @@
                 "driverId": "norris",
                 "name": "Lando Norris",
                 "constructorId": "mclaren"
+            },
+            "indy500": false
+        },
+        {
+            "season": 2026,
+            "round": 21,
+            "raceName": "Las Vegas Grand Prix",
+            "date": "2026-11-22",
+            "layoutId": "2023",
+            "winner": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull",
+                "constructor": "Red Bull"
+            },
+            "pole": {
+                "driverId": "max_verstappen",
+                "name": "Max Verstappen",
+                "constructorId": "red_bull"
             },
             "indy500": false
         }

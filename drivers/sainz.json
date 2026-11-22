@@ -2,7 +2,7 @@
     "driverId": "sainz",
     "driverCode": "SAI",
     "driverNumber": "55",
-    "lastUpdate": "2026-11-09T20:49:19.938001",
+    "lastUpdate": "2026-11-22T17:52:44.694869",
     "totalWins": 4,
     "totalPodiums": 29,
     "totalPoles": 6,
@@ -481,7 +481,8 @@
             "Singapore Grand Prix": "1:38.326",
             "United States Grand Prix": "1:40.353",
             "Mexico City Grand Prix": "1:21.339",
-            "Brazilian Grand Prix": "1:14.613"
+            "Brazilian Grand Prix": "1:14.613",
+            "Las Vegas Grand Prix": "1:36.716"
         }
     },
     "finalStandings": {
@@ -542,8 +543,8 @@
         },
         "2026": {
             "year": "2026",
-            "position": "18",
-            "points": "7"
+            "position": "16",
+            "points": "11"
         }
     },
     "posAfterRace": {
@@ -1363,6 +1364,9 @@
                 },
                 "Brazilian Grand Prix": {
                     "points": 7.0
+                },
+                "Las Vegas Grand Prix": {
+                    "points": 11.0
                 }
             }
         }
@@ -1677,7 +1681,8 @@
                 "Singapore Grand Prix": "14",
                 "United States Grand Prix": "18",
                 "Mexico City Grand Prix": "12",
-                "Brazilian Grand Prix": "19"
+                "Brazilian Grand Prix": "19",
+                "Las Vegas Grand Prix": "8"
             }
         }
     },
@@ -1991,7 +1996,8 @@
                 "Singapore Grand Prix": "13",
                 "United States Grand Prix": "16",
                 "Mexico City Grand Prix": "15",
-                "Brazilian Grand Prix": "12"
+                "Brazilian Grand Prix": "12",
+                "Las Vegas Grand Prix": "20"
             }
         }
     },
@@ -3303,6 +3309,11 @@
                     "1:32.959",
                     "1:31.785",
                     "N/A"
+                ],
+                "Las Vegas Grand Prix": [
+                    "1:35.588",
+                    "1:35.641",
+                    "N/A"
                 ]
             }
         }
@@ -3312,19 +3323,19 @@
             "wins": 0.3333333333333333,
             "podiums": 2.4166666666666665,
             "poles": 0.5,
-            "points": 111.95833333333333
+            "points": 112.29166666666667
         },
         "std": {
             "wins": 0.6236095644623235,
             "podiums": 3.200477394945253,
             "poles": 0.9574271077563381,
-            "points": 88.41720664302598
+            "points": 88.02756631053454
         },
         "cv": {
             "wins": 1.8708286933869707,
             "podiums": 1.3243354737704496,
             "poles": 1.9148542155126762,
-            "points": 0.7897331445599641
+            "points": 0.783918957867469
         }
     },
     "peakSeason": {
@@ -3353,7 +3364,7 @@
         "2023": 6.904761904761905,
         "2024": 5.695652173913044,
         "2025": 11.826086956521738,
-        "2026": 14.7
+        "2026": 14.380952380952381
     },
     "avgQualiPositions": {
         "2015": 11.944444444444445,
@@ -3367,7 +3378,7 @@
         "2023": 5.476190476190476,
         "2024": 5.045454545454546,
         "2025": 10.826086956521738,
-        "2026": 15.55
+        "2026": 15.761904761904763
     },
     "rates": {
         "wins": {
@@ -3424,13 +3435,13 @@
             "2023": 0.09523809523809523,
             "2024": 0.13043478260869565,
             "2025": 0.17391304347826086,
-            "2026": 0.15
+            "2026": 0.14285714285714285
         }
     },
-    "winRate": 0.01606425702811245,
-    "podiumRate": 0.11646586345381527,
-    "poleRate": 0.024096385542168676,
-    "dnfRate": 0.18072289156626506,
+    "winRate": 0.016,
+    "podiumRate": 0.116,
+    "poleRate": 0.024,
+    "dnfRate": 0.18,
     "ptwConRate": {
         "2015": -1,
         "2016": -1,
@@ -3715,7 +3726,8 @@
             "Singapore Grand Prix": -1,
             "United States Grand Prix": -2,
             "Mexico City Grand Prix": 3,
-            "Brazilian Grand Prix": -7
+            "Brazilian Grand Prix": -7,
+            "Las Vegas Grand Prix": 12
         }
     },
     "raceResults": {
@@ -7269,6 +7281,20 @@
                 "constructorId": "williams",
                 "fastestLapRank": 17,
                 "shared": false
+            },
+            "21": {
+                "raceName": "Las Vegas Grand Prix",
+                "position": 8,
+                "positionText": "8",
+                "classified": true,
+                "grid": 20,
+                "points": 4.0,
+                "status": "Finished",
+                "outcome": "finished",
+                "cause": null,
+                "constructorId": "williams",
+                "fastestLapRank": 12,
+                "shared": false
             }
         }
     },
@@ -7514,7 +7540,7 @@
         "2023": 21,
         "2024": 23,
         "2025": 23,
-        "2026": 20
+        "2026": 21
     },
-    "totalStarts": 249
+    "totalStarts": 250
 }
